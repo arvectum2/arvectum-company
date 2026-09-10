@@ -5,7 +5,7 @@
 Создано: `2026-08-19`
 Обновлено: `2026-09-01`
 Владелец: `ООО «Арвектум»`
-Репозиторий: `arvectum1/arvectum-company`
+Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
 Текущее M6-действие: `AC-607 — Value, Owner-workload, module-reuse and risk review — NEXT`
