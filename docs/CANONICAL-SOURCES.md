@@ -1,22 +1,24 @@
 # Реестр канонических источников Arvectum Company
 
 Статус: `Active`
-Версия: `3.12.0`
-Обновлено: `2026-08-22`
+Версия: `3.13.0`
+Обновлено: `2026-09-14`
 Владелец: `ООО «Арвектум»`
-Репозиторий: `arvectum/arvectum-company`
+Репозиторий: `arvectum2/arvectum-company`
 
 ## 1. Модель публикации
 
-Эта редакция сохраняет полный реестр `3.11.0` по immutable git blob и регистрирует attributable Owner decision, Approved publication AC-507 и roadmap `0.44.0`.
+Эта редакция сохраняет полный реестр `3.12.0` по immutable git blob и синхронизирует реестр с текущим canonical repository state, включая roadmap `0.57.0` и bounded POS-004 Roadmap Executor AM-4 authorization.
 
 Предыдущая редакция:
 
-- версия: `3.11.0`;
+- версия: `3.12.0`;
 - путь: `docs/CANONICAL-SOURCES.md`;
-- immutable git blob SHA: `c2aebec21da0ee26c6819e073d62155820c38b99`.
+- immutable git blob SHA: `e650d6245e91416b9b0c82ce3a4d3327bbefa29a`.
 
 Полное содержание предыдущего реестра сохраняется, если прямо не изменено более новым approved artifact, attributable decision или этой source-registry publication в пределах её роли.
+
+Artifacts approved/accepted after the previous registry publication remain authoritative by their own status and repository provenance even if the previous registry navigation lagged behind them. This publication repairs that navigation lag; it does not retroactively create their authority.
 
 ## 2. Порядок приоритета источников
 
@@ -30,102 +32,119 @@
 6. roadmap как planning source, не источник authority;
 7. chat/model memory/local/generated materials как context/evidence до explicit promotion.
 
+Technical permission, credentials, automation configuration or repository policy do not create Company Organizational Authority.
+
 ## 3. Действующая дорожная карта
 
-- `docs/roadmap/ROADMAP.md` — `Active 0.44.0`;
-- immutable blob SHA: `7da19f28a1363f25205cde3207e8fa52c48a1aa5`.
-
-Current M5 state:
-
-- `AC-505` — `Current / external evidence wait`;
-- `AC-506` — `Complete / PASS`;
-- `AC-507` — `Complete / PASS — CONTINUE WITH CHANGE / bounded evidence phase`;
-- `M5` — `Current`.
-
-## 4. AC-507 authoritative decision
-
-Owner decision:
-
-- path: `docs/governance/decisions/DECISION-2026-08-22-AC-507-APPROVAL.md`;
-- explicit wording: `AC-507: CONTINUE WITH CHANGE — bounded evidence phase — утверждаю`;
-- attributable time: `2026-08-22T11:10:00+03:00`;
-- authority: `Owner / ROD-04`;
-- ROD-02 remains applicable to any later material capital/spend.
-
-Approved publication:
-
-- `docs/business/AC-507-BUSINESS-VALUE-ECONOMIC-REVIEW-v1.0.0.md`;
-- status: `Approved 1.0.0`.
-
-Reviewed proposal:
-
-- `docs/business/AC-507-BUSINESS-VALUE-ECONOMIC-REVIEW.md`;
-- `Proposed 0.9.0`;
-- blob `fa25d369a604b3f8a0989e2250ff742f347690ed`.
-
-Cross-review:
-
-- `docs/reviews/AC-507-BUSINESS-VALUE-ECONOMIC-REVIEW-CROSS-REVIEW.md`;
-- `10 of 10`;
-- `PASS for Owner decision gate`;
-- blob `425b7147c5fca2f63d995cbf0c5269b91083d01e`.
-
-## 5. Approved AC-507 direction
-
-The Company continues `WF-M5-001` in a bounded evidence phase.
-
-The approved direction preserves current fail-closed, authority, customer, data/access and OS boundaries while prioritizing stronger empirical evidence and lightweight measurement of Owner/engineering burden.
-
-No CRM/workflow-service/database/platform construction, cross-product generalization, AM-3/AM-4 or new OS reliance is authorized by implication.
-
-## 6. Economic evidence boundary
-
-AC-507 does not establish profitability, revenue/margin uplift, reduced total delivery cost, customer-satisfaction improvement or quantified engineering savings.
-
-Owner minutes, engineering effort, per-case tool/runtime cost, customer cycle-time effect and commercial outcome remain insufficiently measured.
-
-Unknown does not mean zero.
-
-The next qualifying real case should capture lightweight measurements where practical rather than create heavy administrative overhead.
-
-## 7. AC-505 remains authoritative external-evidence gate
-
-Real case:
-
-`WF-M5-001-20260821-AC505001`.
+- path: `docs/roadmap/ROADMAP.md`;
+- status/version: `Active 0.57.0`;
+- immutable blob SHA: `4ff76e168e8d1d0c797b0d0c9422664a0c4a38fa`.
 
 Current state:
 
-`CL-3 → W11 / unknown`.
+- `M5` — `Current`;
+- `AC-505` — `Current / external evidence wait`;
+- `M6` — `Current`;
+- `AC-607` — `NEXT — Value, Owner-workload, module-reuse and risk review`.
 
-No POS-004 correction or customer acceptance is inferred.
+The Roadmap Executor governance change does not reorder M5/M6 work and does not itself prove customer acceptance, economic success or M6 closure.
 
-The existing case may progress only on new/recovered authoritative evidence; another qualifying real customer case may also be selected within existing scope/authority/data boundaries.
+## 4. Governing authority model
 
-## 8. AC-506 remains binding bounded evidence
+Reserved Owner Decisions:
 
-AC-506 remains `Complete / PASS` with narrow CE results for W11 recovery mechanics, case-state/manual fallback and helper/process portability.
+- path: `docs/governance/RESERVED-OWNER-DECISIONS-v1.0.0.md`;
+- status: `Approved 1.0.0`;
+- blob: `20cedb35fa7787c2990f2e56ed0c668c221673d8`.
 
-It does not prove Company-wide DR, actual POS-004 AI model/runtime swap, Owner-independent continuity or credential/signing/provider/customer-system recovery.
+Delegated Position Authority Model:
 
-## 9. Arvectum OS boundary
+- path: `docs/governance/DELEGATED-POSITION-AUTHORITY-MODEL-v1.0.0.md`;
+- status: `Approved 1.0.0`;
+- blob: `8e5756ebf81efbb18e161d47e7f9d5d333f5311a`.
 
-AC-503 remains:
+AC-202 `ROD-01` through `ROD-09` remain the hard negative boundary. AC-203 permits AM-4 only through an explicit bounded delegation record; AM-4 is not inferred from technical capability or AI assignment.
 
-`NO-ADDITIONAL-OS-RELIANCE` for the first M5 proof.
+## 5. POS-004 Roadmap Executor AM-4 Owner decision
 
-AC-507 approval creates no Product Contract, Platform Capability lifecycle transition, OS repository commitment or platform funding claim.
+Owner decision:
 
-## 10. Milestone boundary
+- path: `docs/governance/decisions/DECISION-2026-09-14-POS-004-ROADMAP-EXECUTOR-AM4.md`;
+- status: `Approved`;
+- decision class: `ROD-05 Material Delegation`;
+- blob: `70e6793d11abc7e5222a9280ec48f0304b44d948`.
 
-`AC-507 — Complete / PASS` does **not** close M5.
+Attributable Owner instruction promoted by the decision record:
 
-`M5 — Current` remains open until the combined real-operation/customer/economic evidence set is sufficient under roadmap `0.44.0`.
+`давай доделаем`
 
-No M6 admission follows automatically from AC-507 approval.
+The instruction was given in direct response to the specific proposal to finish the Company-governance reconciliation by activating a narrow POS-004 AM-4 envelope for roadmap-driven repository work while retaining Owner/legal/Product/release/production/financial/external-effect gates.
+
+## 6. Concrete Assignment authorization
+
+Approved Assignment:
+
+- path: `docs/organization/POS-004-ROADMAP-EXECUTOR-AM4-AUTHORIZATION-v1.0.0.md`;
+- status/version: `Approved 1.0.0`;
+- Assignment ID: `ASG-POS004-ROADMAP-EXECUTOR-2026-09-14`;
+- Position: `POS-004 — Engineering & Release Lead`;
+- Principal: `AI-ENG-001`;
+- authority mode: `AM-4 — Pre-Authorized Automatic Execution`;
+- blob: `68f8ee4291bb59546879ce1a85913d89c3747977`.
+
+This is a prospective narrow Assignment amendment. It does not rewrite the historical AC-205 baseline or AC-603 through AC-606 pilot evidence.
+
+## 7. Automatic merge boundary
+
+The concrete Assignment permits automatic repository merge only when every approved gate is satisfied, including:
+
+- task traceable to a canonical admitted source;
+- repository queue explicitly declares `auto_merge: true`;
+- dependencies satisfied;
+- exact-head required CI/rulesets green;
+- no unresolved required review/change request;
+- no OWNER/HUMAN/REVIEW/reserved boundary entered;
+- scope/data/dependency boundaries preserved;
+- merge reasonably reversible;
+- no release, package publication, deployment, production mutation, signing, procurement action, external communication, paid commitment or other prohibited external effect;
+- Company AM-4 authorization still valid and not at an unreviewed mandatory review gate.
+
+Product repository policies may operationalize these rules but cannot expand Company authority.
+
+## 8. Hard stops preserved
+
+No authority is created for:
+
+- any `ROD-01` through `ROD-09` final decision;
+- new capital/spend/vendor commitments;
+- contracts/legal approval/material risk acceptance;
+- new releases, immutable-tag movement or production deployment;
+- company/Owner signing credentials, ЭП/УКЭП/private keys;
+- EIS/ETP/procurement submission or supplier/customer/regulator communication;
+- Company↔Product↔Arvectum OS authority changes;
+- unauthorized secrets/private corporate/customer data access;
+- benchmark truth/comparator/normalizer retuning after SUT output;
+- fabricated approval/evidence.
+
+## 9. Review and expiry behavior
+
+Mandatory Owner review of this AM-4 delegation is due at the earliest of:
+
+1. `2026-10-14`;
+2. ten automatic merges under the authorization;
+3. any material security/legal/benchmark-integrity/release/production/authority incident;
+4. a material change to executor policy, authority model, Product boundary, repository protection or technical access used for automatic merge.
+
+Without attributable renewal after the review gate, automatic merge fails closed to `REVIEW`; independently authorized preparation/testing/PR work may continue.
+
+## 10. Historical M6 evidence boundary
+
+AC-603 through AC-606 remain historical evidence of the earlier pilot contour in which AM-4 was inactive and `READY_FOR_OWNER` was terminal.
+
+The 2026-09-14 authorization is prospective only. It must not be used to rewrite, rescore or reinterpret the earlier proofs as having had automatic merge/failover authority.
 
 ## 11. Public repository boundary
 
 The public Company repository must not contain secrets, reusable credentials, private keys/signatures, unnecessary PII, bank/payment payloads, transaction exports, confidential exact cash balances, non-public customer/vendor/contract materials, sensitive tax/accounting documents, privileged payment/fraud/incident/security details or chain-of-thought.
 
-AC-507 artifacts use public-safe evidence only.
+The AM-4 authorization does not weaken this boundary.
