@@ -1,9 +1,9 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.56.0`
+Версия: `0.57.0`
 Создано: `2026-08-19`
-Обновлено: `2026-09-01`
+Обновлено: `2026-09-14`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
@@ -12,95 +12,27 @@
 
 ## 1. Модель публикации
 
-Эта редакция `0.56.0` сохраняет полное содержание дорожной карты `0.55.0` по immutable git blob и фиксирует завершение `AC-606`.
+Эта редакция `0.57.0` сохраняет полное содержание дорожной карты `0.56.0` по immutable git blob и фиксирует новую prospective governance boundary для bounded POS-004 Roadmap Executor AM-4.
 
 Предыдущая редакция:
 
-- версия: `0.55.0`;
+- версия: `0.56.0`;
 - путь: `docs/roadmap/ROADMAP.md`;
-- immutable git blob SHA: `81f83269f333ca490daaa056df80f50d300dc39e`.
+- immutable git blob SHA: `7a3c2c426ef69c2abe2c0cdd998aa28fcb9b3fbf`.
 
-Все не изменённые ниже решения, границы, master-index M0–M9, M5/AC-505 state, Tender Agent E2E acceptance, AC-601…AC-605 evidence, Company/Product/Arvectum OS boundaries и authority semantics сохраняются по этой immutable reference.
+Все не изменённые ниже решения, master-index M0–M9, M5/AC-505 state, M6/AC-601…AC-607 evidence, Tender Agent E2E acceptance, Company/Product/Arvectum OS boundaries и authority semantics сохраняются по этой immutable reference.
 
-## 2. AC-606 — Complete / PASS
+## 2. M5 current state — unchanged
 
-Work item:
+`M5 — First real governed Company operating contour proven` remains `Current`.
 
-`AC-606 — Human/software fallback and executor-replacement proof`
+`AC-505` remains `Current / external evidence wait` until actual external/customer evidence exists. M5 evidence must not be fabricated from M6/Product runtime evidence.
 
-Canonical PR:
+No new customer acceptance, revenue, profitability or real external outcome is created by the Roadmap Executor authorization.
 
-`arvectum1/arvectum-company#5`
+## 3. M6 current state — unchanged
 
-Accepted final PR head:
-
-`facfa9bd93ae5674f1c23cbd95acdb876c744f92`
-
-Canonical merge commit:
-
-`fe8fca259794eef9af640e4b1baa66f8be3946f7`
-
-Durable evidence:
-
-`docs/operations/AC-606-AI-ENG-001-CONTINUITY-FALLBACK-EXECUTOR-REPLACEMENT.md`
-
-Repository-owned implementation:
-
-- `ai_workforce/ai_eng_001/continuity_probe.py`;
-- `tests/test_ai_eng_001_continuity.py`;
-- explicit AC-606 step in `.github/workflows/ai-eng-001-ci.yml`.
-
-## 3. Continuity proof result
-
-Accepted recovery sequence:
-
-`primary executor failure → BLOCKED → explicit Owner/human recovery decision → replacement executor → attributable bounded-task resubmission → READY_FOR_OWNER`
-
-The proof deliberately does not implement automatic failover.
-
-Accepted CI/probe evidence:
-
-- implementation/probe head: `6846fe682adbfc50c4e405e44091ff3ac0c8e7f0`;
-- `AI-ENG-001 CI` run `#13`: `SUCCESS`;
-- compile: PASS;
-- unit/integration suite: `17 tests / PASS`;
-- explicit continuity marker: `AC606_CONTINUITY_PROBE_PASS`;
-- shell syntax checks: PASS.
-
-Observed continuity invariants:
-
-- Principal remains `AI-ENG-001`;
-- Position remains `POS-004`;
-- primary executor fails closed as `BLOCKED / executor_nonzero_exit`;
-- primary produces no promotable changes;
-- replacement executor reaches `READY_FOR_OWNER` only after explicit recovery/resubmission boundary;
-- task contract is preserved except for the new attributable task ID;
-- replacement changes only the declared allowed path;
-- baseline SHA is preserved;
-- source HEAD and source cleanliness are preserved across both attempts;
-- replacement worktree remains uncommitted;
-- `automatic_failover=false`;
-- `authority_expanded=false`;
-- no automatic approval, commit, push, merge, release or deploy occurs.
-
-## 4. What AC-606 proves — and what it does not
-
-AC-606 proves that the governed Position/Principal contract survives a coding-executor failure and explicit software replacement without silently transferring or enlarging authority.
-
-The human fallback is an explicit decision boundary. After a failed executor, the Owner may select a replacement executor, defer the task, or perform it outside the AI Position process under normal human authority. No automatic repair/retry is treated as Owner approval.
-
-AC-606 does **not** prove:
-
-- equal engineering quality across every model/vendor/tool;
-- unattended automatic failover;
-- autonomous commit/push/merge/release/deploy;
-- AM-3 or AM-4 authority;
-- customer/business acceptance;
-- economic success of M6 by itself.
-
-## 5. M6 current status
-
-`M6 — First real AI-held Position proven economically and operationally` is now:
+`M6 — First real AI-held Position proven economically and operationally` remains:
 
 **`Current / execution, substantive Product value, and continuity mechanics proven; final value/economic review remains`.**
 
@@ -112,32 +44,94 @@ AC-606 does **not** prove:
 | `AC-604` | Quality/evaluation, cost and risk gates | `Complete / PASS — pilot gates` |
 | `AC-605` | Supervised AI Position pilot | `Complete / PASS — real Product task, zero Owner execution interventions after enqueue` |
 | `AC-606` | Human/software fallback and executor-replacement proof | `Complete / PASS — continuity mechanics proven` |
-| `AC-607` | Value, Owner-workload, module-reuse and risk review | `NEXT — evidence set now sufficient for final M6 review` |
+| `AC-607` | Value, Owner-workload, module-reuse and risk review | `NEXT — evidence set sufficient for final M6 review` |
 
-## 6. Exact next step — AC-607
+The exact next M6 step remains `AC-607`.
 
-Execute `AC-607` now using the accumulated evidence set rather than adding another runtime proof merely for volume.
+## 4. Historical M6 pilot authority remains valid as evidence
 
-The review must evaluate at minimum:
+The AC-603 through AC-606 pilot evidence remains historically unchanged:
 
-1. Owner workload actually removed versus work shifted into setup/supervision/recovery;
-2. execution quality and fail-closed behavior across positive and negative runs;
-3. known/unknown cost evidence — missing provider cost must remain `unknown`, never be rewritten as zero;
-4. continuity and executor-replacement evidence from AC-606;
-5. reuse value of the AI-ENG runtime across Product modules rather than one Tender Agent case;
-6. operational and authority risks that remain;
-7. whether M6 can be closed as PASS, requires another bounded evidence item, or should remain open with explicit conditions.
+`primary executor failure → BLOCKED → explicit Owner/human recovery decision → replacement executor → attributable bounded-task resubmission → READY_FOR_OWNER`
 
-AC-607 must count bootstrap/setup effort and repeated debugging honestly. The successful Tender Agent Mac mini E2E and zero-intervention execution evidence are positive inputs, not permission to omit costs or supervision burden.
+For those recorded proofs:
 
-## 7. Parallel M5 state
+- `AM-3` and `AM-4` were inactive;
+- `READY_FOR_OWNER` was the terminal autonomous promotion state;
+- no automatic commit/push/merge/release/deploy was authorized or used;
+- automatic failover was not implemented;
+- the continuity proof remains valid and must not be retroactively rewritten.
 
-`M5 — First real governed Company operating contour proven` remains `Current`.
+The new authorization below is prospective and does not alter AC-605/AC-606 evidence.
 
-`AC-505` remains `Current / external evidence wait` until actual external/customer evidence exists. M5 evidence must not be fabricated from M6/Product runtime evidence.
+## 5. 2026-09-14 POS-004 Roadmap Executor authority change
 
-## 8. Authority boundary remains unchanged
+The Owner has approved a narrow prospective `AM-4 — Pre-Authorized Automatic Execution` envelope for one concrete POS-004 assignment:
 
-AC-606 does not activate AM-3/AM-4 and does not grant autonomous authority to commit, push, merge, release, deploy, change Product Owner decisions, mutate accepted evidence, submit procurement applications, contact suppliers/customers, log into ETP, use digital signatures, bypass captcha, create external business effects, expand scope or spend money outside the existing governed authority path.
+`ASG-POS004-ROADMAP-EXECUTOR-2026-09-14`.
 
-`READY_FOR_OWNER` remains the terminal autonomous promotion state for this pilot contour.
+Canonical authority sources:
+
+- Owner decision: `docs/governance/decisions/DECISION-2026-09-14-POS-004-ROADMAP-EXECUTOR-AM4.md`;
+- Assignment authorization: `docs/organization/POS-004-ROADMAP-EXECUTOR-AM4-AUTHORIZATION-v1.0.0.md`;
+- governing authority model: `docs/governance/DELEGATED-POSITION-AUTHORITY-MODEL-v1.0.0.md`;
+- negative boundary: `docs/governance/RESERVED-OWNER-DECISIONS-v1.0.0.md`.
+
+This change supersedes AC-205/AC-603 `AM-4 inactive` wording only for the new bounded Roadmap Executor assignment. It does not create general AM-4 authority for POS-004 or any other Position.
+
+## 6. Roadmap Executor permitted contour
+
+Within an already-admitted task, the Roadmap Executor may automatically perform reversible repository work, including branch/worktree creation, bounded edits, tests, CI/evidence, commits/pushes to task branches, pull-request creation/update and checkpoint/issue updates.
+
+Automatic merge is permitted only when the applicable repository queue explicitly declares `auto_merge: true` and every condition in the approved Assignment is satisfied, including exact-head green CI/rulesets, absence of unresolved required review, no reserved/human/review gate, scope preservation, reversibility and no prohibited external effect.
+
+The executor may skip a blocked HUMAN/OWNER/REVIEW item only to continue a later independent eligible item. It may not reorder the canonical queue, invent a new priority, broaden authority, rewrite acceptance criteria or treat technical completion as approval.
+
+## 7. Hard stop remains in force
+
+The Roadmap Executor authorization does not permit:
+
+- any `ROD-01` through `ROD-09` final decision;
+- new portfolio/product priorities or scope expansion;
+- incremental external spend, paid commitments, banking, guarantees or purchasing;
+- contracts, legal approval, material risk acceptance or sovereignty exceptions;
+- releases, release-asset replacement, immutable tag movement, package publication, production deployment or production mutation without a separate exact authority source;
+- signing with Owner/company keys, ЭП/УКЭП or other privileged signing identities;
+- procurement submission/modification, EIS/ETP execution, supplier/customer/regulator communication or procurement-participation decisions;
+- secrets/private keys/private corporate evidence/customer data outside an approved task boundary;
+- Company↔Product↔Arvectum OS authority changes or hidden cross-repository commitments;
+- benchmark-truth/comparator/normalizer changes after SUT output to improve a score;
+- fabricated human, Owner, Product Owner, customer, legal, physical-host or evaluator approval.
+
+Product-specific governance, branch protection/rulesets and Arvectum OS contracts remain independent controlling gates where applicable.
+
+## 8. Review gate for AM-4
+
+The bounded AM-4 authorization requires Owner review at the earliest of:
+
+1. `2026-10-14`;
+2. ten automatic merges under the authorization;
+3. any material security/legal/benchmark-integrity/release/production/authority incident;
+4. a material change to executor policy, authority model, Product boundary, repository protection or technical access used for automatic merge.
+
+If the review gate is reached without attributable Owner renewal, automatic merge must fail closed to `REVIEW`; preparation/testing/branch/PR work may continue where independently authorized.
+
+## 9. Exact next Company work
+
+The authority change does not reorder the Company roadmap.
+
+Continue:
+
+- `AC-607` as the next M6 work item;
+- `AC-505` only when real external/customer evidence changes;
+- Product/repository Roadmap Executors only within their own canonical task queues and the approved POS-004 AM-4 envelope.
+
+AC-607 must still evaluate Owner workload removed versus setup/supervision, quality/fail-closed behavior, known/unknown cost evidence, continuity, module reuse and remaining operational/authority risk. The existence of AM-4 is itself new governance evidence for AC-607, not proof of economic success.
+
+## 10. Business and governance interpretation
+
+This change is intended to remove low-risk Owner bottleneck from repeatable engineering execution without transferring residual Company authority to AI/software.
+
+`Position → Principal → Assignment → Runtime → Governed Execution` remains controlling.
+
+AI/software remain execution means, not sources of Organizational Authority. Technical PASS still does not prove business readiness, profitability, legal compliance, production readiness or customer acceptance.
