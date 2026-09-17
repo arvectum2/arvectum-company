@@ -1,24 +1,24 @@
 # Реестр канонических источников Arvectum Company
 
 Статус: `Active`
-Версия: `3.13.0`
-Обновлено: `2026-09-14`
+Версия: `3.14.0`
+Обновлено: `2026-09-17`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 ## 1. Модель публикации
 
-Эта редакция сохраняет полный реестр `3.12.0` по immutable git blob и синхронизирует реестр с текущим canonical repository state, включая roadmap `0.57.0` и bounded POS-004 Roadmap Executor AM-4 authorization.
+Эта редакция сохраняет полный реестр `3.13.0` по immutable git blob и регистрирует Owner-directed отдельный product-discovery node `PORT-008 — Arvectum Work` без изменения существующей Company roadmap очередности.
 
 Предыдущая редакция:
 
-- версия: `3.12.0`;
+- версия: `3.13.0`;
 - путь: `docs/CANONICAL-SOURCES.md`;
-- immutable git blob SHA: `e650d6245e91416b9b0c82ce3a4d3327bbefa29a`.
+- immutable git blob SHA: `d73c4219a25210271f0ee3b1ee95cce04903c8fa`.
 
 Полное содержание предыдущего реестра сохраняется, если прямо не изменено более новым approved artifact, attributable decision или этой source-registry publication в пределах её роли.
 
-Artifacts approved/accepted after the previous registry publication remain authoritative by their own status and repository provenance even if the previous registry navigation lagged behind them. This publication repairs that navigation lag; it does not retroactively create their authority.
+Artifacts approved/accepted after the previous registry publication remain authoritative by their own status and repository provenance even if registry navigation lagged behind them. This publication repairs navigation; it does not create authority retroactively.
 
 ## 2. Порядок приоритета источников
 
@@ -47,7 +47,7 @@ Current state:
 - `M6` — `Current`;
 - `AC-607` — `NEXT — Value, Owner-workload, module-reuse and risk review`.
 
-The Roadmap Executor governance change does not reorder M5/M6 work and does not itself prove customer acceptance, economic success or M6 closure.
+Arvectum Work initiation does not reorder M5/M6 work and does not itself prove customer acceptance, economic success or M6 closure.
 
 ## 4. Governing authority model
 
@@ -72,13 +72,9 @@ Owner decision:
 - path: `docs/governance/decisions/DECISION-2026-09-14-POS-004-ROADMAP-EXECUTOR-AM4.md`;
 - status: `Approved`;
 - decision class: `ROD-05 Material Delegation`;
-- blob: `70e6793d11abc7e5222a9280ec48f0304b44d948`.
+- blob in prior registry: `70e6793d11abc7e5222a9280ec48f0304b44d948`.
 
-Attributable Owner instruction promoted by the decision record:
-
-`давай доделаем`
-
-The instruction was given in direct response to the specific proposal to finish the Company-governance reconciliation by activating a narrow POS-004 AM-4 envelope for roadmap-driven repository work while retaining Owner/legal/Product/release/production/financial/external-effect gates.
+The bounded AM-4 authorization does not permit automatic integration of a change that enters a reserved Owner boundary such as ROD-04/ROD-09.
 
 ## 6. Concrete Assignment authorization
 
@@ -90,9 +86,9 @@ Approved Assignment:
 - Position: `POS-004 — Engineering & Release Lead`;
 - Principal: `AI-ENG-001`;
 - authority mode: `AM-4 — Pre-Authorized Automatic Execution`;
-- blob: `68f8ee4291bb59546879ce1a85913d89c3747977`.
+- blob in prior registry: `68f8ee4291bb59546879ce1a85913d89c3747977`.
 
-This is a prospective narrow Assignment amendment. It does not rewrite the historical AC-205 baseline or AC-603 through AC-606 pilot evidence.
+This remains a prospective narrow Assignment amendment. It does not rewrite the historical AC-205 baseline or AC-603 through AC-606 pilot evidence.
 
 ## 7. Automatic merge boundary
 
@@ -128,23 +124,68 @@ No authority is created for:
 
 ## 9. Review and expiry behavior
 
-Mandatory Owner review of this AM-4 delegation is due at the earliest of:
+Mandatory Owner review of the POS-004 AM-4 delegation is due under its currently approved decision/renewal terms. Arvectum Work initiation does not amend that review gate.
 
-1. `2026-10-14`;
-2. ten automatic merges under the authorization;
-3. any material security/legal/benchmark-integrity/release/production/authority incident;
-4. a material change to executor policy, authority model, Product boundary, repository protection or technical access used for automatic merge.
-
-Without attributable renewal after the review gate, automatic merge fails closed to `REVIEW`; independently authorized preparation/testing/PR work may continue.
+Without attributable renewal after the applicable review gate, automatic merge fails closed to `REVIEW`; independently authorized preparation/testing/PR work may continue.
 
 ## 10. Historical M6 evidence boundary
 
 AC-603 through AC-606 remain historical evidence of the earlier pilot contour in which AM-4 was inactive and `READY_FOR_OWNER` was terminal.
 
-The 2026-09-14 authorization is prospective only. It must not be used to rewrite, rescore or reinterpret the earlier proofs as having had automatic merge/failover authority.
+Later AM-4 authorization/renewal is prospective only. It must not be used to rewrite, rescore or reinterpret earlier proofs.
 
-## 11. Public repository boundary
+## 11. Arvectum Work portfolio initiation
+
+Owner decision:
+
+- path: `docs/governance/decisions/DECISION-2026-09-17-ARVECTUM-WORK-INITIATION.md`;
+- status: `Approved / pending repository integration`;
+- decision classes: `ROD-04 + ROD-09`;
+- canonical product repository: `arvectum2/arvectum-work`.
+
+Company portfolio footprint:
+
+- path: `docs/portfolio/ARVECTUM-WORK-PORTFOLIO-FOOTPRINT.md`;
+- node: `PORT-008`;
+- disposition: `discover`;
+- accountable Position: `POS-003 — Portfolio & Product Lead`.
+
+Portfolio map proposal:
+
+- `docs/portfolio/PORTFOLIO.md` — proposed `0.9.0` on the initiation branch;
+- adds PORT-008 without changing the existing A/B/C/D portfolio decision order;
+- records no current mandatory Arvectum Work→Arvectum OS dependency.
+
+Company cross-review:
+
+- `docs/reviews/ARVECTUM-WORK-INITIATION-CROSS-REVIEW.md`;
+- result: `PASS for Owner-directed repository integration`.
+
+Product-specific canonical proposal set lives in `arvectum2/arvectum-work`; Company does not duplicate Job/Assignment/Execution/Result/Evidence/Acceptance/Settlement semantics.
+
+Former Company draft PR `#3 — AX-000: start Arvectum Exchange hypothesis discovery` is superseded and must not be treated as the product canonical baseline.
+
+## 12. Arvectum Work investment boundary
+
+Current Company posture:
+
+`PORT-008 — DISCOVER / bounded / evidence before material build`.
+
+The Owner-directed initiation does not by itself authorize:
+
+- new incremental external spend;
+- public marketplace launch;
+- payment-provider commitments or custody/escrow;
+- crypto settlement;
+- material commercial/legal commitments outside existing authority;
+- production procurement integrations/submissions;
+- generic 44-FZ/223-FZ applicability/compliance claims;
+- new Arvectum OS Product Contract/Platform Capability.
+
+The next material Company gate specific to Work is `AW-060 — Go / Pivot / Stop`, unless an earlier action enters another Reserved Owner Decision class.
+
+## 13. Public repository boundary
 
 The public Company repository must not contain secrets, reusable credentials, private keys/signatures, unnecessary PII, bank/payment payloads, transaction exports, confidential exact cash balances, non-public customer/vendor/contract materials, sensitive tax/accounting documents, privileged payment/fraud/incident/security details or chain-of-thought.
 
-The AM-4 authorization does not weaken this boundary.
+The Arvectum Work initiation does not weaken this boundary.
