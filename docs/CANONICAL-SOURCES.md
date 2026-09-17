@@ -8,7 +8,7 @@
 
 ## 1. Модель публикации
 
-Эта редакция сохраняет полный реестр `3.13.0` по immutable git blob и регистрирует Owner-directed отдельный product-discovery node `PORT-008 — Arvectum Work` без изменения существующей Company roadmap очередности.
+Эта редакция сохраняет полный реестр `3.13.0` по immutable git blob, учитывает уже действующий Owner renewal POS-004 / AI-ENG-001 AM-4 от `2026-09-16` и регистрирует Owner-directed отдельный product-discovery node `PORT-008 — Arvectum Work` без изменения существующей Company roadmap очередности.
 
 Предыдущая редакция:
 
@@ -65,16 +65,23 @@ Delegated Position Authority Model:
 
 AC-202 `ROD-01` through `ROD-09` remain the hard negative boundary. AC-203 permits AM-4 only through an explicit bounded delegation record; AM-4 is not inferred from technical capability or AI assignment.
 
-## 5. POS-004 Roadmap Executor AM-4 Owner decision
+## 5. POS-004 Roadmap Executor AM-4 baseline and renewal
 
-Owner decision:
+Original Owner decision:
 
 - path: `docs/governance/decisions/DECISION-2026-09-14-POS-004-ROADMAP-EXECUTOR-AM4.md`;
 - status: `Approved`;
 - decision class: `ROD-05 Material Delegation`;
-- blob in prior registry: `70e6793d11abc7e5222a9280ec48f0304b44d948`.
+- blob: `70e6793d11abc7e5222a9280ec48f0304b44d948`.
 
-The bounded AM-4 authorization does not permit automatic integration of a change that enters a reserved Owner boundary such as ROD-04/ROD-09.
+Current renewal:
+
+- path: `docs/governance/decisions/DECISION-2026-09-16-POS-004-ROADMAP-EXECUTOR-AM4-RENEWAL.md`;
+- status: `Approved`;
+- decision class: `Company Governance / ROD-05 Material Delegation Review`;
+- blob: `8540c73f41ea9bf83537709d00a961985495ff45`.
+
+The `2026-09-16` Owner decision renews POS-004 / AI-ENG-001 AM-4 on unchanged terms and starts a new review cycle. It does not expand the hard stops or convert reserved ROD-04/ROD-09 changes into routine auto-merge work.
 
 ## 6. Concrete Assignment authorization
 
@@ -86,9 +93,9 @@ Approved Assignment:
 - Position: `POS-004 — Engineering & Release Lead`;
 - Principal: `AI-ENG-001`;
 - authority mode: `AM-4 — Pre-Authorized Automatic Execution`;
-- blob in prior registry: `68f8ee4291bb59546879ce1a85913d89c3747977`.
+- blob: `68f8ee4291bb59546879ce1a85913d89c3747977`.
 
-This remains a prospective narrow Assignment amendment. It does not rewrite the historical AC-205 baseline or AC-603 through AC-606 pilot evidence.
+This is a prospective narrow Assignment amendment. It does not rewrite the historical AC-205 baseline or AC-603 through AC-606 pilot evidence.
 
 ## 7. Automatic merge boundary
 
@@ -107,6 +114,8 @@ The concrete Assignment permits automatic repository merge only when every appro
 
 Product repository policies may operationalize these rules but cannot expand Company authority.
 
+The Arvectum Work Company PR records `ROD-04 + ROD-09` substance, so generic AM-4 does not authorize its automatic merge.
+
 ## 8. Hard stops preserved
 
 No authority is created for:
@@ -124,15 +133,20 @@ No authority is created for:
 
 ## 9. Review and expiry behavior
 
-Mandatory Owner review of the POS-004 AM-4 delegation is due under its currently approved decision/renewal terms. Arvectum Work initiation does not amend that review gate.
+Under the Approved `2026-09-16` renewal, the next mandatory Owner review is required at the earliest of:
 
-Without attributable renewal after the applicable review gate, automatic merge fails closed to `REVIEW`; independently authorized preparation/testing/PR work may continue.
+1. `2026-10-16`;
+2. ten automatic merges performed under the renewed cycle;
+3. any material security, legal, benchmark-integrity, release, production or authority incident;
+4. a material change to executor policy, authority model, Product boundary, repository protection model or technical access used for automatic merge.
+
+If the renewed review gate is reached without another attributable Owner renewal, automatic merge must fail closed to `REVIEW`; independently authorized preparation, implementation, testing and review-ready PR creation may continue.
 
 ## 10. Historical M6 evidence boundary
 
 AC-603 through AC-606 remain historical evidence of the earlier pilot contour in which AM-4 was inactive and `READY_FOR_OWNER` was terminal.
 
-Later AM-4 authorization/renewal is prospective only. It must not be used to rewrite, rescore or reinterpret earlier proofs.
+The later AM-4 authorization and renewal are prospective only. They must not be used to rewrite, rescore or reinterpret the earlier proofs as having had automatic merge/failover authority.
 
 ## 11. Arvectum Work portfolio initiation
 
