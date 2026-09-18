@@ -1,12 +1,13 @@
 # AC-607 — POS-004 Value and Economic Review
 
-Status: `Proposed for Owner approval`
-Version: `0.9.0`
+Status: `Approved / Conditional PASS`
+Version: `1.0.0`
 Date: `2026-09-18`
 Owner: `ООО «Арвектум»`
 Position: `POS-004 — Engineering & Release Lead`
 Principal: `AI-ENG-001`
 Cross-review: `docs/reviews/AC-607-POS-004-VALUE-OWNER-WORKLOAD-REUSE-RISK-REVIEW.md`
+Owner decision: `docs/governance/decisions/DECISION-2026-09-18-AC-607-CONDITIONAL-PASS.md`
 
 ## 1. Decision question
 
@@ -91,11 +92,11 @@ The current contour is acceptable for continued bounded internal repository work
 
 The main remaining risk is organizational: engineering automation can optimize repository throughput while the Company still has insufficient external revenue. Strategy 2.0 therefore requires commercial evidence to dominate the next Company focus.
 
-## 7. Proposed result
+## 7. Approved result
 
 `AC-607 — Complete / CONDITIONAL PASS`.
 
-Proposed M6 state:
+Approved M6 state:
 
 `Current / operational value, fail-closed governance and continuity proven; economic quantification incomplete`.
 
@@ -110,12 +111,14 @@ Collect lightweight economics during ordinary runs rather than creating a separa
 
 M6 should not block the Company from moving to external revenue evidence.
 
-## 8. Owner approval requested
+## 8. Owner decision
 
-Owner approval should explicitly choose one of:
+The Owner approved option A on 2026-09-18:
 
-- **A — Approve recommended conditional result:** continue POS-004, AC-607 complete, keep M6 open for economic evidence;
-- **B — Close M6 despite the economic evidence gap:** requires an explicit Owner decision that the current evidence is sufficient for the intended milestone meaning;
-- **C — Narrow/stop the Position:** if operational value is judged insufficient relative to supervision/risk.
+- AC-607 is complete with a Conditional PASS;
+- POS-004 / AI-ENG-001 continues under the current bounded AM-4 without authority expansion;
+- M6 remains open until sufficient economic evidence exists;
+- M6 does not block external commercial work;
+- PR #6 is authorized for merge.
 
-The review recommends **A**.
+See `docs/governance/decisions/DECISION-2026-09-18-AC-607-CONDITIONAL-PASS.md`.
