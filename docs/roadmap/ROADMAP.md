@@ -17,10 +17,10 @@
 
 Эта редакция `0.60.0` сохраняет исторический M6 evidence и фиксирует Owner-approved AC-607 Conditional PASS вместе с переходом стратегического фокуса к SR-1.
 
-Предыдущая редакция:
-- версия: `0.57.0`;
+Предыдущая каноническая редакция:
+- версия: `0.58.0`;
 - путь: `docs/roadmap/ROADMAP.md`;
-- immutable git blob SHA: `4ff76e168e8d1d0c797b0d0c9422664a0c4a38fa`.
+- immutable git blob SHA: `6f9b229e753221d163b51295b10ed24089687ddc`.
 
 Все исторические M0–M6 evidence, AC-505 state, AC-601…AC-607 evidence and the POS-004 AM-4 authority model remain unchanged unless explicitly superseded below.
 
@@ -60,7 +60,7 @@ Product roadmaps remain authoritative for product-specific work.
 
 Strategy approval, internal demos, product CI and repository work do not satisfy AC-505.
 
-## 5. M6 current state — unchanged
+## 5. M6 current state
 
 `M6 — First real AI-held Position proven economically and operationally` remains:
 
@@ -110,7 +110,7 @@ The portfolio interpretation is reconciled in:
 
 Key future posture:
 - Tender Agent: anchor vertical capability + bounded revenue/pilot path;
-- Discount Parser: finish acceptance/stabilization, then default maintenance/data-pattern evidence;
+- Discount Parser: client lost / zero realized revenue; preserve assets and reassess further investment against renewed demand;
 - Creative Test Agent: customer-triggered marketing capability candidate;
 - Arvectum Work: strategic Discovery engine, not yet validated;
 - Data Platform: no material build absent reuse evidence;
