@@ -1,6 +1,6 @@
 # DECISION-2026-09-18 — Arvectum Company Strategy 2.0 approval
 
-Status: `Approved / pending integration`
+Status: `Approved / integrated`
 Decision date: `2026-09-18`
 Decision class: `ROD-01 Strategic direction + ROD-04 Portfolio/investment framing + ROD-09 Company↔Product boundary`
 Decision authority: `Owner of Arvectum Company`
@@ -113,4 +113,4 @@ Where the approved Strategy 2.0 commercial framing conflicts with the older AC-1
 
 ## 9. Result
 
-`APPROVED — Company Strategy 2.0 and strategic-roadmap reconciliation may be integrated.`
+`APPROVED / INTEGRATED — Company Strategy 2.0 and strategic-roadmap reconciliation are canonical on main.`
