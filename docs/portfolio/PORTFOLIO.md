@@ -1,144 +1,140 @@
 # Arvectum Company Portfolio
 
 Status: `Active`
-Version: `0.9.0`
+Version: `1.0.0`
 Created: `2026-08-20`
-Updated: `2026-09-17`
+Updated: `2026-09-18`
 Owner: `ООО «Арвектум»`
 Repository: `arvectum2/arvectum-company`
-Current governance baseline: `AC-307 — Approved 1.0.0 / M3 Complete / PASS`
+Strategy: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 
 ## 1. Publication model
 
-Эта редакция `0.9.0` сохраняет полный portfolio baseline `0.8.0` по immutable git blob и добавляет Owner-directed отдельный product-discovery node `PORT-008 — Arvectum Work` без silent re-ranking существующего портфеля.
+This edition preserves the complete portfolio baseline `0.9.0` by immutable git blob and reconciles portfolio interpretation with approved Company Strategy 2.0.
 
-Предыдущая редакция:
-
-- version: `0.8.0`;
+Previous edition:
+- version: `0.9.0`;
 - path: `docs/portfolio/PORTFOLIO.md`;
-- immutable git blob SHA: `8a77be35225f9c8c4958531e52a4131abda13d0f`.
+- immutable blob SHA: `16553125881fa05a7686cf3d958f20967965b252`.
 
-Arvectum Work initiation:
+Strategy authority:
+- `docs/governance/decisions/DECISION-2026-09-18-STRATEGY-2.0-APPROVAL.md`;
+- `docs/business/COMPANY-STRATEGY-v2.0.0.md`;
+- `docs/roadmap/STRATEGIC-ROADMAP.md`.
 
-- Owner decision: `docs/governance/decisions/DECISION-2026-09-17-ARVECTUM-WORK-INITIATION.md`;
-- Company footprint: `docs/portfolio/ARVECTUM-WORK-PORTFOLIO-FOOTPRINT.md`;
-- canonical product repository: `arvectum2/arvectum-work`.
+Historical AC-301…AC-307 and the Arvectum Work initiation remain valid evidence. Strategy 2.0 changes prospective economic interpretation; it does not rewrite historical approvals.
 
-Approved AC-301…AC-307 остаются в силе и являются составными слоями M3 baseline. Добавление PORT-008 является новым attributable portfolio action и не переписывает историческую AC-307 evidence.
+## 2. Company commercial architecture
 
-## 2. Current governed portfolio map
+The Company now manages the portfolio as one system with two commercial engines:
 
-| ID | Company-level name | Canonical repository | Disposition | Accountable Position | Role | Priority |
-|---|---|---|---|---|---|---|
-| `PORT-001` | `Arvectum Tender Agent` | `arvectum/tender-agent` | `continue` | `POS-003 — Portfolio & Product Lead` | standalone + `RI-OS-CONSUMER` | `A2` bounded revenue/pilot/evidence |
-| `PORT-002` | `Discount Parser` | `arvectum/discount-parser` | `continue` | `POS-003 — Portfolio & Product Lead` | standalone + `RI-OS-CONSUMER + RI-PRODUCT-FAMILY` | `A1` finish/accept/stabilize/maintain |
-| `PORT-003` | `Arvectum Proxy Launcher` | `arvectum/proxy-launcher` | `continue` | `POS-003 — Portfolio & Product Lead` | standalone | `B1` named-trigger |
-| `PORT-004` | `Creative Test Agent` | `arvectum/creative-test-agent` | `continue` | `POS-003 — Portfolio & Product Lead` | standalone + `RI-OS-CONSUMER` | `B2` named-trigger |
-| `PORT-005` | `Tender Small-Volume Calculator` | `arvectum/tender-app` | `contain` | `POS-003 — Portfolio & Product Lead` | `RI-PRODUCT-FAMILY` | `D1` contain/reference |
-| `PORT-006` | `Doors Parser` | `arvectum/doors_parser` | `contain` | `POS-003 — Portfolio & Product Lead` | `RI-PRODUCT-FAMILY` | `D2` contain/support/reference |
-| `PORT-007` | `Data Platform` | `arvectum/data-platform` | `clarify` | `POS-003 — Portfolio & Product Lead` | clarification-only Company/product-family module candidate | `C1` clarification-only; no material build |
-| `PORT-008` | `Arvectum Work` | `arvectum2/arvectum-work` | `discover` | `POS-003 — Portfolio & Product Lead` | separate product discovery; machine-work transaction hypothesis | `Owner-directed bounded discovery; no portfolio re-ranking inferred` |
+- **Arvectum Work — Buy the work**;
+- **Arvectum AI Company — Own the capability**, using Arvectum OS where admitted and appropriate.
 
-## 3. Dependency and Arvectum OS boundary
+`Arvectum AI Company` is a Company-level commercial offer, not a new repository or automatic portfolio node.
 
-Между `PORT-001…PORT-008` не установлено обязательной hard runtime/code/data dependency только из common ownership, common stack, concept similarity или reference evidence.
+Arvectum OS remains a separate domain-neutral platform with its own governance.
 
-Current governed OS correspondence:
+## 3. Current governed portfolio map
 
-| Node | OS boundary | Exact current platform dependency |
-|---|---|---|
-| `PORT-001` | P6.02 + supplemental P8.03 | `CAP-001 + CAP-004` в exact bounded scopes |
-| `PORT-002` | P6.06 | `CAP-004 only` |
-| `PORT-004` | P8.06 optional external extension | `CAP-004 only` |
-| `PORT-003` | none evidenced | none inferred |
-| `PORT-005` | none evidenced | none inferred |
-| `PORT-006` | none evidenced | none inferred |
-| `PORT-007` | none evidenced | none inferred |
-| `PORT-008` | none evidenced | none inferred; no Work Product Contract created by Company decision |
+| ID | Node | Canonical repository | Disposition | Operational priority | Strategy 2.0 role |
+|---|---|---|---|---|---|
+| `PORT-001` | Arvectum Tender Agent | `arvectum/tender-agent` | `continue` | `A2` bounded revenue/pilot/evidence | anchor procurement capability + standalone revenue; candidate Work/AI Company reuse only by evidence |
+| `PORT-002` | Discount Parser | `arvectum/discount-parser` | `continue` | `A1` finish/accept/stabilize/maintain | current client product + data-pattern evidence; after acceptance default to maintenance, not a separate growth engine |
+| `PORT-003` | Arvectum Proxy Launcher | `arvectum/proxy-launcher` | `continue` | `B1` named-trigger | infrastructure/ecosystem utility; quality/credibility/distribution, no forced monetization |
+| `PORT-004` | Creative Test Agent | `arvectum/creative-test-agent` | `continue` | `B2` named-trigger | marketing capability candidate + standalone product when demand exists |
+| `PORT-005` | Tender Small-Volume Calculator | `arvectum/tender-app` | `contain` | `D1` | contained procurement-family reference/sub-module candidate |
+| `PORT-006` | Doors Parser | `arvectum/doors_parser` | `contain` | `D2` | source-specific data extraction evidence/reference |
+| `PORT-007` | Data Platform | `arvectum/data-platform` | `clarify` | `C1` no material build | shared-data candidate only after named consumers/common contract/economics |
+| `PORT-008` | Arvectum Work | `arvectum2/arvectum-work` | `discover` | Owner-directed evidence lane | primary machine-work engine hypothesis; work-as-a-service first, marketplace later only after evidence |
 
-P6.02 historical locator `arutyunoveth/ai-corporation` remains reconciled by its existing Approved Arvectum OS provenance overlay. Existing Product Contracts retain their own lifecycle and semantics.
+Accountability remains under the applicable Company positions and product governance; this table does not grant new execution authority.
 
-Reference/reuse evidence does not create shared runtime, library, datastore, module, Platform Capability or Product Contract automatically.
+## 4. Capability layer interpretation
 
-## 4. Default portfolio decision order
+Existing products are not automatically modules.
 
-The existing AC-307 default decision order remains unchanged:
+Current capability families under test:
 
-```text
-A1  PORT-002 — Discount Parser
-A2  PORT-001 — Arvectum Tender Agent
-    ↓
-B1  PORT-003 — Arvectum Proxy Launcher   ┐
-B2  PORT-004 — Creative Test Agent       ├─ named trigger only
-    ↓                                     ┘
-C1  PORT-007 — Data Platform — clarification only
-    ↓
-D1  PORT-005 — Tender Small-Volume Calculator
-D2  PORT-006 — Doors Parser
-```
+- **Procurement / Tender** — strongest anchor: Tender Agent.
+- **Marketing / Creative** — anchor: Creative Test Agent.
+- **Data acquisition / normalization** — reusable pattern hypothesis from Discount Parser, Doors Parser and future real consumers.
 
-`PORT-008 — Arvectum Work` is added as a separate Owner-directed **bounded discovery** initiative. Its addition does not silently assign an A/B/C/D rank, cancel existing obligations, create a funding allocation or make Work the Company flagship.
+A capability becomes strategically reusable only when reuse measurably lowers marginal cost, shortens delivery, improves quality/throughput or creates revenue without disproportionate maintenance burden.
 
-Until another attributable Company decision says otherwise, Work discovery must remain lightweight and evidence-driven under the existing Company priority rule:
+Repository similarity, common language/framework or conceptual overlap is insufficient.
 
-`P0 obligations/cash/material risk → P1 flagship evidence + real operating model → P2 revenue/obligation/evidence-linked product/OS work → P3 speculative expansion`.
+## 5. Strategic focus versus operational order
 
-## 5. M3 closure result
+Existing immediate operational obligations remain in force, including `A1` Discount Parser acceptance/stabilization and `A2` Tender Agent revenue/pilot evidence.
 
-`M3 — Product/module-candidate portfolio governed as investments` remains:
+Strategy 2.0 adds a Company-wide evidence order:
 
-`Complete / PASS`.
+`P0 obligations/cash/material risk → P1 external paid acceptance + dual-engine proof → P2 capability reuse → P3 required OS/platform work → P4 speculative expansion`.
 
-The 2026-09-17 addition of PORT-008 is a prospective portfolio update. It does not invalidate historical M3 evidence or imply that PORT-008 itself has completed market, economic, legal or operational validation.
+P1 currently includes:
+- real Discount Parser client acceptance where outstanding;
+- real Tender Agent paid/pilot evidence;
+- Arvectum Work buyer/paid-stream evidence through its own roadmap;
+- first real AI Company design-partner/customer evidence.
 
-## 6. Arvectum Work discovery boundary
+These are evidence priorities, not automatic budget allocations.
 
-Current Work phase:
+## 6. Arvectum Work boundary
 
-`Discovery`.
+Current Work phase remains `Discovery`.
 
-Current product sequence:
+Product sequence remains canonical in the Work repository. Company expects:
 
-`AW-000 → AW-010 → AW-020 → AW-030 → AW-040 → AW-050 → AW-060`.
+`buyer demand → bounded recurring work stream → reliable Acceptance → measured economics → paid transaction → repeat demand → only then marketplace/multi-executor justification`.
 
-Company expects evidence in the following order:
+No Strategy 2.0 approval bypasses `AW-060 — Go / Pivot / Stop` or authorizes public marketplace/payment custody.
 
-- buyer demand;
-- repeatable machine-executable Job family;
-- reliable Acceptance;
-- measured Worker/unit economics;
-- first real accepted paid end-to-end transaction;
-- repeat-demand path;
-- evidence that marketplace mechanisms would outperform a simpler managed-service model.
+## 7. Arvectum OS boundary
 
-`AW-100 — Marketplace MVP` is not admitted before explicit `AW-060 GO` and applicable scope/budget/architecture authority.
+Strategy 2.0 creates no automatic OS dependency for any portfolio node.
 
-## 7. Carry-forward discipline
+OS owns admitted universal platform contracts/capabilities. Product repositories own their domain semantics.
 
-Material new evidence must trigger re-evaluation, not silent re-banding.
+A Work, Tender, Marketing or Data requirement becomes an OS requirement only through the applicable OS governance path.
 
-Especially open:
+No hidden cross-repository commitment is created by the strategic flywheel.
 
-- PORT-001 — real paid/pilot/deal economics and repeatability;
-- PORT-002 — live client acceptance/support boundary and post-delivery decision;
-- PORT-003 — legal/IP rights-basis evidence, separate-host gates and per-app stop-gate;
-- PORT-004 — real design-partner/customer/commercial evidence;
-- PORT-007 — named consumers, common contract and economic/continuity case before material build;
-- PORT-008 — buyer demand, paid transaction, repeatability, acceptance reliability, Worker economics, legal/payment/data contour and managed-service-vs-marketplace evidence;
-- portfolio-wide — unit economics, profitability, CAC/LTV/ROI and legal/customer readiness where required for the decision at hand.
+## 8. Proxy Launcher boundary
 
-## 8. Source-of-truth rule
+Proxy Launcher remains useful infrastructure/ecosystem.
 
-- this file is canonical for the Company-level portfolio map after applicable integration/approval;
-- product repositories are canonical for implementation/status/domain semantics;
-- `arvectum2/arvectum-work` is canonical for Arvectum Work product discovery and machine-work semantics;
-- Arvectum OS is canonical for Product Contracts/platform capabilities;
-- legal/accounting/customer systems are canonical for applicable legal, financial, contractual and confidential facts.
+Default Company posture:
+- maintain stable quality and supported releases;
+- use it as sovereignty/release/distribution evidence;
+- do not make it a core growth program;
+- do not create a hard dependency from Work or AI Company solely for portfolio coherence.
 
-Repository locator, technical access, common ownership or common stack do not by themselves create Organizational Authority, legal/IP ownership or cross-product commitment.
+## 9. Investment/stop discipline
 
-## 9. Handoff
+New capability, shared platform, product or marketplace investment requires evidence of at least one of:
+- real paid Work demand;
+- repeated AI Company implementation need;
+- repeated internal workload with credible external reuse;
+- obligation/risk/continuity need.
 
-Existing Company roadmap order remains unchanged by the PORT-008 addition.
+Stop or pivot when customer willingness to pay, contribution economics, legal/data feasibility or owner-scalability fails.
 
-For Arvectum Work, the next product action after AW-000 integration is a combined `AW-010 / AW-020` evidence sprint. The next material Company gate specific to Work is `AW-060 — Go / Pivot / Stop` unless earlier discovery requires a Reserved Owner Decision.
+## 10. Source-of-truth rule
+
+- this file is canonical for Company portfolio interpretation;
+- `docs/business/COMPANY-STRATEGY-v2.0.0.md` is canonical for Company strategic framing;
+- `docs/roadmap/STRATEGIC-ROADMAP.md` is canonical for high-level strategic sequencing;
+- product repositories remain canonical for implementation, product semantics and product roadmap;
+- Arvectum OS remains canonical for OS contracts/capabilities/governance;
+- legal/accounting/customer systems remain canonical for applicable legal, financial and contractual facts.
+
+## 11. Handoff
+
+Company execution should now optimize for real external evidence and economics rather than repository completion.
+
+Immediate strategic sequence:
+
+`current obligations + AC-607 → external paid acceptance → Work paid-stream proof + AI Company customer proof → capability reuse → Work↔owned routing → repeatable scale`.
+
+Marketplace/network and standalone platform expansion remain evidence-triggered later stages.
