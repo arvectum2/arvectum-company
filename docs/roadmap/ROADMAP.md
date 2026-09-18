@@ -1,14 +1,14 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.58.0`
+Версия: `0.59.0`
 Создано: `2026-08-19`
 Обновлено: `2026-09-18`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
-Текущее M6-действие: `AC-607 — Value, Owner-workload, module-reuse and risk review — NEXT`
+Текущее M6-действие: `AC-607 — review complete / OWNER DECISION REQUIRED`
 
 Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
@@ -64,7 +64,7 @@ Strategy approval, internal demos, product CI and repository work do not satisfy
 
 `M6 — First real AI-held Position proven economically and operationally` remains:
 
-**`Current / execution, substantive Product value, and continuity mechanics proven; final value/economic review remains`.**
+**`Current / operational value, fail-closed governance and continuity proven; AC-607 finds economic quantification incomplete`.**
 
 | ID | Work item | Status |
 |---|---|---|
@@ -74,9 +74,9 @@ Strategy approval, internal demos, product CI and repository work do not satisfy
 | `AC-604` | Quality/evaluation, cost and risk gates | `Complete / PASS — pilot gates` |
 | `AC-605` | Supervised AI Position pilot | `Complete / PASS — real Product task, zero Owner execution interventions after enqueue` |
 | `AC-606` | Human/software fallback and executor-replacement proof | `Complete / PASS — continuity mechanics proven` |
-| `AC-607` | Value, Owner-workload, module-reuse and risk review | `NEXT — evidence set sufficient for final M6 review` |
+| `AC-607` | Value, Owner-workload, module-reuse and risk review | `REVIEW COMPLETE — CONDITIONAL PASS recommended; Owner decision required` |
 
-The exact next M6 item remains `AC-607`.
+AC-607 review is complete. The recommended disposition is to continue the bounded Position, mark AC-607 complete, and keep M6 open until a non-fabricated economic conclusion is supported. Owner approval is required for that final disposition.
 
 ## 6. POS-004 AM-4 authority — unchanged
 
@@ -119,10 +119,12 @@ Key future posture:
 ## 9. Exact next Company work
 
 Continue immediately:
-- `AC-607`;
+- complete the AC-607 Owner decision gate;
 - `AC-505` only when real external/customer evidence changes;
-- current product/client obligations;
-- Arvectum Work discovery under its own canonical roadmap.
+- Arvectum Work discovery under its own canonical roadmap;
+- external commercial evidence work under Strategy 2.0.
+
+Discount Parser update: the Owner reported on 2026-09-18 that the client disengaged, the product remains unfinished and realized revenue is `0`. There is no longer an active client-acceptance path to preserve as an immediate obligation. This evidence is recorded in `docs/portfolio/DISCOUNT-PARSER-CUSTOMER-LOSS-EVIDENCE-2026-09-18.md`; the PORT-002 disposition itself remains for a separate portfolio decision.
 
 In parallel, Company strategy now requires finding the first real external AI Company design partner/customer rather than expanding architecture in anticipation of one.
 
