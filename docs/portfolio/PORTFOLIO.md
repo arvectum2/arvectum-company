@@ -40,7 +40,7 @@ Arvectum OS remains a separate domain-neutral platform with its own governance.
 | ID | Node | Canonical repository | Disposition | Operational priority | Strategy 2.0 role |
 |---|---|---|---|---|---|
 | `PORT-001` | Arvectum Tender Agent | `arvectum/tender-agent` | `continue` | `A2` bounded revenue/pilot/evidence | anchor procurement capability + standalone revenue; candidate Work/AI Company reuse only by evidence |
-| `PORT-002` | Discount Parser | `arvectum/discount-parser` | `continue` | `A1` finish/accept/stabilize/maintain | current client product + data-pattern evidence; after acceptance default to maintenance, not a separate growth engine |
+| `PORT-002` | Discount Parser | `arvectum/discount-parser` | `continue` | `A1` finish/accept/stabilize/maintain | unfinished product + data-pattern evidence; 2026-09-18 client loss means zero realized revenue and no active acceptance path; further investment requires reassessment |
 | `PORT-003` | Arvectum Proxy Launcher | `arvectum/proxy-launcher` | `continue` | `B1` named-trigger | infrastructure/ecosystem utility; quality/credibility/distribution, no forced monetization |
 | `PORT-004` | Creative Test Agent | `arvectum/creative-test-agent` | `continue` | `B2` named-trigger | marketing capability candidate + standalone product when demand exists |
 | `PORT-005` | Tender Small-Volume Calculator | `arvectum/tender-app` | `contain` | `D1` | contained procurement-family reference/sub-module candidate |
@@ -66,14 +66,13 @@ Repository similarity, common language/framework or conceptual overlap is insuff
 
 ## 5. Strategic focus versus operational order
 
-Existing immediate operational obligations remain in force, including `A1` Discount Parser acceptance/stabilization and `A2` Tender Agent revenue/pilot evidence.
+Existing operational priorities remain historically recorded, but 2026-09-18 evidence materially changes PORT-002: the Discount Parser client disengaged, the product remains unfinished, realized revenue is `0`, and there is no active client-acceptance path. This evidence requires portfolio reassessment before further material build. `A2` Tender Agent revenue/pilot evidence remains live.
 
 Strategy 2.0 adds a Company-wide evidence order:
 
 `P0 obligations/cash/material risk → P1 external paid acceptance + dual-engine proof → P2 capability reuse → P3 required OS/platform work → P4 speculative expansion`.
 
 P1 currently includes:
-- real Discount Parser client acceptance where outstanding;
 - real Tender Agent paid/pilot evidence;
 - Arvectum Work buyer/paid-stream evidence through its own roadmap;
 - first real AI Company design-partner/customer evidence.
