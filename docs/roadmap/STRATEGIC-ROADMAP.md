@@ -61,7 +61,7 @@ Gate:
 Objective: prioritize real paid/customer evidence over additional architecture.
 
 Primary paths:
-- complete live acceptance/obligation closure for Discount Parser;
+- record the Discount Parser client loss and reassess any further investment; do not count it as an active acceptance/revenue path;
 - obtain real restricted paid-pilot evidence for Tender Agent where commercially available;
 - move Arvectum Work through focused demand validation toward its first paid accepted batch/stream;
 - use Creative Test Agent only on a real customer/design-partner trigger;
@@ -200,7 +200,7 @@ No expansion is required for Company success.
 | Arvectum OS | domain-neutral substrate | build platform only for admitted reusable needs |
 | Tender Agent | anchor vertical capability + standalone revenue | pursue bounded real pilot/revenue evidence |
 | Creative Test Agent | marketing capability candidate | customer-triggered, no speculative expansion |
-| Discount Parser | current client product + data-pattern evidence | finish acceptance, stabilize, then maintain |
+| Discount Parser | unfinished product + data-pattern evidence after client loss / zero realized revenue | preserve assets; further build requires renewed demand/portfolio justification |
 | Doors Parser | contained source-specific reference/evidence | no strategic expansion without demand |
 | Data Platform | potential shared capability | no material build until named consumers/common contract |
 | Proxy Launcher | infrastructure/ecosystem utility | maintain quality; monetization optional |
@@ -243,8 +243,8 @@ Pivot or stop a path when:
 
 The immediate strategic focus is:
 
-1. preserve current obligations and complete AC-607;
-2. obtain external paid/acceptance evidence from the most mature existing assets;
+1. complete the AC-607 Owner decision gate without making M6 economic proof a blocker for commercial work;
+2. obtain external paid/acceptance evidence from live opportunities; Discount Parser no longer supplies an active customer path;
 3. continue Arvectum Work AW-020→AW-050 evidence path without premature marketplace build;
 4. find the first real AI Company design partner/customer;
 5. measure capability reuse only after real consumers appear.
