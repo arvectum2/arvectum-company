@@ -1,21 +1,21 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.59.0`
+Версия: `0.60.0`
 Создано: `2026-08-19`
 Обновлено: `2026-09-18`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
-Текущее M6-действие: `AC-607 — review complete / OWNER DECISION REQUIRED`
+Текущее M6-действие: `M6 economic evidence collection during ordinary work — non-blocking`
 
 Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
 
 ## 1. Модель публикации
 
-Эта редакция `0.58.0` сохраняет полное содержание `0.57.0` по immutable git blob и добавляет Owner-approved Strategy 2.0 overlay.
+Эта редакция `0.60.0` сохраняет исторический M6 evidence и фиксирует Owner-approved AC-607 Conditional PASS вместе с переходом стратегического фокуса к SR-1.
 
 Предыдущая редакция:
 - версия: `0.57.0`;
@@ -74,9 +74,9 @@ Strategy approval, internal demos, product CI and repository work do not satisfy
 | `AC-604` | Quality/evaluation, cost and risk gates | `Complete / PASS — pilot gates` |
 | `AC-605` | Supervised AI Position pilot | `Complete / PASS — real Product task, zero Owner execution interventions after enqueue` |
 | `AC-606` | Human/software fallback and executor-replacement proof | `Complete / PASS — continuity mechanics proven` |
-| `AC-607` | Value, Owner-workload, module-reuse and risk review | `REVIEW COMPLETE — CONDITIONAL PASS recommended; Owner decision required` |
+| `AC-607` | Value, Owner-workload, module-reuse and risk review | `Complete / CONDITIONAL PASS — Owner approved 2026-09-18` |
 
-AC-607 review is complete. The recommended disposition is to continue the bounded Position, mark AC-607 complete, and keep M6 open until a non-fabricated economic conclusion is supported. Owner approval is required for that final disposition.
+AC-607 is complete under the 2026-09-18 Owner decision. POS-004 / AI-ENG-001 continues within the existing bounded AM-4; M6 remains open only for sufficient non-fabricated economic evidence and does not block external commercial work.
 
 ## 6. POS-004 AM-4 authority — unchanged
 
@@ -118,8 +118,7 @@ Key future posture:
 
 ## 9. Exact next Company work
 
-Continue immediately:
-- complete the AC-607 Owner decision gate;
+The active Company focus now moves to SR-1 external commercial evidence. Continue immediately:
 - `AC-505` only when real external/customer evidence changes;
 - Arvectum Work discovery under its own canonical roadmap;
 - external commercial evidence work under Strategy 2.0.
