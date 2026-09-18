@@ -1,7 +1,7 @@
 # Arvectum Company — Strategic Roadmap
 
 Status: `Active`
-Version: `1.0.0`
+Version: `1.1.0`
 Date: `2026-09-18`
 Owner: `ООО «Арвектум»`
 Strategy: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
@@ -38,7 +38,7 @@ marketplace / standalone-platform expansion only if evidenced
 
 ## SR-0 — Strategic alignment and operating readiness
 
-**Current / integration phase**
+**Complete / PASS — 2026-09-18**
 
 Objective: make the Company operate under one coherent product/economic model without disrupting current obligations.
 
@@ -57,6 +57,8 @@ Gate:
 - Owner intervention baseline exists.
 
 ## SR-1 — First external revenue and acceptance
+
+**Current**
 
 Objective: prioritize real paid/customer evidence over additional architecture.
 
@@ -243,10 +245,11 @@ Pivot or stop a path when:
 
 The immediate strategic focus is:
 
-1. complete the AC-607 Owner decision gate without making M6 economic proof a blocker for commercial work;
-2. obtain external paid/acceptance evidence from live opportunities; Discount Parser no longer supplies an active customer path;
-3. continue Arvectum Work AW-020→AW-050 evidence path without premature marketplace build;
-4. find the first real AI Company design partner/customer;
-5. measure capability reuse only after real consumers appear.
+1. obtain external paid/acceptance evidence from live opportunities; Discount Parser no longer supplies an active customer path;
+2. continue Arvectum Work AW-020→AW-050 evidence path without premature marketplace build;
+3. find the first real AI Company design partner/customer;
+4. pursue Tender Agent paid/pilot evidence where a real opportunity exists;
+5. collect M6 economic evidence only incidentally during normal POS-004 work; do not let it displace commercial execution;
+6. measure capability reuse only after real consumers appear.
 
 The next strategic review should happen when SR-1 evidence materially changes or when AW-060 reaches its Company Go/Pivot/Stop gate, whichever comes first.
