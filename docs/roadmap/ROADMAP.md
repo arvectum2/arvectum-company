@@ -1,36 +1,66 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.57.0`
+Версия: `0.58.0`
 Создано: `2026-08-19`
-Обновлено: `2026-09-14`
+Обновлено: `2026-09-18`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
 Текущее M6-действие: `AC-607 — Value, Owner-workload, module-reuse and risk review — NEXT`
 
+Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
+Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
+
 ## 1. Модель публикации
 
-Эта редакция `0.57.0` сохраняет полное содержание дорожной карты `0.56.0` по immutable git blob и фиксирует новую prospective governance boundary для bounded POS-004 Roadmap Executor AM-4.
+Эта редакция `0.58.0` сохраняет полное содержание `0.57.0` по immutable git blob и добавляет Owner-approved Strategy 2.0 overlay.
 
 Предыдущая редакция:
-
-- версия: `0.56.0`;
+- версия: `0.57.0`;
 - путь: `docs/roadmap/ROADMAP.md`;
-- immutable git blob SHA: `7a3c2c426ef69c2abe2c0cdd998aa28fcb9b3fbf`.
+- immutable git blob SHA: `4ff76e168e8d1d0c797b0d0c9422664a0c4a38fa`.
 
-Все не изменённые ниже решения, master-index M0–M9, M5/AC-505 state, M6/AC-601…AC-607 evidence, Tender Agent E2E acceptance, Company/Product/Arvectum OS boundaries и authority semantics сохраняются по этой immutable reference.
+Все исторические M0–M6 evidence, AC-505 state, AC-601…AC-607 evidence and the POS-004 AM-4 authority model remain unchanged unless explicitly superseded below.
 
-## 2. M5 current state — unchanged
+## 2. Strategy 2.0 overlay
+
+Owner decision:
+`docs/governance/decisions/DECISION-2026-09-18-STRATEGY-2.0-APPROVAL.md`.
+
+Approved strategic framing:
+
+> Arvectum turns business functions into governed machine work. A customer can buy the completed work through Arvectum Work or own the capability through an Arvectum AI Company implementation on Arvectum OS.
+
+Company strategy is now managed as:
+- two commercial engines: **Work** and **AI Company**;
+- reusable capability candidates: procurement/tender, marketing/creative, data and later evidence-driven functions;
+- Arvectum OS as domain-neutral substrate;
+- Proxy Launcher as supporting infrastructure/ecosystem.
+
+This overlay changes strategic interpretation and future sequencing. It does not fabricate external evidence or retroactively change product status.
+
+## 3. Strategic roadmap relationship
+
+The high-level Company evidence sequence is canonical in:
+`docs/roadmap/STRATEGIC-ROADMAP.md`.
+
+Top-level sequence:
+
+`foundation/obligations → first external paid acceptance → prove Work + AI Company → validate reuse → prove Work↔owned routing → standardize/scale → marketplace/platform expansion only if evidenced`.
+
+Product roadmaps remain authoritative for product-specific work.
+
+## 4. M5 current state — unchanged
 
 `M5 — First real governed Company operating contour proven` remains `Current`.
 
-`AC-505` remains `Current / external evidence wait` until actual external/customer evidence exists. M5 evidence must not be fabricated from M6/Product runtime evidence.
+`AC-505` remains `Current / external evidence wait` until actual external/customer evidence exists.
 
-No new customer acceptance, revenue, profitability or real external outcome is created by the Roadmap Executor authorization.
+Strategy approval, internal demos, product CI and repository work do not satisfy AC-505.
 
-## 3. M6 current state — unchanged
+## 5. M6 current state — unchanged
 
 `M6 — First real AI-held Position proven economically and operationally` remains:
 
@@ -46,92 +76,64 @@ No new customer acceptance, revenue, profitability or real external outcome is c
 | `AC-606` | Human/software fallback and executor-replacement proof | `Complete / PASS — continuity mechanics proven` |
 | `AC-607` | Value, Owner-workload, module-reuse and risk review | `NEXT — evidence set sufficient for final M6 review` |
 
-The exact next M6 step remains `AC-607`.
+The exact next M6 item remains `AC-607`.
 
-## 4. Historical M6 pilot authority remains valid as evidence
+## 6. POS-004 AM-4 authority — unchanged
 
-The AC-603 through AC-606 pilot evidence remains historically unchanged:
+The existing narrow prospective `AM-4 — Pre-Authorized Automatic Execution` envelope and its 2026-09-16 renewal remain governed by their exact decision/assignment sources.
 
-`primary executor failure → BLOCKED → explicit Owner/human recovery decision → replacement executor → attributable bounded-task resubmission → READY_FOR_OWNER`
+Strategy 2.0 does not:
+- broaden automatic merge authority;
+- authorize new portfolio priorities by an executor;
+- authorize external spend/contracts;
+- authorize releases/deployments absent exact authority;
+- authorize procurement/customer/regulator communications;
+- authorize Company↔Product↔OS boundary changes.
 
-For those recorded proofs:
+## 7. Company strategic evidence focus
 
-- `AM-3` and `AM-4` were inactive;
-- `READY_FOR_OWNER` was the terminal autonomous promotion state;
-- no automatic commit/push/merge/release/deploy was authorized or used;
-- automatic failover was not implemented;
-- the continuity proof remains valid and must not be retroactively rewritten.
+Without cancelling current obligations, future Company work should prefer:
 
-The new authorization below is prospective and does not alter AC-605/AC-606 evidence.
+1. current obligations, continuity, cash and material-risk closure;
+2. real external paid/customer acceptance;
+3. Arvectum Work demand and paid-stream evidence plus first real AI Company design-partner/customer proof;
+4. evidence that a capability is reusable and economically valuable;
+5. platform work required by admitted consumers;
+6. speculative infrastructure/new-product work.
 
-## 5. 2026-09-14 POS-004 Roadmap Executor authority change
+Technical completion without customer/economic evidence should not consume strategic priority merely because a repository has an unfinished backlog.
 
-The Owner has approved a narrow prospective `AM-4 — Pre-Authorized Automatic Execution` envelope for one concrete POS-004 assignment:
+## 8. Portfolio implications
 
-`ASG-POS004-ROADMAP-EXECUTOR-2026-09-14`.
+The portfolio interpretation is reconciled in:
+`docs/portfolio/PORTFOLIO.md` version `1.0.0`.
 
-Canonical authority sources:
-
-- Owner decision: `docs/governance/decisions/DECISION-2026-09-14-POS-004-ROADMAP-EXECUTOR-AM4.md`;
-- Assignment authorization: `docs/organization/POS-004-ROADMAP-EXECUTOR-AM4-AUTHORIZATION-v1.0.0.md`;
-- governing authority model: `docs/governance/DELEGATED-POSITION-AUTHORITY-MODEL-v1.0.0.md`;
-- negative boundary: `docs/governance/RESERVED-OWNER-DECISIONS-v1.0.0.md`.
-
-This change supersedes AC-205/AC-603 `AM-4 inactive` wording only for the new bounded Roadmap Executor assignment. It does not create general AM-4 authority for POS-004 or any other Position.
-
-## 6. Roadmap Executor permitted contour
-
-Within an already-admitted task, the Roadmap Executor may automatically perform reversible repository work, including branch/worktree creation, bounded edits, tests, CI/evidence, commits/pushes to task branches, pull-request creation/update and checkpoint/issue updates.
-
-Automatic merge is permitted only when the applicable repository queue explicitly declares `auto_merge: true` and every condition in the approved Assignment is satisfied, including exact-head green CI/rulesets, absence of unresolved required review, no reserved/human/review gate, scope preservation, reversibility and no prohibited external effect.
-
-The executor may skip a blocked HUMAN/OWNER/REVIEW item only to continue a later independent eligible item. It may not reorder the canonical queue, invent a new priority, broaden authority, rewrite acceptance criteria or treat technical completion as approval.
-
-## 7. Hard stop remains in force
-
-The Roadmap Executor authorization does not permit:
-
-- any `ROD-01` through `ROD-09` final decision;
-- new portfolio/product priorities or scope expansion;
-- incremental external spend, paid commitments, banking, guarantees or purchasing;
-- contracts, legal approval, material risk acceptance or sovereignty exceptions;
-- releases, release-asset replacement, immutable tag movement, package publication, production deployment or production mutation without a separate exact authority source;
-- signing with Owner/company keys, ЭП/УКЭП or other privileged signing identities;
-- procurement submission/modification, EIS/ETP execution, supplier/customer/regulator communication or procurement-participation decisions;
-- secrets/private keys/private corporate evidence/customer data outside an approved task boundary;
-- Company↔Product↔Arvectum OS authority changes or hidden cross-repository commitments;
-- benchmark-truth/comparator/normalizer changes after SUT output to improve a score;
-- fabricated human, Owner, Product Owner, customer, legal, physical-host or evaluator approval.
-
-Product-specific governance, branch protection/rulesets and Arvectum OS contracts remain independent controlling gates where applicable.
-
-## 8. Review gate for AM-4
-
-The bounded AM-4 authorization requires Owner review at the earliest of:
-
-1. `2026-10-14`;
-2. ten automatic merges under the authorization;
-3. any material security/legal/benchmark-integrity/release/production/authority incident;
-4. a material change to executor policy, authority model, Product boundary, repository protection or technical access used for automatic merge.
-
-If the review gate is reached without attributable Owner renewal, automatic merge must fail closed to `REVIEW`; preparation/testing/branch/PR work may continue where independently authorized.
+Key future posture:
+- Tender Agent: anchor vertical capability + bounded revenue/pilot path;
+- Discount Parser: finish acceptance/stabilization, then default maintenance/data-pattern evidence;
+- Creative Test Agent: customer-triggered marketing capability candidate;
+- Arvectum Work: strategic Discovery engine, not yet validated;
+- Data Platform: no material build absent reuse evidence;
+- Proxy Launcher: supporting ecosystem/infrastructure.
 
 ## 9. Exact next Company work
 
-The authority change does not reorder the Company roadmap.
-
-Continue:
-
-- `AC-607` as the next M6 work item;
+Continue immediately:
+- `AC-607`;
 - `AC-505` only when real external/customer evidence changes;
-- Product/repository Roadmap Executors only within their own canonical task queues and the approved POS-004 AM-4 envelope.
+- current product/client obligations;
+- Arvectum Work discovery under its own canonical roadmap.
 
-AC-607 must still evaluate Owner workload removed versus setup/supervision, quality/fail-closed behavior, known/unknown cost evidence, continuity, module reuse and remaining operational/authority risk. The existence of AM-4 is itself new governance evidence for AC-607, not proof of economic success.
+In parallel, Company strategy now requires finding the first real external AI Company design partner/customer rather than expanding architecture in anticipation of one.
+
+No new Company department or product is required solely by Strategy 2.0.
 
 ## 10. Business and governance interpretation
 
-This change is intended to remove low-risk Owner bottleneck from repeatable engineering execution without transferring residual Company authority to AI/software.
+The purpose of Strategy 2.0 is to turn the existing product portfolio into one economic system while keeping authority and product boundaries explicit.
 
 `Position → Principal → Assignment → Runtime → Governed Execution` remains controlling.
 
-AI/software remain execution means, not sources of Organizational Authority. Technical PASS still does not prove business readiness, profitability, legal compliance, production readiness or customer acceptance.
+AI/software are execution means, not sources of Organizational Authority.
+
+Technical PASS still does not prove business readiness, profitability, legal compliance, customer acceptance or customer ROI.
