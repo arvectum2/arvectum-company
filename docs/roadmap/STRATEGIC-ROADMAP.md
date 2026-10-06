@@ -1,8 +1,8 @@
 # Arvectum Company — Strategic Roadmap
 
 Status: `Active`
-Version: `1.1.0`
-Date: `2026-09-18`
+Version: `1.2.0`
+Date: `2026-10-06`
 Owner: `ООО «Арвектум»`
 Strategy: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 
@@ -253,3 +253,24 @@ The immediate strategic focus is:
 6. measure capability reuse only after real consumers appear.
 
 The next strategic review should happen when SR-1 evidence materially changes or when AW-060 reaches its Company Go/Pivot/Stop gate, whichever comes first.
+
+
+## 8. 2026-10-06 execution overlay
+
+SR-1 remains Current. The Owner-directed execution focus is narrowed without changing its evidence gate.
+
+Primary core contour:
+
+`Tender Agent × Data Platform × mobile Owner console`.
+
+Near-term objective: turn the already observed real procurement routine into an end-to-end governed workflow in which acquisition and document processing feed evidence-backed Tender Agent analysis, the Owner receives a compact mobile decision inbox, and human authority remains at GO / NO GO / hold and other reserved gates.
+
+Data Platform investment is consumer-driven within this contour. Platform/model improvements are secondary to reliable end-to-end use and remain benchmark/evidence gated.
+
+Discretionary WIP limit:
+
+- one core contour: Tender Agent × Data Platform × mobile Owner console;
+- one bounded blocker: Proxy Launcher RuStore rejection;
+- one consumer side lane: What? until MVP/review stopping point.
+
+Other consumer-app ideas and speculative platform expansion remain backlog/trigger-based. This overlay does not satisfy SR-1 by itself; paid external acceptance and measured economics remain required.
