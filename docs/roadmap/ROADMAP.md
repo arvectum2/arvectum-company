@@ -1,14 +1,15 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.60.0`
+Версия: `0.61.0`
 Создано: `2026-08-19`
-Обновлено: `2026-09-18`
+Обновлено: `2026-10-06`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
 Текущее M6-действие: `M6 economic evidence collection during ordinary work — non-blocking`
+Текущий execution focus: `Tender Agent × Data Platform × mobile Owner console`
 
 Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
@@ -129,7 +130,35 @@ In parallel, Company strategy now requires finding the first real external AI Co
 
 No new Company department or product is required solely by Strategy 2.0.
 
-## 10. Business and governance interpretation
+## 10. 2026-10-06 execution-focus synchronization
+
+Owner execution direction:
+
+- the primary Company execution contour is now **Tender Agent × Data Platform × mobile Owner console**;
+- these are managed as one business workflow for attention purposes: procurement discovery/ingestion → evidence-backed analysis → Owner decision inbox → durable decision/history;
+- Data Platform is no longer treated as an independent speculative build lane. Its near-term investment is consumer-driven by Tender Agent and other named consumers; model/retrieval optimization remains benchmark-gated and should not displace end-to-end product completion;
+- the Tender mobile application is an interface of the Tender Agent contour, not a new Company portfolio node;
+- **Proxy Launcher / RuStore rejection** is a bounded distribution blocker: resolve the rejection and return the product to trigger-based maintenance;
+- **Arvectum Tools / What?** is the single admitted consumer-app side lane until it reaches an MVP/review stopping point; Where? and ChickMark remain backlog rather than simultaneous active development;
+- Pushkin and published Photo Resize are external-gate/maintenance lanes unless review, defect, revenue or distribution evidence creates a named trigger;
+- Discount Parser remains frozen absent renewed demand; its reusable technical assets may continue only through admitted consumers such as Data Platform;
+- no new Arvectum OS architecture, marketplace layer, MAX2TG SaaS expansion or speculative shared infrastructure is justified by this focus decision alone.
+
+Company WIP discipline for discretionary Owner attention:
+
+`1 core execution contour + 1 bounded blocker + 1 consumer side lane`.
+
+Current mapping:
+
+`CORE = Tender Agent × Data Platform × mobile Owner console`
+
+`BLOCKER = Proxy Launcher → RuStore rejection`
+
+`SIDE = What? → MVP/review stopping point`
+
+This synchronization does not claim new external revenue, customer acceptance or profitability. It updates execution focus to reflect actual October work while preserving SR-1 evidence gates and product-repository authority.
+
+## 11. Business and governance interpretation
 
 The purpose of Strategy 2.0 is to turn the existing product portfolio into one economic system while keeping authority and product boundaries explicit.
 
