@@ -1,9 +1,9 @@
 # Arvectum Company Portfolio
 
 Status: `Active`
-Version: `1.0.0`
+Version: `1.1.0`
 Created: `2026-08-20`
-Updated: `2026-09-18`
+Updated: `2026-10-06`
 Owner: `ООО «Арвектум»`
 Repository: `arvectum2/arvectum-company`
 Strategy: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
@@ -137,3 +137,50 @@ Immediate strategic sequence:
 `current obligations + AC-607 → external paid acceptance → Work paid-stream proof + AI Company customer proof → capability reuse → Work↔owned routing → repeatable scale`.
 
 Marketplace/network and standalone platform expansion remain evidence-triggered later stages.
+
+
+## 12. 2026-10-06 portfolio execution overlay
+
+This overlay records current Owner attention without creating new product authority or rewriting product-specific roadmaps.
+
+### Core contour
+
+**PORT-001 Tender Agent** is the primary active revenue/evidence capability. Its near-term execution contour includes two supporting components:
+
+- **Data Platform** as the reusable acquisition/extraction/indexing/retrieval substrate used by named consumers, first and foremost Tender Agent;
+- **Tender mobile Owner console** as a Tender Agent interface for summaries, evidence review and human GO / NO GO / hold decisions.
+
+These components are not three competing Company initiatives. They are one bounded procurement workflow. Data Platform therefore moves from the old clarification-only interpretation to **consumer-driven shared capability**: material work is justified only by named consumer needs, measured reuse or benchmark evidence, not by standalone platform completeness.
+
+### Bounded blocker
+
+**PORT-003 Proxy Launcher** remains trigger-based. The current RuStore rejection is a named distribution blocker; work is bounded to diagnosis, remediation and resubmission/closure. It does not promote Proxy Launcher to a growth program.
+
+### Arvectum Tools
+
+The Arvectum Tools consumer-app family is recognized as an experimental distribution/product-learning lane, without creating separate Company portfolio nodes for every app at this stage.
+
+Current attention rule:
+- **What?** — single active side lane through MVP/review stopping point;
+- **Pushkin** — review/external-gate or defect-triggered;
+- **Photo Resize** — published; maintenance/distribution/monetization evidence;
+- **Where?** — backlog, not active in parallel with What?;
+- **ChickMark / Habits** — backlog, not active in parallel with What?.
+
+A future app becomes a separate governed portfolio node only when scale, obligations, material capital/risk, revenue evidence or accountability needs justify that treatment.
+
+### Frozen / trigger-based lanes
+
+- Discount Parser: freeze absent renewed customer demand; reusable generic assets may be consumed through Data Platform.
+- Creative Test Agent: customer/design-partner trigger only.
+- Arvectum Work and AI Company: retain Strategy 2.0 evidence gates; the procurement contour may provide future evidence but is not automatically counted as external Work/AI Company proof.
+- Arvectum OS: demand-driven platform work only.
+- MAX2TG: maintenance; SaaS expansion requires renewed demand/economic justification.
+
+### Owner attention rule
+
+Default discretionary WIP:
+
+`1 core execution contour + 1 bounded blocker + 1 consumer side lane`.
+
+Repository activity, unfinished backlogs and architectural attractiveness do not override this rule without P0 obligation, external evidence or explicit Owner reprioritization.
