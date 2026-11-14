@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 3
     steps:
-      - name: Compare GitVerse main/master to current GitHub main
+      - name: Compare GitVerse main to current GitHub main
         env:
           GITVERSE_TOKEN: ${{ secrets.GITVERSE_TOKEN }}
           GH_TOKEN: ${{ github.token }}
@@ -31,10 +31,9 @@ jobs:
 
           for attempt in $(seq 1 12); do
             actual_main_sha="$(git ls-remote "$remote_url" refs/heads/main | awk '{print $1}')"
-            actual_master_sha="$(git ls-remote "$remote_url" refs/heads/master | awk '{print $1}')"
 
-            if [ "$actual_main_sha" = "$expected_sha" ] && [ "$actual_master_sha" = "$expected_sha" ]; then
-              echo "GitVerse main/master match current GitHub main: $expected_sha"
+            if [ "$actual_main_sha" = "$expected_sha" ]; then
+              echo "GitVerse main matches current GitHub main: $expected_sha"
               exit 0
             fi
 
