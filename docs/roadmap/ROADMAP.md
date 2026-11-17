@@ -1,15 +1,15 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.61.0`
+Версия: `0.62.0`
 Создано: `2026-08-19`
-Обновлено: `2026-10-06`
+Обновлено: `2026-11-17`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
 Текущее M5-действие: `AC-505 — Supervised real-operation proof — external evidence wait`
 Текущее M6-действие: `M6 economic evidence collection during ordinary work — non-blocking`
-Текущий execution focus: `Tender Agent × Data Platform × mobile Owner console`
+Текущий execution focus: `Workspace First — internal owner adoption; Tender Agent × Data Platform remains the procurement contour`
 
 Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
@@ -167,3 +167,20 @@ The purpose of Strategy 2.0 is to turn the existing product portfolio into one e
 AI/software are execution means, not sources of Organizational Authority.
 
 Technical PASS still does not prove business readiness, profitability, legal compliance, customer acceptance or customer ROI.
+
+## 12. 2026-11-17 — Workspace First (Owner direction)
+
+Previous roadmap blob: `cd809fd4fdd2f6704582a71cfc314bf86158024f` (v0.61.0). Owner decision: [DECISION-2026-11-17-WORKSPACE-FIRST](../governance/decisions/DECISION-2026-11-17-WORKSPACE-FIRST.md).
+
+Workspace becomes the default executive information/work interface. Existing AC-401–406 registers/authority remain controlling. Internal adoption is a named operational improvement, not a new commercial engine or standalone CRM portfolio node. Preserve existing obligations, SR-1, M5/M6 gates and product roadmaps. The October core procurement contour remains a product-specific input; do not duplicate its authority in Workspace. Workspace First is the current internal owner-attention priority, not an additional speculative product build lane.
+
+| Sequence | Company outcome | Engineering link |
+|---|---|---|
+| 1 | Restore access and use a real project | WSF-01/02 |
+| 2 | Collect and link permitted data from real work | WSF-03/04 |
+| 3 | Daily project overview and AC-406 Mission Control | WSF-05 |
+| 4 | Lightweight native CRM and linked communication history | WSF-06 |
+| 5 | AI assistance and additional bounded connectors | WSF-07 |
+| 6 | Real owner use, feedback, fix/retest, value review | WSF-08/09 |
+
+Engineering plan: `arvectum2/arvectum-os:docs/roadmap/WORKSPACE-FIRST-DELIVERY.md` (subject to OS governance). First action is read-only recovery diagnostics; deployment, new data sources, contract expansion and material decisions remain separately gated. No technical PASS substitutes for actual convenient use as reported by Owner. Review after first usable increment; proposed five-workday pilot thereafter.

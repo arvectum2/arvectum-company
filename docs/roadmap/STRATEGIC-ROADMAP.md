@@ -1,7 +1,7 @@
 # Arvectum Company — Strategic Roadmap
 
 Status: `Active`
-Version: `1.2.0`
+Version: `1.3.0`
 Date: `2026-10-06`
 Owner: `ООО «Арвектум»`
 Strategy: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
@@ -274,3 +274,9 @@ Discretionary WIP limit:
 - one consumer side lane: What? until MVP/review stopping point.
 
 Other consumer-app ideas and speculative platform expansion remain backlog/trigger-based. This overlay does not satisfy SR-1 by itself; paid external acceptance and measured economics remain required.
+
+## 9. 2026-11-17 — Workspace First operating overlay
+
+Previous roadmap blob: `cae54687d2aaeeaf0bfadcdd92b444c7fd346454`. [Owner decision](../governance/decisions/DECISION-2026-11-17-WORKSPACE-FIRST.md).
+
+Existing SR-1 and external acceptance/economics gates remain unchanged. Default executive interface: Productive Workspace, with Information Hub, linked context, AC-406 Mission Control and first-party CRM Lite. This is a bounded internal value/use pilot, not a new external product, mandatory migration or speculative platform layer. The existing Tender Agent/Data Platform/mobile console contour contributes governed management signals; preserve its product ownership and real revenue obligations. Measure actual Owner workload, information loss, time to reconstruct context and operating cost. Continue/contain/pivot by real use evidence. Refer to Company ROADMAP §12 and OS Workspace First delivery lane.
