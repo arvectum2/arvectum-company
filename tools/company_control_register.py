@@ -163,7 +163,10 @@ def write_snapshot(path, doc, *, expected_digest=None):
     with locked(directory):
         if expected_digest is None:
             require(not path.exists() and not path.is_symlink(),"initialization refused")
-        else:require(digest(load(path))==expected_digest,"predecessor conflict")
+        else:
+            prior=load(path)
+            require(digest(prior)==expected_digest,"predecessor conflict")
+            require(len(doc["events"])==len(prior["events"])+1 and doc["events"][:-1]==prior["events"],"append-only history required")
         fd,name=tempfile.mkstemp(prefix=".register-",dir=directory)
         try:
             with os.fdopen(fd,"wb") as f:
