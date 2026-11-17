@@ -1,0 +1,20 @@
+# AC-402 — first actual decision-control register
+
+Status: implemented on selected Mac, publication pending review/merge. 2026-11-17.
+Authority: Approved AC-402 v1.0.0, incorporated normative blob a48081ba3599e6f3c91b8a6562435ad1f0c152f4; Company main bf8de77396ff8124e376b9c27ec754cbadd1f54c. Existing Owner instruction to proceed with AC-402, not a new decision/approval for individual business effects.
+
+## Initial source population
+
+The exact published Company decisions dated 2026-11-17 (Workspace First and WSF-04C pilot parameters) were reopened and inspected, including attributable acts and stated limits. The exact OS provisional 0.5.1 publication at c06ff1640bee07e1cff52eac03b538205091d839 was inspected for the preexisting separate approval domain. Current manual pilot review signal and authoritative linked AC-401 work record independently matched. Known local Company store previously contained only AC-401; existing Company decision documents remain canonical for their original acts. This is a reference index, not a competing authority or a claim of exhaustive historical inventory.
+
+Initial DEC population: two already-decided material cases with conditions (Workspace First and approved pilot parameters); one preparing continuation review linked to existing work and actual expiry 2026-12-17T09:35:36.060836Z. Its outcome is none and effect readiness blocked, not ready for approval. One APR references the exact existing OS contract approval in its separate domain, not the P7.04 access grant or execution evidence. No ESC added without a specific demonstrated requirement for handoff. Counts 3 DEC, 1 APR, 0 ESC; coverage partial. Zero registered escalations does not establish absence of escalation needs. State and normalized classifications do not replace the original exact wording. No fresh Owner action, new approval, delegation, legal act or execution was inferred.
+
+## Store and verification
+
+Implementation/test head ab5a07c3089e19c236c38d09aa76f75035a5c43c: independent stable DEC/APR/ESC sequences, concern-key deduplication, full revisions with predecessor digests, immutable decision question/scope/attributed act, separate lifecycle and outcome; preserves historical acts on expiry/revocation; requires references and rejects implicit execution readiness. Escalation external-wait vs owner attention semantics and resolution evidence separately checked. The store validates shape and history, not actual authority, signatures or source truth. Operators must verify exact evidence and competence for every update; reference fields alone are not permission. Twelve focused tests PASS including existing AC-401 regressions. Actual newly initialized private register four events; external encrypted backup verified on independent selected volume and restored to empty temporary private storage, byte equality and replay PASS. AC-401 primary and backup unchanged. No live OS grant/receipt or scheduler, customer/financial/raw payload, Tender Agent mutation, or new spend.
+
+Primary selected human Application Support/ArvectumCompany/decision-register/register.json; independent encrypted external ArvectumSSD/Arvectum/backups/arvectum-company/decision-register/latest.private.json. Both private, owner-only. Future updates need actual source/authority, predecessor and history, pre-write verification and independent post-write backup verification; report partial persistence on backup failure and do not duplicate a record on retry. Bounds 2 MiB and 1000 events. Hash chain assists integrity, not authenticity. No automated retention/purge/renewal. Existing files are never initialized over.
+
+## Next
+
+Separate limited read-only Product Contract admission for reviewed exact four records in Mission Control; show actual historical acts separately from preparing review, current applicability unknown unless independently verified, no action/approval button, no duplicate work counts, no new source writes. Existing AC-401 source admission must remain intact. AC-403 risk/exception/incident sources and AC-404 financial source inventory follow; do not infer finance or obligations from approval records.
