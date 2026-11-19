@@ -18,3 +18,6 @@
 
 ## 2026-11-19 — перенос и итерация v0.27
 Рабочая копия перенесена в /Volumes/ArvectumSSD/Arvectum/repos/arvectum-company-brand/brand, ветка brand/identity-v3 GitHub arvectum2/arvectum-company, зеркало GitVerse arvectum/arvectum-company. Импорт cbc7d7c сохраняет предыдущую историю. Старый каталог — архив, не конкурирующий источник. v0.27: 04_Цвет и типографика/Arvectum-Typeface-v0.27; A/B Display/Text, geometry.json, proof.svg/png, build.py, REVIEW.md. Следующая точка v0.28 — внешние плечи и центральная выемка. Прежние решения не переоткрывать.
+
+## 2026-11-19 — итерация v0.28
+04_Цвет и типографика/Arvectum-Typeface-v0.28: шесть кандидатов C/D/E Display/Text, геометрический отчет, воспроизводимый скрипт, сравнительный SVG/PNG; C предварительно предпочтителен. Следующая точка v0.29 — сводная вычитка семейства n/m/h/u/п/м/и/ш. Прежние решения и отсутствующие исходники не считать закрытыми.
