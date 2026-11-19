@@ -1,0 +1,45 @@
+{
+  "alphabet_scope": "52 Latin + 66 Russian letters per style; no digits/punctuation; not full font coverage",
+  "archive_sha256": "1268094561af750ff23fc5b8d78c77511aacc08e86d2637fe446cb0136e9d01d",
+  "archive_checks": [
+    {
+      "archive": "Arvectum_Golden_Step_v0.21.zip",
+      "members": 69,
+      "verified_internal_hashes": 68
+    },
+    {
+      "archive": "sources/Arvectum_Golden_Wordmark_v0.19.zip",
+      "members": 69,
+      "verified_internal_hashes": 68
+    },
+    {
+      "archive": "sources/wordmark_source_v014.zip",
+      "members": 19,
+      "verified_internal_hashes": 0
+    }
+  ],
+  "matched_wordmark_master_files": 4,
+  "matched_monogram": true,
+  "wordmark_context_count": 16,
+  "wordmark_context_chars": "AcemrtuvАвекмрту",
+  "coverage": {
+    "Display": {
+      "current_candidate": 14,
+      "legacy_only": 13,
+      "wordmark_reference_only": 10,
+      "missing": 81
+    },
+    "Text": {
+      "current_candidate": 14,
+      "legacy_only": 13,
+      "wordmark_reference_only": 10,
+      "missing": 81
+    }
+  },
+  "missing_original_archives": {
+    "v0.13": "745acc1e6f1a702721298d427f1ae23ea6a7c8aa9aa4c03339905885927408aa",
+    "v0.22": "73545648eefd0f9681e85cd4032cade81f2be4136551cf9ad64d71bf63b96306",
+    "v0.23": "1bf1ac8110f7cd45ce1c5069e7e3146415572897e2c83f80da78c84dec9b481b",
+    "v0.24": "a3206640071c5e1522a90a3f1078cfc8ebe7bad0c72d7a02053fc3aa2cc4653a"
+  }
+}
