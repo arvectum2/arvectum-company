@@ -71,13 +71,13 @@ for style in ['Display','Text']:
     entries.append((style,'m candidate',e,p))
 # Proof with shared coordinate system and reference lines; glyphs use original curves.
 w,h=1500,650
-parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}"><rect width="100%" height="100%" fill="white"/><text x="32" y="37" font-family="Arial" font-size="23" fill="#001432">Arvectum Typeface • Shoulder review v0.26 • unapproved</text>']
+parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}"><rect width="{w}" height="{h}" fill="white"/><text x="32" y="37" font-family="Arial" font-size="23" fill="#001432">Arvectum Typeface • Shoulder review v0.26 • unapproved</text>']
 for ri,style in enumerate(['Display','Text']):
     y=75+ri*275
     parts.append(f'<text x="32" y="{y+19}" font-family="Arial" font-size="17" fill="#001432">{style}</text>')
     row=[x for x in entries if x[0]==style]
     for i,(_,name,e,p) in enumerate(row):
-        x=32+i*160; vb=list(map(float,e.attrib['viewBox'].split())); scale=.112
+        x=32+i*160; vb=list(map(float,e.attrib['viewBox'].split())); scale=.10
         baseline=y+194
         shift=1073 if name not in ('U+0068','U+0438','U+043C','U+043F','U+0448') else 1507 if name=='U+0068' else 1056
         ty=baseline-shift*scale
