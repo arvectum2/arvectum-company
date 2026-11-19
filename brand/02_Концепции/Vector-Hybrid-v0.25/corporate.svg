@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240">
+<rect width="480" height="240" fill="#EEF4F2"/>
+<path d="M0 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M40 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M80 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M120 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M160 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M200 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M240 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M280 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M320 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M360 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M400 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M440 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M480 0 V240" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 0 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 40 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 80 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 120 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 160 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 200 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M0 240 H480" stroke="#C8D2DC" stroke-width=".7"/>
+<path d="M90 240 L238.328 0" stroke="#41B599" stroke-width="1.5"/>
+<path d="M150 240 L298.328 0" stroke="#41B599" stroke-width="1.5"/>
+<path d="M210 240 L358.328 0" stroke="#41B599" stroke-width="1.5"/>
+<path d="M270 240 L418.328 0" stroke="#41B599" stroke-width="1.5"/>
+</svg>
