@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240">
+<rect width="480" height="240" fill="#001432"/>
+<path d="M0 80 L49.443 0 H80 V80 Z" fill="#41B599"/>
+<path d="M80 80 L129.443 0 H160" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M160 80 L209.443 0 H240" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M240 80 L289.443 0 H320 V80 Z" fill="#41B599"/>
+<path d="M320 80 L369.443 0 H400" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M400 80 L449.443 0 H480" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M0 160 L49.443 80 H80" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M80 160 L129.443 80 H160" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M160 160 L209.443 80 H240 V160 Z" fill="#41B599"/>
+<path d="M240 160 L289.443 80 H320" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M320 160 L369.443 80 H400" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M400 160 L449.443 80 H480 V160 Z" fill="#41B599"/>
+<path d="M0 240 L49.443 160 H80" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M80 240 L129.443 160 H160 V240 Z" fill="#41B599"/>
+<path d="M160 240 L209.443 160 H240" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M240 240 L289.443 160 H320" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+<path d="M320 240 L369.443 160 H400 V240 Z" fill="#41B599"/>
+<path d="M400 240 L449.443 160 H480" fill="none" stroke="#41B599" stroke-opacity=".48"/>
+</svg>
