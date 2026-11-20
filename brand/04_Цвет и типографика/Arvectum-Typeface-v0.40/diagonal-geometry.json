@@ -1,0 +1,328 @@
+{
+  "Display": {
+    "phi": 1.618033988749895,
+    "main_diagonal_deg": 58.282525588538995,
+    "w_diagonal_deg": 69.0948425521107,
+    "stem": 200.59127,
+    "bar": 190.77974,
+    "glyphs": {
+      "K": {
+        "bbox": [
+          100.0,
+          0.0,
+          971.0,
+          1490.0
+        ],
+        "ink_area_approx": 620804.0,
+        "sha256": "a136847e89fa4328cd3a470ef394de0bb73261c08134ea0af551be806907569b",
+        "source": "legacy Cyrillic К exact"
+      },
+      "X": {
+        "bbox": [
+          0.0,
+          0.0,
+          1156.6798237,
+          1490.0
+        ],
+        "ink_area_approx": 657725.1834441591,
+        "sha256": "d390ea4b38c9eb64f1fc1d950b5fe7b51a9f83d5f1322e46f47d6679d16042ca",
+        "source": "new golden diagonal geometry"
+      },
+      "Y": {
+        "bbox": [
+          0.0,
+          0.0,
+          1338.8499835,
+          1490.0
+        ],
+        "ink_area_approx": 518748.4355248899,
+        "sha256": "5b461b569bfed50f347387b187b811f74dce616bfe9d7a810ab1c5d1826a0575",
+        "source": "new golden diagonal geometry"
+      },
+      "Z": {
+        "bbox": [
+          0.0,
+          0.0,
+          920.8630964,
+          1490.0
+        ],
+        "ink_area_approx": 612744.4948677677,
+        "sha256": "3db12102e921d1994b4b581f549af64957665bd398969f15e9a0d85cdb1ad3e0",
+        "source": "new golden diagonal geometry"
+      },
+      "k": {
+        "bbox": [
+          0.0,
+          0.0,
+          644.8178063,
+          1490.0
+        ],
+        "ink_area_approx": 525402.399667604,
+        "sha256": "ac02e936ced399ac2410982fe28cf19de0771fa1371629a6db18d2bea1330073",
+        "source": "new golden diagonal geometry"
+      },
+      "w": {
+        "bbox": [
+          0.0,
+          0.0,
+          1551.9363377,
+          1056.0
+        ],
+        "ink_area_approx": 713864.4729469563,
+        "sha256": "cf08b59b91f95e2a0ad1aea8d333271443ad072a67c43d04c98800ecb53700b5",
+        "source": "new golden diagonal geometry"
+      },
+      "x": {
+        "bbox": [
+          0.0,
+          0.0,
+          888.4530726,
+          1056.0
+        ],
+        "ink_area_approx": 453042.8147352078,
+        "sha256": "6b9dda1e954255540c08a0c0c4222e0a2e2978711fffaeaaedd142ce4a445354",
+        "source": "new golden diagonal geometry"
+      },
+      "y": {
+        "bbox": [
+          0.0,
+          -350.0,
+          1423.3992386,
+          1056.0
+        ],
+        "ink_area_approx": 535615.4921329824,
+        "sha256": "e4aa94f9226da2d5a99dcdd70fff5a937e960dd8c63d058b589160f4c39ca141",
+        "source": "new golden diagonal geometry"
+      },
+      "z": {
+        "bbox": [
+          0.0,
+          0.0,
+          652.6363452,
+          1056.0
+        ],
+        "ink_area_approx": 408058.8507870843,
+        "sha256": "0dcd93d46ad56391a49abb9232d419213e92c15afaf4db9ac7714c008d86cb1d",
+        "source": "new golden diagonal geometry"
+      },
+      "У": {
+        "bbox": [
+          0.0,
+          0.0,
+          1642.7743264,
+          1490.0
+        ],
+        "ink_area_approx": 597274.4462136343,
+        "sha256": "a0e8ffa88eb23ad55e8c693eab053ea242c63c267920860f816cb9e19b44c49a",
+        "source": "new golden diagonal geometry"
+      },
+      "ж": {
+        "bbox": [
+          -444.2265363,
+          0.0,
+          644.8178063,
+          1056.0
+        ],
+        "ink_area_approx": 664867.1958552079,
+        "sha256": "360b7d8bad1f64122c1939161736dcf0f1e61c8a8997d74941b8a0e23c62e92c",
+        "source": "new golden diagonal geometry"
+      },
+      "Х": {
+        "bbox": [
+          0.0,
+          0.0,
+          1156.6798237,
+          1490.0
+        ],
+        "ink_area_approx": 657725.1834441591,
+        "sha256": "d390ea4b38c9eb64f1fc1d950b5fe7b51a9f83d5f1322e46f47d6679d16042ca",
+        "source": "new golden diagonal geometry"
+      },
+      "х": {
+        "bbox": [
+          0.0,
+          0.0,
+          888.4530726,
+          1056.0
+        ],
+        "ink_area_approx": 453042.8147352078,
+        "sha256": "6b9dda1e954255540c08a0c0c4222e0a2e2978711fffaeaaedd142ce4a445354",
+        "source": "new golden diagonal geometry"
+      }
+    }
+  },
+  "Text": {
+    "phi": 1.618033988749895,
+    "main_diagonal_deg": 58.282525588538995,
+    "w_diagonal_deg": 72.82796214948617,
+    "stem": 185.435,
+    "bar": 175,
+    "glyphs": {
+      "K": {
+        "bbox": [
+          92.0,
+          0.0,
+          866.0,
+          1490.0
+        ],
+        "ink_area_approx": 526509.5,
+        "sha256": "2cfe58fb8ca64403754d8dccb50dceb0b264d1b80c3861e965ec4ca27d909a67",
+        "source": "legacy Cyrillic К exact"
+      },
+      "X": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.8625598,
+          1490.0
+        ],
+        "ink_area_approx": 611171.0388593633,
+        "sha256": "eeec8411842524c9ef0b700395f3023dbf76023f42dfb2325432dde42d6dbc86",
+        "source": "new golden diagonal geometry"
+      },
+      "Y": {
+        "bbox": [
+          0.0,
+          0.0,
+          1323.6937135,
+          1490.0
+        ],
+        "ink_area_approx": 481628.3082665874,
+        "sha256": "0b331e97ea557a3aa95d962c3dacb68359fe507ea9182f963455362f61aa817c",
+        "source": "new golden diagonal geometry"
+      },
+      "Z": {
+        "bbox": [
+          0.0,
+          0.0,
+          922.5506637,
+          1490.0
+        ],
+        "ink_area_approx": 571403.5171049999,
+        "sha256": "bc4934cd047ba4540d1bf351d366874524db0e96daf59c26b12a2be5eb70963f",
+        "source": "new golden diagonal geometry"
+      },
+      "k": {
+        "bbox": [
+          0.0,
+          0.0,
+          620.7529043,
+          1490.0
+        ],
+        "ink_area_approx": 487275.17765734077,
+        "sha256": "7c1a85f2ca829467cc8c5fbb4c7aaf5625b35df0400bc38140a89ef7e6309f3f",
+        "source": "new golden diagonal geometry"
+      },
+      "w": {
+        "bbox": [
+          0.0,
+          0.0,
+          1252.8606225,
+          1056.0
+        ],
+        "ink_area_approx": 626399.9847397115,
+        "sha256": "ac4390adf1fb69653a41ad67673e2ec645470640ece79361f42efb5e6b70c0bc",
+        "source": "new golden diagonal geometry"
+      },
+      "x": {
+        "bbox": [
+          0.0,
+          0.0,
+          870.6358086,
+          1056.0
+        ],
+        "ink_area_approx": 421954.05526188156,
+        "sha256": "7e9119c155481c55c6f2fd99bdfa8cf2aba0116108f8cdf1f6ca9a582be6625f",
+        "source": "new golden diagonal geometry"
+      },
+      "y": {
+        "bbox": [
+          0.0,
+          -350.0,
+          1405.5819747,
+          1056.0
+        ],
+        "ink_area_approx": 496716.5895417425,
+        "sha256": "f5104e77d17f9b92336afcf6e56236373265609a1ef010e4234c036777021031",
+        "source": "new golden diagonal geometry"
+      },
+      "z": {
+        "bbox": [
+          0.0,
+          0.0,
+          654.3239126,
+          1056.0
+        ],
+        "ink_area_approx": 382915.66245899996,
+        "sha256": "e4c8c39e57eefbe9f25bd32bc0674a51f632d3b9ebf1c50251b8989daaf3fcec",
+        "source": "new golden diagonal geometry"
+      },
+      "У": {
+        "bbox": [
+          0.0,
+          0.0,
+          1624.9570624,
+          1490.0
+        ],
+        "ink_area_approx": 553716.7179015873,
+        "sha256": "7318e6d97a2d912133d0b1813c75bff07c775c6ef10453ff3ffec2ef92f1585b",
+        "source": "new golden diagonal geometry"
+      },
+      "ж": {
+        "bbox": [
+          -435.3179043,
+          0.0,
+          620.7529043,
+          1056.0
+        ],
+        "ink_area_approx": 617773.4153146816,
+        "sha256": "3999257ff5db643b71de2e121cf252900a4fd30004e0b2c5d68cc2ed1f386247",
+        "source": "new golden diagonal geometry"
+      },
+      "Х": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.8625598,
+          1490.0
+        ],
+        "ink_area_approx": 611171.0388593633,
+        "sha256": "eeec8411842524c9ef0b700395f3023dbf76023f42dfb2325432dde42d6dbc86",
+        "source": "new golden diagonal geometry"
+      },
+      "х": {
+        "bbox": [
+          0.0,
+          0.0,
+          870.6358086,
+          1056.0
+        ],
+        "ink_area_approx": 421954.05526188156,
+        "sha256": "7e9119c155481c55c6f2fd99bdfa8cf2aba0116108f8cdf1f6ca9a582be6625f",
+        "source": "new golden diagonal geometry"
+      },
+      "к": {
+        "bbox": [
+          0.0,
+          0.0,
+          620.7529043,
+          1056.0
+        ],
+        "ink_area_approx": 406796.38765734073,
+        "sha256": "d495b93b48b75aea88f272f9185baf975a4d4d8bb714b043701cc31eb2255eac",
+        "source": "new golden diagonal geometry"
+      },
+      "у": {
+        "bbox": [
+          0.0,
+          -350.0,
+          1405.5819747,
+          1056.0
+        ],
+        "ink_area_approx": 496716.5895417425,
+        "sha256": "f5104e77d17f9b92336afcf6e56236373265609a1ef010e4234c036777021031",
+        "source": "new golden diagonal geometry"
+      }
+    }
+  }
+}

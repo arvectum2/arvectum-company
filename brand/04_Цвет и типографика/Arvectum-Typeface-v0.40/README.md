@@ -1,0 +1,17 @@
+# Arvectum Golden Step v0.40 — diagonals and branches
+2026-11-20 | BR-05 | Draft | Not approved for production
+
+## Scope
+Continue v0.39. Replace upstream K X Y Z k w x y z / У Х ж х in both optical styles; add к/у in Text only, retaining Display wordmark-derived к/у unchanged. 28 control SVG positions (13 Display, 15 Text). K shares the exact surviving legacy Cyrillic К outline and advance. New X/Х, x/х, and Text y/у have matching paths and metrics. A/А, V/W, Л/Д and the previously developed и/м are unchanged. No logo-master edits.
+
+## Geometry
+UPM 2048, cap 1490, x-height 1056. Stem target 200.59127 Display / 185.435 Text, bar targets 190.77974/175. X/x diagonals, Z/z diagonal, Y branch construction, y/У/у descender construction and k/ж/к branches use dx/dy=1/phi as primary slope; w uses dx/dy=1/phi² Display and 1/(2phi) Text, consistent with v0.22 W optical angular choices. Parallel diagonal stroke edges use horizontal thickness t*hypot(1,s), giving normal thickness t where the specified parallel edges apply; intersections, branch terminals and legacy outlines are not claimed to have uniform thickness. Y join at cap/phi²; y join at x-height/phi⁵, У join at cap/phi³; y descender -350. Lowercase w uses tip flat t/phi². Narrowed k/ж/к branch joints after visual comparison by placing outer/inner edges symmetrically around the branch axis. All new widths, junctions, terminals and joins are provisional design decisions; the inherited legacy K is not a new golden construction. The use of golden slope is a design constraint, not evidence of readability or final optical balance.
+
+## QA
+28 SVG with positive polygon areas and sampled strict self-intersection checks; 2 OTFs, identical 180-codepoint mapping. All target positions actually changed relative to v0.39, while 167 Display and 165 Text other positions have identical recorded outlines and hmtx; tabular digits unchanged. Cross-script identity verified for K/К, X/Х, x/х and Text y/у. All new glyphs rasterize nonempty at 12/16/24/40/72 px and shape without .notdef with HarfBuzz. Both styles rendered in full specimen and before/after proof; revised branch joints visually less dense, but optical review remains open (particularly compact lowercase branching and angular У). Successive builds reproducible byte-for-byte for OTFs and SVGs. No exhaustive readability, kerning, GPOS/GSUB, system compatibility or print validation.
+
+## Coverage and continuation
+83/118 Display and 80/118 Text alphabet positions use non-upstream draft outlines (includes legacy/wordmark adaptations, not all newly designed or approved). Remaining upstream alphabet positions 35/38 respectively. 97/100 full-coverage fallback positions include 59 digit/symbol positions and 3 spaces each. See coverage-audit.json. Next proposed iteration v0.41: remaining double bowls/curved families B/D and Cyrillic counterparts, lowercase a/g and related forms as coherent subsets; later diacritics, remaining letters, digits/symbols, optical harmonization, kerning and print. All historical versions retained.
+
+## Reproduction
+Python 3.14, numpy, fontTools 4.68.0; Pillow and hb-shape for proofs. Run diagonal.py, build.py, proof.py, compare.py. Builds reuse tracked v0.36 licensed Inter sources and v0.37–v0.39 outlines, and earlier surviving sources. Artifacts: glyphs/, experimental/, glyph-provenance.csv, diagonal-geometry.json, coverage-audit.json, build-report.json, render-qa.json, comparison-qa.json, proof.png, diagonal-comparison.png, SHA256SUMS.txt. No installation, publishing or final approval.

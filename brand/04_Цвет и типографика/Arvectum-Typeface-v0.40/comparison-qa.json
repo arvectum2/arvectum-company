@@ -1,0 +1,58 @@
+{
+  "Display": {
+    "unchanged_outside_family": 167,
+    "actually_changed": [
+      "K",
+      "X",
+      "Y",
+      "Z",
+      "k",
+      "w",
+      "x",
+      "y",
+      "z",
+      "У",
+      "Х",
+      "ж",
+      "х"
+    ],
+    "same_within_family": [],
+    "raster_nonempty": {
+      "12": 13,
+      "16": 13,
+      "24": 13,
+      "40": 13,
+      "72": 13
+    },
+    "hb_nonmissing": 13
+  },
+  "Text": {
+    "unchanged_outside_family": 165,
+    "actually_changed": [
+      "K",
+      "X",
+      "Y",
+      "Z",
+      "k",
+      "w",
+      "x",
+      "y",
+      "z",
+      "У",
+      "Х",
+      "ж",
+      "к",
+      "у",
+      "х"
+    ],
+    "same_within_family": [],
+    "raster_nonempty": {
+      "12": 15,
+      "16": 15,
+      "24": 15,
+      "40": 15,
+      "72": 15
+    },
+    "hb_nonmissing": 15
+  }
+}
