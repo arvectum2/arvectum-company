@@ -1,0 +1,28 @@
+{
+  "Display": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "math_business": 14,
+    "currency": 7,
+    "spaces": 3,
+    "encoded_total": 182,
+    "ink_bearing": 179,
+    "non_upstream_draft": 182,
+    "upstream_remaining": 0,
+    "status": "primary repertoire draft complete, not release"
+  },
+  "Text": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "math_business": 14,
+    "currency": 7,
+    "spaces": 3,
+    "encoded_total": 182,
+    "ink_bearing": 179,
+    "non_upstream_draft": 182,
+    "upstream_remaining": 0,
+    "status": "primary repertoire draft complete, not release"
+  }
+}

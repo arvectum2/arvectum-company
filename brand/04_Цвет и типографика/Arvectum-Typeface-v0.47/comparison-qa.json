@@ -1,0 +1,52 @@
+{
+  "Display": {
+    "currency_changed": [
+      "$",
+      "¢",
+      "£",
+      "¥",
+      "€",
+      "₴",
+      "₽"
+    ],
+    "unchanged_outside_scope": 172,
+    "whitespace": {
+      "U+0020": 512,
+      "U+00A0": 512,
+      "U+202F": 316
+    },
+    "raster_sizes": [
+      12,
+      16,
+      24,
+      40,
+      72
+    ],
+    "tested_visible_codepoints": 179
+  },
+  "Text": {
+    "currency_changed": [
+      "$",
+      "¢",
+      "£",
+      "¥",
+      "€",
+      "₴",
+      "₽"
+    ],
+    "unchanged_outside_scope": 172,
+    "whitespace": {
+      "U+0020": 512,
+      "U+00A0": 512,
+      "U+202F": 316
+    },
+    "raster_sizes": [
+      12,
+      16,
+      24,
+      40,
+      72
+    ],
+    "tested_visible_codepoints": 179
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "upm": 2048,
+  "rule": "space = em/4; NBSP same advance; NNBSP = round(space/phi)",
+  "widths": {
+    "U+0020": 512,
+    "U+00A0": 512,
+    "U+202F": 316
+  }
+}
