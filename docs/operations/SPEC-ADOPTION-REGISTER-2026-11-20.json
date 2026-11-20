@@ -79,7 +79,7 @@
         "verified": 0,
         "verification_tasks": 22,
         "structural_tests": "8/8 PASS exact read-back",
-        "ci": "15 PASS / 5 pending at latest observation; exact current main integration",
+        "ci": "18 PASS / 2 quality pending; no known failure at observation",
         "note": "13 native PQ AC linked to existing task IDs and nine selected master gates; not full master coverage. APR-05 rehearsal, APR-06 independent commercial evidence, PRICE-01 independent contract evidence separate. No live action.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
@@ -100,10 +100,23 @@
       "pr": 30,
       "verified_head": "3a888c01b8f0add45d3af32a44df4e9684cdbb57",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "adoption": {
+        "pr": 30,
+        "merge_commit": "e46a4690444d301578ad52335915f4260633c6cb",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "fail": 0,
+          "pending": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling and registration only"
+      }
     },
     {
       "project": "Proxy Launcher",
@@ -377,7 +390,12 @@
           "fail": 0
         },
         "mirror_job_observed": "not_observed_at_snapshot",
-        "scope": "source review tooling only; actual acceptance not verified"
+        "scope": "source review tooling only; actual acceptance not verified",
+        "mirror_ref": {
+          "observed_sha": "aeae858fae079ed681eedfc4e35462747e5ea412",
+          "matches_merge": false,
+          "disposition": "lagging, no forced push or prune performed"
+        }
       }
     },
     {
@@ -442,7 +460,12 @@
           "fail": 0
         },
         "mirror_job_observed": "not_observed_at_snapshot",
-        "scope": "source review tooling only; actual acceptance not verified"
+        "scope": "source review tooling only; actual acceptance not verified",
+        "mirror_ref": {
+          "observed_sha": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0",
+          "matches_merge": false,
+          "disposition": "lagging, no forced push or prune performed"
+        }
       }
     },
     {
@@ -471,14 +494,14 @@
         "note": "Public positioning, SEO/content plan intact; existing verify failure; no publication."
       },
       "adoption": {
-        "stage": "sitemap_repaired_in_candidate_pending_CI",
+        "stage": "sitemap_repaired_separate_static_checks_failed",
         "source_commit": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
         "urls_before": 52,
         "urls_after": 52,
         "ordered_url_set_unchanged": true,
         "local_generator_check": "PASS",
         "head": "26f307492bcac31e9471804c84e2ed5b983b2bdc",
-        "ci": "1 PASS / 2 pending"
+        "ci": "2 PASS / 1 FAIL; sitemap freshness passed; unrelated Schlam pages missing canonical link and favicon requirements; no site deployment"
       }
     },
     {
@@ -780,12 +803,12 @@
     }
   ],
   "blockers": [
-    "Tender Agent exact candidate updated onto new main; new CI not yet complete.",
-    "Site sitemap regenerated; exact candidate CI not yet complete.",
-    "Discount Parser Windows delivery build requires arvectum-data dependency not installed; no bypass; held scope stays contained.",
-    "Museum broader Laravel and Next.js checks still fail; product QA separate; dedicated Spec Kit CI passed.",
-    "Full atomic evidence, local active-branch divergence, chat-derived source reconciliation and actual acceptance remain open.",
-    "Arvectum Skills registered, not bootstrapped; repository contains only foundation files."
+    "Tender Agent new-base CI 18 PASS, two quality checks pending; no merge until all applicable checks pass.",
+    "Site sitemap 52 URLs unchanged, freshness repaired; separate Schlam static metadata checks fail. No product/content publication or validator bypass.",
+    "Discount Parser Windows delivery build requires missing arvectum-data; held scope stays contained.",
+    "Museum broader Laravel and Next.js checks fail; dedicated review gate PASS; no product changes.",
+    "Creative Test Agent and Doors Parser GitVerse main refs lag accepted GitHub main. No force/prune applied.",
+    "Full atomic evidence mapping, local divergence, chat reconciliation, and actual product acceptance remain open."
   ],
   "verification": {
     "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
@@ -1143,7 +1166,7 @@
     }
   },
   "criterion_rollout": {
-    "status": "all_identified_scopes_have_bounded_review_candidates_including_company; atomic_and_evidence_reconciliation_incomplete",
+    "status": "22_registered_foundations_reviewed; canonical_adoption_partial; atomic_and_evidence_reconciliation_incomplete",
     "source_occurrences": 63,
     "independent_structural_tests": 25,
     "verified_criteria": 0,
@@ -1200,24 +1223,30 @@
       "canonical_remote": "GitHub",
       "mirror": "GitVerse (one-way)",
       "default_branch": "main",
-      "observed_head": "a4a1249e122e6061488b64e7b3e0ecad01716d9a",
-      "observed_files": [
-        "README.md",
-        ".gitignore",
-        ".github/workflows/mirror-to-gitverse.yml"
-      ],
-      "stage": "registered_not_bootstrapped",
-      "native_spec_kit_installed": false,
-      "roadmap_present": false,
-      "mirror_workflow_observation": "latest run success; earlier run failure; independent GitVerse ref comparison not performed",
-      "next_action": "Define repository-level purpose/ownership and source-linked roadmap, then adopt pinned Spec Kit and review gates; do not infer skills, governance authority or production adoption from registration.",
+      "observed_head": "aceab21ba3092c49a1835ef62f667da8fb0cbe7a",
+      "stage": "native_spec_kit_in_canonical_main_verified",
+      "native_spec_kit_installed": true,
+      "roadmap_present": true,
+      "mirror_workflow_observation": "latest exact GitHub and GitVerse main SHA equal",
+      "next_action": "AS-020 — bounded inventory of reusable procedures, ownership, acceptance gates and baseline measurements",
       "actual_acceptance_verified": false,
-      "execution_authorized": false
+      "execution_authorized": false,
+      "initial_registered_head": "a4a1249e122e6061488b64e7b3e0ecad01716d9a",
+      "native_version": "1.2.4",
+      "observed_file_count": 36,
+      "skill_md_count": 0,
+      "roadmap_path": "docs/ROADMAP.md",
+      "roadmap_sha256": "56f0772d1c2ba63c6ad3b29f8ad60a0ffd93ee717bea2b83ce67aef76a493c7d",
+      "spec_package": "specs/001-skills-foundation",
+      "manifest_sha256": "95f64605764ff553430da0bff48af5491963fa53d4f9e9fda9ec81191eb7824a",
+      "manifest_file_integrity": "12/12 PASS",
+      "foundation_ci": "2/2 PASS (trace and mirror)",
+      "mirror_ref_verified": "aceab21ba3092c49a1835ef62f667da8fb0cbe7a"
     }
   ],
   "adoption_execution": {
     "scope": "Owner instructed acceptance of prepared integration packages and addition of arvectum-skills; exact-head merge after review, no override of failures or release permissions.",
-    "observed_merged_count": 12,
+    "observed_merged_count": 13,
     "observed_total_review_prs": 17,
     "merged": [
       {
@@ -1363,23 +1392,30 @@
           "fail": 0
         },
         "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/arvectum-company",
+        "pr": 30,
+        "merge_commit": "e46a4690444d301578ad52335915f4260633c6cb",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "fail": 0,
+          "pending": 0
+        },
+        "mirror_observation": "exact ref verified"
       }
     ],
     "remaining": [
       {
-        "repo": "arvectum2/arvectum-company",
-        "pr": 30,
-        "stage": "registry update candidate; exact head review pending"
-      },
-      {
         "repo": "arvectum2/tender-agent",
         "pr": 667,
-        "stage": "new base CI pending"
+        "stage": "18/20 checks passed; two quality checks pending"
       },
       {
         "repo": "arvectum2/arvectum-site",
         "pr": 16,
-        "stage": "sitemap repair CI pending"
+        "stage": "sitemap fixed; separate static check failure Schlam metadata"
       },
       {
         "repo": "arvectum2/discount-parser",
@@ -1395,12 +1431,27 @@
     "side_effects": [
       "Existing automatic GitHub Pages build/deploy on APL main succeeded; no App Store upload or binary release requested or executed."
     ],
-    "note": "A snapshot, not a current guarantee. Canonical target head and tree verified after each merge. Local original working copies not updated; no forced sync. No new execution authority."
+    "note": "A snapshot, not a current guarantee. Canonical target head and tree verified after each merge. Local original working copies not updated; no forced sync. No new execution authority.",
+    "mirror_readback": {
+      "matching": 12,
+      "total": 14,
+      "lagging": [
+        {
+          "repo": "arvectum2/creative-test-agent",
+          "mirror_sha": "aeae858fae079ed681eedfc4e35462747e5ea412"
+        },
+        {
+          "repo": "arvectum2/doors_parser",
+          "mirror_sha": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0"
+        }
+      ],
+      "note": "Exact adopted target refs plus new Skills main. Company ref is snapshot before this registry followup."
+    }
   },
   "inventory_counts": {
     "original_identified_contours": 21,
     "registered_total": 22,
-    "technical_foundation_reviewed": 21,
-    "new_registered_pending_bootstrap": 1
+    "technical_foundation_reviewed": 22,
+    "new_registered_pending_bootstrap": 0
   }
 }
