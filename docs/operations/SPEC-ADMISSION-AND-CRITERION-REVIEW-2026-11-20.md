@@ -1,0 +1,13 @@
+# Spec Kit admission review and first product criterion gate — 2026-11-20
+
+Draft; no approval, main merge, release or Mission Control change. Exact observation of 17 open draft PRs before follow-up changes: 11 had successful checks and no failures, 5 had failed checks, 1 had no checks. This is not merge authorization. Tender Agent mergeability was unknown at observation. Exact heads and relevant blockers are in the adoption register.
+
+The canonical 2026-11-14 POS-004 AM-4 renewal permits only admitted AUTO items with auto_merge true and exact-head CI, review, dependency and rollback checks. AC-203 explicitly distinguishes analysis/execution from approval. No draft in this workstream is assumed admitted. Owner-directed merges need explicit bounded authority and applicable gates. Keep OS governance approval separate.
+
+Site and Museum's pinned main already showed failures of the corresponding verify / Laravel / Next.js jobs; that is not proof of identical underlying causes. Discount Parser Windows build dependency is missing on its candidate; held product scope is not resumed. Infrastructure/OS mirror errors are recorded, not bypassed. Company mirror previously failed but was green in this snapshot.
+
+APL PR #385 now has a criterion-specific candidate ledger and task board for all nine original release capability rows and six publication checklist criteria, with exact line text and immutable source pin. Reports read at QA branch 60e7d46f6ec1a2ae71f3a0575e036d8881c965ec include the documented physical backup cycle of 19 November and scoped laboratory results. All 15 verification tasks remain open; eleven partial, one open, three blocked; zero verified. No final release acceptance asserted.
+
+New gate compares current source to pinned source, enforces the exact criterion set and individual task links, checks state/checkbox consistency and requires criterion-specific versioned evidence fields before a verified state. Nine structural tests passed on exact head a1fc1a306b355979d7f22dbc8456cd9573832c04. Initial CI check passed at 9fbf291; final head CI was pending at observation. Gate validates structure, not authenticity of receipts or reviews, and is not yet a required branch protection check. Broader APL backlog remains outside this bounded matrix; preserve all original source anchors. No device, runtime, store or owner approval change.
+
+Next: exact-head recheck, apply criterion-level mapping to MAX2TG and Tender Agent, reconcile other source-specific criteria and admit only reviewed packages under applicable authority. No Mission Control UI integration until portfolio-wide Spec Kit adoption review is complete.

@@ -1,0 +1,58 @@
+{
+  "schema": "arvectum.company.local-spec-adoption/1",
+  "status": "candidate_not_applied",
+  "scope": "private isolated working copies; no push or runtime action",
+  "output": "/Users/master/ArvectumSafe/spec-kit-local-20261120",
+  "projects": [
+    {
+      "name": "baltika",
+      "source": "/Volumes/ArvectumSSD/Arvectum/repos/deal",
+      "commit": "6ea3955555d67843819514fe00fb5509a8384711",
+      "road": "docs/BALTIKA_MEETING.md",
+      "feature": "001-baltika-question-traceability",
+      "boundary": "Customer scope and proposal terms remain local; 20 source questions, no production/client acceptance, current rehearsal evidence limited to its exact conditions.",
+      "files": {
+        "docs/BALTIKA_MEETING.md": "f71d570d193634f9751ff503cefd61fb9bf084c17409f4538c17a27704caa180",
+        "docs/BALTIKA_PILOT.md": "51fd919ae7a659da03df2bf091b2dca1dd1202b1fc2cb16ccd9b03483c4f0af3",
+        "docs/BALTIKA_REHEARSAL.md": "029ed496cc3b3f8f59f9504c93dbd077acfb755e39d2b752906054b8c7def106",
+        "docs/BALTIKA_OFFER.md": "043ec395b71bd5c478d4c3b8a0179d7fbdddd8004cb685ed5bfca81015f79343"
+      }
+    },
+    {
+      "name": "1c-lab",
+      "source": "/Volumes/ArvectumSSD/Arvectum/repos/arvectum-1c-lab",
+      "commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
+      "road": "docs/acceptance.md",
+      "feature": "001-lab-acceptance-traceability",
+      "boundary": "Existing LAB-01–08; LAB-02 authorization blocked, later platform acceptance not run. No software acquisition, licensing action, production or tender participation.",
+      "files": {
+        "README.md": "ba5a2da1a88d0e1bdc67dca42034594c7513c0cda821b6595c73258a1e0652de",
+        "docs/acceptance.md": "874bb7f4d61a6f4d430f85ad5fd47e031caddde970d15e8351ff227d30ef7fa4"
+      }
+    },
+    {
+      "name": "arc",
+      "source": "/Volumes/ArvectumSSD/Arvectum/repos/desktop-commander",
+      "commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
+      "road": "sites/PERSONAL_ECOSYSTEM_ROADMAP.md",
+      "feature": "001-arc-roadmap-traceability",
+      "boundary": "Existing P0–P3, explicit device/terminal/GUI/reliability gates; no broader filesystem permission, agent activation, remote service changes or productisation.",
+      "files": {
+        "sites/PERSONAL_ECOSYSTEM_ROADMAP.md": "07ba0018ead8b16f299162530912e3f27cde9330d1a7359af255826514ccba0d",
+        "sites/PROJECT_EDITING_PLAN.md": "30b1fb04319c97b131a6d5c29985d8e624a97b54170a88b780de22a40d41eef9"
+      }
+    }
+  ],
+  "archive": {
+    "name": "tender-app",
+    "portfolio_ref": "PORT-005",
+    "disposition": "KEEP_IN_PLACE",
+    "bundle": "/Volumes/ArvectumSSD/Arvectum/archive/recovery/tender-app/tender-app-legacy-history.bundle",
+    "bundle_sha256": "4a7d9d8264633757b937f6aedd540b37fdadc24abc9b80b69b3a4616ba54735c",
+    "commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
+    "handover": "/Volumes/ArvectumSSD/Arvectum/archive/legacy/tender-app/docs/HANDOVER_2026-05-24.md",
+    "handover_sha256": "07b61d454caa38a77cc8efd8f57233bb75321b03ec6f25b48f2cfd45cdc57e3f",
+    "feature": "001-held-calculator-reference",
+    "boundary": "Contained historical reference, no resumption or runtime startup, original archive kept in place."
+  }
+}

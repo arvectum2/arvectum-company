@@ -1,0 +1,74 @@
+{
+  "schema": "arvectum.company.project-spec-control-candidate/1",
+  "as_of": "2026-11-20",
+  "status": "draft",
+  "derived": true,
+  "coverage": "partial",
+  "actual_acceptance_verified": false,
+  "execution_authorized": false,
+  "projects": [
+    {
+      "project": "Музей Хлеба",
+      "source": {
+        "repo": "arvectum2/musbread",
+        "main": "e1504385d6227c44611027dc0547bcd8f0e6105e"
+      },
+      "goal": "Исполнить подписанный договор, пройти приёмку и получить оплату",
+      "spec_inventory": {
+        "packages": 2,
+        "native_checklist_tasks": 26,
+        "unchecked_tasks": 5,
+        "tz_atoms": 325,
+        "tz_recorded_done_unverified": 85,
+        "tz_partial": 118,
+        "tz_open": 122,
+        "signed_numbered_clauses": 124,
+        "section_level_ids": [
+          "10"
+        ]
+      },
+      "reconciliation": {
+        "state": "source_identified_review_required",
+        "candidate_commit": "33b1c01383a59c3d87b8522d46c294440b683fbc",
+        "candidate_pr": 27,
+        "source_finding": "Раздел 10 подтверждён по SHA и странице 12 подписанного PDF; обязательства не покрыты отдельным индексом подразделов.",
+        "next": "Уточнить применимые обязанности раздела 10 и доказательства, проверить существующую ссылку D17, затем сверить актуальные результаты работ с 325 требованиями и источниками договора."
+      },
+      "financial_status": "unknown",
+      "customer_acceptance": "unknown"
+    },
+    {
+      "project": "Arvectum Compliance",
+      "source": {
+        "repo": "arvectum2/compliance",
+        "main": "e3091d8569db1aa9bafd02238a46495030783491"
+      },
+      "goal": "Подтвердить безопасную, проверяемую ценность аудита сайтов до коммерческого запуска",
+      "spec_inventory": {
+        "packages": 3,
+        "native_checklist_tasks": 88,
+        "unchecked_tasks": 12,
+        "requirement_and_acceptance_ids": 37,
+        "candidate_mapped_ids": 37,
+        "missing_or_extra_candidate_ids": 0,
+        "nonexistent_candidate_refs": 0,
+        "actual_acceptance_count": null
+      },
+      "reconciliation": {
+        "state": "candidate_links_validated_semantic_review_required",
+        "candidate_commit": "8410f3ab2d389245f073f9d2d0d17afd3c26d518",
+        "candidate_pr": 1,
+        "source_finding": "Все 37 FR/AT имеют ссылки-кандидаты на существующие задачи и файлы тестов. Связи не доказывают фактическое прохождение критериев.",
+        "next": "Сверить смысловую полноту каждого критерия с точными тестами и результатами, сохранить блокеры публичного запуска."
+      },
+      "financial_status": "unknown",
+      "public_release": "no_go_recorded"
+    }
+  ],
+  "next_rollout": [
+    "Proxy Launcher",
+    "MAX2TG",
+    "Tender Agent"
+  ],
+  "notes": "Not a runtime admission or canonical portfolio reassessment. Counts refer to pinned source, not current operational completion; do not sum overlapping clause and TZ perspectives. Candidate branches are not merged."
+}

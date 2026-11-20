@@ -1,0 +1,64 @@
+{
+  "schema": "arvectum.company.legacy-spec-linkage-candidate/1",
+  "status": "draft",
+  "as_of": "2026-11-20",
+  "authority_provided": false,
+  "actual_acceptance_verified": false,
+  "coverage": "selected_sources_only",
+  "source_manifest_commit": "4b734f04ead196cc76f1940bc50a9910be1d08ef",
+  "projects": [
+    {
+      "project": "Proxy Launcher",
+      "portfolio_ref": "PORT-003",
+      "repo": "arvectum2/proxy-launcher",
+      "pinned_main": "67df7e205ff63703bde90809e89f06211ec0d870",
+      "review_head": "10389e43d003e70a6f8c1b96936920f609985a69",
+      "pr": 385,
+      "source_files": 6,
+      "nonempty_line_anchors": 1769,
+      "checkbox_occurrences": 505,
+      "original_roadmap_bytes_preserved": 17637,
+      "package": "specs/001-ios-030-roadmap-traceability",
+      "native_cli_present": false,
+      "stage": "candidate_linkage",
+      "next": "Reconcile actual iOS 0.3.0 QA and signed candidate results with release criteria; other platforms paused."
+    },
+    {
+      "project": "MAX2TG",
+      "portfolio_ref": null,
+      "repo": "arvectum2/max2tg",
+      "pinned_main": "e9a5a7c80f3193630348ed5828ecd3004d49bfc3",
+      "review_head": "aea52bf85cc28820b82da094c543a7208c0e357f",
+      "pr": 2,
+      "source_files": 2,
+      "nonempty_line_anchors": 359,
+      "checkbox_occurrences": 57,
+      "original_roadmap_bytes_preserved": 32381,
+      "package": "specs/001-reliability-roadmap-traceability",
+      "native_cli_present": false,
+      "stage": "candidate_linkage",
+      "next": "Reconcile remote and local main c7b9c479 without overwrite; verify reliability and physical test-account dependency."
+    },
+    {
+      "project": "Tender Agent",
+      "portfolio_ref": "PORT-001",
+      "repo": "arvectum2/tender-agent",
+      "pinned_main": "6799bdef88cbe64b4d769f4af4e50f724cc0e312",
+      "review_head": "1249ec1a1ed3cd85bdfa6ef20e14723880c3d56b",
+      "pr": 667,
+      "source_files": 7,
+      "nonempty_line_anchors": 2774,
+      "checkbox_occurrences": 184,
+      "original_roadmap_bytes_preserved": 172730,
+      "package": "specs/002-master-roadmap-traceability",
+      "native_cli_present": true,
+      "stage": "existing_pq_native_plus_candidate_master_linkage",
+      "next": "Reconcile APR-05/06, PRICE-01 and application tracks; preserve inline open items, existing native PQ package and filtered executor queue."
+    }
+  ],
+  "limitations": [
+    "Counts are source occurrences, not distinct active tasks or completion percentages.",
+    "Candidate packages are not full migration, native CLI initialization for APL/MAX, or live Mission Control admission.",
+    "Product PRs are draft and main branches untouched; exact criterion-level evidence mapping remains open."
+  ]
+}

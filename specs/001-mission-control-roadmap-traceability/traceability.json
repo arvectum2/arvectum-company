@@ -1,0 +1,208 @@
+{
+  "schema": "arvectum.company.roadmap-traceability-candidate/1",
+  "status": "draft",
+  "milestones": [
+    "inventory",
+    "briefs",
+    "controls",
+    "queues",
+    "projection",
+    "cadence"
+  ],
+  "requirements": [
+    {
+      "id": "MC-R001",
+      "description": "Полный охват активных работ, включая ожидания и приостановленные проекты; unknown явно виден.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R002",
+      "description": "Каждая веха ссылается на спецификацию и критерий приёмки.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R003",
+      "description": "Стабильные ID задач и подзадач, родитель, требования, зависимости, источник.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R004",
+      "description": "Не терять ранее зарегистрированные ID; отмена/замена прослеживается.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R005",
+      "description": "Закрытие только по доказательству конкретного критерия; технический PASS не равен внешней приёмке.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R006",
+      "description": "До исполнения проверить spec/plan/tasks; после исполнения сверка, найденные пробелы возвращаются в очередь.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R007",
+      "description": "Mission Control отражает актуальные следующие действия и состояние, без скрытой authority.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R008",
+      "description": "Сохранить договорные/финансовые/релизные approvals, конфиденциальность и Company/Product/OS boundaries.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R009",
+      "description": "Пропорциональный полный/лёгкий профиль Spec Kit, без потери legacy IDs.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    },
+    {
+      "id": "MC-R010",
+      "description": "Автоматизированная актуализация после значимых изменений и в AC-407 cadence.",
+      "source": "Owner direction 2026-11-20; AC-406/407; proposed interpretation",
+      "state": "open"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "MC-T001",
+      "milestone": "inventory",
+      "requirements": [
+        "MC-R001",
+        "MC-R009"
+      ],
+      "depends_on": [],
+      "description": "Сверить все проекты, архивы, чаты и источники; явно перечислить неизвестные.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T002",
+      "milestone": "inventory",
+      "requirements": [
+        "MC-R002",
+        "MC-R003",
+        "MC-R004"
+      ],
+      "depends_on": [
+        "MC-T001"
+      ],
+      "description": "Зафиксировать независимые исходные списки требований/задач и версий для всех проектов.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T003",
+      "milestone": "briefs",
+      "requirements": [
+        "MC-R002",
+        "MC-R007"
+      ],
+      "depends_on": [
+        "MC-T001"
+      ],
+      "description": "Закончить управленческие дорожные карты со ссылками на спецификации.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T004",
+      "milestone": "controls",
+      "requirements": [
+        "MC-R005",
+        "MC-R008"
+      ],
+      "depends_on": [
+        "MC-T002"
+      ],
+      "description": "Связать evidence и approvals с существующими регистрами AC-401/402/403/404.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T005",
+      "milestone": "controls",
+      "requirements": [
+        "MC-R004",
+        "MC-R006",
+        "MC-R009"
+      ],
+      "depends_on": [
+        "MC-T002"
+      ],
+      "description": "Проверить нативные пакеты, legacy adapters и миграцию без потерь; внедрить coverage gate.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T006",
+      "milestone": "queues",
+      "requirements": [
+        "MC-R003",
+        "MC-R007",
+        "MC-R008"
+      ],
+      "depends_on": [
+        "MC-T003",
+        "MC-T004"
+      ],
+      "description": "Сформировать очереди разрешённой работы, owner action, external waiting, held.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T007",
+      "milestone": "projection",
+      "requirements": [
+        "MC-R001",
+        "MC-R005",
+        "MC-R007"
+      ],
+      "depends_on": [
+        "MC-T005",
+        "MC-T006"
+      ],
+      "description": "Подготовить derived projection; допустить через применимый WSF-05 boundary.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T008",
+      "milestone": "cadence",
+      "requirements": [
+        "MC-R006",
+        "MC-R010"
+      ],
+      "depends_on": [
+        "MC-T007"
+      ],
+      "description": "Подключить сверку событий и регулярные AC-407 checkpoints.",
+      "state": "open",
+      "evidence": []
+    },
+    {
+      "id": "MC-T009",
+      "milestone": "cadence",
+      "requirements": [
+        "MC-R001",
+        "MC-R005",
+        "MC-R008",
+        "MC-R010"
+      ],
+      "depends_on": [
+        "MC-T008"
+      ],
+      "description": "Проверить целостность на реальной ежедневной работе собственника, включая negative controls.",
+      "state": "open",
+      "evidence": []
+    }
+  ]
+}
