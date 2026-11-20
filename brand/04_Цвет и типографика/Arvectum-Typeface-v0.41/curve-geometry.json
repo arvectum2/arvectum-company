@@ -1,0 +1,414 @@
+{
+  "Display": {
+    "phi": 1.618033988749895,
+    "k": 0.6180339887498948,
+    "stem": 200.59127,
+    "bar": 190.77974,
+    "glyphs": {
+      "B": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 910894.660483096,
+        "contour_depths": [
+          0,
+          1,
+          1
+        ],
+        "sha256": "4342d13c64b4e842e6eb09fddc0e17ca45ce7f0ec5aa2e268e2ef502b9d6de06",
+        "source": "new curved construction"
+      },
+      "D": {
+        "bbox": [
+          0.0,
+          0.0,
+          1260.0,
+          1490.0
+        ],
+        "ink_area_approx": 830181.9139153853,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "59ea37b678569215d0e7af799ab8b1acc032c8881dd522eebcd3556d5bcabc3d",
+        "source": "new curved construction"
+      },
+      "U": {
+        "bbox": [
+          0.0,
+          -20.0,
+          1240.0,
+          1490.0
+        ],
+        "ink_area_approx": 693382.893823429,
+        "contour_depths": [
+          0
+        ],
+        "sha256": "49f7e0a9c3013d7c1bc9ea6ac9db6949a5407271807a8f7a20b5b28452f1faac",
+        "source": "new curved construction"
+      },
+      "a": {
+        "bbox": [
+          0.0,
+          -15.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 582729.0443559429,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "39719603f4cf3dbb84eb7db347ead771e2b521fbec6b9a731d9e38195af68d1e",
+        "source": "q v0.38 adapted"
+      },
+      "g": {
+        "bbox": [
+          0.0,
+          -350.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 749725.9400177281,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "bca8384ff3e728d9dd491cc22842e5d6ff9fc82da37113e487125ad7699d6bba",
+        "source": "q v0.38 adapted"
+      },
+      "Б": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 871065.4384836234,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "71a8e9a4d459a36792e75b4480baac7dce25c3c571b264d0085056464f318389",
+        "source": "new curved construction"
+      },
+      "Ъ": {
+        "bbox": [
+          0.0,
+          0.0,
+          1284.0,
+          1490.0
+        ],
+        "ink_area_approx": 736163.2787773317,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "2b215438c53f3892301af9c5412857d89982e3aad5dac5b40670c6efc4d714ad",
+        "source": "new curved construction"
+      },
+      "Ь": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 712506.5910173322,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "d716c815c929f20a22c6fa6089933e369de6271363c5b152c2293219ad6e5acb",
+        "source": "new curved construction"
+      },
+      "б": {
+        "bbox": [
+          0.0,
+          -15.0,
+          940.0,
+          1490.0
+        ],
+        "ink_area_approx": 720070.347581717,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "e173e19cde70045ee11f59cceda685a7372c82490d9ad23a388056e7f46e8508",
+        "source": "new curved construction"
+      },
+      "Ы": {
+        "bbox": [
+          0.0,
+          0.0,
+          1484.5634927,
+          1490.0
+        ],
+        "ink_area_approx": 1011387.5833173322,
+        "contour_depths": [
+          0,
+          1,
+          0
+        ],
+        "sha256": "a153d3578b5829367d932f1295e9b3a1a985ef5fd8b2e4ee1209dbbdd6062637",
+        "source": "new curved construction"
+      },
+      "ы": {
+        "bbox": [
+          0.0,
+          0.0,
+          1204.5634927,
+          1056.0
+        ],
+        "ink_area_approx": 696432.578236053,
+        "contour_depths": [
+          0,
+          1,
+          0
+        ],
+        "sha256": "7d7b8150d75e70f3eef78d65cca9cd829f71f09ff5fb1a092d63bbb86061698d",
+        "source": "new curved construction"
+      },
+      "В": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 910894.660483096,
+        "contour_depths": [
+          0,
+          1,
+          1
+        ],
+        "sha256": "4342d13c64b4e842e6eb09fddc0e17ca45ce7f0ec5aa2e268e2ef502b9d6de06",
+        "source": "new curved construction"
+      },
+      "а": {
+        "bbox": [
+          0.0,
+          -15.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 582729.0443559429,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "39719603f4cf3dbb84eb7db347ead771e2b521fbec6b9a731d9e38195af68d1e",
+        "source": "q v0.38 adapted"
+      }
+    }
+  },
+  "Text": {
+    "phi": 1.618033988749895,
+    "k": 0.5522847498,
+    "stem": 185.435,
+    "bar": 175,
+    "glyphs": {
+      "B": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 814073.362940757,
+        "contour_depths": [
+          0,
+          1,
+          1
+        ],
+        "sha256": "244c8c0b3467707272acc5e276fdcb504adf9354b15d9fccef7272a0fa2f0fab",
+        "source": "new curved construction"
+      },
+      "D": {
+        "bbox": [
+          0.0,
+          0.0,
+          1200.0,
+          1490.0
+        ],
+        "ink_area_approx": 743431.8317366793,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "462a0f9f6ec131b1478b91556f0c2ab395feb00a87f4f9359429e8b023a22301",
+        "source": "new curved construction"
+      },
+      "U": {
+        "bbox": [
+          0.0,
+          -20.0,
+          1180.0,
+          1490.0
+        ],
+        "ink_area_approx": 625992.8375312586,
+        "contour_depths": [
+          0
+        ],
+        "sha256": "3e148f7462b7921e2e924f7c694d6894ba92e62c35454ff915bf2c265b44d743",
+        "source": "new curved construction"
+      },
+      "a": {
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 539312.1233900334,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "c8439654cac7bd64d6adf4908e03a1500dbf1d84d0dbe1c254b39cba634cffc3",
+        "source": "q v0.38 adapted"
+      },
+      "g": {
+        "bbox": [
+          0.0,
+          -350.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 690675.5295760488,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "7b7efb9a8b2a50c561702f6a79dcd83dca8ad912a4257b6120ee896aa0af230a",
+        "source": "q v0.38 adapted"
+      },
+      "Б": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 778274.9413530271,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "59a8539f6550243293e18bef2e2a70894919862dda172a0735bb948cd88d149e",
+        "source": "new curved construction"
+      },
+      "Ъ": {
+        "bbox": [
+          0.0,
+          0.0,
+          1215.0,
+          1490.0
+        ],
+        "ink_area_approx": 659232.4700888123,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "1f89a5bde081c6440222dc1e24b3a97a82ebd7a592a340bcbdea377fc22f8a08",
+        "source": "new curved construction"
+      },
+      "Ь": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 639107.4700888115,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "b5f2dfbba934b087d191555b61afb72ab66dbe4c711ad5b5064e9b20dece0ce4",
+        "source": "new curved construction"
+      },
+      "б": {
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1490.0
+        ],
+        "ink_area_approx": 655032.9761982274,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "0a520f46a5f7c6159618ee9ca27ffe4016b16e75ef0a763491ecb6165be5a514",
+        "source": "new curved construction"
+      },
+      "Ы": {
+        "bbox": [
+          0.0,
+          0.0,
+          1400.0401327,
+          1490.0
+        ],
+        "ink_area_approx": 915405.6200888114,
+        "contour_depths": [
+          0,
+          1,
+          0
+        ],
+        "sha256": "9b5d2b10752956a1c0fa6c8d97c9699565b351555ef0d0385dd72e03e34c45eb",
+        "source": "new curved construction"
+      },
+      "ы": {
+        "bbox": [
+          0.0,
+          0.0,
+          1150.0401327,
+          1056.0
+        ],
+        "ink_area_approx": 637067.3506164956,
+        "contour_depths": [
+          0,
+          1,
+          0
+        ],
+        "sha256": "b80026e5ac431583409d9ee941b259d949ee631b59a5f43902b16916c76f547f",
+        "source": "new curved construction"
+      },
+      "В": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 814073.362940757,
+        "contour_depths": [
+          0,
+          1,
+          1
+        ],
+        "sha256": "244c8c0b3467707272acc5e276fdcb504adf9354b15d9fccef7272a0fa2f0fab",
+        "source": "new curved construction"
+      },
+      "а": {
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 539312.1233900334,
+        "contour_depths": [
+          0,
+          1
+        ],
+        "sha256": "c8439654cac7bd64d6adf4908e03a1500dbf1d84d0dbe1c254b39cba634cffc3",
+        "source": "q v0.38 adapted"
+      }
+    }
+  }
+}
