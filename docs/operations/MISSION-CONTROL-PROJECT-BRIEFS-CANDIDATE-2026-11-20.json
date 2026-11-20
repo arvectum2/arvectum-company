@@ -1,0 +1,330 @@
+{
+  "schema": "arvectum.company.mission-control.project-brief-candidate/1",
+  "status": "draft",
+  "as_of": "2026-11-20",
+  "derived": true,
+  "canonical_authority": false,
+  "organizational_authority_provided": false,
+  "coverage": "partial",
+  "note": "Pilot observations, not runtime verification, assignments, owner approvals or completed portfolio review. All next steps are proposals. Existing Company/Product/OS source boundaries remain.",
+  "cards": [
+    {
+      "label": "Музей Хлеба",
+      "kind": "client_delivery",
+      "portfolio_ref": null,
+      "goal": "Исполнить подписанный контракт, получить приёмку и оплату",
+      "stage": "Проектирование и согласование",
+      "observed": "В локальной дорожной карте от 13.11 зафиксирована повторная проверка и исправления low-fi; фактическое согласование заказчиком не подтверждено этим источником.",
+      "milestones": [
+        [
+          "Договор",
+          "recorded",
+          "Подписанный договор имеется согласно roadmap; проверить сроки и суммы."
+        ],
+        [
+          "Low-fi и фирменный стиль",
+          "verification_needed",
+          "Согласование соответствующей версии заказчиком."
+        ],
+        [
+          "Дизайн и разработка",
+          "planned",
+          "Согласованный дизайн и сайт, прошедший проверку по ТЗ."
+        ],
+        [
+          "Развёртывание и передача",
+          "planned",
+          "Согласованная инфраструктура, испытания и передача."
+        ],
+        [
+          "Приёмка и оплата",
+          "planned",
+          "Документированная приёмка и поступление оплаты."
+        ]
+      ],
+      "next": [
+        {
+          "result": "Сверить последнюю редакцию дорожной карты, договорные сроки и входящие ответы заказчика.",
+          "queue": "reconciliation_required"
+        },
+        {
+          "result": "Подготовить перечень оставшихся проверок фирменного стиля и результатов без изменения ранее переданных материалов.",
+          "queue": "autonomous_candidate"
+        },
+        {
+          "result": "Отдельно подготовить правовой и экономический разбор серверной схемы для решения руководителя.",
+          "queue": "autonomous_candidate"
+        }
+      ],
+      "waiting": "Последние согласования и письма необходимо подтвердить.",
+      "review_trigger": "Ответ заказчика, изменение договорного срока или приёмка этапа.",
+      "sources": [
+        {
+          "repository": "musbread",
+          "commit": "e150438",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_observation"
+        }
+      ],
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountability": "reconciliation_required",
+      "finance": "unknown",
+      "deadline": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false
+    },
+    {
+      "label": "Балтика",
+      "kind": "sales_opportunity",
+      "portfolio_ref": null,
+      "goal": "Проверить интерес заказчика и согласовать предмет возможного пилота автоматизации закупок, продаж и договоров",
+      "stage": "Подготовка к встрече",
+      "observed": "Рабочий документ называет встречу 23.11.2026; подготовлены сценарии синтетического демо, промышленное внедрение не доказано.",
+      "milestones": [
+        [
+          "Выявление задач",
+          "recorded",
+          "Вопросы и сценарии отражены в рабочем документе."
+        ],
+        [
+          "Презентация и репетиция",
+          "in_progress",
+          "Краткая клиентская презентация и воспроизводимое демо."
+        ],
+        [
+          "Встреча",
+          "planned",
+          "Получить обратную связь, критерии ценности и договорённость о следующем контакте."
+        ],
+        [
+          "Пилот",
+          "conditional",
+          "Согласованный объём, данные, цена, ограничения и решение уполномоченного лица."
+        ]
+      ],
+      "next": [
+        {
+          "result": "Проверить дату встречи и закончить клиентскую презентацию с реальными ограничениями демо.",
+          "queue": "autonomous_candidate"
+        },
+        {
+          "result": "Проверить сценарий смысловой интерпретации договора и резервный демонстрационный путь.",
+          "queue": "autonomous_candidate"
+        },
+        {
+          "result": "Провести встречу; согласовать следующий коммерческий шаг в рамках полномочий.",
+          "queue": "owner_action_candidate"
+        }
+      ],
+      "waiting": "Дата 23.11 из рабочей ветки, календарь и подтверждение заказчика не проверены.",
+      "review_trigger": "Встреча, ответ заказчика или решение о пилоте.",
+      "sources": [
+        {
+          "repository": "deal",
+          "commit": "6ea3955",
+          "path": "docs/BALTIKA_MEETING.md",
+          "scope": "local_feature_branch"
+        },
+        {
+          "repository": "deal",
+          "commit": "6ea3955",
+          "path": "docs/BALTIKA_OFFER.md",
+          "scope": "local_feature_branch"
+        }
+      ],
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountability": "reconciliation_required",
+      "finance": "unknown",
+      "deadline": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false
+    },
+    {
+      "label": "Arvectum Proxy Launcher",
+      "kind": "product",
+      "portfolio_ref": "PORT-003",
+      "goal": "Выпустить стабильный объединённый iOS-релиз 0.3.0 без регрессий и потери данных",
+      "stage": "Подготовка iOS-релиза",
+      "observed": "Активная roadmap ограничена iOS; содержит подтверждённые инженерные срезы и незакрытые физические gates. QA-ветка 19.11 обнаружена, но её доказательства не проверены.",
+      "milestones": [
+        [
+          "Определение состава",
+          "recorded",
+          "Owner decision 11.11: объединённый 0.3.0, iOS only."
+        ],
+        [
+          "Инженерная интеграция",
+          "in_progress",
+          "Точный release commit, проверенные включённые функции."
+        ],
+        [
+          "Физическая приёмка",
+          "verification_needed",
+          "Подтверждённая миграция, Keychain, реальные сетевые сценарии."
+        ],
+        [
+          "Публикация",
+          "conditional",
+          "Подписанная проверенная сборка, отдельный release approval."
+        ],
+        [
+          "После релиза",
+          "planned",
+          "Проверки QR и пользовательских сценариев."
+        ]
+      ],
+      "next": [
+        {
+          "result": "Сверить активную iOS-дорожную карту с QA-веткой и фактическими результатами iPhone.",
+          "queue": "reconciliation_required"
+        },
+        {
+          "result": "Сформировать список незакрытых физических gates и безопасных проверок.",
+          "queue": "autonomous_candidate"
+        },
+        {
+          "result": "Запросить отдельный release approval только после выполнения gates.",
+          "queue": "owner_action_candidate"
+        }
+      ],
+      "waiting": "Не считать доступность iPhone или завершение физических tests подтверждёнными.",
+      "review_trigger": "Новый физический QA evidence или release candidate.",
+      "sources": [
+        {
+          "repository": "proxy-launcher",
+          "commit": "67df7e20",
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "scope": "local_observation"
+        }
+      ],
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountability": "reconciliation_required",
+      "finance": "unknown",
+      "deadline": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false
+    },
+    {
+      "label": "MAX2TG",
+      "kind": "product_candidate",
+      "portfolio_ref": null,
+      "goal": "Гарантировать контролируемую надёжность личного двустороннего bridge до решения о коммерциализации",
+      "stage": "Reliability v1.1",
+      "observed": "Roadmap содержит реализованные срезы истории, persistent outbox, health/recovery и незакрытый физический тест. Commit 19.11 исправляет нормализацию ID; текущий runtime не проверен.",
+      "milestones": [
+        [
+          "Личный bridge",
+          "recorded",
+          "Основные сценарии описаны как работающие в roadmap."
+        ],
+        [
+          "Надёжность",
+          "in_progress",
+          "Физические испытания доставки, сбоя, восстановления и отсутствие необъяснённой потери."
+        ],
+        [
+          "Решение о SaaS",
+          "conditional",
+          "Подтверждена стабильность, спрос, экономика и допустимая обработка данных."
+        ]
+      ],
+      "next": [
+        {
+          "result": "Сверить health и реальные evidence доставки в обе стороны, не отправляя тесты в рабочие чаты без разрешения.",
+          "queue": "reconciliation_required"
+        },
+        {
+          "result": "Подготовить изолированные аварийные испытания и критерии закрытия Reliability.",
+          "queue": "autonomous_candidate"
+        }
+      ],
+      "waiting": "Физический стенд и runtime health не подтверждены.",
+      "review_trigger": "Инцидент доставки, перезагрузка или доказательство закрытия reliability gate.",
+      "sources": [
+        {
+          "repository": "arvectum2/max2tg",
+          "commit": "c7b9c47911bdc6c37fe58b3942e0e98cbe91daf8",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_observation"
+        }
+      ],
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountability": "reconciliation_required",
+      "finance": "unknown",
+      "deadline": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false
+    },
+    {
+      "label": "Tender Agent",
+      "kind": "product",
+      "portfolio_ref": "PORT-001",
+      "goal": "Доказать коммерческую ценность управляемой закупочной компетенции на реальных разрешённых сценариях",
+      "stage": "Сверка текущей продуктовой стадии",
+      "observed": "Company portfolio фиксирует anchor capability; локальный STATUS.md устарел относительно worktree 16.11 с web lifecycle checkpoint. Актуальная prod/stage и коммерческая готовность не установлены.",
+      "milestones": [
+        [
+          "Ограниченный исходный контур",
+          "recorded",
+          "Исторический R0 закрыт функционально по STATUS.md, не подтверждает сегодняшнее состояние."
+        ],
+        [
+          "Текущие сценарии и качество",
+          "verification_needed",
+          "Сверить актуальные продуктовые gates и доказательства."
+        ],
+        [
+          "Внешний оплачиваемый результат",
+          "conditional",
+          "Подтверждённая приёмка, экономика и применимые ограничения."
+        ],
+        [
+          "Масштабирование",
+          "conditional",
+          "Только после доказательств повторяемости и разрешений."
+        ]
+      ],
+      "next": [
+        {
+          "result": "Найти текущий канонический remote и активную продуктовую roadmap; сверить с последними рабочими ветками и runtime.",
+          "queue": "reconciliation_required"
+        },
+        {
+          "result": "Определить ближайший проверяемый продуктовый результат, полезный реальной закупочной работе.",
+          "queue": "autonomous_candidate"
+        },
+        {
+          "result": "Отделить техническую готовность от оплачиваемой приёмки и коммерческого gate.",
+          "queue": "autonomous_candidate"
+        }
+      ],
+      "waiting": "Нет проверенной свежей полной дорожной карты и live status.",
+      "review_trigger": "Появление актуального product evidence, customer acceptance или существенного сбоя.",
+      "sources": [
+        {
+          "repository": "arvectum2/arvectum-company",
+          "commit": "163918ba9173b75d83b9ad93b3ea103072619278",
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "scope": "remote_main_verified"
+        },
+        {
+          "repository": "tender-agent",
+          "commit": "44ba08b465dc139cec634cc8c798e65ff0f61abb",
+          "path": null,
+          "scope": "local_worktree_commit_only"
+        }
+      ],
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountability": "reconciliation_required",
+      "finance": "unknown",
+      "deadline": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false
+    }
+  ]
+}
