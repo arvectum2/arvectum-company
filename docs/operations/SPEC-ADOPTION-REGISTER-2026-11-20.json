@@ -466,7 +466,15 @@
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "clean_worktree": true,
       "pushed": false,
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "stage": "read_only review package prepared; apply awaits explicit local authorization",
+        "source_commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
+        "baseline_review_head": "fc3d83040bf0f543cbf8c187577dc85ba50ee8e2",
+        "review_records": 8,
+        "actual_acceptance_verified": false,
+        "script": "tools/prepare_local_criterion_wave.py"
+      }
     },
     {
       "project": "arc",
@@ -482,7 +490,15 @@
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "clean_worktree": true,
       "pushed": false,
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "stage": "read_only review package prepared; apply awaits explicit local authorization",
+        "source_commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
+        "baseline_review_head": "04cf26a3a9f8abf021f59a1f64b5f9cdf8274b2d",
+        "review_records": 40,
+        "actual_acceptance_verified": false,
+        "script": "tools/prepare_local_criterion_wave.py"
+      }
     }
   ],
   "archive": {
@@ -500,7 +516,15 @@
     "native_prerequisite_check": "PASS_no_feature_persistence",
     "clean_worktree": true,
     "pushed": false,
-    "actual_acceptance_verified": false
+    "actual_acceptance_verified": false,
+    "criterion_review": {
+      "stage": "read_only review package prepared; apply awaits explicit local authorization",
+      "source_commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
+      "baseline_review_head": "d8c8c1fbaa4805772af2c34877544bee553c5b83",
+      "review_records": 110,
+      "actual_acceptance_verified": false,
+      "script": "tools/prepare_local_criterion_wave.py"
+    }
   },
   "excluded": [
     {
@@ -692,7 +716,190 @@
         "fail": 0,
         "note": "mergeability unknown at inspection; native PQ/master integration review"
       }
-    ]
+    ],
+    "latest_snapshot": {
+      "status": "not_admitted",
+      "schema": "arvectum.company.spec-admission-snapshot/1",
+      "company_source": "f8d9c56bae1b437c1f1530f180bea3e6b5e5d482",
+      "head_match": "all 16 recorded product heads matched, plus Company origin",
+      "all_dedicated_checks": "17/17 PASS at observation",
+      "checks_all_green": 14,
+      "blocked": 3,
+      "pending": 0,
+      "pr_snapshot": [
+        {
+          "repo": "arvectum2/arvectum-company",
+          "pr": 30,
+          "head": "f8d9c56bae1b437c1f1530f180bea3e6b5e5d482",
+          "pass": 3,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "owner_governance_review",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/proxy-launcher",
+          "pr": 385,
+          "head": "df2dd7f51e422a8420de1280bac80fdfc58c75a6",
+          "pass": 12,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/max2tg",
+          "pr": 2,
+          "head": "977b05f66a1a0b3b22008f33bd9d99049d7f81ec",
+          "pass": 2,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/data-platform",
+          "pr": 131,
+          "head": "dfec6d9b8976c7d704636c79c25a5ef951531a4d",
+          "pass": 8,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-infrastructure",
+          "pr": 1,
+          "head": "80b278a701cedfc0b09bb436494b2b1ec8091f2d",
+          "pass": 4,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-tools",
+          "pr": 202,
+          "head": "18d549c82753b78fff6122be69dcabbfb0830fef",
+          "pass": 5,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-os",
+          "pr": 84,
+          "head": "03322aaa7bff23c80c219a87bf4b219d20e17dab",
+          "pass": 2,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "separate_OS_governance_review",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/creative-test-agent",
+          "pr": 1,
+          "head": "15cdc2e498c1a280914e2cc7c82302471d8b68c4",
+          "pass": 2,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/discount-parser",
+          "pr": 1,
+          "head": "444628af018f68acc8b3d74f9a182c501391f451",
+          "pass": 8,
+          "fail": 1,
+          "skip": 4,
+          "disposition": "blocked_windows_dependency",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/doors_parser",
+          "pr": 1,
+          "head": "dea5d2a57cde7bed07ebbf8b02beaed0efaff168",
+          "pass": 1,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate_contained",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-site",
+          "pr": 16,
+          "head": "ec5e5959ea0dc00da0299ca6f28e8fa5a91d7e74",
+          "pass": 2,
+          "fail": 1,
+          "skip": 0,
+          "disposition": "blocked_site_verify",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-work",
+          "pr": 28,
+          "head": "51bcf6e51c00211ad8479bdbe9e86210fe11e497",
+          "pass": 2,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate_discovery_only",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/deal",
+          "pr": 2,
+          "head": "05183dcc845c0b0c0c8da0d6ce4f5c612542b7d1",
+          "pass": 3,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate_generic_only",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/arvectum-company",
+          "pr": 31,
+          "head": "ca5614fd83b4a3b20c9cb25cc7d48ed0b203eef7",
+          "pass": 3,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate_brand_branch_only",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/musbread",
+          "pr": 27,
+          "head": "62a7a63c16ce551a310b18a38500c59c08c8f0f6",
+          "pass": 12,
+          "fail": 4,
+          "skip": 0,
+          "disposition": "blocked_project_CI",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/compliance",
+          "pr": 1,
+          "head": "935e343920063e0189f8108fe7ff82e98a3fef27",
+          "pass": 4,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "technical_review_candidate",
+          "merge_authorized": false
+        },
+        {
+          "repo": "arvectum2/tender-agent",
+          "pr": 667,
+          "head": "7d950fd051aad2045f745bb63f39b70495280538",
+          "pass": 20,
+          "fail": 0,
+          "skip": 0,
+          "disposition": "mergeability_unknown",
+          "merge_authorized": false
+        }
+      ],
+      "note": "Prior records superseded only as CI observation. Exact heads and base, branch protections, reviews, conditional rollback and applicable authorization must be verified before any merge. Company candidate advances with this report; its prior head is stale for merge. No automatic scope admission."
+    }
   },
   "criterion_rollout": {
     "status": "partial_bounded_review",
@@ -729,6 +936,12 @@
       "dedicated_ci": "8/8 PASS",
       "note": "Source conservation and bounded review sections only. No full atomic mapping/evidence or authority claim."
     },
-    "structural_tests_across_sixteen_product_review_contours": 129
+    "structural_tests_across_sixteen_product_review_contours": 129,
+    "local_wave": {
+      "stage": "prepared_not_applied",
+      "records": 178,
+      "scopes": 4,
+      "note": "20 Baltika questions, 8 LAB gates, 40 ARC markers, 110 archived source references; not unique tasks. The four existing SOURCE-COVERAGE tasks remain open. No customer/credential access, runtime or archive modification."
+    }
   }
 }
