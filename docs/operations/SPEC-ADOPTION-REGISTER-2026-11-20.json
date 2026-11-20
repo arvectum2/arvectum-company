@@ -1,7 +1,7 @@
 {
   "schema": "arvectum.company.spec-adoption-register/1",
   "as_of": "2026-11-20",
-  "status": "draft",
+  "status": "partial_canonical_adoption_under_owner_direction",
   "scope": "identified company engineering and workstream sources, not proof of complete chat/obligation inventory",
   "native_version": "1.2.4",
   "source_scaffold_commit": "e3091d8569db1aa9bafd02238a46495030783491",
@@ -38,7 +38,7 @@
       "project": "Compliance",
       "repo": "arvectum2/compliance",
       "pr": 1,
-      "stage": "existing_native_main; reconciliation review pending",
+      "stage": "merged_to_verified_target_branch",
       "criterion_review": {
         "review_head": "935e343920063e0189f8108fe7ff82e98a3fef27",
         "path": "docs/spec-traceability-review-2026-11-20.json",
@@ -48,6 +48,19 @@
         "review_tasks": 37,
         "review_state": "candidate_unverified",
         "ci": "4/4 PASS; public release not authorized"
+      },
+      "adoption": {
+        "pr": 1,
+        "merge_commit": "fce41cc06109a651b6741291f30850d9f16d56c1",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -56,7 +69,7 @@
       "pr": 667,
       "stage": "existing_native_main; reconciliation review pending",
       "criterion_review": {
-        "review_head": "7d950fd051aad2045f745bb63f39b70495280538",
+        "review_head": "daf01f0282faa9db759b54549de5ef9bb284ed42",
         "source_commit": "6799bdef88cbe64b4d769f4af4e50f724cc0e312",
         "path": "specs/002-master-roadmap-traceability/criteria-review.json",
         "total": 22,
@@ -66,10 +79,17 @@
         "verified": 0,
         "verification_tasks": 22,
         "structural_tests": "8/8 PASS exact read-back",
-        "ci": "final isolated test relocation exact head: 20/20 PASS",
+        "ci": "15 PASS / 5 pending at latest observation; exact current main integration",
         "note": "13 native PQ AC linked to existing task IDs and nine selected master gates; not full master coverage. APR-05 rehearsal, APR-06 independent commercial evidence, PRICE-01 independent contract evidence separate. No live action.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
+      },
+      "adoption": {
+        "stage": "updated_candidate_pending_CI",
+        "previous_review_head": "7d950fd051aad2045f745bb63f39b70495280538",
+        "current_base": "dd867387d87823394c2a72724af27ce15d4b0aff",
+        "candidate": "daf01f0282faa9db759b54549de5ef9bb284ed42",
+        "unrelated_recovery_commits_preserved": 13
       }
     }
   ],
@@ -91,7 +111,7 @@
       "pr": 385,
       "verified_head": "ce637f355d5784cecef397e8e5ee0995abffb7f0",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -113,6 +133,19 @@
         "note": "Nine feature rows and six publication gates. Windows failures caused by history-dependent tests in shallow checkout; relocated tests to dedicated full-history CI.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
+      },
+      "adoption": {
+        "pr": 385,
+        "merge_commit": "3d5eba9b778a925308c41983a5108fe52f601261",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 13,
+          "pending": 1,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -121,7 +154,7 @@
       "pr": 2,
       "verified_head": "3e0c17a890663f0c501866473f1be2ecba83a158",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -140,6 +173,19 @@
         "note": "20 open/partial roadmap occurrences and six field acceptance items; overlaps retained. Isolated test accounts required. Local main c7b9c47 divergence and actual runtime unreviewed.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
+      },
+      "adoption": {
+        "pr": 2,
+        "merge_commit": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -148,7 +194,7 @@
       "pr": 131,
       "verified_head": "8b7d2cb0b98a463eb827b603101a83bd0bf0a192",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -165,6 +211,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Real data acceptance, unmet consumer SLO before distributed crawling, authorized credentials/merchant and runtime/model gates preserved. Remote checkpoint unchanged. No external activation. Two references to DP-INT-002 retained."
+      },
+      "adoption": {
+        "pr": 131,
+        "merge_commit": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 6,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -173,7 +232,7 @@
       "pr": 1,
       "verified_head": "0849563146f2db4444cfa0e8ca489ce26f17f64d",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -190,6 +249,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "All seven open cloud gates linked; local head 72f063366e7e0b1832445ceb177899da1b4726d5 contains separate UPS work (one checked lab and one open battery-mode gate); local scope not merged or mapped here. No provider or expenditure decision."
+      },
+      "adoption": {
+        "pr": 1,
+        "merge_commit": "05cbc7efb13d7e1807fb0c9fbdd51f77e6058b7d",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -198,7 +270,7 @@
       "pr": 202,
       "verified_head": "2d04cca3f9367a4d22add4e27e9fd729cebbfa60",
       "root": "core/docs",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -215,6 +287,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Eight separate pinned roadmaps; 86 Growth Agent and 39 Where? rows remain paused. 560 other source rows require reconciliation, not automatically active tasks. No App Store, user data, release or marketing action."
+      },
+      "adoption": {
+        "pr": 202,
+        "merge_commit": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -223,7 +308,7 @@
       "pr": 84,
       "verified_head": "0f02a32ce7190f38fcfc32dfec88f4767be96868",
       "root": "docs/engineering",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -241,6 +326,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Genuine P10.07/P10.10, R35/R36/M10, WSF 01–09 preserved; no ready AUTO item asserted; no OS normative admission."
+      },
+      "adoption": {
+        "pr": 84,
+        "merge_commit": "cad2a1764a5e759b242e1849197668a5631d7afc",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -249,7 +347,7 @@
       "pr": 1,
       "verified_head": "d5b4843107ef72d93187fa6a5b3f09d86a967f14",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -267,6 +365,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Canonical W06 records completed release preparation and local PASS; older CURRENT pointer differs; no actual customer deployment; E waits real client data."
+      },
+      "adoption": {
+        "pr": 1,
+        "merge_commit": "161e27f0d42877af75c68b683753ca031f47fc99",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 6,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "not_observed_at_snapshot",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -301,7 +412,7 @@
       "pr": 1,
       "verified_head": "a9429fe82f9f4f49e7f5c449d484146e40be28f7",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -319,6 +430,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "README only descriptive, no invented formal specification; no scraping; new dedicated CI PASS."
+      },
+      "adoption": {
+        "pr": 1,
+        "merge_commit": "48d7cf1dd9b0040087a77793c5126164194c3ac1",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 0,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "not_observed_at_snapshot",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -332,7 +456,7 @@
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
       "criterion_review": {
-        "review_head": "ec5e5959ea0dc00da0299ca6f28e8fa5a91d7e74",
+        "review_head": "26f307492bcac31e9471804c84e2ed5b983b2bdc",
         "source_commit": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
         "path": "specs/001-site-roadmap-traceability/section-review.json",
         "source_files": 2,
@@ -345,6 +469,16 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Public positioning, SEO/content plan intact; existing verify failure; no publication."
+      },
+      "adoption": {
+        "stage": "sitemap_repaired_in_candidate_pending_CI",
+        "source_commit": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
+        "urls_before": 52,
+        "urls_after": 52,
+        "ordered_url_set_unchanged": true,
+        "local_generator_check": "PASS",
+        "head": "26f307492bcac31e9471804c84e2ed5b983b2bdc",
+        "ci": "1 PASS / 2 pending"
       }
     },
     {
@@ -353,7 +487,7 @@
       "pr": 28,
       "verified_head": "365c2e293bd0ad741dee42b58297b4257b3a5c13",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -371,6 +505,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "Main roadmap C2 deferred vs detailed C2 plan admits internal preparation; reconcile; stop before outbound. AW-100/200 not admitted."
+      },
+      "adoption": {
+        "pr": 28,
+        "merge_commit": "64cb911c9236c95132ffa880c19106af78deb42f",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -379,7 +526,7 @@
       "pr": 2,
       "verified_head": "80c0968218db71f7cb19864cb5faab134283bd3d",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -397,6 +544,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "S0–S8 hypothesis and rights/consent/economic gates; private client scope separate."
+      },
+      "adoption": {
+        "pr": 2,
+        "merge_commit": "e3848ee93508b56e0b73d2d2d4c4cb4a43c2af63",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     },
     {
@@ -405,7 +565,7 @@
       "pr": 31,
       "verified_head": "316083db530c14ca8b37850bed477089b5f1c71c",
       "root": "brand",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -423,6 +583,19 @@
         "actual_acceptance_verified": false,
         "execution_authorized": false,
         "note": "BR-00–15, BR-05 v0.38 and history retained; original v0.13 unrecovered, v0.36 reconstructed; new shapes not approved."
+      },
+      "adoption": {
+        "pr": 31,
+        "merge_commit": "498447bf0b418f142c9be1b43722f34bd47c9e14",
+        "target_branch": "brand/identity-v3",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_job_observed": "success",
+        "scope": "source review tooling only; actual acceptance not verified"
       }
     }
   ],
@@ -607,10 +780,12 @@
     }
   ],
   "blockers": [
-    "All review PRs unmerged; actual criterion-level evidence mapping is partial.",
-    "Discount Parser Windows build misses arvectum-data; site sitemap freshness check fails; OS GitVerse mirror HTTP 502 noted. Separate existing pipeline gates remain.",
-    "Full non-canonical chat-derived source reconciliation remains open.",
-    "Local review copies prepared; adoption into active working branches requires applicable review/admission; archive stays contained."
+    "Tender Agent exact candidate updated onto new main; new CI not yet complete.",
+    "Site sitemap regenerated; exact candidate CI not yet complete.",
+    "Discount Parser Windows delivery build requires arvectum-data dependency not installed; no bypass; held scope stays contained.",
+    "Museum broader Laravel and Next.js checks still fail; product QA separate; dedicated Spec Kit CI passed.",
+    "Full atomic evidence, local active-branch divergence, chat-derived source reconciliation and actual acceptance remain open.",
+    "Arvectum Skills registered, not bootstrapped; repository contains only foundation files."
   ],
   "verification": {
     "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
@@ -1015,5 +1190,217 @@
       "approval_scope": "Owner explicitly authorized pinned local --apply only",
       "note": "Existing SOURCE-COVERAGE tasks stay open. Not unique tasks or acceptance. Archive KEEP_IN_PLACE."
     }
+  },
+  "new_registered_scopes": [
+    {
+      "project": "Arvectum Skills",
+      "repo": "arvectum2/arvectum-skills",
+      "classification": "company_internal_reusable_agent_skills_repository",
+      "visibility": "private",
+      "canonical_remote": "GitHub",
+      "mirror": "GitVerse (one-way)",
+      "default_branch": "main",
+      "observed_head": "a4a1249e122e6061488b64e7b3e0ecad01716d9a",
+      "observed_files": [
+        "README.md",
+        ".gitignore",
+        ".github/workflows/mirror-to-gitverse.yml"
+      ],
+      "stage": "registered_not_bootstrapped",
+      "native_spec_kit_installed": false,
+      "roadmap_present": false,
+      "mirror_workflow_observation": "latest run success; earlier run failure; independent GitVerse ref comparison not performed",
+      "next_action": "Define repository-level purpose/ownership and source-linked roadmap, then adopt pinned Spec Kit and review gates; do not infer skills, governance authority or production adoption from registration.",
+      "actual_acceptance_verified": false,
+      "execution_authorized": false
+    }
+  ],
+  "adoption_execution": {
+    "scope": "Owner instructed acceptance of prepared integration packages and addition of arvectum-skills; exact-head merge after review, no override of failures or release permissions.",
+    "observed_merged_count": 12,
+    "observed_total_review_prs": 17,
+    "merged": [
+      {
+        "repo": "arvectum2/proxy-launcher",
+        "pr": 385,
+        "merge_commit": "3d5eba9b778a925308c41983a5108fe52f601261",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 13,
+          "pending": 1,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/max2tg",
+        "pr": 2,
+        "merge_commit": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/data-platform",
+        "pr": 131,
+        "merge_commit": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 6,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/arvectum-infrastructure",
+        "pr": 1,
+        "merge_commit": "05cbc7efb13d7e1807fb0c9fbdd51f77e6058b7d",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/arvectum-tools",
+        "pr": 202,
+        "merge_commit": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/arvectum-os",
+        "pr": 84,
+        "merge_commit": "cad2a1764a5e759b242e1849197668a5631d7afc",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/creative-test-agent",
+        "pr": 1,
+        "merge_commit": "161e27f0d42877af75c68b683753ca031f47fc99",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 6,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "not_observed"
+      },
+      {
+        "repo": "arvectum2/doors_parser",
+        "pr": 1,
+        "merge_commit": "48d7cf1dd9b0040087a77793c5126164194c3ac1",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 0,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "not_observed"
+      },
+      {
+        "repo": "arvectum2/arvectum-work",
+        "pr": 28,
+        "merge_commit": "64cb911c9236c95132ffa880c19106af78deb42f",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/deal",
+        "pr": 2,
+        "merge_commit": "e3848ee93508b56e0b73d2d2d4c4cb4a43c2af63",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/arvectum-company",
+        "pr": 31,
+        "merge_commit": "498447bf0b418f142c9be1b43722f34bd47c9e14",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 1,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      },
+      {
+        "repo": "arvectum2/compliance",
+        "pr": 1,
+        "merge_commit": "fce41cc06109a651b6741291f30850d9f16d56c1",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 0,
+          "fail": 0
+        },
+        "mirror_observation": "success"
+      }
+    ],
+    "remaining": [
+      {
+        "repo": "arvectum2/arvectum-company",
+        "pr": 30,
+        "stage": "registry update candidate; exact head review pending"
+      },
+      {
+        "repo": "arvectum2/tender-agent",
+        "pr": 667,
+        "stage": "new base CI pending"
+      },
+      {
+        "repo": "arvectum2/arvectum-site",
+        "pr": 16,
+        "stage": "sitemap repair CI pending"
+      },
+      {
+        "repo": "arvectum2/discount-parser",
+        "pr": 1,
+        "stage": "windows_build_failed"
+      },
+      {
+        "repo": "arvectum2/musbread",
+        "pr": 27,
+        "stage": "project_CI_failed"
+      }
+    ],
+    "side_effects": [
+      "Existing automatic GitHub Pages build/deploy on APL main succeeded; no App Store upload or binary release requested or executed."
+    ],
+    "note": "A snapshot, not a current guarantee. Canonical target head and tree verified after each merge. Local original working copies not updated; no forced sync. No new execution authority."
+  },
+  "inventory_counts": {
+    "original_identified_contours": 21,
+    "registered_total": 22,
+    "technical_foundation_reviewed": 21,
+    "new_registered_pending_bootstrap": 1
   }
 }
