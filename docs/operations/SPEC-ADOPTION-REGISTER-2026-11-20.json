@@ -1577,6 +1577,29 @@
       "not_in_selected_local_checkout": 7
     },
     "portfolio_accountability": "AC-302 POS-003 for PORT-001..007; PORT-008 and other default candidates not assignments",
-    "notes": "Additional historical chat search bounded, not exhaustive. No new WORK/OBL IDs, active local branch modifications or Mission Control runtime changes."
+    "notes": "Additional historical chat search bounded, not exhaustive. No new WORK/OBL IDs, active local branch modifications or Mission Control runtime changes.",
+    "management_queue": {
+      "path": "docs/operations/OWNER-WORK-QUEUE-PROJECTION-2026-11-20.json",
+      "source_commit": "fd8366a7bf2a06acdc6bd1ef12cbff979c9a05c1",
+      "source_blob": "446cdd320c0a40a77fe5c77aaa7b98dc1eeb71c0",
+      "counts": {
+        "projects": 22,
+        "actions": 51,
+        "queues": {
+          "prepare_within_existing_envelope": 12,
+          "read_only_reconciliation": 13,
+          "blocked": 10,
+          "watch": 6,
+          "hold": 10
+        },
+        "decision_ready_owner_items": 0
+      },
+      "existing_control_records_observed": 5,
+      "existing_decision_approval_records_observed": 6,
+      "existing_risk_records_observed": 3,
+      "backup_comparisons": 4,
+      "owner_readiness": "no decision-ready item established in bounded review",
+      "status": "derived candidate, no register mutation or OS contract admission"
+    }
   }
 }
