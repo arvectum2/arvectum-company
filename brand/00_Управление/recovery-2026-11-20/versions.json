@@ -1,0 +1,388 @@
+[
+  {
+    "path": "brand/02_Концепции/Vector-Hybrid-v0.25",
+    "files": 20,
+    "types": {
+      ".md": 1,
+      ".svg": 19
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Vector-v0.14",
+    "files": 2,
+    "types": {
+      ".md": 1,
+      ".svg": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Vector-v0.15",
+    "files": 2,
+    "types": {
+      ".svg": 1,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Vector-v0.16",
+    "files": 2,
+    "types": {
+      ".svg": 1,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Vector-v0.17",
+    "files": 4,
+    "types": {
+      ".svg": 3,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Vector-v0.18",
+    "files": 6,
+    "types": {
+      ".md": 2,
+      ".svg": 3,
+      ".txt": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Wordmark-v0.19",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/03_Логотип/Golden-Wordmark-v0.21",
+    "files": 7,
+    "types": {
+      ".md": 3,
+      ".svg": 4
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Lockup-v0.12",
+    "files": 8,
+    "types": {
+      ".md": 2,
+      ".svg": 6
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Logo-Audit-v0.1",
+    "files": 11,
+    "types": {
+      ".svg": 10,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Monogram-v0.2",
+    "files": 5,
+    "types": {
+      ".svg": 4,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Wordmark-v0.1",
+    "files": 2,
+    "types": {
+      ".md": 1,
+      ".svg": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/03_Логотип/Wordmark-v0.11",
+    "files": 9,
+    "types": {
+      ".svg": 8,
+      ".md": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Display-v0.1",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.10",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.13",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.2",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.20",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.22",
+    "files": 15,
+    "types": {
+      ".md": 1,
+      ".svg": 14
+    },
+    "status": "partial_original_materials"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.23",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.24",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.26",
+    "files": 7,
+    "types": {
+      ".txt": 1,
+      ".md": 1,
+      ".svg": 3,
+      ".py": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.27",
+    "files": 9,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 5,
+      ".json": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.28",
+    "files": 11,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 7,
+      ".json": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.29",
+    "files": 5,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".png": 1,
+      ".svg": 1,
+      ".json": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.3",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.30",
+    "files": 13,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 9,
+      ".json": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.31",
+    "files": 21,
+    "types": {
+      ".md": 1,
+      ".csv": 1,
+      ".json": 1,
+      ".py": 1,
+      ".zip": 1,
+      ".svg": 16
+    },
+    "status": "recovery_or_reconstruction_not_original_full_version"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.32",
+    "files": 21,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 17,
+      ".json": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.33",
+    "files": 17,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".json": 1,
+      ".png": 1,
+      ".svg": 13
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.34",
+    "files": 27,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 23,
+      ".json": 1,
+      ".png": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.35",
+    "files": 24,
+    "types": {
+      ".md": 1,
+      ".py": 1,
+      ".svg": 19,
+      ".csv": 1,
+      ".png": 1,
+      ".json": 1
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.36",
+    "files": 13,
+    "types": {
+      ".md": 1,
+      ".json": 3,
+      ".py": 2,
+      ".otf": 4,
+      ".csv": 1,
+      ".png": 1,
+      ".txt": 1
+    },
+    "status": "recovery_or_reconstruction_not_original_full_version"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.4",
+    "files": 38,
+    "types": {
+      ".md": 1,
+      ".txt": 1,
+      ".svg": 36
+    },
+    "status": "materials_present_unverified_completeness"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.5",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.6",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.7",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.8",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.9",
+    "files": 1,
+    "types": {
+      ".md": 1
+    },
+    "status": "documentation_only"
+  },
+  {
+    "path": "brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4",
+    "files": 23,
+    "types": {
+      ".md": 1,
+      ".txt": 1,
+      ".svg": 21
+    },
+    "status": "materials_present_unverified_completeness"
+  }
+]

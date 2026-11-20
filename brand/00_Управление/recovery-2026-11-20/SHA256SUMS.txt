@@ -1,0 +1,336 @@
+36a355c95f9a8837e2e7330c0a996e23c10375e98f3cfbf565a199a29556fe30  brand/02_Концепции/Vector-Hybrid-v0.25/README.md
+6072639439ec4ba5c10bef6a8125011c8ec2471c68d3c66b5b00f57f718787a5  brand/02_Концепции/Vector-Hybrid-v0.25/corporate.svg
+5572abfc66c2d7c1778e5e70129b4df2197e7d3bd2273b9b8dbd976aff59b242  brand/02_Концепции/Vector-Hybrid-v0.25/digital.svg
+70de137c5bb20cc84d485269041cdb2c198bc8d837ee32c4cfb39d0c027982f4  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+0068.svg
+ad7ff9c3a9570d60ce0c95e80e2f5a3b43bfef2161e544e07c76c6f49de0d92d  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+006D.svg
+b9b54007491e30eed6aa342ec87972a60565ad8c25c21a1952cf18750b623015  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+006E.svg
+5bcad165635debc7ed31708234c30ab2aaf96839bd589fd6809c4f95dd7055fc  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+0075.svg
+76637571670c2aeb74c55889a1855a42c65025543b9752a7100a4411c956f648  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+0438.svg
+4af7874d5bb497e4c1034b237292894da84399ce7efed976289f2c654ebb27d7  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+043C.svg
+37c65b8d16cf9c7df1632c9c260f226704ecac65b607a240d130b54ce7e73c8d  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+043F.svg
+edb67849e66b293280a231444dcf3a84cecd03795795b4015761fe1b318504bc  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Display/U+0448.svg
+dc6b81bcf7286e93714e46b209efb7201142fbc2d4b6fda62f0ff7c3224a72a1  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+0068.svg
+bc3ac1bdc646e2609d8965d780736209060ed5c13074ea4b67a89fe890fb2af7  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+006D.svg
+34e562d300f00fdb8e8a50aa73ee689da281d3ebf7b624c8f38615481a6b3c66  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+006E.svg
+41c7859c37ef2e5a29a7a3ffc6eb121e347d441ac08624e3f5de2996177b18e7  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+0075.svg
+8434ac096b247bc5f79eb45203622f51aa70cdb353662debdb5808fa323e24a8  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+0438.svg
+8c038061742cc959b8f402b2f70472d3628873230ab650e7eba81dcc138fe48d  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+043C.svg
+3b68fbfd75b355fa9229e1e058b2af190ae6a6a9b997891cf3645247770f9e03  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+043F.svg
+9aef1c86c44c3af84de99452695b71d85735e76b9f66c6b4518368dcd9be61b6  brand/02_Концепции/Vector-Hybrid-v0.25/glyphs/Text/U+0448.svg
+49f6438ebd7d25c1d969560f52d77b78cbd4375c7531b5aff4326a2b3a3d2224  brand/02_Концепции/Vector-Hybrid-v0.25/modular.svg
+ba239f362e6040663aa7829b272a6566d4533aa0b2d3066e0a1caa90588f3618  brand/03_Логотип/Golden-Vector-v0.14/REVIEW.md
+bbaca6bcb1c54e6d11e1ff4c648ddfec4ffcba7be68c50af90a9e83aa16f99b4  brand/03_Логотип/Golden-Vector-v0.14/monogram_golden_frame.svg
+f717ecff1a73e4de249c4774ee2cc9f0b84d6c46d5cb67154114ba56e063d7af  brand/03_Логотип/Golden-Vector-v0.15/AV_Golden_v015_mint.svg
+7d5b3f2539e510958403d3cabbd248e305f161788a99a8c488359780c924b569  brand/03_Логотип/Golden-Vector-v0.15/REVIEW.md
+e5f92ab968f875e4fceaf3f773a4cfcc45e9fafdc985fe34ff6b2fe7cd1f983c  brand/03_Логотип/Golden-Vector-v0.16/B_mint.svg
+4e57ca809803bcf63a17ba4f771319a4a227674dbc38016cdfc9e2a590f23e89  brand/03_Логотип/Golden-Vector-v0.16/REVIEW.md
+c0ada09255b3117e849c19a17f6899d7caea4396c4dc1992f85c61309eff8260  brand/03_Логотип/Golden-Vector-v0.17/C_mint.svg
+06b5be8c9f2402dd1b5e2d2e7f07c96b47429df2c8e06aed705b492ce4d30c92  brand/03_Логотип/Golden-Vector-v0.17/C_navy.svg
+c86a65f7ccc6c6582e4901300a91739e75791009120b655c6ab73181105d5bd3  brand/03_Логотип/Golden-Vector-v0.17/C_white.svg
+d574fba5aa6b3f00959de80b4e95ed33e16bd61ffce73ff72b471797155337e3  brand/03_Логотип/Golden-Vector-v0.17/REVIEW.md
+b566c641c8509f3f80a63b843e9342341d65c20bcca5ee43432828468a7cf2f0  brand/03_Логотип/Golden-Vector-v0.18/APPROVAL-v0.18.md
+9fc4b52cee3aee4c2412e9264a1e2882ccade506673d0dc7f0c8f478a8674eb8  brand/03_Логотип/Golden-Vector-v0.18/AV_Golden_v018_mint.svg
+ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655  brand/03_Логотип/Golden-Vector-v0.18/AV_Golden_v018_navy.svg
+7d3358bbed5a6df93477244728180071f274150bb6025575f9e2116cbb1293a3  brand/03_Логотип/Golden-Vector-v0.18/AV_Golden_v018_white.svg
+0a2466267021d6a955f2f6bac8ae085c5001d11029d4604853205a09062d1826  brand/03_Логотип/Golden-Vector-v0.18/REVIEW.md
+7a6fab5e13abd0e9b0b28ca1bc11b5e96a397f2bed867bb0d3d78cd237655338  brand/03_Логотип/Golden-Vector-v0.18/SHA256SUMS.txt
+c04f11e511eba0d2d98b0c6071d8c8baac2ae7595836862aff01b236a06fd0d8  brand/03_Логотип/Golden-Wordmark-v0.19/REVIEW.md
+111621c1e92dec8e2d53d9a88969a119642a38a3019c6c3cec50726f3e18525a  brand/03_Логотип/Golden-Wordmark-v0.21/APPROVAL-v0.21.md
+b011c891ad6b27605c728b50d44110aff0b3ac78b98b4ce8b1566ed4724a73b8  brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_EN.svg
+188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4  brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_RU.svg
+f8569d36aa1d0a30c9817e6f10ec581e99daa0eda6ad72fb67f917ba7b44e89f  brand/03_Логотип/Golden-Wordmark-v0.21/C_Wordmark_EN.svg
+dbe4c27fb2df4399c7a18d97bfdf2e418827d2b754fccbc9fe04fa3df5077bed  brand/03_Логотип/Golden-Wordmark-v0.21/C_Wordmark_RU.svg
+2dbdf21a890f3eab6411f2b3b2f6d95741c98f99ed4d3628563289228646076d  brand/03_Логотип/Golden-Wordmark-v0.21/OPEN-REVIEW-2026-11-18.md
+10582813d75096d2c1a9d590861ca8347a4191e6ff92fbdafea058aaf49ccce7  brand/03_Логотип/Golden-Wordmark-v0.21/REVIEW.md
+d2197084e118036956fac015db623c6c06132b8e966430e2e24ac455fe9b86c2  brand/03_Логотип/Lockup-v0.12/APPROVAL-v0.12.md
+fe68fce1287fe9d55179010265bafd7f2ba8aa1199a75d50cd684cd3c2ce3037  brand/03_Логотип/Lockup-v0.12/Candidate_C_EN_Mint.svg
+60f7f39673495759b8df0895ac5d85bfc8ab8dfc6a2abd20552ae8eeb409eddb  brand/03_Логотип/Lockup-v0.12/Candidate_C_EN_Navy.svg
+63700043b893267a86b8e7a2e3728b8d6496d403ccc809080fbf890b035f773b  brand/03_Логотип/Lockup-v0.12/Candidate_C_EN_White.svg
+fd5958055c21c0e8a83843541e9582056d1c1d7c73e68e78a6dd6ed75e58464b  brand/03_Логотип/Lockup-v0.12/Candidate_C_RU_Mint.svg
+7a213572d461f19cc4ffe2273640328cbecccc44694e1c7bf6f4159875cdae55  brand/03_Логотип/Lockup-v0.12/Candidate_C_RU_Navy.svg
+f5dd68b14e42861ae0f04db5bfec671929b4a550d81bff3b5e1c1e1524737898  brand/03_Логотип/Lockup-v0.12/Candidate_C_RU_White.svg
+37ac8fb192c1a94e11042dedb2ad8f61b8443a64fc96a89cab7e1645ecab177b  brand/03_Логотип/Lockup-v0.12/REVIEW.md
+c7bee88899ff080132f130fe256f0b747dda74eeba0e4bd01756a63e846f5490  brand/03_Логотип/Logo-Audit-v0.1/00_original_block.svg
+dc3e237cbdfa33ac41153336b6a93a8240026d330bac32f74358726fe6ccbec3  brand/03_Логотип/Logo-Audit-v0.1/00_original_monogram.svg
+02888db4c36f2d35557dae74195cd39d68f9c518d32ada3070677ec93b424ec5  brand/03_Логотип/Logo-Audit-v0.1/AUDIT.md
+9c23ebfa1f560827426df7b21931bf0141d321561e372b0676d8b7de3340934d  brand/03_Логотип/Logo-Audit-v0.1/angle_58.5.svg
+7a93fdae0bfe33ac5304f2a84c416e6b1eafbed0a03780a9c082ac569cb8ae02  brand/03_Логотип/Logo-Audit-v0.1/angle_60.svg
+35a581d1b5da3fb238d442975f80a3cd187f0f7fd7b978e7c84cd7836d066b95  brand/03_Логотип/Logo-Audit-v0.1/angle_61.5.svg
+5d07a50c19d162216a47c672aa07412b1a9b07854e88230906a6c3fc555f9ec9  brand/03_Логотип/Logo-Audit-v0.1/angle_63.svg
+703415b1ab1a41443cf820d536f4723b0b232e9171807ec3ca24f2625d679558  brand/03_Логотип/Logo-Audit-v0.1/angle_65.svg
+a9d605db8c6528ec75c5765be13efb6ea35b257839f608ddc4148cdd678d6170  brand/03_Логотип/Logo-Audit-v0.1/lockup_A.svg
+68d336408aaae7609ad1d51c20a942a5beeba5342043e804a3c89c0af37380f3  brand/03_Логотип/Logo-Audit-v0.1/lockup_B.svg
+795632bb8ac2d9a5835858a59df68d2e0289ad20a8d6131692c6826370c7b79d  brand/03_Логотип/Logo-Audit-v0.1/lockup_C.svg
+dc3e237cbdfa33ac41153336b6a93a8240026d330bac32f74358726fe6ccbec3  brand/03_Логотип/Monogram-v0.2/00_original.svg
+0e04a9ee1f9c619f29aaade50649288d4ea72280b1d1b4bafc410bc2a7517ac7  brand/03_Логотип/Monogram-v0.2/REVIEW.md
+8eb2158f65979f12c861b2ae088b87b49c821ce3892aa0674e8a5b785b1ab094  brand/03_Логотип/Monogram-v0.2/angle_60_reconstructed.svg
+e0ce2487c07ff4902c2936e9ed0230f4948d2905b602edaaf613d7acd80a8e36  brand/03_Логотип/Monogram-v0.2/angle_61.5_reconstructed.svg
+4c4bc722d0ad90378710eeba0e8f6902e943b0b8c4df3b2b9f093493c11adab2  brand/03_Логотип/Monogram-v0.2/angle_63_reconstructed.svg
+f53c07f66950880f62aa40fca6112576503769314b44d2a709c540d2c4a2bacc  brand/03_Логотип/Wordmark-v0.1/REVIEW.md
+e0ce2487c07ff4902c2936e9ed0230f4948d2905b602edaaf613d7acd80a8e36  brand/03_Логотип/Wordmark-v0.1/approved_monogram_C.svg
+9335a9ea94d718fdff8e565606f15682e33b1846f92f1076609e483c6bdc48d8  brand/03_Логотип/Wordmark-v0.11/B_Lockup_EN.svg
+0ffb0d06a471286a6130005cc20f3d2fa94ff27642f9f6dd464676f1b9140159  brand/03_Логотип/Wordmark-v0.11/B_Lockup_RU.svg
+2cf4d2bff1a0fad8091948af6bc35b56c2bc6d9ff1da9e2227605606ed911e85  brand/03_Логотип/Wordmark-v0.11/B_Wordmark_EN.svg
+dda3758fe123d6160dab9d62d33a375a03d9ab0ff136acfcfad05c17b6c537f4  brand/03_Логотип/Wordmark-v0.11/B_Wordmark_RU.svg
+51a0d7f80caa340edd93c7e4b2050c9e5e9e732ed02f6e9e41b728c3c523c79f  brand/03_Логотип/Wordmark-v0.11/C_Lockup_EN.svg
+22bbc2079d38a77f147d1d50520e0830e89b82f693baea4c3870f2031d1a0639  brand/03_Логотип/Wordmark-v0.11/C_Lockup_RU.svg
+8c57fb75a492a4868e6c6c936804bdc764782a7902f2930d665367923d7bf90d  brand/03_Логотип/Wordmark-v0.11/C_Wordmark_EN.svg
+a37065bb0dce1dc4f41a6d31f0b81329c02049fdc7f7b66122a6d4c77ee05b98  brand/03_Логотип/Wordmark-v0.11/C_Wordmark_RU.svg
+7e33a48ef893a3b05d95850bb8d75d16babb49312ac7824a98e268d39d5ddfeb  brand/03_Логотип/Wordmark-v0.11/REVIEW.md
+b6f8bfb132eac08fa8fabbf10e3586590c66cce5f1251ed96e7c82a2d3413bb2  brand/04_Цвет и типографика/Arvectum-Display-v0.1/PROJECT.md
+9a41406023110d7e49c5be86997bb3dfd2ff3588bb2bbdbd9ba73e921fdea79c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.10/REVIEW.md
+9bdb716ab1a675a31a3adadc91baf992e29abecdb441e712dc47c760103d9fec  brand/04_Цвет и типографика/Arvectum-Typeface-v0.13/REVIEW.md
+5b0740b24165b2708b5fefb77b13e8ddd7b4feb78cdca9f8610a167510e3793b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.2/OPTICAL-STUDY.md
+6f765b1ad160d430a4f805f786e614588cb7b0228ca60bbcfa58c028bd963a1b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.20/DECISION.md
+3511ca36ced8ef607166adf53db46b7c3407148dac04b368597bb44a6f0459c8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/REVIEW.md
+01ddd7331a62e1726032e7fbcb1ead36831be10336cce6666eeac91644c56933  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/alternatives/Display_W_exact.svg
+192e5b3d38c2fd2b3aa5e0b85833b266a7801dfc2869e08289392af5d122fe94  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/alternatives/Text_W_exact.svg
+5f09043de944bc0d8ee0d22f37762427178c7efd1471c7fff3b919ab64ce592e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+0041.svg
+f9fabda1920c3e092586441f4eb4e0745c8668b9a329c06ae794d9df3192c60f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+0056.svg
+13d7dba6eb25fae6de0d2e01b6c1a09e53d9cbabb41fe2450426b2323883a078  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+0057.svg
+b68df8dcec7875e39a02343853724425ef1d101db63ebe9ddd7f55666318e6bb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+0410.svg
+085bafe44bf3b53129ae4c7e8bf9df46433225d26cc5068d0ce383ae3a4f81eb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+0414.svg
+6b33e1cb973128e241c67c575a98ea02e8e401710ef1644dd2ea34c0ca2cbc4b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Display/U+041B.svg
+9189ec9903f0da68097a2f2b751a581bfef16b0fa0b6fba59117b5475ea03902  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+0041.svg
+ecd858f3f17355421887c1d37c460f470a1d8f0f3e2e1f9a21fead2a7a8d1b2d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+0056.svg
+d62bfb49c8ac20addf51172430fc289983de82127a7ef7e1d3f65bc7118f50fa  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+0057.svg
+ac65b6afa7a42e52edc39f461f8e1b7b3d36f5973be7677aac455ce3d1882e46  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+0410.svg
+c51e472e166393aa8c6fa4508f5b90e596aa8bfdc77941ca7bf4994d67a4756b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+0414.svg
+826b40299c6412aa1196d1564f4944421a95b6b52988478b007b97afc1916fd7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.22/glyphs/Text/U+041B.svg
+86d143eca372317e1a9220c27bdf7789e6d6f6c670a7fa859ff3e64b372447c8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.23/REVIEW.md
+b1952eb49317adecdd3c03980a4b249516582e150a44fc631189ec04c6a15636  brand/04_Цвет и типографика/Arvectum-Typeface-v0.24/REVIEW.md
+36f029b365f2382a077b075732e1cbdd4fddec3dd25772028ba79af7711a27c5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/GEOMETRY-QA.txt
+b7299db04d3401c3595f23463c85bc9c029f79eec2a63fa6d7cc3423f1ab349c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/REVIEW.md
+4730c5db1f4fd3ff819953fc9885026bc0e55c3dccd0b4e86b69bc075d5bd915  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/candidates/Display/U+006D.svg
+bc87c594cfb615862b1d08ef2f1474e9c9247dc2955a042bbefe6185b0ceceea  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/candidates/Text/U+006D.svg
+8034179a1841cd993352f0365195c5706e06a12908b009212fa766c100a6881a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/review_shoulders.py
+0df641121577f295c25b92d77776b2ccb19a64efae2648ded7a9345c530632c1  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/shoulders-proof.png
+da9ea45034745b2069d5f478c2bcc6f2c73aeddda39310c685c00e8fee1d526c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.26/shoulders-proof.svg
+586f839ce1bff1267612a2361f95f10d9939f4e8b807460b861feb0f3f99d939  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/REVIEW.md
+33930cdacc8a3f6a4e8ba17f24db871a494ba4841c5f09f8c60cbf00b7a34b50  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/build.py
+8eaefccc8488ddb6efb9da11551c2f2fe90106226dbb9f9db9ea3868468d87a1  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/candidates/Display/A-fixed/U+006D.svg
+b997cad3c272ba739f2b8e4c3e190ead4a53bfbc25755bf99611228c42ca89cd  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/candidates/Display/B-80pct/U+006D.svg
+e84e3baaed822674f1d9ce4a7eac1abf1e23b2b58d1555d3cdd108dea17f5c3b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/candidates/Text/A-fixed/U+006D.svg
+7c9663ed4e9a5634fb549d8b19ac8554b63d957aa005a2eab75f8245c18d58a8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/candidates/Text/B-80pct/U+006D.svg
+8a37545e2dd9ac3ec76f8ac710eb47fb54e2bbddfa3d08b996e96944de6d5dd4  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/geometry.json
+40d3699807fe18b138b8f23c6882f7cfb92f27ac571ee1badef62d1573d7f8a6  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/proof.png
+4fa8b44f45d1e6371f68526cd1c87d52b2e696272e6e2cf0c046e54ee7380ba0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.27/proof.svg
+3be017bfe2dd7d35f451cca1626b492dc24f96d29fadea81b4be1b8f00546732  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/REVIEW.md
+99380b7c8480b77c5cfc20b4b8924a571be0c865760332dc7507df262a9caa92  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/build.py
+5a89e117f5f05fc02672520f5e450071a3bb2a7432e6b127066399704092a27e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Display/C-compact/U+006D.svg
+2f13064e53ea86190e20b4048ad8eee5331ff6c9c9df926237a4cf4445f44a4c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Display/D-moderate/U+006D.svg
+2ae14bf3c4974327cfb1633075b0c6ba1be982614e0b5c0f8106a7b17e6664f8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Display/E-deep/U+006D.svg
+c84dc6ac7dfce3b0a9ee6397acc84f694526613656bd8d34ee0679665f231f3a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Text/C-compact/U+006D.svg
+0891f52ddff1e45275bb4d438883b5a528e61d928ce767b4ea212744f9bacaec  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Text/D-moderate/U+006D.svg
+f47d5783d2a07b0bba866ddddd096ceb3278a26ba903e269f44bdc6efcfb5ae8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/candidates/Text/E-deep/U+006D.svg
+cdaf9ef36f6d49f73cd863cc3313f610dcaf4ea1d3f5c641a6060fb375118a91  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/geometry.json
+27f7d750812b2cd0856879bec756852bb62304d7e03f7e42550ab63d86a0a128  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/proof.png
+498cb75c89299457829040ea13487c34ba6181de8d83945d2ea5b3c3e3431ce0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.28/proof.svg
+7fe7ff49768be9676e87dd13867892a9fcef10b251a11c2dc671359514673155  brand/04_Цвет и типографика/Arvectum-Typeface-v0.29/REVIEW.md
+2312980b381182d9b3904d6bc3526cfd09f728a7de03d7c76bd216620fcc7085  brand/04_Цвет и типографика/Arvectum-Typeface-v0.29/build.py
+8f2867d5e5f6f705fbd2d77e1fac22bc063844b9e35b9587a1ce597b21e9dbff  brand/04_Цвет и типографика/Arvectum-Typeface-v0.29/family-proof.png
+1601ee29c28ce3f494bdcefecea0bed0b850a0d2f56e7b10f2ae1aa9308c7710  brand/04_Цвет и типографика/Arvectum-Typeface-v0.29/family-proof.svg
+070343ee046a25468898c457e2feb11602cf28f348108d6cfeb4009fcb15e95c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.29/geometry.json
+ba988ca54c19d0de0f85acd08fa2395fd19df1d7e4b95fb0f91ebb3dd0a9122e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.3/REVIEW.md
+b403d6fca84afc5697b2b1b3a67e2f27546c417b085237ffe0c028d8415e1c6e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/REVIEW.md
+5aeba7e2ba19f98da2abfb6e5d26e44b573463bec90b29af57842d20c86e11dc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/build.py
+55fbcecd805462ba1065bd7fc026c61239c8901ed19ed224a0458c77270571b3  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Display/F-width/U+0438.svg
+3db59b916977250c08d34e2ad90abdcbb4c16481651594323111656bf82ebf42  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Display/F-width/U+043C.svg
+184b828bf93af668c99c28e6cece744167bcc2b173e00909243a649a04a776ff  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Display/G-phi/U+0438.svg
+e81504382eb740f24883a6a35c5a2b2fe6f03e7fab54d9c72e162d83a2c2334a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Display/G-phi/U+043C.svg
+fefef2561bb4492463adb15b94ba5d6928fae1189e039b9e6e0fae73c5e6850a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Text/F-width/U+0438.svg
+481f18633f80a421d3d70c089629984b53b1baeba4b2ed74a680958c008b8df7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Text/F-width/U+043C.svg
+cb53696dd7a0a54484c46fcd4d3eec54b481c35490d9e20996200a858efb07d7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Text/G-phi/U+0438.svg
+bf8039b7bb49f1cf718ee65fa4505e28aed22b040d536ef4301a428ce8b3dbed  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/candidates/Text/G-phi/U+043C.svg
+46c642c9afaac98ce348f51f10af23feab408f50649b64c2e6eb718478aafcd4  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/geometry.json
+f86a3831a1955edc99a3ad5f825cdde8d608a820a756714bc92e200d1318dda7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/proof.png
+8f838356a4c22ffe71b2b93f452760233fff64125c6430802c5cc446a3d11f00  brand/04_Цвет и типографика/Arvectum-Typeface-v0.30/proof.svg
+3ca6b9ee3630e7292d27ce3250040e9a8aeb0ef114ae493aa7037e5422aa6534  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/REVIEW.md
+f577502a1a057404e3370dcc1288cfacd775b2e6eff4c15bf8928433e8ae23ef  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/coverage.csv
+3fea89c3add0a33d59fd37fba4cf24c8c7f62cc04f7cb69770db1c5cfaf0e68d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/inventory.json
+202acfef95e0de5cb991a903193ba910525794d5b5f616b39ce19af404b5bb3b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/inventory.py
+1268094561af750ff23fc5b8d78c77511aacc08e86d2637fe446cb0136e9d01d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/Arvectum_Golden_Step_v0.21.zip
+cb2d0b29c361a6aad8215327345f16ef8933877d206c0e031774e12b988bdf60  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0041.svg
+977e9821ddea65851a8b7da53408e82d333f01ac67d6d30ef1056e6693e8a421  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0063.svg
+8318d714e9451b3fd3ace4d21ffd68f146ed3028d6f46edf322751632d87d011  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0065.svg
+a3e2eeea5b871afe5f75dbd53e9ea805f583b58a687b92df4c5376105337b8f2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+006D.svg
+12a35152279b9cc9c30dffb345c55b70f14766aad260f5d38e4f3251faf582ca  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0072.svg
+049e79e7d7e8b5836ba1066d6c96e2d341eb9ae59d4795abf629746521397004  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0074.svg
+86d7a661529c37d5ad4d1f13e8ef63d1cc001317a2b95ab1c4cdefa2fc19ddfe  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0075.svg
+ac923d2013c0a896707379abfe66ffaa54842f3d7d5a07d231497eead9c5b8be  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0076.svg
+cb2d0b29c361a6aad8215327345f16ef8933877d206c0e031774e12b988bdf60  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0410.svg
+40e185e7c955c399fdf57da031ab1f84899d49b02b7a16ef7126a3b3d87de450  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0432.svg
+8318d714e9451b3fd3ace4d21ffd68f146ed3028d6f46edf322751632d87d011  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0435.svg
+5e897e0a7c409ffb3c3dd41663a6f57e01d66d6e52465bb04f3c26f92bd1075d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+043A.svg
+0747ac432b17f8c404b63830cbb9f7cc499244e60aa61d465dd15ccebd3feb1c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+043C.svg
+0c7b8d0a30a18d512c0a2a22ff3a891319647407bcaf86cc3d802ea2e4fb7b83  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0440.svg
+18c60db61c26fdff12727e057d84ebc165b87cf249ed4d49eb9e5169a10c9dbc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0442.svg
+c4e815113c93d61e319d95203462ab47929972cfcb4567514cc22fb96ae22a0a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.31/recovered/wordmark-v0.21-C/U+0443.svg
+5f0701b250ffa09b99a01bf7d6adb37e79aca469202138941289beef676d0ce8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/REVIEW.md
+cb2f5fcc037bbdabcf5f5f178b099db258304481045dff42fa7e41ede1714d81  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/build.py
+df5b00f7012f96b00810fa2a7c875258daf246f4c0dea0ffc1466a722e3868a8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-high6180/U+0065.svg
+df5b00f7012f96b00810fa2a7c875258daf246f4c0dea0ffc1466a722e3868a8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-high6180/U+0435.svg
+ef76a934ba2458feff9deef9f7df287d7cedfa69658523707a46ca0eb3014663  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-low50/U+0065.svg
+ef76a934ba2458feff9deef9f7df287d7cedfa69658523707a46ca0eb3014663  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-low50/U+0435.svg
+725d3493666e862a3a796f8a0bb6561a59c772e192a58d3ed4b19132007128b2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-phi5279/U+0065.svg
+725d3493666e862a3a796f8a0bb6561a59c772e192a58d3ed4b19132007128b2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/E-phi5279/U+0435.svg
+ecb2f7ac3c052de12c0795835d5619c2496a786b117828979aba107b5c6f3cfc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/P-round5523/U+0440.svg
+495d6232a0ffcef99e346f2e5a95c0b66469d3b5c196ee43d4151990c89ee7ea  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/candidates/P-round6180/U+0440.svg
+dc08d56df73e52a368e5e1e6b5287ce881648031911dc6b0c1cd890e93e54b09  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-high6180/EN.svg
+25412018ca9213e16738d8d39f862af7e5c64bc795892143401a140367f0e837  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-high6180/RU.svg
+b30296b17c37f17008391b76d62af3d14912dad41491de0c1007486299d0d848  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-low50/EN.svg
+0e829df9f1a1329bc7c52b0ddf2a8f3823e35dc5481d1c7ceedbaa50c652bfb6  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-low50/RU.svg
+e5f8eaeeee3731f606ac5a2263a4c587070d75b9512691d8de011ef4e631d1c0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-phi5279/EN.svg
+ee0245b186976516a920462c23d0f4ac6e3e8abbc8f6bb7b8c169f68739265c5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/E-phi5279/RU.svg
+2bf3ff73831840073a2f415c8c6e9606ed78e31f23c5d11ea2260ae896f09a84  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/P-round5523/RU.svg
+7cefeb9f4ca7cb5cb17e06a459a594562b35f443fde520ec0fbfe49990b4644a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/context/P-round6180/RU.svg
+d76b12f915288387f6b21ba537f05255a353dfbcdfd9f428272f70a3890e11d4  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/geometry.json
+6f03868410867e081d52b326afb7832de7d8f8e3becd166a440a5792115c0a67  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/proof.png
+5240b16bc79888999627e4eba51761db34c4349402f3f8e5b5d7dc4a5325d16e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.32/proof.svg
+fbbcf471438f6b18338fb50c25331d98269ed86ad399a6b87f534afe88b4c5ab  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/REVIEW.md
+c8fba7df80a9925721d1257313339f00a0e8b4d0ee03aac3ae132ee55f3d78eb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/build.py
+24c95229e0c974f3bf1df237227e0a678439afe739abc9961d83fa94bb2428fb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/geometry.json
+a693d942055cda6dec0c5166bc578880678869459def0a148d3f6d2948393069  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/proof.png
+f3f44b85a139fd6546721aafe7e981243458214a14d49e27826ad40e2b234cb2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/proof.svg
+b011c891ad6b27605c728b50d44110aff0b3ac78b98b4ce8b1566ed4724a73b8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/C-original/Lockup_EN.svg
+188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/C-original/Lockup_RU.svg
+f8569d36aa1d0a30c9817e6f10ec581e99daa0eda6ad72fb67f917ba7b44e89f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/C-original/Wordmark_EN.svg
+dbe4c27fb2df4399c7a18d97bfdf2e418827d2b754fccbc9fe04fa3df5077bed  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/C-original/Wordmark_RU.svg
+7fd4553398b66326a3bf2934a833f460e6b50c99297561e4583b2332c130c783  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/H-phi/Lockup_EN.svg
+c9c66fef54f94c8ab4eba60892d048471b3f3de017ab6e433875783da62c2e73  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/H-phi/Lockup_RU.svg
+e5f8eaeeee3731f606ac5a2263a4c587070d75b9512691d8de011ef4e631d1c0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/H-phi/Wordmark_EN.svg
+0b1598ca2183797695f1309ec43db9cd20a3834057f4483d6155d8a5fe465e99  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/H-phi/Wordmark_RU.svg
+7fd4553398b66326a3bf2934a833f460e6b50c99297561e4583b2332c130c783  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/J-ellipse/Lockup_EN.svg
+90582149d007eb3a8526480f4fd9aef84f85a83432e70e116ee5507179199c3a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/J-ellipse/Lockup_RU.svg
+e5f8eaeeee3731f606ac5a2263a4c587070d75b9512691d8de011ef4e631d1c0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/J-ellipse/Wordmark_EN.svg
+3ee30b00e1422606b8ca275e963207ab75aef7141de11970a3b1155b77671ea5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.33/variants/J-ellipse/Wordmark_RU.svg
+8bb4c86ac434e04781f241c8c40ca869829aff5db2233a8162c9098d5d8c4158  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/REVIEW.md
+4505d6abcb9ca501705f8298439a85dc2ccf9dad88f5cf6ee4789ab89a560e59  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/build.py
+da56e94994d57334a037d6013e332b392e927e1be686c76be5481120d098b694  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/E-open/U+0065.svg
+da56e94994d57334a037d6013e332b392e927e1be686c76be5481120d098b694  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/E-open/U+0435.svg
+7b2f2a3c9aa3286d934fd0e5e88475fe17da79bc34650d9b02a94ab4e12cb636  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/E-thin/U+0065.svg
+7b2f2a3c9aa3286d934fd0e5e88475fe17da79bc34650d9b02a94ab4e12cb636  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/E-thin/U+0435.svg
+ff49a2d297fcd32b19b25707d6e2770f5214edc7e7ebe6e89dc1216b404194e4  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/P-balanced/U+0440.svg
+5c07dd73bd2f8ba768ea9bc6ac5509adfa6c61e42c15596dea87b6e7c54a1eca  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/candidates/P-mid/U+0440.svg
+fa27d74494b0ea7cf1c7deba7c7c0d62a33fc7a16de6f36beb8e717695732349  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/geometry.json
+d1aecdee3f25a59d5ac0cb55f6b2502413daa54625612fa64ddf2dca91758216  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/proof.png
+af0bfe3a4958936e659825b998d9e928d04a73a927ca87c29c27525cae7b6561  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/proof.svg
+7fd4553398b66326a3bf2934a833f460e6b50c99297561e4583b2332c130c783  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/H-baseline/Lockup_EN.svg
+c9c66fef54f94c8ab4eba60892d048471b3f3de017ab6e433875783da62c2e73  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/H-baseline/Lockup_RU.svg
+e5f8eaeeee3731f606ac5a2263a4c587070d75b9512691d8de011ef4e631d1c0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/H-baseline/Wordmark_EN.svg
+0b1598ca2183797695f1309ec43db9cd20a3834057f4483d6155d8a5fe465e99  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/H-baseline/Wordmark_RU.svg
+7fd4553398b66326a3bf2934a833f460e6b50c99297561e4583b2332c130c783  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/J-baseline/Lockup_EN.svg
+90582149d007eb3a8526480f4fd9aef84f85a83432e70e116ee5507179199c3a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/J-baseline/Lockup_RU.svg
+e5f8eaeeee3731f606ac5a2263a4c587070d75b9512691d8de011ef4e631d1c0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/J-baseline/Wordmark_EN.svg
+3ee30b00e1422606b8ca275e963207ab75aef7141de11970a3b1155b77671ea5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/J-baseline/Wordmark_RU.svg
+a9ec07a688305ab13841b78ea2a7d95abad7c9bd98c6ee386471f286205e05c8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/K-thin-mid/Lockup_EN.svg
+8648349c99e4de9a708a4455568b971a4637cbed3cec22a339a613ed808894ae  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/K-thin-mid/Lockup_RU.svg
+56a301aff9713bb241a878488b7fdf8a0789ba84db385ea6110a0996a466d0ed  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/K-thin-mid/Wordmark_EN.svg
+719e229bfe09effc8e2cb72e4e90cd02837479e74a1194e4ae3a5a54bd22fcdf  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/K-thin-mid/Wordmark_RU.svg
+667ba0d0e6953b775d3aca56fe00288c40bd3543cbc5db272de5b644da5dc38b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/L-open-balanced/Lockup_EN.svg
+cc83cb69785796c73329d746e96c3c21a70d152b27a1af9ca445954515957d8d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/L-open-balanced/Lockup_RU.svg
+edc0cacf77ef44b9e856a548f2f5dbdbb7b8e638389e87f050a434b3aca0e248  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/L-open-balanced/Wordmark_EN.svg
+83abed9dd86eb8823ce452a0e7278731e87e20d08ca013f6eaa8fc3c5a8ecc04  brand/04_Цвет и типографика/Arvectum-Typeface-v0.34/variants/L-open-balanced/Wordmark_RU.svg
+ac9733b4a307c944f3a309e06db665abaaec82eb4f57fcd9bb698552ddb7d06a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/REVIEW.md
+dd70dc95e8b30aa1ccb88d182ee98f69f4a9cafd8dfe219f841cf5a8075cd583  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/build.py
+fbf53c9d96919224b1796984546342fadfe40e3471e3ce629a9ebce923e77e0a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/display-coverage.svg
+9fc2c3a51bf88b2660ff379dbe5487c936e58d37a36b372a9fff096d9b2c22bf  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/integration-manifest.csv
+20b1f73b8fb93b4f0c65daddda3d9528d72f630c877eb547006c0ea9d3f92772  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/selection-proof.png
+5e2daaa3f4f9bbada9912c203397bdde57bd0585b8818b1cee9f4cae7c728f50  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/selection-proof.svg
+121011885d2fc00c2d89df9e825f3087a3fab997b83aa04d9b67e60f31c45617  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/status.json
+cf6b3d8bc2faf775012090da17ec1c47f0451e4c647dcd67cd18ef44b8159eee  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/text-coverage.svg
+a9ec07a688305ab13841b78ea2a7d95abad7c9bd98c6ee386471f286205e05c8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/K-thin-mid/Lockup_EN.svg
+8648349c99e4de9a708a4455568b971a4637cbed3cec22a339a613ed808894ae  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/K-thin-mid/Lockup_RU.svg
+56a301aff9713bb241a878488b7fdf8a0789ba84db385ea6110a0996a466d0ed  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/K-thin-mid/Wordmark_EN.svg
+719e229bfe09effc8e2cb72e4e90cd02837479e74a1194e4ae3a5a54bd22fcdf  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/K-thin-mid/Wordmark_RU.svg
+667ba0d0e6953b775d3aca56fe00288c40bd3543cbc5db272de5b644da5dc38b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/L-open-balanced/Lockup_EN.svg
+cc83cb69785796c73329d746e96c3c21a70d152b27a1af9ca445954515957d8d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/L-open-balanced/Lockup_RU.svg
+edc0cacf77ef44b9e856a548f2f5dbdbb7b8e638389e87f050a434b3aca0e248  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/L-open-balanced/Wordmark_EN.svg
+83abed9dd86eb8823ce452a0e7278731e87e20d08ca013f6eaa8fc3c5a8ecc04  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/L-open-balanced/Wordmark_RU.svg
+a9ec07a688305ab13841b78ea2a7d95abad7c9bd98c6ee386471f286205e05c8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/M-thin-balanced/Lockup_EN.svg
+042fe35dd15dbacc86bb7698d68eb95c67fffa30e0ccbf2e8b6d79038c1d0c58  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/M-thin-balanced/Lockup_RU.svg
+56a301aff9713bb241a878488b7fdf8a0789ba84db385ea6110a0996a466d0ed  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/M-thin-balanced/Wordmark_EN.svg
+7441d331e0f5ec9d5d661d0375bdad166d87b2367131bb1d8bfd0e0c02b5b7ba  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/M-thin-balanced/Wordmark_RU.svg
+667ba0d0e6953b775d3aca56fe00288c40bd3543cbc5db272de5b644da5dc38b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/N-open-mid/Lockup_EN.svg
+82b5077fd5f99304d6fa1313a4237cf6aa2065d4a0f649b027d45000d66d22dc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/N-open-mid/Lockup_RU.svg
+edc0cacf77ef44b9e856a548f2f5dbdbb7b8e638389e87f050a434b3aca0e248  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/N-open-mid/Wordmark_EN.svg
+6a42b3bcea1122ec3f22fa7d00412b1216c3d8b59ba644a6b1acec135d47f69b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.35/variants/N-open-mid/Wordmark_RU.svg
+1fc925bdbf33a1efa27a17ebcb6847c41a95253eaaa67d1184d53422ab1a3f50  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/README.md
+c81869cd9a892ef0cd72e99fe22c5708543267fb20316626e4d5d874bdb91f00  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/build-report.json
+f2998d5b249ec05dc6369bb71310459eeb55262a410ae829300e599760ebf615  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/build.py
+610d74114b7bcd87e817d346cee6db101809f3101f1e40dc7e40487dcd713808  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/experimental/ArvectumDisplayReconstruction-Medium.otf
+7f7fabad8da6512607fd5c2def247dc88171f9a8d2f48a5649014e1e00e0ea92  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/experimental/ArvectumTextReconstruction-Regular.otf
+cda2d0eb1de56d2c7a1652f3c0ad27dbed7ca2b3cdf2e9f50f93b6cbb2179bc0  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/glyph-provenance.csv
+30deec28a3b91cc701b8373b59162f12acfef76808f1f9860e095108c13d7ac2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/proof.png
+48e472c8e5ca43ee344c9496408686d69ed90af52dbb9bc40a5857c7a6ac43af  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/proof.py
+e6dc52a96c36751fd7875446d5dc45c5cea230d2c257c1136d7feb353d317aa2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/render-qa.json
+9a17712bbd6da13b7ce9beb056d19fe15648799a11d5c35f8086a1270a0d13b2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/sources/InterDisplay-Medium.otf
+35c1f7437dd6d63f4e60a49144df4b4e4edc190e13ffc1e54b86083747fe3acf  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/sources/InterDisplay-Regular.otf
+262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/sources/LICENSE.txt
+8fe26dee09d7dc4bbb9edf1a7b58c89e148c987c721d85cf9d6c8d7cd6baa816  brand/04_Цвет и типографика/Arvectum-Typeface-v0.36/sources/provenance.json
+8e01c08138d55c73d64cbcdfcca92a262f68e20f8d42bcfb79ff907f389a5c6f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/REVIEW.md
+55ebe5116f0fbb30ebbb317afbef3b36d03d99c183171a411dc219a3ae53f8b7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/SHA256SUMS.txt
+587179aa41413f74ee87ee78891136d9324e3dc79ed065e7b3782f15ac482bd5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0041.svg
+1ab39e54f61c86b8fdcdbfcda83adee7fdfc08e692a3a10e78079eb2fd9467e7  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0048.svg
+1edf0575bce75dba37c9a70db73f3e34c2195706d2e1647c46965b2d17a7056f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+004D.svg
+1db549e29af0eda62ab815fb886a5bf47c59bd205fd2fcf53fc8c85826a89e12  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+004E.svg
+04afc9406e5bcceb22e8e148880a8503058f8bd3f939900b964553dabe0e98f5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+004F.svg
+a78a2e32e4b1f88575bf65e618027c2ac766a274ab3fa6ddc3e37fc03bde9f52  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0052.svg
+505cada701f7a478e2ec297051e082af844d9adc50960f0d4772c846d6358c5f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0053.svg
+e2899a1e99e05806b366d2fed9f581d604abaeabca41a4f2800e1e1b2c2b07aa  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0056.svg
+e8b71f0004e2df7258cde42a4d87d2cdb0b903819f4349dc6d427f9adf9b8c59  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0076.svg
+587179aa41413f74ee87ee78891136d9324e3dc79ed065e7b3782f15ac482bd5  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0410.svg
+e95807169d6fc0afc45a34a3223ef3295d06707f856b923efec27f75fa0f0611  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0414.svg
+752b15a39ace580c58bc3a8668efccf088761eead0194f057aabcd1cd05df43e  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0416.svg
+d145d52ec6c09b02f54f8356cd13fd420dd8705293a1b4e40e73aaa38aafeb0f  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0418.svg
+a136847e89fa4328cd3a470ef394de0bb73261c08134ea0af551be806907569b  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+041A.svg
+7583395031ce8e6afbf5b4a46f4a49b03aa893a12514e527d0c6f61ccae0aabc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+041B.svg
+fcb541973ea0b4bc425ab658fa94ae93d82034d0053812bf76f5bccd1c8e9660  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+0424.svg
+c4aa6c14eaee0a39c0cccc168f497dcafe27bf87b002908f74694222e098364c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+042F.svg
+29974f9517f1f9782e82ae7e25b0e09322d9f97710b4058338e51f56757a76fc  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Display/U+043B.svg
+ad822f69af48dc53ecc670a1fb9591e0d1a741bdbdb6365b86868e7104e3b739  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0041.svg
+6498f4b1de1b5fd6398e14314dc2557178e4c344043d0c757bf6063ffa904016  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0048.svg
+c4b12349496568fcaf2db8c17d10a96fcca89f68cb6d61eaa424713365d3a15d  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+004D.svg
+7d17d3aafc282446ffd8d7cf80d8c6a6852d6976545d075c85ad2deb19842aea  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+004E.svg
+51bc23c016f82b9173a6bc3e81ff013b174c0f02e5823bae23003a0aedc7f102  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+004F.svg
+9f08119dc640a2c87d82a6ed6ecb94397661144cd3081a68f11dc4aeb1d6a5be  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0052.svg
+135bf38066ef480751e15540035fc1f7d8b477e6d3d6002903a3fc9ca5227339  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0053.svg
+88a0524a2ddaee762b618499ef4592859bbbef9115a832406a5f881f22d65233  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0056.svg
+930940639b7244503755b5e6b20be656a1cdd2d79d59f38f8233119c01de1da8  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0076.svg
+ad822f69af48dc53ecc670a1fb9591e0d1a741bdbdb6365b86868e7104e3b739  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0410.svg
+e140e244b8ffd793597477d1f6c7675030cebd36e0beb875f0cd140650386ec2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0414.svg
+790488baab4a3953b6f9c0f61915ebe02f656258ab98920918d0d5e74476399c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0416.svg
+ff03a8fca80ee78474e4e15ce279c9b12ac97ee5a242ce384b3bfb774b5853b2  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0418.svg
+2cfe58fb8ca64403754d8dccb50dceb0b264d1b80c3861e965ec4ca27d909a67  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+041A.svg
+09bb7bafa81ec5cc031be696907ab90551902f83fcc3a4de938935548b8c197c  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+041B.svg
+e977bbbe4981d927acaa11978cb3a493383fcad0eb1b8c91895a4a750826fdbb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+0424.svg
+b2ef8c016a963a0cc2ab4f3b3575ef92c2ac0f56b3817adc000eaf6e76dd5b83  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+042F.svg
+8e0e710c069d06724523b18487d3e5cf00ef2c60e6f58e24bc838e8dd5bebaa3  brand/04_Цвет и типографика/Arvectum-Typeface-v0.4/glyphs/Text/U+043B.svg
+94e61f4a4d05e9d84759a61ee20db06299245a7846404b9cdcfd2b5882f70643  brand/04_Цвет и типографика/Arvectum-Typeface-v0.5/REVIEW.md
+c5508ab44a9e2bee378e129fd697677b0ee2b8b8245178354dfb5b0a101a66a9  brand/04_Цвет и типографика/Arvectum-Typeface-v0.6/REVIEW.md
+9a95d160f7997881ed11b4d5bf8c3e4b045095c466078a0861212ea7d09cf0ae  brand/04_Цвет и типографика/Arvectum-Typeface-v0.7/REVIEW.md
+b6d6748e48695dc99e40cc36fc8bd5ac736afb027612a7e2f2a5dacf3de65dfb  brand/04_Цвет и типографика/Arvectum-Typeface-v0.8/REVIEW.md
+c5132494baa11e86d76d1073f31541e4020947bea177d5061e1a7bb5865a6a90  brand/04_Цвет и типографика/Arvectum-Typeface-v0.9/REVIEW.md
+c4f27051e89dc3c09f44719b1c9c0bd3eb6c4fdbeada2a52208b1239df376793  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/REVIEW.md
+e71c465c05e3c9678448260c8a27bd459780b0225548a0eeb4f00f07d716bfaa  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/SHA256SUMS.txt
+f7d6b97f4bedfd60015b51341df7ea2585511174db7146e1191762e1dcbcb33f  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/01-kernel.svg
+dfb6831f1ebe399d9d02df765c8adc14382964c20d4ef9557ed7c7b277e227f9  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/02-threshold.svg
+f83c0ed54b447c0d8a72524745f619bd18656c89b2bb96c5268b090a8114cd61  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/03-shift.svg
+2df8f5476b5e7d39f402362ff7cd656fbd5fc40aacef63696b0dff3833c169cc  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/04-aperture.svg
+29c7c7e79cd7193f45eeb9f84f67bde5a5469981ce139894a03984ce11b0624d  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/05-index.svg
+715efe30db1ec250819038a4c9562f12dc0b1642eba95dc6197cbfd861f12c55  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/06-trajectory.svg
+f0a8ce3328a46d59d944d21cc92a81acebe6a5e95236b2ad2cd4aae1f6eaf9e8  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/07-channel.svg
+efc07734e9fc66c0c2f67e5a0f2b5f220d6847c2851db3370e26060e11a36b8b  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/08-coordinate.svg
+d0aa8448ebd8149cf9c11e417d59509fe687374ac536eea308e67efe6a7ad11c  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/09-register.svg
+ceba752d650f2e1e84a6bd8aa660ccaa9e7d96fe894e1547df370fd8f2e351fd  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/10-relay.svg
+bc937e71b0ff4ef601f1120fb38c32aff97ae3829dcae3fe0d944d06545f358c  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/11-sequence.svg
+29d4fa9b992a53304513bbec69eb35548e23463b3d050516eb90a630d26eb2d3  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/12-interlock.svg
+87f362afa99564673e97d42086bfc9544f56ebc7836ef77953031ee6f8f0e617  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/13-address.svg
+d9281317b74315274c905ee8f572bb4f6744c7db2632d5e21a6ee0f962785ae8  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/14-pulse.svg
+c840a4422e2e1a6cfc87a29a60b2cb44d75822404ecdacbfef983fc2336a688b  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/elements/15-assembly.svg
+fbf0b3b4137cfa5eebb9db786045a77c642d07343d537da2eb00b914960c8d48  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/01-register.svg
+574bb2694acd1ce69277992656e9269868ae68d47009aafaaa7d846911df3529  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/02-relay.svg
+3b70700dd324750ed59d19b352e69f2fb6eeeef1e9e85708e477c7846574f7ff  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/03-shift.svg
+037476319c03b3c20839192c5ba2df1b8835fd89ab08f48364ac63c54d183632  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/04-aperture.svg
+4d0066daac3367f55bc74bdf4edcde35681455257e728fbce2a60b5d79901c4b  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/05-coordinate.svg
+f83dbc41063575716a7d81e8b90527be66d95bde1620b3209bdf517971a3861a  brand/05_Пиктограммы и паттерны/Flat-Graphics-v0.4/patterns/06-pulse.svg
