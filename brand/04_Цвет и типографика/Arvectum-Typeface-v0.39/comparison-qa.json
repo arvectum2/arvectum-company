@@ -1,0 +1,66 @@
+{
+  "Display": {
+    "unchanged_outside_family": 162,
+    "actually_changed": [
+      "E",
+      "F",
+      "I",
+      "L",
+      "T",
+      "i",
+      "l",
+      "Г",
+      "Е",
+      "Н",
+      "П",
+      "Т",
+      "Ц",
+      "Ш",
+      "Щ",
+      "н",
+      "ц",
+      "щ"
+    ],
+    "same_within_family": [],
+    "raster_nonempty": {
+      "12": 18,
+      "16": 18,
+      "24": 18,
+      "40": 18,
+      "72": 18
+    },
+    "hb_nonmissing": 18
+  },
+  "Text": {
+    "unchanged_outside_family": 162,
+    "actually_changed": [
+      "E",
+      "F",
+      "I",
+      "L",
+      "T",
+      "i",
+      "l",
+      "Г",
+      "Е",
+      "Н",
+      "П",
+      "Т",
+      "Ц",
+      "Ш",
+      "Щ",
+      "н",
+      "ц",
+      "щ"
+    ],
+    "same_within_family": [],
+    "raster_nonempty": {
+      "12": 18,
+      "16": 18,
+      "24": 18,
+      "40": 18,
+      "72": 18
+    },
+    "hb_nonmissing": 18
+  }
+}

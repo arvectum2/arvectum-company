@@ -1,0 +1,464 @@
+{
+  "Display": {
+    "phi": 1.618033988749895,
+    "stem_vertical": 200.59127,
+    "bar_horizontal": 190.77974,
+    "width_EF": 1050,
+    "width_L": 850,
+    "width_T": 1138,
+    "width_I": 525,
+    "width_Ш": 1699,
+    "tail_extension": 124,
+    "cap_tail_depth": 217,
+    "lower_tail_depth": 249,
+    "glyphs": {
+      "E": {
+        "bbox": [
+          0.0,
+          0.0,
+          1050.0,
+          1490.0
+        ],
+        "ink_area_approx": 761379.5338754625,
+        "contours": 1,
+        "sha256": "fb832f7e6cc3c0793ceedf0ce857dde3c9f52469485fe384ed58180d423dac66",
+        "source": "new straight geometry"
+      },
+      "F": {
+        "bbox": [
+          0.0,
+          0.0,
+          1050.0,
+          1490.0
+        ],
+        "ink_area_approx": 599329.5572123323,
+        "contours": 1,
+        "sha256": "4a37a969fd2673f8eec532beb71c88214e1fca47ba7df0db84070cd00e2de279",
+        "source": "new straight geometry"
+      },
+      "I": {
+        "bbox": [
+          0.0,
+          0.0,
+          525.0,
+          1490.0
+        ],
+        "ink_area_approx": 422662.2186262603,
+        "contours": 1,
+        "sha256": "7a95ce0d369b5d11a499eac29b4a83046fb397e6b1c78e0aec0cd172a41abe4c",
+        "source": "new straight geometry"
+      },
+      "L": {
+        "bbox": [
+          0.0,
+          0.0,
+          850.0,
+          1490.0
+        ],
+        "ink_area_approx": 422775.0209631303,
+        "contours": 1,
+        "sha256": "3d84fd2e2714793e11cdd499ceda270e3bc9430d8e9b1a9147901de89db973a1",
+        "source": "new straight geometry"
+      },
+      "T": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.0,
+          1490.0
+        ],
+        "ink_area_approx": 477719.5860831301,
+        "contours": 1,
+        "sha256": "bc8802e117d8c2a920fcd7c2a88b2f4a7b794b77ee9120d5f6a2d93cd3610b80",
+        "source": "new straight geometry"
+      },
+      "i": {
+        "bbox": [
+          0.0,
+          0.0,
+          200.59127,
+          1380.59127
+        ],
+        "ink_area_approx": 252061.23872021292,
+        "contours": 2,
+        "sha256": "09b7ea39f1145bcc75866b57493cd6885dd526320c47fa6ba7d1081c08d53e72",
+        "source": "new straight geometry"
+      },
+      "l": {
+        "bbox": [
+          0.0,
+          0.0,
+          324.59127,
+          1490.0
+        ],
+        "ink_area_approx": 322537.68006000004,
+        "contours": 1,
+        "sha256": "94e9d6f58327d6b3ea384b1c4aebe0b1cafb8c0ebbe8685a24ed4ec793e4bc10",
+        "source": "new straight geometry"
+      },
+      "Г": {
+        "bbox": [
+          0.0,
+          0.0,
+          850.0,
+          1490.0
+        ],
+        "ink_area_approx": 422775.02096313005,
+        "contours": 1,
+        "sha256": "d48ec710c35fe659ef3574ebabc8b9880fd7a6d3fd72f3336ef935b8fbaab051",
+        "source": "new straight geometry"
+      },
+      "П": {
+        "bbox": [
+          0.0,
+          0.0,
+          1190.0,
+          1490.0
+        ],
+        "ink_area_approx": 748252.3745262603,
+        "contours": 1,
+        "sha256": "1adc90807097b974eb41a6f8526bfcf8946a56b59be0cea75c5d6a810e390e6b",
+        "source": "new straight geometry"
+      },
+      "Ш": {
+        "bbox": [
+          0.0,
+          0.0,
+          1699.0,
+          1490.0
+        ],
+        "ink_area_approx": 1105971.5041493909,
+        "contours": 1,
+        "sha256": "6719b5354b041c71e02d71f36effccb6c806eadd9595d43bec927b29eff2e46f",
+        "source": "new straight geometry"
+      },
+      "Щ": {
+        "bbox": [
+          0.0,
+          -217.0,
+          1823.0,
+          1490.0
+        ],
+        "ink_area_approx": 1173156.497499391,
+        "contours": 1,
+        "sha256": "2e5a4248a30948443f404462b65a3a1146a884d52536b2cc584ee00de5b08a02",
+        "source": "new straight geometry"
+      },
+      "Ц": {
+        "bbox": [
+          0.0,
+          -217.0,
+          1314.0,
+          1490.0
+        ],
+        "ink_area_approx": 815437.3678762605,
+        "contours": 1,
+        "sha256": "30220644cc41deb5e19e0c4e3566f42863a44ef9f0a5cbbd11142ba00520db1d",
+        "source": "new straight geometry"
+      },
+      "н": {
+        "bbox": [
+          0.0,
+          0.0,
+          945.0,
+          1056.0
+        ],
+        "ink_area_approx": 532733.7971895742,
+        "contours": 1,
+        "sha256": "b992bc27fb55712933c1db65704bf637ba61c140f6a6c44fef2ef3c351a81406",
+        "source": "new straight geometry"
+      },
+      "щ": {
+        "bbox": [
+          0.0,
+          -249.0,
+          1539.0,
+          1056.0
+        ],
+        "ink_area_approx": 873419.7613193609,
+        "contours": 1,
+        "sha256": "216dcd509668ef5beebcae54e69d36cd3805bffcb16ca2a20522ba56b6b678c9",
+        "source": "new straight geometry"
+      },
+      "ц": {
+        "bbox": [
+          0.0,
+          -249.0,
+          1069.0,
+          1056.0
+        ],
+        "ink_area_approx": 607554.3408995741,
+        "contours": 1,
+        "sha256": "d88d48edcfdbc95af29afe779c7e52643bf3e153fa30402889e2a789067a30e3",
+        "source": "new straight geometry"
+      },
+      "Е": {
+        "bbox": [
+          0.0,
+          0.0,
+          1050.0,
+          1490.0
+        ],
+        "ink_area_approx": 761379.5338754625,
+        "contours": 1,
+        "sha256": "fb832f7e6cc3c0793ceedf0ce857dde3c9f52469485fe384ed58180d423dac66",
+        "source": "new straight geometry"
+      },
+      "Т": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.0,
+          1490.0
+        ],
+        "ink_area_approx": 477719.5860831301,
+        "contours": 1,
+        "sha256": "bc8802e117d8c2a920fcd7c2a88b2f4a7b794b77ee9120d5f6a2d93cd3610b80",
+        "source": "new straight geometry"
+      },
+      "Н": {
+        "bbox": [
+          110.0,
+          0.0,
+          1300.0,
+          1490.0
+        ],
+        "ink_area_approx": 754000.0,
+        "contours": 1,
+        "sha256": "1ab39e54f61c86b8fdcdbfcda83adee7fdfc08e692a3a10e78079eb2fd9467e7",
+        "source": "legacy H exact"
+      }
+    }
+  },
+  "Text": {
+    "phi": 1.618033988749895,
+    "stem_vertical": 185.435,
+    "bar_horizontal": 175,
+    "width_EF": 971,
+    "width_L": 786,
+    "width_T": 1138,
+    "width_I": 485,
+    "width_Ш": 1571,
+    "tail_extension": 115,
+    "cap_tail_depth": 217,
+    "lower_tail_depth": 249,
+    "glyphs": {
+      "E": {
+        "bbox": [
+          0.0,
+          0.0,
+          971.0,
+          1490.0
+        ],
+        "ink_area_approx": 668663.8767774999,
+        "contours": 1,
+        "sha256": "9f86b456017ca6117a5ce10bf17824fbce5c6da90aa6f25a88c3e3ada65f2c5e",
+        "source": "new straight geometry"
+      },
+      "F": {
+        "bbox": [
+          0.0,
+          0.0,
+          971.0,
+          1490.0
+        ],
+        "ink_area_approx": 531190.0017774999,
+        "contours": 1,
+        "sha256": "9690404d4019617d0e1af4b38427059ca35be33329933f72eaf50f9db1a8e8b8",
+        "source": "new straight geometry"
+      },
+      "I": {
+        "bbox": [
+          0.0,
+          0.0,
+          485.0,
+          1490.0
+        ],
+        "ink_area_approx": 381145.8999999999,
+        "contours": 1,
+        "sha256": "f3cd960ff6a5a5939a1de1a71834e3fd8e4301e0c99e652be3544733f1bba9e5",
+        "source": "new straight geometry"
+      },
+      "L": {
+        "bbox": [
+          0.0,
+          0.0,
+          786.0,
+          1490.0
+        ],
+        "ink_area_approx": 381397.025,
+        "contours": 1,
+        "sha256": "5da60fae5cfc89b70492c06deb1e4ad226e2ed4bf7986c2e041914450cc8fd09",
+        "source": "new straight geometry"
+      },
+      "T": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.0,
+          1490.0
+        ],
+        "ink_area_approx": 442997.0249999999,
+        "contours": 1,
+        "sha256": "44f8dce10d8bbdaaa0c6d2c35aeb954d2610d9db73c45776df1aa7c99622c7fe",
+        "source": "new straight geometry"
+      },
+      "i": {
+        "bbox": [
+          0.0,
+          0.0,
+          185.435,
+          1356.435
+        ],
+        "ink_area_approx": 230205.499225,
+        "contours": 2,
+        "sha256": "3cee8c270b56b74f8c92400ccab1091706546180c8f6c3a4529498f5b409902f",
+        "source": "new straight geometry"
+      },
+      "l": {
+        "bbox": [
+          0.0,
+          0.0,
+          300.435,
+          1490.0
+        ],
+        "ink_area_approx": 296423.15,
+        "contours": 1,
+        "sha256": "118aba92a240f849a477241dee590d93acce63d3795392cf92b0693cb78ef8ce",
+        "source": "new straight geometry"
+      },
+      "Г": {
+        "bbox": [
+          0.0,
+          0.0,
+          786.0,
+          1490.0
+        ],
+        "ink_area_approx": 381397.025,
+        "contours": 1,
+        "sha256": "05bb6e148cf6ecd56c2eaf7d6bdea0ed524771a5113f96b174dd6cbe431c9df0",
+        "source": "new straight geometry"
+      },
+      "П": {
+        "bbox": [
+          0.0,
+          0.0,
+          1080.0,
+          1490.0
+        ],
+        "ink_area_approx": 676694.0499999999,
+        "contours": 1,
+        "sha256": "f6c4218baf605929b9388d03f483538df52e878746faebed28f722879c492876",
+        "source": "new straight geometry"
+      },
+      "Ш": {
+        "bbox": [
+          0.0,
+          0.0,
+          1571.0,
+          1490.0
+        ],
+        "ink_area_approx": 1006466.0749999998,
+        "contours": 1,
+        "sha256": "25c9820b41229161122f2c969afe051754f1aca7ce7a984660551c6eb7d28e8d",
+        "source": "new straight geometry"
+      },
+      "Щ": {
+        "bbox": [
+          0.0,
+          -217.0,
+          1686.0,
+          1490.0
+        ],
+        "ink_area_approx": 1066830.4699999997,
+        "contours": 1,
+        "sha256": "c789031906cfe0776de6403902f7e97655118fa5b7ce3e850006edf52473ea14",
+        "source": "new straight geometry"
+      },
+      "Ц": {
+        "bbox": [
+          0.0,
+          -217.0,
+          1195.0,
+          1490.0
+        ],
+        "ink_area_approx": 737058.445,
+        "contours": 1,
+        "sha256": "7f6fec83913c5eef6a0eeee609c017b3454dccf1548cdfcf6614f7c4ac3f742d",
+        "source": "new straight geometry"
+      },
+      "н": {
+        "bbox": [
+          0.0,
+          0.0,
+          945.0,
+          1056.0
+        ],
+        "ink_area_approx": 498102.51654999994,
+        "contours": 1,
+        "sha256": "5676ac1ddf499c0b11c56fb8d6d2719312f8952a823c9fb97838b43f3a2ad5bc",
+        "source": "new straight geometry"
+      },
+      "щ": {
+        "bbox": [
+          0.0,
+          -249.0,
+          1530.0,
+          1056.0
+        ],
+        "ink_area_approx": 814188.5273249999,
+        "contours": 1,
+        "sha256": "2f081bea89371599722a38691a618f4f14175e9c52ae97a4159627555de9dd18",
+        "source": "new straight geometry"
+      },
+      "ц": {
+        "bbox": [
+          0.0,
+          -249.0,
+          1060.0,
+          1056.0
+        ],
+        "ink_area_approx": 565600.8565499999,
+        "contours": 1,
+        "sha256": "250b7217c5036aa43c2f7153f587650b7c38e3331c2c6ebd892538c2f3a16554",
+        "source": "new straight geometry"
+      },
+      "Е": {
+        "bbox": [
+          0.0,
+          0.0,
+          971.0,
+          1490.0
+        ],
+        "ink_area_approx": 668663.8767774999,
+        "contours": 1,
+        "sha256": "9f86b456017ca6117a5ce10bf17824fbce5c6da90aa6f25a88c3e3ada65f2c5e",
+        "source": "new straight geometry"
+      },
+      "Т": {
+        "bbox": [
+          0.0,
+          0.0,
+          1138.0,
+          1490.0
+        ],
+        "ink_area_approx": 442997.0249999999,
+        "contours": 1,
+        "sha256": "44f8dce10d8bbdaaa0c6d2c35aeb954d2610d9db73c45776df1aa7c99622c7fe",
+        "source": "new straight geometry"
+      },
+      "Н": {
+        "bbox": [
+          100.0,
+          0.0,
+          1180.0,
+          1490.0
+        ],
+        "ink_area_approx": 639152.0,
+        "contours": 1,
+        "sha256": "6498f4b1de1b5fd6398e14314dc2557178e4c344043d0c757bf6063ffa904016",
+        "source": "legacy H exact"
+      }
+    }
+  }
+}
