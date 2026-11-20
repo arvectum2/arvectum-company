@@ -61,3 +61,20 @@ class RegisterTests(unittest.TestCase):
             with self.assertRaises(OSError):reg.load(s)
 
 if __name__=="__main__":unittest.main()
+
+class LockedWriterTests(unittest.TestCase):
+    def test_context_retains_history_and_refuses_escaped_writer(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp).resolve()/"register.json"
+            first=add(reg.empty(),sample())
+            reg.write_snapshot(p,first)
+            r=sample();r["attention_state"]="needs_attention"
+            second=add(first,r)
+            with reg.locked_snapshot_writer(p) as write:
+                write(second,expected_digest=reg.digest(first))
+                self.assertEqual(reg.load(p),second)
+                with self.assertRaises(ValueError):
+                    write(second,expected_digest=reg.digest(first))
+            with self.assertRaises(ValueError):
+                write(second,expected_digest=reg.digest(second))
+            self.assertEqual(reg.load(p),second)

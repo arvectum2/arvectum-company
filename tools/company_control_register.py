@@ -157,24 +157,45 @@ def locked(directory):
         yield
     finally:os.close(fd)
 
-def write_snapshot(path, doc, *, expected_digest=None):
-    """No silent initialization/overwrite. Caller owns external volume validation."""
-    path=Path(path);directory=private_dir(path.parent);replay(doc)
+@contextmanager
+def locked_snapshot_writer(path):
+    """Hold the existing Company register lock across bounded coordination.
+
+    The yielded writer is usable only in this context. Every write still
+    checks expected predecessor and append-only history. No authority granted.
+    """
+    path=Path(path);directory=private_dir(path.parent)
+    active=True
     with locked(directory):
-        if expected_digest is None:
-            require(not path.exists() and not path.is_symlink(),"initialization refused")
-        else:
-            prior=load(path)
-            require(digest(prior)==expected_digest,"predecessor conflict")
-            require(len(doc["events"])==len(prior["events"])+1 and doc["events"][:-1]==prior["events"],"append-only history required")
-        fd,name=tempfile.mkstemp(prefix=".register-",dir=directory)
+        def write(doc, *, expected_digest=None):
+            require(active,"writer outside lock")
+            replay(doc)
+            _write_locked(path,directory,doc,expected_digest)
         try:
-            with os.fdopen(fd,"wb") as f:
-                f.write(canonical(doc));f.flush();os.fsync(f.fileno())
-            os.replace(name,path)
-            dfd=os.open(directory,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW)
-            try:os.fsync(dfd)
-            finally:os.close(dfd)
+            yield write
         finally:
-            if os.path.exists(name):os.unlink(name)
-        require(load(path)==doc,"read-after-write failed")
+            active=False
+
+def write_snapshot(path, doc, *, expected_digest=None):
+    """No silent initialization/overwrite; caller validates external volume."""
+    with locked_snapshot_writer(path) as write:
+        write(doc,expected_digest=expected_digest)
+
+def _write_locked(path,directory,doc,expected_digest):
+    if expected_digest is None:
+        require(not path.exists() and not path.is_symlink(),"initialization refused")
+    else:
+        prior=load(path)
+        require(digest(prior)==expected_digest,"predecessor conflict")
+        require(len(doc["events"])==len(prior["events"])+1 and doc["events"][:-1]==prior["events"],"append-only history required")
+    fd,name=tempfile.mkstemp(prefix=".register-",dir=directory)
+    try:
+        with os.fdopen(fd,"wb") as f:
+            f.write(canonical(doc));f.flush();os.fsync(f.fileno())
+        os.replace(name,path)
+        dfd=os.open(directory,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW)
+        try:os.fsync(dfd)
+        finally:os.close(dfd)
+    finally:
+        if os.path.exists(name):os.unlink(name)
+    require(load(path)==doc,"read-after-write failed")
