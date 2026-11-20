@@ -1,0 +1,52 @@
+{
+  "coverage": {
+    "Display": {
+      "current_candidate": 14,
+      "legacy_only": 13,
+      "wordmark_reference_only": 10,
+      "missing": 81
+    },
+    "Text": {
+      "current_candidate": 14,
+      "legacy_only": 13,
+      "wordmark_reference_only": 10,
+      "missing": 81
+    }
+  },
+  "variants": {
+    "K-thin-mid": [
+      "E-thin",
+      "P-mid"
+    ],
+    "M-thin-balanced": [
+      "E-thin",
+      "P-balanced"
+    ],
+    "N-open-mid": [
+      "E-open",
+      "P-mid"
+    ],
+    "L-open-balanced": [
+      "E-open",
+      "P-balanced"
+    ]
+  },
+  "sha256": {
+    "variants/K-thin-mid/Wordmark_EN.svg": "56a301aff9713bb241a878488b7fdf8a0789ba84db385ea6110a0996a466d0ed",
+    "variants/K-thin-mid/Lockup_EN.svg": "a9ec07a688305ab13841b78ea2a7d95abad7c9bd98c6ee386471f286205e05c8",
+    "variants/K-thin-mid/Wordmark_RU.svg": "719e229bfe09effc8e2cb72e4e90cd02837479e74a1194e4ae3a5a54bd22fcdf",
+    "variants/K-thin-mid/Lockup_RU.svg": "8648349c99e4de9a708a4455568b971a4637cbed3cec22a339a613ed808894ae",
+    "variants/M-thin-balanced/Wordmark_EN.svg": "56a301aff9713bb241a878488b7fdf8a0789ba84db385ea6110a0996a466d0ed",
+    "variants/M-thin-balanced/Lockup_EN.svg": "a9ec07a688305ab13841b78ea2a7d95abad7c9bd98c6ee386471f286205e05c8",
+    "variants/M-thin-balanced/Wordmark_RU.svg": "7441d331e0f5ec9d5d661d0375bdad166d87b2367131bb1d8bfd0e0c02b5b7ba",
+    "variants/M-thin-balanced/Lockup_RU.svg": "042fe35dd15dbacc86bb7698d68eb95c67fffa30e0ccbf2e8b6d79038c1d0c58",
+    "variants/N-open-mid/Wordmark_EN.svg": "edc0cacf77ef44b9e856a548f2f5dbdbb7b8e638389e87f050a434b3aca0e248",
+    "variants/N-open-mid/Lockup_EN.svg": "667ba0d0e6953b775d3aca56fe00288c40bd3543cbc5db272de5b644da5dc38b",
+    "variants/N-open-mid/Wordmark_RU.svg": "6a42b3bcea1122ec3f22fa7d00412b1216c3d8b59ba644a6b1acec135d47f69b",
+    "variants/N-open-mid/Lockup_RU.svg": "82b5077fd5f99304d6fa1313a4237cf6aa2065d4a0f649b027d45000d66d22dc",
+    "variants/L-open-balanced/Wordmark_EN.svg": "edc0cacf77ef44b9e856a548f2f5dbdbb7b8e638389e87f050a434b3aca0e248",
+    "variants/L-open-balanced/Lockup_EN.svg": "667ba0d0e6953b775d3aca56fe00288c40bd3543cbc5db272de5b644da5dc38b",
+    "variants/L-open-balanced/Wordmark_RU.svg": "83abed9dd86eb8823ce452a0e7278731e87e20d08ca013f6eaa8fc3c5a8ecc04",
+    "variants/L-open-balanced/Lockup_RU.svg": "cc83cb69785796c73329d746e96c3c21a70d152b27a1af9ca445954515957d8d"
+  }
+}
