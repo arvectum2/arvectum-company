@@ -6,6 +6,7 @@ authority-aware review, never a field-only update.
 """
 import json,os,re,stat,tempfile
 from pathlib import Path
+from contextlib import contextmanager
 from .company_control_register import (require,canonical,digest,instant,nonempty,
  refs,private_dir,locked,POSITIONS,MAX_BYTES,MAX_EVENTS)
 SCHEMA="arvectum.company.risk-exception-incident-register/1"
@@ -88,20 +89,35 @@ def load(path):
         raw=f.read(MAX_BYTES+1)
     require(len(raw)<=MAX_BYTES,"file bound")
     doc=json.loads(raw);replay(doc);require(canonical(doc)==raw,"noncanonical bytes");return doc
-def write_snapshot(path,doc,*,expected_digest=None):
-    path=Path(path);directory=private_dir(path.parent);replay(doc)
+def _write_locked(path,directory,doc,expected_digest):
+    if expected_digest is None:require(not path.exists() and not path.is_symlink(),"initialization refused")
+    else:
+        old=load(path)
+        require(digest(old)==expected_digest and len(doc["events"])==len(old["events"])+1 and doc["events"][:-1]==old["events"],"append-only conflict")
+    fd,name=tempfile.mkstemp(prefix=".risk-register-",dir=directory)
+    try:
+        with os.fdopen(fd,"wb") as f:f.write(canonical(doc));f.flush();os.fsync(f.fileno())
+        os.replace(name,path)
+        dfd=os.open(directory,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW)
+        try:os.fsync(dfd)
+        finally:os.close(dfd)
+    finally:
+        if os.path.exists(name):os.unlink(name)
+    require(load(path)==doc,"read-after-write mismatch")
+
+@contextmanager
+def locked_snapshot_writer(path):
+    """Hold canonical register lock for a bounded coordinated transition."""
+    path=Path(path);directory=private_dir(path.parent)
+    active=True
     with locked(directory):
-        if expected_digest is None:require(not path.exists() and not path.is_symlink(),"initialization refused")
-        else:
-            old=load(path)
-            require(digest(old)==expected_digest and len(doc["events"])==len(old["events"])+1 and doc["events"][:-1]==old["events"],"append-only conflict")
-        fd,name=tempfile.mkstemp(prefix=".risk-register-",dir=directory)
-        try:
-            with os.fdopen(fd,"wb") as f:f.write(canonical(doc));f.flush();os.fsync(f.fileno())
-            os.replace(name,path)
-            dfd=os.open(directory,os.O_RDONLY|os.O_DIRECTORY|os.O_NOFOLLOW)
-            try:os.fsync(dfd)
-            finally:os.close(dfd)
-        finally:
-            if os.path.exists(name):os.unlink(name)
-        require(load(path)==doc,"read-after-write mismatch")
+        def write(doc,*,expected_digest=None):
+            require(active,"writer outside lock")
+            replay(doc)
+            _write_locked(path,directory,doc,expected_digest)
+        try:yield write
+        finally:active=False
+
+def write_snapshot(path,doc,*,expected_digest=None):
+    with locked_snapshot_writer(path) as write:
+        write(doc,expected_digest=expected_digest)
