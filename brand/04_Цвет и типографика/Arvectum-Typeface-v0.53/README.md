@@ -1,0 +1,4 @@
+# Golden Step v0.53 — GPOS kern (GS-006)
+Two self-contained OTFs with OpenType GPOS kerning: 57 explicit Latin, Cyrillic and mixed-script pair adjustments per style. Negative adjustments are conservative (15–80 units), keeping the golden geometry/absolute outlines and hmtx untouched. HarfBuzz confirms precise advance differences with kern=1 vs kern=0 for all 114 pair/style checks; six digit-pair controls confirm tabular figure stability. Pillow libraqm available for visual samples. First pass kerning does not represent exhaustive class coverage, collision-free certification or final release; additional pair review with actual document templates remains necessary. Fonts are draft, no deployment.
+
+Source kerning-{display,text}.fea, kerning.py, kerning-qa.json, kerning-proof.png, OTF, SHA256; previous versions are immutable dependencies.

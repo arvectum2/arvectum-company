@@ -1,0 +1,590 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft052-Medium.otf",
+    "input_sha256": "9a8d6e32efc97ac27a68269766d5fc320019b2fe4cb4d979c8e0101aa50aac1b",
+    "output_sha256": "91e6d0bb6976a3353959ae768feb1c381b98ee253c058dc0bfa17ee244da76b9",
+    "pairs": {
+      "AV": {
+        "no_kern": 4090,
+        "kern": 4015,
+        "delta": -75
+      },
+      "VA": {
+        "no_kern": 4090,
+        "kern": 4025,
+        "delta": -65
+      },
+      "AW": {
+        "no_kern": 4372,
+        "kern": 4292,
+        "delta": -80
+      },
+      "WA": {
+        "no_kern": 4372,
+        "kern": 4312,
+        "delta": -60
+      },
+      "AT": {
+        "no_kern": 3383,
+        "kern": 3328,
+        "delta": -55
+      },
+      "TA": {
+        "no_kern": 3383,
+        "kern": 3343,
+        "delta": -40
+      },
+      "To": {
+        "no_kern": 2488,
+        "kern": 2433,
+        "delta": -55
+      },
+      "Te": {
+        "no_kern": 2488,
+        "kern": 2443,
+        "delta": -45
+      },
+      "Ty": {
+        "no_kern": 2961,
+        "kern": 2916,
+        "delta": -45
+      },
+      "Ta": {
+        "no_kern": 2478,
+        "kern": 2438,
+        "delta": -40
+      },
+      "Tr": {
+        "no_kern": 2128,
+        "kern": 2098,
+        "delta": -30
+      },
+      "LT": {
+        "no_kern": 2388,
+        "kern": 2353,
+        "delta": -35
+      },
+      "LY": {
+        "no_kern": 2589,
+        "kern": 2534,
+        "delta": -55
+      },
+      "La": {
+        "no_kern": 2190,
+        "kern": 2165,
+        "delta": -25
+      },
+      "Vo": {
+        "no_kern": 3195,
+        "kern": 3135,
+        "delta": -60
+      },
+      "Ve": {
+        "no_kern": 3195,
+        "kern": 3145,
+        "delta": -50
+      },
+      "Va": {
+        "no_kern": 3185,
+        "kern": 3140,
+        "delta": -45
+      },
+      "Wo": {
+        "no_kern": 3477,
+        "kern": 3412,
+        "delta": -65
+      },
+      "We": {
+        "no_kern": 3477,
+        "kern": 3427,
+        "delta": -50
+      },
+      "Wa": {
+        "no_kern": 3467,
+        "kern": 3417,
+        "delta": -50
+      },
+      "Yo": {
+        "no_kern": 2689,
+        "kern": 2644,
+        "delta": -45
+      },
+      "Ya": {
+        "no_kern": 2679,
+        "kern": 2634,
+        "delta": -45
+      },
+      "Fo": {
+        "no_kern": 2400,
+        "kern": 2355,
+        "delta": -45
+      },
+      "Fa": {
+        "no_kern": 2390,
+        "kern": 2350,
+        "delta": -40
+      },
+      "Pa": {
+        "no_kern": 2500,
+        "kern": 2470,
+        "delta": -30
+      },
+      "Po": {
+        "no_kern": 2510,
+        "kern": 2480,
+        "delta": -30
+      },
+      "ry": {
+        "no_kern": 2413,
+        "kern": 2393,
+        "delta": -20
+      },
+      "ly": {
+        "no_kern": 2148,
+        "kern": 2133,
+        "delta": -15
+      },
+      "ff": {
+        "no_kern": 2100,
+        "kern": 2080,
+        "delta": -20
+      },
+      "rt": {
+        "no_kern": 1610,
+        "kern": 1590,
+        "delta": -20
+      },
+      "АУ": {
+        "no_kern": 3888,
+        "kern": 3818,
+        "delta": -70
+      },
+      "УА": {
+        "no_kern": 3888,
+        "kern": 3828,
+        "delta": -60
+      },
+      "АЛ": {
+        "no_kern": 4090,
+        "kern": 4060,
+        "delta": -30
+      },
+      "ЛТ": {
+        "no_kern": 3383,
+        "kern": 3333,
+        "delta": -50
+      },
+      "ДА": {
+        "no_kern": 4019,
+        "kern": 3984,
+        "delta": -35
+      },
+      "АТ": {
+        "no_kern": 3383,
+        "kern": 3328,
+        "delta": -55
+      },
+      "ТО": {
+        "no_kern": 2858,
+        "kern": 2803,
+        "delta": -55
+      },
+      "То": {
+        "no_kern": 2488,
+        "kern": 2438,
+        "delta": -50
+      },
+      "Те": {
+        "no_kern": 2488,
+        "kern": 2443,
+        "delta": -45
+      },
+      "Ту": {
+        "no_kern": 2801,
+        "kern": 2756,
+        "delta": -45
+      },
+      "Го": {
+        "no_kern": 2200,
+        "kern": 2165,
+        "delta": -35
+      },
+      "Га": {
+        "no_kern": 2190,
+        "kern": 2160,
+        "delta": -30
+      },
+      "Ча": {
+        "no_kern": 2500,
+        "kern": 2475,
+        "delta": -25
+      },
+      "Ла": {
+        "no_kern": 3185,
+        "kern": 3150,
+        "delta": -35
+      },
+      "Лу": {
+        "no_kern": 3508,
+        "kern": 3478,
+        "delta": -30
+      },
+      "Уо": {
+        "no_kern": 2993,
+        "kern": 2948,
+        "delta": -45
+      },
+      "Уе": {
+        "no_kern": 2993,
+        "kern": 2948,
+        "delta": -45
+      },
+      "Ар": {
+        "no_kern": 3185,
+        "kern": 3160,
+        "delta": -25
+      },
+      "Ур": {
+        "no_kern": 2983,
+        "kern": 2958,
+        "delta": -25
+      },
+      "БА": {
+        "no_kern": 3405,
+        "kern": 3385,
+        "delta": -20
+      },
+      "Ро": {
+        "no_kern": 2510,
+        "kern": 2475,
+        "delta": -35
+      },
+      "Ра": {
+        "no_kern": 2500,
+        "kern": 2465,
+        "delta": -35
+      },
+      "Фо": {
+        "no_kern": 2844,
+        "kern": 2799,
+        "delta": -45
+      },
+      "AУ": {
+        "no_kern": 3888,
+        "kern": 3843,
+        "delta": -45
+      },
+      "АV": {
+        "no_kern": 4090,
+        "kern": 4035,
+        "delta": -55
+      },
+      "VА": {
+        "no_kern": 4090,
+        "kern": 4035,
+        "delta": -55
+      },
+      "Tо": {
+        "no_kern": 2488,
+        "kern": 2448,
+        "delta": -40
+      }
+    },
+    "kern_pairs": 57,
+    "unchanged_hmtx": 203
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft052-Regular.otf",
+    "input_sha256": "d7805e112d9b087a5b3e789c574ba10084f89f5df1a7c3271f46f4e5a3ee4673",
+    "output_sha256": "fa6a0bddb390949863c7bccf9d6de74d0ea53d536b9e2241bd24c9d94b02186c",
+    "pairs": {
+      "AV": {
+        "no_kern": 4110,
+        "kern": 4035,
+        "delta": -75
+      },
+      "VA": {
+        "no_kern": 4110,
+        "kern": 4045,
+        "delta": -65
+      },
+      "AW": {
+        "no_kern": 4079,
+        "kern": 3999,
+        "delta": -80
+      },
+      "WA": {
+        "no_kern": 4079,
+        "kern": 4019,
+        "delta": -60
+      },
+      "AT": {
+        "no_kern": 3403,
+        "kern": 3348,
+        "delta": -55
+      },
+      "TA": {
+        "no_kern": 3403,
+        "kern": 3363,
+        "delta": -40
+      },
+      "To": {
+        "no_kern": 2478,
+        "kern": 2423,
+        "delta": -55
+      },
+      "Te": {
+        "no_kern": 2508,
+        "kern": 2463,
+        "delta": -45
+      },
+      "Ty": {
+        "no_kern": 2964,
+        "kern": 2919,
+        "delta": -45
+      },
+      "Ta": {
+        "no_kern": 2478,
+        "kern": 2438,
+        "delta": -40
+      },
+      "Tr": {
+        "no_kern": 2103,
+        "kern": 2073,
+        "delta": -30
+      },
+      "LT": {
+        "no_kern": 2344,
+        "kern": 2309,
+        "delta": -35
+      },
+      "LY": {
+        "no_kern": 2530,
+        "kern": 2475,
+        "delta": -55
+      },
+      "La": {
+        "no_kern": 2126,
+        "kern": 2101,
+        "delta": -25
+      },
+      "Vo": {
+        "no_kern": 3185,
+        "kern": 3125,
+        "delta": -60
+      },
+      "Ve": {
+        "no_kern": 3215,
+        "kern": 3165,
+        "delta": -50
+      },
+      "Va": {
+        "no_kern": 3185,
+        "kern": 3140,
+        "delta": -45
+      },
+      "Wo": {
+        "no_kern": 3154,
+        "kern": 3089,
+        "delta": -65
+      },
+      "We": {
+        "no_kern": 3184,
+        "kern": 3134,
+        "delta": -50
+      },
+      "Wa": {
+        "no_kern": 3154,
+        "kern": 3104,
+        "delta": -50
+      },
+      "Yo": {
+        "no_kern": 2664,
+        "kern": 2619,
+        "delta": -45
+      },
+      "Ya": {
+        "no_kern": 2664,
+        "kern": 2619,
+        "delta": -45
+      },
+      "Fo": {
+        "no_kern": 2311,
+        "kern": 2266,
+        "delta": -45
+      },
+      "Fa": {
+        "no_kern": 2311,
+        "kern": 2271,
+        "delta": -40
+      },
+      "Pa": {
+        "no_kern": 2440,
+        "kern": 2410,
+        "delta": -30
+      },
+      "Po": {
+        "no_kern": 2440,
+        "kern": 2410,
+        "delta": -30
+      },
+      "ry": {
+        "no_kern": 2371,
+        "kern": 2351,
+        "delta": -20
+      },
+      "ly": {
+        "no_kern": 2126,
+        "kern": 2111,
+        "delta": -15
+      },
+      "ff": {
+        "no_kern": 1992,
+        "kern": 1972,
+        "delta": -20
+      },
+      "rt": {
+        "no_kern": 1565,
+        "kern": 1545,
+        "delta": -20
+      },
+      "АУ": {
+        "no_kern": 3890,
+        "kern": 3820,
+        "delta": -70
+      },
+      "УА": {
+        "no_kern": 3890,
+        "kern": 3830,
+        "delta": -60
+      },
+      "АЛ": {
+        "no_kern": 4110,
+        "kern": 4080,
+        "delta": -30
+      },
+      "ЛТ": {
+        "no_kern": 3403,
+        "kern": 3353,
+        "delta": -50
+      },
+      "ДА": {
+        "no_kern": 4058,
+        "kern": 4023,
+        "delta": -35
+      },
+      "АТ": {
+        "no_kern": 3403,
+        "kern": 3348,
+        "delta": -55
+      },
+      "ТО": {
+        "no_kern": 2798,
+        "kern": 2743,
+        "delta": -55
+      },
+      "То": {
+        "no_kern": 2478,
+        "kern": 2428,
+        "delta": -50
+      },
+      "Те": {
+        "no_kern": 2508,
+        "kern": 2463,
+        "delta": -45
+      },
+      "Ту": {
+        "no_kern": 2964,
+        "kern": 2919,
+        "delta": -45
+      },
+      "Го": {
+        "no_kern": 2126,
+        "kern": 2091,
+        "delta": -35
+      },
+      "Га": {
+        "no_kern": 2126,
+        "kern": 2096,
+        "delta": -30
+      },
+      "Ча": {
+        "no_kern": 2420,
+        "kern": 2395,
+        "delta": -25
+      },
+      "Ла": {
+        "no_kern": 3185,
+        "kern": 3150,
+        "delta": -35
+      },
+      "Лу": {
+        "no_kern": 3671,
+        "kern": 3641,
+        "delta": -30
+      },
+      "Уо": {
+        "no_kern": 2965,
+        "kern": 2920,
+        "delta": -45
+      },
+      "Уе": {
+        "no_kern": 2995,
+        "kern": 2950,
+        "delta": -45
+      },
+      "Ар": {
+        "no_kern": 3185,
+        "kern": 3160,
+        "delta": -25
+      },
+      "Ур": {
+        "no_kern": 2965,
+        "kern": 2940,
+        "delta": -25
+      },
+      "БА": {
+        "no_kern": 3365,
+        "kern": 3345,
+        "delta": -20
+      },
+      "Ро": {
+        "no_kern": 2440,
+        "kern": 2405,
+        "delta": -35
+      },
+      "Ра": {
+        "no_kern": 2440,
+        "kern": 2405,
+        "delta": -35
+      },
+      "Фо": {
+        "no_kern": 2684,
+        "kern": 2639,
+        "delta": -45
+      },
+      "AУ": {
+        "no_kern": 3890,
+        "kern": 3845,
+        "delta": -45
+      },
+      "АV": {
+        "no_kern": 4110,
+        "kern": 4055,
+        "delta": -55
+      },
+      "VА": {
+        "no_kern": 4110,
+        "kern": 4055,
+        "delta": -55
+      },
+      "Tо": {
+        "no_kern": 2478,
+        "kern": 2438,
+        "delta": -40
+      }
+    },
+    "kern_pairs": 57,
+    "unchanged_hmtx": 203
+  }
+}

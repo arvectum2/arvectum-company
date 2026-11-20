@@ -1,0 +1,1 @@
+BR-05 GS-006 implementation evidence; pair policy candidate, no owner approval. Layout can be disabled via kern=0. No changes to earlier OTFs, golden masters, or pinned source governance. Next GS-007 adding mark handling and normalization probes.
