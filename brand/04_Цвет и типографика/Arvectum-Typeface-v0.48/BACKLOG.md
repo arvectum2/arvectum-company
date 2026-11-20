@@ -3,7 +3,7 @@ No acceptance or date commitment.
 
 | ID | Priority | Work and acceptance evidence |
 |---|---|---|
-| GS-001 | P0 | Complete 11 missing printable ASCII; 95/95 mapped, URL/email/code samples without missing glyphs |
+| GS-001 | P0 | Complete 12 missing printable ASCII; 95/95 mapped, URL/email/code samples without missing glyphs |
 | GS-002 | P0 | Business marks © ® ™ § ¶ • and arrows → ← ↔; corpus coverage, separate box drawing scope |
 | GS-003 | P1 | Widths A/А V W Л Д; common-size comparison, preserve golden geometry and approved masters |
 | GS-004 | P1 | Optical coherence k/к y/у д/л s g bowls, figure/letter distinction; small and large proof |
