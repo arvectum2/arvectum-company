@@ -1,0 +1,400 @@
+{
+  "schema": "arvectum.company.live-work-reconciliation-candidate/1",
+  "status": "draft_evidence_projection",
+  "as_of": "2026-11-20",
+  "derived": true,
+  "canonical_authority": false,
+  "organizational_authority_provided": false,
+  "coverage": "partial_eight_priority_contours",
+  "authority_note": "AC-401/406 qualification and accountable position mapping required. Existing native references only; no new WORK/OBL IDs or decisions. Chat statements are evidence candidates, not source-of-truth / executable assignments. No authority to send, buy, deploy or change runtime. Preserve user hold boundaries.",
+  "cards": [
+    {
+      "label": "Музей Хлеба",
+      "kind": "client_delivery",
+      "priority_context": "P0 obligations / deadline signal",
+      "goal": "Исполнить действующий контракт, получить приёмку и оплату",
+      "stage": "Фирменный стиль на рассмотрении; проектирование и инфраструктура",
+      "observed": "Локальный отчёт 19.11: 133/141/51 из 325, 192 неготовых по отчётным статусам; 30/30 носителей технически готовы, не согласованы. Срок 07.12.2026 указан локальным отчётом, требуется сверка договора/графика. Production NO-GO.",
+      "sources": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "TZ-018/TZ-019",
+          "queue": "delegated_candidate",
+          "action": "Повторить разрешённый реестровый поиск; подготовить правовую оценку. Отдельное разрешение, если нужно загрузить непубличный знак."
+        },
+        {
+          "ref": "TZ-066/TZ-067/TZ-071",
+          "queue": "blocked_dependency",
+          "action": "Проверить доступность лицензированных Adobe и нативную QA. Не покупать ПО автоматически."
+        },
+        {
+          "ref": "TZ-321/TZ-322/TZ-068",
+          "queue": "waiting_external",
+          "action": "Подготовленные внутренние результаты сохранены; окончательная проверка состава и формальная передача после согласования."
+        },
+        {
+          "ref": "server procurement / chat 20.11",
+          "queue": "reconciliation_required",
+          "action": "Сверить последнюю редакцию ООЗ/письма, подтверждение допустимой модели аренды, финансирование и региональные требования; не отправлять и не участвовать без отдельного решения."
+        },
+        {
+          "ref": "customer brand feedback / chat 19.11",
+          "queue": "waiting_external",
+          "action": "Сверить входящие замечания; не менять отправленный комплект до согласования."
+        }
+      ],
+      "due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "Балтика",
+      "kind": "sales_opportunity",
+      "priority_context": "P1 customer opportunity",
+      "goal": "Подготовить встречу и подтвердить предмет пилота с заказчиком",
+      "stage": "Репетиция и финальные материалы",
+      "observed": "20 вопросов: 17 частичных, 1 демонстрационный сценарий, 1 не реализован, 1 требует согласования. Встреча указана 23.11.2026 в рабочем документе, не проверена по календарю. Ассистент сообщил презентацию v6 и Word v5, визуальная проверка Word не завершена.",
+      "sources": [
+        {
+          "repo": "deal",
+          "ref": "6ea3955555d67843819514fe00fb5509a8384711",
+          "path": "docs/BALTIKA_REHEARSAL.md",
+          "scope": "local_commit"
+        },
+        {
+          "repo": "deal",
+          "ref": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+          "path": "specs/001-baltika-question-traceability/question-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "chat 20.11 slide and document revisions",
+          "queue": "reconciliation_required",
+          "action": "Найти актуальные v6/v5 на MacBook; открыть оба Word, проверить рендер, шаблон Arvectum, отсутствие адресата и внутренних сведений. Проверить титульный и финальный слайды."
+        },
+        {
+          "ref": "BALTIKA_REHEARSAL / BAL-Q01–20",
+          "queue": "delegated_candidate",
+          "action": "Проверить доступность локального демонстрационного запуска и автономного HTML/MP4 без сетевой зависимости; не отключать сеть Mac mini через ARC."
+        },
+        {
+          "ref": "BALTIKA_PILOT / chat 20.11 target",
+          "queue": "waiting_external",
+          "action": "Уточнить объём пилота и требования ИБ; результат — веб-приложение в инфраструктуре заказчика, сервер и согласованная локальная или облачная LLM. Не обещать промышленное покрытие 20 вопросов."
+        }
+      ],
+      "due_or_trigger": "working doc meeting 23.11.2026, before meeting QA; scope agreed with customer",
+      "unknowns": [
+        "подтверждение встречи",
+        "фактическая проверка Word",
+        "сетевой контур",
+        "согласованная цена и scope"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "Tender Agent",
+      "kind": "portfolio",
+      "portfolio_ref": "PORT-001",
+      "priority_context": "P1 commercial evidence / continuity",
+      "goal": "Довести закупочную компетенцию до воспроизводимой коммерческой приёмки",
+      "stage": "Продолжается исторический сбор и ограниченный анализ",
+      "observed": "PR671 принят с 19/19 CI, merge b31ff64e. По рабочему чату один анализ сообщён MANAGER_READY, ещё восемь и 85 проблемных квитанций остаются на проверке; live status not rechecked. Активная локальная ветка dirty, не заменять main.",
+      "sources": [
+        {
+          "repo": "tender-agent",
+          "ref": "b31ff64e2900b997d6bfea17b0cb33d3133dfaae",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "tender-agent",
+          "ref": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "local_uncommitted_hash_qualified"
+        }
+      ],
+      "next": [
+        {
+          "ref": "APR-06 + PR671 / chat 20.11",
+          "queue": "reconciliation_required",
+          "action": "Read-only сверка результатов очереди и фактических receipts; сохранить исторический сбор СИБУРа без остановки."
+        },
+        {
+          "ref": "APR-06",
+          "queue": "delegated_candidate",
+          "action": "Связать реальные evidence cases с 7 метриками коммерческой приёмки; не закрывать по CI."
+        },
+        {
+          "ref": "APR-03",
+          "queue": "deferred",
+          "action": "Внешний VPS на паузе по roadmap; не менять runtime."
+        }
+      ],
+      "due_or_trigger": "new real completed cases, runtime receipt, Owner-approved commercial gate",
+      "unknowns": [
+        "текущий runtime",
+        "remaining 8 case statuses",
+        "качество и экономические метрики",
+        "production switch"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "Proxy Launcher",
+      "kind": "portfolio",
+      "portfolio_ref": "PORT-003",
+      "priority_context": "named release trigger",
+      "goal": "Завершить конечный набор критериев единого релиза iOS 0.3.0",
+      "stage": "Физическая приёмка",
+      "observed": "QA branch 60e7d46. Положительный и отрицательный synthetic encrypted backup и уборка тестовых материалов записаны PASS 19.11 для установленного 09c6cdfe. Native network/FIN, итоговый подписанный scope и права/лицензии открыты. CloudKit отключён.",
+      "sources": [
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "scope": "qa_branch"
+        },
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_IOS_030_RELEASE_EXIT_GATE_2026-11-16.md",
+          "scope": "qa_branch"
+        }
+      ],
+      "next": [
+        {
+          "ref": "APL-REL-009..017/033..038",
+          "queue": "reconciliation_required",
+          "action": "Сопоставить точные физические receipts с 15 критериями; закрывать только доказанную часть установленного кандидата."
+        },
+        {
+          "ref": "native network acceptance",
+          "queue": "blocked_dependency",
+          "action": "Оставшиеся физические испытания только в явно разрешённом безопасном контуре; не обойти прежний блок безопасности."
+        }
+      ],
+      "due_or_trigger": "approved exact signed release candidate; physical gate",
+      "unknowns": [
+        "финальная версия и native transport acceptance",
+        "privacy/licensing",
+        "релизный допуск"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "MAX2TG",
+      "kind": "internal_and_potential_product",
+      "priority_context": "P0 operational continuity",
+      "goal": "Не терять сообщения и не повторять неизвестные отправки",
+      "stage": "Reliability first, multi-user acceptance separately",
+      "observed": "Canonical roadmap 27.10; дальнейшие сообщения об инцидентах и исправлениях не доказывают текущий live runtime. No destructive fault injection on personal account.",
+      "sources": [
+        {
+          "repo": "max2tg",
+          "ref": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+          "path": "docs/ROADMAP.md",
+          "scope": "canonical_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "P0.5b / incident residual",
+          "queue": "reconciliation_required",
+          "action": "Read-only проверить актуальный runtime и очереди/UNKNOWN без отправки реальных сообщений; связать с existing field acceptance."
+        },
+        {
+          "ref": "P0/P2.2c",
+          "queue": "blocked_dependency",
+          "action": "Изоляция двух тестовых аккаунтов после отдельного разрешения; личный аккаунт не использовать для destructive tests."
+        }
+      ],
+      "due_or_trigger": "incident, unknown delivery or separate test account",
+      "unknowns": [
+        "runtime state",
+        "actual delivery",
+        "test account"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "1С Lab",
+      "kind": "internal_validation",
+      "priority_context": "opportunity feasibility; held bidding",
+      "goal": "Доказать автономную возможность законно работать с 1С до участия в закупках",
+      "stage": "LAB-02 blocked",
+      "observed": "LAB-01 reported done unverified; LAB-02 authorization blocker; LAB-03–08 not run. User restriction: no bidding until feasibility in own project.",
+      "sources": [
+        {
+          "repo": "arvectum-1c-lab",
+          "ref": "b9939c54a8e6369e288e3f7d7a6bcb375fb7e7",
+          "path": "specs/001-lab-acceptance-traceability/criterion-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "LAB-02",
+          "queue": "blocked_dependency",
+          "action": "Проверить законный доступ к дистрибутиву и авторизацию; не обходить и не покупать автоматически."
+        },
+        {
+          "ref": "LAB-03–08",
+          "queue": "deferred",
+          "action": "Продолжить лабораторные испытания после LAB-02; не подавать заявки."
+        }
+      ],
+      "due_or_trigger": "lawful installer authorization",
+      "unknowns": [
+        "доступ",
+        "physical acceptance"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "Infrastructure",
+      "kind": "internal_and_client_delivery_dependency",
+      "priority_context": "P0 museum dependency and local continuity",
+      "goal": "Готовый переносимый инфраструктурный контур",
+      "stage": "Офлайн-репетиция CMS PASS reported; cloud gates open",
+      "observed": "Local 72f0633 has seven cloud gates plus separate physical UPS acceptance; current main differs. No cloud provider/budget selected.",
+      "sources": [
+        {
+          "repo": "arvectum-infrastructure",
+          "ref": "72f063366e7e0b1832445ceb177899da1b4726d5",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "cloud provider comparison",
+          "queue": "delegated_candidate",
+          "action": "Подготовить сравнение поставщиков и проверить соответствие требованиям музея; factual/legal verification separately."
+        },
+        {
+          "ref": "budget / lease",
+          "queue": "deferred",
+          "action": "Только отдельное решение после сравнения, допуска и бюджета."
+        },
+        {
+          "ref": "UPS battery-mode",
+          "queue": "blocked_dependency",
+          "action": "Подготовить точный сценарий безопасной физической приёмки; не отключать питание и работающие сервисы без допуска."
+        }
+      ],
+      "due_or_trigger": "provider and legal review; separate physical test authorization",
+      "unknowns": [
+        "budget",
+        "approved provider",
+        "power acceptance"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    },
+    {
+      "label": "Arvectum Skills",
+      "kind": "internal_capability",
+      "priority_context": "internal pilots",
+      "goal": "Переиспользуемые навыки с проверяемыми границами",
+      "stage": "AS-042 first next action",
+      "observed": "Latest remote roadmap reports AS-040/041 DONE; no independent acceptance asserted. AS-042 bounded incident triage with fixtures, no live messages or restarts.",
+      "sources": [
+        {
+          "repo": "arvectum-skills",
+          "ref": "0fc87c0c9ea6a468611b1a51cf776af67c698d33",
+          "path": "docs/ROADMAP.md",
+          "scope": "canonical_commit"
+        }
+      ],
+      "next": [
+        {
+          "ref": "AS-042",
+          "queue": "delegated_candidate",
+          "action": "Сверить существующий pilot/eval package, подготовить fixture-based incident response; не изменять MAX2TG runtime."
+        }
+      ],
+      "due_or_trigger": "native AS-042 acceptance evidence",
+      "unknowns": [
+        "actual pilot receipts",
+        "measured benefit"
+      ],
+      "owner_action_required": false,
+      "as_of": "2026-11-20",
+      "coverage": "partial",
+      "accountable_position": "unreconciled",
+      "finance": "unknown",
+      "decision_ready": false,
+      "execution_authorized": false,
+      "actual_acceptance_verified": false
+    }
+  ]
+}

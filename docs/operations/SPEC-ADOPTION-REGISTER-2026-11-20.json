@@ -1,7 +1,7 @@
 {
   "schema": "arvectum.company.spec-adoption-register/1",
   "as_of": "2026-11-20",
-  "status": "partial_canonical_adoption_under_owner_direction",
+  "status": "original_remote_integration_merged; active_local_and_acceptance_reconciliation_open",
   "scope": "identified company engineering and workstream sources, not proof of complete chat/obligation inventory",
   "native_version": "1.2.4",
   "source_scaffold_commit": "e3091d8569db1aa9bafd02238a46495030783491",
@@ -74,8 +74,8 @@
         "tree_matches_review": true,
         "premerge_ci": "16/16 PASS",
         "postmerge_ci": {
-          "pass": 6,
-          "pending": 2,
+          "pass": 7,
+          "pending": 1,
           "fail": 0
         },
         "mirror_ref_verified": "d1995dc230210a63a22591b6c4abde342e521ae6"
@@ -458,7 +458,7 @@
       "pr": 1,
       "verified_head": "f4ac121b43f8a20f5a2ce885e6326ee54758e95f",
       "root": ".",
-      "stage": "native_scaffold_in_draft_branch",
+      "stage": "merged_to_verified_target_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "actual_acceptance_verified": false,
@@ -478,7 +478,7 @@
         "note": "Original spec, hardening and 80 checklist marks preserved; no resumed delivery or new client acceptance."
       },
       "adoption": {
-        "stage": "windows_repair_and_reproducibility_verified_one_macos_job_pending",
+        "stage": "merged_to_verified_target_branch",
         "candidate": "8bb1e1dc76c301ffe02a5d786688e8d7a5de8e5f",
         "dependency": "arvectum-data @ git+https://github.com/arvectum2/data-platform.git@a591256f50a21b8618639129eccb15eb214204d5",
         "closure_install_paths": 4,
@@ -490,7 +490,23 @@
           "skipped": 1
         },
         "skipped": "release gate / exact main + canonical CI; not applicable to this untagged PR, no release authorized",
-        "scope": "contained; no release or delivery"
+        "scope": "contained product, no release or customer delivery",
+        "pr": 1,
+        "merge_commit": "67ffb303eab0668b81ea5ab147b0d9b743f06b93",
+        "target_branch": "main",
+        "tree_matches_review": true,
+        "premerge_ci": {
+          "pass": 13,
+          "skipped_tag_only": 4,
+          "fail": 0
+        },
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 3,
+          "skipped": 1,
+          "fail": 0
+        },
+        "mirror_ref_verified": "67ffb303eab0668b81ea5ab147b0d9b743f06b93"
       }
     },
     {
@@ -882,9 +898,9 @@
     }
   ],
   "blockers": [
-    "Discount Parser exact head: 12 PASS, 1 ARM build pending after cancellation/rerun, 1 untagged-release gate skipped; no production release authorized.",
-    "Museum postmerge 6 PASS, 2 pending at observation; premerge 16/16 PASS. No actual client acceptance verified.",
-    "Full evidence mapping, active local divergence, historical chat reconciliation and actual product acceptance remain open."
+    "Post-merge Discount Parser three jobs and Museum one job pending at observation; no release acceptance.",
+    "Four private/local/held review copies remain isolated; no automatic local active-branch merges. Museum and Tender active working changes require reconciliation before updating.",
+    "Full atomic evidence mapping, actual acceptance and historical chat reconciliation remain open."
   ],
   "verification": {
     "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
@@ -1242,7 +1258,7 @@
     }
   },
   "criterion_rollout": {
-    "status": "22_registered_foundations_reviewed; canonical_adoption_partial; atomic_and_evidence_reconciliation_incomplete",
+    "status": "all_17_initial_remote_review_prs_merged; source_review_candidates_exist_all_22_contours; operational_reconciliation_open",
     "source_occurrences": 63,
     "independent_structural_tests": 25,
     "verified_criteria": 0,
@@ -1299,31 +1315,29 @@
       "canonical_remote": "GitHub",
       "mirror": "GitVerse (one-way)",
       "default_branch": "main",
-      "observed_head": "584efa094a849a7073f12994308aa689baa3b722",
+      "observed_head": "0fc87c0c9ea6a468611b1a51cf776af67c698d33",
       "stage": "native_spec_kit_in_canonical_main_verified",
       "native_spec_kit_installed": true,
       "roadmap_present": true,
       "mirror_workflow_observation": "latest exact GitHub and GitVerse main SHA equal",
-      "next_action": "AS-040 — ARC Operations read-only diagnostics and bounded real Mac mini preflight; apply ASS-001, validator and per-pilot evaluation protocol; resolve G-03",
+      "next_action": "AS-042 — Incident Response: MAX2TG failure fixtures, bounded triage, checkpoints and recovery proposals, no live messages or restart",
       "actual_acceptance_verified": false,
       "execution_authorized": false,
       "initial_registered_head": "a4a1249e122e6061488b64e7b3e0ecad01716d9a",
       "native_version": "1.2.4",
-      "observed_file_count": 87,
-      "skill_md_count": 1,
       "roadmap_path": "docs/ROADMAP.md",
-      "roadmap_sha256": "024506783f729ef1117266e24a4801f37ab21ffb29d0a5879301719c7aee3a18",
+      "roadmap_sha256": "9a94092615ed885f997cb5e28214295bbba34ffaf69c7d958fd30ece2ba0947a",
       "spec_package": "specs/001-skills-foundation",
       "manifest_sha256": "95f64605764ff553430da0bff48af5491963fa53d4f9e9fda9ec81191eb7824a",
-      "manifest_file_integrity": "12/12 PASS, rechecked exact observed head",
-      "foundation_ci": "2/2 PASS (trace and mirror), exact observed head",
-      "mirror_ref_verified": "584efa094a849a7073f12994308aa689baa3b722",
-      "roadmap_reported_status": "AS-000–032 DONE 100%; AS-040 IN PROGRESS; AS-041–070 OPEN. Native roadmap reported, independent actual acceptance not verified."
+      "manifest_file_integrity": "12/12 verified at previous 584efa0; recheck latest if changed",
+      "foundation_ci": "2/2 PASS at exact observed head",
+      "mirror_ref_verified": "0fc87c0c9ea6a468611b1a51cf776af67c698d33",
+      "roadmap_reported_status": "AS-040 and AS-041 reported DONE 100%; AS-042 first next action; actual acceptance not independently verified"
     }
   ],
   "adoption_execution": {
     "scope": "Owner instructed acceptance of prepared integration packages and addition of arvectum-skills; exact-head merge after review, no override of failures or release permissions.",
-    "observed_merged_count": 16,
+    "observed_merged_count": 17,
     "observed_total_review_prs": 17,
     "merged": [
       {
@@ -1512,29 +1526,36 @@
         "merge_commit": "d1995dc230210a63a22591b6c4abde342e521ae6",
         "tree_matches_review": true,
         "postmerge_ci": {
-          "pass": 6,
-          "pending": 2,
+          "pass": 7,
+          "pending": 1,
+          "fail": 0
+        },
+        "mirror_observation": "exact ref verified"
+      },
+      {
+        "repo": "arvectum2/discount-parser",
+        "pr": 1,
+        "merge_commit": "67ffb303eab0668b81ea5ab147b0d9b743f06b93",
+        "tree_matches_review": true,
+        "postmerge_ci": {
+          "pass": 2,
+          "pending": 3,
+          "skipped": 1,
           "fail": 0
         },
         "mirror_observation": "exact ref verified"
       }
     ],
-    "remaining": [
-      {
-        "repo": "arvectum2/discount-parser",
-        "pr": 1,
-        "stage": "all applicable exact-head checks except rerun macOS ARM complete; last job pending, no merge before PASS"
-      }
-    ],
+    "remaining": [],
     "side_effects": [
       "Existing automatic GitHub Pages build/deploy on APL main succeeded; no App Store upload or binary release requested or executed."
     ],
     "note": "A snapshot, not a current guarantee. Canonical target head and tree verified after each merge. Local original working copies not updated; no forced sync. No new execution authority.",
     "mirror_readback": {
-      "matching": 17,
-      "total": 17,
+      "matching": 18,
+      "total": 18,
       "lagging": [],
-      "note": "Fresh exact refs for the 16 accepted target branches plus Skills; includes brand/identity-v3. Skills advanced during inspection; exact 584efa094a849a7073f12994308aa689baa3b722 ref matched on second read. Company main snapshot precedes this report."
+      "note": "All 17 previously checked accepted target branches/Skills plus newly accepted Discount main matched across observed snapshots, not a simultaneous fresh read of every current ref. Tender and Skills subsequently advanced; revalidate current state for decisions."
     }
   },
   "inventory_counts": {
