@@ -1,0 +1,3277 @@
+{
+  "schema": "arvectum.company.owner-work-queue-projection/1",
+  "status": "restricted_candidate_projection",
+  "as_of": "2026-11-20",
+  "derived": true,
+  "canonical_authority": false,
+  "organizational_authority_provided": false,
+  "execution_authorized": false,
+  "complete_company_coverage": false,
+  "source": {
+    "repo": "arvectum2/arvectum-company",
+    "commit": "fd8366a7bf2a06acdc6bd1ef12cbff979c9a05c1",
+    "path": "docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json",
+    "blob": "446cdd320c0a40a77fe5c77aaa7b98dc1eeb71c0"
+  },
+  "normative": {
+    "AC401": "0f4444fbd968e176a0a158771a7d0abe93549ecd",
+    "AC406": "f9e4d0f8e2e2a13f1147a8518461b35cd5264724",
+    "AC407": "87453d69314da217d3bd02f4645ac3f3444ed788"
+  },
+  "private_source_observation": {
+    "scope": "read-only current record metadata; no private record payloads, terms/amounts, raw bank/accounting entries or credentials copied",
+    "control": {
+      "coverage": "partial",
+      "events": 6,
+      "record_refs": [
+        "WORK-001",
+        "OBL-001",
+        "OBL-002",
+        "WORK-002",
+        "WORK-003"
+      ],
+      "backup_byte_equal": true
+    },
+    "decision": {
+      "coverage": "partial",
+      "events": 6,
+      "record_refs": [
+        "DEC-001",
+        "DEC-002",
+        "DEC-003",
+        "APR-001",
+        "DEC-004",
+        "DEC-005"
+      ],
+      "backup_byte_equal": true
+    },
+    "risk": {
+      "coverage": "partial",
+      "events": 5,
+      "record_refs": [
+        "RSK-001",
+        "RSK-002",
+        "RSK-003"
+      ],
+      "backup_byte_equal": true
+    },
+    "finance": {
+      "coverage": "partial",
+      "report_as_of": "2026-11-18",
+      "backup_byte_equal": true,
+      "liquidity": "unknown",
+      "decision_readiness": "blocked_by_missing_financial_evidence"
+    },
+    "freshness": "point-in-time observation; no implicit repin of any OS read contract; recheck exact current records before reliance"
+  },
+  "items": [
+    {
+      "source_key": [
+        "Музей Хлеба",
+        "TZ-018/TZ-019"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Повторить разрешённый реестровый поиск; подготовить правовую оценку. Отдельное разрешение, если нужно загрузить непубличный знак.",
+      "project": "Музей Хлеба",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "RSK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Музей Хлеба",
+        "TZ-066/TZ-067/TZ-071"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Проверить доступность лицензированных Adobe и нативную QA. Не покупать ПО автоматически.",
+      "project": "Музей Хлеба",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "RSK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Музей Хлеба",
+        "TZ-321/TZ-322/TZ-068"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "Подготовленные внутренние результаты сохранены; окончательная проверка состава и формальная передача после согласования.",
+      "project": "Музей Хлеба",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "OBL-002",
+        "RSK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Музей Хлеба",
+        "server procurement / chat 20.11"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сверить последнюю редакцию ООЗ/письма, подтверждение допустимой модели аренды, финансирование и региональные требования; не отправлять и не участвовать без отдельного решения.",
+      "project": "Музей Хлеба",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "RSK-003",
+        "WORK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Музей Хлеба",
+        "customer brand feedback / chat 19.11"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "Сверить входящие замечания; не менять отправленный комплект до согласования.",
+      "project": "Музей Хлеба",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "RSK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "07.12.2026 reported; latest signed contract/schedule to reconcile; reply or infrastructure constraint",
+      "unknowns": [
+        "подтверждённый актуальный срок",
+        "финансы",
+        "фактический ответ заказчика",
+        "независимая приёмка"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Балтика",
+        "chat 20.11 slide and document revisions"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Найти актуальные v6/v5 на MacBook; открыть оба Word, проверить рендер, шаблон Arvectum, отсутствие адресата и внутренних сведений. Проверить титульный и финальный слайды.",
+      "project": "Балтика",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "6ea3955555d67843819514fe00fb5509a8384711",
+          "path": "docs/BALTIKA_REHEARSAL.md",
+          "scope": "local_commit"
+        },
+        {
+          "repo": "deal",
+          "ref": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+          "path": "specs/001-baltika-question-traceability/question-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-002"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "working doc meeting 23.11.2026, before meeting QA; scope agreed with customer",
+      "unknowns": [
+        "подтверждение встречи",
+        "фактическая проверка Word",
+        "сетевой контур",
+        "согласованная цена и scope"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Балтика",
+        "BALTIKA_REHEARSAL / BAL-Q01–20"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Проверить доступность локального демонстрационного запуска и автономного HTML/MP4 без сетевой зависимости; не отключать сеть Mac mini через ARC.",
+      "project": "Балтика",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "6ea3955555d67843819514fe00fb5509a8384711",
+          "path": "docs/BALTIKA_REHEARSAL.md",
+          "scope": "local_commit"
+        },
+        {
+          "repo": "deal",
+          "ref": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+          "path": "specs/001-baltika-question-traceability/question-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-002"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "working doc meeting 23.11.2026, before meeting QA; scope agreed with customer",
+      "unknowns": [
+        "подтверждение встречи",
+        "фактическая проверка Word",
+        "сетевой контур",
+        "согласованная цена и scope"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Балтика",
+        "BALTIKA_PILOT / chat 20.11 target"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "Уточнить объём пилота и требования ИБ; результат — веб-приложение в инфраструктуре заказчика, сервер и согласованная локальная или облачная LLM. Не обещать промышленное покрытие 20 вопросов.",
+      "project": "Балтика",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "6ea3955555d67843819514fe00fb5509a8384711",
+          "path": "docs/BALTIKA_REHEARSAL.md",
+          "scope": "local_commit"
+        },
+        {
+          "repo": "deal",
+          "ref": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+          "path": "specs/001-baltika-question-traceability/question-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-002"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-002",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "working doc meeting 23.11.2026, before meeting QA; scope agreed with customer",
+      "unknowns": [
+        "подтверждение встречи",
+        "фактическая проверка Word",
+        "сетевой контур",
+        "согласованная цена и scope"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Tender Agent",
+        "APR-06 + PR671 / chat 20.11"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Read-only сверка результатов очереди и фактических receipts; сохранить исторический сбор СИБУРа без остановки.",
+      "project": "Tender Agent",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "tender-agent",
+          "ref": "b31ff64e2900b997d6bfea17b0cb33d3133dfaae",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "tender-agent",
+          "ref": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "local_uncommitted_hash_qualified"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-001",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "new real completed cases, runtime receipt, Owner-approved commercial gate",
+      "unknowns": [
+        "текущий runtime",
+        "remaining 8 case statuses",
+        "качество и экономические метрики",
+        "production switch"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Tender Agent",
+        "APR-06"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Связать реальные evidence cases с 7 метриками коммерческой приёмки; не закрывать по CI.",
+      "project": "Tender Agent",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "tender-agent",
+          "ref": "b31ff64e2900b997d6bfea17b0cb33d3133dfaae",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "tender-agent",
+          "ref": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "local_uncommitted_hash_qualified"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-001",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "new real completed cases, runtime receipt, Owner-approved commercial gate",
+      "unknowns": [
+        "текущий runtime",
+        "remaining 8 case statuses",
+        "качество и экономические метрики",
+        "production switch"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Tender Agent",
+        "APR-03"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Внешний VPS на паузе по roadmap; не менять runtime.",
+      "project": "Tender Agent",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "tender-agent",
+          "ref": "b31ff64e2900b997d6bfea17b0cb33d3133dfaae",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "tender-agent",
+          "ref": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "local_uncommitted_hash_qualified"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-001",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "new real completed cases, runtime receipt, Owner-approved commercial gate",
+      "unknowns": [
+        "текущий runtime",
+        "remaining 8 case statuses",
+        "качество и экономические метрики",
+        "production switch"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Proxy Launcher",
+        "APL-REL-009..017/033..038"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сопоставить точные физические receipts с 15 критериями; закрывать только доказанную часть установленного кандидата.",
+      "project": "Proxy Launcher",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "scope": "qa_branch"
+        },
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_IOS_030_RELEASE_EXIT_GATE_2026-11-16.md",
+          "scope": "qa_branch"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-003",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved exact signed release candidate; physical gate",
+      "unknowns": [
+        "финальная версия и native transport acceptance",
+        "privacy/licensing",
+        "релизный допуск"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Proxy Launcher",
+        "native network acceptance"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Оставшиеся физические испытания только в явно разрешённом безопасном контуре; не обойти прежний блок безопасности.",
+      "project": "Proxy Launcher",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "scope": "qa_branch"
+        },
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_IOS_030_RELEASE_EXIT_GATE_2026-11-16.md",
+          "scope": "qa_branch"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-003",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved exact signed release candidate; physical gate",
+      "unknowns": [
+        "финальная версия и native transport acceptance",
+        "privacy/licensing",
+        "релизный допуск"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "MAX2TG",
+        "P0.5b / incident residual"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Read-only проверить актуальный runtime и очереди/UNKNOWN без отправки реальных сообщений; связать с existing field acceptance.",
+      "project": "MAX2TG",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "max2tg",
+          "ref": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+          "path": "docs/ROADMAP.md",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "incident, unknown delivery or separate test account",
+      "unknowns": [
+        "runtime state",
+        "actual delivery",
+        "test account"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "MAX2TG",
+        "P0/P2.2c"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Изоляция двух тестовых аккаунтов после отдельного разрешения; личный аккаунт не использовать для destructive tests.",
+      "project": "MAX2TG",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "max2tg",
+          "ref": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+          "path": "docs/ROADMAP.md",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "incident, unknown delivery or separate test account",
+      "unknowns": [
+        "runtime state",
+        "actual delivery",
+        "test account"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "1С Lab",
+        "LAB-02"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Проверить законный доступ к дистрибутиву и авторизацию; не обходить и не покупать автоматически.",
+      "project": "1С Lab",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-1c-lab",
+          "ref": "b9939c54a8e6369e288e3f7d7a6bcb375fb7e7",
+          "path": "specs/001-lab-acceptance-traceability/criterion-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "lawful installer authorization",
+      "unknowns": [
+        "доступ",
+        "physical acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "1С Lab",
+        "LAB-03–08"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Продолжить лабораторные испытания после LAB-02; не подавать заявки.",
+      "project": "1С Lab",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-1c-lab",
+          "ref": "b9939c54a8e6369e288e3f7d7a6bcb375fb7e7",
+          "path": "specs/001-lab-acceptance-traceability/criterion-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "lawful installer authorization",
+      "unknowns": [
+        "доступ",
+        "physical acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Infrastructure",
+        "cloud provider comparison"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Подготовить сравнение поставщиков и проверить соответствие требованиям музея; factual/legal verification separately.",
+      "project": "Infrastructure",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-infrastructure",
+          "ref": "72f063366e7e0b1832445ceb177899da1b4726d5",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "OBL-001",
+        "RSK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "provider and legal review; separate physical test authorization",
+      "unknowns": [
+        "budget",
+        "approved provider",
+        "power acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Infrastructure",
+        "budget / lease"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Только отдельное решение после сравнения, допуска и бюджета.",
+      "project": "Infrastructure",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-infrastructure",
+          "ref": "72f063366e7e0b1832445ceb177899da1b4726d5",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-003"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "provider and legal review; separate physical test authorization",
+      "unknowns": [
+        "budget",
+        "approved provider",
+        "power acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Infrastructure",
+        "UPS battery-mode"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Подготовить точный сценарий безопасной физической приёмки; не отключать питание и работающие сервисы без допуска.",
+      "project": "Infrastructure",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-infrastructure",
+          "ref": "72f063366e7e0b1832445ceb177899da1b4726d5",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "RSK-001"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "provider and legal review; separate physical test authorization",
+      "unknowns": [
+        "budget",
+        "approved provider",
+        "power acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Arvectum Skills",
+        "AS-043"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Проверить pilot Project Roadmap: стабильные ID, история, зависимости, reopen и evidence-grounded proposals; не писать в другие проекты.",
+      "project": "Arvectum Skills",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-skills",
+          "ref": "e9cab7744fce9019a36a4f9be7ca792cc9adbd51",
+          "path": "docs/ROADMAP.md",
+          "sha256": "082a9b066d1cce0ab054f6f39e8dceed9cdf165fab72bc755a04a60e2d17b28d",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "native AS-043 acceptance evidence",
+      "unknowns": [
+        "actual pilot receipts",
+        "measured benefit"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Company",
+        "AC-401/406; WSF-05"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Отделить материальные обязательства, риски и контрольные точки от продуктовых подзадач; сверить с действующими реестрами и POS.",
+      "project": "Arvectum Company",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "2f953e1e2e39519da7ca5595dc61225819a4a4214e9cc5b8cb009a520c8bfb9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-001",
+        "RSK-002"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-001",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "external evidence / material exception / actual Owner use",
+      "unknowns": [
+        "cash, obligations, actual work/obligation entries",
+        "live Workspace"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Arvectum Company",
+        "AC-505"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "Не закрывать M5 до реального внешнего результата.",
+      "project": "Arvectum Company",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "2f953e1e2e39519da7ca5595dc61225819a4a4214e9cc5b8cb009a520c8bfb9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-001",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "external evidence / material exception / actual Owner use",
+      "unknowns": [
+        "cash, obligations, actual work/obligation entries",
+        "live Workspace"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Company",
+        "M6"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Собирать экономические доказательства попутно, не вытесняя коммерческие работы.",
+      "project": "Arvectum Company",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "2f953e1e2e39519da7ca5595dc61225819a4a4214e9cc5b8cb009a520c8bfb9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-001",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "external evidence / material exception / actual Owner use",
+      "unknowns": [
+        "cash, obligations, actual work/obligation entries",
+        "live Workspace"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum OS",
+        "WSF-05"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сверить существующие представления Company Projects/My Work, AC-406, точный релиз и фактическую доступность. Не создавать второй источник истины.",
+      "project": "Arvectum OS",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "4a7fbb1594972a8e05c86ac8d2a3658ae065bd86e6a04bd45ee59d8bde5ee93e",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-001",
+        "RSK-002"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "actual owner journey / applicable release and contracts",
+      "unknowns": [
+        "installed release",
+        "owner experience",
+        "required contract review"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Arvectum OS",
+        "WSF-02/P7.06; P10.10"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Восстановление и развёртывание только по действующему допуску и реальной проверке владельцем.",
+      "project": "Arvectum OS",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "4a7fbb1594972a8e05c86ac8d2a3658ae065bd86e6a04bd45ee59d8bde5ee93e",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [
+        "WORK-001",
+        "RSK-001"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "actual owner journey / applicable release and contracts",
+      "unknowns": [
+        "installed release",
+        "owner experience",
+        "required contract review"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "Arvectum OS",
+        "P10.07"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "Ждать естественного governed action; не синтезировать доказательство.",
+      "project": "Arvectum OS",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "4a7fbb1594972a8e05c86ac8d2a3658ae065bd86e6a04bd45ee59d8bde5ee93e",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "actual owner journey / applicable release and contracts",
+      "unknowns": [
+        "installed release",
+        "owner experience",
+        "required contract review"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Work",
+        "AW-020-C2"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Сверить вопросы и гипотезы трёх потоков: 1С/ЭДО, каталог, закрытие отгрузочных документов. Без рассылки.",
+      "project": "Arvectum Work",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "8bdcaf3fc6aec8c83725e91a83950aeb62539c206b9dadd431e6a64ca71631c8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/discovery/AW-020-C2-FOCUSED-BUYER-VALIDATION-PLAN.md",
+          "sha256": "5144b60b238690cc0b7dd62502e39efb53eb353fd885ae8e0f752499eb28a85c",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-008",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "real buyer evidence / specific HUMAN authorization",
+      "unknowns": [
+        "real customer interest",
+        "cost and accepted results"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Work",
+        "AW-020-C2 HUMAN"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Внешние приглашения и интервью только после отдельного допуска; AW-100 не начинать без GO.",
+      "project": "Arvectum Work",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "8bdcaf3fc6aec8c83725e91a83950aeb62539c206b9dadd431e6a64ca71631c8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/discovery/AW-020-C2-FOCUSED-BUYER-VALIDATION-PLAN.md",
+          "sha256": "5144b60b238690cc0b7dd62502e39efb53eb353fd885ae8e0f752499eb28a85c",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-008",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "real buyer evidence / specific HUMAN authorization",
+      "unknowns": [
+        "real customer interest",
+        "cost and accepted results"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Creative Test Agent",
+        "CTA-PILOT-PREP-003"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Сверить синтетические evidence и подготовить требуемую локальную репетицию; не считать реальной приёмкой.",
+      "project": "Creative Test Agent",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/CURRENT.md",
+          "sha256": "3c0db4d505b2bf0e2b70e340cb6a9f7459b9e4ffe90db2d83800742cd48764ba",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/WAITING_FOR_CLIENT_DATA_PLAN.md",
+          "sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-004",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved dataset / hybrid rehearsal acceptance",
+      "unknowns": [
+        "real client data",
+        "model accuracy"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Creative Test Agent",
+        "CTA-PILOT-002"
+      ],
+      "source_queue": "waiting_external",
+      "queue": "watch",
+      "action": "При поступлении разрешённых данных пересмотреть waiting lane и проверить реальный пилот.",
+      "project": "Creative Test Agent",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/CURRENT.md",
+          "sha256": "3c0db4d505b2bf0e2b70e340cb6a9f7459b9e4ffe90db2d83800742cd48764ba",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/WAITING_FOR_CLIENT_DATA_PLAN.md",
+          "sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-004",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved dataset / hybrid rehearsal acceptance",
+      "unknowns": [
+        "real client data",
+        "model accuracy"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Discount Parser",
+        "PORT-002"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Подготовить оценку дальнейших затрат, спроса и переносимой пользы; сохранить технические доказательства. Новую разработку не возобновлять автоматически.",
+      "project": "Discount Parser",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "discount-parser",
+          "ref": "67ffb303eab0668b81ea5ab147b0d9b743f06b93",
+          "path": "docs/HARDENING_ROADMAP_2026-08-17.md",
+          "sha256": "c9039ff39eebe4960b35370286cea9fc0b094f137d2e5c809179327c680c9dc7",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "sha256": null,
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-002",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "new client evidence or approved reassessment",
+      "unknowns": [
+        "current economics",
+        "reuse rights"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Doors Parser",
+        "PORT-006"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Сохранять исходники, provenance и условия повторного использования; вернуться при реальном запросе.",
+      "project": "Doors Parser",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "doors_parser",
+          "ref": "48d7cf1dd9b0040087a77793c5126164194c3ac1",
+          "path": "README.md",
+          "sha256": "9e7008810e8b0b4476630b991410de24054efe0130d924e7b47b0e5c33e43e58",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "sha256": null,
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-006",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved reuse/maintenance need",
+      "unknowns": [
+        "rights and consumer demand"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Калькулятор закупок",
+        "PORT-005"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Сохранить архив и проверить повторное использование только при подтверждённой потребности закупочного направления.",
+      "project": "Калькулятор закупок",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "tender-app",
+          "ref": "fa4e484a06114718e9405d003b3b2e520087d510",
+          "path": "specs/001-held-calculator-reference/criterion-review.json",
+          "sha256": "720f175d647329e3cff41d5986e3b6b67707c1b5b360ea1f48539d8daee300c6",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-005",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "approved reuse question",
+      "unknowns": [
+        "commercial need"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Data Platform",
+        "DP-INT-002"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сверить реального именованного потребителя, фактические данные, контракт и evidence; не дублировать два упоминания одной задачи.",
+      "project": "Data Platform",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "data-platform",
+          "ref": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c",
+          "path": "docs/ROADMAP.md",
+          "sha256": "4d669ef90eb2a3f51a224ff583713a4c076a3462a468bd965e7afe170ca656c1",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-007",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "authorized nonempty consumer evidence",
+      "unknowns": [
+        "consumer value",
+        "SLO",
+        "cost"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Data Platform",
+        "distributed phase"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Не запускать распределённый обход до доказанного unmet SLO; сохранить модельные, credential и бюджетные gates.",
+      "project": "Data Platform",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "data-platform",
+          "ref": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c",
+          "path": "docs/ROADMAP.md",
+          "sha256": "4d669ef90eb2a3f51a224ff583713a4c076a3462a468bd965e7afe170ca656c1",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": "PORT-007",
+      "accountability": {
+        "position": "POS-003",
+        "basis": "AC-302 portfolio stewardship only"
+      },
+      "project_due_or_trigger": "authorized nonempty consumer evidence",
+      "unknowns": [
+        "consumer value",
+        "SLO",
+        "cost"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Compliance",
+        "EG-004b2"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Сверить законный scope доменов, DNS/tenant proof и независимую security QA; не активировать публичное сканирование.",
+      "project": "Compliance",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "compliance",
+          "ref": "fce41cc06109a651b6741291f30850d9f16d56c1",
+          "path": "docs/ROADMAP.md",
+          "sha256": "05d7ae0b77c190b1370518977961cb78d32f6b3f0f592819e635aae99e175da7",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "authorized real domain / security gate; approved rule pack",
+      "unknowns": [
+        "legal coverage",
+        "real tenant authorization",
+        "security acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Compliance",
+        "AC-02"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Подготовить границы rule/evidence schema и источники для юридической проверки, не заявляя соответствие 152-ФЗ.",
+      "project": "Compliance",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "compliance",
+          "ref": "fce41cc06109a651b6741291f30850d9f16d56c1",
+          "path": "docs/ROADMAP.md",
+          "sha256": "05d7ae0b77c190b1370518977961cb78d32f6b3f0f592819e635aae99e175da7",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "authorized real domain / security gate; approved rule pack",
+      "unknowns": [
+        "legal coverage",
+        "real tenant authorization",
+        "security acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Tools",
+        "L4.17b–L4.19b"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Ухват: приоритет физической приёмки и сохранности данных в тестовой среде.",
+      "project": "Arvectum Tools",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "core/ROADMAP.md",
+          "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "growth/ROADMAP.md",
+          "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "physical evidence / metrics / release authorization",
+      "unknowns": [
+        "actual installs and retention",
+        "current release receipts",
+        "device QA"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Tools",
+        "PS-FB31-01..05"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Pushkin: сохранить пять feedback IDs; диагностировать Safari Export, проверить onboarding/manual fallback; без фиктивного paywall.",
+      "project": "Arvectum Tools",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "core/ROADMAP.md",
+          "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "growth/ROADMAP.md",
+          "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "physical evidence / metrics / release authorization",
+      "unknowns": [
+        "actual installs and retention",
+        "current release receipts",
+        "device QA"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Tools",
+        "Growth C19"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Сверить actual analytics, отзывы и физическую QA; не считать исходные локали storefront-ready.",
+      "project": "Arvectum Tools",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "core/ROADMAP.md",
+          "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "growth/ROADMAP.md",
+          "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "physical evidence / metrics / release authorization",
+      "unknowns": [
+        "actual installs and retention",
+        "current release receipts",
+        "device QA"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Arvectum Tools",
+        "Where? / Growth Agent"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Сохранить паузу до отдельного решения, не запускать публикации и расходы.",
+      "project": "Arvectum Tools",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "core/ROADMAP.md",
+          "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "growth/ROADMAP.md",
+          "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "physical evidence / metrics / release authorization",
+      "unknowns": [
+        "actual installs and retention",
+        "current release receipts",
+        "device QA"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "DealForge",
+        "S0 rights"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Проверить условия исходного договора и права повторного использования до копирования клиентского кода.",
+      "project": "DealForge",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "e3848ee93508b56e0b73d2d2d4c4cb4a43c2af63",
+          "path": "docs/ROADMAP.md",
+          "sha256": "36e45053829f7902376d789ecc79c2a4926ee15bb23ea562520fb9302c187f72",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "verified rights and business priority",
+      "unknowns": [
+        "reuse rights",
+        "actual demand",
+        "unit economics"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "DealForge",
+        "S1 / S5"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Не расширять без подтверждённой гипотезы и scope; синтетика не доказывает экономию.",
+      "project": "DealForge",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "e3848ee93508b56e0b73d2d2d4c4cb4a43c2af63",
+          "path": "docs/ROADMAP.md",
+          "sha256": "36e45053829f7902376d789ecc79c2a4926ee15bb23ea562520fb9302c187f72",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "verified rights and business priority",
+      "unknowns": [
+        "reuse rights",
+        "actual demand",
+        "unit economics"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Brand Identity",
+        "BR-05"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Восстановить исходники, провести аудит покрытия; подготовить v0.39 прямых штрихов/перекладин без изменения утверждённой монограммы.",
+      "project": "Brand Identity",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "498447bf0b418f142c9be1b43722f34bd47c9e14",
+          "path": "brand/00_Управление/ROADMAP-DRAFT.md",
+          "sha256": "3fd41549dd8254a0bdc1fe215a81cf980063782339dac7abfe606dd2d474899d",
+          "scope": "design_branch"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "approved typography and recovered source provenance",
+      "unknowns": [
+        "missing originals",
+        "design approval"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Brand Identity",
+        "BR-07/08"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Шаблоны документов и презентаций после согласования базы.",
+      "project": "Brand Identity",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "498447bf0b418f142c9be1b43722f34bd47c9e14",
+          "path": "brand/00_Управление/ROADMAP-DRAFT.md",
+          "sha256": "3fd41549dd8254a0bdc1fe215a81cf980063782339dac7abfe606dd2d474899d",
+          "scope": "design_branch"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "approved typography and recovered source provenance",
+      "unknowns": [
+        "missing originals",
+        "design approval"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Корпоративный сайт",
+        "SEO master/content plan"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сверить текущую публикацию и реальные метрики существующего SEO Health; убрать дубли. Не публиковать непроверенные 80%/60% claims.",
+      "project": "Корпоративный сайт",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "SEO_MASTER_PLAN.md",
+          "sha256": "7aded98fc1b0b032d04ca05c27e6355e03f528a681c322049a2635720a101d9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "docs/seo/content_plan_90_days.md",
+          "sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "weekly SEO review / verified claims / publishing approval",
+      "unknowns": [
+        "current deployed version",
+        "actual traffic/conversion"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "Корпоративный сайт",
+        "content plan"
+      ],
+      "source_queue": "delegated_candidate",
+      "queue": "prepare_within_existing_envelope",
+      "action": "Подготовить подтверждённый контент и CTA; публикация отдельно.",
+      "project": "Корпоративный сайт",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "SEO_MASTER_PLAN.md",
+          "sha256": "7aded98fc1b0b032d04ca05c27e6355e03f528a681c322049a2635720a101d9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "docs/seo/content_plan_90_days.md",
+          "sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "scope": "canonical_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": null,
+        "basis": "unreconciled"
+      },
+      "project_due_or_trigger": "weekly SEO review / verified claims / publishing approval",
+      "unknowns": [
+        "current deployed version",
+        "actual traffic/conversion"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    },
+    {
+      "source_key": [
+        "ARC",
+        "ARC-REF / physical acceptance"
+      ],
+      "source_queue": "reconciliation_required",
+      "queue": "read_only_reconciliation",
+      "action": "Сверить доступные реальные инструменты и read-only диагностику, без секретов; опубликованный интерфейс не равен фактическим вызовам.",
+      "project": "ARC",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "desktop-commander",
+          "ref": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
+          "path": "specs/001-arc-roadmap-traceability/criterion-review.json",
+          "sha256": "ef656aef0edcc5708b32ac3f71cb65b4224d107a340e0a343247c00e03c08b4c",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "RSK-001"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "real tools/call receipts / approved physical test",
+      "unknowns": [
+        "current binding set",
+        "reboot/recovery",
+        "iPhone acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "ARC",
+        "sleep/reboot / Mac mini-off"
+      ],
+      "source_queue": "blocked_dependency",
+      "queue": "blocked",
+      "action": "Физические проверки только по отдельному безопасному допуску, без прерывания активных задач.",
+      "project": "ARC",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "desktop-commander",
+          "ref": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
+          "path": "specs/001-arc-roadmap-traceability/criterion-review.json",
+          "sha256": "ef656aef0edcc5708b32ac3f71cb65b4224d107a340e0a343247c00e03c08b4c",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [
+        "RSK-001"
+      ],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "real tools/call receipts / approved physical test",
+      "unknowns": [
+        "current binding set",
+        "reboot/recovery",
+        "iPhone acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "related_existing_control_review_only"
+    },
+    {
+      "source_key": [
+        "ARC",
+        "P3 SaaS"
+      ],
+      "source_queue": "deferred",
+      "queue": "hold",
+      "action": "Не начинать коммерциализацию до P0–P2.",
+      "project": "ARC",
+      "source_as_of": "2026-11-20",
+      "source_refs": [
+        {
+          "repo": "desktop-commander",
+          "ref": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
+          "path": "specs/001-arc-roadmap-traceability/criterion-review.json",
+          "sha256": "ef656aef0edcc5708b32ac3f71cb65b4224d107a340e0a343247c00e03c08b4c",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "related_control_refs": [],
+      "relation_semantics": "related context only; not a new register entry, assigned treatment, or proof of fulfillment",
+      "native_portfolio_ref": null,
+      "accountability": {
+        "position": "POS-006",
+        "basis": "subject default candidate, assignment unverified"
+      },
+      "project_due_or_trigger": "real tools/call receipts / approved physical test",
+      "unknowns": [
+        "current binding set",
+        "reboot/recovery",
+        "iPhone acceptance"
+      ],
+      "actual_acceptance_verified": false,
+      "execution_authorized": false,
+      "owner_decision_ready": false,
+      "material_control_qualification": "not_admitted_project_detail"
+    }
+  ],
+  "project_details": {
+    "Музей Хлеба": {
+      "stage": "Фирменный стиль на рассмотрении; проектирование и инфраструктура",
+      "source_refs": [
+        {
+          "repo": "musbread",
+          "ref": "e1504385d6227c44611027dc0547bcd8f0e6105e",
+          "path": "docs/STATUS_20261119_AUTONOMOUS.md",
+          "scope": "local_uncommitted_hash_qualified"
+        },
+        {
+          "repo": "musbread",
+          "ref": "d1995dc230210a63a22591b6c4abde342e521ae6",
+          "path": "specs/002-signed-contract/acceptance-review.json",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Балтика": {
+      "stage": "Репетиция и финальные материалы",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "6ea3955555d67843819514fe00fb5509a8384711",
+          "path": "docs/BALTIKA_REHEARSAL.md",
+          "scope": "local_commit"
+        },
+        {
+          "repo": "deal",
+          "ref": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+          "path": "specs/001-baltika-question-traceability/question-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Tender Agent": {
+      "stage": "Продолжается исторический сбор и ограниченный анализ",
+      "source_refs": [
+        {
+          "repo": "tender-agent",
+          "ref": "b31ff64e2900b997d6bfea17b0cb33d3133dfaae",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "tender-agent",
+          "ref": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "scope": "local_uncommitted_hash_qualified"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Proxy Launcher": {
+      "stage": "Физическая приёмка",
+      "source_refs": [
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "scope": "qa_branch"
+        },
+        {
+          "repo": "proxy-launcher",
+          "ref": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
+          "path": "docs/APL_IOS_030_RELEASE_EXIT_GATE_2026-11-16.md",
+          "scope": "qa_branch"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "MAX2TG": {
+      "stage": "Reliability first, multi-user acceptance separately",
+      "source_refs": [
+        {
+          "repo": "max2tg",
+          "ref": "17a151d44bef5e4c9dd015055f026024aa9ad016",
+          "path": "docs/ROADMAP.md",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "1С Lab": {
+      "stage": "LAB-02 blocked",
+      "source_refs": [
+        {
+          "repo": "arvectum-1c-lab",
+          "ref": "b9939c54a8e6369e288e3f7d7a6bcb375fb7e7",
+          "path": "specs/001-lab-acceptance-traceability/criterion-review.json",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Infrastructure": {
+      "stage": "Офлайн-репетиция CMS PASS reported; cloud gates open",
+      "source_refs": [
+        {
+          "repo": "arvectum-infrastructure",
+          "ref": "72f063366e7e0b1832445ceb177899da1b4726d5",
+          "path": "docs/ROADMAP.md",
+          "scope": "local_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Arvectum Skills": {
+      "stage": "AS-043 first next action at pinned main",
+      "source_refs": [
+        {
+          "repo": "arvectum-skills",
+          "ref": "e9cab7744fce9019a36a4f9be7ca792cc9adbd51",
+          "path": "docs/ROADMAP.md",
+          "sha256": "082a9b066d1cce0ab054f6f39e8dceed9cdf165fab72bc755a04a60e2d17b28d",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Arvectum Company": {
+      "stage": "Workspace First; AC-505 external wait",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "2f953e1e2e39519da7ca5595dc61225819a4a4214e9cc5b8cb009a520c8bfb9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Arvectum OS": {
+      "stage": "WSF-02–05 recovery and evidence",
+      "source_refs": [
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "4a7fbb1594972a8e05c86ac8d2a3658ae065bd86e6a04bd45ee59d8bde5ee93e",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-os",
+          "ref": "cad2a1764a5e759b242e1849197668a5631d7afc",
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Arvectum Work": {
+      "stage": "AW-020-C2 internal preparation; C1 historical pointer",
+      "source_refs": [
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "8bdcaf3fc6aec8c83725e91a83950aeb62539c206b9dadd431e6a64ca71631c8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-work",
+          "ref": "64cb911c9236c95132ffa880c19106af78deb42f",
+          "path": "docs/discovery/AW-020-C2-FOCUSED-BUYER-VALIDATION-PLAN.md",
+          "sha256": "5144b60b238690cc0b7dd62502e39efb53eb353fd885ae8e0f752499eb28a85c",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Creative Test Agent": {
+      "stage": "Waiting-for-client-data, lane 4/7 reported",
+      "source_refs": [
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/CURRENT.md",
+          "sha256": "3c0db4d505b2bf0e2b70e340cb6a9f7459b9e4ffe90db2d83800742cd48764ba",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "creative-test-agent",
+          "ref": "161e27f0d42877af75c68b683753ca031f47fc99",
+          "path": "docs/roadmap/WAITING_FOR_CLIENT_DATA_PLAN.md",
+          "sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Discount Parser": {
+      "stage": "Technical hardening complete reported; lost client, reassessment",
+      "source_refs": [
+        {
+          "repo": "discount-parser",
+          "ref": "67ffb303eab0668b81ea5ab147b0d9b743f06b93",
+          "path": "docs/HARDENING_ROADMAP_2026-08-17.md",
+          "sha256": "c9039ff39eebe4960b35370286cea9fc0b094f137d2e5c809179327c680c9dc7",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "sha256": null,
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Doors Parser": {
+      "stage": "Contained reference, no new roadmap",
+      "source_refs": [
+        {
+          "repo": "doors_parser",
+          "ref": "48d7cf1dd9b0040087a77793c5126164194c3ac1",
+          "path": "README.md",
+          "sha256": "9e7008810e8b0b4476630b991410de24054efe0130d924e7b47b0e5c33e43e58",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-company",
+          "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "sha256": null,
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Калькулятор закупок": {
+      "stage": "KEEP_IN_PLACE",
+      "source_refs": [
+        {
+          "repo": "tender-app",
+          "ref": "fa4e484a06114718e9405d003b3b2e520087d510",
+          "path": "specs/001-held-calculator-reference/criterion-review.json",
+          "sha256": "720f175d647329e3cff41d5986e3b6b67707c1b5b360ea1f48539d8daee300c6",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Data Platform": {
+      "stage": "DP-INT-002 open",
+      "source_refs": [
+        {
+          "repo": "data-platform",
+          "ref": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c",
+          "path": "docs/ROADMAP.md",
+          "sha256": "4d669ef90eb2a3f51a224ff583713a4c076a3462a468bd965e7afe170ca656c1",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Compliance": {
+      "stage": "AC-01 partial; EG-004b2 open; PUBLIC NO-GO",
+      "source_refs": [
+        {
+          "repo": "compliance",
+          "ref": "fce41cc06109a651b6741291f30850d9f16d56c1",
+          "path": "docs/ROADMAP.md",
+          "sha256": "05d7ae0b77c190b1370518977961cb78d32f6b3f0f592819e635aae99e175da7",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Arvectum Tools": {
+      "stage": "Four released apps reported; physical QA, analytics and localization open",
+      "source_refs": [
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "core/ROADMAP.md",
+          "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "growth/ROADMAP.md",
+          "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-tools",
+          "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [
+        {
+          "label": "Core",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "core/ROADMAP.md",
+            "sha256": "5bce455f05392dbff620c8e77734084d825ddb2dae3da189d85cda4eb604ec40",
+            "scope": "canonical_commit"
+          },
+          "next": "Ухват physical QA L4.17b–19b, then accessibility/locales",
+          "state": "active",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Growth",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "growth/ROADMAP.md",
+            "sha256": "d8bc159250e8e8ba620609a9595269114458b166dc92f61310249fa7f50ffab8",
+            "scope": "canonical_commit"
+          },
+          "next": "Actual analytics and reviews",
+          "state": "active",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Growth Agent",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "growth/agent/ROADMAP.md",
+            "sha256": "d794d380777a6480155a171f8fd3249162821584e6b09dff5b7119d222860b8f",
+            "scope": "canonical_commit"
+          },
+          "next": "Owner restart and credible metrics",
+          "state": "paused",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "ChickMark",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "chickmark/ROADMAP.md",
+            "sha256": "a84554d02810423b38bc53f7e2a90dfcbdf32282cc7ee4ced42e7ba2a7904467",
+            "scope": "canonical_commit"
+          },
+          "next": "Native-language and physical iPhone/Watch/HealthKit QA",
+          "state": "active_candidate",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Фото/PDF",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "photo-pdf-to-size/ROADMAP.md",
+            "sha256": "917deeffd9f02641c5cf2c341fbd91bef423ad91647b34d9fd1f3d9b373be38f",
+            "scope": "canonical_commit"
+          },
+          "next": "Files/ATT/VoiceOver, localization and storefront QA",
+          "state": "active_candidate",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Pushkin",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "pushkin/ROADMAP.md",
+            "sha256": "11761d011051a06dd88d1ab3d4b2d7c83bf3fe5487a1aef1b2380c06b97ec79a",
+            "scope": "canonical_commit"
+          },
+          "next": "PS-FB31-01..05 preserve feedback tasks",
+          "state": "active_candidate",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Ухват",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "what/ROADMAP.md",
+            "sha256": "a219b3ff7dc432f4341d26a7794c6c2579cfe1f56d07338147bc36951589569d",
+            "scope": "canonical_commit"
+          },
+          "next": "Physical data-safety/Watch ACK; no personal-data reset",
+          "state": "active_candidate",
+          "actual_acceptance_verified": false
+        },
+        {
+          "label": "Where?",
+          "source": {
+            "repo": "arvectum-tools",
+            "ref": "7f88432aa49ec9af8efd1f5ddc057b570d242219",
+            "path": "where/ROADMAP.md",
+            "sha256": "da470872185031d2aab15d49f973e89fc5a030545af5402f9afbd9cd63bcc8f6",
+            "scope": "canonical_commit"
+          },
+          "next": "Only after owner restart",
+          "state": "paused",
+          "actual_acceptance_verified": false
+        }
+      ],
+      "coverage": "partial"
+    },
+    "DealForge": {
+      "stage": "S0 baseline; distinct from local customer pilot",
+      "source_refs": [
+        {
+          "repo": "deal",
+          "ref": "e3848ee93508b56e0b73d2d2d4c4cb4a43c2af63",
+          "path": "docs/ROADMAP.md",
+          "sha256": "36e45053829f7902376d789ecc79c2a4926ee15bb23ea562520fb9302c187f72",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Brand Identity": {
+      "stage": "BR-05 in progress v0.38",
+      "source_refs": [
+        {
+          "repo": "arvectum-company",
+          "ref": "498447bf0b418f142c9be1b43722f34bd47c9e14",
+          "path": "brand/00_Управление/ROADMAP-DRAFT.md",
+          "sha256": "3fd41549dd8254a0bdc1fe215a81cf980063782339dac7abfe606dd2d474899d",
+          "scope": "design_branch"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "Корпоративный сайт": {
+      "stage": "Static QA accepted; actual SEO and deployment separate",
+      "source_refs": [
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "SEO_MASTER_PLAN.md",
+          "sha256": "7aded98fc1b0b032d04ca05c27e6355e03f528a681c322049a2635720a101d9a",
+          "scope": "canonical_commit"
+        },
+        {
+          "repo": "arvectum-site",
+          "ref": "eca91f0b1a99b7d669ca9dc4188068220dcc92ce",
+          "path": "docs/seo/content_plan_90_days.md",
+          "sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "scope": "canonical_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    },
+    "ARC": {
+      "stage": "Physical and tool acceptance open",
+      "source_refs": [
+        {
+          "repo": "desktop-commander",
+          "ref": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
+          "path": "specs/001-arc-roadmap-traceability/criterion-review.json",
+          "sha256": "ef656aef0edcc5708b32ac3f71cb65b4224d107a340e0a343247c00e03c08b4c",
+          "scope": "isolated_local_commit"
+        }
+      ],
+      "source_as_of": "2026-11-20",
+      "subviews": [],
+      "coverage": "partial"
+    }
+  },
+  "sections": [
+    {
+      "key": "protect_now",
+      "title": "Protect Now",
+      "entries": [
+        {
+          "title": "Музей Хлеба — исполнение и приёмка по действующему контракту",
+          "record_refs": [
+            "OBL-001",
+            "OBL-002",
+            "RSK-003"
+          ],
+          "project": "Музей Хлеба",
+          "action_keys": [
+            [
+              "Музей Хлеба",
+              "TZ-018/TZ-019"
+            ],
+            [
+              "Музей Хлеба",
+              "TZ-066/TZ-067/TZ-071"
+            ],
+            [
+              "Музей Хлеба",
+              "TZ-321/TZ-322/TZ-068"
+            ],
+            [
+              "Музей Хлеба",
+              "server procurement / chat 20.11"
+            ],
+            [
+              "Музей Хлеба",
+              "customer brand feedback / chat 19.11"
+            ],
+            [
+              "Infrastructure",
+              "cloud provider comparison"
+            ]
+          ],
+          "why_now": "Подтверждённый существующий P0 control; срок исполнения указан в источнике, неизвестны фактическое выполнение и часть согласований.",
+          "next_control_point": "Сверить оставшиеся договорные результаты, календарь, отклики заказчика, инфраструктурный блокер и комплект приёмки. Разделить оказание услуг и последующее оформление в ЕИС.",
+          "trigger": "Контрольная дата 07.12.2026 по ранее проверенному архиву; точную последующую обязанность сверять по OBL-002 в частном источнике.",
+          "qualification": "existing_material_control; no new IDs; no breach or deadline extension inferred",
+          "unknowns": [
+            "актуальные согласования и состояние исполнения",
+            "фактическая приёмка",
+            "стоимость и правомерность серверной схемы"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "title": "MAX2TG — проверить сигнал о возможной потере доставки",
+          "record_refs": [],
+          "project": "MAX2TG",
+          "action_keys": [
+            [
+              "MAX2TG",
+              "P0.5b / incident residual"
+            ]
+          ],
+          "why_now": "Потенциально существенная непрерывность личного рабочего канала, но актуальный инцидент не установлен.",
+          "next_control_point": "Read-only диагностика состояния очередей и неизвестных отправок; при подтверждённом значимом результате квалифицировать по AC-403.",
+          "trigger": "Новый incident evidence / delivery unknown",
+          "qualification": "candidate_signal_not_admitted; not an existing P0 risk or incident",
+          "unknowns": [
+            "текущий runtime и влияние на доставку"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        }
+      ]
+    },
+    {
+      "key": "owner_action_required",
+      "title": "Owner Action Required",
+      "entries": [],
+      "status": "no_decision_ready_owner_item_established_in_reviewed_scope",
+      "coverage": "partial; not a claim of no owner obligations",
+      "preparation_refs": [
+        "DEC-003"
+      ],
+      "note": "DEC-003 preparing/none/blocked; review by existing pilot expiry 17.12.2026. Evidence package not ready; no approval requested. External waiting/physical access does not itself create an owner decision."
+    },
+    {
+      "key": "delegated_work",
+      "title": "Delegated Work / No Owner Action",
+      "entries": [
+        {
+          "title": "Балтика — подготовка и проверка встречи",
+          "record_refs": [
+            "WORK-002"
+          ],
+          "project": "Балтика",
+          "action_keys": [
+            [
+              "Балтика",
+              "chat 20.11 slide and document revisions"
+            ],
+            [
+              "Балтика",
+              "BALTIKA_REHEARSAL / BAL-Q01–20"
+            ],
+            [
+              "Балтика",
+              "BALTIKA_PILOT / chat 20.11 target"
+            ]
+          ],
+          "why_now": "Существующая коммерческая работа P1, встреча указана в проектных материалах; календарь ещё не проверен.",
+          "next_control_point": "Сверить актуальные документы, визуальный результат и демо; подтвердить факт/результат встречи, согласовать потребность без обещаний.",
+          "trigger": "Рабочая дата встречи 23.11.2026, требует подтверждения; официальный WORK-002 не имеет установленного срока.",
+          "qualification": "existing_work; bounded preparation only",
+          "unknowns": [
+            "календарь и материалы",
+            "согласованные критерии пилота"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "title": "Tender Agent — завершённые кейсы и коммерческое доказательство",
+          "record_refs": [],
+          "project": "Tender Agent",
+          "action_keys": [
+            [
+              "Tender Agent",
+              "APR-06 + PR671 / chat 20.11"
+            ],
+            [
+              "Tender Agent",
+              "APR-06"
+            ]
+          ],
+          "why_now": "Действующее PORT-001 направление, ценность для клиента и непрерывность сбора.",
+          "next_control_point": "Сверить receipts и семь метрик по существующим задачам, не изменять сбор или runtime.",
+          "trigger": "Реальные завершённые кейсы и фактические evidence receipts",
+          "qualification": "project_detail_candidate; no extra WORK record",
+          "unknowns": [
+            "текущее состояние анализа и фактическая экономика"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "title": "Workspace — пересмотр действующего пилота",
+          "record_refs": [
+            "WORK-001",
+            "RSK-001",
+            "RSK-002",
+            "DEC-003"
+          ],
+          "project": "Arvectum OS",
+          "action_keys": [
+            [
+              "Arvectum Company",
+              "AC-401/406; WSF-05"
+            ],
+            [
+              "Arvectum OS",
+              "WSF-05"
+            ],
+            [
+              "Arvectum OS",
+              "WSF-02/P7.06; P10.10"
+            ],
+            [
+              "ARC",
+              "ARC-REF / physical acceptance"
+            ]
+          ],
+          "why_now": "Существующий P1 WORK и открытые риски доступности; требуется подтверждение фактического использования.",
+          "next_control_point": "Проверить реальный пользовательский путь, актуальный источник/релиз, восстановление и evidence пяти фактических рабочих дней; готовить обоснование продолжения, ограничения или остановки.",
+          "trigger": "До действующего review/expiry 17.12.2026; при изменении источника или сбое чтения.",
+          "qualification": "existing_controls; not decision-ready",
+          "unknowns": [
+            "фактический опыт собственника",
+            "время восстановления и польза"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        }
+      ],
+      "detail_selection": {
+        "queues": [
+          "prepare_within_existing_envelope",
+          "read_only_reconciliation"
+        ],
+        "note": "Все 25 действий доступны в деталях; routine technical actions not promoted to Owner queue. Groups reference same detail keys, never counted twice."
+      }
+    },
+    {
+      "key": "cash_commitments",
+      "title": "Cash / Commitments / Obligation Signals",
+      "entries": [
+        {
+          "title": "Уточнить управленческие финансовые данные",
+          "record_refs": [
+            "WORK-003",
+            "OBL-001",
+            "OBL-002",
+            "RSK-003"
+          ],
+          "project": null,
+          "action_keys": [
+            [
+              "Infrastructure",
+              "budget / lease"
+            ]
+          ],
+          "why_now": "Реальный открытый WORK-003; финансовая картина недостаточна для consequential decision.",
+          "next_control_point": "Получить свежие подтверждённые остатки, движения, обязательства и затраты из существующего банковского/учётного контура с разрешённым read-only доступом. Сверить стоимость и денежный разрыв по серверной схеме.",
+          "trigger": "Появление подтверждённых данных или существенного обязательства; не выдумывать дату платежа.",
+          "qualification": "existing_control; source report 18.11 partial; finance data not copied",
+          "unknowns": [
+            "доступные деньги",
+            "фактические поступления и расходы",
+            "ожидаемые обязательства",
+            "приёмка и статус оплаты"
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        }
+      ],
+      "financial_visibility": {
+        "available_cash": "unknown",
+        "liquidity": "unknown",
+        "actual_receipts": "unknown",
+        "contractual_conditional_inflow": "reported_in_existing_finance_source_not_cash",
+        "receivables_payables": "unknown",
+        "decision_readiness": "blocked",
+        "payment_authority": false
+      }
+    },
+    {
+      "key": "portfolio_review_triggers",
+      "title": "Portfolio / Opportunity / Review Triggers",
+      "entries": [
+        {
+          "project": "Tender Agent",
+          "portfolio_ref": "PORT-001",
+          "action_keys": [
+            [
+              "Tender Agent",
+              "APR-06 + PR671 / chat 20.11"
+            ],
+            [
+              "Tender Agent",
+              "APR-06"
+            ],
+            [
+              "Tender Agent",
+              "APR-03"
+            ]
+          ],
+          "trigger": "new real completed cases, runtime receipt, Owner-approved commercial gate",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Proxy Launcher",
+          "portfolio_ref": "PORT-003",
+          "action_keys": [
+            [
+              "Proxy Launcher",
+              "APL-REL-009..017/033..038"
+            ],
+            [
+              "Proxy Launcher",
+              "native network acceptance"
+            ]
+          ],
+          "trigger": "approved exact signed release candidate; physical gate",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Arvectum Work",
+          "portfolio_ref": "PORT-008",
+          "action_keys": [
+            [
+              "Arvectum Work",
+              "AW-020-C2"
+            ],
+            [
+              "Arvectum Work",
+              "AW-020-C2 HUMAN"
+            ]
+          ],
+          "trigger": "real buyer evidence / specific HUMAN authorization",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/operations/COMPANY-WORK-OBLIGATION-REGISTER-MODEL.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "subject-based default only; no admission or assignment"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Creative Test Agent",
+          "portfolio_ref": "PORT-004",
+          "action_keys": [
+            [
+              "Creative Test Agent",
+              "CTA-PILOT-PREP-003"
+            ],
+            [
+              "Creative Test Agent",
+              "CTA-PILOT-002"
+            ]
+          ],
+          "trigger": "approved dataset / hybrid rehearsal acceptance",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Discount Parser",
+          "portfolio_ref": "PORT-002",
+          "action_keys": [
+            [
+              "Discount Parser",
+              "PORT-002"
+            ]
+          ],
+          "trigger": "new client evidence or approved reassessment",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Doors Parser",
+          "portfolio_ref": "PORT-006",
+          "action_keys": [
+            [
+              "Doors Parser",
+              "PORT-006"
+            ]
+          ],
+          "trigger": "approved reuse/maintenance need",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Калькулятор закупок",
+          "portfolio_ref": "PORT-005",
+          "action_keys": [
+            [
+              "Калькулятор закупок",
+              "PORT-005"
+            ]
+          ],
+          "trigger": "approved reuse question",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Data Platform",
+          "portfolio_ref": "PORT-007",
+          "action_keys": [
+            [
+              "Data Platform",
+              "DP-INT-002"
+            ],
+            [
+              "Data Platform",
+              "distributed phase"
+            ]
+          ],
+          "trigger": "authorized nonempty consumer evidence",
+          "qualification": "existing portfolio identity, no reprioritization; no new investment decision",
+          "accountability_basis": {
+            "source": "docs/portfolio/AC-302-PORTFOLIO-ACCOUNTABLE-POSITION-MAPPING.md",
+            "ref": "abd4248b4ac089a194318d21594903cebef304cd",
+            "scope": "portfolio stewardship only; individual execution accountability not assigned"
+          },
+          "execution_authorized": false,
+          "decision_ready": false
+        },
+        {
+          "project": "Other project detail",
+          "qualification": "project-only watch, blocked and hold queues retained without creating PORT IDs",
+          "action_keys": [
+            [
+              "Музей Хлеба",
+              "TZ-066/TZ-067/TZ-071"
+            ],
+            [
+              "Музей Хлеба",
+              "TZ-321/TZ-322/TZ-068"
+            ],
+            [
+              "Музей Хлеба",
+              "customer brand feedback / chat 19.11"
+            ],
+            [
+              "Балтика",
+              "BALTIKA_PILOT / chat 20.11 target"
+            ],
+            [
+              "MAX2TG",
+              "P0/P2.2c"
+            ],
+            [
+              "1С Lab",
+              "LAB-02"
+            ],
+            [
+              "1С Lab",
+              "LAB-03–08"
+            ],
+            [
+              "Infrastructure",
+              "budget / lease"
+            ],
+            [
+              "Infrastructure",
+              "UPS battery-mode"
+            ],
+            [
+              "Arvectum Company",
+              "AC-505"
+            ],
+            [
+              "Arvectum OS",
+              "WSF-02/P7.06; P10.10"
+            ],
+            [
+              "Arvectum OS",
+              "P10.07"
+            ],
+            [
+              "Compliance",
+              "EG-004b2"
+            ],
+            [
+              "Arvectum Tools",
+              "L4.17b–L4.19b"
+            ],
+            [
+              "Arvectum Tools",
+              "Where? / Growth Agent"
+            ],
+            [
+              "DealForge",
+              "S1 / S5"
+            ],
+            [
+              "Brand Identity",
+              "BR-07/08"
+            ],
+            [
+              "ARC",
+              "sleep/reboot / Mac mini-off"
+            ],
+            [
+              "ARC",
+              "P3 SaaS"
+            ]
+          ],
+          "execution_authorized": false,
+          "decision_ready": false
+        }
+      ]
+    },
+    {
+      "key": "reference_implementation_evidence",
+      "title": "Reference-Implementation Evidence",
+      "entries": [
+        {
+          "claim": "Observed complete registration of identified project contours and preserved candidate action references",
+          "observed": "22 cards; 51 source action references; 17/17 original remote integration PRs merged",
+          "scope": "Structural/source review only; four local/archived contours not active branch merges",
+          "evidence_refs": [
+            "docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json",
+            "docs/operations/SPEC-ADOPTION-REGISTER-2026-11-20.json",
+            "docs/operations/LOCAL-SOURCE-DIVERGENCE-OBSERVATION-2026-11-20.json"
+          ],
+          "unknowns": [
+            "semantic completeness",
+            "historical chat recovery",
+            "actual acceptance"
+          ],
+          "next_validation": "Trace real outcomes against native specifications, no synthetic closure"
+        },
+        {
+          "claim": "Current register metadata/backup comparison",
+          "observed": "5 WORK/OBL, 6 DEC/APR, 3 RSK; 4 exact backup comparisons",
+          "scope": "Partial private sources, no raw content; no register mutations",
+          "evidence_refs": [
+            "AC-401",
+            "AC-402",
+            "AC-403",
+            "AC-404"
+          ],
+          "unknowns": [
+            "full Company coverage",
+            "actual control effectiveness",
+            "owner workload and cash visibility"
+          ],
+          "next_validation": "Actual Owner use and access-admitted source refresh"
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "projects": 22,
+    "actions": 51,
+    "queues": {
+      "prepare_within_existing_envelope": 12,
+      "read_only_reconciliation": 13,
+      "blocked": 10,
+      "watch": 6,
+      "hold": 10
+    },
+    "decision_ready_owner_items": 0
+  },
+  "notes": [
+    "Queue items are source-keyed projections, not new durable WORK/OBL/DEC/RSK identifiers.",
+    "No action is authorized by this file. Recheck applicable scope, technical permission, evidence, and live authority before each effect.",
+    "Section entries are groups referencing same action keys; counts must come only from items. Unknown/partial attendance, financial or acceptance data are not zero.",
+    "Maintain as derived view; source changes require reviewed refresh; do not rewrite native backlog, delete deferred items or collapse source markers into outcomes."
+  ]
+}
