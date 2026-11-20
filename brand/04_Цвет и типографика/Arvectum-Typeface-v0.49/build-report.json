@@ -1,0 +1,188 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft049-Medium.otf",
+    "sha256": "e1b14374d3f967873d7090840e27d3b47cf825437930890218324d7678212894",
+    "input": "ArvectumDisplayGoldenStepDraft047-Medium.otf",
+    "input_sha256": "2cd72ccda8b804a520995bbe7de72d91f17e0e7f34c19b71782b4bb44f9b2177",
+    "scope": {
+      "#": {
+        "type": "added",
+        "codepoint": "U+0023",
+        "width": 1235,
+        "lsb": 120,
+        "note": "golden draft ASCII"
+      },
+      "&": {
+        "type": "added",
+        "codepoint": "U+0026",
+        "width": 1310,
+        "lsb": 105,
+        "note": "golden draft ASCII"
+      },
+      "*": {
+        "type": "added",
+        "codepoint": "U+002A",
+        "width": 796,
+        "lsb": 99,
+        "note": "golden draft ASCII"
+      },
+      "/": {
+        "type": "added",
+        "codepoint": "U+002F",
+        "width": 1372,
+        "lsb": 100,
+        "note": "golden draft ASCII"
+      },
+      "<": {
+        "type": "added",
+        "codepoint": "U+003C",
+        "width": 965,
+        "lsb": 0,
+        "note": "golden draft ASCII"
+      },
+      ">": {
+        "type": "added",
+        "codepoint": "U+003E",
+        "width": 965,
+        "lsb": 0,
+        "note": "golden draft ASCII"
+      },
+      "@": {
+        "type": "added",
+        "codepoint": "U+0040",
+        "width": 1198,
+        "lsb": 75,
+        "note": "golden draft ASCII"
+      },
+      "\\": {
+        "type": "added",
+        "codepoint": "U+005C",
+        "width": 965,
+        "lsb": -307,
+        "note": "golden draft ASCII"
+      },
+      "^": {
+        "type": "added",
+        "codepoint": "U+005E",
+        "width": 1050,
+        "lsb": 40,
+        "note": "golden draft ASCII"
+      },
+      "_": {
+        "type": "added",
+        "codepoint": "U+005F",
+        "width": 1200,
+        "lsb": 35,
+        "note": "golden draft ASCII"
+      },
+      "`": {
+        "type": "added",
+        "codepoint": "U+0060",
+        "width": 600,
+        "lsb": 110,
+        "note": "golden draft ASCII"
+      },
+      "~": {
+        "type": "added",
+        "codepoint": "U+007E",
+        "width": 825,
+        "lsb": 70,
+        "note": "golden draft ASCII"
+      }
+    },
+    "codepoints": 194
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft049-Regular.otf",
+    "sha256": "9d16887a894e4d77c6cbdba7c7cc899c16e9d099ae65381e3bd1903cb5ad520c",
+    "input": "ArvectumTextGoldenStepDraft047-Regular.otf",
+    "input_sha256": "cc0308d1137959d2fc26df5d9f56ea4ba2d7845165b2a3cd8f857928b1c479e9",
+    "scope": {
+      "#": {
+        "type": "added",
+        "codepoint": "U+0023",
+        "width": 1235,
+        "lsb": 120,
+        "note": "golden draft ASCII"
+      },
+      "&": {
+        "type": "added",
+        "codepoint": "U+0026",
+        "width": 1310,
+        "lsb": 105,
+        "note": "golden draft ASCII"
+      },
+      "*": {
+        "type": "added",
+        "codepoint": "U+002A",
+        "width": 774,
+        "lsb": 121,
+        "note": "golden draft ASCII"
+      },
+      "/": {
+        "type": "added",
+        "codepoint": "U+002F",
+        "width": 1354,
+        "lsb": 100,
+        "note": "golden draft ASCII"
+      },
+      "<": {
+        "type": "added",
+        "codepoint": "U+003C",
+        "width": 965,
+        "lsb": 0,
+        "note": "golden draft ASCII"
+      },
+      ">": {
+        "type": "added",
+        "codepoint": "U+003E",
+        "width": 965,
+        "lsb": 0,
+        "note": "golden draft ASCII"
+      },
+      "@": {
+        "type": "added",
+        "codepoint": "U+0040",
+        "width": 1184,
+        "lsb": 75,
+        "note": "golden draft ASCII"
+      },
+      "\\": {
+        "type": "added",
+        "codepoint": "U+005C",
+        "width": 965,
+        "lsb": -289,
+        "note": "golden draft ASCII"
+      },
+      "^": {
+        "type": "added",
+        "codepoint": "U+005E",
+        "width": 1050,
+        "lsb": 40,
+        "note": "golden draft ASCII"
+      },
+      "_": {
+        "type": "added",
+        "codepoint": "U+005F",
+        "width": 1200,
+        "lsb": 35,
+        "note": "golden draft ASCII"
+      },
+      "`": {
+        "type": "added",
+        "codepoint": "U+0060",
+        "width": 600,
+        "lsb": 110,
+        "note": "golden draft ASCII"
+      },
+      "~": {
+        "type": "added",
+        "codepoint": "U+007E",
+        "width": 825,
+        "lsb": 70,
+        "note": "golden draft ASCII"
+      }
+    },
+    "codepoints": 194
+  }
+}
