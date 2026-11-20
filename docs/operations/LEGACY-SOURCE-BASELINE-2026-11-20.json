@@ -1,0 +1,165 @@
+{
+  "schema": "arvectum.company.legacy-source-baseline/1",
+  "status": "candidate",
+  "as_of": "2026-11-20",
+  "coverage": "selected_sources_only",
+  "authority_provided": false,
+  "projects": [
+    {
+      "repo": "arvectum2/proxy-launcher",
+      "commit": "67df7e205ff63703bde90809e89f06211ec0d870",
+      "tree": "883b9d9a71e9798e9722bb9f21fecab3ff89b407",
+      "sources": [
+        {
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "sha256": "e90a6ee0f50e60c04a974486bfcd003a5cfd43893e6a0b6d714bdb81029873bc",
+          "lines": 85,
+          "checkbox_occurrences": 38,
+          "list_rows": 42,
+          "table_rows": 0,
+          "role": "active"
+        },
+        {
+          "path": "docs/APL_IOS_030_UNIFIED_RELEASE_2026-11-11.md",
+          "sha256": "8d32cc457d8c6c8356e8df80600aed69bb51c2ee22f9436f9bb8a57fe128d391",
+          "lines": 93,
+          "checkbox_occurrences": 42,
+          "list_rows": 47,
+          "table_rows": 11,
+          "role": "release_criteria"
+        },
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "5f9e1df836f15fda5947b642c7fdfab16ff4c32ea3cb97705e568bf97c4d7d6d",
+          "lines": 1139,
+          "checkbox_occurrences": 422,
+          "list_rows": 635,
+          "table_rows": 22,
+          "role": "history_and_index"
+        },
+        {
+          "path": "docs/LOCAL_EXECUTION_BACKLOG.md",
+          "sha256": "8739e65fa0ce2ce6bdf9f2e5eab5d04cd3171768cbdf7b0cc3d941bf4a31fe2a",
+          "lines": 454,
+          "checkbox_occurrences": 3,
+          "list_rows": 228,
+          "table_rows": 0,
+          "role": "history_and_local_work"
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "sha256": "ec59db10c4421c3a58fa334c3bbdb46d90e5927f93407ff5c18c791147a72df1",
+          "lines": 136,
+          "checkbox_occurrences": 0,
+          "list_rows": 117,
+          "table_rows": 0,
+          "role": "execution_checkpoint"
+        },
+        {
+          "path": ".agent/execution-queue.yaml",
+          "sha256": "c4e795d58b27c01f02ea94ab8d3e7b3b14964db0376667ed0d363448c52a366d",
+          "lines": 365,
+          "checkbox_occurrences": 0,
+          "list_rows": 61,
+          "table_rows": 0,
+          "role": "filtered_queue"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/max2tg",
+      "commit": "e9a5a7c80f3193630348ed5828ecd3004d49bfc3",
+      "tree": "400990d6773139602ead9e9493e9b31fccb0df39",
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "df3a47d9b99f9568a45c70423d8bb20beeb98cec7162171186e9515d637e2160",
+          "lines": 403,
+          "checkbox_occurrences": 57,
+          "list_rows": 197,
+          "table_rows": 0,
+          "role": "roadmap"
+        },
+        {
+          "path": "docs/P1_FIELD_ACCEPTANCE.md",
+          "sha256": "0b6c436bce59a8fb03d22540314118da575852156666f7b5a1a95e120aaef8b2",
+          "lines": 27,
+          "checkbox_occurrences": 0,
+          "list_rows": 6,
+          "table_rows": 0,
+          "role": "acceptance"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/tender-agent",
+      "commit": "6799bdef88cbe64b4d769f4af4e50f724cc0e312",
+      "tree": "865fba05370f771a5916eb77972b52e9222cf02d",
+      "sources": [
+        {
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "sha256": "47604d12e74e3d4e73873c0978f2e28cd2690808ea017e48a944a49fa86df4e1",
+          "lines": 966,
+          "checkbox_occurrences": 166,
+          "list_rows": 256,
+          "table_rows": 211,
+          "role": "canonical_master"
+        },
+        {
+          "path": "docs/product/Current_Roadmap.md",
+          "sha256": "710f6363c8a7e54e858834d82ab4ceb24e4de12a6dae5bf38a43eae94c16c833",
+          "lines": 243,
+          "checkbox_occurrences": 0,
+          "list_rows": 69,
+          "table_rows": 0,
+          "role": "product_context"
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/spec.md",
+          "sha256": "f14bf371e06f0435fa4dc800c17ce09398cceeb331c152ec5278bf2e1827512d",
+          "lines": 45,
+          "checkbox_occurrences": 0,
+          "list_rows": 13,
+          "table_rows": 0,
+          "role": "native_spec"
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/plan.md",
+          "sha256": "f1ca755d371ca7f4c2da38188af8089b42e0c78a1c6e9e432e77b00369260f34",
+          "lines": 34,
+          "checkbox_occurrences": 0,
+          "list_rows": 11,
+          "table_rows": 0,
+          "role": "native_plan"
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/tasks.md",
+          "sha256": "42dc465ec920fd7bcaf9c65ce1c64e2121f6034db80ad83c3af1aeed6e372eae",
+          "lines": 30,
+          "checkbox_occurrences": 18,
+          "list_rows": 18,
+          "table_rows": 0,
+          "role": "native_tasks"
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "sha256": "57dabc0b0cec6f3e705c8860a58c8e95d19564d683c9a25b671340cc9d4981f3",
+          "lines": 883,
+          "checkbox_occurrences": 0,
+          "list_rows": 244,
+          "table_rows": 0,
+          "role": "execution_checkpoint"
+        },
+        {
+          "path": ".agent/execution-queue.yaml",
+          "sha256": "e642731bf91a05c260672a2a8543fec45bd61a551784084cc87078e7a78c16aa",
+          "lines": 1102,
+          "checkbox_occurrences": 0,
+          "list_rows": 146,
+          "table_rows": 0,
+          "role": "filtered_queue"
+        }
+      ]
+    }
+  ]
+}
