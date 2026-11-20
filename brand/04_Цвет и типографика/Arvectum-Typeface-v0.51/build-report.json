@@ -1,0 +1,113 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft051-Medium.otf",
+    "sha256": "7ecf5b1006e4f4198250606756ace515a2897ea84bcddf8c6f57ab6e6a565184",
+    "input": "ArvectumDisplayGoldenStepDraft050-Medium.otf",
+    "input_sha256": "a141667f03ee79389433da613c0f58d754e77562684c651085e21499a6039be7",
+    "scope": {
+      "A": {
+        "type": "revised",
+        "codepoint": "U+0041",
+        "width": 2045,
+        "lsb": 60,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "V": {
+        "type": "revised",
+        "codepoint": "U+0056",
+        "width": 2045,
+        "lsb": 60,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "W": {
+        "type": "revised",
+        "codepoint": "U+0057",
+        "width": 2327,
+        "lsb": 50,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "А": {
+        "type": "revised",
+        "codepoint": "U+0410",
+        "width": 2045,
+        "lsb": 60,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "Д": {
+        "type": "revised",
+        "codepoint": "U+0414",
+        "width": 1974,
+        "lsb": 60,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "Л": {
+        "type": "revised",
+        "codepoint": "U+041B",
+        "width": 2045,
+        "lsb": 60,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      }
+    },
+    "codepoints": 203,
+    "allowed": "AVWАДЛ"
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft051-Regular.otf",
+    "sha256": "291f844c33ddb7d87e72d7d07aa43d06fff51d42d3fa1a22b407ec5847b31d0e",
+    "input": "ArvectumTextGoldenStepDraft050-Regular.otf",
+    "input_sha256": "2d8182470e26cd18bcd5747f20fa4fdf51eecb025954a9ccc154daae4db395a6",
+    "scope": {
+      "A": {
+        "type": "revised",
+        "codepoint": "U+0041",
+        "width": 2055,
+        "lsb": 65,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "V": {
+        "type": "revised",
+        "codepoint": "U+0056",
+        "width": 2055,
+        "lsb": 65,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "А": {
+        "type": "revised",
+        "codepoint": "U+0410",
+        "width": 2055,
+        "lsb": 65,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "Д": {
+        "type": "revised",
+        "codepoint": "U+0414",
+        "width": 2003,
+        "lsb": 65,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "Л": {
+        "type": "revised",
+        "codepoint": "U+041B",
+        "width": 2055,
+        "lsb": 65,
+        "note": "symmetric bearing reduction, outline shape invariant"
+      },
+      "s": {
+        "type": "revised",
+        "codepoint": "U+0073",
+        "width": 1153,
+        "lsb": 94,
+        "note": "provisional Text bowl horizontal optical correction"
+      },
+      "g": {
+        "type": "revised",
+        "codepoint": "U+0067",
+        "width": 1148,
+        "lsb": 96,
+        "note": "provisional Text bowl horizontal optical correction"
+      }
+    },
+    "codepoints": 203,
+    "allowed": "AVgsАДЛ"
+  }
+}
