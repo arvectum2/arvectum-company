@@ -1,0 +1,27 @@
+{
+  "Display": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 143,
+      "legacy_only": 13,
+      "wordmark_adaptation_draft": 10
+    },
+    "codepoints": 180,
+    "digit_advance": 1323,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumDisplayReconstruction-Medium.otf",
+    "sha256": "610d74114b7bcd87e817d346cee6db101809f3101f1e40dc7e40487dcd713808"
+  },
+  "Text": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 153,
+      "legacy_only": 13
+    },
+    "codepoints": 180,
+    "digit_advance": 1266,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumTextReconstruction-Regular.otf",
+    "sha256": "7f7fabad8da6512607fd5c2def247dc88171f9a8d2f48a5649014e1e00e0ea92"
+  }
+}

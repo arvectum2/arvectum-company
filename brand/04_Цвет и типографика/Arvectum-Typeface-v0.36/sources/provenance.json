@@ -1,0 +1,22 @@
+{
+  "url": "https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip",
+  "release": "v4.1",
+  "archive_sha256": "9883fdd4a49d4fb66bd8177ba6625ef9a64aa45899767dde3d36aa425756b11e",
+  "files": {
+    "LICENSE.txt": {
+      "member": "LICENSE.txt",
+      "sha256": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a",
+      "bytes": 4380
+    },
+    "InterDisplay-Medium.otf": {
+      "member": "extras/otf/InterDisplay-Medium.otf",
+      "sha256": "9a17712bbd6da13b7ce9beb056d19fe15648799a11d5c35f8086a1270a0d13b2",
+      "bytes": 623380
+    },
+    "InterDisplay-Regular.otf": {
+      "member": "extras/otf/InterDisplay-Regular.otf",
+      "sha256": "35c1f7437dd6d63f4e60a49144df4b4e4edc190e13ffc1e54b86083747fe3acf",
+      "bytes": 608160
+    }
+  }
+}
