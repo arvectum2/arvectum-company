@@ -431,7 +431,7 @@
       "project": "baltika",
       "source_commit": "6ea3955555d67843819514fe00fb5509a8384711",
       "stage": "native_scaffold_in_verified_isolated_local_review",
-      "local_review_commit": "bd0a25aeabfb8e1bb671734ca39c76adc70c6dc8",
+      "local_review_commit": "239c45674be58cde59ebdc15e7b63ad703d3772e",
       "local_branch": "docs/spec-kit-local-linkage-20261120",
       "source_files": 4,
       "nonempty_line_anchors": 159,
@@ -443,20 +443,39 @@
       "pushed": false,
       "actual_acceptance_verified": false,
       "criterion_review": {
-        "stage": "read_only_source_review; local ledger apply pending",
+        "stage": "applied_in_isolated_local_review_verified",
         "question_count": 20,
         "baseline_review_head": "bd0a25aeabfb8e1bb671734ca39c76adc70c6dc8",
         "source_commit": "6ea3955555d67843819514fe00fb5509a8384711",
         "actual_customer_acceptance_verified": false,
         "script": "tools/prepare_local_question_review.py",
-        "notes": "Private source content remains local. Reported rehearsal and production acceptance separate."
-      }
+        "notes": "Private source content remains local. Reported rehearsal and production acceptance separate.",
+        "local_review_head": "239c45674be58cde59ebdc15e7b63ad703d3772e",
+        "path": "specs/001-baltika-question-traceability/question-review.json",
+        "review_records": 20,
+        "ledger_sha256": "df1295a885c267e78d7c66449fb10dd1464875c07f58a4b3cac2f50e303b8e5a",
+        "states": {
+          "partial_reported": 17,
+          "open_no_demonstrated_scenario": 1,
+          "bounded_demo_reported": 1,
+          "customer_scope_pending": 1
+        },
+        "source_links": "PASS",
+        "existing_review_task_links": "PASS",
+        "only_added_ledger": true,
+        "clean_worktree": true,
+        "pushed": false,
+        "original_unchanged": true,
+        "actual_acceptance_verified": false,
+        "execution_authorized": false
+      },
+      "initial_scaffold_review_commit": "bd0a25aeabfb8e1bb671734ca39c76adc70c6dc8"
     },
     {
       "project": "1c-lab",
       "source_commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
       "stage": "native_scaffold_in_verified_isolated_local_review",
-      "local_review_commit": "fc3d83040bf0f543cbf8c187577dc85ba50ee8e2",
+      "local_review_commit": "b9939c54a8e6369e288e3f7d7d7a6bcb375fb7e7",
       "local_branch": "docs/spec-kit-local-linkage-20261120",
       "source_files": 2,
       "nonempty_line_anchors": 27,
@@ -468,19 +487,35 @@
       "pushed": false,
       "actual_acceptance_verified": false,
       "criterion_review": {
-        "stage": "read_only review package prepared; apply awaits explicit local authorization",
+        "stage": "applied_in_isolated_local_review_verified",
         "source_commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
         "baseline_review_head": "fc3d83040bf0f543cbf8c187577dc85ba50ee8e2",
         "review_records": 8,
         "actual_acceptance_verified": false,
-        "script": "tools/prepare_local_criterion_wave.py"
-      }
+        "script": "tools/prepare_local_criterion_wave.py",
+        "local_review_head": "b9939c54a8e6369e288e3f7d7d7a6bcb375fb7e7",
+        "path": "specs/001-lab-acceptance-traceability/criterion-review.json",
+        "ledger_sha256": "3927d24ca59076534b9cdc009c1339d4f5e28bf8d67619323c4bec677dd3b3dc",
+        "states": {
+          "reported_done_unverified": 1,
+          "blocked_authorization": 1,
+          "not_run_dependency": 6
+        },
+        "source_links": "PASS",
+        "existing_review_task_links": "PASS",
+        "only_added_ledger": true,
+        "clean_worktree": true,
+        "pushed": false,
+        "original_unchanged": true,
+        "execution_authorized": false
+      },
+      "initial_scaffold_review_commit": "fc3d83040bf0f543cbf8c187577dc85ba50ee8e2"
     },
     {
       "project": "arc",
       "source_commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
       "stage": "native_scaffold_in_verified_isolated_local_review",
-      "local_review_commit": "04cf26a3a9f8abf021f59a1f64b5f9cdf8274b2d",
+      "local_review_commit": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
       "local_branch": "docs/spec-kit-local-linkage-20261120",
       "source_files": 2,
       "nonempty_line_anchors": 112,
@@ -492,13 +527,28 @@
       "pushed": false,
       "actual_acceptance_verified": false,
       "criterion_review": {
-        "stage": "read_only review package prepared; apply awaits explicit local authorization",
+        "stage": "applied_in_isolated_local_review_verified",
         "source_commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
         "baseline_review_head": "04cf26a3a9f8abf021f59a1f64b5f9cdf8274b2d",
         "review_records": 40,
         "actual_acceptance_verified": false,
-        "script": "tools/prepare_local_criterion_wave.py"
-      }
+        "script": "tools/prepare_local_criterion_wave.py",
+        "local_review_head": "da15fb543b9b4dfb6d3b445b0986c0500d5a3b4c",
+        "path": "specs/001-arc-roadmap-traceability/criterion-review.json",
+        "ledger_sha256": "ef656aef0edcc5708b32ac3f71cb65b4224d107a340e0a343247c00e03c08b4c",
+        "states": {
+          "reported_checked_unverified": 22,
+          "open_review": 18
+        },
+        "source_links": "PASS",
+        "existing_review_task_links": "PASS",
+        "only_added_ledger": true,
+        "clean_worktree": true,
+        "pushed": false,
+        "original_unchanged": true,
+        "execution_authorized": false
+      },
+      "initial_scaffold_review_commit": "04cf26a3a9f8abf021f59a1f64b5f9cdf8274b2d"
     }
   ],
   "archive": {
@@ -506,7 +556,7 @@
     "source_commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
     "stage": "native_scaffold_in_verified_isolated_local_review",
     "disposition": "KEEP_IN_PLACE",
-    "local_review_commit": "d8c8c1fbaa4805772af2c34877544bee553c5b83",
+    "local_review_commit": "fa4e484a06114718e9405d003b3b2e520087d510",
     "local_branch": "docs/spec-kit-local-linkage-20261120",
     "source_files": 1,
     "nonempty_line_anchors": 193,
@@ -518,13 +568,29 @@
     "pushed": false,
     "actual_acceptance_verified": false,
     "criterion_review": {
-      "stage": "read_only review package prepared; apply awaits explicit local authorization",
+      "stage": "applied_in_isolated_local_review_verified",
       "source_commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
       "baseline_review_head": "d8c8c1fbaa4805772af2c34877544bee553c5b83",
       "review_records": 110,
       "actual_acceptance_verified": false,
-      "script": "tools/prepare_local_criterion_wave.py"
-    }
+      "script": "tools/prepare_local_criterion_wave.py",
+      "local_review_head": "fa4e484a06114718e9405d003b3b2e520087d510",
+      "path": "specs/001-held-calculator-reference/criterion-review.json",
+      "ledger_sha256": "720f175d647329e3cff41d5986e3b6b67707c1b5b360ea1f48539d8daee300c6",
+      "states": {
+        "contained_context": 87,
+        "contained_historical_backlog": 9,
+        "contained_historical_acceptance": 14
+      },
+      "source_links": "PASS",
+      "existing_review_task_links": "PASS",
+      "only_added_ledger": true,
+      "clean_worktree": true,
+      "pushed": false,
+      "original_unchanged": true,
+      "execution_authorized": false
+    },
+    "initial_scaffold_review_commit": "d8c8c1fbaa4805772af2c34877544bee553c5b83"
   },
   "excluded": [
     {
@@ -902,7 +968,7 @@
     }
   },
   "criterion_rollout": {
-    "status": "partial_bounded_review",
+    "status": "all_identified_scopes_have_bounded_review_candidates_including_company; atomic_and_evidence_reconciliation_incomplete",
     "source_occurrences": 63,
     "independent_structural_tests": 25,
     "verified_criteria": 0,
@@ -938,10 +1004,16 @@
     },
     "structural_tests_across_sixteen_product_review_contours": 129,
     "local_wave": {
-      "stage": "prepared_not_applied",
+      "stage": "applied_and_independently_verified",
       "records": 178,
       "scopes": 4,
-      "note": "20 Baltika questions, 8 LAB gates, 40 ARC markers, 110 archived source references; not unique tasks. The four existing SOURCE-COVERAGE tasks remain open. No customer/credential access, runtime or archive modification."
+      "readback": "4/4 PASS",
+      "source_links": "178/178 PASS",
+      "existing_review_task_links": "178/178 PASS",
+      "originals_and_archive_unchanged": true,
+      "pushed": false,
+      "approval_scope": "Owner explicitly authorized pinned local --apply only",
+      "note": "Existing SOURCE-COVERAGE tasks stay open. Not unique tasks or acceptance. Archive KEEP_IN_PLACE."
     }
   }
 }
