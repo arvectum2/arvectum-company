@@ -1,0 +1,4 @@
+# Golden Step v0.54 — OpenType marks, normalization (GS-007)
+Two OTFs with GPOS kern + mark and GDEF. Add nine zero-advance combining marks: grave U+0300, acute 0301, circumflex 0302, tilde 0303, macron 0304, breve 0306, diaeresis 0308, ring 030A, cedilla 0327. Coverage 212 encoded positions per style. Automatically generated mark anchors for all letter bases, with top/bottom classes; both Latin and Cyrillic samples verified by HarfBuzz (including a+grave, e+acute, n+tilde, c+cedilla, decomposed Ё/Й). 203 prior contours/metrics unchanged and kerning effects retained.
+
+Optical anchor placement is preliminary; manual all-pair review, mark-to-mark stacking, more diacritics and multilingual qualification remain. Full text decomposition is not claimed. No GSUB/ccmp needed for the tested samples; GPOS is not a universal Unicode normalization engine. All preceding OTFs and masters preserved; not installed or released.

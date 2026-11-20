@@ -1,0 +1,1 @@
+GS-007 draft, evidence: full generated features, marks SVG, HarfBuzz JSON, PNG proof, SHA. Not an approved production font. No pinned roadmap/history/spec modifications. Next GS-008 whitespace and line metrics, then GS-009 platform/print qualification.

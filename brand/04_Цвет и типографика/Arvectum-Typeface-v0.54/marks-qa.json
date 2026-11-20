@@ -1,0 +1,564 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft054-Medium.otf",
+    "sha256": "8c9d986d4d9f6655f29850418dbad85651597676d184c08aa6b52dd578b42560",
+    "input": "ArvectumDisplayGoldenStepDraft053-Medium.otf",
+    "input_sha256": "91e6d0bb6976a3353959ae768feb1c381b98ee253c058dc0bfa17ee244da76b9",
+    "scope": {
+      "̀": {
+        "type": "combining_mark",
+        "codepoint": "U+0300",
+        "advance": 0
+      },
+      "́": {
+        "type": "combining_mark",
+        "codepoint": "U+0301",
+        "advance": 0
+      },
+      "̂": {
+        "type": "combining_mark",
+        "codepoint": "U+0302",
+        "advance": 0
+      },
+      "̃": {
+        "type": "combining_mark",
+        "codepoint": "U+0303",
+        "advance": 0
+      },
+      "̄": {
+        "type": "combining_mark",
+        "codepoint": "U+0304",
+        "advance": 0
+      },
+      "̆": {
+        "type": "combining_mark",
+        "codepoint": "U+0306",
+        "advance": 0
+      },
+      "̈": {
+        "type": "combining_mark",
+        "codepoint": "U+0308",
+        "advance": 0
+      },
+      "̊": {
+        "type": "combining_mark",
+        "codepoint": "U+030A",
+        "advance": 0
+      },
+      "̧": {
+        "type": "combining_mark",
+        "codepoint": "U+0327",
+        "advance": 0
+      }
+    },
+    "codepoints": 212,
+    "marks": {
+      "е́": [
+        {
+          "g": "uni0435",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1150,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -575,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "а́": [
+        {
+          "g": "uni0430",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1140,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -570,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ä": [
+        {
+          "g": "uni0061",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1140,
+          "ay": 0
+        },
+        {
+          "g": "uni0308",
+          "cl": 0,
+          "dx": -570,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "é": [
+        {
+          "g": "uni0065",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1150,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -575,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "à": [
+        {
+          "g": "uni0061",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1140,
+          "ay": 0
+        },
+        {
+          "g": "uni0300",
+          "cl": 0,
+          "dx": -570,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ê": [
+        {
+          "g": "uni0065",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1150,
+          "ay": 0
+        },
+        {
+          "g": "uni0302",
+          "cl": 0,
+          "dx": -575,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ñ": [
+        {
+          "g": "uni006E",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1145,
+          "ay": 0
+        },
+        {
+          "g": "uni0303",
+          "cl": 0,
+          "dx": -573,
+          "dy": 1168,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ō": [
+        {
+          "g": "uni006F",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1150,
+          "ay": 0
+        },
+        {
+          "g": "uni0304",
+          "cl": 0,
+          "dx": -575,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ů": [
+        {
+          "g": "uni0075",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1145,
+          "ay": 0
+        },
+        {
+          "g": "uni030A",
+          "cl": 0,
+          "dx": -573,
+          "dy": 1151,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ç": [
+        {
+          "g": "uni0063",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1033,
+          "ay": 0
+        },
+        {
+          "g": "uni0327",
+          "cl": 0,
+          "dx": -517,
+          "dy": -30,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "Й": [
+        {
+          "g": "uni0419",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1410,
+          "ay": 0
+        }
+      ],
+      "Й": [
+        {
+          "g": "uni0419",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1410,
+          "ay": 0
+        }
+      ],
+      "Ё": [
+        {
+          "g": "uni0401",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1250,
+          "ay": 0
+        }
+      ],
+      "ё": [
+        {
+          "g": "uni0451",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1150,
+          "ay": 0
+        }
+      ]
+    },
+    "features": [
+      "kern",
+      "mark"
+    ],
+    "font_sha256": "bf4a2df4fdf602e7ac9d3d29221fe3cd95f20d72129bac3e8cbcc65dcd1d4ce5"
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft054-Regular.otf",
+    "sha256": "762e2bb4568bd4c7b692b2b5df1cbf8bb618d7c27bf094331c6e8b35fca100d7",
+    "input": "ArvectumTextGoldenStepDraft053-Regular.otf",
+    "input_sha256": "fa6a0bddb390949863c7bccf9d6de74d0ea53d536b9e2241bd24c9d94b02186c",
+    "scope": {
+      "̀": {
+        "type": "combining_mark",
+        "codepoint": "U+0300",
+        "advance": 0
+      },
+      "́": {
+        "type": "combining_mark",
+        "codepoint": "U+0301",
+        "advance": 0
+      },
+      "̂": {
+        "type": "combining_mark",
+        "codepoint": "U+0302",
+        "advance": 0
+      },
+      "̃": {
+        "type": "combining_mark",
+        "codepoint": "U+0303",
+        "advance": 0
+      },
+      "̄": {
+        "type": "combining_mark",
+        "codepoint": "U+0304",
+        "advance": 0
+      },
+      "̆": {
+        "type": "combining_mark",
+        "codepoint": "U+0306",
+        "advance": 0
+      },
+      "̈": {
+        "type": "combining_mark",
+        "codepoint": "U+0308",
+        "advance": 0
+      },
+      "̊": {
+        "type": "combining_mark",
+        "codepoint": "U+030A",
+        "advance": 0
+      },
+      "̧": {
+        "type": "combining_mark",
+        "codepoint": "U+0327",
+        "advance": 0
+      }
+    },
+    "codepoints": 212,
+    "marks": {
+      "е́": [
+        {
+          "g": "uni0435",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1160,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -580,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "а́": [
+        {
+          "g": "uni0430",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1130,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -565,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ä": [
+        {
+          "g": "uni0061",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1130,
+          "ay": 0
+        },
+        {
+          "g": "uni0308",
+          "cl": 0,
+          "dx": -565,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "é": [
+        {
+          "g": "uni0065",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1160,
+          "ay": 0
+        },
+        {
+          "g": "uni0301",
+          "cl": 0,
+          "dx": -580,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "à": [
+        {
+          "g": "uni0061",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1130,
+          "ay": 0
+        },
+        {
+          "g": "uni0300",
+          "cl": 0,
+          "dx": -565,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ê": [
+        {
+          "g": "uni0065",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1160,
+          "ay": 0
+        },
+        {
+          "g": "uni0302",
+          "cl": 0,
+          "dx": -580,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ñ": [
+        {
+          "g": "uni006E",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1155,
+          "ay": 0
+        },
+        {
+          "g": "uni0303",
+          "cl": 0,
+          "dx": -577,
+          "dy": 1168,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ō": [
+        {
+          "g": "uni006F",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1130,
+          "ay": 0
+        },
+        {
+          "g": "uni0304",
+          "cl": 0,
+          "dx": -565,
+          "dy": 1166,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ů": [
+        {
+          "g": "uni0075",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1155,
+          "ay": 0
+        },
+        {
+          "g": "uni030A",
+          "cl": 0,
+          "dx": -577,
+          "dy": 1151,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "ç": [
+        {
+          "g": "uni0063",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1017,
+          "ay": 0
+        },
+        {
+          "g": "uni0327",
+          "cl": 0,
+          "dx": -509,
+          "dy": -30,
+          "ax": 0,
+          "ay": 0
+        }
+      ],
+      "Й": [
+        {
+          "g": "uni0419",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1295,
+          "ay": 0
+        }
+      ],
+      "Й": [
+        {
+          "g": "uni0419",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1295,
+          "ay": 0
+        }
+      ],
+      "Ё": [
+        {
+          "g": "uni0401",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1181,
+          "ay": 0
+        }
+      ],
+      "ё": [
+        {
+          "g": "uni0451",
+          "cl": 0,
+          "dx": 0,
+          "dy": 0,
+          "ax": 1160,
+          "ay": 0
+        }
+      ]
+    },
+    "features": [
+      "kern",
+      "mark"
+    ],
+    "font_sha256": "574816f3d63c24cdad2c7bb5b108e51ae115b3cac0ba5b1d67b17aabab999017"
+  }
+}
