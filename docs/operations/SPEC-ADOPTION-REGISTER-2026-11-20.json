@@ -226,7 +226,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "03322aaa7bff23c80c219a87bf4b219d20e17dab",
+        "source_commit": "83c0458fa108dd512ee0dbcd976238a3595a8f07",
+        "path": "docs/engineering/specs/001-roadmap-traceability/section-review.json",
+        "source_files": 2,
+        "nonempty_lines": 344,
+        "grouped_review_gates": 4,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "governance_review",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Genuine P10.07/P10.10, R35/R36/M10, WSF 01–09 preserved; no ready AUTO item asserted; no OS normative admission."
+      }
     },
     {
       "project": "Creative Test Agent",
@@ -237,7 +252,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "15cdc2e498c1a280914e2cc7c82302471d8b68c4",
+        "source_commit": "aeae858fae079ed681eedfc4e35462747e5ea412",
+        "path": "specs/001-pilot-roadmap-traceability/section-review.json",
+        "source_files": 3,
+        "nonempty_lines": 216,
+        "grouped_review_gates": 4,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "client_gate",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Canonical W06 records completed release preparation and local PASS; older CURRENT pointer differs; no actual customer deployment; E waits real client data."
+      }
     },
     {
       "project": "Discount Parser",
@@ -248,7 +278,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "444628af018f68acc8b3d74f9a182c501391f451",
+        "source_commit": "34217cbce3bbc8db3b10d115baae5142083de88a",
+        "path": "specs/001-contained-product-traceability/section-review.json",
+        "source_files": 4,
+        "nonempty_lines": 1090,
+        "grouped_review_gates": 3,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "contained",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Original spec, hardening and 80 checklist marks preserved; no resumed delivery or new client acceptance."
+      }
     },
     {
       "project": "Doors Parser",
@@ -259,7 +304,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "dea5d2a57cde7bed07ebbf8b02beaed0efaff168",
+        "source_commit": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0",
+        "path": "specs/001-contained-extraction-reference/section-review.json",
+        "source_files": 1,
+        "nonempty_lines": 117,
+        "grouped_review_gates": 2,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "contained",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "README only descriptive, no invented formal specification; no scraping; new dedicated CI PASS."
+      }
     },
     {
       "project": "Сайт",
@@ -270,7 +330,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "ec5e5959ea0dc00da0299ca6f28e8fa5a91d7e74",
+        "source_commit": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
+        "path": "specs/001-site-roadmap-traceability/section-review.json",
+        "source_files": 2,
+        "nonempty_lines": 57,
+        "grouped_review_gates": 2,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "review_only",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Public positioning, SEO/content plan intact; existing verify failure; no publication."
+      }
     },
     {
       "project": "Arvectum Work",
@@ -281,7 +356,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "51bcf6e51c00211ad8479bdbe9e86210fe11e497",
+        "source_commit": "00d478dac8e66b2ed08aaa7d74dbaf5b818f1cd0",
+        "path": "specs/001-discovery-traceability/section-review.json",
+        "source_files": 2,
+        "nonempty_lines": 349,
+        "grouped_review_gates": 3,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "discovery_only",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Main roadmap C2 deferred vs detailed C2 plan admits internal preparation; reconcile; stop before outbound. AW-100/200 not admitted."
+      }
     },
     {
       "project": "Business-process automation",
@@ -292,7 +382,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "05183dcc845c0b0c0c8da0d6ce4f5c612542b7d1",
+        "source_commit": "a4ec754fe51daef68c2dd9bddb6101ab80108e29",
+        "path": "specs/001-commercial-hypothesis-traceability/section-review.json",
+        "source_files": 1,
+        "nonempty_lines": 50,
+        "grouped_review_gates": 2,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "hypothesis_only",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "S0–S8 hypothesis and rights/consent/economic gates; private client scope separate."
+      }
     },
     {
       "project": "Brand Identity",
@@ -303,7 +408,22 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "ca5614fd83b4a3b20c9cb25cc7d48ed0b203eef7",
+        "source_commit": "29d67127d4ed061cd6c591ce0f6d8c6a12d98451",
+        "path": "brand/specs/001-brand-identity-traceability/section-review.json",
+        "source_files": 2,
+        "nonempty_lines": 71,
+        "grouped_review_gates": 2,
+        "coverage": "source/section review; not atomic criterion mapping",
+        "mode": "review_only",
+        "structural_tests": "8/8 PASS exact read-back",
+        "dedicated_ci": "PASS exact head at observation",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "BR-00–15, BR-05 v0.38 and history retained; original v0.13 unrecovered, v0.36 reconstructed; new shapes not approved."
+      }
     }
   ],
   "local_candidates": [
@@ -599,6 +719,16 @@
       "tests": "24/24 PASS exact read-back",
       "note": "Remaining marker-bearing rows only, not complete per-criterion evidence mapping or unique task count. All original files pinned and preserved."
     },
-    "structural_tests_across_eight_products": 65
+    "structural_tests_across_eight_products": 65,
+    "section_wave": {
+      "projects": 8,
+      "source_files": 17,
+      "nonempty_lines": 2294,
+      "grouped_review_gates": 22,
+      "structural_tests": "64/64 PASS",
+      "dedicated_ci": "8/8 PASS",
+      "note": "Source conservation and bounded review sections only. No full atomic mapping/evidence or authority claim."
+    },
+    "structural_tests_across_sixteen_product_review_contours": 129
   }
 }
