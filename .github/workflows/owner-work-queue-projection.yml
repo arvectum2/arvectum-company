@@ -1,0 +1,35 @@
+name: Owner work queue conservation
+on:
+  pull_request:
+    paths:
+      - 'docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json'
+      - 'docs/operations/OWNER-WORK-QUEUE-PROJECTION-2026-11-20.json'
+      - 'tools/management_queue_projection.py'
+      - 'tests/test_management_queue_projection.py'
+      - '.github/workflows/owner-work-queue-projection.yml'
+permissions:
+  contents: read
+jobs:
+  projection:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Verify exact source pin and action conservation
+        run: |
+          python3 - <<'PY'
+          import json, re, subprocess
+          from pathlib import Path
+          q = json.loads(Path("docs/operations/OWNER-WORK-QUEUE-PROJECTION-2026-11-20.json").read_text())
+          ref = q["source"]
+          expected = "docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json"
+          assert ref["path"] == expected
+          assert re.fullmatch("[0-9a-f]{40}", ref["commit"])
+          assert re.fullmatch("[0-9a-f]{40}", ref["blob"])
+          assert subprocess.check_output(["git", "rev-parse", ref["commit"] + ":" + expected], text=True).strip() == ref["blob"]
+          assert subprocess.check_output(["git", "hash-object", expected], text=True).strip() == ref["blob"]
+          PY
+          python3 -B tools/management_queue_projection.py docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json docs/operations/OWNER-WORK-QUEUE-PROJECTION-2026-11-20.json
+          python3 -B -m unittest discover -s tests -p test_management_queue_projection.py -v
