@@ -1,0 +1,31 @@
+{
+  "Display": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 128,
+      "rounded_candidate_v037": 11,
+      "legacy_only": 12,
+      "bowl_candidate_v038": 10,
+      "wordmark_adaptation_draft": 5
+    },
+    "codepoints": 180,
+    "digit_advance": 1323,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumDisplayGoldenStepDraft038-Medium.otf",
+    "sha256": "7b1339ce88c0c8e0a79a9f4a3d1cbd207ea46915ccc1262766227b814fa7b879"
+  },
+  "Text": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 133,
+      "rounded_candidate_v037": 11,
+      "legacy_only": 12,
+      "bowl_candidate_v038": 10
+    },
+    "codepoints": 180,
+    "digit_advance": 1266,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumTextGoldenStepDraft038-Regular.otf",
+    "sha256": "8e7f49b5728847182d50ff23b8f400805e28338645ab0ef71376b02b5b57ed17"
+  }
+}

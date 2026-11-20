@@ -1,0 +1,238 @@
+{
+  "Display": {
+    "phi": 1.618033988749895,
+    "k": 0.6180339887498948,
+    "vertical_stem": 200.59127,
+    "horizontal_stem": 190.77974,
+    "glyphs": {
+      "p": {
+        "bbox": [
+          0.0,
+          -350.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 652935.9888559427,
+        "sha256": "2e34529f00accf3646f6c3eec315ec339dd53c5dbd2d56fc72e67058e937490c",
+        "source": "v0.34-L exact outline"
+      },
+      "р": {
+        "bbox": [
+          0.0,
+          -350.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 652935.9888559427,
+        "sha256": "2e34529f00accf3646f6c3eec315ec339dd53c5dbd2d56fc72e67058e937490c",
+        "source": "v0.34-L exact outline"
+      },
+      "q": {
+        "bbox": [
+          0.0,
+          -350.0,
+          940.0,
+          1071.0
+        ],
+        "ink_area_approx": 652935.9888559426,
+        "sha256": "f08127c3e8a4af655496d4525725cc6766a81efc27a6990e360ea8e51d2a5236",
+        "source": "reconstruction"
+      },
+      "b": {
+        "bbox": [
+          0.0,
+          -15.0,
+          940.0,
+          1490.0
+        ],
+        "ink_area_approx": 669785.6555359428,
+        "sha256": "3ad853a19cdfd2912f1c38028d4317c68d3cfa14643e1af7d6d78260fa9b181d",
+        "source": "reconstruction"
+      },
+      "d": {
+        "bbox": [
+          0.0,
+          -15.0,
+          940.0,
+          1490.0
+        ],
+        "ink_area_approx": 669785.6555359429,
+        "sha256": "72d0b6f4f885393be1a96ac96ee90e2b4d5728f966a6299c2eb0a38124f10653",
+        "source": "reconstruction"
+      },
+      "P": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 704186.3402254868,
+        "sha256": "7462bf8f470588381ee034ca3ed37b6613682cffa24a7c44cf7234684bd93e4d",
+        "source": "reconstruction"
+      },
+      "Р": {
+        "bbox": [
+          0.0,
+          0.0,
+          1160.0,
+          1490.0
+        ],
+        "ink_area_approx": 704186.3402254868,
+        "sha256": "7462bf8f470588381ee034ca3ed37b6613682cffa24a7c44cf7234684bd93e4d",
+        "source": "reconstruction"
+      },
+      "в": {
+        "bbox": [
+          0.0,
+          0.0,
+          940.0,
+          1056.0
+        ],
+        "ink_area_approx": 612440.9858716049,
+        "sha256": "65f66104f7fdee72fa2e3b2f3d436528d48faa4000e6a3ce47fbe60f2e2bfde2",
+        "source": "reconstruction"
+      },
+      "ь": {
+        "bbox": [
+          0.0,
+          0.0,
+          880.0,
+          1056.0
+        ],
+        "ink_area_approx": 479281.4028723638,
+        "sha256": "150544da489d17c7a0755ed79b18f102cb513e00b1a04390346afa90a1ecb17b",
+        "source": "reconstruction"
+      },
+      "ъ": {
+        "bbox": [
+          0.0,
+          0.0,
+          1004.0,
+          1056.0
+        ],
+        "ink_area_approx": 502938.0906323636,
+        "sha256": "b2de08bf660c64912d46ef116d3bb7666bf88b6006f8fe2fd8b23a5221387372",
+        "source": "reconstruction"
+      }
+    }
+  },
+  "Text": {
+    "phi": 1.618033988749895,
+    "k": 0.5522847498,
+    "vertical_stem": 185.435,
+    "horizontal_stem": 175,
+    "glyphs": {
+      "p": {
+        "bbox": [
+          0.0,
+          -350.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 604214.3733900334,
+        "sha256": "1f807909b3aac3b6b0c4af8c34e2f3ab5fcbdbe70f4ffa7be69c9cec38f07daf",
+        "source": "reconstruction"
+      },
+      "р": {
+        "bbox": [
+          0.0,
+          -350.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 604214.3733900334,
+        "sha256": "1f807909b3aac3b6b0c4af8c34e2f3ab5fcbdbe70f4ffa7be69c9cec38f07daf",
+        "source": "reconstruction"
+      },
+      "q": {
+        "bbox": [
+          0.0,
+          -350.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 604214.3733900334,
+        "sha256": "f4b5080b5a5b10ecc80b2afb40deb5c217747b60d9b68626d3a8d2785719fb2e",
+        "source": "reconstruction"
+      },
+      "b": {
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1490.0
+        ],
+        "ink_area_approx": 619790.9133900332,
+        "sha256": "bff4396ad7a9cb09501d08176642580d223fa14f1db11589346180797319d066",
+        "source": "reconstruction"
+      },
+      "d": {
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1490.0
+        ],
+        "ink_area_approx": 619790.9133900334,
+        "sha256": "53ab9f7b1cb5264b6ca42f6cd99261cd4b202e55b7cf61faf4f1b9d7c864e602",
+        "source": "reconstruction"
+      },
+      "P": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 631502.6452555154,
+        "sha256": "aa96a7c8dec70426ec693aa8135a893306419e61d4e35e02e28961ae3bce6a99",
+        "source": "reconstruction"
+      },
+      "Р": {
+        "bbox": [
+          0.0,
+          0.0,
+          1100.0,
+          1490.0
+        ],
+        "ink_area_approx": 631502.6452555154,
+        "sha256": "aa96a7c8dec70426ec693aa8135a893306419e61d4e35e02e28961ae3bce6a99",
+        "source": "reconstruction"
+      },
+      "в": {
+        "bbox": [
+          0.0,
+          0.0,
+          920.0,
+          1056.0
+        ],
+        "ink_area_approx": 560669.8175719293,
+        "sha256": "5bfe508e6e2b15efeb37c0e76feb542eff3a14cf584e753e3b78d2641f02f2ba",
+        "source": "reconstruction"
+      },
+      "ь": {
+        "bbox": [
+          0.0,
+          0.0,
+          850.0,
+          1056.0
+        ],
+        "ink_area_approx": 436492.60534775676,
+        "sha256": "57170e7b27610e78312913862d99ca43e92a4dc44084a2b86fe42f40ea8b2e54",
+        "source": "reconstruction"
+      },
+      "ъ": {
+        "bbox": [
+          0.0,
+          0.0,
+          965.0,
+          1056.0
+        ],
+        "ink_area_approx": 456617.6053477566,
+        "sha256": "95ffed9e75a6cbed4a30bca4c5f96acd4e5b64d8409281ba23600a82a0afa59d",
+        "source": "reconstruction"
+      }
+    }
+  }
+}
