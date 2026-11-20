@@ -1,0 +1,51 @@
+{
+  "Display": {
+    "encoded": 182,
+    "ink": 179,
+    "source_hashes_verified": 182,
+    "flags": {
+      "letter_advance_outlier": [
+        "A",
+        "V",
+        "W",
+        "А",
+        "Д",
+        "Л"
+      ]
+    },
+    "hhea": [
+      1984,
+      -494
+    ],
+    "win": [
+      2048,
+      600
+    ],
+    "font_sha256": "2cd72ccda8b804a520995bbe7de72d91f17e0e7f34c19b71782b4bb44f9b2177",
+    "layout_tables": []
+  },
+  "Text": {
+    "encoded": 182,
+    "ink": 179,
+    "source_hashes_verified": 182,
+    "flags": {
+      "letter_advance_outlier": [
+        "A",
+        "V",
+        "А",
+        "Д",
+        "Л"
+      ]
+    },
+    "hhea": [
+      1984,
+      -494
+    ],
+    "win": [
+      2048,
+      600
+    ],
+    "font_sha256": "cc0308d1137959d2fc26df5d9f56ea4ba2d7845165b2a3cd8f857928b1c479e9",
+    "layout_tables": []
+  }
+}

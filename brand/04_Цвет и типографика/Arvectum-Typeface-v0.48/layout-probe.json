@@ -1,0 +1,394 @@
+{
+  "Display": {
+    "missing_printable_ascii": [
+      "#",
+      "&",
+      "*",
+      "/",
+      "<",
+      ">",
+      "@",
+      "\\",
+      "^",
+      "_",
+      "`",
+      "~"
+    ],
+    "decomposed_and_accent_tests": {
+      "Ё": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0401",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1250,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Ё": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0401",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1250,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "ё": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0451",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1150,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "ё": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0451",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1150,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Й": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0419",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1410,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Й": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0419",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1410,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "й": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0439",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1145,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "й": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0439",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1145,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "é": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0065",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1150,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1247,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      },
+      "ä": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0061",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1140,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1242,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      },
+      "а́": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0430",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1140,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1242,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      }
+    }
+  },
+  "Text": {
+    "missing_printable_ascii": [
+      "#",
+      "&",
+      "*",
+      "/",
+      "<",
+      ">",
+      "@",
+      "\\",
+      "^",
+      "_",
+      "`",
+      "~"
+    ],
+    "decomposed_and_accent_tests": {
+      "Ё": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0401",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1181,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Ё": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0401",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1181,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "ё": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0451",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1160,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "ё": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0451",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1160,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Й": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0419",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1295,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "Й": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0419",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1295,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "й": {
+        "covered_raw": true,
+        "shaped": [
+          {
+            "g": "uni0439",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1155,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "й": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0439",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1155,
+            "ay": 0
+          }
+        ],
+        "missing": false
+      },
+      "é": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0065",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1160,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1252,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      },
+      "ä": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0061",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1130,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1237,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      },
+      "а́": {
+        "covered_raw": false,
+        "shaped": [
+          {
+            "g": "uni0430",
+            "cl": 0,
+            "dx": 0,
+            "dy": 0,
+            "ax": 1130,
+            "ay": 0
+          },
+          {
+            "g": ".notdef",
+            "cl": 0,
+            "dx": -1237,
+            "dy": 1615,
+            "ax": 0,
+            "ay": 0
+          }
+        ],
+        "missing": true
+      }
+    }
+  }
+}

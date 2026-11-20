@@ -1,0 +1,548 @@
+[
+  {
+    "style": "Display",
+    "source": "brand/00_Управление/BRAND-PLATFORM-v0.3.md",
+    "visible_nonspace_count": 945,
+    "missing_occurrences": 0,
+    "missing": []
+  },
+  {
+    "style": "Display",
+    "source": "docs/constitution/COMPANY-CONSTITUTION.md",
+    "visible_nonspace_count": 22565,
+    "missing_occurrences": 92,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 80
+      },
+      {
+        "char": "→",
+        "codepoint": "U+2192",
+        "name": "RIGHTWARDS ARROW",
+        "count": 9
+      },
+      {
+        "char": "↔",
+        "codepoint": "U+2194",
+        "name": "LEFT RIGHT ARROW",
+        "count": 2
+      },
+      {
+        "char": "_",
+        "codepoint": "U+005F",
+        "name": "LOW LINE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Display",
+    "source": "docs/business/CURRENT-BUSINESS-MODEL-AND-VALUE-PROPOSITION.md",
+    "visible_nonspace_count": 18594,
+    "missing_occurrences": 242,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 110
+      },
+      {
+        "char": "─",
+        "codepoint": "U+2500",
+        "name": "BOX DRAWINGS LIGHT HORIZONTAL",
+        "count": 78
+      },
+      {
+        "char": "→",
+        "codepoint": "U+2192",
+        "name": "RIGHTWARDS ARROW",
+        "count": 29
+      },
+      {
+        "char": "│",
+        "codepoint": "U+2502",
+        "name": "BOX DRAWINGS LIGHT VERTICAL",
+        "count": 13
+      },
+      {
+        "char": ">",
+        "codepoint": "U+003E",
+        "name": "GREATER-THAN SIGN",
+        "count": 4
+      },
+      {
+        "char": "┼",
+        "codepoint": "U+253C",
+        "name": "BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL",
+        "count": 2
+      },
+      {
+        "char": "&",
+        "codepoint": "U+0026",
+        "name": "AMPERSAND",
+        "count": 2
+      },
+      {
+        "char": "┌",
+        "codepoint": "U+250C",
+        "name": "BOX DRAWINGS LIGHT DOWN AND RIGHT",
+        "count": 1
+      },
+      {
+        "char": "┐",
+        "codepoint": "U+2510",
+        "name": "BOX DRAWINGS LIGHT DOWN AND LEFT",
+        "count": 1
+      },
+      {
+        "char": "└",
+        "codepoint": "U+2514",
+        "name": "BOX DRAWINGS LIGHT UP AND RIGHT",
+        "count": 1
+      },
+      {
+        "char": "┘",
+        "codepoint": "U+2518",
+        "name": "BOX DRAWINGS LIGHT UP AND LEFT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Display",
+    "source": "public/index.html",
+    "visible_nonspace_count": 8147,
+    "missing_occurrences": 5,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 4
+      },
+      {
+        "char": "@",
+        "codepoint": "U+0040",
+        "name": "COMMERCIAL AT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Display",
+    "source": "synthetic use cases",
+    "visible_nonspace_count": 134,
+    "missing_occurrences": 30,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 5
+      },
+      {
+        "char": "é",
+        "codepoint": "U+00E9",
+        "name": "LATIN SMALL LETTER E WITH ACUTE",
+        "count": 3
+      },
+      {
+        "char": "̈",
+        "codepoint": "U+0308",
+        "name": "COMBINING DIAERESIS",
+        "count": 2
+      },
+      {
+        "char": "̆",
+        "codepoint": "U+0306",
+        "name": "COMBINING BREVE",
+        "count": 2
+      },
+      {
+        "char": "@",
+        "codepoint": "U+0040",
+        "name": "COMMERCIAL AT",
+        "count": 1
+      },
+      {
+        "char": "&",
+        "codepoint": "U+0026",
+        "name": "AMPERSAND",
+        "count": 1
+      },
+      {
+        "char": "#",
+        "codepoint": "U+0023",
+        "name": "NUMBER SIGN",
+        "count": 1
+      },
+      {
+        "char": "_",
+        "codepoint": "U+005F",
+        "name": "LOW LINE",
+        "count": 1
+      },
+      {
+        "char": "\\",
+        "codepoint": "U+005C",
+        "name": "REVERSE SOLIDUS",
+        "count": 1
+      },
+      {
+        "char": "<",
+        "codepoint": "U+003C",
+        "name": "LESS-THAN SIGN",
+        "count": 1
+      },
+      {
+        "char": ">",
+        "codepoint": "U+003E",
+        "name": "GREATER-THAN SIGN",
+        "count": 1
+      },
+      {
+        "char": "~",
+        "codepoint": "U+007E",
+        "name": "TILDE",
+        "count": 1
+      },
+      {
+        "char": "^",
+        "codepoint": "U+005E",
+        "name": "CIRCUMFLEX ACCENT",
+        "count": 1
+      },
+      {
+        "char": "`",
+        "codepoint": "U+0060",
+        "name": "GRAVE ACCENT",
+        "count": 1
+      },
+      {
+        "char": "*",
+        "codepoint": "U+002A",
+        "name": "ASTERISK",
+        "count": 1
+      },
+      {
+        "char": "©",
+        "codepoint": "U+00A9",
+        "name": "COPYRIGHT SIGN",
+        "count": 1
+      },
+      {
+        "char": "®",
+        "codepoint": "U+00AE",
+        "name": "REGISTERED SIGN",
+        "count": 1
+      },
+      {
+        "char": "™",
+        "codepoint": "U+2122",
+        "name": "TRADE MARK SIGN",
+        "count": 1
+      },
+      {
+        "char": "§",
+        "codepoint": "U+00A7",
+        "name": "SECTION SIGN",
+        "count": 1
+      },
+      {
+        "char": "¶",
+        "codepoint": "U+00B6",
+        "name": "PILCROW SIGN",
+        "count": 1
+      },
+      {
+        "char": "•",
+        "codepoint": "U+2022",
+        "name": "BULLET",
+        "count": 1
+      },
+      {
+        "char": "ï",
+        "codepoint": "U+00EF",
+        "name": "LATIN SMALL LETTER I WITH DIAERESIS",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Text",
+    "source": "brand/00_Управление/BRAND-PLATFORM-v0.3.md",
+    "visible_nonspace_count": 945,
+    "missing_occurrences": 0,
+    "missing": []
+  },
+  {
+    "style": "Text",
+    "source": "docs/constitution/COMPANY-CONSTITUTION.md",
+    "visible_nonspace_count": 22565,
+    "missing_occurrences": 92,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 80
+      },
+      {
+        "char": "→",
+        "codepoint": "U+2192",
+        "name": "RIGHTWARDS ARROW",
+        "count": 9
+      },
+      {
+        "char": "↔",
+        "codepoint": "U+2194",
+        "name": "LEFT RIGHT ARROW",
+        "count": 2
+      },
+      {
+        "char": "_",
+        "codepoint": "U+005F",
+        "name": "LOW LINE",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Text",
+    "source": "docs/business/CURRENT-BUSINESS-MODEL-AND-VALUE-PROPOSITION.md",
+    "visible_nonspace_count": 18594,
+    "missing_occurrences": 242,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 110
+      },
+      {
+        "char": "─",
+        "codepoint": "U+2500",
+        "name": "BOX DRAWINGS LIGHT HORIZONTAL",
+        "count": 78
+      },
+      {
+        "char": "→",
+        "codepoint": "U+2192",
+        "name": "RIGHTWARDS ARROW",
+        "count": 29
+      },
+      {
+        "char": "│",
+        "codepoint": "U+2502",
+        "name": "BOX DRAWINGS LIGHT VERTICAL",
+        "count": 13
+      },
+      {
+        "char": ">",
+        "codepoint": "U+003E",
+        "name": "GREATER-THAN SIGN",
+        "count": 4
+      },
+      {
+        "char": "┼",
+        "codepoint": "U+253C",
+        "name": "BOX DRAWINGS LIGHT VERTICAL AND HORIZONTAL",
+        "count": 2
+      },
+      {
+        "char": "&",
+        "codepoint": "U+0026",
+        "name": "AMPERSAND",
+        "count": 2
+      },
+      {
+        "char": "┌",
+        "codepoint": "U+250C",
+        "name": "BOX DRAWINGS LIGHT DOWN AND RIGHT",
+        "count": 1
+      },
+      {
+        "char": "┐",
+        "codepoint": "U+2510",
+        "name": "BOX DRAWINGS LIGHT DOWN AND LEFT",
+        "count": 1
+      },
+      {
+        "char": "└",
+        "codepoint": "U+2514",
+        "name": "BOX DRAWINGS LIGHT UP AND RIGHT",
+        "count": 1
+      },
+      {
+        "char": "┘",
+        "codepoint": "U+2518",
+        "name": "BOX DRAWINGS LIGHT UP AND LEFT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Text",
+    "source": "public/index.html",
+    "visible_nonspace_count": 8147,
+    "missing_occurrences": 5,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 4
+      },
+      {
+        "char": "@",
+        "codepoint": "U+0040",
+        "name": "COMMERCIAL AT",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "style": "Text",
+    "source": "synthetic use cases",
+    "visible_nonspace_count": 134,
+    "missing_occurrences": 30,
+    "missing": [
+      {
+        "char": "/",
+        "codepoint": "U+002F",
+        "name": "SOLIDUS",
+        "count": 5
+      },
+      {
+        "char": "é",
+        "codepoint": "U+00E9",
+        "name": "LATIN SMALL LETTER E WITH ACUTE",
+        "count": 3
+      },
+      {
+        "char": "̈",
+        "codepoint": "U+0308",
+        "name": "COMBINING DIAERESIS",
+        "count": 2
+      },
+      {
+        "char": "̆",
+        "codepoint": "U+0306",
+        "name": "COMBINING BREVE",
+        "count": 2
+      },
+      {
+        "char": "@",
+        "codepoint": "U+0040",
+        "name": "COMMERCIAL AT",
+        "count": 1
+      },
+      {
+        "char": "&",
+        "codepoint": "U+0026",
+        "name": "AMPERSAND",
+        "count": 1
+      },
+      {
+        "char": "#",
+        "codepoint": "U+0023",
+        "name": "NUMBER SIGN",
+        "count": 1
+      },
+      {
+        "char": "_",
+        "codepoint": "U+005F",
+        "name": "LOW LINE",
+        "count": 1
+      },
+      {
+        "char": "\\",
+        "codepoint": "U+005C",
+        "name": "REVERSE SOLIDUS",
+        "count": 1
+      },
+      {
+        "char": "<",
+        "codepoint": "U+003C",
+        "name": "LESS-THAN SIGN",
+        "count": 1
+      },
+      {
+        "char": ">",
+        "codepoint": "U+003E",
+        "name": "GREATER-THAN SIGN",
+        "count": 1
+      },
+      {
+        "char": "~",
+        "codepoint": "U+007E",
+        "name": "TILDE",
+        "count": 1
+      },
+      {
+        "char": "^",
+        "codepoint": "U+005E",
+        "name": "CIRCUMFLEX ACCENT",
+        "count": 1
+      },
+      {
+        "char": "`",
+        "codepoint": "U+0060",
+        "name": "GRAVE ACCENT",
+        "count": 1
+      },
+      {
+        "char": "*",
+        "codepoint": "U+002A",
+        "name": "ASTERISK",
+        "count": 1
+      },
+      {
+        "char": "©",
+        "codepoint": "U+00A9",
+        "name": "COPYRIGHT SIGN",
+        "count": 1
+      },
+      {
+        "char": "®",
+        "codepoint": "U+00AE",
+        "name": "REGISTERED SIGN",
+        "count": 1
+      },
+      {
+        "char": "™",
+        "codepoint": "U+2122",
+        "name": "TRADE MARK SIGN",
+        "count": 1
+      },
+      {
+        "char": "§",
+        "codepoint": "U+00A7",
+        "name": "SECTION SIGN",
+        "count": 1
+      },
+      {
+        "char": "¶",
+        "codepoint": "U+00B6",
+        "name": "PILCROW SIGN",
+        "count": 1
+      },
+      {
+        "char": "•",
+        "codepoint": "U+2022",
+        "name": "BULLET",
+        "count": 1
+      },
+      {
+        "char": "ï",
+        "codepoint": "U+00EF",
+        "name": "LATIN SMALL LETTER I WITH DIAERESIS",
+        "count": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,268 @@
+[
+  {
+    "style": "Display",
+    "pair": "A/А",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "B/В",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "C/С",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "E/Е",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "H/Н",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "K/К",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "M/М",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "O/О",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "P/Р",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "T/Т",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "X/Х",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "a/а",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "c/с",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "e/е",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "o/о",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "p/р",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "x/х",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Display",
+    "pair": "y/у",
+    "outline_equal": false,
+    "metrics_equal": false,
+    "review": "intentional or discrepancy requires review"
+  },
+  {
+    "style": "Display",
+    "pair": "k/к",
+    "outline_equal": false,
+    "metrics_equal": false,
+    "review": "intentional or discrepancy requires review"
+  },
+  {
+    "style": "Text",
+    "pair": "A/А",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "B/В",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "C/С",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "E/Е",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "H/Н",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "K/К",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "M/М",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "O/О",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "P/Р",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "T/Т",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "X/Х",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "a/а",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "c/с",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "e/е",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "o/о",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "p/р",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "x/х",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "y/у",
+    "outline_equal": true,
+    "metrics_equal": true,
+    "review": "match"
+  },
+  {
+    "style": "Text",
+    "pair": "k/к",
+    "outline_equal": false,
+    "metrics_equal": true,
+    "review": "intentional or discrepancy requires review"
+  }
+]

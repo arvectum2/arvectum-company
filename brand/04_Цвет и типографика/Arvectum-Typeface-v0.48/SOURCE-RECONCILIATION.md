@@ -1,0 +1,2 @@
+# BR-05 v0.48 — additive audit evidence
+Baseline b0f4e45. R01: corpus and repertoire audit, historical gaps remain. R02: 364-position metrics, cross-script audit, fixed-size grids and mixed-script proof. R03: source hashes verified, layout probes and reproducible audit scripts; OFL provenance retained. R04/R05: no promotion, approval, deployment or other BR execution. Pinned roadmap/history, checker and review state unchanged. BACKLOG.md proposes next v0.49 GS-001. Exact investigated binaries and source chain remain under prior versions.
