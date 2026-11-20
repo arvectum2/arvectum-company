@@ -8,3 +8,6 @@ Draft, observed 2026-11-20. Company source manifest extends the previous 15 sele
 - Baltika: local working branch 6ea3955 not present on remote; local meeting document lists 20 questions, preparation/rehearsal evidence and newer presentation recorded. Client material and offer terms remain local; only sanitized coverage and next-step metadata in Company. Main Deal hypothesis is a separate source, not a substitute for the meeting scope. No client-facing delivery or acceptance inferred. Separate local integration review required.
 
 Review prior Company PR #30, existing project drafts, native approval and OS boundaries before admission. Actual evidence mapping, native CLI setup, remaining projects and live projection remain open.
+
+## Architecture gate follow-up
+Tools initial candidate root `specs/` violated the existing monorepo root allowlist. Relocated shared documentation to `core/docs/specs/001-portfolio-roadmap-traceability` without changing the architecture validator or product ownership. New head `7411e2280c83374d8ef46377154f5a318936cb30`: 532094 original bytes preserved, 32 links verified; both architecture CI jobs, catalog and mirror PASS. Product-specific requirements remain owned by their native roadmaps. This location is a compatible documentation package, not root CLI initialization.

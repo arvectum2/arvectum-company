@@ -39,7 +39,7 @@
       "project": "Arvectum Tools",
       "repo": "arvectum2/arvectum-tools",
       "pinned_main": "f3893f6a70fafc529b70dbf23515ce8913706c35",
-      "review_head": "8c287693ac9863f8b3d222c093009a488d3cb530",
+      "review_head": "7411e2280c83374d8ef46377154f5a318936cb30",
       "pr": 202,
       "linked_roadmaps": 8,
       "source_files": 8,
@@ -47,7 +47,9 @@
       "source_bytes_preserved": 532094,
       "verified_links": 32,
       "stage": "candidate_linkage",
-      "next": "Review individual product criteria, actual store/adoption evidence and physical gates; do not resume Where? or Growth Agent."
+      "next": "Review individual product criteria, actual store/adoption evidence and physical gates; do not resume Where? or Growth Agent.",
+      "package": "core/docs/specs/001-portfolio-roadmap-traceability",
+      "architecture_ci": "pass_after_relocation"
     },
     {
       "project": "Балтика",
