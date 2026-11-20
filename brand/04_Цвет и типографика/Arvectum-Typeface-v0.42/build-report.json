@@ -1,0 +1,39 @@
+{
+  "Display": {
+    "counts": {
+      "current_candidate": 14,
+      "curve_candidate_v041": 13,
+      "rounded_candidate_v037": 11,
+      "straight_candidate_v039": 18,
+      "legacy_only": 12,
+      "remaining_candidate_v042": 11,
+      "diagonal_candidate_v040": 13,
+      "bowl_candidate_v038": 10,
+      "wordmark_adaptation_draft": 5,
+      "upstream_fallback": 73
+    },
+    "codepoints": 180,
+    "digit_advance": 1323,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumDisplayGoldenStepDraft042-Medium.otf",
+    "sha256": "98a954c09e9b322bb1a5be3f1459debfa1002573daa72795dccf72e43cbad3f4"
+  },
+  "Text": {
+    "counts": {
+      "current_candidate": 14,
+      "curve_candidate_v041": 13,
+      "rounded_candidate_v037": 11,
+      "straight_candidate_v039": 18,
+      "legacy_only": 12,
+      "remaining_candidate_v042": 11,
+      "diagonal_candidate_v040": 15,
+      "bowl_candidate_v038": 10,
+      "upstream_fallback": 76
+    },
+    "codepoints": 180,
+    "digit_advance": 1266,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumTextGoldenStepDraft042-Regular.otf",
+    "sha256": "50e767d1159e5ffbf775c02768b47e6e9cd1376bfe5d815db3fb99acb57ecd03"
+  }
+}
