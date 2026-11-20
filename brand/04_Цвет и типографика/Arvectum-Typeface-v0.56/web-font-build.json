@@ -1,0 +1,40 @@
+{
+  "Display": {
+    "OTF": {
+      "file": "ArvectumDisplayGoldenStepDraft056-Medium.otf",
+      "sha256": "3e5286203adf9a78422daefaa92a1f8fb4beaf7d9068c841e85967da0f453d2b"
+    },
+    "web": {
+      "woff": {
+        "status": "PASS",
+        "file": "ArvectumDisplayGoldenStepDraft056-Medium.woff",
+        "sha256": "24716dba661ebb72a5b84f8636eab13f818cc0738a0c53b798ec4675512d6fb0"
+      },
+      "woff2": {
+        "status": "PASS",
+        "file": "ArvectumDisplayGoldenStepDraft056-Medium.woff2",
+        "sha256": "cdfcd9bc98e11a2478cff68ab83ef66101901144efcc32d2bd90c5fa88f7f554"
+      }
+    },
+    "source_sha256": "4296242932c0ef9aada050c1099177af969809ce6258f21194ab5afc8d2e40b9"
+  },
+  "Text": {
+    "OTF": {
+      "file": "ArvectumTextGoldenStepDraft056-Regular.otf",
+      "sha256": "8133c1ce065811858af56e707b7e9d4e4e81924d29e16b93ed0dffab4a1463eb"
+    },
+    "web": {
+      "woff": {
+        "status": "PASS",
+        "file": "ArvectumTextGoldenStepDraft056-Regular.woff",
+        "sha256": "e582ffbf3bda6bdeddbb08edca068e7e94ebdff0b75a5a7e0cfedc545a5125df"
+      },
+      "woff2": {
+        "status": "PASS",
+        "file": "ArvectumTextGoldenStepDraft056-Regular.woff2",
+        "sha256": "efcc9c0e283701d5b6fb4cf38c0c6303361f4e1252c7c510857d7fa244ae1082"
+      }
+    },
+    "source_sha256": "556cfc12ff7b4e1637312b60a21c69844b947bcc48848075e1cc21080a02ae97"
+  }
+}

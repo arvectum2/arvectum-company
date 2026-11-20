@@ -1,0 +1,62 @@
+{
+  "status": "TECHNICAL_DRAFT_PASS",
+  "styles": {
+    "Display": {
+      "codepoints": 212,
+      "ascii": 95,
+      "format_sha256": {
+        "otf": "3e5286203adf9a78422daefaa92a1f8fb4beaf7d9068c841e85967da0f453d2b",
+        "woff": "24716dba661ebb72a5b84f8636eab13f818cc0738a0c53b798ec4675512d6fb0",
+        "woff2": "cdfcd9bc98e11a2478cff68ab83ef66101901144efcc32d2bd90c5fa88f7f554"
+      },
+      "corrected_glyphs": [
+        "©",
+        "®",
+        "¶",
+        "̊"
+      ],
+      "figure_advance": 1323,
+      "fontconfig": "Arvectum Display Golden Step Draft 056|Medium",
+      "tables": [
+        "GPOS",
+        "GDEF"
+      ]
+    },
+    "Text": {
+      "codepoints": 212,
+      "ascii": 95,
+      "format_sha256": {
+        "otf": "8133c1ce065811858af56e707b7e9d4e4e81924d29e16b93ed0dffab4a1463eb",
+        "woff": "e582ffbf3bda6bdeddbb08edca068e7e94ebdff0b75a5a7e0cfedc545a5125df",
+        "woff2": "efcc9c0e283701d5b6fb4cf38c0c6303361f4e1252c7c510857d7fa244ae1082"
+      },
+      "corrected_glyphs": [
+        "©",
+        "®",
+        "¶",
+        "̊"
+      ],
+      "figure_advance": 1266,
+      "fontconfig": "Arvectum Text Golden Step Draft 056|Regular",
+      "tables": [
+        "GPOS",
+        "GDEF"
+      ]
+    }
+  },
+  "browser": "FONT_QA display=true text=true widths=369.5,322.0 result=PASS",
+  "PDF": {
+    "pages": 2,
+    "embedded_subset_fonts": true,
+    "text_extraction": true,
+    "sha256": "8bce0b5e952d7931d81c1809fcee7e56e8508d2429c045462cae550abe4e0d1b"
+  },
+  "limitations": [
+    "Windows device unavailable (HTTP 530)",
+    "Office/Pages document rendering not validated",
+    "No physical paper print",
+    "No owner optical/release approval",
+    "Some overlapping composite glyphs require expanded QA",
+    "Font license remains derived SIL OFL"
+  ]
+}

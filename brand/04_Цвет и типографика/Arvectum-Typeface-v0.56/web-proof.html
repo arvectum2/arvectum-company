@@ -1,0 +1,18 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><title>Golden Step web qualification</title>
+<style>@font-face {font-family:'ArvectumDisplay';src:url('experimental/ArvectumDisplayGoldenStepDraft056-Medium.woff2') format('woff2');font-display:block;}
+@font-face {font-family:'ArvectumText';src:url('experimental/ArvectumTextGoldenStepDraft056-Regular.woff2') format('woff2');font-display:block;}
+body{margin:0;background:#fff;color:#001432;padding:32px;font-family:Arial,sans-serif}
+h1{font-size:24px;margin:0 0 20px}section{width:850px;display:inline-block;vertical-align:top;margin-right:30px}
+h2{font-size:20px}p{margin:22px 0}.display{font-family:'ArvectumDisplay'}.text{font-family:'ArvectumText'}
+small{color:#475569}#qa{margin-top:14px}</style></head><body>
+<h1>Arvectum Golden Step — v0.56 / browser proof (draft)</h1>
+<section class="display"><h2>Display Medium</h2><p style="font-size:42px">Arvectum — Арвектум. Интеллект в действии.</p><p style="font-size:26px">№ 17 / 2026: 1 250 000,00 ₽ • 44-ФЗ • 223-ФЗ</p><p style="font-size:23px">info@arvectum.com | https://arvectum.com • © ® ™</p><p style="font-size:13px">Arvectum — Арвектум. Интеллект в действии.</p></section>
+<section class="text"><h2>Text Regular</h2><p style="font-size:42px">Arvectum — Арвектум. Интеллект в действии.</p><p style="font-size:26px">№ 17 / 2026: 1 250 000,00 ₽ • 44-ФЗ • 223-ФЗ</p><p style="font-size:23px">info@arvectum.com | https://arvectum.com • © ® ™</p><p style="font-size:13px">Arvectum — Арвектум. Интеллект в действии.</p></section>
+<div id="qa">Checking fonts...</div><script>
+document.fonts.ready.then(()=>{
+  const d=document.fonts.check("20px ArvectumDisplay"),t=document.fonts.check("20px ArvectumText");
+  const c=document.createElement('canvas').getContext('2d');c.font='32px ArvectumDisplay';const a=c.measureText('Arvectum 0123456789').width;
+  c.font='32px Arial';const b=c.measureText('Arvectum 0123456789').width;
+  document.getElementById('qa').textContent='FONT_QA display='+d+' text='+t+' widths='+a.toFixed(1)+','+b.toFixed(1)+' result='+(d&&t&&Math.abs(a-b)>1?'PASS':'FAIL');
+});
+</script></body></html>
