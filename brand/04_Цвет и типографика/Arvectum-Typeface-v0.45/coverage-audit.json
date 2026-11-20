@@ -1,0 +1,78 @@
+{
+  "Display": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "encoded_total": 182,
+    "non_upstream_draft": 158,
+    "upstream_remaining": 24,
+    "pending_codepoints": [
+      "U+002B",
+      "U+003D",
+      "U+2212",
+      "U+00D7",
+      "U+00F7",
+      "U+00B1",
+      "U+2260",
+      "U+2264",
+      "U+2265",
+      "U+2248",
+      "U+0025",
+      "U+2030",
+      "U+00B0",
+      "U+2116",
+      "U+20BD",
+      "U+0024",
+      "U+20AC",
+      "U+00A3",
+      "U+00A5",
+      "U+20B4",
+      "U+00A2",
+      "U+0020",
+      "U+00A0",
+      "U+202F"
+    ],
+    "added": [
+      "U+00B7",
+      "U+007C"
+    ]
+  },
+  "Text": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "encoded_total": 182,
+    "non_upstream_draft": 158,
+    "upstream_remaining": 24,
+    "pending_codepoints": [
+      "U+002B",
+      "U+003D",
+      "U+2212",
+      "U+00D7",
+      "U+00F7",
+      "U+00B1",
+      "U+2260",
+      "U+2264",
+      "U+2265",
+      "U+2248",
+      "U+0025",
+      "U+2030",
+      "U+00B0",
+      "U+2116",
+      "U+20BD",
+      "U+0024",
+      "U+20AC",
+      "U+00A3",
+      "U+00A5",
+      "U+20B4",
+      "U+00A2",
+      "U+0020",
+      "U+00A0",
+      "U+202F"
+    ],
+    "added": [
+      "U+00B7",
+      "U+007C"
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+# BR-05 v0.45 — additive working evidence
+Baseline 6b20516. Owner requested continuation and confirmed retention of all sources on Mac mini, GitHub and GitVerse. Pinned roadmap/history, review checks and approval state unchanged. BR-SDD-R01: coverage audit and historical versions retained. R02: punctuation geometry, both proof sheets, comparison QA. R03: reproducible scripts, SVG/OTF, provenance and hashes. R04/R05: no approval, release, deployment or additional BR scope. Next proposed v0.46 mathematical symbols. Source reconciliation remains open.

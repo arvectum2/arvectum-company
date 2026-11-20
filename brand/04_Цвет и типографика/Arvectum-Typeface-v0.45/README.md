@@ -1,0 +1,10 @@
+# Arvectum Golden Step v0.45 — punctuation
+2026-11-20 | BR-05 | Draft, not approved for production
+
+30 punctuation positions per style, 60 SVG: replace 28 Inter positions and add U+00B7 middle dot and U+007C vertical bar. Golden-derived dot spacing, comma and quotation proportions, guillemet slopes and bracket widths; rounded parentheses and question marks use new cubic constructions. En/em dash advances 1024/2048, three hyphen codepoints have identical outlines and advances. Square dots, relatively light dashes, angular quotes, parentheses and braces are provisional design decisions; after visual inspection guillemets enlarged. No claim of pure golden geometry for every curve or recovered historical v0.7 forms. Final optical balance and small-size reading comfort remain open.
+
+QA: positive contour areas, sampled strict intersection/disjoint checks (96 samples per cubic), 2 OTFs of 182 codepoints; 28 changed and 2 added positions per style, 152 others identical in recorded outlines and hmtx. All 30 punctuation rasterize at 12/16/24/40/72 px, individual HarfBuzz shapes without .notdef, controlled samples checked against cmap. Two successive SVG and OTF builds byte identical; final comparison sheet visually inspected. No exhaustive topology, layout, kerning, print or compatibility testing. Previous approved logo masters and all versions preserved.
+
+Coverage: 158/182 non-upstream working positions per style (118 letters, 10 digits, 30 punctuation), 24 remaining upstream positions: 14 mathematical/percent/business symbols, 7 currency symbols and 3 spaces. Next v0.46 mathematical symbols, then currencies/whitespace, coverage review, optical harmonization, metrics, kerning, OpenType and print/system QA. Inter OFL provenance retained under v0.36/sources. No automatic deployment or approval.
+
+Reproduce with Python 3.14, fontTools 4.68.0, numpy, Pillow and hb-shape: run punctuation.py, build.py, proof.py, compare.py. Previous version directories are build dependencies. Retain source, glyphs, experimental OTFs, comparison sheets, manifests and SHA256SUMS.
