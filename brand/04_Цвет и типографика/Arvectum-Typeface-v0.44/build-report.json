@@ -1,0 +1,43 @@
+{
+  "Display": {
+    "counts": {
+      "current_candidate": 14,
+      "curve_candidate_v041": 13,
+      "rounded_candidate_v037": 11,
+      "straight_candidate_v039": 18,
+      "legacy_only": 12,
+      "remaining_candidate_v042": 11,
+      "diagonal_candidate_v040": 13,
+      "bowl_candidate_v038": 10,
+      "wordmark_adaptation_draft": 5,
+      "alphabet_candidate_v043": 11,
+      "digit_candidate_v044": 10,
+      "upstream_fallback": 52
+    },
+    "codepoints": 180,
+    "digit_advance": 1323,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumDisplayGoldenStepDraft044-Medium.otf",
+    "sha256": "c46776dd3982eb8aa30554bb8c0988197355e4adcbb3f6b8d28367189a2a42ef"
+  },
+  "Text": {
+    "counts": {
+      "current_candidate": 14,
+      "curve_candidate_v041": 13,
+      "rounded_candidate_v037": 11,
+      "straight_candidate_v039": 18,
+      "legacy_only": 12,
+      "remaining_candidate_v042": 11,
+      "diagonal_candidate_v040": 15,
+      "bowl_candidate_v038": 10,
+      "alphabet_candidate_v043": 14,
+      "digit_candidate_v044": 10,
+      "upstream_fallback": 52
+    },
+    "codepoints": 180,
+    "digit_advance": 1266,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumTextGoldenStepDraft044-Regular.otf",
+    "sha256": "794e1c0779bdea82be4b8b36783e5b2f2cc0a62e1e70b4dc3b4a51fa55abaecf"
+  }
+}
