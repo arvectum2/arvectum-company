@@ -1,0 +1,9 @@
+# Spec Kit blocker repair — 2026-11-20
+
+Owner-directed bounded remediation. Tender Agent PR667 and Site PR16 merged; exact reviewed tree, target and GitVerse refs match. 15/17 original integration PRs merged. Tender premerge 20/20, postmerge 9 PASS/1 quality pending at snapshot. Site premerge 3/3, postmerge 2/2. Site kept 52 ordered sitemap URLs, all 11 demo pages noindex, original image URLs; resampled two What screenshots to 544×1182/224807 and 680×1478/170198 bytes. Static QA passed in CI; no manual visual acceptance or separate site deployment asserted.
+
+Discount: all four controlled Windows closure installation call sites now install the existing pinned Data Platform dependency with no dependency/build-isolation resolution. Final CI still pending. Release-specific skipped gates not treated as real release acceptance. Product remains contained.
+
+Museum: five failing browser cases traced to dated synthetic fixtures / ambiguous header status. Four test files changed, actual production time and UI unchanged; added explicit archive boundary coverage. Composer minimal update of four advisory-affected packages (Laravel 13.36.0→13.43.0, Symfony HTTP Foundation/HTTP Kernel/Routing 8.1.9→8.1.11) resolved in isolated copy without install/plugins/scripts. composer audit --locked exit 0, no advisories; regenerated and verified rights/SBOM outputs, committed exact generated blob hashes. CI still pending. No customer materials or actual acceptance changed.
+
+CTA, Doors: observed GitVerse main is ancestor of GitHub main, each behind by 4, no divergence. Prepared `tools/sync_spec_adoption_mirrors.py` for precisely these two pinned refs, normal non-force main-only pushes, validates each source/target before and after. No sync yet. No direct production operations or Mission Control changes. All actual acceptance remains separate.
