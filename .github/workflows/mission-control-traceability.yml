@@ -1,0 +1,43 @@
+name: Mission Control traceability candidate
+on:
+  pull_request:
+    paths:
+      - 'specs/001-mission-control-roadmap-traceability/**'
+      - 'tools/roadmap_traceability.mjs'
+      - 'tools/native_spec_inventory.py'
+      - 'tests/test_roadmap_traceability.mjs'
+      - 'tests/test_native_spec_inventory.py'
+      - '.github/workflows/mission-control-traceability.yml'
+permissions:
+  contents: read
+jobs:
+  traceability:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Independent prior ledger
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          set -eu
+          path=specs/001-mission-control-roadmap-traceability/traceability.json
+          if git cat-file -e "$BASE_SHA:$path" 2>/dev/null; then
+            git show "$BASE_SHA:$path" > "$RUNNER_TEMP/mc-baseline.json"
+          else
+            git show 950a02b1fd64f2009bd5bdacca9481fd40f75b96:"$path" > "$RUNNER_TEMP/mc-baseline.json"
+          fi
+      - name: Candidate gate and tests
+        run: |
+          node tests/test_roadmap_traceability.mjs
+          python -m unittest discover -s tests -p test_native_spec_inventory.py -v
+          d=specs/001-mission-control-roadmap-traceability
+          node tools/roadmap_traceability.mjs "$d/traceability.json" "$RUNNER_TEMP/mc-baseline.json" "$d/spec.md" "$d/tasks.md"
