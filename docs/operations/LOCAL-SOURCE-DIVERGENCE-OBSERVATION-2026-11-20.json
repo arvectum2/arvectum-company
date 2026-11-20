@@ -1,0 +1,579 @@
+{
+  "schema": "arvectum.company.local-source-divergence-observation/1",
+  "status": "observed_not_reconciled",
+  "as_of": "2026-11-20",
+  "baseline_path": "docs/operations/LEGACY-SOURCE-BASELINE-2026-11-20.json",
+  "baseline_company_commit": "abd4248b4ac089a194318d21594903cebef304cd",
+  "total": 51,
+  "counts": {
+    "unchanged_vs_historical": 35,
+    "changed_requires_reconcile": 8,
+    "append_only_vs_historical": 1,
+    "not_in_selected_local_checkout": 7
+  },
+  "scope": "Selected Mac mini working files vs historical pins, not full current remote tree or deletion proof. No local writes.",
+  "projects": [
+    {
+      "repo": "arvectum2/proxy-launcher",
+      "historical_pin": "67df7e205ff63703bde90809e89f06211ec0d870",
+      "local_present": true,
+      "local_head": "67df7e205ff63703bde90809e89f06211ec0d870",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/APL_ACTIVE_IOS_ROADMAP_2026-11-11.md",
+          "historical_sha256": "e90a6ee0f50e60c04a974486bfcd003a5cfd43893e6a0b6d714bdb81029873bc",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "e90a6ee0f50e60c04a974486bfcd003a5cfd43893e6a0b6d714bdb81029873bc",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/APL_IOS_030_UNIFIED_RELEASE_2026-11-11.md",
+          "historical_sha256": "8d32cc457d8c6c8356e8df80600aed69bb51c2ee22f9436f9bb8a57fe128d391",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "8d32cc457d8c6c8356e8df80600aed69bb51c2ee22f9436f9bb8a57fe128d391",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "5f9e1df836f15fda5947b642c7fdfab16ff4c32ea3cb97705e568bf97c4d7d6d",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "5f9e1df836f15fda5947b642c7fdfab16ff4c32ea3cb97705e568bf97c4d7d6d",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/LOCAL_EXECUTION_BACKLOG.md",
+          "historical_sha256": "8739e65fa0ce2ce6bdf9f2e5eab5d04cd3171768cbdf7b0cc3d941bf4a31fe2a",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "8739e65fa0ce2ce6bdf9f2e5eab5d04cd3171768cbdf7b0cc3d941bf4a31fe2a",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "historical_sha256": "ec59db10c4421c3a58fa334c3bbdb46d90e5927f93407ff5c18c791147a72df1",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "ec59db10c4421c3a58fa334c3bbdb46d90e5927f93407ff5c18c791147a72df1",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": ".agent/execution-queue.yaml",
+          "historical_sha256": "c4e795d58b27c01f02ea94ab8d3e7b3b14964db0376667ed0d363448c52a366d",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "c4e795d58b27c01f02ea94ab8d3e7b3b14964db0376667ed0d363448c52a366d",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/max2tg",
+      "historical_pin": "e9a5a7c80f3193630348ed5828ecd3004d49bfc3",
+      "local_present": true,
+      "local_head": "c7b9c47911bdc6c37fe58b3942e0e98cbe91daf8",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "df3a47d9b99f9568a45c70423d8bb20beeb98cec7162171186e9515d637e2160",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "ab483288c5d2f7e0acc16e1b5ee762a6baa05c79bf6160a756bc8f2556e10d19",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 403,
+            "new_lines": 390,
+            "removed_or_replaced": 13,
+            "added_or_replaced": 0
+          },
+          "disposition": "preserve remote baseline"
+        },
+        {
+          "path": "docs/P1_FIELD_ACCEPTANCE.md",
+          "historical_sha256": "0b6c436bce59a8fb03d22540314118da575852156666f7b5a1a95e120aaef8b2",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "0b6c436bce59a8fb03d22540314118da575852156666f7b5a1a95e120aaef8b2",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/tender-agent",
+      "historical_pin": "6799bdef88cbe64b4d769f4af4e50f724cc0e312",
+      "local_present": true,
+      "local_head": "fc41e652b64ea27bda0f96a4b2e5f5967e87374e",
+      "local_branch": "feature/apr07-quality-slo-evidence",
+      "tracked_dirty": true,
+      "sources": [
+        {
+          "path": "docs/roadmap/MASTER_ROADMAP.md",
+          "historical_sha256": "47604d12e74e3d4e73873c0978f2e28cd2690808ea017e48a944a49fa86df4e1",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "f48df1725446d4b8160b3b22f8a5425a9ef49aa39da98628fc0c11276ca84445",
+          "working_tree_differs_from_head": true,
+          "line_delta": {
+            "old_lines": 966,
+            "new_lines": 632,
+            "removed_or_replaced": 345,
+            "added_or_replaced": 11
+          },
+          "disposition": "dirty branch; preserve both versions"
+        },
+        {
+          "path": "docs/product/Current_Roadmap.md",
+          "historical_sha256": "710f6363c8a7e54e858834d82ab4ceb24e4de12a6dae5bf38a43eae94c16c833",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "710f6363c8a7e54e858834d82ab4ceb24e4de12a6dae5bf38a43eae94c16c833",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/spec.md",
+          "historical_sha256": "f14bf371e06f0435fa4dc800c17ce09398cceeb331c152ec5278bf2e1827512d",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/plan.md",
+          "historical_sha256": "f1ca755d371ca7f4c2da38188af8089b42e0c78a1c6e9e432e77b00369260f34",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": "specs/001-power-quality-evidence-closure/tasks.md",
+          "historical_sha256": "42dc465ec920fd7bcaf9c65ce1c64e2121f6034db80ad83c3af1aeed6e372eae",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "historical_sha256": "57dabc0b0cec6f3e705c8860a58c8e95d19564d683c9a25b671340cc9d4981f3",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "8e7f9f5585466da290e4530f75fb161cb06e036e66759b85e175eb11b1fb72a7",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 883,
+            "new_lines": 77,
+            "removed_or_replaced": 876,
+            "added_or_replaced": 70
+          },
+          "disposition": "checkpoint not canonical inventory"
+        },
+        {
+          "path": ".agent/execution-queue.yaml",
+          "historical_sha256": "e642731bf91a05c260672a2a8543fec45bd61a551784084cc87078e7a78c16aa",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "7bcf527db21879ec9f805dbc846c134be74e4a90cd01657e9e8dfe34232c3a83",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 1102,
+            "new_lines": 1063,
+            "removed_or_replaced": 39,
+            "added_or_replaced": 0
+          },
+          "disposition": "filtered queue"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/deal",
+      "historical_pin": "a4ec754fe51daef68c2dd9bddb6101ab80108e29",
+      "local_present": true,
+      "local_head": "6ea3955555d67843819514fe00fb5509a8384711",
+      "local_branch": "feat/baltika-enterprise-pilot",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "c88a54b6c2533c8f9020718066e6ebd0a4f089c309729c26737bc153c7ad1232",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "c88a54b6c2533c8f9020718066e6ebd0a4f089c309729c26737bc153c7ad1232",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/data-platform",
+      "historical_pin": "3900d42cfe76ba47c4d0b7ec98ce7620a0f31f11",
+      "local_present": true,
+      "local_head": "38322fd5f1cbec2d377c478d9980cae2382366a0",
+      "local_branch": "feat/gemma-quality-reasoning-20261019",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "013c96b47041ddd70716cf340d9911b8af57d15c8163dca54d3ff6db986dcb9f",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "013c96b47041ddd70716cf340d9911b8af57d15c8163dca54d3ff6db986dcb9f",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "historical_sha256": "e11a3ad95bcfd711166ca88d3fc9de372481b4b7e5bc91aee8a6fd9b56f01de9",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "51fe8935c0139e546f2f0ebefeaf2026ae8010949763ade7d2c4ccc1e4a2dd9e",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 46,
+            "new_lines": 41,
+            "removed_or_replaced": 5,
+            "added_or_replaced": 0
+          },
+          "disposition": "feature checkpoint"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-infrastructure",
+      "historical_pin": "1dc7443379c08930b4bd43f4cf9fae329f046d5d",
+      "local_present": true,
+      "local_head": "72f063366e7e0b1832445ceb177899da1b4726d5",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "8cd8033b2b58fd714291ad9db4522308ccee647192efb0770b5e4da71dbb9bba",
+          "state": "append_only_vs_historical",
+          "local_sha256": "fdfe9a255a611ff96872000aca3a36bda890945339407a7ee4d5c07d2434267e",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 17,
+            "new_lines": 21,
+            "removed_or_replaced": 0,
+            "added_or_replaced": 4
+          },
+          "disposition": "new UPS physical gate"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-tools",
+      "historical_pin": "f3893f6a70fafc529b70dbf23515ce8913706c35",
+      "local_present": true,
+      "local_head": "d0a6b37acac82a407a2c56c5813f9377129da9d4",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "core/ROADMAP.md",
+          "historical_sha256": "cf25520da328dcab0fbee01caf4879fe53e856a914f91af9cbb7adcb7897d129",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "cf25520da328dcab0fbee01caf4879fe53e856a914f91af9cbb7adcb7897d129",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "growth/ROADMAP.md",
+          "historical_sha256": "bc28d327a979d329be2a6e202603f6be01f0b3361f21542d6c524f54f492b4e3",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "bc28d327a979d329be2a6e202603f6be01f0b3361f21542d6c524f54f492b4e3",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "growth/agent/ROADMAP.md",
+          "historical_sha256": "74153181285092bdb234a81e8e194b4271266074c806d39c8ad3ebc6bb508309",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "74153181285092bdb234a81e8e194b4271266074c806d39c8ad3ebc6bb508309",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "chickmark/ROADMAP.md",
+          "historical_sha256": "dbf9e4be8447006d8a5b164b247d81046aa199e14ef7a40f81054fb371d71a38",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "dbf9e4be8447006d8a5b164b247d81046aa199e14ef7a40f81054fb371d71a38",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "photo-pdf-to-size/ROADMAP.md",
+          "historical_sha256": "63a2ea9562080097fefd9298235a8dbdb00dd4b7f5aafeac374539c93bae2473",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "63a2ea9562080097fefd9298235a8dbdb00dd4b7f5aafeac374539c93bae2473",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "pushkin/ROADMAP.md",
+          "historical_sha256": "19b76192a1eb5999b157684cf8a51578f123df3c1f8ba9c901b61dfee33c1bdd",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "42f97bc60abcd1905457bddeb8ac3c5cf675f05dfa0cd444c7561bb464d91f63",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 487,
+            "new_lines": 476,
+            "removed_or_replaced": 11,
+            "added_or_replaced": 0
+          },
+          "disposition": "preserve remote PS-FB31 block"
+        },
+        {
+          "path": "what/ROADMAP.md",
+          "historical_sha256": "8f98e315c308f4f706a3f6fb0f181e5c64ab53fa3cdd73a327791253fa3e6f38",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "8f98e315c308f4f706a3f6fb0f181e5c64ab53fa3cdd73a327791253fa3e6f38",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "where/ROADMAP.md",
+          "historical_sha256": "9199bff154dcd22a13541ba767f0043ab98294159b0533bff6a1d8bec940ebb2",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "9199bff154dcd22a13541ba767f0043ab98294159b0533bff6a1d8bec940ebb2",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-os",
+      "historical_pin": "83c0458fa108dd512ee0dbcd976238a3595a8f07",
+      "local_present": true,
+      "local_head": "83c0458fa108dd512ee0dbcd976238a3595a8f07",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "historical_sha256": "fa9ef4237955816e2ddc8d4d35e4de930a4d48724714c90c9d38594b42248175",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "fa9ef4237955816e2ddc8d4d35e4de930a4d48724714c90c9d38594b42248175",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "historical_sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/constitution/CONSTITUTION.md",
+          "historical_sha256": "1d2fd340dbd76d375c2d3142b7ea8fba28fa893ff700381853ee7c856520a7cd",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "1d2fd340dbd76d375c2d3142b7ea8fba28fa893ff700381853ee7c856520a7cd",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/governance/ARVECTUM-ENGINEERING-STANDARD.md",
+          "historical_sha256": "50567b5e959a191316540b5b85117e4e679a1442a476bb7f3719a9863a14422d",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "50567b5e959a191316540b5b85117e4e679a1442a476bb7f3719a9863a14422d",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/creative-test-agent",
+      "historical_pin": "aeae858fae079ed681eedfc4e35462747e5ea412",
+      "local_present": true,
+      "local_head": "aeae858fae079ed681eedfc4e35462747e5ea412",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "ROADMAP.md",
+          "historical_sha256": "5341226111f3bee4e60e4e894fe6afa71fdfc83b0f8c8f7001ba6626fa9a5145",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "5341226111f3bee4e60e4e894fe6afa71fdfc83b0f8c8f7001ba6626fa9a5145",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/CURRENT.md",
+          "historical_sha256": "ea202580df437be41711e650c726ee6734e1c0fdc002d39410dc1358222116f3",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "ea202580df437be41711e650c726ee6734e1c0fdc002d39410dc1358222116f3",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_CANONICAL_ROADMAP_v2.4_2026-08-04.md",
+          "historical_sha256": "1772e5eda45b0de1b729fd939c660fd48f3037890f4edef92bd8b3803283eba4",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "1772e5eda45b0de1b729fd939c660fd48f3037890f4edef92bd8b3803283eba4",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/WAITING_FOR_CLIENT_DATA_PLAN.md",
+          "historical_sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_CANONICAL_ROADMAP.md",
+          "historical_sha256": "5b81832a8447eadc2da7cebc0260fc79b7277cb1c4a263d5c7d9a3bc2b3b5171",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "5b81832a8447eadc2da7cebc0260fc79b7277cb1c4a263d5c7d9a3bc2b3b5171",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_ROADMAP_STATUS.md",
+          "historical_sha256": "040f3b8263e633a50bbef4b0b30cb709f69ec15cf4b943bde65d87814a1f7f6d",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "040f3b8263e633a50bbef4b0b30cb709f69ec15cf4b943bde65d87814a1f7f6d",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/discount-parser",
+      "historical_pin": "34217cbce3bbc8db3b10d115baae5142083de88a",
+      "local_present": true,
+      "local_head": "34217cbce3bbc8db3b10d115baae5142083de88a",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "historical_sha256": "4d7c80ce5aba35488e8f5cfb1221eada7b9190a576e42d255307e0bff23a5bdc",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "4d7c80ce5aba35488e8f5cfb1221eada7b9190a576e42d255307e0bff23a5bdc",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/TECHNICAL_SPEC_V1.md",
+          "historical_sha256": "beba950871e26ea753c7222a749a38efacc55b72ce676131f13ff9927dc3bbe8",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "beba950871e26ea753c7222a749a38efacc55b72ce676131f13ff9927dc3bbe8",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/HARDENING_ROADMAP_2026-08-17.md",
+          "historical_sha256": "c9039ff39eebe4960b35370286cea9fc0b094f137d2e5c809179327c680c9dc7",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "c9039ff39eebe4960b35370286cea9fc0b094f137d2e5c809179327c680c9dc7",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/FINAL_ACCEPTANCE_CHECKLIST.md",
+          "historical_sha256": "e02d65ab36622e1523263f6c71d901992b5bd062f6d408c4cc59a7a7b0509ac7",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "e02d65ab36622e1523263f6c71d901992b5bd062f6d408c4cc59a7a7b0509ac7",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/doors_parser",
+      "historical_pin": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0",
+      "local_present": true,
+      "local_head": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "README.md",
+          "historical_sha256": "cf4c7b0105bfd04b950037e06aca1bdf0e259105147545549fe71bff0b7e29ad",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "cf4c7b0105bfd04b950037e06aca1bdf0e259105147545549fe71bff0b7e29ad",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-site",
+      "historical_pin": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
+      "local_present": true,
+      "local_head": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
+      "local_branch": "main",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "SEO_MASTER_PLAN.md",
+          "historical_sha256": "2d4a29dce7574b6384823708ee97ff057013d0d32c15dc0e1768c74851bd8bb4",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "2d4a29dce7574b6384823708ee97ff057013d0d32c15dc0e1768c74851bd8bb4",
+          "working_tree_differs_from_head": false
+        },
+        {
+          "path": "docs/seo/content_plan_90_days.md",
+          "historical_sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-work",
+      "historical_pin": "00d478dac8e66b2ed08aaa7d74dbaf5b818f1cd0",
+      "local_present": false,
+      "local_head": null,
+      "local_branch": null,
+      "tracked_dirty": null,
+      "sources": [
+        {
+          "path": "README.md",
+          "historical_sha256": "ad120f5af9899ad0267c9df5c943da56ea792ed84378f060ffc3e039bc17f2c2",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "historical_sha256": "b0d7855b98ce72874db97a90d1509a76492868a0a089def39399f1bc306afce2",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": "docs/discovery/AW-020-C2-FOCUSED-BUYER-VALIDATION-PLAN.md",
+          "historical_sha256": "5144b60b238690cc0b7dd62502e39efb53eb353fd885ae8e0f752499eb28a85c",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        },
+        {
+          "path": "docs/demo/README.md",
+          "historical_sha256": "f73dd9808c71e3b18153df7649184b268820debccf8a437888dc18453058a3b3",
+          "state": "not_in_selected_local_checkout",
+          "local_sha256": null,
+          "working_tree_differs_from_head": null
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-company",
+      "historical_pin": "163918ba9173b75d83b9ad93b3ea103072619278",
+      "local_present": true,
+      "local_head": "365cb7a94a1ee0017f845fe073e3deaa35652e03",
+      "local_branch": "governance/am4-renewal-20261114",
+      "tracked_dirty": false,
+      "sources": [
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "historical_sha256": "32a7d5ffaec6eebc4b13a55e76304c970a4567abca25a23adf7eb314e9dd53b9",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "8bdc3d41b9577afe8ea942da79bb87024f535589369fcc686c79c9e16e54d850",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 186,
+            "new_lines": 169,
+            "removed_or_replaced": 20,
+            "added_or_replaced": 3
+          },
+          "disposition": "unrelated older governance branch"
+        },
+        {
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "historical_sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "state": "changed_requires_reconcile",
+          "local_sha256": "823b16ff578a5567bae1e226741a8ba7831f7ac05a4393a2311c1c59b4a27021",
+          "working_tree_differs_from_head": false,
+          "line_delta": {
+            "old_lines": 282,
+            "new_lines": 276,
+            "removed_or_replaced": 7,
+            "added_or_replaced": 1
+          },
+          "disposition": "unrelated older governance branch"
+        },
+        {
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "historical_sha256": "d2449f2a8f60bc54f1910b9fadf3edb4ea4a5cc5112dbcf4843ab6134ad41365",
+          "state": "unchanged_vs_historical",
+          "local_sha256": "d2449f2a8f60bc54f1910b9fadf3edb4ea4a5cc5112dbcf4843ab6134ad41365",
+          "working_tree_differs_from_head": false
+        }
+      ]
+    }
+  ],
+  "actual_acceptance_verified": false,
+  "execution_authorized": false
+}
