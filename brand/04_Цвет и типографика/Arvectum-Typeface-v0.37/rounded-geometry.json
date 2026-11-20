@@ -1,0 +1,280 @@
+{
+  "Display": {
+    "k": 0.6180339887498948,
+    "stem_horizontal": 200.59127,
+    "stem_vertical": 190.77974,
+    "glyphs": {
+      "O": {
+        "family": "O",
+        "bbox": [
+          0.0,
+          -20.0,
+          1320.0,
+          1510.0
+        ],
+        "ink_area_approx": 784523.4301493914,
+        "sha256": "620de85e9204958454be2aa3ba185c64cfb0e2f065f99c2271ecfbd42dbac5e7",
+        "design": "golden quadrant construction"
+      },
+      "C": {
+        "family": "C",
+        "bbox": [
+          0.0,
+          -20.0,
+          1165.5893325,
+          1510.0
+        ],
+        "ink_area_approx": 591514.2772026001,
+        "sha256": "a97c7f0574733e3cd1b5e0d0dcebeb63adf8e823d5eee4ad966d48cb2611baee",
+        "design": "golden quadrant construction"
+      },
+      "G": {
+        "family": "G",
+        "bbox": [
+          0.0,
+          -20.0,
+          1350.0,
+          1510.0
+        ],
+        "ink_area_approx": 806430.1429339815,
+        "sha256": "a05cf75c0b328c641114c022f6c8ff2f3a7ea9422c3a5a23a6039716e440c832",
+        "design": "golden quadrant construction"
+      },
+      "o": {
+        "family": "o",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 524774.5559417617,
+        "sha256": "5b65f46248fa4bd51429df38fcf5d3fcc90429e1dcce331a7433211d27361486",
+        "design": "golden quadrant construction"
+      },
+      "c": {
+        "family": "c",
+        "bbox": [
+          0.0,
+          -15.0,
+          833.4870506,
+          1071.0
+        ],
+        "ink_area_approx": 392769.4138429264,
+        "sha256": "0dc06cddcf640427f07c9abefff70afda24b94bb2bf76640c0f3938278bfef24",
+        "design": "golden quadrant construction"
+      },
+      "e": {
+        "family": "e",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 583272.685523748,
+        "sha256": "b9e3ee2262df40356624e307229980f215885c06a6396c72fecc83943a5ed875",
+        "design": "v0.34-L unchanged"
+      },
+      "О": {
+        "family": "O",
+        "bbox": [
+          0.0,
+          -20.0,
+          1320.0,
+          1510.0
+        ],
+        "ink_area_approx": 784523.4301493914,
+        "sha256": "620de85e9204958454be2aa3ba185c64cfb0e2f065f99c2271ecfbd42dbac5e7",
+        "design": "golden quadrant construction"
+      },
+      "С": {
+        "family": "C",
+        "bbox": [
+          0.0,
+          -20.0,
+          1165.5893325,
+          1510.0
+        ],
+        "ink_area_approx": 591514.2772026001,
+        "sha256": "a97c7f0574733e3cd1b5e0d0dcebeb63adf8e823d5eee4ad966d48cb2611baee",
+        "design": "golden quadrant construction"
+      },
+      "о": {
+        "family": "o",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 524774.5559417617,
+        "sha256": "5b65f46248fa4bd51429df38fcf5d3fcc90429e1dcce331a7433211d27361486",
+        "design": "golden quadrant construction"
+      },
+      "с": {
+        "family": "c",
+        "bbox": [
+          0.0,
+          -15.0,
+          833.4870506,
+          1071.0
+        ],
+        "ink_area_approx": 392769.4138429264,
+        "sha256": "0dc06cddcf640427f07c9abefff70afda24b94bb2bf76640c0f3938278bfef24",
+        "design": "golden quadrant construction"
+      },
+      "е": {
+        "family": "e",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 583272.685523748,
+        "sha256": "b9e3ee2262df40356624e307229980f215885c06a6396c72fecc83943a5ed875",
+        "design": "v0.34-L unchanged"
+      }
+    }
+  },
+  "Text": {
+    "k": 0.5522847498,
+    "stem_horizontal": 185.435,
+    "stem_vertical": 175,
+    "glyphs": {
+      "O": {
+        "family": "O",
+        "bbox": [
+          0.0,
+          -20.0,
+          1240.0,
+          1510.0
+        ],
+        "ink_area_approx": 684735.0213012407,
+        "sha256": "2bc24ac1150a1f80df4351f5dacf3da2e97e29d4564ba1a600206c741caf308c",
+        "design": "optical circular quadrant construction"
+      },
+      "C": {
+        "family": "C",
+        "bbox": [
+          0.0,
+          -20.0,
+          1094.9475547,
+          1510.0
+        ],
+        "ink_area_approx": 516100.3813936822,
+        "sha256": "adde17bc7d58a47fc406305dc70c929cbfe63578c1657d891fc0562574f63014",
+        "design": "optical circular quadrant construction"
+      },
+      "G": {
+        "family": "G",
+        "bbox": [
+          0.0,
+          -20.0,
+          1270.0,
+          1510.0
+        ],
+        "ink_area_approx": 702852.0633508258,
+        "sha256": "276191034934f155c505abfad0bb28573083a35826908fd835588cff2476ee61",
+        "design": "optical circular quadrant construction"
+      },
+      "o": {
+        "family": "o",
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 467390.70076448587,
+        "sha256": "2d8e4a71ece8394ac5d95477aaf41806dec44bd0c5ddd5d2ab222eb0e352f276",
+        "design": "optical circular quadrant construction"
+      },
+      "c": {
+        "family": "c",
+        "bbox": [
+          0.0,
+          -15.0,
+          807.1664069,
+          1071.0
+        ],
+        "ink_area_approx": 350901.4429100092,
+        "sha256": "c299cf58198eb79e85a895c072e66b4bffb3449d69adba5e95fa7ae6e640a99c",
+        "design": "optical circular quadrant construction"
+      },
+      "e": {
+        "family": "e",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 564081.3024936868,
+        "sha256": "319e9e67b60c0053a1f815ef37cfd259f8b3b020e3458ee88bf85bf99a209b51",
+        "design": "Text optical reconstruction of L"
+      },
+      "О": {
+        "family": "O",
+        "bbox": [
+          0.0,
+          -20.0,
+          1240.0,
+          1510.0
+        ],
+        "ink_area_approx": 684735.0213012407,
+        "sha256": "2bc24ac1150a1f80df4351f5dacf3da2e97e29d4564ba1a600206c741caf308c",
+        "design": "optical circular quadrant construction"
+      },
+      "С": {
+        "family": "C",
+        "bbox": [
+          0.0,
+          -20.0,
+          1094.9475547,
+          1510.0
+        ],
+        "ink_area_approx": 516100.3813936822,
+        "sha256": "adde17bc7d58a47fc406305dc70c929cbfe63578c1657d891fc0562574f63014",
+        "design": "optical circular quadrant construction"
+      },
+      "о": {
+        "family": "o",
+        "bbox": [
+          0.0,
+          -15.0,
+          920.0,
+          1071.0
+        ],
+        "ink_area_approx": 467390.70076448587,
+        "sha256": "2d8e4a71ece8394ac5d95477aaf41806dec44bd0c5ddd5d2ab222eb0e352f276",
+        "design": "optical circular quadrant construction"
+      },
+      "с": {
+        "family": "c",
+        "bbox": [
+          0.0,
+          -15.0,
+          807.1664069,
+          1071.0
+        ],
+        "ink_area_approx": 350901.4429100092,
+        "sha256": "c299cf58198eb79e85a895c072e66b4bffb3449d69adba5e95fa7ae6e640a99c",
+        "design": "optical circular quadrant construction"
+      },
+      "е": {
+        "family": "e",
+        "bbox": [
+          0.0,
+          -15.0,
+          950.0,
+          1071.0
+        ],
+        "ink_area_approx": 564081.3024936868,
+        "sha256": "319e9e67b60c0053a1f815ef37cfd259f8b3b020e3458ee88bf85bf99a209b51",
+        "design": "Text optical reconstruction of L"
+      }
+    }
+  }
+}

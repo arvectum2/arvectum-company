@@ -1,0 +1,29 @@
+{
+  "Display": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 136,
+      "rounded_candidate_v037": 11,
+      "legacy_only": 12,
+      "wordmark_adaptation_draft": 7
+    },
+    "codepoints": 180,
+    "digit_advance": 1323,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumDisplayGoldenStepDraft037-Medium.otf",
+    "sha256": "9c45f54f2363ca43ee1835765b53632fa5ab43fc5ea0f809f8c9f401023e8b73"
+  },
+  "Text": {
+    "counts": {
+      "current_candidate": 14,
+      "upstream_fallback": 143,
+      "rounded_candidate_v037": 11,
+      "legacy_only": 12
+    },
+    "codepoints": 180,
+    "digit_advance": 1266,
+    "upstream": "Version 4.001;git-9221beed3",
+    "file": "ArvectumTextGoldenStepDraft037-Regular.otf",
+    "sha256": "724227ac131cc17dfb9639bb4a84cc491424900270212e3693a8bbeb8f971fc9"
+  }
+}
