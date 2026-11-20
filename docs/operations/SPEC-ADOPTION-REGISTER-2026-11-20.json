@@ -13,13 +13,42 @@
       "project": "Музей Хлеба",
       "repo": "arvectum2/musbread",
       "pr": 27,
-      "stage": "existing_native_main; reconciliation review pending"
+      "stage": "existing_native_main; reconciliation review pending",
+      "criterion_review": {
+        "review_head": "62a7a63c16ce551a310b18a38500c59c08c8f0f6",
+        "path": "specs/002-signed-contract/acceptance-review.json",
+        "structural_tests": "8/8 PASS exact read-back",
+        "actual_acceptance_verified": false,
+        "tz_records": 325,
+        "contract_records": 125,
+        "numbered_clauses": 124,
+        "section_level": [
+          "10"
+        ],
+        "historical_source_status": {
+          "reported_done_unverified": 85,
+          "partial": 118,
+          "open": 122
+        },
+        "review_state": "unverified",
+        "ci": "dedicated check PASS; Laravel jobs failed; other checks pending at observation"
+      }
     },
     {
       "project": "Compliance",
       "repo": "arvectum2/compliance",
       "pr": 1,
-      "stage": "existing_native_main; reconciliation review pending"
+      "stage": "existing_native_main; reconciliation review pending",
+      "criterion_review": {
+        "review_head": "935e343920063e0189f8108fe7ff82e98a3fef27",
+        "path": "docs/spec-traceability-review-2026-11-20.json",
+        "structural_tests": "8/8 PASS exact read-back",
+        "actual_acceptance_verified": false,
+        "criteria": 37,
+        "review_tasks": 37,
+        "review_state": "candidate_unverified",
+        "ci": "4/4 PASS; public release not authorized"
+      }
     },
     {
       "project": "Tender Agent",
@@ -37,7 +66,7 @@
         "verified": 0,
         "verification_tasks": 22,
         "structural_tests": "8/8 PASS exact read-back",
-        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "ci": "final isolated test relocation exact head: 20/20 PASS",
         "note": "13 native PQ AC linked to existing task IDs and nine selected master gates; not full master coverage. APR-05 rehearsal, APR-06 independent commercial evidence, PRICE-01 independent contract evidence separate. No live action.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
@@ -79,7 +108,7 @@
         "verified": 0,
         "verification_tasks": 15,
         "structural_tests": "9/9 PASS exact read-back",
-        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "ci": "final isolated test relocation exact head: 12/12 PASS",
         "release_authorized": false,
         "note": "Nine feature rows and six publication gates. Windows failures caused by history-dependent tests in shallow checkout; relocated tests to dedicated full-history CI.",
         "execution_authorized": false,
@@ -107,7 +136,7 @@
         "verified": 0,
         "verification_tasks": 26,
         "structural_tests": "8/8 PASS exact read-back",
-        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "ci": "final isolated test relocation exact head: 2/2 PASS",
         "note": "20 open/partial roadmap occurrences and six field acceptance items; overlaps retained. Isolated test accounts required. Local main c7b9c47 divergence and actual runtime unreviewed.",
         "execution_authorized": false,
         "actual_acceptance_verified": false
@@ -250,7 +279,16 @@
       "native_prerequisite_check": "PASS_no_feature_persistence",
       "clean_worktree": true,
       "pushed": false,
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "stage": "read_only_source_review; local ledger apply pending",
+        "question_count": 20,
+        "baseline_review_head": "bd0a25aeabfb8e1bb671734ca39c76adc70c6dc8",
+        "source_commit": "6ea3955555d67843819514fe00fb5509a8384711",
+        "actual_customer_acceptance_verified": false,
+        "script": "tools/prepare_local_question_review.py",
+        "notes": "Private source content remains local. Reported rehearsal and production acceptance separate."
+      }
     },
     {
       "project": "1c-lab",
@@ -499,6 +537,18 @@
     "source_occurrences": 63,
     "independent_structural_tests": 25,
     "verified_criteria": 0,
-    "note": "Overlapping and grouped source occurrences, not unique business tasks or complete source coverage. No canonical merge, receipt authentication or release."
+    "note": "Separate, overlapping source perspectives; no additive unique obligation count. All actual acceptance remains unverified in new review ledgers.",
+    "additional_review": {
+      "musbread": {
+        "tz": 325,
+        "contract_crosswalk": 125
+      },
+      "compliance": 37,
+      "baltika": {
+        "question_count": 20,
+        "stage": "read_only_review_and_local_apply_prepared"
+      }
+    },
+    "structural_tests_across_five_products": 41
   }
 }
