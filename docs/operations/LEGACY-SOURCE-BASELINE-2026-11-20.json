@@ -160,6 +160,142 @@
           "role": "filtered_queue"
         }
       ]
+    },
+    {
+      "repo": "arvectum2/deal",
+      "commit": "a4ec754fe51daef68c2dd9bddb6101ab80108e29",
+      "tree": "8dfc51981a16413eab63316d1cee3d94d96432ff",
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "c88a54b6c2533c8f9020718066e6ebd0a4f089c309729c26737bc153c7ad1232",
+          "lines": 60,
+          "checkbox_occurrences": 5,
+          "list_rows": 28,
+          "table_rows": 0,
+          "role": "product_hypothesis_not_baltika_local"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/data-platform",
+      "commit": "3900d42cfe76ba47c4d0b7ec98ce7620a0f31f11",
+      "tree": "ea93fb903b6b46c5f2977900707177dddb4269e7",
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "013c96b47041ddd70716cf340d9911b8af57d15c8163dca54d3ff6db986dcb9f",
+          "lines": 907,
+          "checkbox_occurrences": 360,
+          "list_rows": 372,
+          "table_rows": 4,
+          "role": "roadmap"
+        },
+        {
+          "path": ".agent/current-task.yaml",
+          "sha256": "e11a3ad95bcfd711166ca88d3fc9de372481b4b7e5bc91aee8a6fd9b56f01de9",
+          "lines": 46,
+          "checkbox_occurrences": 0,
+          "list_rows": 18,
+          "table_rows": 0,
+          "role": "checkpoint"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-infrastructure",
+      "commit": "1dc7443379c08930b4bd43f4cf9fae329f046d5d",
+      "tree": "1b526749a1f67b0b4c031eec0863904454cf86c0",
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "8cd8033b2b58fd714291ad9db4522308ccee647192efb0770b5e4da71dbb9bba",
+          "lines": 17,
+          "checkbox_occurrences": 16,
+          "list_rows": 16,
+          "table_rows": 0,
+          "role": "roadmap"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-tools",
+      "commit": "f3893f6a70fafc529b70dbf23515ce8913706c35",
+      "tree": "01c9307a074e01c12cb90b6e84bfc1d007749f7e",
+      "sources": [
+        {
+          "path": "core/ROADMAP.md",
+          "sha256": "cf25520da328dcab0fbee01caf4879fe53e856a914f91af9cbb7adcb7897d129",
+          "lines": 606,
+          "checkbox_occurrences": 328,
+          "list_rows": 340,
+          "table_rows": 0,
+          "role": "core"
+        },
+        {
+          "path": "growth/ROADMAP.md",
+          "sha256": "bc28d327a979d329be2a6e202603f6be01f0b3361f21542d6c524f54f492b4e3",
+          "lines": 225,
+          "checkbox_occurrences": 95,
+          "list_rows": 99,
+          "table_rows": 0,
+          "role": "growth"
+        },
+        {
+          "path": "growth/agent/ROADMAP.md",
+          "sha256": "74153181285092bdb234a81e8e194b4271266074c806d39c8ad3ebc6bb508309",
+          "lines": 281,
+          "checkbox_occurrences": 89,
+          "list_rows": 150,
+          "table_rows": 0,
+          "role": "paused"
+        },
+        {
+          "path": "chickmark/ROADMAP.md",
+          "sha256": "dbf9e4be8447006d8a5b164b247d81046aa199e14ef7a40f81054fb371d71a38",
+          "lines": 547,
+          "checkbox_occurrences": 240,
+          "list_rows": 247,
+          "table_rows": 0,
+          "role": "product"
+        },
+        {
+          "path": "photo-pdf-to-size/ROADMAP.md",
+          "sha256": "63a2ea9562080097fefd9298235a8dbdb00dd4b7f5aafeac374539c93bae2473",
+          "lines": 399,
+          "checkbox_occurrences": 169,
+          "list_rows": 173,
+          "table_rows": 0,
+          "role": "product"
+        },
+        {
+          "path": "pushkin/ROADMAP.md",
+          "sha256": "19b76192a1eb5999b157684cf8a51578f123df3c1f8ba9c901b61dfee33c1bdd",
+          "lines": 487,
+          "checkbox_occurrences": 219,
+          "list_rows": 223,
+          "table_rows": 0,
+          "role": "product"
+        },
+        {
+          "path": "what/ROADMAP.md",
+          "sha256": "8f98e315c308f4f706a3f6fb0f181e5c64ab53fa3cdd73a327791253fa3e6f38",
+          "lines": 724,
+          "checkbox_occurrences": 310,
+          "list_rows": 309,
+          "table_rows": 15,
+          "role": "product"
+        },
+        {
+          "path": "where/ROADMAP.md",
+          "sha256": "9199bff154dcd22a13541ba767f0043ab98294159b0533bff6a1d8bec940ebb2",
+          "lines": 121,
+          "checkbox_occurrences": 46,
+          "list_rows": 46,
+          "table_rows": 0,
+          "role": "paused"
+        }
+      ]
     }
   ]
 }

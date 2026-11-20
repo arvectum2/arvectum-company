@@ -1,0 +1,71 @@
+{
+  "schema": "arvectum.company.spec-rollout-batch-candidate/1",
+  "as_of": "2026-11-20",
+  "status": "draft",
+  "coverage": "selected_sources_only",
+  "authority_provided": false,
+  "actual_acceptance_verified": false,
+  "projects": [
+    {
+      "project": "Data Platform",
+      "repo": "arvectum2/data-platform",
+      "pinned_main": "3900d42cfe76ba47c4d0b7ec98ce7620a0f31f11",
+      "review_head": "429798a809ed026e95450d109b3b670b5e30522a",
+      "pr": 131,
+      "linked_roadmaps": 1,
+      "source_files": 2,
+      "checkbox_occurrences": 360,
+      "source_bytes_preserved": 81870,
+      "verified_links": 5,
+      "stage": "candidate_linkage",
+      "next": "Reconcile actual consumer contracts, branch-specific model/evaluation evidence, demand and approved production gates."
+    },
+    {
+      "project": "Infrastructure",
+      "repo": "arvectum2/arvectum-infrastructure",
+      "pinned_main": "1dc7443379c08930b4bd43f4cf9fae329f046d5d",
+      "local_head": "72f063366e7e0b1832445ceb177899da1b4726d5",
+      "review_head": "9397aaddfd65d8f9861c6384e2b0eb802e93e73e",
+      "pr": 1,
+      "linked_roadmaps": 1,
+      "source_files": 1,
+      "checkbox_occurrences": 16,
+      "source_bytes_preserved": 2061,
+      "verified_links": 4,
+      "stage": "candidate_linkage",
+      "next": "Prepare provider comparison and reconcile local UPS evidence; preserve spend/legal/real-data gates. No provider chosen."
+    },
+    {
+      "project": "Arvectum Tools",
+      "repo": "arvectum2/arvectum-tools",
+      "pinned_main": "f3893f6a70fafc529b70dbf23515ce8913706c35",
+      "review_head": "8c287693ac9863f8b3d222c093009a488d3cb530",
+      "pr": 202,
+      "linked_roadmaps": 8,
+      "source_files": 8,
+      "checkbox_occurrences": 1496,
+      "source_bytes_preserved": 532094,
+      "verified_links": 32,
+      "stage": "candidate_linkage",
+      "next": "Review individual product criteria, actual store/adoption evidence and physical gates; do not resume Where? or Growth Agent."
+    },
+    {
+      "project": "Балтика",
+      "kind": "client_opportunity",
+      "repo": "arvectum2/deal",
+      "pinned_main": "a4ec754fe51daef68c2dd9bddb6101ab80108e29",
+      "local_head": "6ea3955555d67843819514fe00fb5509a8384711",
+      "local_branch": "feat/baltika-enterprise-pilot",
+      "remote_branch_present": false,
+      "stage": "local_source_reconciliation_required",
+      "meeting_question_count": 20,
+      "actual_acceptance_verified": false,
+      "next": "Reconcile all twenty customer-question IDs and limitations, actual rehearsal results and customer-facing deliverables in authorized local source. Do not publish confidential questions, proposal terms or local branch without review; no production or commercial acceptance assumed."
+    }
+  ],
+  "limitations": [
+    "Existing product priorities and native task states unchanged.",
+    "New spec/plan/tasks packages are candidates, not full CLI initialization or complete requirement-level mapping.",
+    "No live Mission Control integration. Baltika pilot working branch remains local; generic main roadmap is not its authoritative customer scope."
+  ]
+}
