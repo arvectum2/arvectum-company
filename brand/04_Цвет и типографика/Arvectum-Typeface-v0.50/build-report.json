@@ -1,0 +1,146 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft050-Medium.otf",
+    "sha256": "a141667f03ee79389433da613c0f58d754e77562684c651085e21499a6039be7",
+    "input": "ArvectumDisplayGoldenStepDraft049-Medium.otf",
+    "input_sha256": "e1b14374d3f967873d7090840e27d3b47cf825437930890218324d7678212894",
+    "scope": {
+      "©": {
+        "type": "added",
+        "codepoint": "U+00A9",
+        "width": 1500,
+        "lsb": 25,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "®": {
+        "type": "added",
+        "codepoint": "U+00AE",
+        "width": 1500,
+        "lsb": 25,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "™": {
+        "type": "added",
+        "codepoint": "U+2122",
+        "width": 1102,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "§": {
+        "type": "added",
+        "codepoint": "U+00A7",
+        "width": 1078,
+        "lsb": 50,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "¶": {
+        "type": "added",
+        "codepoint": "U+00B6",
+        "width": 1169,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "•": {
+        "type": "added",
+        "codepoint": "U+2022",
+        "width": 429,
+        "lsb": 177,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "←": {
+        "type": "added",
+        "codepoint": "U+2190",
+        "width": 1404,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "→": {
+        "type": "added",
+        "codepoint": "U+2192",
+        "width": 1404,
+        "lsb": 397,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "↔": {
+        "type": "added",
+        "codepoint": "U+2194",
+        "width": 1800,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      }
+    },
+    "codepoints": 203
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft050-Regular.otf",
+    "sha256": "2d8182470e26cd18bcd5747f20fa4fdf51eecb025954a9ccc154daae4db395a6",
+    "input": "ArvectumTextGoldenStepDraft049-Regular.otf",
+    "input_sha256": "9d16887a894e4d77c6cbdba7c7cc899c16e9d099ae65381e3bd1903cb5ad520c",
+    "scope": {
+      "©": {
+        "type": "added",
+        "codepoint": "U+00A9",
+        "width": 1500,
+        "lsb": 25,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "®": {
+        "type": "added",
+        "codepoint": "U+00AE",
+        "width": 1500,
+        "lsb": 25,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "™": {
+        "type": "added",
+        "codepoint": "U+2122",
+        "width": 1074,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "§": {
+        "type": "added",
+        "codepoint": "U+00A7",
+        "width": 1018,
+        "lsb": 50,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "¶": {
+        "type": "added",
+        "codepoint": "U+00B6",
+        "width": 1154,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "•": {
+        "type": "added",
+        "codepoint": "U+2022",
+        "width": 406,
+        "lsb": 163,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "←": {
+        "type": "added",
+        "codepoint": "U+2190",
+        "width": 1404,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "→": {
+        "type": "added",
+        "codepoint": "U+2192",
+        "width": 1404,
+        "lsb": 397,
+        "note": "business symbol draft, golden-dimension proposal"
+      },
+      "↔": {
+        "type": "added",
+        "codepoint": "U+2194",
+        "width": 1800,
+        "lsb": 0,
+        "note": "business symbol draft, golden-dimension proposal"
+      }
+    },
+    "codepoints": 203
+  }
+}

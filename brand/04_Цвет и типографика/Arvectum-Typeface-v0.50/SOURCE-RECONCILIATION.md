@@ -1,0 +1,1 @@
+BR-05 GS-002 additive draft from v0.49; owner directed continuation, no production changes or acceptance. Logo masters, pinned history/roadmap and checker untouched. Subsequent stage: optical corrections GS-003/004.
