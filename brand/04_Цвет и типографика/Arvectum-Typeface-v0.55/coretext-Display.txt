@@ -1,0 +1,17 @@
+CoreText loaded ArvectumDisplayGoldenStepDraft055-Medium ascent 12.1875 descent 3.984375
+linebreak 0041 0020 0041 2 of 3
+linebreak 0041 00A0 0041 2 of 3
+linebreak 0041 202F 0041 2 of 3
+linebreak 0031 0020 0032 0035 0030 2 of 5
+linebreak 0031 00A0 0032 0035 0030 2 of 5
+linebreak 0031 202F 0032 0035 0030 2 of 5
+fig 0 7.751953125
+fig 1 7.751953125
+fig 2 7.751953125
+fig 3 7.751953125
+fig 4 7.751953125
+fig 5 7.751953125
+fig 6 7.751953125
+fig 7 7.751953125
+fig 8 7.751953125
+fig 9 7.751953125

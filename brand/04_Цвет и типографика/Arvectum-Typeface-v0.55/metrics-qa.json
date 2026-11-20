@@ -1,0 +1,60 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft054-Medium.otf",
+    "previous_metrics": {
+      "hhea_ascent": 1984,
+      "hhea_descent": -494,
+      "win_ascent": 2048,
+      "win_descent": 600
+    },
+    "revised_metrics": {
+      "hhea_ascent": 2080,
+      "hhea_descent": -680,
+      "win_ascent": 2160,
+      "win_descent": 760
+    },
+    "source_sha256": "bf4a2df4fdf602e7ac9d3d29221fe3cd95f20d72129bac3e8cbcc65dcd1d4ce5",
+    "sha256": "4296242932c0ef9aada050c1099177af969809ce6258f21194ab5afc8d2e40b9",
+    "spacing": {
+      "U+0020": 512,
+      "U+00A0": 512,
+      "U+202F": 316
+    },
+    "unchanged_outlines_and_hmtx": 212,
+    "test_synth_extents": [
+      2065,
+      -650
+    ],
+    "at_12pt_lineheight_before": 14.52,
+    "at_12pt_lineheight_after": 16.17
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft054-Regular.otf",
+    "previous_metrics": {
+      "hhea_ascent": 1984,
+      "hhea_descent": -494,
+      "win_ascent": 2048,
+      "win_descent": 600
+    },
+    "revised_metrics": {
+      "hhea_ascent": 2080,
+      "hhea_descent": -680,
+      "win_ascent": 2160,
+      "win_descent": 760
+    },
+    "source_sha256": "574816f3d63c24cdad2c7bb5b108e51ae115b3cac0ba5b1d67b17aabab999017",
+    "sha256": "556cfc12ff7b4e1637312b60a21c69844b947bcc48848075e1cc21080a02ae97",
+    "spacing": {
+      "U+0020": 512,
+      "U+00A0": 512,
+      "U+202F": 316
+    },
+    "unchanged_outlines_and_hmtx": 212,
+    "test_synth_extents": [
+      2065,
+      -650
+    ],
+    "at_12pt_lineheight_before": 14.52,
+    "at_12pt_lineheight_after": 16.17
+  }
+}

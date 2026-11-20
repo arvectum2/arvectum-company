@@ -1,0 +1,1 @@
+GS-008 draft evidence, CoreText logs and reproducible metrics generated; nonbreaking behavior deliberately not claimed universally. Next GS-009 platform, PDF, print and web qualifications. Prior source review unchanged.
