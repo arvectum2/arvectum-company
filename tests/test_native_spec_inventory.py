@@ -1,5 +1,5 @@
 import unittest
-from tools.native_spec_inventory import task_inventory, parse_museum, parse_compliance, continuity
+from tools.native_spec_inventory import task_inventory, parse_museum, parse_compliance, parse_signed_clauses, continuity
 
 
 class InventoryTests(unittest.TestCase):
@@ -27,6 +27,17 @@ class InventoryTests(unittest.TestCase):
         self.assertEqual(parse_compliance("- FR-001: A\n- AT-001: B"),["AT-001","FR-001"])
         with self.assertRaises(ValueError):
             parse_compliance("- FR-001: A")
+    def test_signed_crosswalk_difference_is_visible(self):
+        ids = [f"1.{i}" for i in range(1,125)]
+        checklist = "\n".join(f"| {i} | x |" for i in ids)
+        crosswalk = "Пункт договора;other\n" + "\n".join(f"{i};x" for i in ids + ["10"])
+        observed, comparison = parse_signed_clauses(checklist, crosswalk)
+        self.assertEqual(len(observed), 124)
+        self.assertEqual(comparison["crosswalk_only"], ["10"])
+        self.assertTrue(comparison["reconciliation_required"])
+        with self.assertRaises(ValueError):
+            parse_signed_clauses(checklist.replace("| 1.124 | x |", ""), crosswalk)
+
     def test_museum_exact_and_status(self):
         ids=[f"TZ-{i:03d}" for i in range(1,326)]
         registry="ID^Фактически готово\n"+"\n".join(f"{i}^Да" for i in ids)

@@ -74,6 +74,21 @@ def parse_museum(registry, spec, acceptance):
     return result
 
 
+def parse_signed_clauses(checklist, crosswalk):
+    ids = unique(re.findall(r"^\|\s*(\d+(?:\.\d+)+)\s*\|", checklist, re.M),
+                 "signed checklist")
+    rows = list(csv.DictReader(io.StringIO(crosswalk.lstrip("\ufeff")), delimiter=";"))
+    cross_ids = unique([r["Пункт договора"] for r in rows], "contract crosswalk")
+    if len(ids) != 124:
+        raise ValueError("signed checklist 124-ID baseline mismatch")
+    return {i: "source_indexed_acceptance_unverified" for i in ids}, {
+        "crosswalk_only": sorted(set(cross_ids) - set(ids)),
+        "checklist_only": sorted(set(ids) - set(cross_ids)),
+        "crosswalk_count": len(cross_ids),
+        "reconciliation_required": set(cross_ids) != set(ids),
+    }
+
+
 def parse_compliance(spec):
     ids = unique(REQ.findall(spec), "compliance requirements")
     if not any(i.startswith("FR-") for i in ids) or not any(i.startswith("AT-") for i in ids):
@@ -94,6 +109,14 @@ def observe(project, repo, ref):
         encoding="utf-8").strip()
     if not re.fullmatch(r"[a-f0-9]{40}", commit):
         raise ValueError("invalid commit")
+    tracked = subprocess.check_output(
+        ["git", "-C", str(repo), "ls-tree", "-r", "--name-only", commit, "specs"],
+        encoding="utf-8").splitlines()
+    discovered = {p.split("/")[1] for p in tracked
+                  if p.count("/") == 2 and p.endswith(("/spec.md", "/plan.md", "/tasks.md"))}
+    if discovered != set(conf["packages"]):
+        raise ValueError("Spec Kit package set changed; adapter reconciliation required: "
+                         + repr(sorted(discovered ^ set(conf["packages"]))))
     source_paths = []
     def read(path):
         data = read_git(repo, commit, path)
@@ -123,8 +146,10 @@ def observe(project, repo, ref):
                 out["requirements"].keys() - explicit)
             out["mapping"] = "literal_reference_scan_only"
         else:
-            out["requirements"] = None
-            out["mapping"] = "signed_clause_crosswalk_not_admitted"
+            out["requirements"], out["crosswalk_comparison"] = parse_signed_clauses(
+                read(prefix + "/contract-clause-checklist.md"),
+                read("docs/tz-audit/CONTRACT_CLAUSE_MAP.csv"))
+            out["mapping"] = "signed_source_index_comparison_not_acceptance"
         packages[pkg] = out
     return {"schema": "arvectum.company.native-spec-inventory/1", "project": project,
             "commit": commit, "source_paths": sorted(set(source_paths)),
@@ -158,10 +183,12 @@ def main():
     a = p.parse_args()
     ref = a.ref or PROFILES[a.project]["pin"]
     result = observe(a.project, a.repo, ref)
+    prior = observe(a.project, a.repo, PROFILES[a.project]["pin"])
+    invalid = continuity(prior, result)
     if a.baseline:
-        invalid = continuity(json.loads(a.baseline.read_text()), result)
-        if invalid:
-            raise SystemExit("\n".join(invalid))
+        invalid += continuity(json.loads(a.baseline.read_text()), result)
+    if invalid:
+        raise SystemExit("\n".join(invalid))
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
 
