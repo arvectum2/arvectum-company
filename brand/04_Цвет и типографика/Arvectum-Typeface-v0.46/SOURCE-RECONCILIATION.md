@@ -1,0 +1,2 @@
+# BR-05 v0.46 — additive working evidence
+Baseline d88f740. Continue owner-requested symbol development and retain all sources on Mac mini, GitHub and GitVerse. Pinned roadmap/history, checker and review state unchanged. R01: coverage audit and historical versions preserved. R02: geometry, proofs, comparison QA, 28 new contours. R03: reproducible scripts, OTF and SVG, provenance and checksums. R04/R05: no approval, release, deployment or scope promotion. Proposed next v0.47 currencies and whitespace. Source reconciliation remains open.

@@ -1,0 +1,44 @@
+{
+  "Display": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "math_business": 14,
+    "encoded_total": 182,
+    "non_upstream_draft": 172,
+    "upstream_remaining": 10,
+    "pending_codepoints": [
+      "U+20BD",
+      "U+0024",
+      "U+20AC",
+      "U+00A3",
+      "U+00A5",
+      "U+20B4",
+      "U+00A2",
+      "U+0020",
+      "U+00A0",
+      "U+202F"
+    ]
+  },
+  "Text": {
+    "alphabet": 118,
+    "digits": 10,
+    "punctuation": 30,
+    "math_business": 14,
+    "encoded_total": 182,
+    "non_upstream_draft": 172,
+    "upstream_remaining": 10,
+    "pending_codepoints": [
+      "U+20BD",
+      "U+0024",
+      "U+20AC",
+      "U+00A3",
+      "U+00A5",
+      "U+20B4",
+      "U+00A2",
+      "U+0020",
+      "U+00A0",
+      "U+202F"
+    ]
+  }
+}
