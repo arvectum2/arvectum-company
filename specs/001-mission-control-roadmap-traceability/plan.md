@@ -1,0 +1,3 @@
+# Plan — Mission Control traceability candidate
+
+Draft: preserve existing authority and canonical sources. Begin with independently pinned complete inventory; reuse project-native IDs, not a competing backlog. Build adapters for existing registries; validate coverage, dependency graph and continuity before implementation, actual requirement/evidence and applicable approvals after implementation. Generate Company-derived read view; OS interaction only via admitted WSF-05 contract. Integrate by active project in separate reviewable changes. No bulk init or overwrite. Existing AC-407 cadence and real owner-use acceptance. No claim of completion by structural test alone.

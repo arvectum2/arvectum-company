@@ -49,3 +49,6 @@ Workspace company_project_registry.json содержит COMPANY, OS и восе
 
 ## 5. Незакрытые вопросы сверки
 Текущие deadlines/cash/contract source, живые runtime статусы, действующие делегирования, внешние ответы и полная инвентаризация чатов не проверены. Состояния веток и зеркала после локального наблюдения могут измениться. Этот документ — проспективный план и датированный derived candidate, не source of truth, не завершённый AC-405 review и не live Mission Control population.
+
+## 6. Traceability work package
+Draft: [Spec Kit integration proposal](SPEC-KIT-ROADMAP-INTEGRATION-PROPOSAL.md). [Specification](../../specs/001-mission-control-roadmap-traceability/spec.md) · [Plan](../../specs/001-mission-control-roadmap-traceability/plan.md) · [Tasks](../../specs/001-mission-control-roadmap-traceability/tasks.md) · [Trace ledger](../../specs/001-mission-control-roadmap-traceability/traceability.json). Proposed, not canonical admission.
