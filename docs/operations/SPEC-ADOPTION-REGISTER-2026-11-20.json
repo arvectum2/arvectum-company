@@ -151,7 +151,21 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "dfec6d9b8976c7d704636c79c25a5ef951531a4d",
+        "source_commit": "3900d42cfe76ba47c4d0b7ec98ce7620a0f31f11",
+        "path": "specs/001-consumer-roadmap-traceability/native-roadmap-review.json",
+        "remaining_marker_rows": 27,
+        "source_files": 2,
+        "paused_rows": 0,
+        "review_state": "unverified",
+        "structural_tests": "8/8 PASS exact read-back",
+        "ci_observation": "== data-platform\nnative-roadmap-review pass\npass 6\npending 2\n== arvectum-infrastructure\nnative-roadmap-review pass\npass 4\n== arvectum-tools\nnative-roadmap-review pass\npass 5",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Real data acceptance, unmet consumer SLO before distributed crawling, authorized credentials/merchant and runtime/model gates preserved. Remote checkpoint unchanged. No external activation. Two references to DP-INT-002 retained."
+      }
     },
     {
       "project": "Infrastructure",
@@ -162,7 +176,21 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "80b278a701cedfc0b09bb436494b2b1ec8091f2d",
+        "source_commit": "1dc7443379c08930b4bd43f4cf9fae329f046d5d",
+        "path": "specs/001-infrastructure-roadmap-traceability/native-roadmap-review.json",
+        "remaining_marker_rows": 7,
+        "source_files": 1,
+        "paused_rows": 0,
+        "review_state": "unverified",
+        "structural_tests": "8/8 PASS exact read-back",
+        "ci_observation": "== data-platform\nnative-roadmap-review pass\npass 6\npending 2\n== arvectum-infrastructure\nnative-roadmap-review pass\npass 4\n== arvectum-tools\nnative-roadmap-review pass\npass 5",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "All seven open cloud gates linked; local head 72f063366e7e0b1832445ceb177899da1b4726d5 contains separate UPS work (one checked lab and one open battery-mode gate); local scope not merged or mapped here. No provider or expenditure decision."
+      }
     },
     {
       "project": "Tools (8 roadmaps)",
@@ -173,7 +201,21 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "18d549c82753b78fff6122be69dcabbfb0830fef",
+        "source_commit": "f3893f6a70fafc529b70dbf23515ce8913706c35",
+        "path": "core/docs/specs/001-portfolio-roadmap-traceability/native-roadmap-review.json",
+        "remaining_marker_rows": 685,
+        "source_files": 8,
+        "paused_rows": 125,
+        "review_state": "unverified",
+        "structural_tests": "8/8 PASS exact read-back",
+        "ci_observation": "== data-platform\nnative-roadmap-review pass\npass 6\npending 2\n== arvectum-infrastructure\nnative-roadmap-review pass\npass 4\n== arvectum-tools\nnative-roadmap-review pass\npass 5",
+        "actual_acceptance_verified": false,
+        "execution_authorized": false,
+        "note": "Eight separate pinned roadmaps; 86 Growth Agent and 39 Where? rows remain paused. 560 other source rows require reconciliation, not automatically active tasks. No App Store, user data, release or marketing action."
+      }
     },
     {
       "project": "Arvectum OS",
@@ -549,6 +591,14 @@
         "stage": "read_only_review_and_local_apply_prepared"
       }
     },
-    "structural_tests_across_five_products": 41
+    "structural_tests_across_five_products": 41,
+    "native_roadmap_wave": {
+      "source_rows": 719,
+      "source_files": 11,
+      "paused_rows": 125,
+      "tests": "24/24 PASS exact read-back",
+      "note": "Remaining marker-bearing rows only, not complete per-criterion evidence mapping or unique task count. All original files pinned and preserved."
+    },
+    "structural_tests_across_eight_products": 65
   }
 }
