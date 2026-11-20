@@ -501,10 +501,10 @@
           "fail": 0
         },
         "postmerge_ci": {
-          "pass": 2,
-          "pending": 3,
-          "skipped": 1,
-          "fail": 0
+          "pass": 6,
+          "pending": 0,
+          "fail": 0,
+          "skipped": 1
         },
         "mirror_ref_verified": "67ffb303eab0668b81ea5ab147b0d9b743f06b93"
       }
@@ -898,9 +898,9 @@
     }
   ],
   "blockers": [
-    "Post-merge Discount Parser three jobs and Museum one job pending at observation; no release acceptance.",
-    "Four private/local/held review copies remain isolated; no automatic local active-branch merges. Museum and Tender active working changes require reconciliation before updating.",
-    "Full atomic evidence mapping, actual acceptance and historical chat reconciliation remain open."
+    "Museum postmerge Next.js job pending at observation; premerge 16/16 PASS.",
+    "51 selected local sources: 8 changed, 1 append, 7 absent in selected checkouts; active dirty Museum/Tender protected.",
+    "22 cards are derived candidates, not WORK/OBL admission, full acceptance, cash visibility or exhaustive chat recovery."
   ],
   "verification": {
     "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
@@ -1315,24 +1315,24 @@
       "canonical_remote": "GitHub",
       "mirror": "GitVerse (one-way)",
       "default_branch": "main",
-      "observed_head": "0fc87c0c9ea6a468611b1a51cf776af67c698d33",
+      "observed_head": "e9cab7744fce9019a36a4f9be7ca792cc9adbd51",
       "stage": "native_spec_kit_in_canonical_main_verified",
       "native_spec_kit_installed": true,
       "roadmap_present": true,
       "mirror_workflow_observation": "latest exact GitHub and GitVerse main SHA equal",
-      "next_action": "AS-042 — Incident Response: MAX2TG failure fixtures, bounded triage, checkpoints and recovery proposals, no live messages or restart",
+      "next_action": "AS-043 — Project Roadmap: stable IDs, history, dependency/reopen tests and evidence-grounded proposals, no cross-project writes",
       "actual_acceptance_verified": false,
       "execution_authorized": false,
       "initial_registered_head": "a4a1249e122e6061488b64e7b3e0ecad01716d9a",
       "native_version": "1.2.4",
       "roadmap_path": "docs/ROADMAP.md",
-      "roadmap_sha256": "9a94092615ed885f997cb5e28214295bbba34ffaf69c7d958fd30ece2ba0947a",
+      "roadmap_sha256": "082a9b066d1cce0ab054f6f39e8dceed9cdf165fab72bc755a04a60e2d17b28d",
       "spec_package": "specs/001-skills-foundation",
       "manifest_sha256": "95f64605764ff553430da0bff48af5491963fa53d4f9e9fda9ec81191eb7824a",
       "manifest_file_integrity": "12/12 verified at previous 584efa0; recheck latest if changed",
-      "foundation_ci": "2/2 PASS at exact observed head",
-      "mirror_ref_verified": "0fc87c0c9ea6a468611b1a51cf776af67c698d33",
-      "roadmap_reported_status": "AS-040 and AS-041 reported DONE 100%; AS-042 first next action; actual acceptance not independently verified"
+      "foundation_ci": "2/2 PASS",
+      "mirror_ref_verified": "e9cab7744fce9019a36a4f9be7ca792cc9adbd51",
+      "roadmap_reported_status": "AS-043 first next action, prior acceptance not independently reviewed"
     }
   ],
   "adoption_execution": {
@@ -1538,10 +1538,10 @@
         "merge_commit": "67ffb303eab0668b81ea5ab147b0d9b743f06b93",
         "tree_matches_review": true,
         "postmerge_ci": {
-          "pass": 2,
-          "pending": 3,
-          "skipped": 1,
-          "fail": 0
+          "pass": 6,
+          "pending": 0,
+          "fail": 0,
+          "skipped": 1
         },
         "mirror_observation": "exact ref verified"
       }
@@ -1563,5 +1563,20 @@
     "registered_total": 22,
     "technical_foundation_reviewed": 22,
     "new_registered_pending_bootstrap": 0
+  },
+  "operational_reconciliation": {
+    "stage": "22/22 identified contours candidate cards; semantic evidence reconciliation partial",
+    "candidate_path": "docs/operations/LIVE-WORK-RECONCILIATION-CANDIDATE-2026-11-20.json",
+    "card_count": 22,
+    "action_count": 51,
+    "local_source_observation": "docs/operations/LOCAL-SOURCE-DIVERGENCE-OBSERVATION-2026-11-20.json",
+    "local_selected_counts": {
+      "unchanged_vs_historical": 35,
+      "changed_requires_reconcile": 8,
+      "append_only_vs_historical": 1,
+      "not_in_selected_local_checkout": 7
+    },
+    "portfolio_accountability": "AC-302 POS-003 for PORT-001..007; PORT-008 and other default candidates not assignments",
+    "notes": "Additional historical chat search bounded, not exhaustive. No new WORK/OBL IDs, active local branch modifications or Mission Control runtime changes."
   }
 }
