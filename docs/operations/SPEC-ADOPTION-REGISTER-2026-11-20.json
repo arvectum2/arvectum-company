@@ -188,24 +188,68 @@
     {
       "project": "baltika",
       "source_commit": "6ea3955555d67843819514fe00fb5509a8384711",
-      "stage": "prepared_script_pending_explicit_local_apply"
+      "stage": "native_scaffold_in_verified_isolated_local_review",
+      "local_review_commit": "bd0a25aeabfb8e1bb671734ca39c76adc70c6dc8",
+      "local_branch": "docs/spec-kit-local-linkage-20261120",
+      "source_files": 4,
+      "nonempty_line_anchors": 159,
+      "review_tasks": 21,
+      "original_unchanged": true,
+      "native_manifest_check": "PASS",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "clean_worktree": true,
+      "pushed": false,
+      "actual_acceptance_verified": false
     },
     {
       "project": "1c-lab",
       "source_commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
-      "stage": "prepared_script_pending_explicit_local_apply"
+      "stage": "native_scaffold_in_verified_isolated_local_review",
+      "local_review_commit": "fc3d83040bf0f543cbf8c187577dc85ba50ee8e2",
+      "local_branch": "docs/spec-kit-local-linkage-20261120",
+      "source_files": 2,
+      "nonempty_line_anchors": 27,
+      "review_tasks": 9,
+      "original_unchanged": true,
+      "native_manifest_check": "PASS",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "clean_worktree": true,
+      "pushed": false,
+      "actual_acceptance_verified": false
     },
     {
       "project": "arc",
       "source_commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
-      "stage": "prepared_script_pending_explicit_local_apply"
+      "stage": "native_scaffold_in_verified_isolated_local_review",
+      "local_review_commit": "04cf26a3a9f8abf021f59a1f64b5f9cdf8274b2d",
+      "local_branch": "docs/spec-kit-local-linkage-20261120",
+      "source_files": 2,
+      "nonempty_line_anchors": 112,
+      "review_tasks": 41,
+      "original_unchanged": true,
+      "native_manifest_check": "PASS",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "clean_worktree": true,
+      "pushed": false,
+      "actual_acceptance_verified": false
     }
   ],
   "archive": {
     "project": "Tender Small-Volume Calculator",
     "source_commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
-    "stage": "archive_verified; isolated local candidate pending approval",
-    "disposition": "KEEP_IN_PLACE"
+    "stage": "native_scaffold_in_verified_isolated_local_review",
+    "disposition": "KEEP_IN_PLACE",
+    "local_review_commit": "d8c8c1fbaa4805772af2c34877544bee553c5b83",
+    "local_branch": "docs/spec-kit-local-linkage-20261120",
+    "source_files": 1,
+    "nonempty_line_anchors": 193,
+    "review_tasks": 111,
+    "original_unchanged": true,
+    "native_manifest_check": "PASS",
+    "native_prerequisite_check": "PASS_no_feature_persistence",
+    "clean_worktree": true,
+    "pushed": false,
+    "actual_acceptance_verified": false
   },
   "excluded": [
     {
@@ -224,14 +268,15 @@
   "blockers": [
     "All review PRs unmerged; actual criterion-level evidence mapping is partial.",
     "Discount Parser Windows build misses arvectum-data; site sitemap freshness check fails; OS GitVerse mirror HTTP 502 noted. Separate existing pipeline gates remain.",
-    "Local-only branches and archive not modified; explicit command approval required.",
-    "Full non-canonical chat-derived source reconciliation remains open."
+    "Full non-canonical chat-derived source reconciliation remains open.",
+    "Local review copies prepared; adoption into active working branches requires applicable review/admission; archive stays contained."
   ],
   "verification": {
     "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
     "native_scaffold": "14/14 generic blob/mode and prerequisite checks PASS, no active feature persistence",
     "local_dry_run": "PASS; Baltika 20 question IDs; 1C LAB-01..08; ARC 40 marker rows; archive bundle and handover verified",
-    "local_apply_fixture": "2/2 PASS in temporary repositories; actual apply not performed"
+    "local_apply_fixture": "2/2 PASS in temporary repositories; actual apply not performed",
+    "local_apply": "PASS 4/4; authorized by owner in project chat; exact pinned script and profile hashes verified before apply; isolated local Git commits, no push; independent read-back verified source anchors, manifest, prerequisites, clean worktrees and intact originals (archive hashes unchanged)."
   },
   "ci_observation": {
     "status": "mixed_at_observed_heads",
