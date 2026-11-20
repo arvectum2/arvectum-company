@@ -113,6 +113,8 @@ def add_package(work, profile, source_data, row_items, kit):
     spec += "Source commit " + profile["commit"] + ". Existing source statuses remain authoritative; review tasks are not implementation completions.\n\n"
     for p, raw in source_data.items():
         spec += "- Source: " + p + " SHA-256 " + sha(raw) + "\n"
+    if profile.get("handover"):
+        spec += "\nArchive handover locator (local only): " + profile["handover"] + "\n"
     spec += "\n## Original source references\n\n"
     for ident, line, _ in row_items:
         spec += f"- {ident}: existing source {profile['road']}, line {line}; review full criterion and actual evidence locally.\n"

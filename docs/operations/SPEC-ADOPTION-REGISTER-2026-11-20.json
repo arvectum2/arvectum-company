@@ -226,5 +226,33 @@
     "Discount Parser Windows build misses arvectum-data; site sitemap freshness check fails; OS GitVerse mirror HTTP 502 noted. Separate existing pipeline gates remain.",
     "Local-only branches and archive not modified; explicit command approval required.",
     "Full non-canonical chat-derived source reconciliation remains open."
-  ]
+  ],
+  "verification": {
+    "source_manifest": "51 pinned remote source files; 11573 nonempty line anchors; 2703 checkbox occurrences (not unique tasks)",
+    "native_scaffold": "14/14 generic blob/mode and prerequisite checks PASS, no active feature persistence",
+    "local_dry_run": "PASS; Baltika 20 question IDs; 1C LAB-01..08; ARC 40 marker rows; archive bundle and handover verified",
+    "local_apply_fixture": "2/2 PASS in temporary repositories; actual apply not performed"
+  },
+  "ci_observation": {
+    "status": "mixed_at_observed_heads",
+    "failures": [
+      {
+        "project": "Company / Infrastructure / OS",
+        "finding": "GitVerse HTTP 502/504; mirror jobs failed; no mirror parity claimed for affected heads."
+      },
+      {
+        "project": "Discount Parser",
+        "finding": "Windows build dependency arvectum-data not installed; not remediated in documentation-only review."
+      },
+      {
+        "project": "Site",
+        "finding": "sitemap.xml freshness check failed; no public site source changed."
+      },
+      {
+        "project": "Museum",
+        "finding": "Laravel jobs nonzero; Next.js visitor-journey visibility test failed; exact full root cause not adjudicated. Client delivery materials unchanged."
+      }
+    ],
+    "note": "Other native structural checks PASS. These are separate from the 14/14 prerequisite checks. No product acceptance or merge authority."
+  }
 }
