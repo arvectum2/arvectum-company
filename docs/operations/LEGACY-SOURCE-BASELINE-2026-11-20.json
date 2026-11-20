@@ -296,6 +296,271 @@
           "role": "paused"
         }
       ]
+    },
+    {
+      "repo": "arvectum2/arvectum-os",
+      "commit": "83c0458fa108dd512ee0dbcd976238a3595a8f07",
+      "tree": "1db09a666f4520df8c48f155fef3f183fa8bf33e",
+      "sources": [
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "fa9ef4237955816e2ddc8d4d35e4de930a4d48724714c90c9d38594b42248175",
+          "lines": 324,
+          "checkbox_occurrences": 0,
+          "list_rows": 87,
+          "table_rows": 39,
+          "role": "canonical"
+        },
+        {
+          "path": "docs/roadmap/WORKSPACE-FIRST-DELIVERY.md",
+          "sha256": "5dd0c3af8a62ae4590301349f20bc4dd7cf44d32c437ad835e3e1d7fd537dcb9",
+          "lines": 189,
+          "checkbox_occurrences": 0,
+          "list_rows": 5,
+          "table_rows": 20,
+          "role": "delivery_plan"
+        },
+        {
+          "path": "docs/constitution/CONSTITUTION.md",
+          "sha256": "1d2fd340dbd76d375c2d3142b7ea8fba28fa893ff700381853ee7c856520a7cd",
+          "lines": 372,
+          "checkbox_occurrences": 0,
+          "list_rows": 70,
+          "table_rows": 0,
+          "role": "constitution"
+        },
+        {
+          "path": "docs/governance/ARVECTUM-ENGINEERING-STANDARD.md",
+          "sha256": "50567b5e959a191316540b5b85117e4e679a1442a476bb7f3719a9863a14422d",
+          "lines": 478,
+          "checkbox_occurrences": 0,
+          "list_rows": 185,
+          "table_rows": 0,
+          "role": "engineering_standard"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/creative-test-agent",
+      "commit": "aeae858fae079ed681eedfc4e35462747e5ea412",
+      "tree": "d82789050eb8e9949f574af317015dc2be686ef7",
+      "sources": [
+        {
+          "path": "ROADMAP.md",
+          "sha256": "5341226111f3bee4e60e4e894fe6afa71fdfc83b0f8c8f7001ba6626fa9a5145",
+          "lines": 15,
+          "checkbox_occurrences": 0,
+          "list_rows": 3,
+          "table_rows": 0,
+          "role": "index"
+        },
+        {
+          "path": "docs/roadmap/CURRENT.md",
+          "sha256": "ea202580df437be41711e650c726ee6734e1c0fdc002d39410dc1358222116f3",
+          "lines": 19,
+          "checkbox_occurrences": 0,
+          "list_rows": 10,
+          "table_rows": 0,
+          "role": "current"
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_CANONICAL_ROADMAP_v2.4_2026-08-04.md",
+          "sha256": "1772e5eda45b0de1b729fd939c660fd48f3037890f4edef92bd8b3803283eba4",
+          "lines": 218,
+          "checkbox_occurrences": 0,
+          "list_rows": 44,
+          "table_rows": 69,
+          "role": "canonical"
+        },
+        {
+          "path": "docs/roadmap/WAITING_FOR_CLIENT_DATA_PLAN.md",
+          "sha256": "8519d0b3d39ff32ad5a706e97aefeb14f85fa20967ac2fb47e643d920e0ae329",
+          "lines": 44,
+          "checkbox_occurrences": 0,
+          "list_rows": 16,
+          "table_rows": 8,
+          "role": "waiting_lane"
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_CANONICAL_ROADMAP.md",
+          "sha256": "5b81832a8447eadc2da7cebc0260fc79b7277cb1c4a263d5c7d9a3bc2b3b5171",
+          "lines": 279,
+          "checkbox_occurrences": 0,
+          "list_rows": 116,
+          "table_rows": 45,
+          "role": "historical"
+        },
+        {
+          "path": "docs/roadmap/CREATIVE_TEST_AGENT_ROADMAP_STATUS.md",
+          "sha256": "040f3b8263e633a50bbef4b0b30cb709f69ec15cf4b943bde65d87814a1f7f6d",
+          "lines": 208,
+          "checkbox_occurrences": 0,
+          "list_rows": 13,
+          "table_rows": 99,
+          "role": "historical"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/discount-parser",
+      "commit": "34217cbce3bbc8db3b10d115baae5142083de88a",
+      "tree": "53a953ec97518d7f3c98c655c5919e7eceefeb50",
+      "sources": [
+        {
+          "path": "docs/ROADMAP.md",
+          "sha256": "4d7c80ce5aba35488e8f5cfb1221eada7b9190a576e42d255307e0bff23a5bdc",
+          "lines": 494,
+          "checkbox_occurrences": 0,
+          "list_rows": 232,
+          "table_rows": 0,
+          "role": "roadmap"
+        },
+        {
+          "path": "docs/TECHNICAL_SPEC_V1.md",
+          "sha256": "beba950871e26ea753c7222a749a38efacc55b72ce676131f13ff9927dc3bbe8",
+          "lines": 691,
+          "checkbox_occurrences": 0,
+          "list_rows": 229,
+          "table_rows": 32,
+          "role": "technical_spec"
+        },
+        {
+          "path": "docs/HARDENING_ROADMAP_2026-08-17.md",
+          "sha256": "c9039ff39eebe4960b35370286cea9fc0b094f137d2e5c809179327c680c9dc7",
+          "lines": 105,
+          "checkbox_occurrences": 0,
+          "list_rows": 5,
+          "table_rows": 29,
+          "role": "hardening"
+        },
+        {
+          "path": "docs/FINAL_ACCEPTANCE_CHECKLIST.md",
+          "sha256": "e02d65ab36622e1523263f6c71d901992b5bd062f6d408c4cc59a7a7b0509ac7",
+          "lines": 197,
+          "checkbox_occurrences": 80,
+          "list_rows": 88,
+          "table_rows": 0,
+          "role": "acceptance"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/doors_parser",
+      "commit": "ae0dbcf2cb062ffa5c986db0f313e3fb2ba4f7c0",
+      "tree": "4e023e313ff777918b3c2e782e58d292e29a226e",
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "cf4c7b0105bfd04b950037e06aca1bdf0e259105147545549fe71bff0b7e29ad",
+          "lines": 158,
+          "checkbox_occurrences": 0,
+          "list_rows": 52,
+          "table_rows": 19,
+          "role": "descriptive_source"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-site",
+      "commit": "98a5c217c264d0125783a4f2e8e4fec071d8275c",
+      "tree": "7589d6b5bfa27729072981a33c4b4679a188d5b2",
+      "sources": [
+        {
+          "path": "SEO_MASTER_PLAN.md",
+          "sha256": "2d4a29dce7574b6384823708ee97ff057013d0d32c15dc0e1768c74851bd8bb4",
+          "lines": 40,
+          "checkbox_occurrences": 0,
+          "list_rows": 24,
+          "table_rows": 0,
+          "role": "master_plan"
+        },
+        {
+          "path": "docs/seo/content_plan_90_days.md",
+          "sha256": "c07c4bf48ae468b5b806828ffad2619045da74a96cb246c243ca106372a3f0f3",
+          "lines": 31,
+          "checkbox_occurrences": 0,
+          "list_rows": 0,
+          "table_rows": 24,
+          "role": "content_plan"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-work",
+      "commit": "00d478dac8e66b2ed08aaa7d74dbaf5b818f1cd0",
+      "tree": "7fa1a25dc07a700bf46e9b2c15415fb08c653156",
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "ad120f5af9899ad0267c9df5c943da56ea792ed84378f060ffc3e039bc17f2c2",
+          "lines": 42,
+          "checkbox_occurrences": 0,
+          "list_rows": 10,
+          "table_rows": 0,
+          "role": "context"
+        },
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "b0d7855b98ce72874db97a90d1509a76492868a0a089def39399f1bc306afce2",
+          "lines": 319,
+          "checkbox_occurrences": 0,
+          "list_rows": 92,
+          "table_rows": 0,
+          "role": "discovery"
+        },
+        {
+          "path": "docs/discovery/AW-020-C2-FOCUSED-BUYER-VALIDATION-PLAN.md",
+          "sha256": "5144b60b238690cc0b7dd62502e39efb53eb353fd885ae8e0f752499eb28a85c",
+          "lines": 214,
+          "checkbox_occurrences": 0,
+          "list_rows": 83,
+          "table_rows": 7,
+          "role": "current_lane"
+        },
+        {
+          "path": "docs/demo/README.md",
+          "sha256": "f73dd9808c71e3b18153df7649184b268820debccf8a437888dc18453058a3b3",
+          "lines": 62,
+          "checkbox_occurrences": 0,
+          "list_rows": 15,
+          "table_rows": 0,
+          "role": "synthetic_demo"
+        }
+      ]
+    },
+    {
+      "repo": "arvectum2/arvectum-company",
+      "commit": "163918ba9173b75d83b9ad93b3ea103072619278",
+      "tree": "93b7b8e6ae00785d851e9ede0847ec7b355214e6",
+      "sources": [
+        {
+          "path": "docs/roadmap/ROADMAP.md",
+          "sha256": "32a7d5ffaec6eebc4b13a55e76304c970a4567abca25a23adf7eb314e9dd53b9",
+          "lines": 186,
+          "checkbox_occurrences": 0,
+          "list_rows": 37,
+          "table_rows": 17,
+          "role": "canonical"
+        },
+        {
+          "path": "docs/roadmap/STRATEGIC-ROADMAP.md",
+          "sha256": "727dcece69307d9e5511d83f3db4dcee97512000d480e473a5f873a95d76b437",
+          "lines": 282,
+          "checkbox_occurrences": 0,
+          "list_rows": 105,
+          "table_rows": 11,
+          "role": "strategy"
+        },
+        {
+          "path": "docs/portfolio/PORTFOLIO.md",
+          "sha256": "d2449f2a8f60bc54f1910b9fadf3edb4ea4a5cc5112dbcf4843ab6134ad41365",
+          "lines": 186,
+          "checkbox_occurrences": 0,
+          "list_rows": 40,
+          "table_rows": 10,
+          "role": "portfolio"
+        }
+      ]
     }
   ]
 }

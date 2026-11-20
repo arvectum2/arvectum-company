@@ -184,3 +184,8 @@ Workspace becomes the default executive information/work interface. Existing AC-
 | 6 | Real owner use, feedback, fix/retest, value review | WSF-08/09 |
 
 Engineering plan: `arvectum2/arvectum-os:docs/roadmap/WORKSPACE-FIRST-DELIVERY.md` (subject to OS governance). First action is read-only recovery diagnostics; deployment, new data sources, contract expansion and material decisions remain separately gated. No technical PASS substitutes for actual convenient use as reported by Owner. Review after first usable increment; proposed five-workday pilot thereafter.
+
+
+## Candidate engineering linkage — Spec Kit (2026-11-20)
+
+[Specification](../../specs/001-mission-control-roadmap-traceability/spec.md) · [Plan](../../specs/001-mission-control-roadmap-traceability/plan.md) · [Integration tasks](../../specs/001-mission-control-roadmap-traceability/tasks.md) · [Adoption register](../operations/SPEC-ADOPTION-REGISTER-2026-11-20.json). Draft Company review only. Existing roadmap status/version, authority and operational priorities unchanged; no runtime Mission Control admission.

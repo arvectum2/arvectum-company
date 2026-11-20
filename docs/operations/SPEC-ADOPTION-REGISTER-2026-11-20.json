@@ -1,0 +1,230 @@
+{
+  "schema": "arvectum.company.spec-adoption-register/1",
+  "as_of": "2026-11-20",
+  "status": "draft",
+  "scope": "identified company engineering and workstream sources, not proof of complete chat/obligation inventory",
+  "native_version": "1.2.4",
+  "source_scaffold_commit": "e3091d8569db1aa9bafd02238a46495030783491",
+  "actual_acceptance_verified": false,
+  "authority_provided": false,
+  "live_mission_control_changed": false,
+  "native_main": [
+    {
+      "project": "Музей Хлеба",
+      "repo": "arvectum2/musbread",
+      "pr": 27,
+      "stage": "existing_native_main; reconciliation review pending"
+    },
+    {
+      "project": "Compliance",
+      "repo": "arvectum2/compliance",
+      "pr": 1,
+      "stage": "existing_native_main; reconciliation review pending"
+    },
+    {
+      "project": "Tender Agent",
+      "repo": "arvectum2/tender-agent",
+      "pr": 667,
+      "stage": "existing_native_main; reconciliation review pending"
+    }
+  ],
+  "review_scopes": [
+    {
+      "project": "Arvectum Company",
+      "repo": "arvectum2/arvectum-company",
+      "pr": 30,
+      "verified_head": "3a888c01b8f0add45d3af32a44df4e9684cdbb57",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Proxy Launcher",
+      "repo": "arvectum2/proxy-launcher",
+      "pr": 385,
+      "verified_head": "ce637f355d5784cecef397e8e5ee0995abffb7f0",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "MAX2TG",
+      "repo": "arvectum2/max2tg",
+      "pr": 2,
+      "verified_head": "3e0c17a890663f0c501866473f1be2ecba83a158",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Data Platform",
+      "repo": "arvectum2/data-platform",
+      "pr": 131,
+      "verified_head": "8b7d2cb0b98a463eb827b603101a83bd0bf0a192",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Infrastructure",
+      "repo": "arvectum2/arvectum-infrastructure",
+      "pr": 1,
+      "verified_head": "0849563146f2db4444cfa0e8ca489ce26f17f64d",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Tools (8 roadmaps)",
+      "repo": "arvectum2/arvectum-tools",
+      "pr": 202,
+      "verified_head": "2d04cca3f9367a4d22add4e27e9fd729cebbfa60",
+      "root": "core/docs",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Arvectum OS",
+      "repo": "arvectum2/arvectum-os",
+      "pr": 84,
+      "verified_head": "0f02a32ce7190f38fcfc32dfec88f4767be96868",
+      "root": "docs/engineering",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Creative Test Agent",
+      "repo": "arvectum2/creative-test-agent",
+      "pr": 1,
+      "verified_head": "d5b4843107ef72d93187fa6a5b3f09d86a967f14",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Discount Parser",
+      "repo": "arvectum2/discount-parser",
+      "pr": 1,
+      "verified_head": "f4ac121b43f8a20f5a2ce885e6326ee54758e95f",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Doors Parser",
+      "repo": "arvectum2/doors_parser",
+      "pr": 1,
+      "verified_head": "a9429fe82f9f4f49e7f5c449d484146e40be28f7",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Сайт",
+      "repo": "arvectum2/arvectum-site",
+      "pr": 16,
+      "verified_head": "e37c944488cc26632af19e7cb6eb28a78c393d0e",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Arvectum Work",
+      "repo": "arvectum2/arvectum-work",
+      "pr": 28,
+      "verified_head": "365c2e293bd0ad741dee42b58297b4257b3a5c13",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Business-process automation",
+      "repo": "arvectum2/deal",
+      "pr": 2,
+      "verified_head": "80c0968218db71f7cb19864cb5faab134283bd3d",
+      "root": ".",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    },
+    {
+      "project": "Brand Identity",
+      "repo": "arvectum2/arvectum-company",
+      "pr": 31,
+      "verified_head": "316083db530c14ca8b37850bed477089b5f1c71c",
+      "root": "brand",
+      "stage": "native_scaffold_in_draft_branch",
+      "generic_blob_mode_check": "PASS_20_of_20",
+      "native_prerequisite_check": "PASS_no_feature_persistence",
+      "actual_acceptance_verified": false
+    }
+  ],
+  "local_candidates": [
+    {
+      "project": "baltika",
+      "source_commit": "6ea3955555d67843819514fe00fb5509a8384711",
+      "stage": "prepared_script_pending_explicit_local_apply"
+    },
+    {
+      "project": "1c-lab",
+      "source_commit": "70297db68d3ffaaa20938b58b343ee78485e7fd8",
+      "stage": "prepared_script_pending_explicit_local_apply"
+    },
+    {
+      "project": "arc",
+      "source_commit": "284a48497283dcbf2b9e6a12be2c68452b698466",
+      "stage": "prepared_script_pending_explicit_local_apply"
+    }
+  ],
+  "archive": {
+    "project": "Tender Small-Volume Calculator",
+    "source_commit": "03f5fec5f2ddc722bf6e82d7332e9b469bfa0fd8",
+    "stage": "archive_verified; isolated local candidate pending approval",
+    "disposition": "KEEP_IN_PLACE"
+  },
+  "excluded": [
+    {
+      "project": "arvectum-landing",
+      "reason": "verified ancestor of active arvectum-site; retain as history, no parallel development"
+    },
+    {
+      "project": "disser",
+      "reason": "personal academic, not Company portfolio"
+    },
+    {
+      "project": "duplicate local worktrees",
+      "reason": "same repository identity, not independent projects"
+    }
+  ],
+  "blockers": [
+    "All review PRs unmerged; actual criterion-level evidence mapping is partial.",
+    "Discount Parser Windows build misses arvectum-data; site sitemap freshness check fails; OS GitVerse mirror HTTP 502 noted. Separate existing pipeline gates remain.",
+    "Local-only branches and archive not modified; explicit command approval required.",
+    "Full non-canonical chat-derived source reconciliation remains open."
+  ]
+}
