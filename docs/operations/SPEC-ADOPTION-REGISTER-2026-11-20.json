@@ -25,7 +25,23 @@
       "project": "Tender Agent",
       "repo": "arvectum2/tender-agent",
       "pr": 667,
-      "stage": "existing_native_main; reconciliation review pending"
+      "stage": "existing_native_main; reconciliation review pending",
+      "criterion_review": {
+        "review_head": "7d950fd051aad2045f745bb63f39b70495280538",
+        "source_commit": "6799bdef88cbe64b4d769f4af4e50f724cc0e312",
+        "path": "specs/002-master-roadmap-traceability/criteria-review.json",
+        "total": 22,
+        "partial": 6,
+        "blocked": 1,
+        "open": 15,
+        "verified": 0,
+        "verification_tasks": 22,
+        "structural_tests": "8/8 PASS exact read-back",
+        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "note": "13 native PQ AC linked to existing task IDs and nine selected master gates; not full master coverage. APR-05 rehearsal, APR-06 independent commercial evidence, PRICE-01 independent contract evidence separate. No live action.",
+        "execution_authorized": false,
+        "actual_acceptance_verified": false
+      }
     }
   ],
   "review_scopes": [
@@ -52,7 +68,7 @@
       "actual_acceptance_verified": false,
       "criterion_review": {
         "scope": "nine feature rows and six publication criteria, not entire roadmap",
-        "review_head": "a1fc1a306b355979d7f22dbc8456cd9573832c04",
+        "review_head": "df2dd7f51e422a8420de1280bac80fdfc58c75a6",
         "source_commit": "67df7e205ff63703bde90809e89f06211ec0d870",
         "qa_source": "60e7d46f6ec1a2ae71f3a0575e036d8881c965ec",
         "path": "specs/001-ios-030-roadmap-traceability/release-criteria.json",
@@ -62,9 +78,12 @@
         "open": 1,
         "verified": 0,
         "verification_tasks": 15,
-        "structural_tests": "9/9 PASS on exact candidate read-back",
-        "ci": "first check PASS at 9fbf291; final rerun pending at observation",
-        "release_authorized": false
+        "structural_tests": "9/9 PASS exact read-back",
+        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "release_authorized": false,
+        "note": "Nine feature rows and six publication gates. Windows failures caused by history-dependent tests in shallow checkout; relocated tests to dedicated full-history CI.",
+        "execution_authorized": false,
+        "actual_acceptance_verified": false
       }
     },
     {
@@ -76,7 +95,23 @@
       "stage": "native_scaffold_in_draft_branch",
       "generic_blob_mode_check": "PASS_20_of_20",
       "native_prerequisite_check": "PASS_no_feature_persistence",
-      "actual_acceptance_verified": false
+      "actual_acceptance_verified": false,
+      "criterion_review": {
+        "review_head": "977b05f66a1a0b3b22008f33bd9d99049d7f81ec",
+        "source_commit": "e9a5a7c80f3193630348ed5828ecd3004d49bfc3",
+        "path": "specs/001-reliability-roadmap-traceability/criteria-review.json",
+        "total": 26,
+        "partial": 0,
+        "blocked": 11,
+        "open": 15,
+        "verified": 0,
+        "verification_tasks": 26,
+        "structural_tests": "8/8 PASS exact read-back",
+        "ci": "previous dedicated check PASS; final isolated test relocation rerun pending at observation",
+        "note": "20 open/partial roadmap occurrences and six field acceptance items; overlaps retained. Isolated test accounts required. Local main c7b9c47 divergence and actual runtime unreviewed.",
+        "execution_authorized": false,
+        "actual_acceptance_verified": false
+      }
     },
     {
       "project": "Data Platform",
@@ -458,5 +493,12 @@
         "note": "mergeability unknown at inspection; native PQ/master integration review"
       }
     ]
+  },
+  "criterion_rollout": {
+    "status": "partial_bounded_review",
+    "source_occurrences": 63,
+    "independent_structural_tests": 25,
+    "verified_criteria": 0,
+    "note": "Overlapping and grouped source occurrences, not unique business tasks or complete source coverage. No canonical merge, receipt authentication or release."
   }
 }
