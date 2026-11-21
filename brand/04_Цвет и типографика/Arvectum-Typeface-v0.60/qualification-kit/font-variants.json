@@ -1,0 +1,38 @@
+{
+  "58-Display": {
+    "original_file": "original-58-Display.otf",
+    "original_family": "Arvectum Display Golden Step Draft 058",
+    "original_family_length": 38,
+    "alias_file": "short-58-Display.otf",
+    "alias_family": "Arvectum GS Display 058",
+    "alias_family_length": 23,
+    "outlines_hmtx_GPOS_GDEF_unchanged": true
+  },
+  "58-Text": {
+    "original_file": "original-58-Text.otf",
+    "original_family": "Arvectum Text Golden Step Draft 058",
+    "original_family_length": 35,
+    "alias_file": "short-58-Text.otf",
+    "alias_family": "Arvectum GS Text 058",
+    "alias_family_length": 20,
+    "outlines_hmtx_GPOS_GDEF_unchanged": true
+  },
+  "59-Display": {
+    "original_file": "original-59-Display.otf",
+    "original_family": "Arvectum Display Golden Step Draft 059",
+    "original_family_length": 38,
+    "alias_file": "short-59-Display.otf",
+    "alias_family": "Arvectum GS Display 059",
+    "alias_family_length": 23,
+    "outlines_hmtx_GPOS_GDEF_unchanged": true
+  },
+  "59-Text": {
+    "original_file": "original-59-Text.otf",
+    "original_family": "Arvectum Text Golden Step Draft 059",
+    "original_family_length": 35,
+    "alias_file": "short-59-Text.otf",
+    "alias_family": "Arvectum GS Text 059",
+    "alias_family_length": 20,
+    "outlines_hmtx_GPOS_GDEF_unchanged": true
+  }
+}

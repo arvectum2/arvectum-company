@@ -1,0 +1,53 @@
+name: Golden Step Windows qualification
+on:
+  push:
+    branches: [brand/identity-v3]
+    paths:
+      - 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/**'
+      - '.github/workflows/brand-golden-step-windows.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: golden-step-windows-identity-v3
+  cancel-in-progress: true
+jobs:
+  golden-step-windows:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Run self-contained GDI and WPF probes with private font registration
+        shell: pwsh
+        run: |
+          $tool = 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/windows-qa.ps1'
+          & powershell.exe -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -File $tool
+          if ($LASTEXITCODE -ne 0) { throw "Windows font probe failed: $LASTEXITCODE" }
+      - name: Evaluate probe output without claiming owner approval
+        shell: pwsh
+        run: |
+          $p = 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/results/windows-qa.json'
+          $result = Get-Content $p -Raw -Encoding UTF8 | ConvertFrom-Json
+          if ($result.results.Count -ne 8) { throw "Expected 8 font probes" }
+          $result.results | ForEach-Object {
+            Write-Host "$($_.key): GDI $($_.gdi.gdi_exact_family) WPF $($_.wpf.resolved) GDI-height $($_.gdi.tmHeight) WPF-height $($_.wpf.height)"
+          }
+          $short = @($result.results | Where-Object { $_.key -match '-short$' })
+          if ($short.Count -ne 4) { throw 'Missing short-name alias probes' }
+          $gdiGood = @($short | Where-Object { $_.gdi.gdi_exact_family -eq $true })
+          $wpfGood = @($result.results | Where-Object { $_.wpf.resolved -eq $true })
+          Write-Host "Short aliases correctly selected by GDI: $($gdiGood.Count)/4"
+          Write-Host "WPF faces resolved: $($wpfGood.Count)/8"
+          if ($gdiGood.Count -lt 4 -or $wpfGood.Count -lt 8) {
+            throw 'Windows compatibility needs investigation. Artifacts retained by always() upload.'
+          }
+      - name: Store Windows-only evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: golden-step-v060-windows-qa
+          path: brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/results/
+          if-no-files-found: warn
+          retention-days: 14

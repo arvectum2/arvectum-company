@@ -1,0 +1,2 @@
+# BR-05 v0.60 source reconciliation
+Additive evidence only. Preserve v0.58 baseline d705b78 and v0.59 experiment 657bf0b, historical sources, Inter OFL, original wordmark/logo and pinned governance. Short-name variants are metadata-only QA artifacts, not owner acceptance or a corporate naming decision. No direct Windows device testing was possible during preparation. Hosted Windows test evidence must be distinguished from genuine Word/print acceptance. No production installation or external customer action.
