@@ -36,3 +36,8 @@ Hard stops: no unapproved data migration, client comms, contracts/signing, OS Pr
 ## Evidence from one bounded engineering-CI candidate
 
 `.github/workflows/aec001-audit-ci.yml` runs only offline AEC unit tests and Python syntax parsing for relevant PR changes. It does not access runtime hosts, production credentials, customer data or deploy anything. Its presence in a proposal branch is not a Company-wide CI standard, and does not grant automatic merging or release authority. Build with existing action versions already in this repository and verify via draft PR before any broader rollout.
+
+
+## Cross-stack comparison source
+
+The accepted Company/OS boundaries remain unchanged. Candidate technology convergence and differentiated lifecycle decisions are recorded in [stack-comparison.md](stack-comparison.md), with a private complete matrix and explicit SC-006/SC-007 acceptance gates in `spec.md`. Only risk-proportionate stack-specific CI policy and versioned contracts are being proposed; no new technical platform or business authority is established.

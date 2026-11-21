@@ -47,6 +47,12 @@ Preferred structure: **managed polyrepo**, explicit versioned contracts and opti
 
 A read-only host reconciliation exposed 605 registered Git worktrees across 21 repository identities and 11 prunable/missing working directories. First establish ownership, active service links, business evidence retention and reversible cleanup criteria; none may be pruned automatically. Runtime provenance is a more immediate common concern than code migration: launchd/OS release wrappers and Docker images require exact source and artifact linkage before any mass consolidation. The derived scanner is **not** a replacement for existing Company Source Watch.
 
+## AEC-001 stack-comparison decision gate
+
+Before selecting any common implementation, compare the 21 identified repository identities using `tools/aec001_stack_matrix.py` and the evidence in `stack-comparison.md` (when available). Keep repository declarations distinct from deployed image/package evidence. For each proposed simplification, state the actual repeated business/engineering mechanism, consumers, API/data boundaries, standard/version difference, security and technology-sovereignty impact, owner, business gain hypothesis, reversibility and stop criteria.
+
+Expected choices: **KEEP SEPARATE**, **STANDARDIZE POLICY**, **REUSE EXISTING CONTRACT/SDK**, **EXTRACT AFTER EVIDENCE**, **RETIRE ONLY AFTER APPROVAL**. A package match does not prove duplicate functionality and a missing manifest does not prove a dependency is absent. Prefer reusing Company Skills/Source Watch, Data Platform SDK and OS contracts (where already admitted) rather than building a new platform.
+
 ## Early testable candidate ranking (not final priority)
 1. Service and deployment registry tied to existing Company source watch — high operational visibility, low product disruption.
 2. Data Platform SDK/consumer compatibility — real candidate interfaces in Python and JS; validate actual usage, failure paths and cost.

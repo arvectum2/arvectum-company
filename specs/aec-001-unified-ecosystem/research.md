@@ -68,6 +68,12 @@ An additional one-time, read-only **strict AST signature** comparison covered 2,
 
 This is NEGATIVE evidence only for exact-structure clones under these filters. It says nothing about near-duplicates, differently structured implementations of the same business process, generated code, excluded tests/archives, runtime services or overall architectural redundancy. Therefore do NOT use it to close the semantic-duplication work item or justify no further review.
 
+## Explicit cross-stack comparison evidence (AEC-001-032)
+
+A read-only, version-declaration-aware scan covered **21 unique Git repository identities**, collapsing duplicate checkouts/worktrees; a **redacted 16-public-repository** comparison and initial decision candidates are in [stack-comparison.md](stack-comparison.md). The five private/local-only identities remain in private, owner-controlled evidence on Mac mini, not in this public repository.
+
+The scan observed 116 tracked CI workflow files across all 21 sampled identities, 14 named technologies declared by >=2 source repos, and differences in FastAPI, HTTPX, SQLAlchemy/Alembic and selected GitHub Actions version ranges. These are source-level findings, not proven deployed-version conflicts, redundant business behavior or any mandate for a one-stack rewrite. Data Platform HTTP SDK and in-process client contracts remain distinct; museum and native product isolation remains mandatory.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

@@ -23,6 +23,18 @@ A product can meet equivalent rules for supply-chain/security, CI, dependencies,
 
 **Test:** Two unlike language stacks produce independently verifiable equivalent policy evidence without a forced language, vendor or monorepo.
 
+### P1 — Evidence-based comparison and rationalization of ALL product stacks
+
+As Company owner, I can compare each real repository's languages, frameworks, SDKs, dependency/version declarations, test/CI/build/runtime process, security and sovereign deployment constraints, including independent customer-facing products, before making a reuse or retirement decision.
+
+**Independent test:** A reproducible matrix covers the initially identified 21 distinct repository identities with exact checkout/revision evidence. Unreadable manifests, absent lockfiles, unknown deployments and unsampled GitVerse/cloud sources remain explicit UNKNOWN; repeated package names and worktrees never become alleged duplicate products.
+
+**Acceptance scenarios:**
+1. Given two products with FastAPI/SQLAlchemy, the comparison shows their versions and actual package declarations; it does not require merging their data stores, services, domains or teams.
+2. Given two clients using different Data Platform interfaces, the comparison separates the lightweight HTTP SDK from embedded server-library APIs and identifies required compatibility/security checks.
+3. Given distinct client-owned website infrastructure and native Swift/Kotlin products, the recommendation preserves standalone delivery, legal/data boundaries and platform-native requirements.
+4. Given a proposed shared capability or version-policy change, the owner sees real consumers, dependency risk, alternative reuse approaches, estimated cost/maintenance baseline, reversible migration path and explicit approval boundary.
+
 ### P2 — Measured, gradual modernization
 Owner sees business rationale, maintenance/incident baselines, dependencies, approvals, staged migration and rollback before consequential cutover.
 
@@ -41,6 +53,10 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-009: Reuse existing Spec Kit, Skills, source watch and infrastructure mechanisms; no second organizational source of truth.
 - FR-010: Retain purpose-fit native mobile, PHP/Laravel, TypeScript/React and Python solutions under equivalent security/evidence expectations.
 - FR-011: Every reported audit fact must state evidence, timestamp, covered scope and uncertainty, including sources not yet sampled.
+- FR-012: Build a versioned, reproducible repo-by-repo stack matrix (languages, frameworks and declared versions, package managers/lockfiles, deployment/build targets, tests/CI, storage, queues, AI, APIs/SDKs and integrations). Separate repository declarations, observed runtimes, installed artifacts and unverified assumptions.
+- FR-013: Classify duplicated or overlapping stacks/processes by **shared third-party dependency**, **intentional language-specific implementation**, **shared product contract/SDK**, **semantic workflow overlap**, **release/operations/CI policy duplication**, or **true redundant authority/code**; require evidence and ownership before consolidation.
+- FR-014: Produce a cross-product compatibility/sovereignty/risk/economic comparison and a recommendation for each significant candidate: KEEP SEPARATE, STANDARDIZE POLICY, REUSE CONTRACT/SDK, EXTRACT REPLACEABLE COMPONENT, or RETIRE AFTER APPROVAL. No language/framework migration based only on package counts.
+- FR-015: Make version divergence and unpinned/unknown dependency supply-chain risks visible with affected consumers and measured regression gates; retain product-specific data/privacy, execution/approval, customer delivery and Arvectum OS governance boundaries.
 
 ## Success Criteria
 
@@ -49,6 +65,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-003: Duplicate candidates are validated by behavior/ownership, not filenames or common dependencies.
 - SC-004: At least one approved bounded reuse pilot yields documented functional equivalence, reversible cutover and measurable savings or risk reduction.
 - SC-005: No new unauthorized platform, legal/customer, production or data-sharing commitments.
+- SC-006: A reproducible stack matrix covers all 21 initially identified unique local/GitHub repository identities or marks missing evidence explicitly; each finding names the checked repository/revision and its confidence (declared/observed/verified).
+- SC-007: The top overlap opportunities have at least two actual consumers or repeated operations, risk and sovereignty boundaries, version/contract impact, measurable business hypothesis, accountable owner and one of the defined outcomes; no automatic migrations or deletions.
+- SC-008: Stack-specific CI/lock/dependency drift findings are separated from functional equivalence and proposed shared components, and a read-only audit reruns with offline negative tests.
 
 ## Non-Goals
 

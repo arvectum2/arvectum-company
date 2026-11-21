@@ -49,3 +49,17 @@ python3 tools/aec001_sdk_surface.py \
 ```
 
 Method-name parity is not HTTP semantic compatibility or permission to release a new SDK.
+
+
+## Compare technology stacks across repositories (read-only)
+
+```sh
+python3 -B -m unittest discover -s tests -p 'test_aec001*.py' -v
+python3 tools/aec001_stack_matrix.py \
+  --root /Volumes/ArvectumSSD/Arvectum/repos \
+  --root /Volumes/ArvectumSSD/Arvectum \
+  --root "$HOME/ArvectumSafe/ecosystem-audit-20261121/repositories" \
+  --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json"
+```
+
+This command reads Git-tracked manifests/source names and selected GitHub Actions metadata without executing application code or fetching dependencies. The JSON includes private/local repository identities and **must not be committed** to the public Company repository. For a deliberately redacted human-readable first comparison see [stack-comparison.md](stack-comparison.md). Static source declarations are not deployed-version evidence or semantic duplication proof.
