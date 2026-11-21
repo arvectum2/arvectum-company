@@ -13,7 +13,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 ## P1 — Engineering standardization
 - [ ] AEC-001-008 Define versioned service/repository catalog integrated with existing source watch.
-- [ ] AEC-001-009 Define stack-specific equivalent security, CI, lint/test, dependency and release policies.
+- [ ] AEC-001-009 Define stack-specific equivalent security, CI, lint/test, dependency and release policies. PARTIAL: Python-only AEC test CI candidate on isolated branch; no cross-product adoption.
 - [ ] AEC-001-010 Introduce pinned Spec Kit drift check, without automatically overwriting vendored scripts.
 - [ ] AEC-001-011 Map typed API/event SDK compatibility, retries, UNKNOWN states, evidence and recovery semantics. PARTIAL: distinct HTTP SDK and pinned in-process Data Platform users identified.
 - [ ] AEC-001-012 Select a first pilot using real consumers, rights and economic/risk review.
@@ -23,6 +23,15 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-023 Review worktree lifecycle and 11 prunable candidates with active runtime references before any Git cleanup.
 - [ ] AEC-001-024 Review HTTP SDK v0.3.0 vs pinned in-process Data Platform consumers, without weakening Compliance network security.
 - [ ] AEC-001-025 Validate service health, recovery and backup independently of PID / exit status / Docker Up.
+
+## P1b — Read-only provenance / contract-pilot evidence
+
+- [x] AEC-001-026 Add generic immutable Git blob-to-deployed-file read-only verification, including mismatch/UNKNOWN tests. **File evidence only**.
+- [x] AEC-001-027 Compare 1,359 selected code files of 5 sources/releases; no mismatch; MAX2TG marked mutable. **No memory-level loaded-code claim**.
+- [x] AEC-001-028 Verify Tender backend active commit/PID evidence and unauthenticated Tender/Data Platform health observations; do not confuse 200/401 with end-to-end readiness.
+- [x] AEC-001-029 Compare Data Platform published Python/JS SDK 0.3.0 to later source, verify Site packaged JS against tag and record additive static method drift.
+- [ ] AEC-001-030 Validate actual consumer contract semantics, auth, packaging/wheel hashes, release approval, dependency SBOM and failure/rollback tests.
+- [ ] AEC-001-031 Establish complete source-to-executable evidence for MAX2TG and unknown launchers without production mutations.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

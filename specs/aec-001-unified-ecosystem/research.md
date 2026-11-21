@@ -56,6 +56,12 @@ The Data Platform source explicitly documents a versioned v1.x HTTP consumer con
 
 Common FastAPI/SQLAlchemy/Alembic/HTTPX usage demonstrates overlapping **engineering version policy**, but does not prove duplicate business logic. Some services specify unbounded minimum version constraints while others use bounded major-version ranges. Record package provenance and lock-file validation in the next supply-chain pass rather than unilaterally pinning every product to one version.
 
+## On-disk release and SDK source verification
+
+A second-pass read-only verification compared 1,359 selected code files in five on-disk deployment/source trees with immutable Git blob content; all matched. See [release-provenance-review.md](release-provenance-review.md). Tender backend PID was independently reconciled with its active release evidence; Data Platform/Tender `/health` returned HTTP 200. These do not prove loaded code/process memory, end-to-end readiness or customer delivery. MAX2TG is still launched from a mutable Git checkout.
+
+A static Python/JavaScript SDK comparison against published 0.3.0 showed seven additional named client operations in later Data Platform source; the Arvectum Site vendored JS artifact exactly matches the 0.3.0 tag. See [sdk-surface-review.md](sdk-surface-review.md). Common engineering norms are proposed in [engineering-baseline.md](engineering-baseline.md), not yet an accepted policy.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

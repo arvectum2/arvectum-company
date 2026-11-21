@@ -1,0 +1,35 @@
+name: AEC-001 read-only audit candidate
+
+on:
+  pull_request:
+    paths:
+      - 'tools/aec001_*.py'
+      - 'tests/test_aec001_*.py'
+      - 'specs/aec-001-unified-ecosystem/**'
+      - '.github/workflows/aec001-audit-ci.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read-only auditors — offline tests
+        run: |
+          python3 -B -m unittest discover -s tests -p 'test_aec001*.py' -v
+      - name: Parse AEC scripts without executing repositories
+        run: |
+          python3 - <<'PY'
+          import ast
+          from pathlib import Path
+          for file in sorted(Path('tools').glob('aec001_*.py')):
+              ast.parse(file.read_text(encoding='utf-8'), filename=str(file))
+          PY
