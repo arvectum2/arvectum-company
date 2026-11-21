@@ -1,0 +1,6821 @@
+{
+  "baseline": "v0.61",
+  "corpus_sha256": "f557cc93c2c151181e64aed61d04e65689b29f5f92ecc73eee303135c95472f3",
+  "sources": [
+    {
+      "source": "brand/00_Управление/BRAND-PLATFORM-v0.3.md",
+      "length": 1070
+    },
+    {
+      "source": "docs/constitution/COMPANY-CONSTITUTION.md",
+      "length": 25649
+    },
+    {
+      "source": "docs/business/CURRENT-BUSINESS-MODEL-AND-VALUE-PROPOSITION.md",
+      "length": 21882
+    },
+    {
+      "source": "public/index.html",
+      "length": 9334
+    }
+  ],
+  "styles": {
+    "Display": {
+      "all_pairs": [
+        {
+          "pair": "on",
+          "count": 534,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ti",
+          "count": 510,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "at",
+          "count": 426,
+          "median_gap_px_64": 12.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "er",
+          "count": 418,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "an",
+          "count": 415,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "re",
+          "count": 410,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "or",
+          "count": 379,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "io",
+          "count": 371,
+          "median_gap_px_64": 8.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ен",
+          "count": 362,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "en",
+          "count": 362,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ст",
+          "count": 351,
+          "median_gap_px_64": 22.28,
+          "current_kern": -35
+        },
+        {
+          "pair": "in",
+          "count": 337,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ни",
+          "count": 334,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "al",
+          "count": 333,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "nt",
+          "count": 319,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "it",
+          "count": 315,
+          "median_gap_px_64": 12.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ct",
+          "count": 307,
+          "median_gap_px_64": 20.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ec",
+          "count": 288,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "но",
+          "count": 268,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "de",
+          "count": 258,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "om",
+          "count": 255,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ve",
+          "count": 254,
+          "median_gap_px_64": 13.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "es",
+          "count": 250,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "me",
+          "count": 247,
+          "median_gap_px_64": 7.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "ов",
+          "count": 244,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "te",
+          "count": 239,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "co",
+          "count": 234,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "le",
+          "count": 234,
+          "median_gap_px_64": 11.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "th",
+          "count": 234,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ра",
+          "count": 229,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ro",
+          "count": 227,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "si",
+          "count": 222,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ть",
+          "count": 219,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ri",
+          "count": 219,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ан",
+          "count": 218,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "пр",
+          "count": 206,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ат",
+          "count": 200,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "по",
+          "count": 200,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ed",
+          "count": 199,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "nd",
+          "count": 198,
+          "median_gap_px_64": 8.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "st",
+          "count": 197,
+          "median_gap_px_64": 14.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ре",
+          "count": 196,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "на",
+          "count": 194,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ne",
+          "count": 194,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ро",
+          "count": 189,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ны",
+          "count": 186,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "pr",
+          "count": 182,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ко",
+          "count": 179,
+          "median_gap_px_64": 18.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "pa",
+          "count": 179,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "nc",
+          "count": 178,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ли",
+          "count": 175,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "us",
+          "count": 174,
+          "median_gap_px_64": 8.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "od",
+          "count": 172,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ор",
+          "count": 164,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "то",
+          "count": 162,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ce",
+          "count": 162,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "не",
+          "count": 160,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ом",
+          "count": 158,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "is",
+          "count": 155,
+          "median_gap_px_64": 9.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ер",
+          "count": 154,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ut",
+          "count": 154,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ия",
+          "count": 152,
+          "median_gap_px_64": 8.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ти",
+          "count": 152,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ль",
+          "count": 151,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ос",
+          "count": 151,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "де",
+          "count": 148,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "li",
+          "count": 148,
+          "median_gap_px_64": 10.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "na",
+          "count": 148,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "mp",
+          "count": 147,
+          "median_gap_px_64": 6.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "to",
+          "count": 146,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "нн",
+          "count": 144,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ри",
+          "count": 143,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "he",
+          "count": 143,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "те",
+          "count": 142,
+          "median_gap_px_64": 18.62,
+          "current_kern": -25
+        },
+        {
+          "pair": "та",
+          "count": 141,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "тв",
+          "count": 141,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ме",
+          "count": 141,
+          "median_gap_px_64": 7.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ол",
+          "count": 141,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ic",
+          "count": 141,
+          "median_gap_px_64": 8.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ty",
+          "count": 141,
+          "median_gap_px_64": 23.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ел",
+          "count": 140,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "cu",
+          "count": 139,
+          "median_gap_px_64": 15.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ar",
+          "count": 137,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "se",
+          "count": 137,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "он",
+          "count": 136,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "tu",
+          "count": 136,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "за",
+          "count": 135,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ma",
+          "count": 135,
+          "median_gap_px_64": 8.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "du",
+          "count": 134,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "од",
+          "count": 134,
+          "median_gap_px_64": 15.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ет",
+          "count": 133,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ta",
+          "count": 133,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ве",
+          "count": 132,
+          "median_gap_px_64": 10.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ra",
+          "count": 129,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ur",
+          "count": 129,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ns",
+          "count": 128,
+          "median_gap_px_64": 9.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ca",
+          "count": 126,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ni",
+          "count": 123,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ит",
+          "count": 122,
+          "median_gap_px_64": 17.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ес",
+          "count": 121,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ва",
+          "count": 116,
+          "median_gap_px_64": 11.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ci",
+          "count": 115,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "от",
+          "count": 113,
+          "median_gap_px_64": 18.94,
+          "current_kern": -25
+        },
+        {
+          "pair": "ци",
+          "count": 112,
+          "median_gap_px_64": 9.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "ac",
+          "count": 112,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ис",
+          "count": 110,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "un",
+          "count": 110,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ss",
+          "count": 110,
+          "median_gap_px_64": 20.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "mo",
+          "count": 110,
+          "median_gap_px_64": 8.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "со",
+          "count": 109,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ие",
+          "count": 108,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ng",
+          "count": 108,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "до",
+          "count": 107,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ог",
+          "count": 106,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "че",
+          "count": 106,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "el",
+          "count": 106,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "um",
+          "count": 106,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "rv",
+          "count": 104,
+          "median_gap_px_64": 25.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ho",
+          "count": 101,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "нт",
+          "count": 100,
+          "median_gap_px_64": 17.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "Co",
+          "count": 99,
+          "median_gap_px_64": 35.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ск",
+          "count": 99,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "им",
+          "count": 99,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "em",
+          "count": 98,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ov",
+          "count": 98,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ow",
+          "count": 98,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ка",
+          "count": 97,
+          "median_gap_px_64": 18.0,
+          "current_kern": -20
+        },
+        {
+          "pair": "ny",
+          "count": 95,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ав",
+          "count": 94,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ки",
+          "count": 94,
+          "median_gap_px_64": 16.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "из",
+          "count": 93,
+          "median_gap_px_64": 14.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "no",
+          "count": 93,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ab",
+          "count": 93,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "об",
+          "count": 92,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "тр",
+          "count": 92,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ts",
+          "count": 92,
+          "median_gap_px_64": 14.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "го",
+          "count": 91,
+          "median_gap_px_64": 27.81,
+          "current_kern": -30
+        },
+        {
+          "pair": "мо",
+          "count": 90,
+          "median_gap_px_64": 8.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "lo",
+          "count": 90,
+          "median_gap_px_64": 11.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "pe",
+          "count": 90,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ем",
+          "count": 89,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "da",
+          "count": 89,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "pl",
+          "count": 89,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ал",
+          "count": 88,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "id",
+          "count": 88,
+          "median_gap_px_64": 9.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ar",
+          "count": 86,
+          "median_gap_px_64": 14.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "la",
+          "count": 86,
+          "median_gap_px_64": 11.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "os",
+          "count": 84,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "rk",
+          "count": 83,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ou",
+          "count": 83,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "po",
+          "count": 83,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ga",
+          "count": 83,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьн",
+          "count": 82,
+          "median_gap_px_64": 11.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ep",
+          "count": 82,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ий",
+          "count": 81,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ia",
+          "count": 81,
+          "median_gap_px_64": 8.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "AI",
+          "count": 80,
+          "median_gap_px_64": 23.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ил",
+          "count": 80,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ся",
+          "count": 79,
+          "median_gap_px_64": 15.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "fi",
+          "count": 79,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "bl",
+          "count": 79,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "uc",
+          "count": 78,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ек",
+          "count": 78,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "au",
+          "count": 78,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "да",
+          "count": 76,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ич",
+          "count": 76,
+          "median_gap_px_64": 28.78,
+          "current_kern": -25
+        },
+        {
+          "pair": "rg",
+          "count": 76,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "vi",
+          "count": 76,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ма",
+          "count": 75,
+          "median_gap_px_64": 8.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ви",
+          "count": 75,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ev",
+          "count": 75,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "as",
+          "count": 75,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "tr",
+          "count": 74,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ту",
+          "count": 74,
+          "median_gap_px_64": 27.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ul",
+          "count": 74,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ин",
+          "count": 73,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ap",
+          "count": 73,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ед",
+          "count": 72,
+          "median_gap_px_64": 21.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ля",
+          "count": 72,
+          "median_gap_px_64": 16.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ex",
+          "count": 72,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ас",
+          "count": 71,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ой",
+          "count": 71,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "во",
+          "count": 71,
+          "median_gap_px_64": 10.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ie",
+          "count": 71,
+          "median_gap_px_64": 7.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "rn",
+          "count": 71,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "iz",
+          "count": 71,
+          "median_gap_px_64": 9.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "bu",
+          "count": 71,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ла",
+          "count": 70,
+          "median_gap_px_64": 13.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ам",
+          "count": 70,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ми",
+          "count": 70,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "et",
+          "count": 69,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ge",
+          "count": 68,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "кт",
+          "count": 67,
+          "median_gap_px_64": 28.0,
+          "current_kern": -40
+        },
+        {
+          "pair": "ло",
+          "count": 67,
+          "median_gap_px_64": 13.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ea",
+          "count": 67,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "оп",
+          "count": 67,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "za",
+          "count": 67,
+          "median_gap_px_64": 11.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "ак",
+          "count": 66,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "op",
+          "count": 66,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ые",
+          "count": 65,
+          "median_gap_px_64": 6.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ац",
+          "count": 65,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ol",
+          "count": 65,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "бо",
+          "count": 64,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "вн",
+          "count": 64,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "im",
+          "count": 64,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "il",
+          "count": 64,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "ых",
+          "count": 63,
+          "median_gap_px_64": 10.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "тс",
+          "count": 62,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "wo",
+          "count": 62,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ик",
+          "count": 60,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ле",
+          "count": 59,
+          "median_gap_px_64": 13.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "fo",
+          "count": 59,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ии",
+          "count": 57,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "wn",
+          "count": 57,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ку",
+          "count": 56,
+          "median_gap_px_64": 27.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "va",
+          "count": 56,
+          "median_gap_px_64": 13.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "hi",
+          "count": 56,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ый",
+          "count": 55,
+          "median_gap_px_64": 5.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ot",
+          "count": 55,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "rr",
+          "count": 55,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ha",
+          "count": 54,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ди",
+          "count": 54,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ая",
+          "count": 53,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ig",
+          "count": 53,
+          "median_gap_px_64": 8.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "of",
+          "count": 53,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ир",
+          "count": 52,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "па",
+          "count": 52,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ок",
+          "count": 52,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "це",
+          "count": 52,
+          "median_gap_px_64": 10.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "US",
+          "count": 52,
+          "median_gap_px_64": 11.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ai",
+          "count": 52,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьс",
+          "count": 51,
+          "median_gap_px_64": 15.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "iv",
+          "count": 51,
+          "median_gap_px_64": 13.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "MU",
+          "count": 51,
+          "median_gap_px_64": 6.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "ST",
+          "count": 51,
+          "median_gap_px_64": 23.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "ей",
+          "count": 50,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "пе",
+          "count": 50,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "rt",
+          "count": 50,
+          "median_gap_px_64": 24.69,
+          "current_kern": -20
+        },
+        {
+          "pair": "rs",
+          "count": 50,
+          "median_gap_px_64": 19.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ру",
+          "count": 50,
+          "median_gap_px_64": 20.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "fl",
+          "count": 50,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "аз",
+          "count": 49,
+          "median_gap_px_64": 15.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "еш",
+          "count": 49,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "di",
+          "count": 49,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ry",
+          "count": 49,
+          "median_gap_px_64": 28.69,
+          "current_kern": -20
+        },
+        {
+          "pair": "OS",
+          "count": 49,
+          "median_gap_px_64": 14.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "ут",
+          "count": 48,
+          "median_gap_px_64": 28.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "if",
+          "count": 48,
+          "median_gap_px_64": 10.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "su",
+          "count": 47,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ио",
+          "count": 46,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ты",
+          "count": 46,
+          "median_gap_px_64": 17.62,
+          "current_kern": -25
+        },
+        {
+          "pair": "ят",
+          "count": 46,
+          "median_gap_px_64": 17.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ко",
+          "count": 46,
+          "median_gap_px_64": 19.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "ch",
+          "count": 46,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "fe",
+          "count": 46,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "чи",
+          "count": 45,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ум",
+          "count": 45,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "мп",
+          "count": 45,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "сл",
+          "count": 45,
+          "median_gap_px_64": 25.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ue",
+          "count": 45,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ус",
+          "count": 44,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "жд",
+          "count": 44,
+          "median_gap_px_64": 26.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ad",
+          "count": 44,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ly",
+          "count": 43,
+          "median_gap_px_64": 20.41,
+          "current_kern": -15
+        },
+        {
+          "pair": "ня",
+          "count": 42,
+          "median_gap_px_64": 8.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "вл",
+          "count": 42,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "сп",
+          "count": 42,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "pp",
+          "count": 42,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "яе",
+          "count": 41,
+          "median_gap_px_64": 6.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ше",
+          "count": 41,
+          "median_gap_px_64": 7.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "си",
+          "count": 41,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ив",
+          "count": 41,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ir",
+          "count": 41,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "аб",
+          "count": 40,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "оч",
+          "count": 40,
+          "median_gap_px_64": 28.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "kf",
+          "count": 40,
+          "median_gap_px_64": 17.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "По",
+          "count": 39,
+          "median_gap_px_64": 8.44,
+          "current_kern": 0
+        },
+        {
+          "pair": "ым",
+          "count": 39,
+          "median_gap_px_64": 5.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ef",
+          "count": 39,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "cr",
+          "count": 39,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ll",
+          "count": 38,
+          "median_gap_px_64": 10.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "ще",
+          "count": 38,
+          "median_gap_px_64": 11.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "чн",
+          "count": 38,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "do",
+          "count": 38,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "bi",
+          "count": 38,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "pt",
+          "count": 38,
+          "median_gap_px_64": 12.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "mi",
+          "count": 38,
+          "median_gap_px_64": 6.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "rc",
+          "count": 38,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "be",
+          "count": 38,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ую",
+          "count": 37,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "bo",
+          "count": 37,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "sh",
+          "count": 37,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "са",
+          "count": 36,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "га",
+          "count": 36,
+          "median_gap_px_64": 27.81,
+          "current_kern": -30
+        },
+        {
+          "pair": "ег",
+          "count": 36,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "rm",
+          "count": 36,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ча",
+          "count": 35,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ар",
+          "count": 35,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "вы",
+          "count": 35,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ае",
+          "count": 35,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ое",
+          "count": 35,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ag",
+          "count": 35,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "go",
+          "count": 35,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "NO",
+          "count": 35,
+          "median_gap_px_64": 8.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "OT",
+          "count": 35,
+          "median_gap_px_64": 22.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "eg",
+          "count": 34,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "оз",
+          "count": 34,
+          "median_gap_px_64": 15.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ее",
+          "count": 34,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "мы",
+          "count": 34,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "Po",
+          "count": 34,
+          "median_gap_px_64": 36.5,
+          "current_kern": -30
+        },
+        {
+          "pair": "gn",
+          "count": 34,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "sc",
+          "count": 34,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "lu",
+          "count": 34,
+          "median_gap_px_64": 10.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "fu",
+          "count": 34,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "зм",
+          "count": 33,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "oc",
+          "count": 33,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "уп",
+          "count": 33,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "so",
+          "count": 33,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "лн",
+          "count": 33,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ip",
+          "count": 33,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "mm",
+          "count": 33,
+          "median_gap_px_64": 6.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "жн",
+          "count": 32,
+          "median_gap_px_64": 11.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "уе",
+          "count": 32,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "тн",
+          "count": 32,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "Th",
+          "count": 32,
+          "median_gap_px_64": 20.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "wh",
+          "count": 32,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "бе",
+          "count": 31,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "сс",
+          "count": 31,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "йс",
+          "count": 31,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "рн",
+          "count": 31,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "sa",
+          "count": 31,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "Pr",
+          "count": 31,
+          "median_gap_px_64": 36.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "щи",
+          "count": 31,
+          "median_gap_px_64": 10.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "зн",
+          "count": 30,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "рж",
+          "count": 30,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ОО",
+          "count": 30,
+          "median_gap_px_64": 11.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "ну",
+          "count": 30,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "дл",
+          "count": 29,
+          "median_gap_px_64": 23.28,
+          "current_kern": -25
+        },
+        {
+          "pair": "аг",
+          "count": 29,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ез",
+          "count": 29,
+          "median_gap_px_64": 15.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "яв",
+          "count": 28,
+          "median_gap_px_64": 5.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ад",
+          "count": 28,
+          "median_gap_px_64": 16.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ff",
+          "count": 28,
+          "median_gap_px_64": 26.81,
+          "current_kern": -20
+        },
+        {
+          "pair": "уч",
+          "count": 28,
+          "median_gap_px_64": 39.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "ур",
+          "count": 28,
+          "median_gap_px_64": 19.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "fa",
+          "count": 28,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ui",
+          "count": 28,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "eu",
+          "count": 28,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "иц",
+          "count": 27,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "xe",
+          "count": 27,
+          "median_gap_px_64": 14.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "хо",
+          "count": 27,
+          "median_gap_px_64": 14.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "cl",
+          "count": 27,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "oo",
+          "count": 27,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "рг",
+          "count": 26,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ют",
+          "count": 26,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "еб",
+          "count": 26,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ow",
+          "count": 26,
+          "median_gap_px_64": 12.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "кл",
+          "count": 26,
+          "median_gap_px_64": 26.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "вт",
+          "count": 26,
+          "median_gap_px_64": 20.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "нс",
+          "count": 25,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "cy",
+          "count": 25,
+          "median_gap_px_64": 28.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ид",
+          "count": 24,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "лж",
+          "count": 24,
+          "median_gap_px_64": 21.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "кр",
+          "count": 24,
+          "median_gap_px_64": 16.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "nu",
+          "count": 24,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "qu",
+          "count": 24,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "dg",
+          "count": 24,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "рв",
+          "count": 23,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ст",
+          "count": 23,
+          "median_gap_px_64": 35.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ck",
+          "count": 23,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "оц",
+          "count": 23,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ru",
+          "count": 23,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "sp",
+          "count": 23,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "nf",
+          "count": 23,
+          "median_gap_px_64": 9.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "гл",
+          "count": 22,
+          "median_gap_px_64": 30.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ап",
+          "count": 22,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "гр",
+          "count": 22,
+          "median_gap_px_64": 26.81,
+          "current_kern": -30
+        },
+        {
+          "pair": "ры",
+          "count": 22,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ге",
+          "count": 22,
+          "median_gap_px_64": 27.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "др",
+          "count": 22,
+          "median_gap_px_64": 14.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "бн",
+          "count": 22,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ач",
+          "count": 22,
+          "median_gap_px_64": 29.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "бы",
+          "count": 22,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "их",
+          "count": 22,
+          "median_gap_px_64": 10.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "tf",
+          "count": 22,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "же",
+          "count": 22,
+          "median_gap_px_64": 13.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "нд",
+          "count": 21,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "зд",
+          "count": 21,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ех",
+          "count": 21,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "oa",
+          "count": 21,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ож",
+          "count": 21,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ee",
+          "count": 21,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "вк",
+          "count": 21,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "рм",
+          "count": 20,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ср",
+          "count": 20,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "яз",
+          "count": 20,
+          "median_gap_px_64": 14.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ён",
+          "count": 20,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "cc",
+          "count": 20,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "xt",
+          "count": 20,
+          "median_gap_px_64": 17.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "фи",
+          "count": 20,
+          "median_gap_px_64": 7.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "sk",
+          "count": 20,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ba",
+          "count": 20,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "фо",
+          "count": 19,
+          "median_gap_px_64": 9.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "пл",
+          "count": 19,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ги",
+          "count": 19,
+          "median_gap_px_64": 26.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "дн",
+          "count": 19,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ua",
+          "count": 19,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "tl",
+          "count": 19,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "лю",
+          "count": 19,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ья",
+          "count": 19,
+          "median_gap_px_64": 14.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "eq",
+          "count": 19,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ke",
+          "count": 19,
+          "median_gap_px_64": 13.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "ук",
+          "count": 18,
+          "median_gap_px_64": 16.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "хн",
+          "count": 18,
+          "median_gap_px_64": 11.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "су",
+          "count": 18,
+          "median_gap_px_64": 24.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ву",
+          "count": 18,
+          "median_gap_px_64": 20.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "рп",
+          "count": 18,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "пи",
+          "count": 18,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "бя",
+          "count": 18,
+          "median_gap_px_64": 12.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ib",
+          "count": 18,
+          "median_gap_px_64": 6.53,
+          "current_kern": 0
+        },
+        {
+          "pair": "xp",
+          "count": 18,
+          "median_gap_px_64": 11.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "tm",
+          "count": 18,
+          "median_gap_px_64": 13.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ду",
+          "count": 17,
+          "median_gap_px_64": 26.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "оя",
+          "count": 17,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьк",
+          "count": 17,
+          "median_gap_px_64": 11.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "AC",
+          "count": 17,
+          "median_gap_px_64": 18.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ущ",
+          "count": 17,
+          "median_gap_px_64": 18.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "ащ",
+          "count": 17,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ft",
+          "count": 17,
+          "median_gap_px_64": 28.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ыт",
+          "count": 17,
+          "median_gap_px_64": 17.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "fr",
+          "count": 17,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ws",
+          "count": 17,
+          "median_gap_px_64": 15.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "wl",
+          "count": 17,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "up",
+          "count": 17,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ki",
+          "count": 17,
+          "median_gap_px_64": 12.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "дё",
+          "count": 16,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "шн",
+          "count": 16,
+          "median_gap_px_64": 6.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "dm",
+          "count": 16,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "cs",
+          "count": 16,
+          "median_gap_px_64": 20.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ёт",
+          "count": 16,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "юч",
+          "count": 16,
+          "median_gap_px_64": 28.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "аж",
+          "count": 16,
+          "median_gap_px_64": 11.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "rd",
+          "count": 16,
+          "median_gap_px_64": 18.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "kn",
+          "count": 16,
+          "median_gap_px_64": 11.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ар",
+          "count": 15,
+          "median_gap_px_64": 14.91,
+          "current_kern": -25
+        },
+        {
+          "pair": "би",
+          "count": 15,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ео",
+          "count": 15,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "се",
+          "count": 15,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "хр",
+          "count": 15,
+          "median_gap_px_64": 11.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "tt",
+          "count": 15,
+          "median_gap_px_64": 19.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "wa",
+          "count": 15,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "зо",
+          "count": 15,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ex",
+          "count": 15,
+          "median_gap_px_64": 36.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "ах",
+          "count": 15,
+          "median_gap_px_64": 11.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "На",
+          "count": 15,
+          "median_gap_px_64": 8.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "ря",
+          "count": 15,
+          "median_gap_px_64": 12.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ls",
+          "count": 15,
+          "median_gap_px_64": 12.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "зи",
+          "count": 14,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "бу",
+          "count": 14,
+          "median_gap_px_64": 16.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "Re",
+          "count": 14,
+          "median_gap_px_64": 13.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ob",
+          "count": 14,
+          "median_gap_px_64": 7.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "еж",
+          "count": 14,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ящ",
+          "count": 14,
+          "median_gap_px_64": 5.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "юр",
+          "count": 14,
+          "median_gap_px_64": 6.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ющ",
+          "count": 14,
+          "median_gap_px_64": 6.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "нк",
+          "count": 14,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "му",
+          "count": 14,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "RF",
+          "count": 14,
+          "median_gap_px_64": 9.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "am",
+          "count": 14,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "gs",
+          "count": 14,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "Cu",
+          "count": 14,
+          "median_gap_px_64": 34.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "сц",
+          "count": 14,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ub",
+          "count": 14,
+          "median_gap_px_64": 5.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "wi",
+          "count": 14,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "oy",
+          "count": 14,
+          "median_gap_px_64": 15.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "бр",
+          "count": 13,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "Пр",
+          "count": 13,
+          "median_gap_px_64": 6.44,
+          "current_kern": 0
+        },
+        {
+          "pair": "тк",
+          "count": 13,
+          "median_gap_px_64": 17.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "сн",
+          "count": 13,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "tw",
+          "count": 13,
+          "median_gap_px_64": 18.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "яю",
+          "count": 13,
+          "median_gap_px_64": 5.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "Or",
+          "count": 13,
+          "median_gap_px_64": 7.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "сы",
+          "count": 13,
+          "median_gap_px_64": 12.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ds",
+          "count": 13,
+          "median_gap_px_64": 9.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "рц",
+          "count": 13,
+          "median_gap_px_64": 8.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ew",
+          "count": 13,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "mu",
+          "count": 13,
+          "median_gap_px_64": 6.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "ay",
+          "count": 13,
+          "median_gap_px_64": 16.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "bs",
+          "count": 13,
+          "median_gap_px_64": 12.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ld",
+          "count": 13,
+          "median_gap_px_64": 13.41,
+          "current_kern": 0
+        },
+        {
+          "pair": "ыв",
+          "count": 12,
+          "median_gap_px_64": 5.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ев",
+          "count": 12,
+          "median_gap_px_64": 8.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "аю",
+          "count": 12,
+          "median_gap_px_64": 6.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ох",
+          "count": 12,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "дс",
+          "count": 12,
+          "median_gap_px_64": 16.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "рш",
+          "count": 12,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "SH",
+          "count": 12,
+          "median_gap_px_64": 9.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "HO",
+          "count": 12,
+          "median_gap_px_64": 8.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "OU",
+          "count": 12,
+          "median_gap_px_64": 8.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "UL",
+          "count": 12,
+          "median_gap_px_64": 6.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "LD",
+          "count": 12,
+          "median_gap_px_64": 26.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "II",
+          "count": 12,
+          "median_gap_px_64": 16.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "pu",
+          "count": 12,
+          "median_gap_px_64": 7.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ud",
+          "count": 12,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "xi",
+          "count": 12,
+          "median_gap_px_64": 11.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "hy",
+          "count": 12,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "og",
+          "count": 12,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "FQ",
+          "count": 12,
+          "median_gap_px_64": 34.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "ТК",
+          "count": 12,
+          "median_gap_px_64": 21.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "КП",
+          "count": 12,
+          "median_gap_px_64": 15.47,
+          "current_kern": 0
+        }
+      ],
+      "wide_unadjusted": [
+        {
+          "pair": "ct",
+          "count": 307,
+          "median_gap_px_64": 20.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "co",
+          "count": 234,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ce",
+          "count": 162,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ty",
+          "count": 141,
+          "median_gap_px_64": 23.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ca",
+          "count": 126,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ss",
+          "count": 110,
+          "median_gap_px_64": 20.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "со",
+          "count": 109,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "rv",
+          "count": 104,
+          "median_gap_px_64": 25.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "Co",
+          "count": 99,
+          "median_gap_px_64": 35.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "AI",
+          "count": 80,
+          "median_gap_px_64": 23.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "fi",
+          "count": 79,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ту",
+          "count": 74,
+          "median_gap_px_64": 27.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ед",
+          "count": 72,
+          "median_gap_px_64": 21.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "fo",
+          "count": 59,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ку",
+          "count": 56,
+          "median_gap_px_64": 27.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "ST",
+          "count": 51,
+          "median_gap_px_64": 23.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "fl",
+          "count": 50,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ру",
+          "count": 50,
+          "median_gap_px_64": 20.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ут",
+          "count": 48,
+          "median_gap_px_64": 28.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "fe",
+          "count": 46,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "сл",
+          "count": 45,
+          "median_gap_px_64": 25.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "жд",
+          "count": 44,
+          "median_gap_px_64": 26.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "оч",
+          "count": 40,
+          "median_gap_px_64": 28.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "са",
+          "count": 36,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "OT",
+          "count": 35,
+          "median_gap_px_64": 22.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "fu",
+          "count": 34,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "Th",
+          "count": 32,
+          "median_gap_px_64": 20.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "Pr",
+          "count": 31,
+          "median_gap_px_64": 36.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "сс",
+          "count": 31,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "уч",
+          "count": 28,
+          "median_gap_px_64": 39.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "fa",
+          "count": 28,
+          "median_gap_px_64": 23.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "кл",
+          "count": 26,
+          "median_gap_px_64": 26.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "вт",
+          "count": 26,
+          "median_gap_px_64": 20.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "cy",
+          "count": 25,
+          "median_gap_px_64": 28.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "лж",
+          "count": 24,
+          "median_gap_px_64": 21.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ст",
+          "count": 23,
+          "median_gap_px_64": 35.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "гл",
+          "count": 22,
+          "median_gap_px_64": 30.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ач",
+          "count": 22,
+          "median_gap_px_64": 29.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ге",
+          "count": 22,
+          "median_gap_px_64": 27.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "cc",
+          "count": 20,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ги",
+          "count": 19,
+          "median_gap_px_64": 26.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "су",
+          "count": 18,
+          "median_gap_px_64": 24.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "ву",
+          "count": 18,
+          "median_gap_px_64": 20.62,
+          "current_kern": 0
+        },
+        {
+          "pair": "ft",
+          "count": 17,
+          "median_gap_px_64": 28.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ду",
+          "count": 17,
+          "median_gap_px_64": 26.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "fr",
+          "count": 17,
+          "median_gap_px_64": 22.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "юч",
+          "count": 16,
+          "median_gap_px_64": 28.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "cs",
+          "count": 16,
+          "median_gap_px_64": 20.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ex",
+          "count": 15,
+          "median_gap_px_64": 36.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "се",
+          "count": 15,
+          "median_gap_px_64": 21.28,
+          "current_kern": 0
+        },
+        {
+          "pair": "Cu",
+          "count": 14,
+          "median_gap_px_64": 34.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "FQ",
+          "count": 12,
+          "median_gap_px_64": 34.06,
+          "current_kern": 0
+        },
+        {
+          "pair": "LD",
+          "count": 12,
+          "median_gap_px_64": 26.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ТК",
+          "count": 12,
+          "median_gap_px_64": 21.81,
+          "current_kern": 0
+        }
+      ]
+    },
+    "Text": {
+      "all_pairs": [
+        {
+          "pair": "on",
+          "count": 534,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ti",
+          "count": 510,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "at",
+          "count": 426,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "er",
+          "count": 418,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "an",
+          "count": 415,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "re",
+          "count": 410,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "or",
+          "count": 379,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "io",
+          "count": 371,
+          "median_gap_px_64": 8.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ен",
+          "count": 362,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "en",
+          "count": 362,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ст",
+          "count": 351,
+          "median_gap_px_64": 22.78,
+          "current_kern": -35
+        },
+        {
+          "pair": "in",
+          "count": 337,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ни",
+          "count": 334,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "al",
+          "count": 333,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "nt",
+          "count": 319,
+          "median_gap_px_64": 10.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "it",
+          "count": 315,
+          "median_gap_px_64": 10.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ct",
+          "count": 307,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ec",
+          "count": 288,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "но",
+          "count": 268,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "de",
+          "count": 258,
+          "median_gap_px_64": 7.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "om",
+          "count": 255,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ve",
+          "count": 254,
+          "median_gap_px_64": 13.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "es",
+          "count": 250,
+          "median_gap_px_64": 11.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "me",
+          "count": 247,
+          "median_gap_px_64": 7.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "ов",
+          "count": 244,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "te",
+          "count": 239,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "co",
+          "count": 234,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "le",
+          "count": 234,
+          "median_gap_px_64": 10.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "th",
+          "count": 234,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ра",
+          "count": 229,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ro",
+          "count": 227,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "si",
+          "count": 222,
+          "median_gap_px_64": 10.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ть",
+          "count": 219,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ri",
+          "count": 219,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ан",
+          "count": 218,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "пр",
+          "count": 206,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ат",
+          "count": 200,
+          "median_gap_px_64": 18.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "по",
+          "count": 200,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ed",
+          "count": 199,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "nd",
+          "count": 198,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "st",
+          "count": 197,
+          "median_gap_px_64": 13.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ре",
+          "count": 196,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "на",
+          "count": 194,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ne",
+          "count": 194,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ро",
+          "count": 189,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ны",
+          "count": 186,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "pr",
+          "count": 182,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ко",
+          "count": 179,
+          "median_gap_px_64": 13.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "pa",
+          "count": 179,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "nc",
+          "count": 178,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ли",
+          "count": 175,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "us",
+          "count": 174,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "od",
+          "count": 172,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ор",
+          "count": 164,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "то",
+          "count": 162,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ce",
+          "count": 162,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "не",
+          "count": 160,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ом",
+          "count": 158,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "is",
+          "count": 155,
+          "median_gap_px_64": 9.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ер",
+          "count": 154,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ut",
+          "count": 154,
+          "median_gap_px_64": 10.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ия",
+          "count": 152,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ти",
+          "count": 152,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ль",
+          "count": 151,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ос",
+          "count": 151,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "де",
+          "count": 148,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "li",
+          "count": 148,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "na",
+          "count": 148,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "mp",
+          "count": 147,
+          "median_gap_px_64": 6.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "to",
+          "count": 146,
+          "median_gap_px_64": 16.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "нн",
+          "count": 144,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ри",
+          "count": 143,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "he",
+          "count": 143,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "те",
+          "count": 142,
+          "median_gap_px_64": 18.94,
+          "current_kern": -25
+        },
+        {
+          "pair": "та",
+          "count": 141,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "тв",
+          "count": 141,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ме",
+          "count": 141,
+          "median_gap_px_64": 6.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ол",
+          "count": 141,
+          "median_gap_px_64": 13.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ic",
+          "count": 141,
+          "median_gap_px_64": 8.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ty",
+          "count": 141,
+          "median_gap_px_64": 24.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ел",
+          "count": 140,
+          "median_gap_px_64": 16.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "cu",
+          "count": 139,
+          "median_gap_px_64": 16.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ar",
+          "count": 137,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "se",
+          "count": 137,
+          "median_gap_px_64": 13.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "он",
+          "count": 136,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "tu",
+          "count": 136,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "за",
+          "count": 135,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ma",
+          "count": 135,
+          "median_gap_px_64": 8.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "du",
+          "count": 134,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "од",
+          "count": 134,
+          "median_gap_px_64": 17.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ет",
+          "count": 133,
+          "median_gap_px_64": 19.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ta",
+          "count": 133,
+          "median_gap_px_64": 16.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ве",
+          "count": 132,
+          "median_gap_px_64": 11.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ra",
+          "count": 129,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ur",
+          "count": 129,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ns",
+          "count": 128,
+          "median_gap_px_64": 10.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ca",
+          "count": 126,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ni",
+          "count": 123,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ит",
+          "count": 122,
+          "median_gap_px_64": 18.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ес",
+          "count": 121,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ва",
+          "count": 116,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ci",
+          "count": 115,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "от",
+          "count": 113,
+          "median_gap_px_64": 19.31,
+          "current_kern": -25
+        },
+        {
+          "pair": "ци",
+          "count": 112,
+          "median_gap_px_64": 9.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "ac",
+          "count": 112,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ис",
+          "count": 110,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "un",
+          "count": 110,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ss",
+          "count": 110,
+          "median_gap_px_64": 20.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "mo",
+          "count": 110,
+          "median_gap_px_64": 8.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "со",
+          "count": 109,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ие",
+          "count": 108,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ng",
+          "count": 108,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "до",
+          "count": 107,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ог",
+          "count": 106,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "че",
+          "count": 106,
+          "median_gap_px_64": 7.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "el",
+          "count": 106,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "um",
+          "count": 106,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "rv",
+          "count": 104,
+          "median_gap_px_64": 24.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ho",
+          "count": 101,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "нт",
+          "count": 100,
+          "median_gap_px_64": 18.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "Co",
+          "count": 99,
+          "median_gap_px_64": 33.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ск",
+          "count": 99,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "им",
+          "count": 99,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "em",
+          "count": 98,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ov",
+          "count": 98,
+          "median_gap_px_64": 14.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ow",
+          "count": 98,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ка",
+          "count": 97,
+          "median_gap_px_64": 13.97,
+          "current_kern": -20
+        },
+        {
+          "pair": "ny",
+          "count": 95,
+          "median_gap_px_64": 16.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ав",
+          "count": 94,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ки",
+          "count": 94,
+          "median_gap_px_64": 11.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "из",
+          "count": 93,
+          "median_gap_px_64": 15.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "no",
+          "count": 93,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ab",
+          "count": 93,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "об",
+          "count": 92,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "тр",
+          "count": 92,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ts",
+          "count": 92,
+          "median_gap_px_64": 16.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "го",
+          "count": 91,
+          "median_gap_px_64": 26.12,
+          "current_kern": -30
+        },
+        {
+          "pair": "мо",
+          "count": 90,
+          "median_gap_px_64": 7.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "lo",
+          "count": 90,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "pe",
+          "count": 90,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ем",
+          "count": 89,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "da",
+          "count": 89,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "pl",
+          "count": 89,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ал",
+          "count": 88,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "id",
+          "count": 88,
+          "median_gap_px_64": 9.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ar",
+          "count": 86,
+          "median_gap_px_64": 15.22,
+          "current_kern": 0
+        },
+        {
+          "pair": "la",
+          "count": 86,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "os",
+          "count": 84,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "rk",
+          "count": 83,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ou",
+          "count": 83,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "po",
+          "count": 83,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ga",
+          "count": 83,
+          "median_gap_px_64": 8.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьн",
+          "count": 82,
+          "median_gap_px_64": 12.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ep",
+          "count": 82,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ий",
+          "count": 81,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ia",
+          "count": 81,
+          "median_gap_px_64": 8.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "AI",
+          "count": 80,
+          "median_gap_px_64": 24.22,
+          "current_kern": 0
+        },
+        {
+          "pair": "ил",
+          "count": 80,
+          "median_gap_px_64": 12.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ся",
+          "count": 79,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "fi",
+          "count": 79,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "bl",
+          "count": 79,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "uc",
+          "count": 78,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ек",
+          "count": 78,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "au",
+          "count": 78,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "да",
+          "count": 76,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ич",
+          "count": 76,
+          "median_gap_px_64": 29.09,
+          "current_kern": -25
+        },
+        {
+          "pair": "rg",
+          "count": 76,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "vi",
+          "count": 76,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ма",
+          "count": 75,
+          "median_gap_px_64": 7.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ви",
+          "count": 75,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ev",
+          "count": 75,
+          "median_gap_px_64": 13.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "as",
+          "count": 75,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "tr",
+          "count": 74,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ту",
+          "count": 74,
+          "median_gap_px_64": 27.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ul",
+          "count": 74,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ин",
+          "count": 73,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ap",
+          "count": 73,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ед",
+          "count": 72,
+          "median_gap_px_64": 22.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ля",
+          "count": 72,
+          "median_gap_px_64": 16.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ex",
+          "count": 72,
+          "median_gap_px_64": 14.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ас",
+          "count": 71,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ой",
+          "count": 71,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "во",
+          "count": 71,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ie",
+          "count": 71,
+          "median_gap_px_64": 7.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "rn",
+          "count": 71,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "iz",
+          "count": 71,
+          "median_gap_px_64": 10.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "bu",
+          "count": 71,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ла",
+          "count": 70,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ам",
+          "count": 70,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ми",
+          "count": 70,
+          "median_gap_px_64": 5.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "et",
+          "count": 69,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ge",
+          "count": 68,
+          "median_gap_px_64": 7.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "кт",
+          "count": 67,
+          "median_gap_px_64": 23.97,
+          "current_kern": -40
+        },
+        {
+          "pair": "ло",
+          "count": 67,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ea",
+          "count": 67,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "оп",
+          "count": 67,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "za",
+          "count": 67,
+          "median_gap_px_64": 13.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "ак",
+          "count": 66,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "op",
+          "count": 66,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ые",
+          "count": 65,
+          "median_gap_px_64": 7.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ац",
+          "count": 65,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ol",
+          "count": 65,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "бо",
+          "count": 64,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "вн",
+          "count": 64,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "im",
+          "count": 64,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "il",
+          "count": 64,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "ых",
+          "count": 63,
+          "median_gap_px_64": 12.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "тс",
+          "count": 62,
+          "median_gap_px_64": 18.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "wo",
+          "count": 62,
+          "median_gap_px_64": 13.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "ик",
+          "count": 60,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ле",
+          "count": 59,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "fo",
+          "count": 59,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ии",
+          "count": 57,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "wn",
+          "count": 57,
+          "median_gap_px_64": 11.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "ку",
+          "count": 56,
+          "median_gap_px_64": 24.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "va",
+          "count": 56,
+          "median_gap_px_64": 13.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "hi",
+          "count": 56,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ый",
+          "count": 55,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ot",
+          "count": 55,
+          "median_gap_px_64": 11.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "rr",
+          "count": 55,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ha",
+          "count": 54,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ди",
+          "count": 54,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ая",
+          "count": 53,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ig",
+          "count": 53,
+          "median_gap_px_64": 8.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "of",
+          "count": 53,
+          "median_gap_px_64": 11.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ир",
+          "count": 52,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "па",
+          "count": 52,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ок",
+          "count": 52,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "це",
+          "count": 52,
+          "median_gap_px_64": 10.69,
+          "current_kern": 0
+        },
+        {
+          "pair": "US",
+          "count": 52,
+          "median_gap_px_64": 11.44,
+          "current_kern": 0
+        },
+        {
+          "pair": "ai",
+          "count": 52,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьс",
+          "count": 51,
+          "median_gap_px_64": 18.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "iv",
+          "count": 51,
+          "median_gap_px_64": 13.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "MU",
+          "count": 51,
+          "median_gap_px_64": 6.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ST",
+          "count": 51,
+          "median_gap_px_64": 22.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ей",
+          "count": 50,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "пе",
+          "count": 50,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "rt",
+          "count": 50,
+          "median_gap_px_64": 21.59,
+          "current_kern": -20
+        },
+        {
+          "pair": "rs",
+          "count": 50,
+          "median_gap_px_64": 18.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ру",
+          "count": 50,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "fl",
+          "count": 50,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "аз",
+          "count": 49,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "еш",
+          "count": 49,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "di",
+          "count": 49,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ry",
+          "count": 49,
+          "median_gap_px_64": 27.59,
+          "current_kern": -20
+        },
+        {
+          "pair": "OS",
+          "count": 49,
+          "median_gap_px_64": 14.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ут",
+          "count": 48,
+          "median_gap_px_64": 28.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "if",
+          "count": 48,
+          "median_gap_px_64": 10.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "su",
+          "count": 47,
+          "median_gap_px_64": 11.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ио",
+          "count": 46,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ты",
+          "count": 46,
+          "median_gap_px_64": 17.94,
+          "current_kern": -25
+        },
+        {
+          "pair": "ят",
+          "count": 46,
+          "median_gap_px_64": 18.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ко",
+          "count": 46,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ch",
+          "count": 46,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "fe",
+          "count": 46,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "чи",
+          "count": 45,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ум",
+          "count": 45,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "мп",
+          "count": 45,
+          "median_gap_px_64": 5.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "сл",
+          "count": 45,
+          "median_gap_px_64": 23.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ue",
+          "count": 45,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ус",
+          "count": 44,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "жд",
+          "count": 44,
+          "median_gap_px_64": 26.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "ad",
+          "count": 44,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ly",
+          "count": 43,
+          "median_gap_px_64": 19.94,
+          "current_kern": -15
+        },
+        {
+          "pair": "ня",
+          "count": 42,
+          "median_gap_px_64": 9.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "вл",
+          "count": 42,
+          "median_gap_px_64": 18.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "сп",
+          "count": 42,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "pp",
+          "count": 42,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "яе",
+          "count": 41,
+          "median_gap_px_64": 7.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "ше",
+          "count": 41,
+          "median_gap_px_64": 7.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "си",
+          "count": 41,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ив",
+          "count": 41,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ir",
+          "count": 41,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "аб",
+          "count": 40,
+          "median_gap_px_64": 7.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "оч",
+          "count": 40,
+          "median_gap_px_64": 29.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "kf",
+          "count": 40,
+          "median_gap_px_64": 16.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "По",
+          "count": 39,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ым",
+          "count": 39,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ef",
+          "count": 39,
+          "median_gap_px_64": 11.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "cr",
+          "count": 39,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ll",
+          "count": 38,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ще",
+          "count": 38,
+          "median_gap_px_64": 11.38,
+          "current_kern": 0
+        },
+        {
+          "pair": "чн",
+          "count": 38,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "do",
+          "count": 38,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "bi",
+          "count": 38,
+          "median_gap_px_64": 8.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "pt",
+          "count": 38,
+          "median_gap_px_64": 11.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "mi",
+          "count": 38,
+          "median_gap_px_64": 6.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "rc",
+          "count": 38,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "be",
+          "count": 38,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ую",
+          "count": 37,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "bo",
+          "count": 37,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "sh",
+          "count": 37,
+          "median_gap_px_64": 10.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "са",
+          "count": 36,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "га",
+          "count": 36,
+          "median_gap_px_64": 26.12,
+          "current_kern": -30
+        },
+        {
+          "pair": "ег",
+          "count": 36,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "rm",
+          "count": 36,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "ча",
+          "count": 35,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ар",
+          "count": 35,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "вы",
+          "count": 35,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ае",
+          "count": 35,
+          "median_gap_px_64": 7.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ое",
+          "count": 35,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ag",
+          "count": 35,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "go",
+          "count": 35,
+          "median_gap_px_64": 8.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "NO",
+          "count": 35,
+          "median_gap_px_64": 9.47,
+          "current_kern": 0
+        },
+        {
+          "pair": "OT",
+          "count": 35,
+          "median_gap_px_64": 22.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "eg",
+          "count": 34,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "оз",
+          "count": 34,
+          "median_gap_px_64": 20.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ее",
+          "count": 34,
+          "median_gap_px_64": 11.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "мы",
+          "count": 34,
+          "median_gap_px_64": 5.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "Po",
+          "count": 34,
+          "median_gap_px_64": 34.94,
+          "current_kern": -30
+        },
+        {
+          "pair": "gn",
+          "count": 34,
+          "median_gap_px_64": 6.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "sc",
+          "count": 34,
+          "median_gap_px_64": 14.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "lu",
+          "count": 34,
+          "median_gap_px_64": 9.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "fu",
+          "count": 34,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "зм",
+          "count": 33,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "oc",
+          "count": 33,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "уп",
+          "count": 33,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "so",
+          "count": 33,
+          "median_gap_px_64": 14.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "лн",
+          "count": 33,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ip",
+          "count": 33,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "mm",
+          "count": 33,
+          "median_gap_px_64": 6.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "жн",
+          "count": 32,
+          "median_gap_px_64": 11.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "уе",
+          "count": 32,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "тн",
+          "count": 32,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "Th",
+          "count": 32,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "wh",
+          "count": 32,
+          "median_gap_px_64": 11.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "бе",
+          "count": 31,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "сс",
+          "count": 31,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "йс",
+          "count": 31,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "рн",
+          "count": 31,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "sa",
+          "count": 31,
+          "median_gap_px_64": 14.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "Pr",
+          "count": 31,
+          "median_gap_px_64": 34.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "щи",
+          "count": 31,
+          "median_gap_px_64": 10.38,
+          "current_kern": 0
+        },
+        {
+          "pair": "зн",
+          "count": 30,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рж",
+          "count": 30,
+          "median_gap_px_64": 14.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ОО",
+          "count": 30,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ну",
+          "count": 30,
+          "median_gap_px_64": 16.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "дл",
+          "count": 29,
+          "median_gap_px_64": 23.03,
+          "current_kern": -25
+        },
+        {
+          "pair": "аг",
+          "count": 29,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ез",
+          "count": 29,
+          "median_gap_px_64": 17.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "яв",
+          "count": 28,
+          "median_gap_px_64": 6.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "ад",
+          "count": 28,
+          "median_gap_px_64": 17.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ff",
+          "count": 28,
+          "median_gap_px_64": 25.12,
+          "current_kern": -20
+        },
+        {
+          "pair": "уч",
+          "count": 28,
+          "median_gap_px_64": 39.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ур",
+          "count": 28,
+          "median_gap_px_64": 20.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "fa",
+          "count": 28,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ui",
+          "count": 28,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "eu",
+          "count": 28,
+          "median_gap_px_64": 10.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "иц",
+          "count": 27,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "xe",
+          "count": 27,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "хо",
+          "count": 27,
+          "median_gap_px_64": 14.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "cl",
+          "count": 27,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "oo",
+          "count": 27,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рг",
+          "count": 26,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ют",
+          "count": 26,
+          "median_gap_px_64": 18.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "еб",
+          "count": 26,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ow",
+          "count": 26,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "кл",
+          "count": 26,
+          "median_gap_px_64": 19.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "вт",
+          "count": 26,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "нс",
+          "count": 25,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "cy",
+          "count": 25,
+          "median_gap_px_64": 28.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ид",
+          "count": 24,
+          "median_gap_px_64": 17.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "лж",
+          "count": 24,
+          "median_gap_px_64": 20.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "кр",
+          "count": 24,
+          "median_gap_px_64": 11.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "nu",
+          "count": 24,
+          "median_gap_px_64": 7.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "qu",
+          "count": 24,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "dg",
+          "count": 24,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рв",
+          "count": 23,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ст",
+          "count": 23,
+          "median_gap_px_64": 43.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ck",
+          "count": 23,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "оц",
+          "count": 23,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ru",
+          "count": 23,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "sp",
+          "count": 23,
+          "median_gap_px_64": 10.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "nf",
+          "count": 23,
+          "median_gap_px_64": 10.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "гл",
+          "count": 22,
+          "median_gap_px_64": 29.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ап",
+          "count": 22,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "гр",
+          "count": 22,
+          "median_gap_px_64": 25.12,
+          "current_kern": -30
+        },
+        {
+          "pair": "ры",
+          "count": 22,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ге",
+          "count": 22,
+          "median_gap_px_64": 26.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "др",
+          "count": 22,
+          "median_gap_px_64": 15.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "бн",
+          "count": 22,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ач",
+          "count": 22,
+          "median_gap_px_64": 29.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "бы",
+          "count": 22,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "их",
+          "count": 22,
+          "median_gap_px_64": 12.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "tf",
+          "count": 22,
+          "median_gap_px_64": 19.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "же",
+          "count": 22,
+          "median_gap_px_64": 13.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "нд",
+          "count": 21,
+          "median_gap_px_64": 17.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "зд",
+          "count": 21,
+          "median_gap_px_64": 20.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ех",
+          "count": 21,
+          "median_gap_px_64": 14.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "oa",
+          "count": 21,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ож",
+          "count": 21,
+          "median_gap_px_64": 14.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ee",
+          "count": 21,
+          "median_gap_px_64": 11.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "вк",
+          "count": 21,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рм",
+          "count": 20,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ср",
+          "count": 20,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "яз",
+          "count": 20,
+          "median_gap_px_64": 15.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "ён",
+          "count": 20,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "cc",
+          "count": 20,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "xt",
+          "count": 20,
+          "median_gap_px_64": 15.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "фи",
+          "count": 20,
+          "median_gap_px_64": 7.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "sk",
+          "count": 20,
+          "median_gap_px_64": 10.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ba",
+          "count": 20,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "фо",
+          "count": 19,
+          "median_gap_px_64": 9.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "пл",
+          "count": 19,
+          "median_gap_px_64": 12.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ги",
+          "count": 19,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "дн",
+          "count": 19,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ua",
+          "count": 19,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "tl",
+          "count": 19,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "лю",
+          "count": 19,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ья",
+          "count": 19,
+          "median_gap_px_64": 16.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "eq",
+          "count": 19,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ke",
+          "count": 19,
+          "median_gap_px_64": 12.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "ук",
+          "count": 18,
+          "median_gap_px_64": 16.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "хн",
+          "count": 18,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "су",
+          "count": 18,
+          "median_gap_px_64": 28.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ву",
+          "count": 18,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рп",
+          "count": 18,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "пи",
+          "count": 18,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "бя",
+          "count": 18,
+          "median_gap_px_64": 13.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ib",
+          "count": 18,
+          "median_gap_px_64": 6.34,
+          "current_kern": 0
+        },
+        {
+          "pair": "xp",
+          "count": 18,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "tm",
+          "count": 18,
+          "median_gap_px_64": 15.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ду",
+          "count": 17,
+          "median_gap_px_64": 27.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "оя",
+          "count": 17,
+          "median_gap_px_64": 13.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ьк",
+          "count": 17,
+          "median_gap_px_64": 12.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "AC",
+          "count": 17,
+          "median_gap_px_64": 19.22,
+          "current_kern": 0
+        },
+        {
+          "pair": "ущ",
+          "count": 17,
+          "median_gap_px_64": 18.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ащ",
+          "count": 17,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ft",
+          "count": 17,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ыт",
+          "count": 17,
+          "median_gap_px_64": 18.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "fr",
+          "count": 17,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ws",
+          "count": 17,
+          "median_gap_px_64": 14.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "wl",
+          "count": 17,
+          "median_gap_px_64": 11.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "up",
+          "count": 17,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "ki",
+          "count": 17,
+          "median_gap_px_64": 11.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "дё",
+          "count": 16,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "шн",
+          "count": 16,
+          "median_gap_px_64": 6.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "dm",
+          "count": 16,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "cs",
+          "count": 16,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ёт",
+          "count": 16,
+          "median_gap_px_64": 19.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "юч",
+          "count": 16,
+          "median_gap_px_64": 29.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "аж",
+          "count": 16,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "rd",
+          "count": 16,
+          "median_gap_px_64": 17.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "kn",
+          "count": 16,
+          "median_gap_px_64": 11.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ар",
+          "count": 15,
+          "median_gap_px_64": 15.22,
+          "current_kern": -25
+        },
+        {
+          "pair": "би",
+          "count": 15,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ео",
+          "count": 15,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "се",
+          "count": 15,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "хр",
+          "count": 15,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "tt",
+          "count": 15,
+          "median_gap_px_64": 19.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "wa",
+          "count": 15,
+          "median_gap_px_64": 13.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "зо",
+          "count": 15,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ex",
+          "count": 15,
+          "median_gap_px_64": 34.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ах",
+          "count": 15,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "На",
+          "count": 15,
+          "median_gap_px_64": 8.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "ря",
+          "count": 15,
+          "median_gap_px_64": 13.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ls",
+          "count": 15,
+          "median_gap_px_64": 11.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "зи",
+          "count": 14,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "бу",
+          "count": 14,
+          "median_gap_px_64": 17.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "Re",
+          "count": 14,
+          "median_gap_px_64": 12.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ob",
+          "count": 14,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "еж",
+          "count": 14,
+          "median_gap_px_64": 14.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "ящ",
+          "count": 14,
+          "median_gap_px_64": 6.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "юр",
+          "count": 14,
+          "median_gap_px_64": 7.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "ющ",
+          "count": 14,
+          "median_gap_px_64": 7.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "нк",
+          "count": 14,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "му",
+          "count": 14,
+          "median_gap_px_64": 15.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "RF",
+          "count": 14,
+          "median_gap_px_64": 8.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "am",
+          "count": 14,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "gs",
+          "count": 14,
+          "median_gap_px_64": 9.88,
+          "current_kern": 0
+        },
+        {
+          "pair": "Cu",
+          "count": 14,
+          "median_gap_px_64": 32.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "сц",
+          "count": 14,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ub",
+          "count": 14,
+          "median_gap_px_64": 6.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "wi",
+          "count": 14,
+          "median_gap_px_64": 11.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "oy",
+          "count": 14,
+          "median_gap_px_64": 17.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "бр",
+          "count": 13,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "Пр",
+          "count": 13,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "тк",
+          "count": 13,
+          "median_gap_px_64": 17.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "сн",
+          "count": 13,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "tw",
+          "count": 13,
+          "median_gap_px_64": 19.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "яю",
+          "count": 13,
+          "median_gap_px_64": 6.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "Or",
+          "count": 13,
+          "median_gap_px_64": 7.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "сы",
+          "count": 13,
+          "median_gap_px_64": 12.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ds",
+          "count": 13,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "рц",
+          "count": 13,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ew",
+          "count": 13,
+          "median_gap_px_64": 12.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "mu",
+          "count": 13,
+          "median_gap_px_64": 6.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "ay",
+          "count": 13,
+          "median_gap_px_64": 16.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "bs",
+          "count": 13,
+          "median_gap_px_64": 12.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ld",
+          "count": 13,
+          "median_gap_px_64": 12.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ыв",
+          "count": 12,
+          "median_gap_px_64": 6.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "ев",
+          "count": 12,
+          "median_gap_px_64": 8.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "аю",
+          "count": 12,
+          "median_gap_px_64": 6.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ох",
+          "count": 12,
+          "median_gap_px_64": 14.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "дс",
+          "count": 12,
+          "median_gap_px_64": 17.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "рш",
+          "count": 12,
+          "median_gap_px_64": 8.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "SH",
+          "count": 12,
+          "median_gap_px_64": 9.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "HO",
+          "count": 12,
+          "median_gap_px_64": 9.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "OU",
+          "count": 12,
+          "median_gap_px_64": 9.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "UL",
+          "count": 12,
+          "median_gap_px_64": 6.44,
+          "current_kern": 0
+        },
+        {
+          "pair": "LD",
+          "count": 12,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "II",
+          "count": 12,
+          "median_gap_px_64": 15.72,
+          "current_kern": 0
+        },
+        {
+          "pair": "pu",
+          "count": 12,
+          "median_gap_px_64": 8.81,
+          "current_kern": 0
+        },
+        {
+          "pair": "ud",
+          "count": 12,
+          "median_gap_px_64": 8.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "xi",
+          "count": 12,
+          "median_gap_px_64": 11.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "hy",
+          "count": 12,
+          "median_gap_px_64": 16.09,
+          "current_kern": 0
+        },
+        {
+          "pair": "og",
+          "count": 12,
+          "median_gap_px_64": 10.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "FQ",
+          "count": 12,
+          "median_gap_px_64": 32.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "ТК",
+          "count": 12,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "КП",
+          "count": 12,
+          "median_gap_px_64": 13.94,
+          "current_kern": 0
+        }
+      ],
+      "wide_unadjusted": [
+        {
+          "pair": "ct",
+          "count": 307,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "co",
+          "count": 234,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ce",
+          "count": 162,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ty",
+          "count": 141,
+          "median_gap_px_64": 24.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ca",
+          "count": 126,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ss",
+          "count": 110,
+          "median_gap_px_64": 20.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "со",
+          "count": 109,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "rv",
+          "count": 104,
+          "median_gap_px_64": 24.59,
+          "current_kern": 0
+        },
+        {
+          "pair": "Co",
+          "count": 99,
+          "median_gap_px_64": 33.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "AI",
+          "count": 80,
+          "median_gap_px_64": 24.22,
+          "current_kern": 0
+        },
+        {
+          "pair": "fi",
+          "count": 79,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ту",
+          "count": 74,
+          "median_gap_px_64": 27.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "ед",
+          "count": 72,
+          "median_gap_px_64": 22.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "fo",
+          "count": 59,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ку",
+          "count": 56,
+          "median_gap_px_64": 24.97,
+          "current_kern": 0
+        },
+        {
+          "pair": "ST",
+          "count": 51,
+          "median_gap_px_64": 22.75,
+          "current_kern": 0
+        },
+        {
+          "pair": "ру",
+          "count": 50,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "fl",
+          "count": 50,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ут",
+          "count": 48,
+          "median_gap_px_64": 28.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "fe",
+          "count": 46,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "сл",
+          "count": 45,
+          "median_gap_px_64": 23.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "жд",
+          "count": 44,
+          "median_gap_px_64": 26.56,
+          "current_kern": 0
+        },
+        {
+          "pair": "оч",
+          "count": 40,
+          "median_gap_px_64": 29.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "са",
+          "count": 36,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "OT",
+          "count": 35,
+          "median_gap_px_64": 22.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "fu",
+          "count": 34,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "оз",
+          "count": 34,
+          "median_gap_px_64": 20.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "Th",
+          "count": 32,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "Pr",
+          "count": 31,
+          "median_gap_px_64": 34.94,
+          "current_kern": 0
+        },
+        {
+          "pair": "сс",
+          "count": 31,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "уч",
+          "count": 28,
+          "median_gap_px_64": 39.5,
+          "current_kern": 0
+        },
+        {
+          "pair": "fa",
+          "count": 28,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ур",
+          "count": 28,
+          "median_gap_px_64": 20.0,
+          "current_kern": 0
+        },
+        {
+          "pair": "вт",
+          "count": 26,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "cy",
+          "count": 25,
+          "median_gap_px_64": 28.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "лж",
+          "count": 24,
+          "median_gap_px_64": 20.25,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ст",
+          "count": 23,
+          "median_gap_px_64": 43.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ач",
+          "count": 22,
+          "median_gap_px_64": 29.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "гл",
+          "count": 22,
+          "median_gap_px_64": 29.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ге",
+          "count": 22,
+          "median_gap_px_64": 26.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "зд",
+          "count": 21,
+          "median_gap_px_64": 20.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "cc",
+          "count": 20,
+          "median_gap_px_64": 22.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ги",
+          "count": 19,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "су",
+          "count": 18,
+          "median_gap_px_64": 28.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "ву",
+          "count": 18,
+          "median_gap_px_64": 21.31,
+          "current_kern": 0
+        },
+        {
+          "pair": "ду",
+          "count": 17,
+          "median_gap_px_64": 27.03,
+          "current_kern": 0
+        },
+        {
+          "pair": "ft",
+          "count": 17,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "fr",
+          "count": 17,
+          "median_gap_px_64": 21.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "юч",
+          "count": 16,
+          "median_gap_px_64": 29.66,
+          "current_kern": 0
+        },
+        {
+          "pair": "cs",
+          "count": 16,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "Ex",
+          "count": 15,
+          "median_gap_px_64": 34.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "се",
+          "count": 15,
+          "median_gap_px_64": 20.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "Cu",
+          "count": 14,
+          "median_gap_px_64": 32.78,
+          "current_kern": 0
+        },
+        {
+          "pair": "FQ",
+          "count": 12,
+          "median_gap_px_64": 32.91,
+          "current_kern": 0
+        },
+        {
+          "pair": "LD",
+          "count": 12,
+          "median_gap_px_64": 25.12,
+          "current_kern": 0
+        },
+        {
+          "pair": "ТК",
+          "count": 12,
+          "median_gap_px_64": 22.12,
+          "current_kern": 0
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Fixed old corpus snapshot, not current public or user data",
+    "Median gap is diagnostic not an optical rule",
+    "Windows deferred"
+  ]
+}

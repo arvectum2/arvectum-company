@@ -1,0 +1,74 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft061-Medium.otf",
+    "input_sha256": "6e595669c3b797ae802a954866edc8c74ce77306010e26bebf7f360a9c2bd94b",
+    "output": "ArvectumDisplayGoldenStepDraft064-Medium.otf",
+    "output_sha256": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+    "new_pairs": {
+      "ct": -15,
+      "ty": -15,
+      "rv": -20,
+      "Co": -30,
+      "Pr": -30,
+      "AI": -15,
+      "ту": -25,
+      "ут": -25,
+      "ку": -20,
+      "ед": -15,
+      "сл": -20,
+      "жд": -20,
+      "оч": -25,
+      "уч": -35
+    },
+    "old_kern_pairs": 71,
+    "new_kern_pairs": 14,
+    "total_kern_pairs": 85,
+    "same_glyphs_hmtx_OS2_hhea_GDEF": true,
+    "web": {
+      "woff": {
+        "file": "ArvectumDisplayGoldenStepDraft064-Medium.woff",
+        "sha256": "f67ba47c97730c465814447937cab62dfe33287f4136e8702076a4b5158cca38"
+      },
+      "woff2": {
+        "file": "ArvectumDisplayGoldenStepDraft064-Medium.woff2",
+        "sha256": "742b2b56fd47f80e047471a6ae8ef263883cdfd339feecf3dcb8dc4d11bd2912"
+      }
+    }
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft061-Regular.otf",
+    "input_sha256": "fa27aa88ac8ca12cbdcb45eba3e82a1d3b1e22d7f6b462d1c357f5036f6539d4",
+    "output": "ArvectumTextGoldenStepDraft064-Regular.otf",
+    "output_sha256": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74",
+    "new_pairs": {
+      "ct": -15,
+      "ty": -15,
+      "rv": -20,
+      "Co": -30,
+      "Pr": -30,
+      "AI": -15,
+      "ту": -25,
+      "ут": -25,
+      "ку": -20,
+      "ед": -15,
+      "сл": -20,
+      "жд": -20,
+      "оч": -25,
+      "уч": -35
+    },
+    "old_kern_pairs": 71,
+    "new_kern_pairs": 14,
+    "total_kern_pairs": 85,
+    "same_glyphs_hmtx_OS2_hhea_GDEF": true,
+    "web": {
+      "woff": {
+        "file": "ArvectumTextGoldenStepDraft064-Regular.woff",
+        "sha256": "7c3b177048b0e53085ed3451d7a6e9b55bed3f535429ab94fa4e616ac918de6f"
+      },
+      "woff2": {
+        "file": "ArvectumTextGoldenStepDraft064-Regular.woff2",
+        "sha256": "da842cfad176426211872ddb32120f3dd708e63d04b562d4f41dd255066dbd2d"
+      }
+    }
+  }
+}

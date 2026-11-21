@@ -1,0 +1,2 @@
+# BR-05 v0.64 — source and decision boundary
+Baseline v0.61 d9e9605 (212 shapes, 71 pairs). Experimental v0.63 geometry alternatives remain separate and NOT automatically inherited. v0.59 Win metric experiment remains excluded. The old v0.48 corpus snapshot is used only as frozen text frequency evidence. This is not a company strategy change or owner design approval. Approved Golden Vector/wordmark, older source directories, Inter OFL, pinned roadmap/history and production assets were not changed. Windows remains deferred under the owner's current priority.

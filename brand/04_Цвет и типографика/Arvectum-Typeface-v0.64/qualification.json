@@ -1,0 +1,127 @@
+{
+  "status": "DRAFT_KERNING_PROPOSAL",
+  "styles": {
+    "Display": {
+      "old_pairs_unchanged": 71,
+      "new_pairs": 14,
+      "new_pair_collisions": {},
+      "sample_widths": [
+        {
+          "text": "Структура. Документы и ключевые задачи.",
+          "before_units": 44135,
+          "after_units": 44090,
+          "saved_units": 45
+        },
+        {
+          "text": "Служба учёта, отчётность, участники работ.",
+          "before_units": 44241,
+          "after_units": 44171,
+          "saved_units": 70
+        },
+        {
+          "text": "Сроки, услуги, расходы и оплата.",
+          "before_units": 33271,
+          "after_units": 33251,
+          "saved_units": 20
+        },
+        {
+          "text": "Corporate activities — procurement, technology.",
+          "before_units": 45764,
+          "after_units": 45719,
+          "saved_units": 45
+        },
+        {
+          "text": "Creative company. Priorities & accuracy.",
+          "before_units": 38418,
+          "after_units": 38388,
+          "saved_units": 30
+        },
+        {
+          "text": "Анализ сайта, информация об организации.",
+          "before_units": 43357,
+          "after_units": 43357,
+          "saved_units": 0
+        },
+        {
+          "text": "Финансовые данные 1 250 000,00 ₽ и № 17/2026.",
+          "before_units": 49983,
+          "after_units": 49983,
+          "saved_units": 0
+        }
+      ],
+      "contours_hmtx_unchanged": 212,
+      "OS2_hhea_GDEF_unchanged": true,
+      "numeric_and_mkmk_controls": "PASS"
+    },
+    "Text": {
+      "old_pairs_unchanged": 71,
+      "new_pairs": 14,
+      "new_pair_collisions": {},
+      "sample_widths": [
+        {
+          "text": "Структура. Документы и ключевые задачи.",
+          "before_units": 43439,
+          "after_units": 43394,
+          "saved_units": 45
+        },
+        {
+          "text": "Служба учёта, отчётность, участники работ.",
+          "before_units": 44098,
+          "after_units": 44028,
+          "saved_units": 70
+        },
+        {
+          "text": "Сроки, услуги, расходы и оплата.",
+          "before_units": 32818,
+          "after_units": 32798,
+          "saved_units": 20
+        },
+        {
+          "text": "Corporate activities — procurement, technology.",
+          "before_units": 45337,
+          "after_units": 45292,
+          "saved_units": 45
+        },
+        {
+          "text": "Creative company. Priorities & accuracy.",
+          "before_units": 37959,
+          "after_units": 37929,
+          "saved_units": 30
+        },
+        {
+          "text": "Анализ сайта, информация об организации.",
+          "before_units": 42989,
+          "after_units": 42989,
+          "saved_units": 0
+        },
+        {
+          "text": "Финансовые данные 1 250 000,00 ₽ и № 17/2026.",
+          "before_units": 48726,
+          "after_units": 48726,
+          "saved_units": 0
+        }
+      ],
+      "contours_hmtx_unchanged": 212,
+      "OS2_hhea_GDEF_unchanged": true,
+      "numeric_and_mkmk_controls": "PASS"
+    }
+  },
+  "new_pairs": {
+    "ct": -15,
+    "ty": -15,
+    "rv": -20,
+    "Co": -30,
+    "Pr": -30,
+    "AI": -15,
+    "ту": -25,
+    "ут": -25,
+    "ку": -20,
+    "ед": -15,
+    "сл": -20,
+    "жд": -20,
+    "оч": -25,
+    "уч": -35
+  },
+  "scope": "frozen source corpus, inspected sample only",
+  "windows": "deferred"
+}
