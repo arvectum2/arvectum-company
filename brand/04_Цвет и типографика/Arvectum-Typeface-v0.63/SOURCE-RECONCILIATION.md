@@ -1,0 +1,3 @@
+# v0.63 — experiment-only source delta
+
+Based on v0.61 d9e9605, retaining the existing 71 kern pairs/style. Proposed shapes modify only З/д/л; 209 other glyphs and 212 advances remain intact. Golden geometric angles may be altered locally, so this cannot be accepted merely on pixel similarity improvement. Baseline vs candidate has mixed results (worse Display 12px and Text 16px). Original prior versions, Inter SIL OFL license materials, approved wordmark/logo, pinned Brand roadmap/history and Company/OS governance are unchanged. The owner deferred Windows qualification; no release/production or font installation was attempted.

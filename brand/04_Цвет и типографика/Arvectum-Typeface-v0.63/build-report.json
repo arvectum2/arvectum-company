@@ -1,0 +1,150 @@
+{
+  "Display": {
+    "source": "ArvectumDisplayGoldenStepDraft061-Medium.otf",
+    "sha_source": "6e595669c3b797ae802a954866edc8c74ce77306010e26bebf7f360a9c2bd94b",
+    "candidate": "ArvectumDisplayGoldenStepDraft063-Medium.otf",
+    "sha_candidate": "cfae2f087d3ea71753c33b163a583ee86842ee0c08567aad6f6858ca27c7ecbd",
+    "modified": {
+      "З": {
+        "prior": [
+          100,
+          -15,
+          1262,
+          1505
+        ],
+        "candidate": [
+          100.0,
+          -15,
+          1262.0,
+          1505
+        ],
+        "width": 1362,
+        "prior_lsb": 100,
+        "candidate_lsb": 100
+      },
+      "д": {
+        "prior": [
+          100,
+          -174,
+          1509,
+          1056
+        ],
+        "candidate": [
+          86,
+          -228,
+          1523,
+          1056
+        ],
+        "width": 1609,
+        "prior_lsb": 100,
+        "candidate_lsb": 86
+      },
+      "л": {
+        "prior": [
+          37,
+          0,
+          1268,
+          1056
+        ],
+        "candidate": [
+          37,
+          0,
+          1268,
+          1056
+        ],
+        "width": 1305,
+        "prior_lsb": 37,
+        "candidate_lsb": 37
+      }
+    },
+    "unchanged_glyphs": 209,
+    "widths_unchanged": 212,
+    "GPOS_unchanged": true,
+    "OS2_hhea_unchanged": true,
+    "production_approved": false,
+    "web": {
+      "woff": {
+        "file": "ArvectumDisplayGoldenStepDraft063-Medium.woff",
+        "sha256": "47232ad9b1d44d3daf34f20dc15d33bd20b8503532f85ca967169cddc01d7857"
+      },
+      "woff2": {
+        "file": "ArvectumDisplayGoldenStepDraft063-Medium.woff2",
+        "sha256": "a69ed306e426f58ecea3c077841cde42330da48d24f82e262c07fa8c5c02ff63"
+      }
+    }
+  },
+  "Text": {
+    "source": "ArvectumTextGoldenStepDraft061-Regular.otf",
+    "sha_source": "fa27aa88ac8ca12cbdcb45eba3e82a1d3b1e22d7f6b462d1c357f5036f6539d4",
+    "candidate": "ArvectumTextGoldenStepDraft063-Regular.otf",
+    "sha_candidate": "4e578984f4247b90eb93501795c77e3d3eb3704698e5d1a16504312c38473590",
+    "modified": {
+      "З": {
+        "prior": [
+          105,
+          -15,
+          1196,
+          1505
+        ],
+        "candidate": [
+          104.4,
+          -15,
+          1196.0,
+          1505
+        ],
+        "width": 1301,
+        "prior_lsb": 105,
+        "candidate_lsb": 104
+      },
+      "д": {
+        "prior": [
+          105,
+          -174,
+          1528,
+          1056
+        ],
+        "candidate": [
+          91,
+          -228,
+          1542,
+          1056
+        ],
+        "width": 1633,
+        "prior_lsb": 105,
+        "candidate_lsb": 91
+      },
+      "л": {
+        "prior": [
+          42,
+          0,
+          1150,
+          1118
+        ],
+        "candidate": [
+          42,
+          0,
+          1150,
+          1118
+        ],
+        "width": 1192,
+        "prior_lsb": 42,
+        "candidate_lsb": 42
+      }
+    },
+    "unchanged_glyphs": 209,
+    "widths_unchanged": 212,
+    "GPOS_unchanged": true,
+    "OS2_hhea_unchanged": true,
+    "production_approved": false,
+    "web": {
+      "woff": {
+        "file": "ArvectumTextGoldenStepDraft063-Regular.woff",
+        "sha256": "84356874949f58cb559cb2511b0856b9ad1fdc3dcfd584165becb924085477d7"
+      },
+      "woff2": {
+        "file": "ArvectumTextGoldenStepDraft063-Regular.woff2",
+        "sha256": "a1d78e9a41ae975144896694e4c3922c651704e12aff51e4ecccda013a9a4f18"
+      }
+    }
+  }
+}
