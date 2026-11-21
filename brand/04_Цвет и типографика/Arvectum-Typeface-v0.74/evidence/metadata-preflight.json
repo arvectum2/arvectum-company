@@ -1,0 +1,98 @@
+{
+  "status": "RELEASE_GATES_OPEN",
+  "input": "Golden Step v0.64 experimental OTF",
+  "fsType_spec": "https://learn.microsoft.com/typography/opentype/spec/os2",
+  "license_source": "v0.36/sources/LICENSE.txt, exact source release Inter 4.1",
+  "ofl_faq": "https://openfontlicense.org/ofl-faq/",
+  "font_software_rights": "Derived Inter SIL OFL 1.1; no exclusive proprietary font software claim",
+  "styles": {
+    "Display": {
+      "source": "ArvectumDisplayGoldenStepDraft064-Medium.otf",
+      "source_sha256": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+      "font_family": "Arvectum Display Golden Step Draft 064",
+      "family_chars": 38,
+      "legacy_GDI_family_name_length_over_31": true,
+      "PostScriptName": "ArvectumDisplayGoldenStepDraft064-Medium",
+      "name_ids": {
+        "0": "Derived from Inter, Copyright (c) 2016 The Inter Project Authors. SIL OFL 1.1. Arvectum reconstruction draft.",
+        "1": "Arvectum Display Golden Step Draft 064",
+        "2": "Medium",
+        "3": "ArvectumDisplayGoldenStepDraft064-Medium;64",
+        "4": "Arvectum Display Golden Step Draft 064 Medium",
+        "5": "Version 0.064",
+        "6": "ArvectumDisplayGoldenStepDraft064-Medium",
+        "8": null,
+        "9": null,
+        "11": null,
+        "13": "SIL Open Font License, Version 1.1",
+        "14": "https://openfontlicense.org/",
+        "16": null,
+        "17": null
+      },
+      "cff_notice": "Derived from Inter, Copyright (c) 2016 The Inter Project Authors; SIL OFL 1.1",
+      "vendor_id": "????",
+      "fsType_raw": 4,
+      "fsType_meaning": "Preview & Print only",
+      "codepoints": 212,
+      "gpos": [
+        "kern",
+        "mark",
+        "mkmk"
+      ],
+      "embedding_permissions_candidate": "fsType 0 requested for separate technical test, not legal signoff",
+      "manufacturer_name_missing": true,
+      "designer_name_missing": true,
+      "typeface_family_ID16_missing": true,
+      "typeface_style_ID17_missing": true
+    },
+    "Text": {
+      "source": "ArvectumTextGoldenStepDraft064-Regular.otf",
+      "source_sha256": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74",
+      "font_family": "Arvectum Text Golden Step Draft 064",
+      "family_chars": 35,
+      "legacy_GDI_family_name_length_over_31": true,
+      "PostScriptName": "ArvectumTextGoldenStepDraft064-Regular",
+      "name_ids": {
+        "0": "Derived from Inter, Copyright (c) 2016 The Inter Project Authors. SIL OFL 1.1. Arvectum reconstruction draft.",
+        "1": "Arvectum Text Golden Step Draft 064",
+        "2": "Regular",
+        "3": "ArvectumTextGoldenStepDraft064-Regular;64",
+        "4": "Arvectum Text Golden Step Draft 064 Regular",
+        "5": "Version 0.064",
+        "6": "ArvectumTextGoldenStepDraft064-Regular",
+        "8": null,
+        "9": null,
+        "11": null,
+        "13": "SIL Open Font License, Version 1.1",
+        "14": "https://openfontlicense.org/",
+        "16": null,
+        "17": null
+      },
+      "cff_notice": "Derived from Inter, Copyright (c) 2016 The Inter Project Authors; SIL OFL 1.1",
+      "vendor_id": "????",
+      "fsType_raw": 4,
+      "fsType_meaning": "Preview & Print only",
+      "codepoints": 212,
+      "gpos": [
+        "kern",
+        "mark",
+        "mkmk"
+      ],
+      "embedding_permissions_candidate": "fsType 0 requested for separate technical test, not legal signoff",
+      "manufacturer_name_missing": true,
+      "designer_name_missing": true,
+      "typeface_family_ID16_missing": true,
+      "typeface_style_ID17_missing": true
+    }
+  },
+  "required_decisions": [
+    "Owner approve final glyphs, kerning, font naming and brand use",
+    "Legal/licensing review of SIL OFL 1.1 derivative and copyright attribution",
+    "Resolve actual rights/attribution for manufacturer ID8 and designer ID9; do not invent",
+    "Evaluate embedding fsType 0 in controlled editable office documents before public release",
+    "Maintain separate temporary test names to avoid installed font cache collisions",
+    "Resolve 38/35-character GDI family names later in deferred Windows qualification",
+    "Review legal trademark/name and distribution jurisdiction/technology sovereignty",
+    "Do not publish or sign a release before reserved owner approval"
+  ]
+}

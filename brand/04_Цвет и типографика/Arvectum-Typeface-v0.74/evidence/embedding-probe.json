@@ -1,0 +1,26 @@
+{
+  "Display": {
+    "source": "ArvectumDisplayGoldenStepDraft064-Medium.otf",
+    "source_sha256": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+    "probe": "ArvectumDisplayGoldenStepDraft064-Medium-fsType0-TEST-ONLY.otf",
+    "probe_sha256": "a8e7389d6034a84b0b0ad73d616da3783895caa308952bb877fc2c7614126d25",
+    "fsType_before": 4,
+    "fsType_after": 0,
+    "outlines_unchanged": 212,
+    "metrics_and_GPOS_GDEF_unchanged": true,
+    "family_name_unchanged_collision_if_installed_together": true,
+    "actual_Windows_or_Word_embedded_editing_untested": true
+  },
+  "Text": {
+    "source": "ArvectumTextGoldenStepDraft064-Regular.otf",
+    "source_sha256": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74",
+    "probe": "ArvectumTextGoldenStepDraft064-Regular-fsType0-TEST-ONLY.otf",
+    "probe_sha256": "9069592c7f485370e72cd19767d1045ad77d6223bf73a43e065496d58b8b18a5",
+    "fsType_before": 4,
+    "fsType_after": 0,
+    "outlines_unchanged": 212,
+    "metrics_and_GPOS_GDEF_unchanged": true,
+    "family_name_unchanged_collision_if_installed_together": true,
+    "actual_Windows_or_Word_embedded_editing_untested": true
+  }
+}
