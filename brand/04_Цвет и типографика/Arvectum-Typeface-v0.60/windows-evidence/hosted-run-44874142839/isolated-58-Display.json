@@ -1,0 +1,13 @@
+{
+  "family": "Arvectum GS Display 058",
+  "family_length": 23,
+  "gdi_limit": 31,
+  "gdi_exact_family": true,
+  "registered": true,
+  "passed_to_CreateFont": "Arvectum GS Display 058",
+  "actual_face": "Arvectum GS Display 058",
+  "tmHeight": 57,
+  "tmAscent": 42,
+  "tmDescent": 15,
+  "tmExternalLeading": 0
+}

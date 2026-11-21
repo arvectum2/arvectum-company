@@ -1,0 +1,190 @@
+{
+  "status": "WINDOWS_PROBE_REQUIRES_REVIEW_NOT_RELEASE",
+  "utc": "2026-11-21T06:09:03.4198723Z",
+  "os": "Microsoft Windows NT 10.0.26100.0",
+  "powershell": "5.1.26100.33822",
+  "private_GDI_font_registration_auto_removed": true,
+  "machine_fonts_and_registry_untouched": true,
+  "results": [
+    {
+      "key": "58-Display-original",
+      "file": "original-58-Display.otf",
+      "family": "Arvectum Display Golden Step Draft 058",
+      "gdi": {
+        "family": "Arvectum Display Golden Step Draft 058",
+        "family_length": 38,
+        "gdi_limit": 31,
+        "gdi_exact_family": true,
+        "registered": true,
+        "passed_to_CreateFont": "Arvectum Display Golden Step Dr",
+        "actual_face": "Arvectum Display Golden Step Draft 058",
+        "tmHeight": 57,
+        "tmAscent": 42,
+        "tmDescent": 15,
+        "tmExternalLeading": 0
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 48.47666666666667,
+        "baseline": 35.86,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/ORIGINAL-58-DISPLAY.OTF"
+      }
+    },
+    {
+      "key": "58-Display-short",
+      "file": null,
+      "family": "Arvectum GS Display 058",
+      "gdi": {
+        "family": "Arvectum GS Display 058",
+        "family_length": 23,
+        "gdi_limit": 31,
+        "gdi_exact_family": false,
+        "registered": false,
+        "diagnostic": "Private registration failed (CFF unsupported?)"
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 48.47666666666667,
+        "baseline": 35.86,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/SHORT-58-DISPLAY.OTF"
+      }
+    },
+    {
+      "key": "58-Text-original",
+      "file": "original-58-Text.otf",
+      "family": "Arvectum Text Golden Step Draft 058",
+      "gdi": {
+        "family": "Arvectum Text Golden Step Draft 058",
+        "family_length": 35,
+        "gdi_limit": 31,
+        "gdi_exact_family": true,
+        "registered": true,
+        "passed_to_CreateFont": "Arvectum Text Golden Step Draft",
+        "actual_face": "Arvectum Text Golden Step Draft 058",
+        "tmHeight": 57,
+        "tmAscent": 42,
+        "tmDescent": 15,
+        "tmExternalLeading": 0
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 48.47666666666667,
+        "baseline": 35.86,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/ORIGINAL-58-TEXT.OTF"
+      }
+    },
+    {
+      "key": "58-Text-short",
+      "file": null,
+      "family": "Arvectum GS Text 058",
+      "gdi": {
+        "family": "Arvectum GS Text 058",
+        "family_length": 20,
+        "gdi_limit": 31,
+        "gdi_exact_family": false,
+        "registered": false,
+        "diagnostic": "Private registration failed (CFF unsupported?)"
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 48.47666666666667,
+        "baseline": 35.86,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/SHORT-58-TEXT.OTF"
+      }
+    },
+    {
+      "key": "59-Display-original",
+      "file": "original-59-Display.otf",
+      "family": "Arvectum Display Golden Step Draft 059",
+      "gdi": {
+        "family": "Arvectum Display Golden Step Draft 059",
+        "family_length": 38,
+        "gdi_limit": 31,
+        "gdi_exact_family": true,
+        "registered": true,
+        "passed_to_CreateFont": "Arvectum Display Golden Step Dr",
+        "actual_face": "Arvectum Display Golden Step Draft 059",
+        "tmHeight": 70,
+        "tmAscent": 47,
+        "tmDescent": 23,
+        "tmExternalLeading": 0
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 45.82,
+        "baseline": 34.53,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/ORIGINAL-59-DISPLAY.OTF"
+      }
+    },
+    {
+      "key": "59-Display-short",
+      "file": null,
+      "family": "Arvectum GS Display 059",
+      "gdi": {
+        "family": "Arvectum GS Display 059",
+        "family_length": 23,
+        "gdi_limit": 31,
+        "gdi_exact_family": false,
+        "registered": false,
+        "diagnostic": "Private registration failed (CFF unsupported?)"
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 45.82,
+        "baseline": 34.53,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/SHORT-59-DISPLAY.OTF"
+      }
+    },
+    {
+      "key": "59-Text-original",
+      "file": "original-59-Text.otf",
+      "family": "Arvectum Text Golden Step Draft 059",
+      "gdi": {
+        "family": "Arvectum Text Golden Step Draft 059",
+        "family_length": 35,
+        "gdi_limit": 31,
+        "gdi_exact_family": true,
+        "registered": true,
+        "passed_to_CreateFont": "Arvectum Text Golden Step Draft",
+        "actual_face": "Arvectum Text Golden Step Draft 059",
+        "tmHeight": 70,
+        "tmAscent": 47,
+        "tmDescent": 23,
+        "tmExternalLeading": 0
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 45.82,
+        "baseline": 34.53,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/ORIGINAL-59-TEXT.OTF"
+      }
+    },
+    {
+      "key": "59-Text-short",
+      "file": null,
+      "family": "Arvectum GS Text 059",
+      "gdi": {
+        "family": "Arvectum GS Text 059",
+        "family_length": 20,
+        "gdi_limit": 31,
+        "gdi_exact_family": false,
+        "registered": false,
+        "diagnostic": "Private registration failed (CFF unsupported?)"
+      },
+      "wpf": {
+        "resolved": true,
+        "height": 45.82,
+        "baseline": 34.53,
+        "diagnostic": null,
+        "glyph_face_uri": "file:///D:/A/ARVECTUM-COMPANY/ARVECTUM-COMPANY/BRAND/04_ЦВЕТ И ТИПОГРАФИКА/ARVECTUM-TYPEFACE-V0.60/QUALIFICATION-KIT/FONTS/SHORT-59-TEXT.OTF"
+      }
+    }
+  ]
+}

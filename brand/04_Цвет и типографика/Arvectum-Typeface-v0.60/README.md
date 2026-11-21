@@ -1,21 +1,27 @@
-# Golden Step v0.60 — Windows qualification evidence
+# Golden Step v0.60 — measured Windows compatibility qualification
 
-2026-11-21 | BR-05 | NO PRODUCTION RELEASE
+2026-11-21 | BR-05 | DIAGNOSTIC COMPLETED — NOT APPROVED FOR PRODUCTION
 
-The user's authorized Windows PC remains offline. A separate, disposable GitHub Actions Windows runner completed native Windows GDI and WPF measurements against v0.58/v0.59, with no system font installation. The first run (44873880503) failed before any font tests because Windows PowerShell 5.1 required a UTF-8 BOM. The second (44873944845) ran font probes successfully; its strict alias-acceptance rule failed as short-name aliases were not registered by GDI. The failure is REAL diagnostic evidence, not permission to declare all Windows tests failed.
+User Windows PC ArutyunovNS was offline (ARC windows-dev HTTP 530). Instead, disposable GitHub Actions Windows-latest runners executed the native GDI/WPF probes, without system-wide font installation.
 
-## Reproduced on hosted Windows runner
+## Measured Windows evidence
 
-- GDI original v0.58: tmHeight 57 px in both styles; original v0.59: 70 px. Increase **22.81%** — nearly the predicted 23.29% legacy Win-metric risk.
-- WPF original font line height: v0.58 **48.4767** px, v0.59 **45.82** px, a **5.48% decrease**. Both differ despite unchanged sTypo/hhea, so Mac/Chrome equivalence alone was insufficient.
-- Original long family names 38/35 chars were resolved correctly in each GDI private-font test despite the truncated 31-char CreateFontW request. This does not prove deterministic selection when multiple versions with a shared prefix coexist.
-- Short aliases 23/20 chars: all four loaded in WPF from their correct file URIs; GDI AddFontResourceExW returned zero in the sequential test. This might be CFF/name metadata or caching. An isolated fresh-process follow-up is defined in CI. Do not promote short aliases.
-- GDI raster PNGs and raw JSON are saved in windows-evidence. No Word/Excel/printing results were obtained from the hosted runner.
+Runs: 44873880503 (preflight failed before font tests: PowerShell 5.1 UTF-8 BOM), 44873944845 (valid GDI/WPF measurements but strict alias check failed), and 44874142839 (diagnostic PASS, fresh-process alias test).
 
-## Action and risk
+- Native Windows GDI GetTextMetricsW tmHeight: 57 px on original v0.58 vs 70 px on original v0.59, both styles. Relative change +22.81%.
+- Windows WPF FormattedText.Height: 48.4767 px on original v0.58 vs 45.82 px on original v0.59, both styles. Relative change -5.48%.
+- Original full family names, 38/35 characters, were resolved correctly by GDI GetTextFace in one-at-a-time private registrations, despite the 31-character CreateFontW request prefix.
+- Four short-name variants (23/20 characters) were loaded by WPF. GDI failed to register them after the original variants in one sequential process, but ALL FOUR registered and resolved to the exact short alias when tested in separate fresh Windows PowerShell processes. The precise reason for process-state sensitivity and behavior with simultaneous 058/059 variants remains unverified.
+- CFF outlines, horizontal advances, OS/2 and OpenType positioning tables for each short-name variant are identical to its original. The aliases are test-only, not owner-approved names.
 
-**Keep v0.58 the last working baseline; v0.59 is a NO-GO candidate for default corporate use pending owner decision.** Do not apply expanded Win metrics or shorter names automatically. Follow-up requires actual Windows Word and printing, coexistence/prefix test, and optic/layout acceptance. Hosted Windows is not the user's machine and the tests are not a substitute for Word validation.
+## Recommendation / decision boundary
 
-The portable kit includes exact v0.58/v0.59 originals, metadata-only alias probes, eight OTF, four synthetic DOCX, GDI native bridge, WPF probe, isolated fresh-process alias probe, ZIP and source hashes. GitHub Windows CI has read-only checkout and short retention. No approved logo/master, existing font version, pinned roadmap/history, Mac system fonts or production document template was changed.
+**NO-GO recommendation for making v0.59 the default corporate font.** The experimentally increased Windows clipping region produces a material GDI line-height regression, even though prior macOS CoreText/Chrome tests did not show it. Keep v0.58 as the latest working baseline, but do not misstate it as an owner-approved production release. A future explicit owner decision must weigh extreme diacritic stacks against real Word/Excel layout stability, printing and readability.
 
-References: Microsoft GDI LOGFONTW https://learn.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-logfontw and OpenType OS/2 https://learn.microsoft.com/en-us/typography/opentype/spec/os2 .
+A green hosted diagnostic test confirms the test executed and the findings were measured. It does not certify compatibility with the owner's offline Windows PC, Word for Windows, direct low-level DirectWrite API, PDF export or physical printing. Do not deploy fonts or rename their production families automatically.
+
+## Retention and reproduction
+
+The version contains eight test OTFs (four exact originals + four metadata-only short aliases), four synthetic DOCX, a portable ZIP, Python preparation scripts, process-private GDI/WPF probes in Windows PowerShell, an isolated GDI test, raw Windows JSON and PNG evidence, qualification documents and SHA-256 checksums. The Windows CI workflow is configured with read-only checkout and limited artifact retention. All historical font versions and approved Golden Vector/logo masters are unchanged.
+
+Standards: https://learn.microsoft.com/en-us/typography/opentype/spec/os2 and https://learn.microsoft.com/en-us/windows/win32/api/wingdi/ns-wingdi-logfontw

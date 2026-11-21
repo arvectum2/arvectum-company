@@ -3,8 +3,7 @@ on:
   push:
     branches: [brand/identity-v3]
     paths:
-      - 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/**'
-      - '!brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/windows-evidence/**'
+      - 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/**'
       - '.github/workflows/brand-golden-step-windows.yml'
   workflow_dispatch:
 permissions:
