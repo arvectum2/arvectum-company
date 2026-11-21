@@ -13,3 +13,6 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 
 - [x] SW-T009 Read-only comparison against live WSF-07A exact registry and launchd: 8 OS repository locators, 5 exact duplicate Company paths, 10/10 original tests plus focused deduplication tests.
 - [ ] SW-T010 Review/CI and activate a pinned deduplicated daily Company-only script; verify launchd, no duplicate read requests in synthetic test, unchanged WSF-07A service and report history, and a first successful natural scheduled run when API quota is available.
+
+- [x] SW-T011 Implemented and activated deduplicated source-watch script via Company PR #41; isolated Mac mini smoke PASS; OS collector and backup continuity verified; prior private source and report history preserved.
+- [ ] SW-T012 First successful actual automatic run after GitHub anonymous limit recovers, then review of changes and operational continuity. This is not accomplished by launchctl bootstrap or synthetic tests.
