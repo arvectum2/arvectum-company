@@ -189,3 +189,11 @@ Engineering plan: `arvectum2/arvectum-os:docs/roadmap/WORKSPACE-FIRST-DELIVERY.m
 ## Candidate engineering linkage — Spec Kit (2026-11-20)
 
 [Specification](../../specs/001-mission-control-roadmap-traceability/spec.md) · [Plan](../../specs/001-mission-control-roadmap-traceability/plan.md) · [Integration tasks](../../specs/001-mission-control-roadmap-traceability/tasks.md) · [Adoption register](../operations/SPEC-ADOPTION-REGISTER-2026-11-20.json). Draft Company review only. Existing roadmap status/version, authority and operational priorities unchanged; no runtime Mission Control admission.
+
+## Candidate source-freshness checkpoint — 2026-11-21
+
+The Owner requested automation of current project-status intake after seeing the 22-project traffic light in Mission Control. The current 2026-11-20 WSF-05 snapshot remains immutable and source-pinned; technical repository commits cannot be converted into business `DONE` or automatic approval.
+
+[Source-watch spec](../../specs/002-owner-project-source-watch/spec.md) · [Plan](../../specs/002-owner-project-source-watch/plan.md) · [Tasks](../../specs/002-owner-project-source-watch/tasks.md) · [Operating boundary](../operations/OWNER-PROJECT-SOURCE-WATCH-2026-11-21.md).
+
+First increment: a Company-owned bounded, anonymous read-only daily source-diff report for 22 projects/35 references. Current actual evidence shows 8 unchanged watched sources, 4 projects with only unrelated repo activity and 10 with incomplete/local/private/branch evidence. This is a **review candidate**, not a status update. New proposed Company stage/evidence review, source publication, OS WSF-05 exact admitted repin and actual Owner utility acceptance remain separately gated. No change to Company roadmap version, existing Owner-approved portfolio priority, AC-405/407 authority, AC-401…404 stores or currently admitted Workspace data is implied.
