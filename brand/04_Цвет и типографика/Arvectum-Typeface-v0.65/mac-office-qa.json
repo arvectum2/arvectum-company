@@ -1,0 +1,68 @@
+{
+  "061": {
+    "pages": 2,
+    "format": "A4",
+    "fonts_embedded": true,
+    "both_styles": "Type 1C CFF",
+    "pdf_sha256": "28eb42f50b6d877463065fa0a836792a7eb7bfffb6a4b9f834b723a44b8e35d1",
+    "docx_sha256": "6ff83e8f63b8cfaad6668a5c484b0cb80364afe0769b7f33f3802095d2581cc4",
+    "page_image_sizes": [
+      [
+        1281,
+        1813
+      ],
+      [
+        1281,
+        1813
+      ]
+    ],
+    "text_characters": 2472
+  },
+  "064": {
+    "pages": 2,
+    "format": "A4",
+    "fonts_embedded": true,
+    "both_styles": "Type 1C CFF",
+    "pdf_sha256": "a129c1ca8b4ae17fcc668b74e5d07dbe3dc1f918c40202ed9c8a7d811e2937b0",
+    "docx_sha256": "24e98d3cb115d26b45cd4065a2e0cb20b10f1743a71960eac129ab72639d7039",
+    "page_image_sizes": [
+      [
+        1281,
+        1813
+      ],
+      [
+        1281,
+        1813
+      ]
+    ],
+    "text_characters": 2473
+  },
+  "line_breaks": {
+    "identical_tokens_after_revision_normalization": true,
+    "one_paragraph_reflow_observed": true,
+    "subject": "Рабочие формулировки: ... участие команды",
+    "page_count_changed": false,
+    "diff": [
+      "--- v0.61",
+      "+++ v0.64",
+      "@@ -15,8 +15,8 @@",
+      " Предлагаем определить цели проекта, требования к результату и критерии приёмки.",
+      " Условия, стоимость и сроки определяются после согласования технического задания.",
+      " ",
+      "-Рабочие формулировки: структура, ключевые задачи, служба учёта, участие",
+      "-команды, документация и техническое сопровождение.",
+      "+Рабочие формулировки: структура, ключевые задачи, служба учёта, участие команды,",
+      "+документация и техническое сопровождение.",
+      " ",
+      " Corporate activities — procurement, technology and data. Creative teams, priorities and",
+      " clear communication."
+    ]
+  },
+  "limitations": [
+    "Native Pages tested on Mac mini only; no native Windows or Windows Word",
+    "Actual physical printer/paper not tested",
+    "Corporate offer is synthetic and not legally or stylistically approved",
+    "Visual screen review performed for both 2-page renderings; no reader panel",
+    "No release decision; selected kerning is experimental"
+  ]
+}
