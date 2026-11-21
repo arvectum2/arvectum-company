@@ -24,6 +24,12 @@ Updated 2026-11-21. A durable working-status document, not a revision of pinned 
 - v0.74: source font OS/2 `fsType=4` Preview & Print embedding limitation identified, isolated metadata-only `fsType=0` trial generated (NOT installed or released); family names and author metadata still require approval. Commit a19abc0.
 - v0.75: nine-section editable typography chapter for draft Brandbook 3.0, JSON/CSS token draft, five A4 native Pages PDF pages with exact CFF fonts embedded, real editable DOCX and SHA/source validation. Not the full approved brandbook. The owner's design, IP/naming, accessibility and release decisions remain open.
 
+## Исправленные носители v0.76 — Figma и VectorCraft
+- Историческая фактическая визитка обнаружена в `MacBook/Documents/Arvectum/Визитка` и в отправленных письмах Thunderbird от 1–2 августа 2026. Принятый типографией CMYK PDF/X-1a и SVG сохранены в частном архиве Mac mini без публикации персональных контактов.
+- В Figma создана отдельная редактируемая v0.76: https://www.figma.com/design/R7gjMXUwmpxg7zrZQ3vERp?node-id=3-2 . В VectorCraft проверен оригинальный 2-страничный печатный PDF и сохранены два новых нативных векторных документа. В Figma используется Inter-прокси для текста; точный Golden Step — в локальном WOFF2/PDF.
+- Исправлено измеренное перекрытие титула: 0px, зазор 63,8px; унифицированы H1=68px и lead=22px; подготовлен трёхстраничный визуальный раздел типографики. Исходные версии и мастер-логотипы не изменены.
+- Карточка v0.76 — **не новый утверждённый печатный файл**: требуется добавление согласованных контактов, CMYK/PDF-X/обрез и цветопроба. Открыты форма букв 3/З, р/е, согласование логоблока, права/метаданные Inter OFL и нативный экспорт PPTX. Windows отложена.
+
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.
 2. Review v0.63 alternative З/д/л forms and high 3/З ambiguity across small pixel sizes; reject or choose explicit modifications.

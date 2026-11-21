@@ -1,0 +1,134 @@
+{
+  "site-desktop": {
+    "source": "site/home.html",
+    "proof": "proofs/site-desktop.png",
+    "proof_size": 130392,
+    "viewport": 1440,
+    "content_metrics": {
+      "width": 1440,
+      "docWidth": 1440,
+      "fonts": {
+        "Display": true,
+        "Text": true
+      },
+      "images": [
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        },
+        {
+          "src": "../assets/monogram_navy.svg",
+          "complete": true,
+          "ok": true,
+          "width": 243
+        }
+      ]
+    },
+    "kind": "screenshot",
+    "status": "PASS_RENDER"
+  },
+  "site-mobile": {
+    "source": "site/home.html",
+    "proof": "proofs/site-mobile.png",
+    "proof_size": 106965,
+    "viewport": 390,
+    "content_metrics": {
+      "width": 390,
+      "docWidth": 390,
+      "fonts": {
+        "Display": true,
+        "Text": true
+      },
+      "images": [
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        },
+        {
+          "src": "../assets/monogram_navy.svg",
+          "complete": true,
+          "ok": true,
+          "width": 243
+        }
+      ]
+    },
+    "kind": "screenshot",
+    "status": "PASS_RENDER"
+  },
+  "slides": {
+    "source": "slides/deck.html",
+    "proof": "proofs/slides.pdf",
+    "proof_size": 95698,
+    "viewport": 1440,
+    "content_metrics": {
+      "width": 1440,
+      "docWidth": 1440,
+      "fonts": {
+        "Display": true,
+        "Text": true
+      },
+      "images": [
+        {
+          "src": "../assets/monogram_mint.svg",
+          "complete": true,
+          "ok": true,
+          "width": 243
+        },
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        },
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        }
+      ]
+    },
+    "kind": "pdf",
+    "status": "PASS_RENDER"
+  },
+  "typography-visual": {
+    "source": "guide/typography-visual.html",
+    "proof": "proofs/typography-visual.pdf",
+    "proof_size": 133609,
+    "viewport": 1100,
+    "content_metrics": {
+      "width": 1100,
+      "docWidth": 1100,
+      "fonts": {
+        "Display": true,
+        "Text": true
+      },
+      "images": [
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        },
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        },
+        {
+          "src": "../assets/lockup_ru.svg",
+          "complete": true,
+          "ok": true,
+          "width": 300
+        }
+      ]
+    },
+    "kind": "pdf",
+    "status": "PASS_RENDER"
+  }
+}

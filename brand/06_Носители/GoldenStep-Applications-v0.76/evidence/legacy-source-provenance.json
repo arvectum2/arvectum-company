@@ -1,0 +1,30 @@
+{
+  "source_folder": "/Users/master/ArvectumSafe/brand-reference-archive/2026-08-Arvectum-business-card",
+  "type": "private source preserved outside remote repository",
+  "received_from": "MacBook Documents/Arvectum/Визитка and outgoing Thunderbird Aug 1-2, 2026",
+  "original_print_shop_acceptance": "Aug 2 2026 accepted for print by Reglet",
+  "original_files_sha256": {
+    "Arvectum_business_card_PRINT_READY_PDFX1a_CMYK.pdf": "0aa1bf3b1bc696fea15abccbb7ef59225e88c2900e0342acdae14dcd3b51efdc",
+    "arvectum-business-card-ru.svg": "e01f5f98e31986286ef4c794025539085d3ba098b6f1a4136758659d2a9d0fd3",
+    "arvectum-business-card-en.svg": "b04ef66fca6e845e8a70310d476731ef9e922cab93047b3e7d70153932d44ca8",
+    "Arvectum_business_card_PRINT_READY_preview.png": "adebb722446c1a2c59f54b9d6bc24faf211e7c820b92a5fa02a6263543c31cf8"
+  },
+  "original_CMYK_PDFX1a": true,
+  "original_two_sides": true,
+  "original_print_trim_mm": [
+    90,
+    50
+  ],
+  "original_bleed_mm": 3,
+  "not_uploaded_to_Figma": true,
+  "source_PIInot_committed": true,
+  "Figma_URL": "https://www.figma.com/design/R7gjMXUwmpxg7zrZQ3vERp",
+  "Figma_node": "3:2",
+  "Figma_fonts": "Inter fallback; exact Golden Step in local HTML/PDF, Figma does not offer installed Golden Step",
+  "VectorCraft_native_editable_files": [
+    "arvectum-card-front-v076.vectorcraft",
+    "arvectum-card-back-v076.vectorcraft"
+  ],
+  "current_glyphs_approved": false,
+  "new_card_press_ready": false
+}
