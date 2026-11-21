@@ -14,11 +14,15 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 - [x] SW-T009 Read-only comparison against live WSF-07A exact registry and launchd: 8 OS repository locators, 5 exact duplicate Company paths, 10/10 original tests plus focused deduplication tests.
 - [ ] SW-T010 Review/CI and activate a pinned deduplicated daily Company-only script; verify launchd, no duplicate read requests in synthetic test, unchanged WSF-07A service and report history, and a first successful natural scheduled run when API quota is available.
 
-## GitHub API exhaustion contingency (candidate 2026-11-21)
+- [x] SW-T011 Implemented and activated deduplicated source-watch script via Company PR #41; isolated Mac mini smoke PASS; OS collector and backup continuity verified; prior private source and report history preserved.
+- [ ] SW-T012 First successful actual automatic run after GitHub anonymous limit recovers, then review of changes and operational continuity. This is not accomplished by launchctl bootstrap or synthetic tests.
+
+## GitHub API exhaustion contingency (approved transport, 2026-11-21)
 
 - [x] Prove anonymous Git smart HTTPS for canonical `main` reads without REST API.
 - [x] Implement allowlisted Git-first source evidence with exact predecessor diff and existing REST fallback in separate branch.
 - [x] Pass legacy and negative transport tests; run isolated candidate report against 22 projects.
-- [ ] Review exact diff, transport/security, private cache permissions and source assurance against approved governance.
-- [ ] Obtain separate Owner approval before repinning the live Company watch launchd release.
-- [ ] Admit read-only Company candidate report input into Mission Control through explicit contract, preserving WSF-07A and WSF-05 authority boundaries.
+- [x] Review exact diff, transport/security, private cache permissions and source assurance against approved governance; Owner authorization captured as DECISION-2026-11-21-SOURCE-WATCH-GIT-FAILOVER.
+- [ ] Publish approved PR, repin the installed source-watch script + sidecar under a controlled launchd window, then verify hash, ownership, read-only Git evidence, previous report preservation and rollback materials.
+- [ ] Confirm natural scheduled Git-first run at the existing daily cadence; a manual kickstart is not proof of natural scheduled execution.
+- [ ] Admit read-only Company candidate report input into Mission Control only through a separate explicit contract, preserving WSF-07A and WSF-05 authority boundaries.
