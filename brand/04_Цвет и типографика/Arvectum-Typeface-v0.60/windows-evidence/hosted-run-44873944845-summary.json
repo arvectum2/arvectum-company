@@ -1,0 +1,38 @@
+{
+  "source": "GitHub Actions windows-latest, run 44873944845, commit 7733694",
+  "status": "QUALIFICATION_CANDIDATE_REJECTED / SOURCE_PROBE_DIAGNOSTICS",
+  "first_run_encoding_failure": "44873880503 — parser error before font testing",
+  "second_run_exit": "failure in strict alias acceptance: originals GDI and WPF worked, short aliases GDI private registration failed",
+  "styles": {
+    "Display": {
+      "GDI_v58_px": 57,
+      "GDI_v59_px": 70,
+      "GDI_height_change_pct": 22.81,
+      "WPF_v58_px": 48.47666666666667,
+      "WPF_v59_px": 45.82,
+      "WPF_change_pct": -5.48,
+      "GDI_original_exact_resolved": true,
+      "GDI_short_alias_registration": {
+        "58-Display-short": false,
+        "59-Display-short": false
+      },
+      "WPF_loaded_all_four": true
+    },
+    "Text": {
+      "GDI_v58_px": 57,
+      "GDI_v59_px": 70,
+      "GDI_height_change_pct": 22.81,
+      "WPF_v58_px": 48.47666666666667,
+      "WPF_v59_px": 45.82,
+      "WPF_change_pct": -5.48,
+      "GDI_original_exact_resolved": true,
+      "GDI_short_alias_registration": {
+        "58-Text-short": false,
+        "59-Text-short": false
+      },
+      "WPF_loaded_all_four": true
+    }
+  },
+  "no_Word_or_physical_print": true,
+  "no_owner_approval": true
+}

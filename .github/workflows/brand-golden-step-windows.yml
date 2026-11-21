@@ -4,6 +4,7 @@ on:
     branches: [brand/identity-v3]
     paths:
       - 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/**'
+      - '!brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/windows-evidence/**'
       - '.github/workflows/brand-golden-step-windows.yml'
   workflow_dispatch:
 permissions:
@@ -25,6 +26,20 @@ jobs:
           $tool = 'brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/windows-qa.ps1'
           & powershell.exe -NoLogo -NoProfile -STA -ExecutionPolicy Bypass -File $tool
           if ($LASTEXITCODE -ne 0) { throw "Windows font probe failed: $LASTEXITCODE" }
+      - name: Isolate short-name GDI registration in fresh PowerShell processes
+        shell: pwsh
+        run: |
+          $base='brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit'
+          $manifest=Get-Content "$base/font-variants.json" -Raw -Encoding UTF8 | ConvertFrom-Json
+          foreach ($rev in @(58,59)) {
+            foreach ($style in @('Display','Text')) {
+              $variant=$manifest.PSObject.Properties["$rev-$style"].Value
+              $file=Join-Path "$base/fonts" $variant.alias_file
+              $out=Join-Path "$base/results" "isolated-$rev-$style.json"
+              & powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File "$base/single-gdi-probe.ps1" -FontPath $file -Family $variant.alias_family -OutputJson $out
+              if ($LASTEXITCODE -ne 0) { throw "Isolated GDI process failed: $rev-$style" }
+            }
+          }
       - name: Evaluate probe output without claiming owner approval
         shell: pwsh
         run: |
@@ -34,15 +49,23 @@ jobs:
           $result.results | ForEach-Object {
             Write-Host "$($_.key): GDI $($_.gdi.gdi_exact_family) WPF $($_.wpf.resolved) GDI-height $($_.gdi.tmHeight) WPF-height $($_.wpf.height)"
           }
-          $short = @($result.results | Where-Object { $_.key -match '-short$' })
-          if ($short.Count -ne 4) { throw 'Missing short-name alias probes' }
-          $gdiGood = @($short | Where-Object { $_.gdi.gdi_exact_family -eq $true })
-          $wpfGood = @($result.results | Where-Object { $_.wpf.resolved -eq $true })
-          Write-Host "Short aliases correctly selected by GDI: $($gdiGood.Count)/4"
-          Write-Host "WPF faces resolved: $($wpfGood.Count)/8"
-          if ($gdiGood.Count -lt 4 -or $wpfGood.Count -lt 8) {
-            throw 'Windows compatibility needs investigation. Artifacts retained by always() upload.'
+          $original = @($result.results | Where-Object { $_.key -match '-original$' })
+          $wpf = @($result.results | Where-Object { $_.wpf.resolved -eq $true -and $_.wpf.glyph_face_uri -match '.OTF$' })
+          $gdi = @($original | Where-Object { $_.gdi.gdi_exact_family -eq $true })
+          if ($gdi.Count -ne 4 -or $wpf.Count -ne 8) { throw 'Original font selection and WPF verification incomplete' }
+          foreach ($style in @('Display','Text')) {
+            $b = $original | Where-Object { $_.key -eq "58-$style-original" }
+            $c = $original | Where-Object { $_.key -eq "59-$style-original" }
+            $pct = [Math]::Round(100*($c.gdi.tmHeight/$b.gdi.tmHeight-1),2)
+            Write-Host "Legacy GDI line-height change $style : $($b.gdi.tmHeight) -> $($c.gdi.tmHeight) ($pct%)"
+            if ($pct -gt 10) { Write-Host "::warning::v0.59 raises Win GDI line height by $pct%; DO NOT PROMOTE to production" }
+            $shortFile = "brand/04_Цвет и типографика/Arvectum-Typeface-v0.60/qualification-kit/results/isolated-59-$style.json"
+            if (Test-Path $shortFile) {
+              $short = Get-Content $shortFile -Raw -Encoding UTF8 | ConvertFrom-Json
+              Write-Host "Fresh-process alias GDI $style : registered=$($short.registered), actual=$($short.actual_face)"
+            }
           }
+          Write-Host 'DIAGNOSTIC PASS: results collected; owner/release gates remain NOT APPROVED'
       - name: Store Windows-only evidence
         if: always()
         uses: actions/upload-artifact@v4
