@@ -21,3 +21,6 @@ The Owner Mission Control currently displays the source-pinned 2026-11-20 queue:
 ## Acceptance
 
 Exact pinned baseline, unit tests and CI; real live-source scan, private output; actual scheduled-run evidence, no grants or live source mutation. Actual Owner use and real business acceptance remain separate.
+
+- SW-R010: No duplicate public file fetch for exact canonical WSF-07A already-registered paths. Record the OS registry identifier and delegated coverage, but do not invent collector health, commit freshness, approval, or an implicit cross-runtime read grant.
+- SW-R011: No anonymous `main` polling for local-only or branch-qualified source refs; do not claim main HEAD verifies these sources. Continue preserving their explicit unknown evidence and expose extra canonical file paths independently.
