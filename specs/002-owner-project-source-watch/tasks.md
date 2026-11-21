@@ -16,3 +16,13 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 
 - [x] SW-T011 Implemented and activated deduplicated source-watch script via Company PR #41; isolated Mac mini smoke PASS; OS collector and backup continuity verified; prior private source and report history preserved.
 - [ ] SW-T012 First successful actual automatic run after GitHub anonymous limit recovers, then review of changes and operational continuity. This is not accomplished by launchctl bootstrap or synthetic tests.
+
+## GitHub API exhaustion contingency (approved transport, 2026-11-21)
+
+- [x] Prove anonymous Git smart HTTPS for canonical `main` reads without REST API.
+- [x] Implement allowlisted Git-first source evidence with exact predecessor diff and existing REST fallback in separate branch.
+- [x] Pass legacy and negative transport tests; run isolated candidate report against 22 projects.
+- [x] Review exact diff, transport/security, private cache permissions and source assurance against approved governance; Owner authorization captured as DECISION-2026-11-21-SOURCE-WATCH-GIT-FAILOVER.
+- [ ] Publish approved PR, repin the installed source-watch script + sidecar under a controlled launchd window, then verify hash, ownership, read-only Git evidence, previous report preservation and rollback materials.
+- [ ] Confirm natural scheduled Git-first run at the existing daily cadence; a manual kickstart is not proof of natural scheduled execution.
+- [ ] Admit read-only Company candidate report input into Mission Control only through a separate explicit contract, preserving WSF-07A and WSF-05 authority boundaries.

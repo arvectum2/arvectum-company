@@ -2,7 +2,7 @@
 """Company-owned, read-only monitor of changes to canonical project source refs.
 
 It NEVER derives a new business status, updates an approved queue, or grants authority.
-No GitHub credentials, write API, repository checkout, or shell execution is used.
+No GitHub credentials, write API, working-tree checkout, or shell execution is used.
 """
 from __future__ import annotations
 import argparse
@@ -353,7 +353,15 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, help="private append-only candidate reports; no live runtime write")
     args = parser.parse_args()
     baseline = load_baseline(args.baseline)
-    report = collect_evidence(baseline)
+    if args.output_dir:
+        # launchd uses python -I: admit exactly the co-located pinned source module.
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from source_watch_git import GitPublicEvidence
+        source = GitPublicEvidence(args.output_dir.resolve().parent/"git-source-cache", baseline, github_public_json)
+        report = collect_evidence(baseline, fetch=source.fetch)
+    else:
+        report = collect_evidence(baseline)
     if args.output_dir:
         json_path, md_path = safe_save(args.output_dir, report)
         print("REPORT", json_path)
