@@ -1,0 +1,66 @@
+{
+  "status": "DRAFT_EVIDENCE_NOT_OWNER_APPROVAL",
+  "source_versions": [
+    "v0.61",
+    "v0.63",
+    "v0.64"
+  ],
+  "pages": 4,
+  "page_size": "A4",
+  "six_embedded_fonts": {
+    "ArvectumDisplayGoldenStepDraft061-Medium": true,
+    "ArvectumTextGoldenStepDraft061-Regular": true,
+    "ArvectumDisplayGoldenStepDraft063-Medium": true,
+    "ArvectumTextGoldenStepDraft063-Regular": true,
+    "ArvectumDisplayGoldenStepDraft064-Medium": true,
+    "ArvectumTextGoldenStepDraft064-Regular": true
+  },
+  "page_images": [
+    {
+      "file": "review-page-1.png",
+      "size": [
+        1281,
+        1813
+      ],
+      "sha256": "2401ac72822079adfb7cb8e622d423be6c5bbdb519e44d599fd3dd758122ff95"
+    },
+    {
+      "file": "review-page-2.png",
+      "size": [
+        1281,
+        1813
+      ],
+      "sha256": "cb04023b82b92fcc2f6b231c30a285eba997395cd2a76a094d989abf9e36e64c"
+    },
+    {
+      "file": "review-page-3.png",
+      "size": [
+        1281,
+        1813
+      ],
+      "sha256": "4b92ba5ff5fa0f674a6e0c63fb8c51016a25e0c36906bca6d08138a362512f45"
+    },
+    {
+      "file": "review-page-4.png",
+      "size": [
+        1281,
+        1813
+      ],
+      "sha256": "cf7c8562e58e9e3478f49f8e834db90c8cdf650e8d0f32fc691fce24c576cbe9"
+    }
+  ],
+  "pdf_sha256": "2344e77bd4552727bebcae9daf722812cfa13a8d6db2219b18d2be0364e14aca",
+  "owner_choices": [
+    "v0.63 optical candidates require human judgment",
+    "v0.64 85-pair kern candidate",
+    "Small glyph readability",
+    "SIL OFL packaging and public name",
+    "Windows postponed"
+  ],
+  "limitations": [
+    "No owner approval",
+    "No publication",
+    "Mac CoreText only",
+    "No actual paper print"
+  ]
+}
