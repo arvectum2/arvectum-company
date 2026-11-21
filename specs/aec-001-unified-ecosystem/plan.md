@@ -80,3 +80,8 @@ Complete source-to-runtime inventory and explicit gaps; measured pilot equivalen
 ## Next business-first evidence boundary
 
 After exact source-copy review the catalog maps 41/58 script sources. The remaining 17 include two stateful WAL receivers, backup, product serving and host utilities; do not create new Product nodes solely to eliminate UNKNOWNs. Review data recovery and product/customer exposure first, then inspect permitted release/source identity. A structural backup manifest and success state are **not** a restored database. See source-copy-reconciliation.md, remaining-service-triage.md and backup-readiness-review.md.
+
+
+## WAL retention and recovery policy decision (not automatically implemented)
+
+An offline auditor proves local WAL filename-range continuity only and explicitly blocks PITR acceptance when the observed backup artifacts are logical pg_dump files without independently verified compatible physical base backup. Observed WAL allocation is about 39.7 GiB across the two receivers; repeated evidence is needed for retention/capacity forecasts. See wal-pitr-recovery-gate.md. Next safe business step is to define owner-approved RPO/RTO and, after separate authorization, test an isolated logical dump restore before deciding if physical PITR justifies the cost. No deletion, replication slot change or new background monitor is authorized.

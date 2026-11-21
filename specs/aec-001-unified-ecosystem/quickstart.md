@@ -168,3 +168,21 @@ No script content is published. Content equality alone does not certify the curr
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-backup-metadata-private.json"
 
 The tool reads only bounded JSON/short SHA256SUMS manifest text and file attributes, not PostgreSQL dump content. **STRUCTURAL_BACKUP_EVIDENCE** is not a completed restore or a verified archive digest. Do not treat it as accepted RPO/RTO, customer readiness, or permission to restart/modify any data-bearing service. See backup-readiness-review.md.
+
+## Private, read-only WAL filename/size metadata and recovery gate
+
+Inspect only Docker metadata and WAL file name, length and timestamps (no WAL content or database connection). Both container identifiers must be obtained from the private inventory on Mac mini and supplied locally as AEC001_WAL_CONTAINER_A / AEC001_WAL_CONTAINER_B; do not commit their values into this public repository:
+
+    python3 tools/aec001_wal_metadata.py \
+      --container "$AEC001_WAL_CONTAINER_A" \
+      --container "$AEC001_WAL_CONTAINER_B" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-wal-metadata-private.json"
+
+Combine the WAL metadata and existing bounded logical backup metadata reports into a pessimistic recovery-decision report:
+
+    python3 tools/aec001_recovery_gate.py \
+      --wal "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-wal-metadata-private.json" \
+      --backup "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-backup-metadata-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-recovery-gate-private.json"
+
+A CONTIGUOUS_OBSERVED_FILENAMES status proves no gaps in the visible local filenames, not a valid WAL recovery chain. A logical pg_dump cannot serve as a filesystem-level base backup for PostgreSQL PITR. RECOVERY_NOT_VERIFIED means no approved recovery test has taken place; no deletion/rotation, live service changes, new jobs or restoration are permitted from this audit. See wal-pitr-recovery-gate.md.

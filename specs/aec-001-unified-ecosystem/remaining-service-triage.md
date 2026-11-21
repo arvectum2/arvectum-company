@@ -13,6 +13,10 @@ Status: **candidate review order**, not an approved Company/Product priority or 
 
 These groupings are hypotheses derived from label and static wrapper roles, not an independent Product-owner or security audit. Do not treat 17 unmatched scripts as 17 missing Git projects.
 
+## Status after WAL metadata sample
+
+The two stateful WAL receiver records remain source-Git UNKNOWN but have additional runtime filesystem evidence: one private WAL bind directory per running container, roughly 39.7 GiB combined observed allocation, one in-progress partial segment each, and zero missing segment filenames in the sampled ranges. This does not change the 41/58 source-provenance score or grant health/PITR PASS. Their priority now hinges on Product RPO/RTO and evidence for a physical base backup or independently verified logical restore; see wal-pitr-recovery-gate.md.
+
 ## Safe next sequence
 
 1. Verify data-bearing WAL receiver volume/image provenance and isolated recovery, with no container restarts or stateful commands. Their running Docker image identities and SSD bind mounts have been observed but no Git source trace was established.

@@ -72,7 +72,14 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-051 Verify latest actual host and Docker PostgreSQL backup state and manifest structure on Mac mini: 5 host and 5 Docker dumps; private owner-only files. No large dump hash recalculation, DB restore or RPO/RTO acceptance.
 - [x] AEC-001-052 Read-only inspect two running WAL receiver containers, observe image IDs and SSD bind mounts, without inferring Git origin, data recoverability or health.
 - [x] AEC-001-053 Prioritize the 17 remaining unresolved source records into five hypothetical business-risk review areas (not approved authority/portfolio priority).
-- [ ] AEC-001-054 Verify WAL receiver backup chain and perform explicitly authorized isolated restoration of selected critical data under approved customer/tenant/RPO/RTO constraints.
+- [ ] AEC-001-054 Verify WAL receiver backup chain and perform explicitly authorized isolated restoration of selected critical data under approved customer/tenant/RPO/RTO constraints. PARTIAL: both receiver WAL filename ranges contiguous, but physical base backup and restoration UNVERIFIED; pg_dump is not a PITR base.
+
+## P1g — WAL metadata / PITR decision safety
+
+- [x] AEC-001-055 Build a bounded read-only WAL metadata inspector for both Docker receivers with 16 MiB naming arithmetic, gap/timeline/partial/permissions checks and offline negative tests. Observed: 1,305 + 1,231 complete segment names; one partial each; zero gaps within sampled sequences; about 39.7 GiB allocated. No WAL byte-read or restore.
+- [x] AEC-001-056 Build an offline recovery gate rejecting logical pg_dump plus contiguous WAL filenames as PITR evidence. Compatible physical base backup, database system ID, backup start WAL/LSN and isolated restore remain UNKNOWN; result RECOVERY_NOT_VERIFIED.
+- [ ] AEC-001-057 Establish accountable Product/Company RPO/RTO and explicitly approve an isolated restore of a selected logical database dump; measure functional recovery before deciding if PITR adds real value.
+- [ ] AEC-001-058 If justified and separately approved, verify physical base backup, timeline/required WAL, independent storage and perform isolated PITR drill; agree retention, cost, rights and rollback before any live backup or WAL changes.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

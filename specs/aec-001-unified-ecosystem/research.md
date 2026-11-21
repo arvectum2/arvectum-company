@@ -104,6 +104,12 @@ An exact installed launcher file-versus-Git HEAD blob comparison observed sixtee
 
 The latest host backup at 2026-11-21 00:30:52 UTC and Docker PostgreSQL backup at 00:47:12 UTC reported ok, with structurally complete manifests and **five nonempty database dumps each**, owner-only source files. No large dump bytes were read or rehashed, no recovery was attempted, and Product/Owner RPO/RTO approval remains unestablished; see backup-readiness-review.md. Both WAL receiver containers had running image/SSD bind observations, but no source Git identity, data chain or restore result was inferred. Five hypothesis-only review areas prioritize the remaining seventeen: see remaining-service-triage.md.
 
+## WAL continuity and independent recovery gates (AEC-001-055—058)
+
+Read-only Docker inspect and WAL directory metadata checks found two running receivers, each with a private SSD WAL bind directory, one ongoing partial segment, a single timeline and contiguous numeric full-segment filenames within the observed range (Tender-side 1,305; Data Platform-side 1,231). Observed combined file allocation was approximately 39.7 GiB. This proves only naming/file-size continuity within the sampled directories, NOT WAL byte integrity, earlier history, receiver lag, a durable standby or recoverability. See wal-pitr-recovery-gate.md.
+
+The backup-producing scripts sampled use logical pg_dump/pg_dumpall, which PostgreSQL 18 explicitly excludes as a filesystem-level base backup usable for replay of archived WAL (https://www.postgresql.org/docs/18/continuous-archiving.html). No compatible physical backup was independently confirmed, and no isolated restore was performed. The new offline recovery gate returned RECOVERY_NOT_VERIFIED; it does not associate receivers with logical backups or invent Product RPO/RTO. A Product/Company cost/obligation decision must precede any separate physical PITR investment. No files, slots, retention settings or services were modified.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

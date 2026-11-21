@@ -28,6 +28,10 @@ Tool tools/aec001_backup_metadata.py validates bounded state and manifest struct
 
 Both backup roots are private 0700; an intermediate host-postgres directory uses 0755 but sits beneath the private root. No group/world-readable dump file was observed; tightening directory permissions requires separate operational change review.
 
+## WAL/PITR is a distinct recovery mode
+
+Both running WAL receiver directories have read-only positive filename-contiguity observations, but PostgreSQL requires a compatible physical base backup for point-in-time WAL replay. The sampled host/Docker backup scripts create logical pg_dump backups, so the current audit has no proven pairing of physical baseline and WAL chain. Do not infer that a restore of a logical dump can be followed by WAL replay. The bounded decision is RECOVERY_NOT_VERIFIED, not a claim that all data is unrecoverable. See wal-pitr-recovery-gate.md for sources, volume, restrictions and acceptance steps.
+
 ## Explicitly UNKNOWN
 
 - Full backup dataset scope across all material services, independent/offsite copies, policy retention and recoverable point-in-time coverage; only two latest local manifest structures were sampled.

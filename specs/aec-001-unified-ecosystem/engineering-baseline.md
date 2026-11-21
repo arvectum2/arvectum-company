@@ -66,3 +66,8 @@ Runtime provenance evidence has been expanded from 23 to 31 Git-linked observati
 ## Exact installed script and backup evidence boundary
 
 Read-only source-copy matching now raises the evidenced repository associations from 31 to 41 of 58. See source-copy-reconciliation.md and remaining-service-triage.md. Two latest backup generations have structurally complete manifests and owner-only dump files, but independently validated digest, isolated recovery and Product RPO/RTO remain **UNKNOWN**. The audit makes no backup readiness or financial return claim.
+
+
+## Operational WAL evidence is not recovery authority
+
+The WAL metadata auditor and offline recovery decision gate distinguish contiguous observed filenames from a recovery-capable WAL chain, and PostgreSQL logical dumps from compatible physical base backups. The real receivers show approximately 39.7 GiB of WAL file allocation, but no independently demonstrated PITR restore or approved RPO/RTO. See wal-pitr-recovery-gate.md. Never automatically delete WAL, promote health or change storage policy as a side effect of the read-only audit.
