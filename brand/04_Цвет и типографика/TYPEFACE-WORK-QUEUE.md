@@ -18,6 +18,12 @@ Updated 2026-11-21. A durable working-status document, not a revision of pinned 
 - v0.70: actual Chrome DevTools emulated responsive 390/768/1440px, no document overflow, stacked full financial values on mobile, saved screenshots.
 - v0.71: Mac kern-only quality gate: PASS v0.61/v0.64, intended BLOCK v0.59 OS/2 and v0.63 altered glyphs. Historical 59 predecessor folders, 35 manifests and 944 checksummed files verified, zero mismatch. Old original v0.13/v0.23/v0.24 ZIP archives still not recovered.
 
+## Subsequent verification and applications — v0.72 to v0.75
+- v0.72: macOS Apple WebKit at 390/768/1440 CSS px plus 200% zoom, with fixed narrow heading overflow; accessible draft teal text contrast 5.657:1. Safari.app and physical iPhone not yet qualified. Committed as 2e9a95b.
+- v0.73: five corporate carrier types: site desktop/mobile, A4 letter, A4 offer, 16:9 three-slide presentation and 90×50mm double-sided card. Approved-geometry SVGs copied byte-for-byte. Editable DOCX through native Pages PDF PASS; PPTX text/editable structure PASS but Keynote GUI export unverified. Nothing released to customers/site. Commit 62e21cb.
+- v0.74: source font OS/2 `fsType=4` Preview & Print embedding limitation identified, isolated metadata-only `fsType=0` trial generated (NOT installed or released); family names and author metadata still require approval. Commit a19abc0.
+- v0.75: nine-section editable typography chapter for draft Brandbook 3.0, JSON/CSS token draft, five A4 native Pages PDF pages with exact CFF fonts embedded, real editable DOCX and SHA/source validation. Not the full approved brandbook. The owner's design, IP/naming, accessibility and release decisions remain open.
+
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.
 2. Review v0.63 alternative З/д/л forms and high 3/З ambiguity across small pixel sizes; reject or choose explicit modifications.

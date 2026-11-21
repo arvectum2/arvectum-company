@@ -1,0 +1,10 @@
+/* Gold Step 0.75 — DRAFT CSS tokens; not installed on company site. */
+@font-face{font-family:GSDisplay;src:url('fonts/ArvectumDisplayGoldenStepDraft064-Medium.woff2') format('woff2');font-weight:500;font-display:swap}
+@font-face{font-family:GSText;src:url('fonts/ArvectumTextGoldenStepDraft064-Regular.woff2') format('woff2');font-weight:400;font-display:swap}
+:root{--brand-ink:#001432;--brand-mint:#41B599;--text-teal-proposal:#0B7468;--surface:#F5F8F9;--font-display:GSDisplay,Arial,sans-serif;--font-text:GSText,Arial,sans-serif;--font-code:ui-monospace,Menlo,Consolas,monospace;--phi:1.61803398875}
+.gs-h1,.gs-h2,.gs-h3{font-family:var(--font-display);font-weight:500;overflow-wrap:anywhere}
+.gs-h1{font-size:clamp(38px,5.45vw,68px);line-height:1.11}.gs-h2{font-size:clamp(28px,3.5vw,42px);line-height:1.23}.gs-h3{font-size:clamp(21px,2.2vw,28px);line-height:1.28}
+.gs-body{font-family:var(--font-text);font-size:16px;line-height:1.55}.gs-caption{font:12px/1.5 Arial,sans-serif}
+.gs-price{font-family:var(--font-text);font-variant-numeric:tabular-nums;white-space:nowrap}
+.gs-diagram{font-family:var(--font-code);white-space:pre;overflow-x:auto}
+@media(max-width:260px){.gs-h1{font-size:clamp(25px,15.5vw,36px)}}

@@ -1,0 +1,69 @@
+{
+  "status": "DRAFT_BRANDBOOK_TYPOGRAPHY_RENDER_PASS",
+  "source": "TYPOGRAPHY-SECTION.md",
+  "version": "v0.75",
+  "pdf_pages": 5,
+  "docx_editable": true,
+  "PDF_exact_v064_CFF_embedded": true,
+  "source_markdown_sections": 9,
+  "source_logos_immutable": true,
+  "font_binaries_v064_immutable": true,
+  "test_user_fonts_removed": true,
+  "page_images": [
+    {
+      "page": 1,
+      "file": "brandbook-page-1.png",
+      "dimensions": [
+        910,
+        1287
+      ],
+      "sha256": "6c6c1256e327ee98637853ed1c2b828ce31ac0dd8f8a6742349c5baddecb090f"
+    },
+    {
+      "page": 2,
+      "file": "brandbook-page-2.png",
+      "dimensions": [
+        910,
+        1287
+      ],
+      "sha256": "fc3cf80cdd0fd52f0a20e9f295ad4acba8011f0cfe65db795ef85a97fc2f0c5f"
+    },
+    {
+      "page": 3,
+      "file": "brandbook-page-3.png",
+      "dimensions": [
+        910,
+        1287
+      ],
+      "sha256": "d267b65a1649a51f4387547d30ff47b65a37f5e46767703a7dd3faecf2c2b2f9"
+    },
+    {
+      "page": 4,
+      "file": "brandbook-page-4.png",
+      "dimensions": [
+        910,
+        1287
+      ],
+      "sha256": "5dd93baf996a1f542a3f85246d4abeb4e508cafdfcb578a36e574bb4d8e93bed"
+    },
+    {
+      "page": 5,
+      "file": "brandbook-page-5.png",
+      "dimensions": [
+        910,
+        1287
+      ],
+      "sha256": "82cc490f15c5f13868f21ca81c3f6ca06d9d19e3361cc007672dd46906ad5217"
+    }
+  ],
+  "windows_deferred": true,
+  "actual_iPhone_untested": true,
+  "keynote_native_PPTX_unverified": true,
+  "release_owner_approval": false,
+  "known_issues": [
+    "The full Brandbook 3.0 is not finished or approved",
+    "The 0.73 presentation PPTX is structurally editable but native Keynote export hung",
+    "Inter/OFL final attribution and fsType4 embedding issue remain release gates",
+    "Final logo lockup sizes, color roles, clear space, official fonts need owner decision"
+  ]
+}

@@ -1,0 +1,5 @@
+# BR-05 v0.75 — canonical evidence, no authority promotion
+
+Company owns the specific corporate typography rules; Arvectum OS has no corporate authority here. Original Golden Vector v0.18 geometry is approved; wordmark v0.21 C contours carry artistic direction but final lockup proportions/colors are not approved and Cyrillic р / e bar remarks remain open. Golden Step v0.64 is merely the technical working candidate; v0.63 alternate contours were not accepted. Color and typography scales are test drafts based on v0.72/0.73 evidence, not changed public brand tokens. The font is derived from Inter 4.1 under SIL OFL 1.1 with full licence retained; v0.74 embedding flag and metadata gaps remain open.
+
+The chapter references the existing source Brand Platform v0.3 and draft Brandbook 3.0 task description. It does not supersede approved Company decisions, alter Arvectum OS governance, create new external obligations, change approved logo masters, edit pinned ROADMAP-DRAFT/HISTORY-AND-RESUME or publish company website. Full Brandbook 3.0 release and actual corporate use require an explicit owner action. User Windows deferral remains active.

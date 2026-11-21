@@ -1,0 +1,31 @@
+{
+  "name": "Arvectum Golden Step experimental typography",
+  "version": "0.75",
+  "status": "DRAFT_FOR_OWNER_REVIEW_NOT_PRODUCTION",
+  "source_typeface": "Golden Step Draft 064 (v0.64 glyphs and 85 GPOS pairs/style)",
+  "family": {
+    "display": "Arvectum Display Golden Step Draft 064",
+    "text": "Arvectum Text Golden Step Draft 064",
+    "technical_fallback": "ui-monospace, Menlo, Consolas, monospace",
+    "general_fallback": "Arial, sans-serif"
+  },
+  "golden": {"phi": 1.61803398875, "primary_diagonal_angle_degrees": 58.2825256, "angle_applies_to_all_strokes": false},
+  "color_roles": {
+    "navy_from_source_svg": {"value": "#001432", "status": "existing artwork color, global palette not approved"},
+    "mint_from_source_svg": {"value": "#41B599", "status": "original logo use; not normal text on white"},
+    "accessible_text_teal_candidate": {"value": "#0B7468", "status": "contrast-checked proposal, not approved"},
+    "body": {"value": "#001432", "status": "draft use"},
+    "light_background": {"value": "#F5F8F9", "status": "draft use"}
+  },
+  "responsive_web_px": {
+    "desktop": {"H1": 68, "H2": 42, "H3": 28, "body": 16, "lead": 22, "label": 12, "body_line_height": 1.55},
+    "tablet": {"H1": 42, "H2": 32, "H3": 24, "body": 16, "lead": 19, "label": 12, "body_line_height": 1.55},
+    "mobile_390": {"H1": 38, "H2": 28, "H3": 21, "body": 16, "lead": 18, "label": 12, "body_line_height": 1.58},
+    "narrow_zoom_width_under_260": {"H1": "clamp(25px, 15.5vw, 36px)", "h1_wrap": "anywhere", "body_at_least": 16}
+  },
+  "office_A4_pt": {"title": 24, "section_heading": 16, "body": 11, "table": 10, "footer": 8, "body_line_spacing": 1.22},
+  "figures": {"tabular": true, "no_break_thousands_separator": "U+202F", "money_symbol": "U+20BD"},
+  "fallback": {"box_drawing": "monospace", "source_corpus_coverage_pct": 99.8405, "source_count": 6, "current_site_not_audited": true},
+  "licensing": {"source": "Inter 4.1 / SIL OFL 1.1", "review": "OPEN", "current_font_fsType": 4, "fsType_0_candidate_approved": false},
+  "approval": {"owner_artistic": false, "production": false, "real_iPhone": false, "windows": "DEFERRED"}
+}
