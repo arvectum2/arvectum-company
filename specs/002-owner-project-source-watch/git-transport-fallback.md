@@ -19,3 +19,5 @@ Source errors preserve previous evidence and remain visible. A Git HEAD or chang
 - Full Company isolated dry run: 22 projects, 14 additional repos, 13 accessible HEADs, one non-public/not-found, no transient repo errors; manual-source uncertainty remains (2026-11-21). No live report or business state was changed by this proof.
 - Deployment requires separately reviewed exact branch/release, approval of transport-cache side effects and correct source handling, a guarded service update and read-after-write confirmation.
 - A combined Mission Control view of Company source-watch candidate reports and WSF-07A authoritative Inbox needs a separately admitted, read-only cross-system report contract. It must never auto-update the approved WSF-05 business queue.
+
+Approved bounded implementation/deployment scope is recorded by `docs/governance/decisions/DECISION-2026-11-21-SOURCE-WATCH-GIT-FAILOVER.md`. This approval does not replace operator-side live checks.
