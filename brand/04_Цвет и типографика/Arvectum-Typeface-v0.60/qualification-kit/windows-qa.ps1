@@ -1,4 +1,4 @@
-# Run on authorized Windows machine, PowerShell 5.1 STA:
+﻿# Run on authorized Windows machine, PowerShell 5.1 STA:
 # powershell.exe -NoProfile -STA -ExecutionPolicy Bypass -File .\windows-qa.ps1
 # Self-contained, no admin rights / font installation / registry changes.
 [CmdletBinding()] param([string]$OutputDirectory='results')
