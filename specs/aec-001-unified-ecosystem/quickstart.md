@@ -88,3 +88,16 @@ Run the on-demand tool against previously captured private runtime and stack evi
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-private.json"
 
 The tool performs no network calls, OS service interactions or application code execution. Output is atomic and mode 0600, and any destination inside a Git checkout is forbidden. See service-catalog-candidate.md. Never interpret observed_process_present as service health; preserve UNKNOWN values.
+
+
+## Pinned Spec Kit check (read-only; no template replacements)
+
+    python3 tools/aec001_speckit_drift.py \
+      --baseline-repo /Volumes/ArvectumSSD/Arvectum/repos/arvectum-skills \
+      --baseline-commit 38e86a05e1e7398690769e445eb2545342b8b3a4 \
+      --root /Volumes/ArvectumSSD/Arvectum/repos \
+      --root /Volumes/ArvectumSSD/Arvectum \
+      --root "$HOME/ArvectumSafe/ecosystem-audit-20261121/repositories" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-speckit-private.json"
+
+Do not use this command to install or synchronize templates. The reference commit is fixed for this read-only evidence snapshot, not an approved universal product update. A template difference requires source/owner review; no automatic overwrites. See speckit-drift.md.

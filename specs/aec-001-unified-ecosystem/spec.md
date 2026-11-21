@@ -58,6 +58,7 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-014: Produce a cross-product compatibility/sovereignty/risk/economic comparison and a recommendation for each significant candidate: KEEP SEPARATE, STANDARDIZE POLICY, REUSE CONTRACT/SDK, EXTRACT REPLACEABLE COMPONENT, or RETIRE AFTER APPROVAL. No language/framework migration based only on package counts.
 - FR-015: Make version divergence and unpinned/unknown dependency supply-chain risks visible with affected consumers and measured regression gates; retain product-specific data/privacy, execution/approval, customer delivery and Arvectum OS governance boundaries.
 - FR-016: A derived service catalog must distinguish observed process presence, source identity hints, exact executable provenance, verified business health, Product authority/Principal, tenant/data classification and recovery; UNKNOWN stays UNKNOWN. It must not introduce a competing source watch, unauthorized OS capability or public host-data exposure.
+- FR-017: Repeated Spec Kit resources must be evaluated against an immutable, explicitly named reference and classified as identical, intentionally customized or unresolved; no project templates, constitutions or histories may be silently overwritten by a drift checker.
 
 ## Success Criteria
 
@@ -70,6 +71,7 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-007: The top overlap opportunities have at least two actual consumers or repeated operations, risk and sovereignty boundaries, version/contract impact, measurable business hypothesis, accountable owner and one of the defined outcomes; no automatic migrations or deletions.
 - SC-008: Stack-specific CI/lock/dependency drift findings are separated from functional equivalence and proposed shared components, and a read-only audit reruns with offline negative tests.
 - SC-009: A deterministic private catalog projection counts launchd/Docker observations and source associations without inventing health, owner, approval or backup readiness, and without writing generated data to a public Git checkout.
+- SC-010: A pinned read-only Spec Kit bundle comparison includes both root and nested copies, detects intentional modifications/missing files, never mutates tracked sources and retains unknowns for review.
 
 ## Non-Goals
 

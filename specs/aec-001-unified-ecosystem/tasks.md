@@ -14,7 +14,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 ## P1 — Engineering standardization
 - [ ] AEC-001-008 Define versioned service/repository catalog integrated with existing source watch. PARTIAL: derived private 58-service catalog candidate; integration/ownership approval remains open.
 - [ ] AEC-001-009 Define stack-specific equivalent security, CI, lint/test, dependency and release policies. PARTIAL: Python-only AEC test CI candidate on isolated branch; no cross-product adoption.
-- [ ] AEC-001-010 Introduce pinned Spec Kit drift check, without automatically overwriting vendored scripts.
+- [x] AEC-001-010 Introduce pinned Spec Kit drift check, without automatically overwriting vendored scripts. CANDIDATE: 7 bundles x 11 files matched pinned Arvectum Skills commit; no enforcement or policy approval.
 - [ ] AEC-001-011 Map typed API/event SDK compatibility, retries, UNKNOWN states, evidence and recovery semantics. PARTIAL: distinct HTTP SDK and pinned in-process Data Platform users identified.
 - [ ] AEC-001-012 Select a first pilot using real consumers, rights and economic/risk review.
 
@@ -36,6 +36,11 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 - [x] AEC-001-040 Build and test private read-only launchd/Docker service catalog projection: 58 observations, 23 Git identity links, 35 unresolved, zero fabricated health or Product owner claims. Deny output inside Git worktrees and require private 0600 atomic output.
 - [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption.
+
+## P1d — Pinned Spec Kit source comparison
+
+- [x] AEC-001-042 Run immutable reference comparison of Spec Kit sources across root and nested bundles: 7 bundles / 77 files matched the pinned Arvectum Skills commit; scanner never writes to products.
+- [ ] AEC-001-043 Approve product-specific template exception/version-upgrade procedure and cadence under Skills/Company/OS ownership; no automatic sync or second source watcher.
 
 ## P1a — Evidence gaps surfaced by host audit
 - [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources.

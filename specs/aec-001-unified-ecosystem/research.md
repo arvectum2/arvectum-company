@@ -86,6 +86,10 @@ Reading concrete implementation paths also showed **material semantic difference
 
 A versioned, private, read-only projection combines 51 launchd labels and 7 Docker containers sampled on Mac mini. 23 of 58 observations link to one of 21 known Git identities; 35 remain unresolved. Its inputs contain no authoritative owner or independently accepted service health: both fields deliberately remain UNKNOWN in all 58 records. The tool neither duplicates Company Source Watch Git polling nor changes the OS WSF-07A collector. The private writer requires mode 0600, atomic output and denies writing inside Git checkouts. See service-catalog-candidate.md.
 
+## Pinned Spec Kit resource drift candidate
+
+The initial exact duplicate shell scripts are deliberately distributed as Spec Kit bundles. A pinned comparison against Arvectum Skills commit 38e86a05e1e7398690769e445eb2545342b8b3a4 covered seven root/nested Spec Kit bundles, each with six Bash scripts and five templates: 77 of 77 files matched, no missing/different paths. This is source-level equality, not approval of an automatic upgrade or a claim about future releases. See speckit-drift.md and the private report in Mac mini audit storage.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

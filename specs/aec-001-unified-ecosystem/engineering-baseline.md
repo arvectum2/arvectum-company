@@ -51,3 +51,8 @@ An on-demand mock-transport pilot now exercises two real consumers: installed Py
 ## Passive service catalog proposal
 
 See service-catalog-candidate.md for the derived private runtime projection (58 observations, 23 Git source associations and 35 unresolved). No daemon or new authority is introduced. All Product owner, tenant-data, service readiness and rollback claims remain UNKNOWN until admitted through existing Product/Company/OS governance. Neither Company Source Watch nor the OS collector is duplicated.
+
+
+## Spec Kit provenance without forced template upgrades
+
+See speckit-drift.md: seven installed root or nested bundles (77 files) matched the immutable Arvectum Skills sample reference. This is good reusable engineering evidence and a candidate drift check, not a direction to replace or run templates without product-specific governance. Existing Skills review/workflow cadence should own any eventual automated check, not a new daemon.

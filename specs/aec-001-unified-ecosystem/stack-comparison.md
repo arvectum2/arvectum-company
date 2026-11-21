@@ -65,6 +65,10 @@ These version gaps are *candidates* for compatibility and supply-chain review, n
 
 Proposed outcomes are architectural hypotheses, not accepted decisions. All extractions require at least two verified consumers, accountable Product/Company/OS ownership, measurable avoided maintenance or risk, data/security/legal/sovereignty boundaries and reversible deployment.
 
+## Versioned Spec Kit source reuse observation
+
+A source-pinned read-only comparison found seven Spec Kit root/nested bundles containing six Bash scripts and five templates each; all 77 files match Arvectum Skills commit 38e86a05. This confirms **intentional identical template distribution**, not seven parallel product implementations. Continue to vendor where required, detect drift from the pinned source and require reviewed exceptions rather than forcing deletion or an automatic central update. See speckit-drift.md.
+
 ## Evidence from two concrete consumers and source-level semantics
 
 A bounded offline characterization for Tender Agent's **deployed** Python SDK `0.4.0` and Arvectum Site's vendored JS SDK `0.3.0` passed **10/10 common HTTP scenarios** using only mock transports. Tender's separately sampled development checkout still declares Python SDK 0.3.0, but deployed source and installed version agree at 0.4.0; these do **not** establish a runtime version defect. This is meaningful reuse evidence for the existing Data Platform HTTP contract, **not** blanket 0.3↔0.4 behavioral equivalence. See [sdk-consumer-pilot.md](sdk-consumer-pilot.md).
