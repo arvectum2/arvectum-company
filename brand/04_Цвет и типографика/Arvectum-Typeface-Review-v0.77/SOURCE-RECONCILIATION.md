@@ -1,0 +1,3 @@
+# BR-05 / v0.77 font specimen
+
+A reversible Company brand optical review artifact, not an Arvectum OS change or owner approval. The source is exactly Golden Step v0.64 CFF OTF from existing SVG-driven masters, 212 codepoints per style. All original master fonts, logo files, v0.73/v0.76 applications, private print-card references and approved governance files remain unmodified. v0.63 optical alternatives remain unapproved; v0.74 embedding metadata experiments remain isolated. Inter/SIL OFL provenance is preserved and no claim of exclusive proprietary font-software rights is made. Current Windows task remains deferred. No publication/deployment/contractual effect created.
