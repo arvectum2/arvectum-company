@@ -13,3 +13,12 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 
 - [x] SW-T009 Read-only comparison against live WSF-07A exact registry and launchd: 8 OS repository locators, 5 exact duplicate Company paths, 10/10 original tests plus focused deduplication tests.
 - [ ] SW-T010 Review/CI and activate a pinned deduplicated daily Company-only script; verify launchd, no duplicate read requests in synthetic test, unchanged WSF-07A service and report history, and a first successful natural scheduled run when API quota is available.
+
+## GitHub API exhaustion contingency (candidate 2026-11-21)
+
+- [x] Prove anonymous Git smart HTTPS for canonical `main` reads without REST API.
+- [x] Implement allowlisted Git-first source evidence with exact predecessor diff and existing REST fallback in separate branch.
+- [x] Pass legacy and negative transport tests; run isolated candidate report against 22 projects.
+- [ ] Review exact diff, transport/security, private cache permissions and source assurance against approved governance.
+- [ ] Obtain separate Owner approval before repinning the live Company watch launchd release.
+- [ ] Admit read-only Company candidate report input into Mission Control through explicit contract, preserving WSF-07A and WSF-05 authority boundaries.

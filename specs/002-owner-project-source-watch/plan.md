@@ -11,3 +11,7 @@
 Deferred: private-repository credential coverage and a separately governed admitted update path into Mission Control. Do not broaden WSF-07A fixed scope.
 
 8. Deduplicate against the already admitted WSF-07A fixed registry: exact 5 matching canonical paths become delegated/unverified references; other canonical paths continue through Company-only watch, local/branch paths are manual and do not consume GitHub requests. Reconcile a separate OS authorized collector read before declaring source freshness. Preserve both existing services and source histories.
+
+## 2026-11-21 bounded fallback amendment (candidate)
+
+GitHub anonymous REST is now a fallback rather than the ordinary transport, using the already selected Mac mini and private caches. See `git-transport-fallback.md` for scope, evidence and activation gate. Existing deployed service remains unchanged until governed repin.
