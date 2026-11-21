@@ -43,6 +43,10 @@ Preferred structure: **managed polyrepo**, explicit versioned contracts and opti
 | P4 OS adoption | Explicit product-by-product Product Contracts for genuine universal platform reuse | OS owner/capability governance |
 | P5 Decommission | Approved removal or containment of truly redundant implementation after tested migration | Evidence, customer rights, history preserved |
 
+## Worktree and provenance evidence
+
+A read-only host reconciliation exposed 605 registered Git worktrees across 21 repository identities and 11 prunable/missing working directories. First establish ownership, active service links, business evidence retention and reversible cleanup criteria; none may be pruned automatically. Runtime provenance is a more immediate common concern than code migration: launchd/OS release wrappers and Docker images require exact source and artifact linkage before any mass consolidation. The derived scanner is **not** a replacement for existing Company Source Watch.
+
 ## Early testable candidate ranking (not final priority)
 1. Service and deployment registry tied to existing Company source watch — high operational visibility, low product disruption.
 2. Data Platform SDK/consumer compatibility — real candidate interfaces in Python and JS; validate actual usage, failure paths and cost.

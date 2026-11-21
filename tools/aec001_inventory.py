@@ -92,6 +92,22 @@ def inspect(repo, content_hashes):
       "manifests":sorted(manifests)[:30]
     }
 
+def worktree_overview(repo):
+    """Aggregate registered worktrees; never automatically delete or prune."""
+    raw=git(repo,"worktree","list","--porcelain").decode("utf-8","replace").strip()
+    if not raw:
+        return None
+    blocks=[block.splitlines() for block in raw.split("\n\n") if block.strip()]
+    paths=[next((line[9:] for line in block if line.startswith("worktree ")),None)
+           for block in blocks]
+    return {
+        "registered":len(blocks),
+        "missing_on_disk":sum(bool(path) and not Path(path).exists() for path in paths),
+        "prunable":sum(any(line.startswith("prunable") for line in block) for block in blocks),
+        "locked":sum(any(line.startswith("locked") for line in block) for block in blocks),
+        "detached":sum("detached" in block for block in blocks),
+    }
+
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--root",action="append",type=Path,required=True,
@@ -106,11 +122,20 @@ def main():
             groups.append({"sha256":h,"instances":[{"repo":r,"checkout":c,"path":f}
                            for r,c,f in instances]})
     groups.sort(key=lambda d:(-len(d["instances"]),d["sha256"]))
+    # Resolve one independent worktree registry per canonical Git repository.
+    seen=set()
+    worktrees={}
+    for repo in discover(a.root):
+        key=identity(repo)
+        if key not in seen:
+            seen.add(key)
+            worktrees[key]=worktree_overview(repo)
     data={"schema":"aec001-inventory-v1","scope":"local-git-snapshots-not-live-deployments",
           "checkout_count":len(repos),
           "distinct_repository_identity_count":len({r["repository_identity"] for r in repos}),
           "tracked_files_including_checkout_copies":sum(x["tracked_files"] for x in repos),
           "duplicate_groups_across_repository_identities":groups,
+          "worktree_aggregate_by_repository":worktrees,
           "repos":repos}
     payload=json.dumps(data,indent=2,ensure_ascii=False,sort_keys=True)+"\n"
     if a.output:

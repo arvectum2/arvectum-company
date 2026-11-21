@@ -7,16 +7,22 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-002 Scan local tracked files/manifests, git branches and uncommitted-change presence.
 - [x] AEC-001-003 Identify exact duplicates and shared dependency names; correct for vendoring and same-repository worktrees.
 - [x] AEC-001-004 Confirm Company portfolio/OS authority boundary.
-- [ ] AEC-001-005 Reconcile launchd/Docker, Mac mini, MacBook, VPS and cloud runtime versions, storage, ownership, backups and customer data scope.
-- [ ] AEC-001-006 Check GitVerse-only and other-source repos; obtain package SBOM/licenses/secret-safe metadata.
+- [ ] AEC-001-005 Reconcile launchd/Docker, Mac mini, MacBook, VPS and cloud runtime versions, storage, ownership, backups and customer data scope. PARTIAL: 51 launchd/7 Docker on Mac mini and MacBook sample; exact release and remote services open.
+- [ ] AEC-001-006 Check GitVerse-only and other-source repos; obtain package SBOM/licenses/secret-safe metadata. PARTIAL: 605 worktrees across 21 repo identities; 11 prunable candidates not changed.
 - [ ] AEC-001-007 Measure incident, SLO, work-hours, recurring spend, release lead time and recovery baselines.
 
 ## P1 — Engineering standardization
 - [ ] AEC-001-008 Define versioned service/repository catalog integrated with existing source watch.
 - [ ] AEC-001-009 Define stack-specific equivalent security, CI, lint/test, dependency and release policies.
 - [ ] AEC-001-010 Introduce pinned Spec Kit drift check, without automatically overwriting vendored scripts.
-- [ ] AEC-001-011 Map typed API/event SDK compatibility, retries, UNKNOWN states, evidence and recovery semantics.
+- [ ] AEC-001-011 Map typed API/event SDK compatibility, retries, UNKNOWN states, evidence and recovery semantics. PARTIAL: distinct HTTP SDK and pinned in-process Data Platform users identified.
 - [ ] AEC-001-012 Select a first pilot using real consumers, rights and economic/risk review.
+
+## P1a — Evidence gaps surfaced by host audit
+- [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources.
+- [ ] AEC-001-023 Review worktree lifecycle and 11 prunable candidates with active runtime references before any Git cleanup.
+- [ ] AEC-001-024 Review HTTP SDK v0.3.0 vs pinned in-process Data Platform consumers, without weakening Compliance network security.
+- [ ] AEC-001-025 Validate service health, recovery and backup independently of PID / exit status / Docker Up.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

@@ -10,13 +10,25 @@ Status: evidence snapshot, 2026-11-21; **not a semantic code review or an approv
 - Company remote `origin/main` on 2026-11-21: `539d8c8`; Arvectum OS current local `main`: `963ae12`.
 - Existing Tender Agent and musbread checkouts have tracked local modifications; preserve them.
 
-## Reproducible full-checkout scan (27 local checkouts and snapshots)
+## Reproducible checkout scan (expanded perimeter)
 
-The new read-only script `tools/aec001_inventory.py` successfully covered **27 physical checkouts/snapshots** and resolved **21 unique repository identities** (19 linked GitHub repositories plus 2 supplemental local-only identities). Because multiple checkouts share the same Git remote, the aggregate **27,421 tracked files** are **not** 27,421 distinct source files or production LOC. After collapsing same-identity worktrees, **6 exact cross-identity source hash groups** remained in this scan; these are Spec Kit scripts. No additional independent cross-repo identical application code was established in this restricted scan. Semantic duplication is not determined by hashes.
+The new read-only script `tools/aec001_inventory.py` successfully covered **28 physical checkouts/snapshots** and resolved **21 unique repository identities** (19 linked GitHub repositories plus 2 supplemental local-only identities). Because multiple checkouts share the same Git remote, the aggregate **27,529 tracked files** are **not** 27,529 distinct source files or production LOC. After collapsing same-identity worktrees, **6 exact cross-identity source hash groups** remained in this scan; these are Spec Kit scripts. No additional independent cross-repo identical application code was established in this restricted scan. Semantic duplication is not determined by hashes.
 
 The detailed raw inventory is stored **only on the Mac mini**, outside the public Company repository:
 `$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-inventory-private.json`.
 The tool itself does not require repository write access, secrets, network access or execution of repository scripts.
+
+## Second-pass runtime/worktree evidence
+
+- Read-only Mac mini snapshot: 51 Arvectum launchd labels, 18 Git-source or observed-process-CWD mappings, 33 unresolved; 15 of those labels currently have a PID. PID is not health.
+- Seven running Docker containers, five mapped through Compose working-directory metadata; Docker Up is not application readiness.
+- MacBook one-time separate sample: seven relevant labels, five with PID; remote VPS and cloud sources not inventoried.
+- Across 21 identified repository identities, registered Git worktrees total **605**; **11** are prunable/missing-on-disk, but no cleanup permission follows. Many are test/work branches, not products.
+- MAX2TG runtime Git checkout was discovered outside the primary repo root. Process CWD does not prove loaded code identity.
+- Multiple OS component release identifiers coexist; verify intended compatibility rather than inferring a defect.
+- Source Watch is already the Company's governed source-drift mechanism; the new runtime scanner is a noncanonical read-only candidate, not a replacement monitor.
+
+Detailed results: [runtime-reconciliation.md](runtime-reconciliation.md); raw host inventory remains private outside this public Git repository.
 
 ## Mechanical scanner results
 Across 19 *local Git directories* the initial `git ls-files` scan counted **15,980 tracked files**. Count includes docs, tests and repeated working copies, not unique production code/LOC.
@@ -37,6 +49,12 @@ Fourteen dependency names appeared in three or more local project manifests. Exa
 - Work snapshot is substantially specs/prototypes at this point; do not presume it has a production service.
 - Site and Landing are distinct repositories; first verify canonical published URLs and deployment before deduplication.
 - Arvectum Tools and Proxy Launcher include distinct native/mobile responsibilities; platform convergence should be via contracts and release standards.
+
+## Dependency contract comparison (candidate only)
+
+The Data Platform source explicitly documents a versioned v1.x HTTP consumer contract with Python SDK `arvectum-data-client` version `0.3.0` and JavaScript client `@arvectum/data-platform-client`. Tender Agent already delegates transport through a compatibility facade to the Python SDK; Arvectum Site pins a JavaScript SDK tarball. Discount Parser, Deal, and opt-in Compliance instead pin different `arvectum-data` source commits and use in-process connector/acquisition APIs. The last group is **not** automatically interchangeable with an HTTP transport, especially Compliance's IP-pinned and tenant egress safeguards. Confirm actual runtime dependencies, contract parity, failure behavior and licensing before changing packaging.
+
+Common FastAPI/SQLAlchemy/Alembic/HTTPX usage demonstrates overlapping **engineering version policy**, but does not prove duplicate business logic. Some services specify unbounded minimum version constraints while others use bounded major-version ranges. Record package provenance and lock-file validation in the next supply-chain pass rather than unilaterally pinning every product to one version.
 
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
