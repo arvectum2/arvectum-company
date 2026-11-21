@@ -1,0 +1,2 @@
+# BR-05 v0.66 — ownership and release boundary
+Company identity scope, not Arvectum OS governance. Uses the actual Inter v4.1 licensed source retained in v0.36, and unchanged v0.64 typeface binaries. Full source LICENSE copied bytewise. Technical SHA and glyph comparisons are not intellectual-property certification. Previous versions, approved Golden Vector/wordmark, pinned roadmap/history and production templates untouched. Internal bundle includes SIL OFL and cannot be construed as a new proprietary license or owner permission to distribute. Windows remains deferred.
