@@ -1,0 +1,68 @@
+{
+  "mobile": {
+    "test": "PASS",
+    "inner_width": 390,
+    "inner_height": 1120,
+    "web_font_loaded": true,
+    "actual_metrics": {
+      "viewport": 390,
+      "documentWidth": 390,
+      "bodySize": 16,
+      "titleSize": 38,
+      "displayLoaded": true,
+      "textLoaded": true,
+      "tableScroll": false,
+      "mobileRowsStacked": true,
+      "tableContainerWidth": 354,
+      "pageWidth": 390,
+      "titleWithinPage": true,
+      "pass": true
+    },
+    "screenshot": "viewport-mobile.png",
+    "engine": "Chrome DevTools device metrics"
+  },
+  "tablet": {
+    "test": "PASS",
+    "inner_width": 768,
+    "inner_height": 1420,
+    "web_font_loaded": true,
+    "actual_metrics": {
+      "viewport": 768,
+      "documentWidth": 768,
+      "bodySize": 16,
+      "titleSize": 41.472,
+      "displayLoaded": true,
+      "textLoaded": true,
+      "tableScroll": false,
+      "mobileRowsStacked": false,
+      "tableContainerWidth": 691,
+      "pageWidth": 768,
+      "titleWithinPage": true,
+      "pass": true
+    },
+    "screenshot": "viewport-tablet.png",
+    "engine": "Chrome DevTools device metrics"
+  },
+  "desktop": {
+    "test": "PASS",
+    "inner_width": 1440,
+    "inner_height": 1480,
+    "web_font_loaded": true,
+    "actual_metrics": {
+      "viewport": 1440,
+      "documentWidth": 1440,
+      "bodySize": 16,
+      "titleSize": 68,
+      "displayLoaded": true,
+      "textLoaded": true,
+      "tableScroll": false,
+      "mobileRowsStacked": false,
+      "tableContainerWidth": 507,
+      "pageWidth": 1320,
+      "titleWithinPage": true,
+      "pass": true
+    },
+    "screenshot": "viewport-desktop.png",
+    "engine": "Chrome DevTools device metrics"
+  }
+}

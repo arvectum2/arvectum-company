@@ -1,0 +1,2 @@
+# BR-05 v0.70 — internal responsive specimen
+All font source binaries, phi geometry, earlier version folders, approved logo masters, pinned roadmap/history and Company/OS canonical contracts are untouched. Draft v0.64 WOFF2 is referenced by a local HTML specimen only. This is not approved CSS for the public arvectum.com website. Windows remains deferred by owner. Production deployment, accessible design review and device testing require separate authorization and evidence.
