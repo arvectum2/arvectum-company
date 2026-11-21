@@ -1,0 +1,90 @@
+{
+  "status": "FIRST_INTERNAL_ART_DIRECTOR_REVIEW_NOT_OWNER_APPROVAL",
+  "sources": {
+    "carriers": "GoldenStep-Applications-v0.73",
+    "guide": "Arvectum-Typeface-v0.75",
+    "optical_audit": "Arvectum-Typeface-v0.62",
+    "provenance": "Arvectum-Typeface-v0.74"
+  },
+  "visual_reviewed": [
+    "site desktop/mobile",
+    "Pages native letter and proposal two pages",
+    "slide PDF three pages",
+    "business card two sides",
+    "typography guide five A4 pages"
+  ],
+  "cover_overlap_chrome_css_rectangles": {
+    "artwork": {
+      "x": 1163.1875,
+      "y": 618.84375,
+      "width": 129.59375,
+      "height": 80.078125,
+      "right": 1292.78125,
+      "bottom": 698.921875
+    },
+    "footer": {
+      "x": 164.484375,
+      "y": 672.5,
+      "width": 1111.015625,
+      "height": 32.1875,
+      "right": 1275.5,
+      "bottom": 704.6875,
+      "text": "ООО «Арвектум»\nМАКЕТ · НЕ ДЛЯ ОТПРАВКИ"
+    },
+    "overlap": {
+      "width": 112.3125,
+      "height": 26.421875,
+      "area": 2967.51
+    }
+  },
+  "3_vs_cyrillic_Z_mask_IoU_at_selected_px": {
+    "Display": {
+      "10": 0.8235,
+      "12": 0.8261,
+      "14": 0.9259,
+      "16": 0.8696,
+      "20": 0.8788,
+      "40": 0.8467
+    },
+    "Text": {
+      "10": 0.8667,
+      "12": 0.9474,
+      "14": 0.88,
+      "16": 0.8205,
+      "20": 0.8448,
+      "40": 0.8761
+    }
+  },
+  "design_token_mismatch": {
+    "v0.73_site_desktop_H1_max_px": 72,
+    "v0.75_typography_desktop_H1_px": 68,
+    "difference_px": 4
+  },
+  "typography_guide_page_break": {
+    "section_5_heading_page": 3,
+    "section_5_continuation_without_heading_page": 4,
+    "physical_crop_or_text_loss_established": false
+  },
+  "presentation_equivalence": {
+    "HTML_slide_PDF_rendered": true,
+    "editable_PPTX_exists": true,
+    "native_Keynote_PPTX_rendered": false,
+    "pixel_parity_claim": false
+  },
+  "retained_source_logo": {
+    "approved_geometry_originals_modified": false,
+    "wordmark_cyrillic_r_and_e_open_review": true,
+    "full_lockup_and_colors_owner_approved": false
+  },
+  "release_flag": {
+    "OFL_inter_derived": true,
+    "v0.64_fsType_preview_print": 4,
+    "fsType0_experimental_installed": false
+  },
+  "limitations": [
+    "High raster glyph IoU is not human-reading study",
+    "HTML slide rect overlap does not establish same problem in PPTX",
+    "No changes to previous version, original master, customer material or live site",
+    "Typography style guide page flow is editorial issue, not proof of PDF text clipping"
+  ]
+}

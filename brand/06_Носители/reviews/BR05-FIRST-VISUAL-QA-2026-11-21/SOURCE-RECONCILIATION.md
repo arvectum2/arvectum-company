@@ -1,0 +1,3 @@
+# BR-05 first-review provenance and authority
+
+Company-only identity review; Arvectum OS platform authority is not affected. Owner approved Golden Vector 0.18 geometry and directional Golden Wordmark 0.21 contours, but not final lockup, palette, protection area or distribution. Original artistic remarks to Cyrillic р and е remain open. Existing font v0.64, v0.63 candidate, v0.74 isolated metadata test, licensing sources and all approved masters are immutable. Review compared actual source images and docs only; no owner signoff, no customer-ready product contract, no production deployment or legal certification. Windows explicitly deferred.
