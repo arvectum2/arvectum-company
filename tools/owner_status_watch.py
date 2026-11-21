@@ -358,7 +358,7 @@ def main() -> None:
         import sys
         sys.path.insert(0, str(Path(__file__).resolve().parent))
         from source_watch_git import GitPublicEvidence
-        source = GitPublicEvidence(args.output_dir.resolve().parent/"git-source-cache", baseline, github_public_json)
+        source = GitPublicEvidence(args.output_dir.resolve().parent/"git-source-cache", baseline, github_public_json, unavailable=SourceUnavailable)
         report = collect_evidence(baseline, fetch=source.fetch)
     else:
         report = collect_evidence(baseline)
