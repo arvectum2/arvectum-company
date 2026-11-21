@@ -62,6 +62,12 @@ A second-pass read-only verification compared 1,359 selected code files in five 
 
 A static Python/JavaScript SDK comparison against published 0.3.0 showed seven additional named client operations in later Data Platform source; the Arvectum Site vendored JS artifact exactly matches the 0.3.0 tag. See [sdk-surface-review.md](sdk-surface-review.md). Common engineering norms are proposed in [engineering-baseline.md](engineering-baseline.md), not yet an accepted policy.
 
+## Exploratory Python function-level clone screen
+
+An additional one-time, read-only **strict AST signature** comparison covered 2,148 non-test Python files and 5,561 sufficiently large functions from 12 selected local repositories. Under its deliberately narrow rule (function source length >=12 lines, >=45 AST nodes, same AST after normalizing the function name and removing a leading docstring), it found **zero cross-repository exact function signatures**. Private detailed output remains outside the public repository.
+
+This is NEGATIVE evidence only for exact-structure clones under these filters. It says nothing about near-duplicates, differently structured implementations of the same business process, generated code, excluded tests/archives, runtime services or overall architectural redundancy. Therefore do NOT use it to close the semantic-duplication work item or justify no further review.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 
