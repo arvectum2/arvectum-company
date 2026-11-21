@@ -35,7 +35,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 ## P1c — Source-safe service catalog (derived view)
 
 - [x] AEC-001-040 Build and test private read-only launchd/Docker service catalog projection: 58 observations, 23 Git identity links, 35 unresolved, zero fabricated health or Product owner claims. Deny output inside Git worktrees and require private 0600 atomic output.
-- [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption. PARTIAL: provenance grew to 31/58; no owner/health/backup field promoted.
+- [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption. PARTIAL: provenance grew to 41/58; no owner/health/backup field promoted.
 
 ## P1d — Pinned Spec Kit source comparison
 
@@ -43,7 +43,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-043 Approve product-specific template exception/version-upgrade procedure and cadence under Skills/Company/OS ownership; no automatic sync or second source watcher.
 
 ## P1a — Evidence gaps surfaced by host audit
-- [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources. PARTIAL: 31/58 links evidenced (23 direct hints, 6 pinned source files, 2 current PID+release handles); loaded code and 27 sources remain UNKNOWN.
+- [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources. PARTIAL: 41/58 links evidenced (23 direct hints, 6 pinned source files, 2 PID+release handles, 10 exact installed copies vs Git HEAD); loaded code and 17 sources remain UNKNOWN.
 - [ ] AEC-001-023 Review worktree lifecycle and 11 prunable candidates with active runtime references before any Git cleanup. PARTIAL: all 605 registered entries classified; 11 stale-metadata candidates not referenced in sampled runtime, but current/remote jobs and accountable owner retention are not fully verified. No prune.
 - [ ] AEC-001-024 Review HTTP SDK v0.3.0 vs pinned in-process Data Platform consumers, without weakening Compliance network security.
 - [ ] AEC-001-025 Validate service health, recovery and backup independently of PID / exit status / Docker Up. Scheduled backup jobs last-exit=0 are not restore evidence; product-specific restore/PITR/recovery tests still OPEN.
@@ -63,8 +63,16 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-045 Add live PID/launchctl/lsof release association for Tender Agent and Data Platform; source-file samples and handles match release paths, with mismatched PID/commit/handles failing closed. Catalog now links 31/58 observations, without inventing health/authority.
 - [x] AEC-001-046 Classify 605 registered worktrees across 21 identities; 11 Git-prunable missing temporary paths without snapshot process references are metadata review candidates only. Zero cleanup.
 - [x] AEC-001-047 Record separate backup/restore acceptance requirements; no restoration performed and no backup-readiness PASS inferred from scheduled job exit=0.
-- [ ] AEC-001-048 Confirm 27 remaining source-unresolved service identities and current/remote/ephemeral worktree usage, with accountable ownership and security/data boundaries. Prioritize obligations and operational continuity over catalog coverage score.
-- [ ] AEC-001-049 Establish RPO/RTO, tenant-safe restore evidence, actual service readiness and operational/economic baseline before recommending any production refactor or cleanup.
+- [ ] AEC-001-048 Confirm 17 remaining source-unresolved service identities and current/remote/ephemeral worktree usage, with accountable ownership and security/data boundaries. Five-area candidate risk queue created; prioritize obligations and continuity, no inferred owner.
+- [ ] AEC-001-049 Establish RPO/RTO, tenant-safe restore evidence, actual service readiness and operational/economic baseline before recommending any production refactor or cleanup. PARTIAL: latest host and Docker PostgreSQL backup structure reported ok; isolated restore remains OPEN.
+
+## P1f — Source copy and actual backup evidence
+
+- [x] AEC-001-050 Compare installed launchd script bytes against Git HEAD tracked blobs across 21 repo identities. Sixteen unique copies found, ten NEW associations; 41/58 sources now linked. Ambiguous matches/HEAD drift must fail closed. No loaded-code claim.
+- [x] AEC-001-051 Verify latest actual host and Docker PostgreSQL backup state and manifest structure on Mac mini: 5 host and 5 Docker dumps; private owner-only files. No large dump hash recalculation, DB restore or RPO/RTO acceptance.
+- [x] AEC-001-052 Read-only inspect two running WAL receiver containers, observe image IDs and SSD bind mounts, without inferring Git origin, data recoverability or health.
+- [x] AEC-001-053 Prioritize the 17 remaining unresolved source records into five hypothetical business-risk review areas (not approved authority/portfolio priority).
+- [ ] AEC-001-054 Verify WAL receiver backup chain and perform explicitly authorized isolated restoration of selected critical data under approved customer/tenant/RPO/RTO constraints.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

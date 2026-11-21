@@ -62,6 +62,8 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-018: Runtime provenance evidence is graded by repository-path hint, exact Git-blob source-file equality, installed manifest digest, and current PID/release handle association; no tier alone proves memory-loaded code, Product health or authority. Any stale PID, bad release commit, symlink escape or conflicting evidence must fail closed.
 - FR-019: Git worktree metadata is reviewed read-only with explicit active-runtime reference, missing path and prunable status; the checker must neither issue prune nor infer safe cleanup from absence in one dated snapshot.
 - FR-020: Backup readiness requires product-owned recoverable dataset evidence, approved RPO/RTO and an isolated authenticated restoration/functional test; launchd registration, PID and last exit=0 are insufficient.
+- FR-021: Installed launcher vs Git HEAD blob equality is evidence of source-copy provenance only. Explicitly guard multiple matching repositories, changed HEAD, symlinks and stale snapshot identities; never infer loaded code/authority.
+- FR-022: Bounded backup metadata checker may read state JSON, checksum manifest text and file metadata, but must not claim payload hash validation, successful restore, RPO/RTO or compliance without evidence and accountable approval.
 
 ## Success Criteria
 
@@ -78,6 +80,8 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-011: A source-provenance registry improves known service links only from scoped independently verified evidence and records unchanged UNKNOWN service health, Product owner, tenant rights and restore readiness; inconsistent snapshots/IDs are rejected.
 - SC-012: The worktree report covers the 21 scanned registries and 605 entries without destructive commands and quarantines 11 potential stale-metadata entries for separate authority review.
 - SC-013: Backup/scheduled job observations are explicitly separate from recovery verification; no operational readiness or customer SLA is fabricated.
+- SC-014: Exact source-copy comparison adds ten new proven installed-file origins without promoting ambiguous duplicates, changed Git HEAD or process-memory claims; negative tests pass.
+- SC-015: Backup state and manifest metadata checks produce structural evidence or explicit UNKNOWN/INCOMPLETE on malformed, missing, unsafe paths/permissions, without reading dumps or performing restoration.
 
 ## Non-Goals
 

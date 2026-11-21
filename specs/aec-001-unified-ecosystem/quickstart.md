@@ -139,3 +139,32 @@ A current PID that no longer matches the source snapshot is inconclusive rather 
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-worktree-retention-private.json"
 
 Do not run git worktree prune, remove, git clean or reset on the basis of this output. Current task, branch, remote, backup and owner/maintainer retention reviews are required. See worktree-retention-review.md and backup-readiness-review.md.
+
+## Installed launchd source bytes versus tracked Git HEAD
+
+The on-demand read-only scanner matches **installed script bytes**, never executes them; it reads exact Git HEAD blobs from local clones and rejects ambiguous duplicate repository identities, missing snapshots and moved HEAD.
+
+    python3 tools/aec001_source_copy_match.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --stacks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --root /Volumes/ArvectumSSD/Arvectum/repos \
+      --root /Volumes/ArvectumSSD/Arvectum \
+      --root "$HOME/ArvectumSafe/ecosystem-audit-20261121/repositories" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-source-copy-match-private.json"
+
+The catalog can then consume this explicit private evidence by adding:
+
+    --copy-matches "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-source-copy-match-private.json"
+
+No script content is published. Content equality alone does not certify the current process image, authorization or business health. See source-copy-reconciliation.md.
+
+## Backup status and manifest structure, without reading database dumps
+
+    python3 tools/aec001_backup_metadata.py \
+      --host-root "$HOME/Library/Application Support/ArvectumHost/backups/host-nightly" \
+      --host-state "$HOME/.local/state/arvectum/backup.json" \
+      --docker-root "$HOME/.local/state/arvectum-recovery/docker-postgres" \
+      --docker-state "$HOME/.local/state/arvectum/docker-pg-backup.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-backup-metadata-private.json"
+
+The tool reads only bounded JSON/short SHA256SUMS manifest text and file attributes, not PostgreSQL dump content. **STRUCTURAL_BACKUP_EVIDENCE** is not a completed restore or a verified archive digest. Do not treat it as accepted RPO/RTO, customer readiness, or permission to restart/modify any data-bearing service. See backup-readiness-review.md.

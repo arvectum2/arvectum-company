@@ -61,3 +61,8 @@ See speckit-drift.md: seven installed root or nested bundles (77 files) matched 
 ## Live-source evidence tiers and restore boundary
 
 Runtime provenance evidence has been expanded from 23 to 31 Git-linked observations without introducing an agent or changing existing Product/Company/OS authority. See runtime-provenance-reconciliation.md. Backup job registration, PID, last exit=0 and lsof release handles are **not** independently accepted readiness or restoration proof. See backup-readiness-review.md. Git worktree retention candidates are reviewed via worktree-retention-review.md; no automatic prune or metadata repair.
+
+
+## Exact installed script and backup evidence boundary
+
+Read-only source-copy matching now raises the evidenced repository associations from 31 to 41 of 58. See source-copy-reconciliation.md and remaining-service-triage.md. Two latest backup generations have structurally complete manifests and owner-only dump files, but independently validated digest, isolated recovery and Product RPO/RTO remain **UNKNOWN**. The audit makes no backup readiness or financial return claim.

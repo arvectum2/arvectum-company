@@ -16,16 +16,16 @@ The new catalog candidate derives only from previously collected local read-only
 | Arvectum launchd records | 51 |
 | Docker container records | 7 |
 | **Combined runtime records** | **58** |
-| Associated with a known Git repository identity | 31 |
-| Source identity not reconciled | 27 |
+| Associated with a known Git repository identity | 41 |
+| Source identity not reconciled | 17 |
 | Independently verified health in this projection | **0** |
 | Canonically confirmed Product/Position owners in this projection | **0** |
 
-The original 23 links were Git identity hints from source path/Compose/process CWD. Six more links came from source file / installation manifest equality with pinned Git blobs, and two from matching current PID and release directory open handles plus independently checked Git file samples. See runtime-provenance-reconciliation.md. **None** is exact loaded-code closure proof. PID or Docker Up is an observation, never health PASS. A scheduled launchd job without PID need not be failed. The separate Tender/Data Platform health probes have not been admitted into this catalog, so health=UNKNOWN is correct.
+The original 23 links were Git identity hints from source path/Compose/process CWD. Six more links came from pinned source / installation manifest equality, two from current PID and verified-release open handles, and ten from installed script bytes matching tracked Git HEAD in precisely one repository. See runtime-provenance-reconciliation.md. **None** is exact loaded-code closure proof. PID or Docker Up is an observation, never health PASS. A scheduled launchd job without PID need not be failed. The separate Tender/Data Platform health probes have not been admitted into this catalog, so health=UNKNOWN is correct.
 
 ## Record contract, version 1 candidate
 
-The tool tools/aec001_service_catalog.py emits the versioned schema aec001-service-catalog-candidate-v1 with stable host-scoped record ID, runtime kind, observed label/time, Git repository identity, checkout-HEAD hint where supported, source-file/process-release evidence when separately provided, and a distinct observed-process flag. It validates snapshot alignment and rejects conflicting or false source associations.
+The tool tools/aec001_service_catalog.py emits the versioned schema aec001-service-catalog-candidate-v1 with stable host-scoped record ID, runtime kind, observed label/time, Git repository identity, checkout-HEAD hint where supported, source-file/process-release evidence when separately provided, and a distinct observed-process flag. It validates snapshot alignment and rejects conflicting or false source associations. The latest source-copy tier is current disk-file equality, not process-memory attestation.
 
 The following fields default to UNKNOWN until separately verified: executable artifact digest and loaded code, accountable Product and Authority Principal, owner decision and approval, tenant/data scope, API contract, readiness, backup/restore and rollback evidence. The projection explicitly sets source_of_organizational_authority=false and source_watch_integration=NOT_CONFIGURED.
 

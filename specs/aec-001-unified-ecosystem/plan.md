@@ -75,3 +75,8 @@ Pin exact production and git versions → define boundaries and baseline → wri
 
 ## Done means
 Complete source-to-runtime inventory and explicit gaps; measured pilot equivalence and economics; no new implicit authority; no production regressions; no claims of business readiness on technical PASS alone.
+
+
+## Next business-first evidence boundary
+
+After exact source-copy review the catalog maps 41/58 script sources. The remaining 17 include two stateful WAL receivers, backup, product serving and host utilities; do not create new Product nodes solely to eliminate UNKNOWNs. Review data recovery and product/customer exposure first, then inspect permitted release/source identity. A structural backup manifest and success state are **not** a restored database. See source-copy-reconciliation.md, remaining-service-triage.md and backup-readiness-review.md.

@@ -74,7 +74,7 @@ def record(kind,host,observed_at,entry,known):
         "source_of_organizational_authority":False,
     }
 
-def build(runtime,stack,source_attest=None,process_attest=None):
+def build(runtime,stack,source_attest=None,process_attest=None,copy_matches=None):
     if (not isinstance(runtime,dict) or runtime.get("schema")!=RUNTIME_SCHEMA or
         not isinstance(runtime.get("launchd"),list) or not isinstance(runtime.get("docker"),list)
         or not isinstance(runtime.get("observed_utc"),str) or
@@ -172,6 +172,52 @@ def build(runtime,stack,source_attest=None,process_attest=None):
             src["open_release_handle_count"]=proof["open_release_handle_count"]
             src["process_evidence_observed_at"]=process_attest["process_observed_utc"]
             process_mapped+=1
+    copy_new=0
+    if copy_matches is not None:
+        if (not isinstance(copy_matches,dict) or
+            copy_matches.get("schema")!="aec001-source-copy-match-v1" or
+            copy_matches.get("runtime_snapshot_utc")!=runtime["observed_utc"] or
+            not isinstance(copy_matches.get("source_content_observed_utc"),str) or
+            not isinstance(copy_matches.get("records"),list)):
+            raise ValueError("invalid or stale source copy evidence")
+        by_label={row["service_locator"]:row for row in records if row["runtime_kind"]=="launchd"}
+        runtime_by_label={row["label"]:row for row in runtime["launchd"]}
+        expected_heads={r["repository"]:r["source_head"] for r in stack["repositories"]}
+        seen_copies=set()
+        for proof in copy_matches["records"]:
+            label=proof.get("service_label")
+            if label not in by_label or label in seen_copies:
+                raise ValueError("invalid or duplicate source copy label")
+            seen_copies.add(label)
+            if proof.get("status")!="UNIQUE_REPOSITORY_GIT_HEAD_FILE_MATCH":
+                continue
+            ident=proof.get("match_repo_identity")
+            paths=proof.get("matching_tracked_paths")
+            head=proof.get("git_head_prefix")
+            source=proof.get("source_file_observed")
+            if (ident not in known or
+                not isinstance(paths,list) or not paths or len(paths)>30 or
+                any(not isinstance(x,dict) or x.get("repository")!=ident or
+                    not isinstance(x.get("path"),str) or not x["path"] or
+                    x["path"].startswith("/") or ".." in x["path"].split("/")
+                    for x in paths) or
+                head!=expected_heads.get(ident) or
+                not isinstance(source,str) or
+                source!=runtime_by_label[label].get("source_file_hint") or
+                proof.get("loaded_process_code_verified") is not False or
+                proof.get("service_readiness_verified") is not False):
+                raise ValueError("unusable source copy evidence")
+            entry=by_label[label]["source"]
+            if entry["catalog_reconciled"] and entry["repository_identity"]!=ident:
+                raise ValueError("conflicting source identity")
+            if not entry["catalog_reconciled"]:
+                entry["repository_identity"]=ident
+                entry["catalog_reconciled"]=True
+                entry["mapping_evidence"]="installed_source_bytes_equal_tracked_git_head_blob"
+                entry["copy_match_observed_at"]=copy_matches["source_content_observed_utc"]
+                entry["matched_checkout_head_hint"]=head
+                entry["loaded_code_verified"]=False
+                copy_new+=1
     records.sort(key=lambda x:(x["runtime_kind"],x["service_locator"]))
     matched=sum(row["source"]["catalog_reconciled"] for row in records)
     return {
@@ -186,6 +232,7 @@ def build(runtime,stack,source_attest=None,process_attest=None):
         "source_reconciled":matched,
         "added_file_attributions":attested,
         "added_process_release_attributions":process_mapped,
+        "new_source_copy_links":copy_new,
         "unresolved_source":len(records)-matched,
         "health_verified_count":0,
         "owner_verified_count":0,
@@ -223,6 +270,7 @@ def main():
     p.add_argument("--stacks",type=Path,required=True)
     p.add_argument("--source-attestation",type=Path)
     p.add_argument("--process-attestation",type=Path)
+    p.add_argument("--copy-matches",type=Path)
     p.add_argument("--output",type=Path,required=True)
     args=p.parse_args()
     try:
@@ -230,9 +278,12 @@ def main():
                 if args.source_attestation else None)
         process=(json.loads(args.process_attestation.read_text(encoding="utf-8"))
                  if args.process_attestation else None)
+        copies=(json.loads(args.copy_matches.read_text(encoding="utf-8"))
+                if args.copy_matches else None)
         data=build(json.loads(args.runtime.read_text(encoding="utf-8")),
                    json.loads(args.stacks.read_text(encoding="utf-8")),
-                   source_attest=attest,process_attest=process)
+                   source_attest=attest,process_attest=process,
+                   copy_matches=copies)
     except (OSError,ValueError,UnicodeDecodeError) as error:
         print(f"INCOMPLETE: {type(error).__name__}",file=sys.stderr)
         return 2

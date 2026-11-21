@@ -98,6 +98,12 @@ A separate no-prune lifecycle scanner inspected all 605 registered worktrees acr
 
 Scheduled host/PostgreSQL/OS backup launchers were observed with last-exit=0, but no complete backup and isolated restoration proof was obtained or claimed. See [backup-readiness-review.md](backup-readiness-review.md). No backup restore, service restart, Git prune, product migration or external action occurred.
 
+## Extra installed-source and live backup evidence (AEC-001-050—054)
+
+An exact installed launcher file-versus-Git HEAD blob comparison observed sixteen distinct source matches, ten of which were **new** to the private service catalog. Source associations now total **41 of 58**, leaving **17 unresolved**. The additional ten are infrastructure, MAX2TG, customer-site synchronization and local remote-control scripts; see source-copy-reconciliation.md. On-disk copy equality is not process-memory loaded-code proof.
+
+The latest host backup at 2026-11-21 00:30:52 UTC and Docker PostgreSQL backup at 00:47:12 UTC reported ok, with structurally complete manifests and **five nonempty database dumps each**, owner-only source files. No large dump bytes were read or rehashed, no recovery was attempted, and Product/Owner RPO/RTO approval remains unestablished; see backup-readiness-review.md. Both WAL receiver containers had running image/SSD bind observations, but no source Git identity, data chain or restore result was inferred. Five hypothesis-only review areas prioritize the remaining seventeen: see remaining-service-triage.md.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

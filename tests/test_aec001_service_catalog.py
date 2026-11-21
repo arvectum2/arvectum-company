@@ -119,6 +119,64 @@ class ServiceCatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"unusable"):
             m.build(runtime,stacks,proof)
 
+    def test_git_head_source_copy_can_link_unknown_source_only(self):
+        runtime,stacks=sources()
+        runtime["launchd"][0]["repository"]=None
+        head="a"*12
+        stacks["repositories"][0]["source_head"]=head
+        copy={"schema":"aec001-source-copy-match-v1",
+              "runtime_snapshot_utc":runtime["observed_utc"],
+              "source_content_observed_utc":"2026-11-21T13:00:00Z",
+              "records":[{
+               "service_label":"com.arvectum.fixture",
+               "source_file_observed":runtime["launchd"][0].get("source_file_hint"),
+               "status":"UNIQUE_REPOSITORY_GIT_HEAD_FILE_MATCH",
+               "match_repo_identity":"arvectum2/fixture",
+               "matching_tracked_paths":[{"repository":"arvectum2/fixture",
+                                          "path":"scripts/run.py"}],
+               "git_head_prefix":head,
+               "loaded_process_code_verified":False,
+               "service_readiness_verified":False,
+              }]}
+        runtime["launchd"][0]["source_file_hint"]="/tmp/safe-script.py"
+        copy["records"][0]["source_file_observed"]="/tmp/safe-script.py"
+        d=m.build(runtime,stacks,copy_matches=copy)
+        self.assertEqual(d["new_source_copy_links"],1)
+        row=next(x for x in d["records"] if x["service_locator"]=="com.arvectum.fixture")
+        self.assertEqual(row["source"]["repository_identity"],"arvectum2/fixture")
+        self.assertEqual(row["source"]["mapping_evidence"],
+                         "installed_source_bytes_equal_tracked_git_head_blob")
+        self.assertEqual(row["loaded_code_identity"],"UNKNOWN")
+        self.assertEqual(d["health_verified_count"],0)
+
+    def test_git_head_copy_proof_cannot_invent_wrong_source(self):
+        runtime,stacks=sources()
+        stacks["repositories"][0]["source_head"]="a"*12
+        proof={"schema":"aec001-source-copy-match-v1",
+               "runtime_snapshot_utc":runtime["observed_utc"],
+               "source_content_observed_utc":"2026-11-21T13:00:00Z",
+               "records":[{
+                "service_label":"com.arvectum.fixture",
+                "source_file_observed":"/unrelated",
+                "status":"UNIQUE_REPOSITORY_GIT_HEAD_FILE_MATCH",
+                "match_repo_identity":"arvectum2/fixture",
+                "matching_tracked_paths":[{"repository":"arvectum2/fixture",
+                                           "path":"scripts/a.sh"}],
+                "git_head_prefix":"a"*12,
+                "loaded_process_code_verified":False,
+                "service_readiness_verified":False,
+               }]}
+        with self.assertRaisesRegex(ValueError,"unusable"):
+            m.build(runtime,stacks,copy_matches=proof)
+
+    def test_copy_proof_missing_snapshot_time_is_denied(self):
+        runtime,stacks=sources()
+        proof={"schema":"aec001-source-copy-match-v1",
+               "runtime_snapshot_utc":"2000-01-01T00:00:00Z",
+               "source_content_observed_utc":"2026-11-21T13:00:00Z","records":[]}
+        with self.assertRaisesRegex(ValueError,"stale"):
+            m.build(runtime,stacks,copy_matches=proof)
+
     def test_stable_identity_independent_of_pid(self):
         runtime,stacks=sources()
         a=m.build(runtime,stacks)
