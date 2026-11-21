@@ -1,0 +1,56 @@
+{
+  "Display": {
+    "changed": 11,
+    "unchanged": 201,
+    "same_GPOS_GDEF_metrics": true,
+    "small_px_IoU": {
+      "12": {
+        "baseline_3_Z": 0.9231,
+        "candidate_3_Z": 0.8276
+      },
+      "14": {
+        "baseline_3_Z": 0.8333,
+        "candidate_3_Z": 0.8333
+      },
+      "16": {
+        "baseline_3_Z": 0.9216,
+        "candidate_3_Z": 0.902
+      },
+      "24": {
+        "baseline_3_Z": 0.8571,
+        "candidate_3_Z": 0.7679
+      },
+      "40": {
+        "baseline_3_Z": 0.8611,
+        "candidate_3_Z": 0.7705
+      }
+    }
+  },
+  "Text": {
+    "changed": 11,
+    "unchanged": 201,
+    "same_GPOS_GDEF_metrics": true,
+    "small_px_IoU": {
+      "12": {
+        "baseline_3_Z": 0.4194,
+        "candidate_3_Z": 0.4545
+      },
+      "14": {
+        "baseline_3_Z": 0.8182,
+        "candidate_3_Z": 0.7568
+      },
+      "16": {
+        "baseline_3_Z": 0.8444,
+        "candidate_3_Z": 0.72
+      },
+      "24": {
+        "baseline_3_Z": 0.8866,
+        "candidate_3_Z": 0.7664
+      },
+      "40": {
+        "baseline_3_Z": 0.8971,
+        "candidate_3_Z": 0.7393
+      }
+    }
+  }
+}

@@ -30,6 +30,12 @@ Updated 2026-11-21. A durable working-status document, not a revision of pinned 
 - Исправлено измеренное перекрытие титула: 0px, зазор 63,8px; унифицированы H1=68px и lead=22px; подготовлен трёхстраничный визуальный раздел типографики. Исходные версии и мастер-логотипы не изменены.
 - Карточка v0.76 — **не новый утверждённый печатный файл**: требуется добавление согласованных контактов, CMYK/PDF-X/обрез и цветопроба. Открыты форма букв 3/З, р/е, согласование логоблока, права/метаданные Inter OFL и нативный экспорт PPTX. Windows отложена.
 
+## Golden Step v0.78 — сохранение исходников и векторные исправления
+- Baseline v0.64 и полный PDF v0.77 зафиксированы Git-тегом `brand/golden-step-v064-reviewed-v077` на GitHub и GitVerse, указатель на коммит `98600a7` (по SHA). Предыдущие версии не тронуты.
+- В `Arvectum-Typeface-v0.78` сохранены 22 новые SVG и 2 экспериментальных CFF OTF: Д/Л — левая диагональ и правая вертикаль (оба начертания), З/з — округлённые чаши, В/в/B — согласованная система округлых чаш; b/Б/б — небольшая коррекция дуг; @ — исправленный векторный Inter-derived оригинал вместо неудачной композиции. Отдельный native VectorCraft document.
+- Сравнительный PDF 6 страниц и полный PDF 26 страниц (212 позиции на начертание); проверены 201/212 неизменённый контур + неизменённые hmtx, GPOS, GDEF и прочие tables, sampled-contour QA и 0 raster PDF objects. 3/З IoU улучшается не на каждом кегле: это лишь оптический кандидат, не автоматическое одобрение.
+- Не утверждены итоговые формы и интервалы, текст на 12/14px требует реальных читательских проверок; право/атрибуция Inter SIL OFL, метаданные и OS/2.fsType=4 — OPEN, Windows по-прежнему отложена владельцем.
+
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.
 2. Review v0.63 alternative З/д/л forms and high 3/З ambiguity across small pixel sizes; reject or choose explicit modifications.

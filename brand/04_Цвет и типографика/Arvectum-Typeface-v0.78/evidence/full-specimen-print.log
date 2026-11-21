@@ -1,0 +1,7 @@
+[51098:3273602:1121/152449.253722:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[51098:3273602:1121/152449.255090:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[51098:3273602:1121/152449.255504:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[51098:3273602:1121/152449.255595:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+Trying to load the allocator multiple times. This is *not* supported.
+[51098:3273602:1121/152449.362671:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+742195 bytes written to file /Volumes/ArvectumSSD/Arvectum/repos/arvectum-company-brand/brand/04_Цвет и типографика/Arvectum-Typeface-v0.78/Golden-Step-v078-COMPLETE-GLYPH-REVIEW.pdf

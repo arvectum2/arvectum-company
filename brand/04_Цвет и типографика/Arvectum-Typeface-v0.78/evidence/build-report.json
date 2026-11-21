@@ -1,0 +1,126 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft078-Medium.otf",
+    "sha256": "f52b273848eadf6ad20525add50dd95608a0750210fe64027085f974bbd1ca98",
+    "changed": {
+      "U+0414": {
+        "name": "uni0414",
+        "width": 1545,
+        "lsb": 100
+      },
+      "U+041B": {
+        "name": "uni041B",
+        "width": 1427,
+        "lsb": 100
+      },
+      "U+0417": {
+        "name": "uni0417",
+        "width": 1362,
+        "lsb": 100
+      },
+      "U+0437": {
+        "name": "uni0437",
+        "width": 1141,
+        "lsb": 100
+      },
+      "U+0412": {
+        "name": "uni0412",
+        "width": 1360,
+        "lsb": 100
+      },
+      "U+0432": {
+        "name": "uni0432",
+        "width": 1140,
+        "lsb": 100
+      },
+      "U+0042": {
+        "name": "uni0042",
+        "width": 1360,
+        "lsb": 100
+      },
+      "U+0062": {
+        "name": "uni0062",
+        "width": 1140,
+        "lsb": 100
+      },
+      "U+0411": {
+        "name": "uni0411",
+        "width": 1360,
+        "lsb": 100
+      },
+      "U+0431": {
+        "name": "uni0431",
+        "width": 1140,
+        "lsb": 100
+      },
+      "U+0040": {
+        "name": "uni0040",
+        "width": 1887,
+        "lsb": 90
+      }
+    },
+    "encoded": 212
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft078-Regular.otf",
+    "sha256": "45e25fe2a6c183204785f6ee6f9a123ad7f7d0d0ae4867b34d3279d98af7fb8e",
+    "changed": {
+      "U+0414": {
+        "name": "uni0414",
+        "width": 1470,
+        "lsb": 100
+      },
+      "U+041B": {
+        "name": "uni041B",
+        "width": 1357,
+        "lsb": 96
+      },
+      "U+0417": {
+        "name": "uni0417",
+        "width": 1300,
+        "lsb": 105
+      },
+      "U+0437": {
+        "name": "uni0437",
+        "width": 1151,
+        "lsb": 105
+      },
+      "U+0412": {
+        "name": "uni0412",
+        "width": 1310,
+        "lsb": 105
+      },
+      "U+0432": {
+        "name": "uni0432",
+        "width": 1130,
+        "lsb": 105
+      },
+      "U+0042": {
+        "name": "uni0042",
+        "width": 1310,
+        "lsb": 105
+      },
+      "U+0062": {
+        "name": "uni0062",
+        "width": 1130,
+        "lsb": 105
+      },
+      "U+0411": {
+        "name": "uni0411",
+        "width": 1310,
+        "lsb": 105
+      },
+      "U+0431": {
+        "name": "uni0431",
+        "width": 1130,
+        "lsb": 105
+      },
+      "U+0040": {
+        "name": "uni0040",
+        "width": 1890,
+        "lsb": 95
+      }
+    },
+    "encoded": 212
+  }
+}

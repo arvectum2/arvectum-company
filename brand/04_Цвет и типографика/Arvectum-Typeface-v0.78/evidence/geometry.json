@@ -1,0 +1,322 @@
+{
+  "approved": false,
+  "base": "v0.64",
+  "sources": {
+    "Display": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+    "Text": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74"
+  },
+  "candidates": {
+    "Display": {
+      "U+0414": {
+        "char": "Д",
+        "old_advance": 1974,
+        "new_advance": 1545,
+        "bounds": [
+          100,
+          -217,
+          1445,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "f922e01ba8ee340e41af53a455ad9879e946ce40931bc7e67f61b4e7e2e6df22"
+      },
+      "U+041B": {
+        "char": "Л",
+        "old_advance": 2045,
+        "new_advance": 1427,
+        "bounds": [
+          100,
+          0,
+          1327,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "8b9bd4b3a5cd44a19c4a90424cc340051a28d5fdf6b7087f6bffb65b8bc6e297"
+      },
+      "U+0417": {
+        "char": "З",
+        "old_advance": 1362,
+        "new_advance": 1362,
+        "bounds": [
+          100,
+          -15,
+          1262,
+          1505
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "bbecc0c497b65d44808fed39f927e83d98fc8a5261237d08fff84557ff13af1b"
+      },
+      "U+0437": {
+        "char": "з",
+        "old_advance": 1150,
+        "new_advance": 1141,
+        "bounds": [
+          100.0,
+          -10.630872483221477,
+          1041.22,
+          1066.6308724832215
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "79abe6ba00990a09b13414f8b6254c97b9db9e44bb708099f0bdde9520c6d090"
+      },
+      "U+0412": {
+        "char": "В",
+        "old_advance": 1360,
+        "new_advance": 1360,
+        "bounds": [
+          100,
+          0,
+          1260,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "2b000635f9d5ab325684c39bf5f9cb882e9232819d126650510a7bc4d093681e"
+      },
+      "U+0432": {
+        "char": "в",
+        "old_advance": 1140,
+        "new_advance": 1140,
+        "bounds": [
+          100.0,
+          0.0,
+          1040.0,
+          1056.0
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "244c2ec02652e526d49745a5700602104466bcb5783f887a69950e8cd74ee963"
+      },
+      "U+0042": {
+        "char": "B",
+        "old_advance": 1360,
+        "new_advance": 1360,
+        "bounds": [
+          100,
+          0,
+          1260,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "a340f5bb758ae2abc03a1cbad11d442eee9d91e058e7ece2272ffcc38272450a"
+      },
+      "U+0062": {
+        "char": "b",
+        "old_advance": 1140,
+        "new_advance": 1140,
+        "bounds": [
+          100,
+          -15,
+          1040.3178237752304,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "0a5d13b79973ddfbce090a0884746a2cb55a0b13825d5f38fe201ddcd3399f9c"
+      },
+      "U+0411": {
+        "char": "Б",
+        "old_advance": 1360,
+        "new_advance": 1360,
+        "bounds": [
+          100,
+          0,
+          1260.462998594303,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "f71c9d8e92ca49728fc784bf505fb961afa79ec9f1d396857ff396c444686334"
+      },
+      "U+0431": {
+        "char": "б",
+        "old_advance": 1140,
+        "new_advance": 1140,
+        "bounds": [
+          99.75429713081476,
+          -15,
+          1040.2559974113428,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "efa5d3443f4e1e74003c0bc757c3f117848234c8551db32eafc8bd60dfe26ea7"
+      },
+      "U+0040": {
+        "char": "@",
+        "old_advance": 1198,
+        "new_advance": 1887,
+        "bounds": [
+          90.0,
+          -325.0,
+          1796.6000000000001,
+          1395.2
+        ],
+        "lsb": 90,
+        "contours": 2,
+        "svg_sha256": "53891afa2eba28adf00915afb7211508d3d8d689cddab6669ec1938a351999b4"
+      }
+    },
+    "Text": {
+      "U+0414": {
+        "char": "Д",
+        "old_advance": 2003,
+        "new_advance": 1470,
+        "bounds": [
+          100,
+          -217,
+          1365,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "9636a344bee0f426493e8da3fa65246afddc021383093c41bd1e7027279bdd77"
+      },
+      "U+041B": {
+        "char": "Л",
+        "old_advance": 2055,
+        "new_advance": 1357,
+        "bounds": [
+          95.5,
+          0,
+          1252.0049999999999,
+          1490
+        ],
+        "lsb": 96,
+        "contours": 1,
+        "svg_sha256": "586cb4b64220414bc17ab45fd3618cce68f821af6ed4a5c58073d8627b53734a"
+      },
+      "U+0417": {
+        "char": "З",
+        "old_advance": 1301,
+        "new_advance": 1300,
+        "bounds": [
+          105.0,
+          -15,
+          1194.956,
+          1505
+        ],
+        "lsb": 105,
+        "contours": 1,
+        "svg_sha256": "76fbe5c05a81c3996b969fbee225bd34b156bbfa4cf5f19ed90220f52de97a12"
+      },
+      "U+0437": {
+        "char": "з",
+        "old_advance": 1130,
+        "new_advance": 1151,
+        "bounds": [
+          105.0,
+          -10.630872483221477,
+          1046.22,
+          1066.6308724832215
+        ],
+        "lsb": 105,
+        "contours": 1,
+        "svg_sha256": "3eaae470f4c9d5bbce772b38815884f457f54ef18e1aff6c3ff0b399ea57f7ef"
+      },
+      "U+0412": {
+        "char": "В",
+        "old_advance": 1310,
+        "new_advance": 1310,
+        "bounds": [
+          105,
+          0,
+          1205,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "175a1f6a8de0cb6404c5b99b507a72e6fce3a8d3c22e691f61b97e10af7a4244"
+      },
+      "U+0432": {
+        "char": "в",
+        "old_advance": 1130,
+        "new_advance": 1130,
+        "bounds": [
+          105.0,
+          0.0,
+          1025.0,
+          1056.0
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "f2388bb674950d3f5176af11320045d1a6b589b7d37f0b508cb309e7cf782682"
+      },
+      "U+0042": {
+        "char": "B",
+        "old_advance": 1310,
+        "new_advance": 1310,
+        "bounds": [
+          105,
+          0,
+          1205,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "ce0f850246ceb0e55df77b6efcece4f3385bee51fa97d083ff50dfbb60e1f11a"
+      },
+      "U+0062": {
+        "char": "b",
+        "old_advance": 1130,
+        "new_advance": 1130,
+        "bounds": [
+          105,
+          -15,
+          1025.284023816109,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 2,
+        "svg_sha256": "f3e4f3e05d25cb699a77dd979caecb28fdc716b8a90e9a9c1db150a09cd443df"
+      },
+      "U+0411": {
+        "char": "Б",
+        "old_advance": 1310,
+        "new_advance": 1310,
+        "bounds": [
+          105,
+          0,
+          1205.4209997951007,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 2,
+        "svg_sha256": "36fec8d1f365ab5709a3d9c1d0d4b26464bc212710559f14c526e32ae640c46e"
+      },
+      "U+0431": {
+        "char": "б",
+        "old_advance": 1130,
+        "new_advance": 1130,
+        "bounds": [
+          104.78270719736024,
+          -15,
+          1025.2253416951241,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 2,
+        "svg_sha256": "17813e13fca03f46e79bd35b271bbe0bd907a8dfb284b40d110528c88e240c73"
+      },
+      "U+0040": {
+        "char": "@",
+        "old_advance": 1184,
+        "new_advance": 1890,
+        "bounds": [
+          95.0,
+          -325.0,
+          1800.16,
+          1358.3
+        ],
+        "lsb": 95,
+        "contours": 2,
+        "svg_sha256": "6893cafd88ecaf906014eac8c237babb563dbe1911ad77cadb3cdd27b9e7f610"
+      }
+    }
+  }
+}
