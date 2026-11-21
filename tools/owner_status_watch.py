@@ -354,6 +354,9 @@ def main() -> None:
     args = parser.parse_args()
     baseline = load_baseline(args.baseline)
     if args.output_dir:
+        # launchd uses python -I: admit exactly the co-located pinned source module.
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
         from source_watch_git import GitPublicEvidence
         source = GitPublicEvidence(args.output_dir.resolve().parent/"git-source-cache", baseline, github_public_json)
         report = collect_evidence(baseline, fetch=source.fetch)

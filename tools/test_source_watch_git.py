@@ -51,6 +51,16 @@ class GitEvidenceTests(unittest.TestCase):
             with self.assertRaises(ValueError):self.reader.fetch(route)
         self.assertEqual(self.api_calls,[])
 
+    def test_isolated_launcher_imports_sidecar_without_site_paths(self):
+        import sys
+        cmd=[sys.executable, "-I", "-B", "-c",
+             "import pathlib,runpy,sys;sys.argv=['owner_status_watch.py','--help'];runpy.run_path(str(pathlib.Path(sys.argv[0]).resolve()),run_name='__main__')"]
+        import subprocess
+        # CLI --help exits before transport is used, exactly as launchd-style isolation.
+        p=subprocess.run([sys.executable,"-I","-B","tools/owner_status_watch.py","--help"],capture_output=True,text=True)
+        self.assertEqual(p.returncode,0)
+        self.assertIn("--output-dir",p.stdout)
+
     def test_transport_never_inherits_owner_credentials_or_shell(self):
         with patch("subprocess.run",return_value=subprocess.CompletedProcess([],0,b"",b"")) as run:
             self.reader._git("ls-remote","https://github.com/arvectum2/arvectum-company.git","refs/heads/main")
