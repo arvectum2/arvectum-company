@@ -30,6 +30,23 @@ MAX_RESPONSE = 8 * 1024 * 1024
 MAX_REPOS = 25
 MAX_REFS = 100
 TIMEOUT = 9
+# Exactly the eight fixed, separately admitted WSF-07A collector locators.
+# Company never reads OS private stores or assumes collector health by implication.
+# Only exact canonical path matches are excluded from duplicate HTTP polling.
+OS_COLLECTOR_REGISTRY_SHA = "aa21ce050441c50f4b68c9dc7b16ebe43b1a5a29d4a98059a8616b35c2849016"
+OS_COLLECTOR_LOCATORS = frozenset({
+    ("arvectum-company", "docs/roadmap/ROADMAP.md"),
+    ("arvectum-os", "docs/roadmap/ROADMAP.md"),
+    ("tender-agent", "STATUS.md"),
+    ("discount-parser", "docs/ROADMAP.md"),
+    ("proxy-launcher", "docs/ROADMAP.md"),
+    ("creative-test-agent", "docs/roadmap/CURRENT.md"),
+    ("data-platform", "docs/ROADMAP.md"),
+    ("arvectum-work", "docs/roadmap/ROADMAP.md"),
+})
+
+def handled_by_collector(ref: dict[str, Any]) -> bool:
+    return ref["scope"] == "canonical_commit" and (ref["repo"], ref["path"]) in OS_COLLECTOR_LOCATORS
 
 class SourceUnavailable(Exception):
     """Remote source is not verifiable by the read-only anonymous reader."""
@@ -125,7 +142,11 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
         raise ValueError("scan time must be offset-aware")
     details = baseline["project_details"]
     refs = [(label, source) for label, entry in details.items() for source in entry["source_refs"]]
-    repos = sorted({ref["repo"] for _, ref in refs})
+    additional_refs = [(label, ref) for label, ref in refs if not handled_by_collector(ref)]
+    delegated_refs = [(label, ref) for label, ref in refs if handled_by_collector(ref)]
+    # Branch/local/uncommitted references cannot be validated against main:
+    # do not spend API requests on them or imply observed source freshness.
+    repos = sorted({ref["repo"] for _, ref in additional_refs if scope_class(ref["scope"]) == "canonical"})
     heads: dict[str, dict[str, Any]] = {}
 
     def head(repo: str) -> tuple[str, dict[str, Any]]:
@@ -143,7 +164,7 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
             heads[repo] = result
 
     comparisons: dict[tuple[str, str], dict[str, Any]] = {}
-    keys = sorted({(ref["repo"], ref["ref"]) for _, ref in refs if scope_class(ref["scope"]) == "canonical" and heads[ref["repo"]]["state"] == "public_main_observed"})
+    keys = sorted({(ref["repo"], ref["ref"]) for _, ref in additional_refs if scope_class(ref["scope"]) == "canonical" and heads[ref["repo"]]["state"] == "public_main_observed"})
 
     def compare(key: tuple[str, str]) -> tuple[tuple[str, str], dict[str, Any]]:
         repo, predecessor = key
@@ -179,11 +200,16 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
         observations: list[dict[str, Any]] = []
         for source in detail["source_refs"]:
             repo, scope, predecessor, path = (source[k] for k in ("repo", "scope", "ref", "path"))
-            base: dict[str, Any] = {"repo": repo, "path": path, "scope": scope, "baseline_ref": predecessor, "head": heads[repo].get("head")}
-            if heads[repo]["state"] != "public_main_observed":
-                base.update({"state": "unknown", "reason": heads[repo]["reason"]})
+            base: dict[str, Any] = {"repo": repo, "path": path, "scope": scope, "baseline_ref": predecessor,
+                                    "head": heads.get(repo, {}).get("head")}
+            if handled_by_collector(source):
+                # Not a verified reading of OS history; its own admitted reader
+                # must separately establish freshness and backup evidence.
+                base.update({"state": "os_collector_owned_unverified_here", "reason": "wsf-07a_fixed_locator_separate_read", "head": None})
             elif scope_class(scope) != "canonical":
                 base.update({"state": "manual_source", "reason": scope_class(scope)})
+            elif heads[repo]["state"] != "public_main_observed":
+                base.update({"state": "unknown", "reason": heads[repo]["reason"]})
             else:
                 comparison = comparisons[(repo, predecessor)]
                 if comparison["state"] == "unavailable":
@@ -204,6 +230,8 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
             review = "incomplete_source_evidence"
         elif "unrelated_repo_activity" in states:
             review = "unscoped_repo_activity_review"
+        elif "os_collector_owned_unverified_here" in states:
+            review = "existing_os_collector_review_required"
         else:
             review = "observed_source_unchanged"
         status_count[review] = status_count.get(review, 0) + 1
@@ -221,7 +249,14 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
         "repository_owner": OWNER,
         "repo_heads": heads,
         "projects": projects,
-        "coverage": {"projects": len(projects), "source_refs": len(refs), "repos": len(repos), "review_signals": status_count},
+        "coverage": {"projects": len(projects), "source_refs": len(refs),
+                     "baseline_repos": len({ref["repo"] for _, ref in refs}),
+                     "additional_repos_scanned": len(repos),
+                     "additional_refs": len(additional_refs),
+                     "os_collector_exact_refs_not_refetched": len(delegated_refs),
+                     "os_collector_registry_sha256": OS_COLLECTOR_REGISTRY_SHA,
+                     "os_collector_freshness_verified_here": False,
+                     "repos": len(repos), "review_signals": status_count},
         "organizational_authority_provided": False,
         "automatic_approval": False,
         "automatic_source_repin": False,
@@ -231,6 +266,7 @@ def collect_evidence(baseline: dict[str, Any], fetch: Callable[[str], dict[str, 
             "Repository activity and source-file diffs do not prove completion, acceptance, GO or a new portfolio priority.",
             "The report is not the approved WSF-05 queue and cannot be served by its existing source pin.",
             "Private, local-only and branch-only refs remain unknown/manual without expanding credentials or repository access.",
+        "Exact paths already in WSF-07A are not fetched again; Company scanner does not attest collector health or reuse its private history without an approved read contract.",
         ],
     }
 
@@ -242,6 +278,7 @@ def render_review(report: dict[str, Any]) -> str:
         "incomplete_source_evidence": "Источник недоступен или локальный — проверить",
         "unscoped_repo_activity_review": "Есть изменения репозитория вне отслеживаемых файлов",
         "observed_source_unchanged": "В отслеживаемых источниках изменений не выявлено",
+        "existing_os_collector_review_required": "Этот файл ведёт существующий трёхчасовой сборщик OS; его данные отдельно проверить",
     }
     lines = ["# Сверка источников проектов — кандидат, не управленческий статус", "",
              f"Проверено: `{report['scanned_at']}`. Исходный утверждённый снимок: `{report['source_as_of']}`.",
@@ -250,7 +287,10 @@ def render_review(report: dict[str, Any]) -> str:
              "## Сигналы", ""]
     for code, wording in labels.items():
         lines.append(f"- {wording}: **{counts.get(code,0)}**")
-    lines += ["", "## Все проекты", "", "| Проект | Что обнаружено | Подтверждён новый статус? |", "|---|---|---|"]
+    lines += ["", "## Разделение наблюдения", "",
+              f"Повторный опрос исключён для {report['coverage']['os_collector_exact_refs_not_refetched']} совпадающих файлов. Дополнительный скан: {report['coverage']['additional_refs']} ссылок, {report['coverage']['additional_repos_scanned']} репозиториев.",
+              "Существующий WSF-07A имеет отдельный контракт, трёхчасовой цикл и защищённую историю; его свежесть этот отчёт НЕ удостоверяет.",
+              "", "## Все проекты", "", "| Проект | Что обнаружено | Подтверждён новый статус? |", "|---|---|---|"]
     for p in report["projects"]:
         label = p["project"].replace("|", "\\|")
         lines.append(f"| {label} | {labels[p['review_signal']]} | Нет |")

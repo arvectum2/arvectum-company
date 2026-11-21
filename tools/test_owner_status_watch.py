@@ -10,6 +10,7 @@ from pathlib import Path
 from owner_status_watch import (
     BASELINE_PATH, BASELINE_SHA256, SourceUnavailable, collect_evidence,
     git_blob_sha256, github_public_json, load_baseline, render_review, safe_save, transient_read_errors,
+    OS_COLLECTOR_LOCATORS, OS_COLLECTOR_REGISTRY_SHA,
 )
 
 HERE = Path(__file__).resolve().parents[1]
@@ -45,6 +46,74 @@ def fake_api(route):
 
 
 class SourceWatchTests(unittest.TestCase):
+    def test_3h_collector_locator_overlap_is_not_repolled(self):
+        # A deterministic fake reader rejects ALL API requests to the three
+        # repos whose only Company ref is already in the OS collector.
+        source = load_baseline(HERE / BASELINE_PATH)
+        collector_expected = {
+            ("arvectum-company", "docs/roadmap/ROADMAP.md"),
+            ("arvectum-os", "docs/roadmap/ROADMAP.md"),
+            ("arvectum-work", "docs/roadmap/ROADMAP.md"),
+            ("creative-test-agent", "docs/roadmap/CURRENT.md"),
+            ("data-platform", "docs/ROADMAP.md"),
+        }
+        original = {(r["repo"], r["path"]) for p in source["project_details"].values() for r in p["source_refs"] if r["scope"] == "canonical_commit"}
+        self.assertEqual(original & OS_COLLECTOR_LOCATORS, collector_expected)
+        self.assertEqual(len(OS_COLLECTOR_LOCATORS), 8)
+        self.assertEqual(OS_COLLECTOR_REGISTRY_SHA, "aa21ce050441c50f4b68c9dc7b16ebe43b1a5a29d4a98059a8616b35c2849016")
+        forbidden_repos = {"data-platform"}
+        requested = []
+        def read(route):
+            requested.append(route)
+            repo = route.split("/")[3]
+            if repo in forbidden_repos:
+                raise AssertionError("duplicate poll of an OS-collector-only repository")
+            if route.endswith("/branches/main"):
+                # No comparisons needed to test the baseline's exact source
+                # no extra network for excluded repos.
+                canonical = next((x["ref"] for p in source["project_details"].values() for x in p["source_refs"] if x["repo"] == repo and x["scope"] == "canonical_commit"), None)
+                if canonical:
+                    return {"commit": {"sha": canonical}}
+                return {"commit": {"sha": "a" * 40}}
+            return {"status": "ahead", "ahead_by": 1, "files": []}
+        # Arvectum Work and Creative Test Agent each have other source paths:
+        # their exact duplicated file is omitted, but additional paths still scan.
+        report = collect_evidence(source, read, now=dt.datetime(2026, 11, 21, tzinfo=dt.timezone.utc))
+        self.assertEqual(report["coverage"]["projects"], 22)
+        self.assertEqual(report["coverage"]["source_refs"], 35)
+        self.assertEqual(report["coverage"]["os_collector_exact_refs_not_refetched"], 5)
+        self.assertEqual(report["coverage"]["additional_refs"], 30)
+        self.assertEqual(report["coverage"]["additional_repos_scanned"], 14)
+        self.assertFalse(report["coverage"]["os_collector_freshness_verified_here"])
+        self.assertTrue(any(p["review_signal"] == "existing_os_collector_review_required" for p in report["projects"]))
+        for project in report["projects"]:
+            self.assertFalse(project["business_stage_updated"])
+            self.assertIsNone(project["proposed_business_status"])
+        all_observations = [x for p in report["projects"] for x in p["observations"]]
+        delegated = [x for x in all_observations if x["state"] == "os_collector_owned_unverified_here"]
+        self.assertEqual(len(delegated), 5)
+        self.assertTrue(all(x.get("head") is None for x in delegated))
+        self.assertTrue(all("/data-platform/" not in r for r in requested))
+        self.assertIn("Существующий WSF-07A", render_review(report))
+
+    def test_duplicate_file_only_skipped_not_the_other_roadmap_in_same_repo(self):
+        source = sample()
+        source["project_details"] = {"Company": {"stage": "unknown", "source_refs": [
+            ref("arvectum-company", path="docs/roadmap/ROADMAP.md"),
+            ref("arvectum-company", path="docs/roadmap/STRATEGIC-ROADMAP.md"),
+        ]}}
+        called = []
+        def fake(route):
+            called.append(route)
+            if route.endswith("/branches/main"):
+                return {"commit": {"sha": B}}
+            return {"status": "ahead", "ahead_by": 1, "files": [{"filename": "docs/roadmap/STRATEGIC-ROADMAP.md", "status": "modified"}]}
+        result = collect_evidence(source, fake)
+        states = [o["state"] for o in result["projects"][0]["observations"]]
+        self.assertEqual(states,["os_collector_owned_unverified_here", "tracked_path_changed"])
+        self.assertEqual(result["projects"][0]["review_signal"], "changed_source_review_required")
+        self.assertEqual(len(called), 2)
+
     def test_exact_company_baseline(self):
         source = load_baseline(HERE / BASELINE_PATH)
         self.assertEqual(len(source["project_details"]), 22)

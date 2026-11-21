@@ -10,3 +10,6 @@
 - [ ] SW-T008 Prove actual fresher Owner-status data and usefulness; retain AC-407 event-driven cadence.
 
 No DONE merely from structural tests. In particular SW-T006…008 do not authorize inferred project completion.
+
+- [x] SW-T009 Read-only comparison against live WSF-07A exact registry and launchd: 8 OS repository locators, 5 exact duplicate Company paths, 10/10 original tests plus focused deduplication tests.
+- [ ] SW-T010 Review/CI and activate a pinned deduplicated daily Company-only script; verify launchd, no duplicate read requests in synthetic test, unchanged WSF-07A service and report history, and a first successful natural scheduled run when API quota is available.
