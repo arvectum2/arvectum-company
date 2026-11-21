@@ -19,9 +19,10 @@ class GitUnavailable(Exception):
 
 
 class GitPublicEvidence:
-    def __init__(self, root, baseline, fallback):
+    def __init__(self, root, baseline, fallback, *, unavailable=GitUnavailable):
         self.root = Path(root)
         self.fallback = fallback
+        self.unavailable = unavailable
         self.refs = {}
         self.heads = {}
         for entry in baseline["project_details"].values():
@@ -50,6 +51,9 @@ class GitPublicEvidence:
         except (OSError, subprocess.TimeoutExpired) as exc:
             raise GitUnavailable("git_transport_unavailable") from exc
         if p.returncode and not allow_failure:
+            err = p.stderr.decode("utf-8", "replace").lower()
+            if "could not read username" in err or "repository not found" in err or "authentication failed" in err:
+                raise GitUnavailable("not_public_or_not_found")
             raise GitUnavailable("git_transport_unavailable")
         if len(p.stdout) > 8*1024*1024:
             raise GitUnavailable("git_output_over_limit")
@@ -71,7 +75,11 @@ class GitPublicEvidence:
                     raise GitUnavailable("git_main_unavailable")
                 self.heads[repo] = parts[0]
                 return {"commit": {"sha": parts[0]}}
-            except (GitUnavailable, UnicodeError):
+            except GitUnavailable as exc:
+                if str(exc) == "not_public_or_not_found":
+                    raise self.unavailable("not_public_or_not_found") from None
+                return self.fallback(route)
+            except UnicodeError:
                 return self.fallback(route)
         prior, target = m[3], m[4]
         if prior not in self.refs[repo] or target != self.heads.get(repo):

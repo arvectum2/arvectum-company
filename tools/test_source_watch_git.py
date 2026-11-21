@@ -44,6 +44,15 @@ class GitEvidenceTests(unittest.TestCase):
             self.assertEqual(self.reader.fetch(self.compare)["status"],"identical")
         self.assertEqual(self.api_calls,[self.head,self.compare])
 
+    def test_private_repository_does_not_consume_rest_quota(self):
+        from owner_status_watch import SourceUnavailable
+        self.reader.unavailable = SourceUnavailable
+        private = subprocess.CompletedProcess([],128,b"",b"fatal: could not read Username for https://github.com: terminal prompts disabled")
+        with patch("subprocess.run",return_value=private):
+            with self.assertRaisesRegex(SourceUnavailable,"not_public_or_not_found"):
+                self.reader.fetch(self.head)
+        self.assertEqual(self.api_calls,[])
+
     def test_unpinned_queries_do_not_touch_network_or_cache(self):
         for route in ("/repos/arvectum2/untrusted/branches/main",
                       f"/repos/arvectum2/arvectum-company/compare/{B}...{A}",
