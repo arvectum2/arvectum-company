@@ -1,0 +1,50 @@
+{
+  "status": "DRAFT_TECHNICAL_SCOPED_PASS",
+  "stage": "v0.58",
+  "styles": {
+    "Display": {
+      "top_mark_stacks": 120,
+      "bottom_double_tests": 4,
+      "kern_pairs": 57,
+      "minimum_top_gap": 94.71975281759569,
+      "triple_bottom_clipping_risk": true
+    },
+    "Text": {
+      "top_mark_stacks": 120,
+      "bottom_double_tests": 4,
+      "kern_pairs": 57,
+      "minimum_top_gap": 94.71975281759569,
+      "triple_bottom_clipping_risk": true
+    }
+  },
+  "Pages": {
+    "version": "14.2",
+    "DOCX_open": "PASS",
+    "PDF_export": "PASS",
+    "pages": 1,
+    "page_format": "A4",
+    "embedded_Display_058": true,
+    "embedded_Text_058": true,
+    "pdf_sha256": "6f3dc43580a60dc36e75e48e2065a4643870dcd05b5f9474bf8d9740e6a75bcc",
+    "render_png": "office-renders/pages-page1-v058.png",
+    "visual_review": "PASS at 1-page preview"
+  },
+  "Word": {
+    "version": "16.111.1",
+    "opened": true,
+    "document_name": "office-evidence-v058.docx",
+    "content_chars": 916,
+    "selected_title_font_prefix": "Arvectum Display Golden Step Dr",
+    "title_font_size_pt": 24.0,
+    "native_docx_read": "PASS",
+    "PDF_export": "BLOCKED_MACOS_GRANT_FILE_ACCESS",
+    "access_granted_to_external_volume": false
+  },
+  "open_exceptions": [
+    "triple-mark clipping",
+    "Word PDF export permission",
+    "Windows and paper print",
+    "owner optical acceptance"
+  ],
+  "no_production_installation": true
+}

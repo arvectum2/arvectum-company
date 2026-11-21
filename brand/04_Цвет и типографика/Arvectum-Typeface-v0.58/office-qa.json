@@ -1,0 +1,36 @@
+{
+  "office_sample": "office-evidence.docx",
+  "Word": {
+    "version": "16.111.1",
+    "opened": true,
+    "document_name": "office-evidence-v058.docx",
+    "content_chars": 916,
+    "selected_title_font_prefix": "Arvectum Display Golden Step Dr",
+    "title_font_size_pt": 24.0,
+    "native_docx_read": "PASS",
+    "PDF_export": "BLOCKED_MACOS_GRANT_FILE_ACCESS",
+    "access_granted_to_external_volume": false
+  },
+  "Pages": {
+    "version": "14.2",
+    "DOCX_open": "PASS",
+    "PDF_export": "PASS",
+    "pages": 1,
+    "page_format": "A4",
+    "embedded_Display_058": true,
+    "embedded_Text_058": true,
+    "pdf_sha256": "6f3dc43580a60dc36e75e48e2065a4643870dcd05b5f9474bf8d9740e6a75bcc",
+    "render_png": "office-renders/pages-page1-v058.png",
+    "visual_review": "PASS at 1-page preview"
+  },
+  "cache_invalidation": {
+    "initial_result": "FALLBACK_TO_TIMES",
+    "after_Pages_restart": "Arvectum 058 embedded"
+  },
+  "limitations": [
+    "Word PDF export requires macOS file-access grant; not performed",
+    "Pages text extraction does not preserve every combining mark order",
+    "No Windows or physical print qualification",
+    "No final design or legal approval"
+  ]
+}

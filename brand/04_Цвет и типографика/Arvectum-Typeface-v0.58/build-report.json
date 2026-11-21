@@ -1,0 +1,226 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft056-Medium.otf",
+    "input_sha256": "3e5286203adf9a78422daefaa92a1f8fb4beaf7d9068c841e85967da0f453d2b",
+    "output": "ArvectumDisplayGoldenStepDraft058-Medium.otf",
+    "output_sha256": "28c7450ebcdd4d27ab1b0390ef768806021d9cf66f7ee21bc2b080e99e88bbee",
+    "mark_anchors": {
+      "U+0300": {
+        "name": "uni0300",
+        "ink_bounds": [
+          -230,
+          35,
+          68,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0301": {
+        "name": "uni0301",
+        "ink_bounds": [
+          -68,
+          35,
+          230,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0302": {
+        "name": "uni0302",
+        "ink_bounds": [
+          -245,
+          45,
+          245,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0303": {
+        "name": "uni0303",
+        "ink_bounds": [
+          -235,
+          90,
+          235,
+          326.2802471824042
+        ],
+        "mkmk_attach_y": 421
+      },
+      "U+0304": {
+        "name": "uni0304",
+        "ink_bounds": [
+          -220,
+          90,
+          220,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+0306": {
+        "name": "uni0306",
+        "ink_bounds": [
+          -250,
+          18,
+          250,
+          243
+        ],
+        "mkmk_attach_y": 338
+      },
+      "U+0308": {
+        "name": "uni0308",
+        "ink_bounds": [
+          -194,
+          35,
+          194,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+030A": {
+        "name": "uni030A",
+        "ink_bounds": [
+          -152,
+          0,
+          152,
+          290
+        ],
+        "mkmk_attach_y": 385
+      },
+      "U+0327": {
+        "name": "uni0327",
+        "ink_bounds": [
+          -145,
+          -300,
+          92,
+          0
+        ],
+        "mkmk_attach_y": -395
+      }
+    },
+    "codepoints": 212,
+    "scope": "GPOS only: kern+mark+mkmk; CFF outlines and hmtx unchanged",
+    "web": {
+      "woff": {
+        "file": "ArvectumDisplayGoldenStepDraft058-Medium.woff",
+        "sha256": "f7e86b43e7fd032521c33f159724cb457ac1a66ecf1ec8de7b1ea5ada2c9cbe1",
+        "status": "PASS"
+      },
+      "woff2": {
+        "file": "ArvectumDisplayGoldenStepDraft058-Medium.woff2",
+        "sha256": "5a75dbd492a799b3b56b3bb488914f6f0ed0b089b5421462f46f3b6173d10ed9",
+        "status": "PASS"
+      }
+    }
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft056-Regular.otf",
+    "input_sha256": "8133c1ce065811858af56e707b7e9d4e4e81924d29e16b93ed0dffab4a1463eb",
+    "output": "ArvectumTextGoldenStepDraft058-Regular.otf",
+    "output_sha256": "97d5c6be70fbb601ac7dbdbff1146ab030ed773fb901d7540dd1854c65954b82",
+    "mark_anchors": {
+      "U+0300": {
+        "name": "uni0300",
+        "ink_bounds": [
+          -230,
+          35,
+          68,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0301": {
+        "name": "uni0301",
+        "ink_bounds": [
+          -68,
+          35,
+          230,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0302": {
+        "name": "uni0302",
+        "ink_bounds": [
+          -245,
+          45,
+          245,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0303": {
+        "name": "uni0303",
+        "ink_bounds": [
+          -235,
+          90,
+          235,
+          326.2802471824042
+        ],
+        "mkmk_attach_y": 421
+      },
+      "U+0304": {
+        "name": "uni0304",
+        "ink_bounds": [
+          -220,
+          90,
+          220,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+0306": {
+        "name": "uni0306",
+        "ink_bounds": [
+          -250,
+          18,
+          250,
+          243
+        ],
+        "mkmk_attach_y": 338
+      },
+      "U+0308": {
+        "name": "uni0308",
+        "ink_bounds": [
+          -194,
+          35,
+          194,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+030A": {
+        "name": "uni030A",
+        "ink_bounds": [
+          -152,
+          0,
+          152,
+          290
+        ],
+        "mkmk_attach_y": 385
+      },
+      "U+0327": {
+        "name": "uni0327",
+        "ink_bounds": [
+          -145,
+          -300,
+          92,
+          0
+        ],
+        "mkmk_attach_y": -395
+      }
+    },
+    "codepoints": 212,
+    "scope": "GPOS only: kern+mark+mkmk; CFF outlines and hmtx unchanged",
+    "web": {
+      "woff": {
+        "file": "ArvectumTextGoldenStepDraft058-Regular.woff",
+        "sha256": "18091b38a63b7ad910646e981b0fa3cf4922782a6dc2d2d078ecce54c7890ad1",
+        "status": "PASS"
+      },
+      "woff2": {
+        "file": "ArvectumTextGoldenStepDraft058-Regular.woff2",
+        "sha256": "db0b94f1df3489ce7fc53bf5061ec2b2e9db770dc1febbf9f0427344ba9a28d4",
+        "status": "PASS"
+      }
+    }
+  }
+}
