@@ -1,0 +1,2142 @@
+{
+  "project": "BR-05",
+  "revision": "v0.82",
+  "status": "experimental_owner_review_only",
+  "source": "v0.81",
+  "phi": 1.618033988749895,
+  "cap_height": 1490,
+  "tolerances": {
+    "A": 51.3183620854632,
+    "B": 83.03485410125339
+  },
+  "method": "Cubic Bézier sampled at 32 intervals, recursive Ramer-Douglas-Peucker per original curve; original straight line segments and endpoints preserved",
+  "scope": "All alphabetic and decimal-number encoded glyphs containing curves, not punctuation or math",
+  "styles": {
+    "Display": {
+      "source_otf": "ArvectumDisplayGoldenStepDraft081-Medium.otf",
+      "source_sha256": "04b3d530044a22281ace1553e40ef40aec39457c17346a26387da9c7bdf3f3f7",
+      "total_codepoints": 212,
+      "changed": 69,
+      "target_codepoints": [
+        "U+0030",
+        "U+0032",
+        "U+0033",
+        "U+0035",
+        "U+0036",
+        "U+0038",
+        "U+0039",
+        "U+0042",
+        "U+0043",
+        "U+0044",
+        "U+0047",
+        "U+004A",
+        "U+004F",
+        "U+0050",
+        "U+0051",
+        "U+0052",
+        "U+0053",
+        "U+0055",
+        "U+0061",
+        "U+0062",
+        "U+0063",
+        "U+0064",
+        "U+0065",
+        "U+0066",
+        "U+0067",
+        "U+0068",
+        "U+006A",
+        "U+006D",
+        "U+006E",
+        "U+006F",
+        "U+0070",
+        "U+0071",
+        "U+0072",
+        "U+0073",
+        "U+0074",
+        "U+0075",
+        "U+0411",
+        "U+0412",
+        "U+0417",
+        "U+0419",
+        "U+041E",
+        "U+0420",
+        "U+0421",
+        "U+0424",
+        "U+0427",
+        "U+042A",
+        "U+042B",
+        "U+042C",
+        "U+042D",
+        "U+042E",
+        "U+042F",
+        "U+0430",
+        "U+0431",
+        "U+0432",
+        "U+0435",
+        "U+0437",
+        "U+0439",
+        "U+043E",
+        "U+0440",
+        "U+0441",
+        "U+0444",
+        "U+0447",
+        "U+044A",
+        "U+044B",
+        "U+044C",
+        "U+044D",
+        "U+044E",
+        "U+044F",
+        "U+0451"
+      ],
+      "variants": {
+        "A": {
+          "otf": "ArvectumDisplayGoldenStepFacetADraft082-Medium.otf",
+          "sha256": "64cc494456272ddea6457f6a7eb30fb01a20d77774bb0bf08e1da447c06d3111",
+          "count": 69,
+          "curves_replaced": 475,
+          "lines": 1339,
+          "glyphs": [
+            {
+              "codepoint": "U+0030",
+              "char": "0",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0032",
+              "char": "2",
+              "replaced_cubics": 6,
+              "polygon_segments": 16,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0033",
+              "char": "3",
+              "replaced_cubics": 14,
+              "polygon_segments": 24,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0035",
+              "char": "5",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0036",
+              "char": "6",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0038",
+              "char": "8",
+              "replaced_cubics": 16,
+              "polygon_segments": 32,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0039",
+              "char": "9",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0042",
+              "char": "B",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0043",
+              "char": "C",
+              "replaced_cubics": 8,
+              "polygon_segments": 22,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+0044",
+              "char": "D",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1460
+            },
+            {
+              "codepoint": "U+0047",
+              "char": "G",
+              "replaced_cubics": 8,
+              "polygon_segments": 27,
+              "source_advance": 1550
+            },
+            {
+              "codepoint": "U+004A",
+              "char": "J",
+              "replaced_cubics": 4,
+              "polygon_segments": 11,
+              "source_advance": 1050
+            },
+            {
+              "codepoint": "U+004F",
+              "char": "O",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1520
+            },
+            {
+              "codepoint": "U+0050",
+              "char": "P",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0051",
+              "char": "Q",
+              "replaced_cubics": 9,
+              "polygon_segments": 26,
+              "source_advance": 1794
+            },
+            {
+              "codepoint": "U+0052",
+              "char": "R",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1384
+            },
+            {
+              "codepoint": "U+0053",
+              "char": "S",
+              "replaced_cubics": 12,
+              "polygon_segments": 25,
+              "source_advance": 1330
+            },
+            {
+              "codepoint": "U+0055",
+              "char": "U",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1440
+            },
+            {
+              "codepoint": "U+0061",
+              "char": "a",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0062",
+              "char": "b",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0063",
+              "char": "c",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1033
+            },
+            {
+              "codepoint": "U+0064",
+              "char": "d",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0065",
+              "char": "e",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0066",
+              "char": "f",
+              "replaced_cubics": 2,
+              "polygon_segments": 16,
+              "source_advance": 1050
+            },
+            {
+              "codepoint": "U+0067",
+              "char": "g",
+              "replaced_cubics": 10,
+              "polygon_segments": 25,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0068",
+              "char": "h",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+006A",
+              "char": "j",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 725
+            },
+            {
+              "codepoint": "U+006D",
+              "char": "m",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1615
+            },
+            {
+              "codepoint": "U+006E",
+              "char": "n",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+006F",
+              "char": "o",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0070",
+              "char": "p",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0071",
+              "char": "q",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0072",
+              "char": "r",
+              "replaced_cubics": 2,
+              "polygon_segments": 9,
+              "source_advance": 790
+            },
+            {
+              "codepoint": "U+0073",
+              "char": "s",
+              "replaced_cubics": 12,
+              "polygon_segments": 25,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0074",
+              "char": "t",
+              "replaced_cubics": 2,
+              "polygon_segments": 15,
+              "source_advance": 820
+            },
+            {
+              "codepoint": "U+0075",
+              "char": "u",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+0411",
+              "char": "Б",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0412",
+              "char": "В",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0417",
+              "char": "З",
+              "replaced_cubics": 12,
+              "polygon_segments": 23,
+              "source_advance": 1362
+            },
+            {
+              "codepoint": "U+0419",
+              "char": "Й",
+              "replaced_cubics": 4,
+              "polygon_segments": 18,
+              "source_advance": 1410
+            },
+            {
+              "codepoint": "U+041E",
+              "char": "О",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1520
+            },
+            {
+              "codepoint": "U+0420",
+              "char": "Р",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0421",
+              "char": "С",
+              "replaced_cubics": 8,
+              "polygon_segments": 22,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+0424",
+              "char": "Ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1694
+            },
+            {
+              "codepoint": "U+0427",
+              "char": "Ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+042A",
+              "char": "Ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1484
+            },
+            {
+              "codepoint": "U+042B",
+              "char": "Ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1685
+            },
+            {
+              "codepoint": "U+042C",
+              "char": "Ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+042D",
+              "char": "Э",
+              "replaced_cubics": 8,
+              "polygon_segments": 25,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+042E",
+              "char": "Ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 25,
+              "source_advance": 1660
+            },
+            {
+              "codepoint": "U+042F",
+              "char": "Я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1384
+            },
+            {
+              "codepoint": "U+0430",
+              "char": "а",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0431",
+              "char": "б",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0432",
+              "char": "в",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0435",
+              "char": "е",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0437",
+              "char": "з",
+              "replaced_cubics": 12,
+              "polygon_segments": 22,
+              "source_advance": 1141
+            },
+            {
+              "codepoint": "U+0439",
+              "char": "й",
+              "replaced_cubics": 4,
+              "polygon_segments": 18,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+043E",
+              "char": "о",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0440",
+              "char": "р",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0441",
+              "char": "с",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1033
+            },
+            {
+              "codepoint": "U+0444",
+              "char": "ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1362
+            },
+            {
+              "codepoint": "U+0447",
+              "char": "ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+044A",
+              "char": "ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1204
+            },
+            {
+              "codepoint": "U+044B",
+              "char": "ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1405
+            },
+            {
+              "codepoint": "U+044C",
+              "char": "ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1080
+            },
+            {
+              "codepoint": "U+044D",
+              "char": "э",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1039
+            },
+            {
+              "codepoint": "U+044E",
+              "char": "ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1342
+            },
+            {
+              "codepoint": "U+044F",
+              "char": "я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1144
+            },
+            {
+              "codepoint": "U+0451",
+              "char": "ё",
+              "replaced_cubics": 8,
+              "polygon_segments": 26,
+              "source_advance": 1150
+            }
+          ]
+        },
+        "B": {
+          "otf": "ArvectumDisplayGoldenStepFacetBDraft082-Medium.otf",
+          "sha256": "2ce3a7c9bab534cd30e9cec56115103967d7c4bc7b8b645cb8f7c919223ab9f9",
+          "count": 69,
+          "curves_replaced": 475,
+          "lines": 1195,
+          "glyphs": [
+            {
+              "codepoint": "U+0030",
+              "char": "0",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0032",
+              "char": "2",
+              "replaced_cubics": 6,
+              "polygon_segments": 16,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0033",
+              "char": "3",
+              "replaced_cubics": 14,
+              "polygon_segments": 22,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0035",
+              "char": "5",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0036",
+              "char": "6",
+              "replaced_cubics": 10,
+              "polygon_segments": 20,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0038",
+              "char": "8",
+              "replaced_cubics": 16,
+              "polygon_segments": 24,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0039",
+              "char": "9",
+              "replaced_cubics": 10,
+              "polygon_segments": 20,
+              "source_advance": 1323
+            },
+            {
+              "codepoint": "U+0042",
+              "char": "B",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0043",
+              "char": "C",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+0044",
+              "char": "D",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1460
+            },
+            {
+              "codepoint": "U+0047",
+              "char": "G",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1550
+            },
+            {
+              "codepoint": "U+004A",
+              "char": "J",
+              "replaced_cubics": 4,
+              "polygon_segments": 9,
+              "source_advance": 1050
+            },
+            {
+              "codepoint": "U+004F",
+              "char": "O",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1520
+            },
+            {
+              "codepoint": "U+0050",
+              "char": "P",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0051",
+              "char": "Q",
+              "replaced_cubics": 9,
+              "polygon_segments": 19,
+              "source_advance": 1794
+            },
+            {
+              "codepoint": "U+0052",
+              "char": "R",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1384
+            },
+            {
+              "codepoint": "U+0053",
+              "char": "S",
+              "replaced_cubics": 12,
+              "polygon_segments": 22,
+              "source_advance": 1330
+            },
+            {
+              "codepoint": "U+0055",
+              "char": "U",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1440
+            },
+            {
+              "codepoint": "U+0061",
+              "char": "a",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0062",
+              "char": "b",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0063",
+              "char": "c",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1033
+            },
+            {
+              "codepoint": "U+0064",
+              "char": "d",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0065",
+              "char": "e",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0066",
+              "char": "f",
+              "replaced_cubics": 2,
+              "polygon_segments": 16,
+              "source_advance": 1050
+            },
+            {
+              "codepoint": "U+0067",
+              "char": "g",
+              "replaced_cubics": 10,
+              "polygon_segments": 24,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0068",
+              "char": "h",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+006A",
+              "char": "j",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 725
+            },
+            {
+              "codepoint": "U+006D",
+              "char": "m",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1615
+            },
+            {
+              "codepoint": "U+006E",
+              "char": "n",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+006F",
+              "char": "o",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0070",
+              "char": "p",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0071",
+              "char": "q",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0072",
+              "char": "r",
+              "replaced_cubics": 2,
+              "polygon_segments": 8,
+              "source_advance": 790
+            },
+            {
+              "codepoint": "U+0073",
+              "char": "s",
+              "replaced_cubics": 12,
+              "polygon_segments": 19,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0074",
+              "char": "t",
+              "replaced_cubics": 2,
+              "polygon_segments": 15,
+              "source_advance": 820
+            },
+            {
+              "codepoint": "U+0075",
+              "char": "u",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+0411",
+              "char": "Б",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0412",
+              "char": "В",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0417",
+              "char": "З",
+              "replaced_cubics": 12,
+              "polygon_segments": 22,
+              "source_advance": 1362
+            },
+            {
+              "codepoint": "U+0419",
+              "char": "Й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1410
+            },
+            {
+              "codepoint": "U+041E",
+              "char": "О",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1520
+            },
+            {
+              "codepoint": "U+0420",
+              "char": "Р",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+0421",
+              "char": "С",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+0424",
+              "char": "Ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1694
+            },
+            {
+              "codepoint": "U+0427",
+              "char": "Ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+042A",
+              "char": "Ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1484
+            },
+            {
+              "codepoint": "U+042B",
+              "char": "Ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1685
+            },
+            {
+              "codepoint": "U+042C",
+              "char": "Ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+042D",
+              "char": "Э",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1366
+            },
+            {
+              "codepoint": "U+042E",
+              "char": "Ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1660
+            },
+            {
+              "codepoint": "U+042F",
+              "char": "Я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1384
+            },
+            {
+              "codepoint": "U+0430",
+              "char": "а",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0431",
+              "char": "б",
+              "replaced_cubics": 10,
+              "polygon_segments": 21,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0432",
+              "char": "в",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0435",
+              "char": "е",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0437",
+              "char": "з",
+              "replaced_cubics": 12,
+              "polygon_segments": 20,
+              "source_advance": 1141
+            },
+            {
+              "codepoint": "U+0439",
+              "char": "й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+043E",
+              "char": "о",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1150
+            },
+            {
+              "codepoint": "U+0440",
+              "char": "р",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1140
+            },
+            {
+              "codepoint": "U+0441",
+              "char": "с",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1033
+            },
+            {
+              "codepoint": "U+0444",
+              "char": "ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1362
+            },
+            {
+              "codepoint": "U+0447",
+              "char": "ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1145
+            },
+            {
+              "codepoint": "U+044A",
+              "char": "ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1204
+            },
+            {
+              "codepoint": "U+044B",
+              "char": "ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1405
+            },
+            {
+              "codepoint": "U+044C",
+              "char": "ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1080
+            },
+            {
+              "codepoint": "U+044D",
+              "char": "э",
+              "replaced_cubics": 8,
+              "polygon_segments": 15,
+              "source_advance": 1039
+            },
+            {
+              "codepoint": "U+044E",
+              "char": "ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1342
+            },
+            {
+              "codepoint": "U+044F",
+              "char": "я",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1144
+            },
+            {
+              "codepoint": "U+0451",
+              "char": "ё",
+              "replaced_cubics": 8,
+              "polygon_segments": 26,
+              "source_advance": 1150
+            }
+          ]
+        }
+      }
+    },
+    "Text": {
+      "source_otf": "ArvectumTextGoldenStepDraft081-Regular.otf",
+      "source_sha256": "cda2a693e327995c8fc37a060b74c9e0e90a37fd6e2a410189f5a7c28463360b",
+      "total_codepoints": 212,
+      "changed": 69,
+      "target_codepoints": [
+        "U+0030",
+        "U+0032",
+        "U+0033",
+        "U+0035",
+        "U+0036",
+        "U+0038",
+        "U+0039",
+        "U+0042",
+        "U+0043",
+        "U+0044",
+        "U+0047",
+        "U+004A",
+        "U+004F",
+        "U+0050",
+        "U+0051",
+        "U+0052",
+        "U+0053",
+        "U+0055",
+        "U+0061",
+        "U+0062",
+        "U+0063",
+        "U+0064",
+        "U+0065",
+        "U+0066",
+        "U+0067",
+        "U+0068",
+        "U+006A",
+        "U+006D",
+        "U+006E",
+        "U+006F",
+        "U+0070",
+        "U+0071",
+        "U+0072",
+        "U+0073",
+        "U+0074",
+        "U+0075",
+        "U+0411",
+        "U+0412",
+        "U+0417",
+        "U+0419",
+        "U+041E",
+        "U+0420",
+        "U+0421",
+        "U+0424",
+        "U+0427",
+        "U+042A",
+        "U+042B",
+        "U+042C",
+        "U+042D",
+        "U+042E",
+        "U+042F",
+        "U+0430",
+        "U+0431",
+        "U+0432",
+        "U+0435",
+        "U+0437",
+        "U+0439",
+        "U+043E",
+        "U+0440",
+        "U+0441",
+        "U+0444",
+        "U+0447",
+        "U+044A",
+        "U+044B",
+        "U+044C",
+        "U+044D",
+        "U+044E",
+        "U+044F",
+        "U+0451"
+      ],
+      "variants": {
+        "A": {
+          "otf": "ArvectumTextGoldenStepFacetADraft082-Regular.otf",
+          "sha256": "f708be977e01034aec15c2f31d0ea686bae476327b63175107f44c6ca6f61ded",
+          "count": 69,
+          "curves_replaced": 475,
+          "lines": 1308,
+          "glyphs": [
+            {
+              "codepoint": "U+0030",
+              "char": "0",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0032",
+              "char": "2",
+              "replaced_cubics": 6,
+              "polygon_segments": 16,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0033",
+              "char": "3",
+              "replaced_cubics": 14,
+              "polygon_segments": 24,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0035",
+              "char": "5",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0036",
+              "char": "6",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0038",
+              "char": "8",
+              "replaced_cubics": 16,
+              "polygon_segments": 32,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0039",
+              "char": "9",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0042",
+              "char": "B",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0043",
+              "char": "C",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+0044",
+              "char": "D",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1410
+            },
+            {
+              "codepoint": "U+0047",
+              "char": "G",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1480
+            },
+            {
+              "codepoint": "U+004A",
+              "char": "J",
+              "replaced_cubics": 4,
+              "polygon_segments": 11,
+              "source_advance": 996
+            },
+            {
+              "codepoint": "U+004F",
+              "char": "O",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1450
+            },
+            {
+              "codepoint": "U+0050",
+              "char": "P",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0051",
+              "char": "Q",
+              "replaced_cubics": 9,
+              "polygon_segments": 22,
+              "source_advance": 1729
+            },
+            {
+              "codepoint": "U+0052",
+              "char": "R",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1304
+            },
+            {
+              "codepoint": "U+0053",
+              "char": "S",
+              "replaced_cubics": 12,
+              "polygon_segments": 25,
+              "source_advance": 1240
+            },
+            {
+              "codepoint": "U+0055",
+              "char": "U",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1390
+            },
+            {
+              "codepoint": "U+0061",
+              "char": "a",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0062",
+              "char": "b",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0063",
+              "char": "c",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1017
+            },
+            {
+              "codepoint": "U+0064",
+              "char": "d",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0065",
+              "char": "e",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1160
+            },
+            {
+              "codepoint": "U+0066",
+              "char": "f",
+              "replaced_cubics": 2,
+              "polygon_segments": 16,
+              "source_advance": 996
+            },
+            {
+              "codepoint": "U+0067",
+              "char": "g",
+              "replaced_cubics": 10,
+              "polygon_segments": 25,
+              "source_advance": 1148
+            },
+            {
+              "codepoint": "U+0068",
+              "char": "h",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+006A",
+              "char": "j",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 695
+            },
+            {
+              "codepoint": "U+006D",
+              "char": "m",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1685
+            },
+            {
+              "codepoint": "U+006E",
+              "char": "n",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+006F",
+              "char": "o",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0070",
+              "char": "p",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0071",
+              "char": "q",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0072",
+              "char": "r",
+              "replaced_cubics": 2,
+              "polygon_segments": 9,
+              "source_advance": 755
+            },
+            {
+              "codepoint": "U+0073",
+              "char": "s",
+              "replaced_cubics": 12,
+              "polygon_segments": 25,
+              "source_advance": 1153
+            },
+            {
+              "codepoint": "U+0074",
+              "char": "t",
+              "replaced_cubics": 2,
+              "polygon_segments": 15,
+              "source_advance": 810
+            },
+            {
+              "codepoint": "U+0075",
+              "char": "u",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+0411",
+              "char": "Б",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0412",
+              "char": "В",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0417",
+              "char": "З",
+              "replaced_cubics": 12,
+              "polygon_segments": 23,
+              "source_advance": 1300
+            },
+            {
+              "codepoint": "U+0419",
+              "char": "Й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1295
+            },
+            {
+              "codepoint": "U+041E",
+              "char": "О",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1450
+            },
+            {
+              "codepoint": "U+0420",
+              "char": "Р",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0421",
+              "char": "С",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+0424",
+              "char": "Ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1554
+            },
+            {
+              "codepoint": "U+0427",
+              "char": "Ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1290
+            },
+            {
+              "codepoint": "U+042A",
+              "char": "Ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1425
+            },
+            {
+              "codepoint": "U+042B",
+              "char": "Ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1610
+            },
+            {
+              "codepoint": "U+042C",
+              "char": "Ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+042D",
+              "char": "Э",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+042E",
+              "char": "Ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 25,
+              "source_advance": 1576
+            },
+            {
+              "codepoint": "U+042F",
+              "char": "Я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1304
+            },
+            {
+              "codepoint": "U+0430",
+              "char": "а",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0431",
+              "char": "б",
+              "replaced_cubics": 10,
+              "polygon_segments": 23,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0432",
+              "char": "в",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0435",
+              "char": "е",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1160
+            },
+            {
+              "codepoint": "U+0437",
+              "char": "з",
+              "replaced_cubics": 12,
+              "polygon_segments": 22,
+              "source_advance": 1151
+            },
+            {
+              "codepoint": "U+0439",
+              "char": "й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+043E",
+              "char": "о",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0440",
+              "char": "р",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0441",
+              "char": "с",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1017
+            },
+            {
+              "codepoint": "U+0444",
+              "char": "ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1279
+            },
+            {
+              "codepoint": "U+0447",
+              "char": "ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+044A",
+              "char": "ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1175
+            },
+            {
+              "codepoint": "U+044B",
+              "char": "ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+044C",
+              "char": "ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1060
+            },
+            {
+              "codepoint": "U+044D",
+              "char": "э",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1022
+            },
+            {
+              "codepoint": "U+044E",
+              "char": "ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1301
+            },
+            {
+              "codepoint": "U+044F",
+              "char": "я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1106
+            },
+            {
+              "codepoint": "U+0451",
+              "char": "ё",
+              "replaced_cubics": 8,
+              "polygon_segments": 26,
+              "source_advance": 1160
+            }
+          ]
+        },
+        "B": {
+          "otf": "ArvectumTextGoldenStepFacetBDraft082-Regular.otf",
+          "sha256": "c7accf27f78c3c1937147b2c6b6a2907542a21e1db8d0a5f8ef3d7be8e0bacc0",
+          "count": 69,
+          "curves_replaced": 475,
+          "lines": 1189,
+          "glyphs": [
+            {
+              "codepoint": "U+0030",
+              "char": "0",
+              "replaced_cubics": 8,
+              "polygon_segments": 20,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0032",
+              "char": "2",
+              "replaced_cubics": 6,
+              "polygon_segments": 16,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0033",
+              "char": "3",
+              "replaced_cubics": 14,
+              "polygon_segments": 22,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0035",
+              "char": "5",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0036",
+              "char": "6",
+              "replaced_cubics": 10,
+              "polygon_segments": 21,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0038",
+              "char": "8",
+              "replaced_cubics": 16,
+              "polygon_segments": 24,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0039",
+              "char": "9",
+              "replaced_cubics": 10,
+              "polygon_segments": 21,
+              "source_advance": 1266
+            },
+            {
+              "codepoint": "U+0042",
+              "char": "B",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0043",
+              "char": "C",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+0044",
+              "char": "D",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1410
+            },
+            {
+              "codepoint": "U+0047",
+              "char": "G",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1480
+            },
+            {
+              "codepoint": "U+004A",
+              "char": "J",
+              "replaced_cubics": 4,
+              "polygon_segments": 9,
+              "source_advance": 996
+            },
+            {
+              "codepoint": "U+004F",
+              "char": "O",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1450
+            },
+            {
+              "codepoint": "U+0050",
+              "char": "P",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0051",
+              "char": "Q",
+              "replaced_cubics": 9,
+              "polygon_segments": 19,
+              "source_advance": 1729
+            },
+            {
+              "codepoint": "U+0052",
+              "char": "R",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1304
+            },
+            {
+              "codepoint": "U+0053",
+              "char": "S",
+              "replaced_cubics": 12,
+              "polygon_segments": 22,
+              "source_advance": 1240
+            },
+            {
+              "codepoint": "U+0055",
+              "char": "U",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1390
+            },
+            {
+              "codepoint": "U+0061",
+              "char": "a",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0062",
+              "char": "b",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0063",
+              "char": "c",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1017
+            },
+            {
+              "codepoint": "U+0064",
+              "char": "d",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0065",
+              "char": "e",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1160
+            },
+            {
+              "codepoint": "U+0066",
+              "char": "f",
+              "replaced_cubics": 2,
+              "polygon_segments": 16,
+              "source_advance": 996
+            },
+            {
+              "codepoint": "U+0067",
+              "char": "g",
+              "replaced_cubics": 10,
+              "polygon_segments": 24,
+              "source_advance": 1148
+            },
+            {
+              "codepoint": "U+0068",
+              "char": "h",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+006A",
+              "char": "j",
+              "replaced_cubics": 4,
+              "polygon_segments": 11,
+              "source_advance": 695
+            },
+            {
+              "codepoint": "U+006D",
+              "char": "m",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1685
+            },
+            {
+              "codepoint": "U+006E",
+              "char": "n",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+006F",
+              "char": "o",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0070",
+              "char": "p",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0071",
+              "char": "q",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0072",
+              "char": "r",
+              "replaced_cubics": 2,
+              "polygon_segments": 7,
+              "source_advance": 755
+            },
+            {
+              "codepoint": "U+0073",
+              "char": "s",
+              "replaced_cubics": 12,
+              "polygon_segments": 19,
+              "source_advance": 1153
+            },
+            {
+              "codepoint": "U+0074",
+              "char": "t",
+              "replaced_cubics": 2,
+              "polygon_segments": 15,
+              "source_advance": 810
+            },
+            {
+              "codepoint": "U+0075",
+              "char": "u",
+              "replaced_cubics": 4,
+              "polygon_segments": 12,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+0411",
+              "char": "Б",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0412",
+              "char": "В",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0417",
+              "char": "З",
+              "replaced_cubics": 12,
+              "polygon_segments": 21,
+              "source_advance": 1300
+            },
+            {
+              "codepoint": "U+0419",
+              "char": "Й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1295
+            },
+            {
+              "codepoint": "U+041E",
+              "char": "О",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1450
+            },
+            {
+              "codepoint": "U+0420",
+              "char": "Р",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+0421",
+              "char": "С",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+0424",
+              "char": "Ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 21,
+              "source_advance": 1554
+            },
+            {
+              "codepoint": "U+0427",
+              "char": "Ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1290
+            },
+            {
+              "codepoint": "U+042A",
+              "char": "Ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1425
+            },
+            {
+              "codepoint": "U+042B",
+              "char": "Ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1610
+            },
+            {
+              "codepoint": "U+042C",
+              "char": "Ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1310
+            },
+            {
+              "codepoint": "U+042D",
+              "char": "Э",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1305
+            },
+            {
+              "codepoint": "U+042E",
+              "char": "Ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 23,
+              "source_advance": 1576
+            },
+            {
+              "codepoint": "U+042F",
+              "char": "Я",
+              "replaced_cubics": 4,
+              "polygon_segments": 19,
+              "source_advance": 1304
+            },
+            {
+              "codepoint": "U+0430",
+              "char": "а",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0431",
+              "char": "б",
+              "replaced_cubics": 10,
+              "polygon_segments": 21,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0432",
+              "char": "в",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0435",
+              "char": "е",
+              "replaced_cubics": 8,
+              "polygon_segments": 17,
+              "source_advance": 1160
+            },
+            {
+              "codepoint": "U+0437",
+              "char": "з",
+              "replaced_cubics": 12,
+              "polygon_segments": 19,
+              "source_advance": 1151
+            },
+            {
+              "codepoint": "U+0439",
+              "char": "й",
+              "replaced_cubics": 4,
+              "polygon_segments": 16,
+              "source_advance": 1155
+            },
+            {
+              "codepoint": "U+043E",
+              "char": "о",
+              "replaced_cubics": 8,
+              "polygon_segments": 16,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0440",
+              "char": "р",
+              "replaced_cubics": 8,
+              "polygon_segments": 18,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+0441",
+              "char": "с",
+              "replaced_cubics": 8,
+              "polygon_segments": 14,
+              "source_advance": 1017
+            },
+            {
+              "codepoint": "U+0444",
+              "char": "ф",
+              "replaced_cubics": 8,
+              "polygon_segments": 24,
+              "source_advance": 1279
+            },
+            {
+              "codepoint": "U+0447",
+              "char": "ч",
+              "replaced_cubics": 2,
+              "polygon_segments": 13,
+              "source_advance": 1130
+            },
+            {
+              "codepoint": "U+044A",
+              "char": "ъ",
+              "replaced_cubics": 4,
+              "polygon_segments": 15,
+              "source_advance": 1175
+            },
+            {
+              "codepoint": "U+044B",
+              "char": "ы",
+              "replaced_cubics": 4,
+              "polygon_segments": 17,
+              "source_advance": 1360
+            },
+            {
+              "codepoint": "U+044C",
+              "char": "ь",
+              "replaced_cubics": 4,
+              "polygon_segments": 13,
+              "source_advance": 1060
+            },
+            {
+              "codepoint": "U+044D",
+              "char": "э",
+              "replaced_cubics": 8,
+              "polygon_segments": 15,
+              "source_advance": 1022
+            },
+            {
+              "codepoint": "U+044E",
+              "char": "ю",
+              "replaced_cubics": 8,
+              "polygon_segments": 19,
+              "source_advance": 1301
+            },
+            {
+              "codepoint": "U+044F",
+              "char": "я",
+              "replaced_cubics": 4,
+              "polygon_segments": 18,
+              "source_advance": 1106
+            },
+            {
+              "codepoint": "U+0451",
+              "char": "ё",
+              "replaced_cubics": 8,
+              "polygon_segments": 26,
+              "source_advance": 1160
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Golden Step v0.82 — source, provenance, authority
+
+Company-specific draft under BR-05; not Arvectum OS. Baseline v0.81 untouched, exact OTF SHA256 in `evidence/faceting-report.json`. Older pinned tags `brand/golden-step-v064-reviewed-v077`, `brand/golden-step-v079-pre-v080-b-smoothing`, and `brand/golden-step-v080-pre-v081-optical-review` remain intact. Two new versions A/B under separate experimental names are not official company approvals.
+
+φ controls polygonal approximation tolerances H/φ⁷ or H/φ⁶, **not** specific output angles or universal golden geometry. Exactly 69 curved letters/digits/style are changed in both variants; all other outlines, widths, kerning and OS/2 embedding state preserved. Golden Wordmark v0.21 C and Golden Vector v0.18 unaffected. SIL OFL 1.1 / Inter 4.1 derivative provenance retained; cannot assert exclusive rights. Small-type legibility, signs/punctuation coherent overhaul, metadata, real installation, owner approval and public release remain OPEN. Windows deferred by owner.

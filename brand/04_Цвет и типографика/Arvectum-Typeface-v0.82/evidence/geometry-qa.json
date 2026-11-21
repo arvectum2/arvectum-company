@@ -1,0 +1,2160 @@
+{
+  "status": "PASS",
+  "glyphs": {
+    "A/Display/U+0030": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1219903,
+        541765,
+        45232
+      ]
+    },
+    "A/Display/U+0032": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        597634
+      ]
+    },
+    "A/Display/U+0033": {
+      "count": 1,
+      "total_path_points": 25,
+      "absolute_area": [
+        563166
+      ]
+    },
+    "A/Display/U+0035": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        694575
+      ]
+    },
+    "A/Display/U+0036": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        971014,
+        290730
+      ]
+    },
+    "A/Display/U+0038": {
+      "count": 3,
+      "total_path_points": 35,
+      "absolute_area": [
+        1312575,
+        133202,
+        340188
+      ]
+    },
+    "A/Display/U+0039": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        971007,
+        290730
+      ]
+    },
+    "A/Display/U+0042": {
+      "count": 3,
+      "total_path_points": 26,
+      "absolute_area": [
+        1463365,
+        165554,
+        415540
+      ]
+    },
+    "A/Display/U+0043": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        607811
+      ]
+    },
+    "A/Display/U+0044": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1643879,
+        785839
+      ]
+    },
+    "A/Display/U+0047": {
+      "count": 1,
+      "total_path_points": 28,
+      "absolute_area": [
+        838785
+      ]
+    },
+    "A/Display/U+004A": {
+      "count": 1,
+      "total_path_points": 13,
+      "absolute_area": [
+        398962
+      ]
+    },
+    "A/Display/U+004F": {
+      "count": 2,
+      "total_path_points": 26,
+      "absolute_area": [
+        1601458,
+        771403
+      ]
+    },
+    "A/Display/U+0050": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1003704,
+        325302
+      ]
+    },
+    "A/Display/U+0051": {
+      "count": 2,
+      "total_path_points": 28,
+      "absolute_area": [
+        1692768,
+        771403
+      ]
+    },
+    "A/Display/U+0052": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1169086,
+        313918
+      ]
+    },
+    "A/Display/U+0053": {
+      "count": 1,
+      "total_path_points": 27,
+      "absolute_area": [
+        643747
+      ]
+    },
+    "A/Display/U+0055": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        662762
+      ]
+    },
+    "A/Display/U+0061": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        832784,
+        272648
+      ]
+    },
+    "A/Display/U+0062": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        920018,
+        272648
+      ]
+    },
+    "A/Display/U+0063": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        370519
+      ]
+    },
+    "A/Display/U+0064": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        920018,
+        272648
+      ]
+    },
+    "A/Display/U+0065": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        625671,
+        94117
+      ]
+    },
+    "A/Display/U+0066": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        502380
+      ]
+    },
+    "A/Display/U+0067": {
+      "count": 2,
+      "total_path_points": 27,
+      "absolute_area": [
+        997341,
+        272648
+      ]
+    },
+    "A/Display/U+0068": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        619167
+      ]
+    },
+    "A/Display/U+006A": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        324685,
+        40401
+      ]
+    },
+    "A/Display/U+006D": {
+      "count": 1,
+      "total_path_points": 26,
+      "absolute_area": [
+        795090
+      ]
+    },
+    "A/Display/U+006E": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        531933
+      ]
+    },
+    "A/Display/U+006F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        755282,
+        282575
+      ]
+    },
+    "A/Display/U+0070": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        903134,
+        272648
+      ]
+    },
+    "A/Display/U+0071": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        903134,
+        272648
+      ]
+    },
+    "A/Display/U+0072": {
+      "count": 1,
+      "total_path_points": 11,
+      "absolute_area": [
+        268826
+      ]
+    },
+    "A/Display/U+0073": {
+      "count": 1,
+      "total_path_points": 27,
+      "absolute_area": [
+        385506
+      ]
+    },
+    "A/Display/U+0074": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        347874
+      ]
+    },
+    "A/Display/U+0075": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        531933
+      ]
+    },
+    "A/Display/U+0411": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1198825,
+        353734
+      ]
+    },
+    "A/Display/U+0412": {
+      "count": 3,
+      "total_path_points": 26,
+      "absolute_area": [
+        1463365,
+        165554,
+        415540
+      ]
+    },
+    "A/Display/U+0417": {
+      "count": 1,
+      "total_path_points": 24,
+      "absolute_area": [
+        604305
+      ]
+    },
+    "A/Display/U+0419": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        880670,
+        51640
+      ]
+    },
+    "A/Display/U+041E": {
+      "count": 2,
+      "total_path_points": 26,
+      "absolute_area": [
+        1601458,
+        771403
+      ]
+    },
+    "A/Display/U+0420": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1003704,
+        325302
+      ]
+    },
+    "A/Display/U+0421": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        607811
+      ]
+    },
+    "A/Display/U+0424": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1403459,
+        257016,
+        257016
+      ]
+    },
+    "A/Display/U+0427": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        567463
+      ]
+    },
+    "A/Display/U+042A": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1066061,
+        355511
+      ]
+    },
+    "A/Display/U+042B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        1042377,
+        355511,
+        299490
+      ]
+    },
+    "A/Display/U+042C": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1042377,
+        355511
+      ]
+    },
+    "A/Display/U+042D": {
+      "count": 1,
+      "total_path_points": 26,
+      "absolute_area": [
+        709697
+      ]
+    },
+    "A/Display/U+042E": {
+      "count": 2,
+      "total_path_points": 27,
+      "absolute_area": [
+        1631419,
+        616753
+      ]
+    },
+    "A/Display/U+042F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1169086,
+        313918
+      ]
+    },
+    "A/Display/U+0430": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        832784,
+        272648
+      ]
+    },
+    "A/Display/U+0431": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        945575,
+        277446
+      ]
+    },
+    "A/Display/U+0432": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        840533,
+        82922,
+        238494
+      ]
+    },
+    "A/Display/U+0435": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        625671,
+        94117
+      ]
+    },
+    "A/Display/U+0437": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        353006
+      ]
+    },
+    "A/Display/U+0439": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        605874,
+        42617
+      ]
+    },
+    "A/Display/U+043E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        755282,
+        282575
+      ]
+    },
+    "A/Display/U+0440": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        903134,
+        272648
+      ]
+    },
+    "A/Display/U+0441": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        370519
+      ]
+    },
+    "A/Display/U+0444": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1089528,
+        189133,
+        189133
+      ]
+    },
+    "A/Display/U+0447": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        379444
+      ]
+    },
+    "A/Display/U+044A": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        585264,
+        86394
+      ]
+    },
+    "A/Display/U+044B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        580057,
+        112790,
+        212256
+      ]
+    },
+    "A/Display/U+044C": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        561580,
+        86394
+      ]
+    },
+    "A/Display/U+044D": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        444351
+      ]
+    },
+    "A/Display/U+044E": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        892864,
+        214364
+      ]
+    },
+    "A/Display/U+044F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        663046,
+        177979
+      ]
+    },
+    "A/Display/U+0451": {
+      "count": 4,
+      "total_path_points": 30,
+      "absolute_area": [
+        625671,
+        94117,
+        25600,
+        25600
+      ]
+    },
+    "A/Text/U+0030": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1118380,
+        518908,
+        41712
+      ]
+    },
+    "A/Text/U+0032": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        529981
+      ]
+    },
+    "A/Text/U+0033": {
+      "count": 1,
+      "total_path_points": 25,
+      "absolute_area": [
+        493315
+      ]
+    },
+    "A/Text/U+0035": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        619871
+      ]
+    },
+    "A/Text/U+0036": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        897148,
+        286660
+      ]
+    },
+    "A/Text/U+0038": {
+      "count": 3,
+      "total_path_points": 35,
+      "absolute_area": [
+        1223053,
+        134134,
+        328842
+      ]
+    },
+    "A/Text/U+0039": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        897148,
+        286660
+      ]
+    },
+    "A/Text/U+0042": {
+      "count": 3,
+      "total_path_points": 26,
+      "absolute_area": [
+        1378812,
+        164445,
+        390550
+      ]
+    },
+    "A/Text/U+0043": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        503191
+      ]
+    },
+    "A/Text/U+0044": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1536452,
+        767503
+      ]
+    },
+    "A/Text/U+0047": {
+      "count": 1,
+      "total_path_points": 25,
+      "absolute_area": [
+        690144
+      ]
+    },
+    "A/Text/U+004A": {
+      "count": 1,
+      "total_path_points": 13,
+      "absolute_area": [
+        357855
+      ]
+    },
+    "A/Text/U+004F": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        1396456,
+        725858
+      ]
+    },
+    "A/Text/U+0050": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        936281,
+        328417
+      ]
+    },
+    "A/Text/U+0051": {
+      "count": 2,
+      "total_path_points": 24,
+      "absolute_area": [
+        1500953,
+        725858
+      ]
+    },
+    "A/Text/U+0052": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1071704,
+        337519
+      ]
+    },
+    "A/Text/U+0053": {
+      "count": 1,
+      "total_path_points": 27,
+      "absolute_area": [
+        589815
+      ]
+    },
+    "A/Text/U+0055": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        597286
+      ]
+    },
+    "A/Text/U+0061": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        803522,
+        286221
+      ]
+    },
+    "A/Text/U+0062": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        883812,
+        286221
+      ]
+    },
+    "A/Text/U+0063": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        312450
+      ]
+    },
+    "A/Text/U+0064": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        883812,
+        286221
+      ]
+    },
+    "A/Text/U+0065": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        636199,
+        122401
+      ]
+    },
+    "A/Text/U+0066": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        445242
+      ]
+    },
+    "A/Text/U+0067": {
+      "count": 2,
+      "total_path_points": 27,
+      "absolute_area": [
+        972040,
+        291934
+      ]
+    },
+    "A/Text/U+0068": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        579152
+      ]
+    },
+    "A/Text/U+006A": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        295096,
+        34225
+      ]
+    },
+    "A/Text/U+006D": {
+      "count": 1,
+      "total_path_points": 26,
+      "absolute_area": [
+        766546
+      ]
+    },
+    "A/Text/U+006E": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        498862
+      ]
+    },
+    "A/Text/U+006F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        706502,
+        286221
+      ]
+    },
+    "A/Text/U+0070": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        868272,
+        286221
+      ]
+    },
+    "A/Text/U+0071": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        868272,
+        286221
+      ]
+    },
+    "A/Text/U+0072": {
+      "count": 1,
+      "total_path_points": 11,
+      "absolute_area": [
+        244515
+      ]
+    },
+    "A/Text/U+0073": {
+      "count": 1,
+      "total_path_points": 27,
+      "absolute_area": [
+        373817
+      ]
+    },
+    "A/Text/U+0074": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        327190
+      ]
+    },
+    "A/Text/U+0075": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        498862
+      ]
+    },
+    "A/Text/U+0411": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1110078,
+        355700
+      ]
+    },
+    "A/Text/U+0412": {
+      "count": 3,
+      "total_path_points": 26,
+      "absolute_area": [
+        1378812,
+        164445,
+        390550
+      ]
+    },
+    "A/Text/U+0417": {
+      "count": 1,
+      "total_path_points": 24,
+      "absolute_area": [
+        556979
+      ]
+    },
+    "A/Text/U+0419": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        757182,
+        26188
+      ]
+    },
+    "A/Text/U+041E": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        1396456,
+        725858
+      ]
+    },
+    "A/Text/U+0420": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        936281,
+        328417
+      ]
+    },
+    "A/Text/U+0421": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        503191
+      ]
+    },
+    "A/Text/U+0424": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1275617,
+        257779,
+        257779
+      ]
+    },
+    "A/Text/U+0427": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        514280
+      ]
+    },
+    "A/Text/U+042A": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        993182,
+        357548
+      ]
+    },
+    "A/Text/U+042B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        973057,
+        357548,
+        275650
+      ]
+    },
+    "A/Text/U+042C": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        973057,
+        357548
+      ]
+    },
+    "A/Text/U+042D": {
+      "count": 1,
+      "total_path_points": 24,
+      "absolute_area": [
+        589086
+      ]
+    },
+    "A/Text/U+042E": {
+      "count": 2,
+      "total_path_points": 27,
+      "absolute_area": [
+        1485701,
+        580686
+      ]
+    },
+    "A/Text/U+042F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1071704,
+        337519
+      ]
+    },
+    "A/Text/U+0430": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        803522,
+        286221
+      ]
+    },
+    "A/Text/U+0431": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        892490,
+        286221
+      ]
+    },
+    "A/Text/U+0432": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        817353,
+        85382,
+        231354
+      ]
+    },
+    "A/Text/U+0435": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        636199,
+        122401
+      ]
+    },
+    "A/Text/U+0437": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        346883
+      ]
+    },
+    "A/Text/U+0439": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        566095,
+        23491
+      ]
+    },
+    "A/Text/U+043E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        706502,
+        286221
+      ]
+    },
+    "A/Text/U+0440": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        868272,
+        286221
+      ]
+    },
+    "A/Text/U+0441": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        312450
+      ]
+    },
+    "A/Text/U+0444": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        987694,
+        189940,
+        190099
+      ]
+    },
+    "A/Text/U+0447": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        351142
+      ]
+    },
+    "A/Text/U+044A": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        552238,
+        98415
+      ]
+    },
+    "A/Text/U+044B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        550100,
+        124892,
+        195360
+      ]
+    },
+    "A/Text/U+044C": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        532114,
+        98415
+      ]
+    },
+    "A/Text/U+044D": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        375356
+      ]
+    },
+    "A/Text/U+044E": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        832530,
+        218993
+      ]
+    },
+    "A/Text/U+044F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        608109,
+        191072
+      ]
+    },
+    "A/Text/U+0451": {
+      "count": 4,
+      "total_path_points": 30,
+      "absolute_area": [
+        636199,
+        122401,
+        21904,
+        21904
+      ]
+    },
+    "B/Display/U+0030": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        1171046,
+        541765,
+        45232
+      ]
+    },
+    "B/Display/U+0032": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        597634
+      ]
+    },
+    "B/Display/U+0033": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        559304
+      ]
+    },
+    "B/Display/U+0035": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        708580
+      ]
+    },
+    "B/Display/U+0036": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        924743,
+        290730
+      ]
+    },
+    "B/Display/U+0038": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1246217,
+        91052,
+        340188
+      ]
+    },
+    "B/Display/U+0039": {
+      "count": 2,
+      "total_path_points": 22,
+      "absolute_area": [
+        924736,
+        290730
+      ]
+    },
+    "B/Display/U+0042": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        1463365,
+        144710,
+        415540
+      ]
+    },
+    "B/Display/U+0043": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        524823
+      ]
+    },
+    "B/Display/U+0044": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        1575058,
+        785839
+      ]
+    },
+    "B/Display/U+0047": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        733344
+      ]
+    },
+    "B/Display/U+004A": {
+      "count": 1,
+      "total_path_points": 11,
+      "absolute_area": [
+        415754
+      ]
+    },
+    "B/Display/U+004F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1478025,
+        771403
+      ]
+    },
+    "B/Display/U+0050": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1003704,
+        325302
+      ]
+    },
+    "B/Display/U+0051": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1586780,
+        771403
+      ]
+    },
+    "B/Display/U+0052": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1169086,
+        313918
+      ]
+    },
+    "B/Display/U+0053": {
+      "count": 1,
+      "total_path_points": 24,
+      "absolute_area": [
+        696668
+      ]
+    },
+    "B/Display/U+0055": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        662762
+      ]
+    },
+    "B/Display/U+0061": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        823284,
+        272648
+      ]
+    },
+    "B/Display/U+0062": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        910518,
+        272648
+      ]
+    },
+    "B/Display/U+0063": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        348877
+      ]
+    },
+    "B/Display/U+0064": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        910518,
+        272648
+      ]
+    },
+    "B/Display/U+0065": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        625671,
+        94117
+      ]
+    },
+    "B/Display/U+0066": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        502380
+      ]
+    },
+    "B/Display/U+0067": {
+      "count": 2,
+      "total_path_points": 26,
+      "absolute_area": [
+        987841,
+        272648
+      ]
+    },
+    "B/Display/U+0068": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        632828
+      ]
+    },
+    "B/Display/U+006A": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        324685,
+        40401
+      ]
+    },
+    "B/Display/U+006D": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        826780
+      ]
+    },
+    "B/Display/U+006E": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        545594
+      ]
+    },
+    "B/Display/U+006F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        755282,
+        282575
+      ]
+    },
+    "B/Display/U+0070": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        893634,
+        272648
+      ]
+    },
+    "B/Display/U+0071": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        893634,
+        272648
+      ]
+    },
+    "B/Display/U+0072": {
+      "count": 1,
+      "total_path_points": 10,
+      "absolute_area": [
+        250716
+      ]
+    },
+    "B/Display/U+0073": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        452384
+      ]
+    },
+    "B/Display/U+0074": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        347874
+      ]
+    },
+    "B/Display/U+0075": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        545594
+      ]
+    },
+    "B/Display/U+0411": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1198825,
+        353734
+      ]
+    },
+    "B/Display/U+0412": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        1463365,
+        144710,
+        415540
+      ]
+    },
+    "B/Display/U+0417": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        614224
+      ]
+    },
+    "B/Display/U+0419": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        880670,
+        30473
+      ]
+    },
+    "B/Display/U+041E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1478025,
+        771403
+      ]
+    },
+    "B/Display/U+0420": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1003704,
+        325302
+      ]
+    },
+    "B/Display/U+0421": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        524823
+      ]
+    },
+    "B/Display/U+0424": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1403459,
+        257016,
+        257016
+      ]
+    },
+    "B/Display/U+0427": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        567463
+      ]
+    },
+    "B/Display/U+042A": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1066061,
+        355511
+      ]
+    },
+    "B/Display/U+042B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        1042377,
+        355511,
+        299490
+      ]
+    },
+    "B/Display/U+042C": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1042377,
+        355511
+      ]
+    },
+    "B/Display/U+042D": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        626608
+      ]
+    },
+    "B/Display/U+042E": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        1604875,
+        616753
+      ]
+    },
+    "B/Display/U+042F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1169086,
+        313918
+      ]
+    },
+    "B/Display/U+0430": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        823284,
+        272648
+      ]
+    },
+    "B/Display/U+0431": {
+      "count": 2,
+      "total_path_points": 23,
+      "absolute_area": [
+        944324,
+        277446
+      ]
+    },
+    "B/Display/U+0432": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        840533,
+        82922,
+        224944
+      ]
+    },
+    "B/Display/U+0435": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        625671,
+        94117
+      ]
+    },
+    "B/Display/U+0437": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        376396
+      ]
+    },
+    "B/Display/U+0439": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        605874,
+        25792
+      ]
+    },
+    "B/Display/U+043E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        755282,
+        282575
+      ]
+    },
+    "B/Display/U+0440": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        893634,
+        272648
+      ]
+    },
+    "B/Display/U+0441": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        348877
+      ]
+    },
+    "B/Display/U+0444": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1089528,
+        189133,
+        189133
+      ]
+    },
+    "B/Display/U+0447": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        379444
+      ]
+    },
+    "B/Display/U+044A": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        585264,
+        86394
+      ]
+    },
+    "B/Display/U+044B": {
+      "count": 3,
+      "total_path_points": 21,
+      "absolute_area": [
+        580057,
+        98373,
+        212256
+      ]
+    },
+    "B/Display/U+044C": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        561580,
+        86394
+      ]
+    },
+    "B/Display/U+044D": {
+      "count": 1,
+      "total_path_points": 16,
+      "absolute_area": [
+        447907
+      ]
+    },
+    "B/Display/U+044E": {
+      "count": 2,
+      "total_path_points": 23,
+      "absolute_area": [
+        892864,
+        180464
+      ]
+    },
+    "B/Display/U+044F": {
+      "count": 2,
+      "total_path_points": 19,
+      "absolute_area": [
+        663046,
+        151300
+      ]
+    },
+    "B/Display/U+0451": {
+      "count": 4,
+      "total_path_points": 30,
+      "absolute_area": [
+        625671,
+        94117,
+        25600,
+        25600
+      ]
+    },
+    "B/Text/U+0030": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        1073995,
+        518908,
+        41712
+      ]
+    },
+    "B/Text/U+0032": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        529981
+      ]
+    },
+    "B/Text/U+0033": {
+      "count": 1,
+      "total_path_points": 23,
+      "absolute_area": [
+        490717
+      ]
+    },
+    "B/Text/U+0035": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        632218
+      ]
+    },
+    "B/Text/U+0036": {
+      "count": 2,
+      "total_path_points": 23,
+      "absolute_area": [
+        885064,
+        286660
+      ]
+    },
+    "B/Text/U+0038": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1163828,
+        94830,
+        328842
+      ]
+    },
+    "B/Text/U+0039": {
+      "count": 2,
+      "total_path_points": 23,
+      "absolute_area": [
+        885064,
+        286660
+      ]
+    },
+    "B/Text/U+0042": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        1378812,
+        144420,
+        390550
+      ]
+    },
+    "B/Text/U+0043": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        458314
+      ]
+    },
+    "B/Text/U+0044": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        1473761,
+        767503
+      ]
+    },
+    "B/Text/U+0047": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        638804
+      ]
+    },
+    "B/Text/U+004A": {
+      "count": 1,
+      "total_path_points": 11,
+      "absolute_area": [
+        373132
+      ]
+    },
+    "B/Text/U+004F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1341052,
+        725858
+      ]
+    },
+    "B/Text/U+0050": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        936281,
+        328417
+      ]
+    },
+    "B/Text/U+0051": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1459400,
+        725858
+      ]
+    },
+    "B/Text/U+0052": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1071704,
+        337519
+      ]
+    },
+    "B/Text/U+0053": {
+      "count": 1,
+      "total_path_points": 24,
+      "absolute_area": [
+        640433
+      ]
+    },
+    "B/Text/U+0055": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        597286
+      ]
+    },
+    "B/Text/U+0061": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        794461,
+        286221
+      ]
+    },
+    "B/Text/U+0062": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        874751,
+        286221
+      ]
+    },
+    "B/Text/U+0063": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        312450
+      ]
+    },
+    "B/Text/U+0064": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        874751,
+        286221
+      ]
+    },
+    "B/Text/U+0065": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        636199,
+        122401
+      ]
+    },
+    "B/Text/U+0066": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        445242
+      ]
+    },
+    "B/Text/U+0067": {
+      "count": 2,
+      "total_path_points": 26,
+      "absolute_area": [
+        962828,
+        291934
+      ]
+    },
+    "B/Text/U+0068": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        593906
+      ]
+    },
+    "B/Text/U+006A": {
+      "count": 2,
+      "total_path_points": 14,
+      "absolute_area": [
+        270172,
+        34225
+      ]
+    },
+    "B/Text/U+006D": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        800564
+      ]
+    },
+    "B/Text/U+006E": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        513616
+      ]
+    },
+    "B/Text/U+006F": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        706502,
+        286221
+      ]
+    },
+    "B/Text/U+0070": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        859211,
+        286221
+      ]
+    },
+    "B/Text/U+0071": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        859211,
+        286221
+      ]
+    },
+    "B/Text/U+0072": {
+      "count": 1,
+      "total_path_points": 9,
+      "absolute_area": [
+        248226
+      ]
+    },
+    "B/Text/U+0073": {
+      "count": 1,
+      "total_path_points": 21,
+      "absolute_area": [
+        441704
+      ]
+    },
+    "B/Text/U+0074": {
+      "count": 1,
+      "total_path_points": 17,
+      "absolute_area": [
+        327190
+      ]
+    },
+    "B/Text/U+0075": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        513616
+      ]
+    },
+    "B/Text/U+0411": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        1110078,
+        355700
+      ]
+    },
+    "B/Text/U+0412": {
+      "count": 3,
+      "total_path_points": 24,
+      "absolute_area": [
+        1378812,
+        144420,
+        390550
+      ]
+    },
+    "B/Text/U+0417": {
+      "count": 1,
+      "total_path_points": 22,
+      "absolute_area": [
+        581166
+      ]
+    },
+    "B/Text/U+0419": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        757182,
+        26188
+      ]
+    },
+    "B/Text/U+041E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        1341052,
+        725858
+      ]
+    },
+    "B/Text/U+0420": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        936281,
+        328417
+      ]
+    },
+    "B/Text/U+0421": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        458314
+      ]
+    },
+    "B/Text/U+0424": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        1275617,
+        257779,
+        257779
+      ]
+    },
+    "B/Text/U+0427": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        514280
+      ]
+    },
+    "B/Text/U+042A": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        993182,
+        357548
+      ]
+    },
+    "B/Text/U+042B": {
+      "count": 3,
+      "total_path_points": 23,
+      "absolute_area": [
+        973057,
+        357548,
+        275650
+      ]
+    },
+    "B/Text/U+042C": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        973057,
+        357548
+      ]
+    },
+    "B/Text/U+042D": {
+      "count": 1,
+      "total_path_points": 18,
+      "absolute_area": [
+        544288
+      ]
+    },
+    "B/Text/U+042E": {
+      "count": 2,
+      "total_path_points": 25,
+      "absolute_area": [
+        1461815,
+        580686
+      ]
+    },
+    "B/Text/U+042F": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        1071704,
+        337519
+      ]
+    },
+    "B/Text/U+0430": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        794461,
+        286221
+      ]
+    },
+    "B/Text/U+0431": {
+      "count": 2,
+      "total_path_points": 23,
+      "absolute_area": [
+        893357,
+        286221
+      ]
+    },
+    "B/Text/U+0432": {
+      "count": 3,
+      "total_path_points": 21,
+      "absolute_area": [
+        799570,
+        85382,
+        205590
+      ]
+    },
+    "B/Text/U+0435": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        636199,
+        122401
+      ]
+    },
+    "B/Text/U+0437": {
+      "count": 1,
+      "total_path_points": 20,
+      "absolute_area": [
+        350586
+      ]
+    },
+    "B/Text/U+0439": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        566095,
+        23491
+      ]
+    },
+    "B/Text/U+043E": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        706502,
+        286221
+      ]
+    },
+    "B/Text/U+0440": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        859211,
+        286221
+      ]
+    },
+    "B/Text/U+0441": {
+      "count": 1,
+      "total_path_points": 15,
+      "absolute_area": [
+        312450
+      ]
+    },
+    "B/Text/U+0444": {
+      "count": 3,
+      "total_path_points": 27,
+      "absolute_area": [
+        987694,
+        189940,
+        190099
+      ]
+    },
+    "B/Text/U+0447": {
+      "count": 1,
+      "total_path_points": 14,
+      "absolute_area": [
+        351142
+      ]
+    },
+    "B/Text/U+044A": {
+      "count": 2,
+      "total_path_points": 18,
+      "absolute_area": [
+        552238,
+        98415
+      ]
+    },
+    "B/Text/U+044B": {
+      "count": 3,
+      "total_path_points": 21,
+      "absolute_area": [
+        550100,
+        110444,
+        195360
+      ]
+    },
+    "B/Text/U+044C": {
+      "count": 2,
+      "total_path_points": 16,
+      "absolute_area": [
+        532114,
+        98415
+      ]
+    },
+    "B/Text/U+044D": {
+      "count": 1,
+      "total_path_points": 16,
+      "absolute_area": [
+        402029
+      ]
+    },
+    "B/Text/U+044E": {
+      "count": 2,
+      "total_path_points": 21,
+      "absolute_area": [
+        832530,
+        154928
+      ]
+    },
+    "B/Text/U+044F": {
+      "count": 2,
+      "total_path_points": 20,
+      "absolute_area": [
+        608109,
+        177154
+      ]
+    },
+    "B/Text/U+0451": {
+      "count": 4,
+      "total_path_points": 30,
+      "absolute_area": [
+        636199,
+        122401,
+        21904,
+        21904
+      ]
+    }
+  },
+  "limitations": [
+    "Bezier segments sampled at 96 intervals; not a formal proof of all exact intersections"
+  ]
+}

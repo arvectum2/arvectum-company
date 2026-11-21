@@ -1,0 +1,9 @@
+Trying to load the allocator multiple times. This is *not* supported.
+[5231:3595971:1121/185919.339591:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[5231:3595971:1121/185919.339954:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[5231:3595971:1121/185919.340036:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[5231:3595971:1121/185919.340139:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[5231:3595971:1121/185919.407726:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+737295 bytes written to file /Volumes/ArvectumSSD/Arvectum/repos/arvectum-company-brand/brand/04_Цвет и типографика/Arvectum-Typeface-v0.82/Golden-Step-v082-A-FACETED-COMPLETE-GLYPHS.pdf
+[5227:3595939:1121/185919.550075:ERROR:base/process/process_mac.cc:45] task_policy_set TASK_CATEGORY_POLICY: (os/kern) invalid argument (4)
+[5227:3595939:1121/185919.550107:ERROR:base/process/process_mac.cc:90] task_policy_set TASK_SUPPRESSION_POLICY: (os/kern) invalid argument (4)

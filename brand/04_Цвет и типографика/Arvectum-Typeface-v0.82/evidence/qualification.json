@@ -1,0 +1,153 @@
+{
+  "status": "PASS_STRUCTURAL_NOT_ART_APPROVED",
+  "styles": {
+    "Display": {
+      "source_sha256": "04b3d530044a22281ace1553e40ef40aec39457c17346a26387da9c7bdf3f3f7",
+      "variants": {
+        "A": {
+          "source_otf": "ArvectumDisplayGoldenStepDraft081-Medium.otf",
+          "candidate": "ArvectumDisplayGoldenStepFacetADraft082-Medium.otf",
+          "candidate_sha256": "64cc494456272ddea6457f6a7eb30fb01a20d77774bb0bf08e1da447c06d3111",
+          "changed": 69,
+          "unchanged": 143,
+          "orig_kerning_metrics_security_tables_equal": true,
+          "replaced_cubic_count": 475,
+          "ink_area_ratio": {
+            "16": {
+              "median_ratio": 0.98,
+              "min_ratio": 0.93,
+              "max_ratio": 1.048,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "24": {
+              "median_ratio": 0.982,
+              "min_ratio": 0.912,
+              "max_ratio": 1.049,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "40": {
+              "median_ratio": 0.973,
+              "min_ratio": 0.913,
+              "max_ratio": 1.049,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            }
+          }
+        },
+        "B": {
+          "source_otf": "ArvectumDisplayGoldenStepDraft081-Medium.otf",
+          "candidate": "ArvectumDisplayGoldenStepFacetBDraft082-Medium.otf",
+          "candidate_sha256": "2ce3a7c9bab534cd30e9cec56115103967d7c4bc7b8b645cb8f7c919223ab9f9",
+          "changed": 69,
+          "unchanged": 143,
+          "orig_kerning_metrics_security_tables_equal": true,
+          "replaced_cubic_count": 475,
+          "ink_area_ratio": {
+            "16": {
+              "median_ratio": 0.978,
+              "min_ratio": 0.889,
+              "max_ratio": 1.115,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "24": {
+              "median_ratio": 0.966,
+              "min_ratio": 0.855,
+              "max_ratio": 1.062,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "40": {
+              "median_ratio": 0.955,
+              "min_ratio": 0.877,
+              "max_ratio": 1.086,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            }
+          }
+        }
+      }
+    },
+    "Text": {
+      "source_sha256": "cda2a693e327995c8fc37a060b74c9e0e90a37fd6e2a410189f5a7c28463360b",
+      "variants": {
+        "A": {
+          "source_otf": "ArvectumTextGoldenStepDraft081-Regular.otf",
+          "candidate": "ArvectumTextGoldenStepFacetADraft082-Regular.otf",
+          "candidate_sha256": "f708be977e01034aec15c2f31d0ea686bae476327b63175107f44c6ca6f61ded",
+          "changed": 69,
+          "unchanged": 143,
+          "orig_kerning_metrics_security_tables_equal": true,
+          "replaced_cubic_count": 475,
+          "ink_area_ratio": {
+            "16": {
+              "median_ratio": 0.984,
+              "min_ratio": 0.893,
+              "max_ratio": 1.036,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "24": {
+              "median_ratio": 0.978,
+              "min_ratio": 0.905,
+              "max_ratio": 1.057,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "40": {
+              "median_ratio": 0.97,
+              "min_ratio": 0.898,
+              "max_ratio": 1.022,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            }
+          }
+        },
+        "B": {
+          "source_otf": "ArvectumTextGoldenStepDraft081-Regular.otf",
+          "candidate": "ArvectumTextGoldenStepFacetBDraft082-Regular.otf",
+          "candidate_sha256": "c7accf27f78c3c1937147b2c6b6a2907542a21e1db8d0a5f8ef3d7be8e0bacc0",
+          "changed": 69,
+          "unchanged": 143,
+          "orig_kerning_metrics_security_tables_equal": true,
+          "replaced_cubic_count": 475,
+          "ink_area_ratio": {
+            "16": {
+              "median_ratio": 0.976,
+              "min_ratio": 0.882,
+              "max_ratio": 1.111,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "24": {
+              "median_ratio": 0.973,
+              "min_ratio": 0.887,
+              "max_ratio": 1.164,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            },
+            "40": {
+              "median_ratio": 0.962,
+              "min_ratio": 0.896,
+              "max_ratio": 1.12,
+              "outliers_under_0_70": [],
+              "outliers_over_1_30": []
+            }
+          }
+        }
+      }
+    }
+  },
+  "font_sizes_ink_checked": [
+    16,
+    24,
+    40
+  ],
+  "notes": [
+    "Ink density is a rasterization proxy, not a legibility study",
+    "Counters and faceted joins must be approved optically by owner",
+    "Punctuation, symbols, math and currencies not redesigned in this scope"
+  ]
+}

@@ -1,0 +1,7 @@
+[3167:3583719:1121/185342.264918:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[3167:3583719:1121/185342.267419:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[3167:3583719:1121/185342.267486:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+[3167:3583719:1121/185342.269980:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+Trying to load the allocator multiple times. This is *not* supported.
+[3167:3583719:1121/185342.438540:ERROR:ui/display/mac/cv_display_link_mac.mm:191] CVDisplayLinkCreateWithCGDisplay failed. CVReturn: -6670
+308591 bytes written to file /Volumes/ArvectumSSD/Arvectum/repos/arvectum-company-brand/brand/04_Цвет и типографика/Arvectum-Typeface-v0.82/Golden-Step-v081-v082-FACETED-CURVES-COMPARISON.pdf
