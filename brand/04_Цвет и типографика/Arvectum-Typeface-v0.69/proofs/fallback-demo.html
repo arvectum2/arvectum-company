@@ -1,0 +1,51 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><title>Arvectum Golden Step v0.69 — Unicode coverage proof</title>
+<style>
+@font-face{font-family:GoldenStep064;src:url('../../Arvectum-Typeface-v0.64/experimental/ArvectumTextGoldenStepDraft064-Regular.woff2') format('woff2')}
+*{box-sizing:border-box}
+body{background:#f5f7f8;color:#132b3a;margin:0;padding:30px;font-family:Arial,sans-serif}
+main{background:white;padding:46px;max-width:1540px;margin:auto}
+h1{font-size:32px;margin:0 0 10px}h2{font-size:22px;margin:0 0 16px}
+p.note{color:#516676;font-size:15px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:44px}
+.card{border:1px solid #cedde2;padding:27px;min-height:510px}
+.title{font-size:16px;color:#516676;margin-bottom:18px}
+.prose{font-family:GoldenStep064,Arial,sans-serif;font-size:24px;line-height:1.55}
+.diagram{background:#f7f8f9;padding:17px 10px;font-size:25px;line-height:1.38;white-space:pre}
+.bad{font-family:GoldenStep064,Arial,sans-serif}
+.good{font-family:ui-monospace,Menlo,'SFMono-Regular',Consolas,monospace}
+.footer{font-size:17px;margin-top:25px}
+#qa{padding-top:24px;font-family:Arial,sans-serif;color:#3c6772;font-size:15px}
+</style></head><body><main>
+<p class="note">BR-05 / v0.69 · ВНУТРЕННИЙ ОБРАЗЕЦ, НЕ ПРОИЗВОДСТВЕННЫЙ САЙТ</p>
+<h1>Покрытие Unicode: текст и схемы</h1>
+<p class="note">Фиксированный корпус: 60 814 видимых символов, из них 60 717 поддерживаются. Остальные 97 — только 7 псевдографических знаков.</p>
+<div class="grid">
+<section class="card"><h2>Корпоративный текст</h2>
+<div class="title">Golden Step Draft 064 / 212 позиций</div>
+<div class="prose">Интеллект в действии.<p>Разработка программного обеспечения, электронные документы и деловые процессы.</p>
+<p>Сумма: 1 250 000,00 ₽<br>Номер № 17/2026<br>Arvectum — Intelligent workflow.</p></div></section>
+<section class="card"><h2>Схема процесса</h2>
+<div class="title">Демонстрация: без явного моноширинного стиля</div>
+<pre class="diagram bad">┌───────────┬──────────┐
+│   ВХОД    │  РЕШЕНИЕ│
+├───────────┼──────────┤
+│  Проверка │   PASS   │
+└───────────┴──────────┘</pre>
+<div class="title">Рекомендуемый шрифт для псевдографики: monospace</div>
+<pre class="diagram good">┌───────────┬──────────┐
+│   ВХОД    │  РЕШЕНИЕ│
+├───────────┼──────────┤
+│  Проверка │   PASS   │
+└───────────┴──────────┘</pre></section></div>
+<div class="footer">Решение: не расширять корпоративную гарнитуру ради знаков рамок. Форматировать схемы и код моноширинным шрифтом.</div>
+<div id="qa">Загрузка...</div>
+<script>
+document.fonts.ready.then(function(){
+ const f=document.fonts.check('24px GoldenStep064');
+ const ctx=document.createElement('canvas').getContext('2d');
+ ctx.font='24px Menlo,monospace';const a=ctx.measureText('─').width,b=ctx.measureText('│').width,c=ctx.measureText('А').width;
+ const ok=f&&Math.abs(a-b)<0.05&&Math.abs(b-c)<0.05;
+ document.getElementById('qa').textContent='GS069_CHROME '+(ok?'PASS':'REVIEW')+
+    ' font_loaded='+f+' mono_widths='+a.toFixed(2)+','+b.toFixed(2)+','+c.toFixed(2);
+});
+</script></main></body></html>
