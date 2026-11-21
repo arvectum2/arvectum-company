@@ -1,0 +1,3 @@
+# v0.79 source authority boundary
+
+Arvectum Company BR-05 experiment, not Arvectum OS. Immutable v0.64 CFF source and v0.77 review anchored at annotated tag `brand/golden-step-v064-reviewed-v077` (`98600a7d088ffb0043117b50cf501aa9c3213524`) in both canonical remotes. v0.78 unchanged. v0.79 builds exactly 8 new shapes per style from original v0.64, with Golden Vector/Wordmark masters untouched. Three v0.78 minor shoulder edits were abandoned; @ remains licensed Inter 4.1 / SIL OFL 1.1 adaptation. Geometric φ checks are local evidence, not universal or legal certification; artistic acceptance, original б shoulder, small-type reading, font metadata/embedding and business release remain owner-gated. Windows deferred.

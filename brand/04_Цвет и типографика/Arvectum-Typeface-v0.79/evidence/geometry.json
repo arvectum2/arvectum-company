@@ -1,0 +1,238 @@
+{
+  "approved": false,
+  "base": "v0.64",
+  "sources": {
+    "Display": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+    "Text": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74"
+  },
+  "candidates": {
+    "Display": {
+      "U+0414": {
+        "char": "Д",
+        "old_advance": 1974,
+        "new_advance": 1545,
+        "bounds": [
+          100,
+          -217,
+          1445,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "c96042f0ad8429771fb414f6c940694563ca709adef86733bedecee7ecb9f346"
+      },
+      "U+041B": {
+        "char": "Л",
+        "old_advance": 2045,
+        "new_advance": 1427,
+        "bounds": [
+          100,
+          0,
+          1327,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "811aa06c343f6c7746227ad90766daa3eb259a73f3063be46e1faa85a53289ce"
+      },
+      "U+0417": {
+        "char": "З",
+        "old_advance": 1362,
+        "new_advance": 1362,
+        "bounds": [
+          100,
+          -15,
+          1262,
+          1505
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "0160608817b9dc42a1cc75f2fa21437d15cb6407a443e4bfbbaa4b7b70ee481b"
+      },
+      "U+0437": {
+        "char": "з",
+        "old_advance": 1150,
+        "new_advance": 1141,
+        "bounds": [
+          100.0,
+          -10.630872483221477,
+          1041.22,
+          1066.6308724832215
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "be9d514e4b7802154ba465b9d74393a2279755c2829d890928866f996b6a4973"
+      },
+      "U+0412": {
+        "char": "В",
+        "old_advance": 1360,
+        "new_advance": 1360,
+        "bounds": [
+          100,
+          0,
+          1260,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "0e46d313e7caf2abb5aa5a82ce1250535fb52871ff3bd8d9e7d96cf035a8b3d9"
+      },
+      "U+0432": {
+        "char": "в",
+        "old_advance": 1140,
+        "new_advance": 1140,
+        "bounds": [
+          100.0,
+          0.0,
+          1040.0,
+          1056.0
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "02a675188d67b66ff5e93702992f00e1258ab228063c4cfba85ee0c366248236"
+      },
+      "U+0042": {
+        "char": "B",
+        "old_advance": 1360,
+        "new_advance": 1360,
+        "bounds": [
+          100,
+          0,
+          1260,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 3,
+        "svg_sha256": "94d05071b85b51ea4f89bd306396cf3b7ac5cb73ebee96ef4b5c2cb5e0649892"
+      },
+      "U+0040": {
+        "char": "@",
+        "old_advance": 1198,
+        "new_advance": 1887,
+        "bounds": [
+          90.0,
+          -325.0,
+          1796.6000000000001,
+          1395.2
+        ],
+        "lsb": 90,
+        "contours": 2,
+        "svg_sha256": "670baac28384647fc18297b50b6d0394c9cc5e02ed46c040706ee1510c56a0fa"
+      }
+    },
+    "Text": {
+      "U+0414": {
+        "char": "Д",
+        "old_advance": 2003,
+        "new_advance": 1470,
+        "bounds": [
+          100,
+          -217,
+          1365,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 2,
+        "svg_sha256": "eb4cf96870573af0694dc7f85834ac39c98e3b4fe43ea6a4cd602ae053bc2a3a"
+      },
+      "U+041B": {
+        "char": "Л",
+        "old_advance": 2055,
+        "new_advance": 1416,
+        "bounds": [
+          100,
+          0,
+          1311,
+          1490
+        ],
+        "lsb": 100,
+        "contours": 1,
+        "svg_sha256": "65ad3cbc46391f53f18f2a27d533f4c1b2bca5e267d039f76a6172f5c6add776"
+      },
+      "U+0417": {
+        "char": "З",
+        "old_advance": 1301,
+        "new_advance": 1300,
+        "bounds": [
+          105.0,
+          -15,
+          1194.956,
+          1505
+        ],
+        "lsb": 105,
+        "contours": 1,
+        "svg_sha256": "dbee2a556dc8798d07bedfb5d1f25426f0c927a33b01ce2ef6d034ac09b8691c"
+      },
+      "U+0437": {
+        "char": "з",
+        "old_advance": 1130,
+        "new_advance": 1151,
+        "bounds": [
+          105.0,
+          -10.630872483221477,
+          1046.22,
+          1066.6308724832215
+        ],
+        "lsb": 105,
+        "contours": 1,
+        "svg_sha256": "a445e7044f19f51456fbe09f19868f82dfe80687ba9ed730c4c7d50a0cf06447"
+      },
+      "U+0412": {
+        "char": "В",
+        "old_advance": 1310,
+        "new_advance": 1310,
+        "bounds": [
+          105,
+          0,
+          1205,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "482eba61acfa19bdd27c37459e2e41d4e64d14673a3ca6107a61a3c30eec6201"
+      },
+      "U+0432": {
+        "char": "в",
+        "old_advance": 1130,
+        "new_advance": 1130,
+        "bounds": [
+          105.0,
+          0.0,
+          1025.0,
+          1056.0
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "92fc2e5fd8f189f517685c5d9d7824e9c7b30999726730724cd989a31cfc1c01"
+      },
+      "U+0042": {
+        "char": "B",
+        "old_advance": 1310,
+        "new_advance": 1310,
+        "bounds": [
+          105,
+          0,
+          1205,
+          1490
+        ],
+        "lsb": 105,
+        "contours": 3,
+        "svg_sha256": "e1712c4d5ade365ff3444ac1336e645776eb41e649d81da4eae3533f461f4346"
+      },
+      "U+0040": {
+        "char": "@",
+        "old_advance": 1184,
+        "new_advance": 1890,
+        "bounds": [
+          95.0,
+          -325.0,
+          1800.16,
+          1358.3
+        ],
+        "lsb": 95,
+        "contours": 2,
+        "svg_sha256": "ecc84bc3df90de88101e8ac82739166f3ca44d2b5ad2927bf1c2fd36624d13cd"
+      }
+    }
+  }
+}

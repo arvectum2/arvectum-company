@@ -1,0 +1,96 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft079-Medium.otf",
+    "sha256": "bc23357e5259382d94f0810ff32cde1e3b6648b80a2ff29acb244087cfaef22b",
+    "changed": {
+      "U+0414": {
+        "name": "uni0414",
+        "width": 1545,
+        "lsb": 100
+      },
+      "U+041B": {
+        "name": "uni041B",
+        "width": 1427,
+        "lsb": 100
+      },
+      "U+0417": {
+        "name": "uni0417",
+        "width": 1362,
+        "lsb": 100
+      },
+      "U+0437": {
+        "name": "uni0437",
+        "width": 1141,
+        "lsb": 100
+      },
+      "U+0412": {
+        "name": "uni0412",
+        "width": 1360,
+        "lsb": 100
+      },
+      "U+0432": {
+        "name": "uni0432",
+        "width": 1140,
+        "lsb": 100
+      },
+      "U+0042": {
+        "name": "uni0042",
+        "width": 1360,
+        "lsb": 100
+      },
+      "U+0040": {
+        "name": "uni0040",
+        "width": 1887,
+        "lsb": 90
+      }
+    },
+    "encoded": 212
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft079-Regular.otf",
+    "sha256": "d7366b341e7c6ad80626d574b613ab8e0339d91fd7f2ed8e63f670d347954ec5",
+    "changed": {
+      "U+0414": {
+        "name": "uni0414",
+        "width": 1470,
+        "lsb": 100
+      },
+      "U+041B": {
+        "name": "uni041B",
+        "width": 1416,
+        "lsb": 100
+      },
+      "U+0417": {
+        "name": "uni0417",
+        "width": 1300,
+        "lsb": 105
+      },
+      "U+0437": {
+        "name": "uni0437",
+        "width": 1151,
+        "lsb": 105
+      },
+      "U+0412": {
+        "name": "uni0412",
+        "width": 1310,
+        "lsb": 105
+      },
+      "U+0432": {
+        "name": "uni0432",
+        "width": 1130,
+        "lsb": 105
+      },
+      "U+0042": {
+        "name": "uni0042",
+        "width": 1310,
+        "lsb": 105
+      },
+      "U+0040": {
+        "name": "uni0040",
+        "width": 1890,
+        "lsb": 95
+      }
+    },
+    "encoded": 212
+  }
+}
