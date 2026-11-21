@@ -1,0 +1,2 @@
+# v0.72 scope and authority
+All changes are in a new isolated experimental version based on v0.70's HTML and v0.64's existing font files. Approved Golden Vector 0.18 geometry, Golden Wordmark 0.21 contours (with open artistic remarks), previous Golden Step versions, pinned roadmap/history, live web files and system fonts remain unmodified. Proposed dark teal text shade is a test for accessibility, not an owner palette decision. Real iPhone and Safari.app are separate gates; Windows explicitly deferred.

@@ -1,0 +1,15 @@
+{
+  "ratios": {
+    "body_ink_on_white": 13.674,
+    "secondary_on_white": 5.796,
+    "old_teal_text_on_white_Fails": 3.373,
+    "candidate_dark_teal_text_on_white": 5.657,
+    "unchanged_mint_mark_on_white_decorative": 2.532
+  },
+  "WCAG_ordinary_text_target": 4.5,
+  "safari_UI_automation": false,
+  "mac_WebKit_verified": true,
+  "real_iPhone": false,
+  "source_CSS_changed_in_v070": false,
+  "temporary_dark_teal_is_unapproved_design_candidate": true
+}

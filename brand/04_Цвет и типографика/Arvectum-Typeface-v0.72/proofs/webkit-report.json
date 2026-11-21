@@ -1,0 +1,90 @@
+{
+  "actual_iPhone_run" : false,
+  "production_changes" : false,
+  "results" : [
+    {
+      "contentHeight" : 2678,
+      "engine" : "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko)",
+      "fontDisplay" : true,
+      "fontText" : true,
+      "h1Size" : 38,
+      "label" : "mobile",
+      "moneySideScroll" : false,
+      "rowsStacked" : true,
+      "scrollWidth" : 390,
+      "status" : "PASS_SCOPE",
+      "tableWidth" : 354,
+      "textSize" : 16,
+      "titleFits" : true,
+      "viewport" : 390,
+      "zoom200" : {
+        "bodyText" : 16,
+        "innerWidth" : 195,
+        "outliers" : [
+
+        ],
+        "rowsStacked" : true,
+        "scrollWidth" : 195,
+        "tableOverflow" : false,
+        "titleFits" : true
+      }
+    },
+    {
+      "contentHeight" : 2080,
+      "engine" : "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko)",
+      "fontDisplay" : true,
+      "fontText" : true,
+      "h1Size" : 41.472000000000001,
+      "label" : "tablet",
+      "moneySideScroll" : false,
+      "rowsStacked" : false,
+      "scrollWidth" : 768,
+      "status" : "PASS_SCOPE",
+      "tableWidth" : 691,
+      "textSize" : 16,
+      "titleFits" : true,
+      "viewport" : 768,
+      "zoom200" : {
+        "bodyText" : 16,
+        "innerWidth" : 384,
+        "outliers" : [
+
+        ],
+        "rowsStacked" : true,
+        "scrollWidth" : 384,
+        "tableOverflow" : false,
+        "titleFits" : true
+      }
+    },
+    {
+      "contentHeight" : 1801,
+      "engine" : "Mozilla\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\/605.1.15 (KHTML, like Gecko)",
+      "fontDisplay" : true,
+      "fontText" : true,
+      "h1Size" : 68,
+      "label" : "desktop",
+      "moneySideScroll" : false,
+      "rowsStacked" : false,
+      "scrollWidth" : 1440,
+      "status" : "PASS_SCOPE",
+      "tableWidth" : 507,
+      "textSize" : 16,
+      "titleFits" : true,
+      "viewport" : 1440,
+      "zoom200" : {
+        "bodyText" : 16,
+        "innerWidth" : 720,
+        "outliers" : [
+
+        ],
+        "rowsStacked" : false,
+        "scrollWidth" : 720,
+        "tableOverflow" : false,
+        "titleFits" : true
+      }
+    }
+  ],
+  "runner" : "macOS WKWebView (Safari\/WebKit engine, not Safari.app UI)",
+  "simulator_run" : false,
+  "user_safari_windows_modified" : false
+}

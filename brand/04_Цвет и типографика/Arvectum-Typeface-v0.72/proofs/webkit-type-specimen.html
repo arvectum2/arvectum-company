@@ -1,0 +1,141 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arvectum Golden Step 0.70 — responsive typography QA</title>
+<style>
+@font-face{font-family:GoldenDisplay;src:url('../../Arvectum-Typeface-v0.64/experimental/ArvectumDisplayGoldenStepDraft064-Medium.woff2') format('woff2')}
+@font-face{font-family:GoldenText;src:url('../../Arvectum-Typeface-v0.64/experimental/ArvectumTextGoldenStepDraft064-Regular.woff2') format('woff2')}
+:root{--ink:#153043;--secondary:#556875;--teal:#0B7468;--accent:#41B599;--purple:#70508d;
+ --line:#d7e1e6;--panel:#f5f9f9;--surface:#fff;--body:16px;--phi:1.618034;
+ --h2-target:42px;--h1-target:68px}
+*{box-sizing:border-box}
+html{font-size:16px;-webkit-text-size-adjust:100%;color-scheme:light}
+body{margin:0;background:#e9efef;color:var(--ink);font:400 var(--body)/1.58 GoldenText,Arial,sans-serif;overflow-wrap:break-word}
+.page{max-width:1320px;margin:0 auto;background:var(--surface);min-height:100vh;padding:38px clamp(22px,5vw,75px) 48px}
+.meta{font:600 13px/1.5 Arial,sans-serif;color:var(--secondary);display:flex;justify-content:space-between;
+ flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--line);padding:0 0 20px}
+h1,h2,h3{font-family:GoldenDisplay,Arial,sans-serif;font-weight:500;letter-spacing:-.012em;margin:0;overflow-wrap:normal}
+h1{font-size:clamp(38px,5.4vw,68px);line-height:1.11;max-width:900px}
+h2{font-size:clamp(28px,3.25vw,42px);line-height:1.23}
+h3{font-size:clamp(21px,2vw,26px);line-height:1.26}
+.eyebrow{font:600 12px/1.5 Arial,sans-serif;letter-spacing:.15em;color:var(--teal);margin:0 0 23px}
+.hero{padding:72px 0 67px}
+.lead{font-size:clamp(18px,1.7vw,22px);line-height:1.55;max-width:790px;margin:24px 0 0}
+.tagline{color:var(--teal);font-size:18px;margin:20px 0 0}
+.divider{height:2px;background:var(--ink);width:100%;margin-bottom:48px}
+.layout{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:60px}
+.content h2,.financial h2{margin-bottom:22px}
+p{margin:0 0 18px}
+.caps{font:600 12px/1.5 Arial,sans-serif;color:var(--secondary);letter-spacing:.07em;margin-bottom:10px}
+.panel{background:var(--panel);padding:26px 28px;margin-top:28px;border-left:4px solid var(--accent)}
+.panel h3{margin:0 0 14px}
+.panel p:last-child{margin:0}
+.table-wrap{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+table{width:100%;min-width:440px;border-collapse:collapse}
+th,td{text-align:left;padding:14px 8px;border-bottom:1px solid var(--line)}
+th{font:600 12px/1.5 Arial,sans-serif;letter-spacing:.05em;color:var(--secondary)}
+td:nth-child(2),th:nth-child(2){text-align:right}
+.money{font-variant-numeric:tabular-nums;white-space:nowrap}
+.total{font-weight:600}
+.technical{margin-top:60px;border-top:1px solid var(--line);padding-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.technical h3{margin:0 0 15px}
+.technical p{font-size:14px}
+pre{font:15px/1.45 ui-monospace,Menlo,Consolas,monospace;margin:0;background:var(--panel);padding:16px;
+ max-width:100%;overflow-x:auto;white-space:pre;tab-size:4}
+.footer{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;border-top:1px solid var(--line);
+ padding-top:20px;margin-top:65px;font:13px/1.5 Arial,sans-serif;color:var(--secondary)}
+#qa{font:12px/1.5 ui-monospace,monospace;margin:12px 0 0;color:#456e74}
+@media (max-width:800px){.page{padding-top:25px}.hero{padding:52px 0 44px}
+ .layout{grid-template-columns:minmax(0,1fr);gap:48px}.financial{min-width:0}.technical{gap:28px}}
+@media (max-width:480px){.hero{padding:36px 0 32px}.eyebrow{margin-bottom:16px}
+ .divider{margin-bottom:35px}.technical{grid-template-columns:1fr;gap:28px}
+ .page{padding-left:18px;padding-right:18px}.panel{padding:22px 18px}
+ .table-wrap{overflow:visible}.table-wrap table{min-width:0}
+ .table-wrap thead{display:none}
+ .table-wrap tbody tr{display:flex;flex-direction:column;gap:3px;padding:12px 0;border-bottom:1px solid var(--line)}
+ .table-wrap td{border:0;padding:0;text-align:left!important}
+ .table-wrap td.money{font-size:19px;font-weight:600}
+ }
+@media print{body{background:#fff}.page{padding:24px;max-width:none}
+ .panel{break-inside:avoid}.table-wrap{overflow:visible}pre{white-space:pre;break-inside:avoid}
+ .footer{margin-top:30px}}
+/* Text zoom 200% on 390px physical viewport creates ~195 CSS px. Preserve reflow. */
+@media (max-width:260px){h1{font-size:clamp(25px,15.5vw,36px);overflow-wrap:anywhere}
+ .meta{font-size:11px}.tagline{font-size:16px}}
+/* Review specimens only. 10/12px are NOT endorsed as a body-text scale. */
+.legibility{border-top:1px solid var(--line);margin-top:40px;padding-top:30px;max-width:100%}
+.legibility h2{font-size:clamp(24px,3vw,32px);margin:0 0 15px}
+.legibility .glyph-row{line-height:1.55;margin:4px 0;overflow-wrap:anywhere}
+.legibility .caption{font:12px/1.45 Arial,sans-serif;color:var(--secondary);margin:0 0 3px}
+</style></head>
+<body><main class="page">
+<div class="meta"><span>ARVECTUM / GOLDEN STEP</span><span>v0.70 · ПРОВЕРКА АДАПТИВНОЙ ТИПОГРАФИКИ · НЕ УТВЕРЖДЕНО</span></div>
+<section class="hero">
+ <div class="eyebrow">ТЕХНОЛОГИИ ДЛЯ ОРГАНИЗАЦИЙ</div>
+ <h1>Интеллект<br>в действии.</h1>
+ <p class="lead">Разрабатываем программное обеспечение и цифровые решения для бизнеса, объединяя системность, ясность и ответственность.</p>
+ <p class="tagline">Intelligence in action.</p>
+</section>
+<div class="divider"></div>
+<div class="layout">
+ <article class="content">
+ <h2>Решения для бизнеса</h2>
+ <p>Мы создаём цифровые продукты, помогающие организовать работу с документами, данными, закупками и корпоративными процессами.</p>
+ <p>Важны понятные результаты, контроль обязательств и надёжная технологическая основа. Каждый проект начинается с согласования предмета, критериев качества и границ ответственности.</p>
+ <div class="panel"><h3>Технические требования</h3>
+ <p>Разбор спецификаций, проверка комплектности, согласование документов и контроль изменений — с журналом решений и сохранением истории.</p></div>
+ </article>
+ <section class="financial">
+ <h2>Пример сметы</h2>
+ <p class="caps">УСЛОВНЫЕ ЦИФРЫ — НЕ ПРЕДЛОЖЕНИЕ</p>
+ <div class="table-wrap"><table>
+  <thead><tr><th>Вид работ</th><th>Сумма</th></tr></thead>
+  <tbody><tr><td>Анализ требований</td><td class="money">125 000,00 ₽</td></tr>
+  <tr><td>Разработка ПО</td><td class="money">1 250 000,00 ₽</td></tr>
+  <tr><td>Сопровождение</td><td class="money">42 500,00 ₽</td></tr>
+  <tr class="total"><td>Всего</td><td class="money">1 417 500,00 ₽</td></tr></tbody>
+ </table></div>
+ </section>
+</div>
+<div class="technical">
+ <section><h3>Набор символов</h3><p>Различимость похожих знаков: 3/З, 0/O/О, 1/I/l; кириллические «д», «л», «ч», «ж».</p>
+ <p>Номер № 17/2026 · 44-ФЗ · 223-ФЗ · info@arvectum.com.</p></section>
+ <section><h3>Схема процесса</h3><p>Псевдографика отделена от фирменного начертания:</p>
+ <pre>┌─────────────┐
+│ ТРЕБОВАНИЕ  │
+└──────┬──────┘
+       │
+    РЕШЕНИЕ</pre></section>
+</div>
+<section class="legibility" aria-label="Контрольные размеры символов">
+<h2>Контроль читаемости</h2>
+<p class="caption">10 и 12 px — только образцы для проверки, не рекомендуемый размер основного текста.</p>
+<div class="glyph-row" style="font-size:10px">10 px • 3 / З · 0 / O / О · 1 / I / l · д / л / ч / ж</div>
+<div class="glyph-row" style="font-size:12px">12 px • Договор, статус, закупка, контактная информация</div>
+<div class="glyph-row" style="font-size:14px">14 px • Разработка программного обеспечения и системных решений</div>
+<div class="glyph-row" style="font-size:16px">16 px • Интеллект в действии. Intelligence in action.</div>
+</section>
+<div class="footer"><span>Display Medium · Text Regular · 85 пар кернинга · φ ≈ 1,618</span>
+<span>ВНУТРЕННИЙ МАКЕТ · НЕ ПРОИЗВОДСТВЕННЫЙ САЙТ</span></div>
+<div id="qa">Проверка...</div>
+</main>
+<script>
+document.fonts.ready.then(function(){
+const d=document.documentElement,body=getComputedStyle(document.body),head=getComputedStyle(document.querySelector('h1'));
+const title=document.querySelector('h1').getBoundingClientRect();
+const table=document.querySelector('.table-wrap'),source=document.querySelector('.page');
+const box={
+ viewport:window.innerWidth,documentWidth:d.scrollWidth,
+ bodySize:parseFloat(body.fontSize),titleSize:parseFloat(head.fontSize),
+ displayLoaded:document.fonts.check('36px GoldenDisplay'),
+ textLoaded:document.fonts.check('18px GoldenText'),
+ tableScroll:table.scrollWidth>table.clientWidth,
+ mobileRowsStacked:getComputedStyle(document.querySelector('tbody tr')).display==='flex',
+ tableContainerWidth:Math.round(table.clientWidth),
+ pageWidth:Math.round(source.getBoundingClientRect().width),
+ titleWithinPage:title.right<=source.getBoundingClientRect().right+1
+};
+box.pass=box.displayLoaded&&box.textLoaded&&box.bodySize>=16 &&
+ box.titleWithinPage&&box.documentWidth<=box.viewport+1;
+document.getElementById('qa').textContent='GS070_VIEWPORT '+(box.pass?'PASS':'FAIL')+' '+JSON.stringify(box);
+});
+</script></body></html>
