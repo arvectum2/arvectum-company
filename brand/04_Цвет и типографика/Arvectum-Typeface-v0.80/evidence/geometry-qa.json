@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "glyphs": {
+    "Display/U+0431": {
+      "count": 2,
+      "total_path_points": 965,
+      "absolute_area": [
+        1023012,
+        308430
+      ]
+    },
+    "Text/U+0431": {
+      "count": 2,
+      "total_path_points": 965,
+      "absolute_area": [
+        966096,
+        317985
+      ]
+    }
+  },
+  "limitations": [
+    "Bezier segments sampled at 96 intervals; not a formal proof of all exact intersections"
+  ]
+}

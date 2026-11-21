@@ -1,0 +1,72 @@
+{
+  "status": "experimental_not_approved",
+  "source_version": "v0.79",
+  "selection": "B_G2 based on prototypes old,A,A_G2,B,B_G2,C,C_G2",
+  "adjustment_only": "U+0431 Cyrillic lowercase б",
+  "styles": {
+    "Display": {
+      "source_file": "ArvectumDisplayGoldenStepDraft079-Medium.otf",
+      "source_sha256": "bc23357e5259382d94f0810ff32cde1e3b6648b80a2ff29acb244087cfaef22b",
+      "source_advance": 1140,
+      "source_lsb": 100,
+      "original_joint": [
+        341,
+        950
+      ],
+      "candidate_joint": [
+        341,
+        975
+      ],
+      "incoming_second_control": [
+        386.0,
+        910.0
+      ],
+      "outgoing_first_control": [
+        280.0729818977754,
+        1063.0056928143244
+      ],
+      "curvature_handle_scale": 1.3539337356049919,
+      "bbox": [
+        100,
+        -15,
+        1040,
+        1490
+      ],
+      "original_curve_commands": 17,
+      "candidate_curve_commands": 17,
+      "glyph_svg_sha256": "7b08dca97ef76c1c07611ef7bbe544039f74640b11631efd52f23d3e01802e74"
+    },
+    "Text": {
+      "source_file": "ArvectumTextGoldenStepDraft079-Regular.otf",
+      "source_sha256": "d7366b341e7c6ad80626d574b613ab8e0339d91fd7f2ed8e63f670d347954ec5",
+      "source_advance": 1130,
+      "source_lsb": 105,
+      "original_joint": [
+        330,
+        950
+      ],
+      "candidate_joint": [
+        330,
+        975
+      ],
+      "incoming_second_control": [
+        375.0,
+        910.0
+      ],
+      "outgoing_first_control": [
+        268.57365486789354,
+        1063.7269429685982
+      ],
+      "curvature_handle_scale": 1.3650298918245882,
+      "bbox": [
+        105,
+        -15,
+        1025,
+        1490
+      ],
+      "original_curve_commands": 17,
+      "candidate_curve_commands": 17,
+      "glyph_svg_sha256": "7da6fd16999448f33e442a1093fb6d978db833c796e2145b699513dbafaf3c21"
+    }
+  }
+}

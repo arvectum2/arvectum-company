@@ -1,0 +1,24 @@
+{
+  "Display": {
+    "file": "ArvectumDisplayGoldenStepDraft080-Medium.otf",
+    "sha256": "ae28a15f55396e9d8d956a2ee48f623ea33318c573a39765a7d90f2f743c3608",
+    "source_sha256": "bc23357e5259382d94f0810ff32cde1e3b6648b80a2ff29acb244087cfaef22b",
+    "changed_unicode": [
+      "U+0431"
+    ],
+    "encoded": 212,
+    "source_unchanged_glyphs": 211,
+    "metrics_unchanged": true
+  },
+  "Text": {
+    "file": "ArvectumTextGoldenStepDraft080-Regular.otf",
+    "sha256": "6e1ebfe4f6cd41f9625b1108723d173f2a78c14104bf6a16a595513bdbf521e1",
+    "source_sha256": "d7366b341e7c6ad80626d574b613ab8e0339d91fd7f2ed8e63f670d347954ec5",
+    "changed_unicode": [
+      "U+0431"
+    ],
+    "encoded": 212,
+    "source_unchanged_glyphs": 211,
+    "metrics_unchanged": true
+  }
+}
