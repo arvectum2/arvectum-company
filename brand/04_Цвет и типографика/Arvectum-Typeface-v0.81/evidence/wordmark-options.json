@@ -1,0 +1,52 @@
+{
+  "source": "/Volumes/ArvectumSSD/Arvectum/repos/arvectum-company-brand/brand/03_Логотип/Golden-Wordmark-v0.21/C_Wordmark_RU.svg",
+  "source_sha256": "dbe4c27fb2df4399c7a18d97bfdf2e418827d2b754fccbc9fe04fa3df5077bed",
+  "phi": 1.618033988749895,
+  "crossbar_adjustment": 36.37059755855647,
+  "baseline_e_bar_center_ratio": 0.5638161647727272,
+  "approved_reference_unchanged": true,
+  "options": {
+    "A_original": {
+      "filename": "A_original.svg",
+      "svg_sha256": "8c827a764ab6a2485f18a2356906ea734c7ff65caee36808ba6780e336eb0919",
+      "p_rounded": false,
+      "e_shift_y": null,
+      "e_bar_ratio": 0.563816
+    },
+    "B_rounder_p": {
+      "filename": "B_rounder_p.svg",
+      "svg_sha256": "29e7ccc603fd5e256b6eedeba531009ad46145e2c4ede442629c29f79eb8d610",
+      "p_rounded": true,
+      "e_shift_y": null,
+      "e_bar_ratio": 0.563816
+    },
+    "C_lower_e": {
+      "filename": "C_lower_e.svg",
+      "svg_sha256": "a283318ec0e6cfb11bfddc7a5f1ea47e858a0ea715f21b6b1d7809e5ce4f8f09",
+      "p_rounded": false,
+      "e_shift_y": -36.3706,
+      "e_bar_ratio": 0.529374
+    },
+    "D_higher_e": {
+      "filename": "D_higher_e.svg",
+      "svg_sha256": "ffa414f2ab11ba9cb9b1aba8855b7828dd25c87b905dfe1cffc6de6d8a855536",
+      "p_rounded": false,
+      "e_shift_y": 36.3706,
+      "e_bar_ratio": 0.598258
+    },
+    "E_rounder_p_lower_e": {
+      "filename": "E_rounder_p_lower_e.svg",
+      "svg_sha256": "f64ce1bfc6dabba7600d3eae4df1eb6b557e2726c062e56b0be3bcedf08e7908",
+      "p_rounded": true,
+      "e_shift_y": -36.3706,
+      "e_bar_ratio": 0.529374
+    },
+    "F_rounder_p_higher_e": {
+      "filename": "F_rounder_p_higher_e.svg",
+      "svg_sha256": "f8deed7b4f56ba90edc13f477f8aa23604673bcadf385fde7edec30bc6cc0b6c",
+      "p_rounded": true,
+      "e_shift_y": 36.3706,
+      "e_bar_ratio": 0.598258
+    }
+  }
+}

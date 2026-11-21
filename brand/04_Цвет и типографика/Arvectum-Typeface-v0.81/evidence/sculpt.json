@@ -1,0 +1,69 @@
+{
+  "base": "v0.80",
+  "approved": false,
+  "target": "U+0033",
+  "design": "G1 smooth inner-waist only, original external numeral contours",
+  "reference_untouched": [
+    "U+0417",
+    "U+0437",
+    "U+0440",
+    "U+0435",
+    "U+0070",
+    "U+0065"
+  ],
+  "tested_variants": [
+    "old",
+    "inner480",
+    "inner505",
+    "inner530",
+    "inner550",
+    "inner575",
+    "S_outer_I510",
+    "S_outer_I540",
+    "S_outer_I560",
+    "S_outer_I580"
+  ],
+  "selected": "inner575",
+  "styles": {
+    "Display": {
+      "source_otf": "ArvectumDisplayGoldenStepDraft080-Medium.otf",
+      "source_sha256": "ae28a15f55396e9d8d956a2ee48f623ea33318c573a39765a7d90f2f743c3608",
+      "source_advance": 1323,
+      "source_lsb": 105,
+      "bbox": [
+        105,
+        -15,
+        1218,
+        1505
+      ],
+      "candidate_svg_sha256": "276eb80920ed9097963317be7f446e219420e2d043e9072292bf468a42b01495",
+      "old_commands": 19,
+      "new_commands": 18,
+      "inner_waist": [
+        575,
+        921
+      ],
+      "outer_bowl_unchanged": true
+    },
+    "Text": {
+      "source_otf": "ArvectumTextGoldenStepDraft080-Regular.otf",
+      "source_sha256": "6e1ebfe4f6cd41f9625b1108723d173f2a78c14104bf6a16a595513bdbf521e1",
+      "source_advance": 1266,
+      "source_lsb": 105,
+      "bbox": [
+        105,
+        -15,
+        1161,
+        1505
+      ],
+      "candidate_svg_sha256": "52ef678334e8f233cca00c4a2bcd5baae85f177de2815818260f6687f2fa7be5",
+      "old_commands": 19,
+      "new_commands": 18,
+      "inner_waist": [
+        554,
+        921
+      ],
+      "outer_bowl_unchanged": true
+    }
+  }
+}
