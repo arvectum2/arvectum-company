@@ -1,0 +1,27 @@
+name: Owner Company source watch tests
+on:
+  pull_request:
+    paths:
+      - 'tools/owner_status_watch.py'
+      - 'tools/test_owner_status_watch.py'
+      - 'specs/002-owner-project-source-watch/**'
+      - '.github/workflows/owner-source-watch-ci.yml'
+      - 'docs/operations/OWNER-PROJECT-SOURCE-WATCH-2026-11-21.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Source pin, no-authority and negative tests
+        run: python3 -B -m unittest discover -s tools -p 'test_owner_status_watch.py' -v
+      - name: Syntax parse with standard Python only
+        run: |
+          python3 - <<'PY'
+          import ast
+          for p in ('tools/owner_status_watch.py','tools/test_owner_status_watch.py'):
+              with open(p, encoding='utf-8') as f: ast.parse(f.read(), filename=p)
+          PY
