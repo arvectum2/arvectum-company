@@ -1,0 +1,206 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft056-Medium.otf",
+    "input_sha256": "3e5286203adf9a78422daefaa92a1f8fb4beaf7d9068c841e85967da0f453d2b",
+    "output": "ArvectumDisplayGoldenStepDraft057-Medium.otf",
+    "output_sha256": "db1f6afa60f3c9c8329aefc61dea2bbba260693bc3d956d22c949b6a45133092",
+    "mark_anchors": {
+      "U+0300": {
+        "name": "uni0300",
+        "ink_bounds": [
+          -230,
+          35,
+          68,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0301": {
+        "name": "uni0301",
+        "ink_bounds": [
+          -68,
+          35,
+          230,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0302": {
+        "name": "uni0302",
+        "ink_bounds": [
+          -245,
+          45,
+          245,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0303": {
+        "name": "uni0303",
+        "ink_bounds": [
+          -235,
+          90,
+          235,
+          326.2802471824042
+        ],
+        "mkmk_attach_y": 421
+      },
+      "U+0304": {
+        "name": "uni0304",
+        "ink_bounds": [
+          -220,
+          90,
+          220,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+0306": {
+        "name": "uni0306",
+        "ink_bounds": [
+          -250,
+          18,
+          250,
+          243
+        ],
+        "mkmk_attach_y": 338
+      },
+      "U+0308": {
+        "name": "uni0308",
+        "ink_bounds": [
+          -194,
+          35,
+          194,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+030A": {
+        "name": "uni030A",
+        "ink_bounds": [
+          -152,
+          0,
+          152,
+          290
+        ],
+        "mkmk_attach_y": 385
+      }
+    },
+    "codepoints": 212,
+    "scope": "GPOS only: kern+mark+mkmk; CFF outlines and hmtx unchanged",
+    "web": {
+      "woff": {
+        "file": "ArvectumDisplayGoldenStepDraft057-Medium.woff",
+        "sha256": "b82d1efd3b14cf51e6b700238199a0e77a653b111c0294c5ee223d476814f219",
+        "status": "PASS"
+      },
+      "woff2": {
+        "file": "ArvectumDisplayGoldenStepDraft057-Medium.woff2",
+        "sha256": "1eae1332255d6497a42bdf63745515110cbe4755a6513a468dd56c938e2e395e",
+        "status": "PASS"
+      }
+    }
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft056-Regular.otf",
+    "input_sha256": "8133c1ce065811858af56e707b7e9d4e4e81924d29e16b93ed0dffab4a1463eb",
+    "output": "ArvectumTextGoldenStepDraft057-Regular.otf",
+    "output_sha256": "a36142ed449176005f6a485f650f92b64e55ee6a20788ec7ff1408d1ba7cc5ec",
+    "mark_anchors": {
+      "U+0300": {
+        "name": "uni0300",
+        "ink_bounds": [
+          -230,
+          35,
+          68,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0301": {
+        "name": "uni0301",
+        "ink_bounds": [
+          -68,
+          35,
+          230,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0302": {
+        "name": "uni0302",
+        "ink_bounds": [
+          -245,
+          45,
+          245,
+          268
+        ],
+        "mkmk_attach_y": 363
+      },
+      "U+0303": {
+        "name": "uni0303",
+        "ink_bounds": [
+          -235,
+          90,
+          235,
+          326.2802471824042
+        ],
+        "mkmk_attach_y": 421
+      },
+      "U+0304": {
+        "name": "uni0304",
+        "ink_bounds": [
+          -220,
+          90,
+          220,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+0306": {
+        "name": "uni0306",
+        "ink_bounds": [
+          -250,
+          18,
+          250,
+          243
+        ],
+        "mkmk_attach_y": 338
+      },
+      "U+0308": {
+        "name": "uni0308",
+        "ink_bounds": [
+          -194,
+          35,
+          194,
+          190
+        ],
+        "mkmk_attach_y": 285
+      },
+      "U+030A": {
+        "name": "uni030A",
+        "ink_bounds": [
+          -152,
+          0,
+          152,
+          290
+        ],
+        "mkmk_attach_y": 385
+      }
+    },
+    "codepoints": 212,
+    "scope": "GPOS only: kern+mark+mkmk; CFF outlines and hmtx unchanged",
+    "web": {
+      "woff": {
+        "file": "ArvectumTextGoldenStepDraft057-Regular.woff",
+        "sha256": "698845f062673e9cd1ec4d16675f18a412ae9e213bddaeaa50b848c3873f09d0",
+        "status": "PASS"
+      },
+      "woff2": {
+        "file": "ArvectumTextGoldenStepDraft057-Regular.woff2",
+        "sha256": "e691e1defc50ba48878fc755677ccef0995f7635584c38e1a21423dc8371f5f7",
+        "status": "PASS"
+      }
+    }
+  }
+}

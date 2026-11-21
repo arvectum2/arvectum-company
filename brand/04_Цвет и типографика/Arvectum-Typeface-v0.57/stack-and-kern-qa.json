@@ -1,0 +1,2582 @@
+{
+  "Display": {
+    "mark_stacks_tested": 120,
+    "precomposed_cases": [
+      {
+        "sample": "ё̀",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё́",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̂",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̃",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̄",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̆",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̈",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      },
+      {
+        "sample": "ё̊",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1450
+      }
+    ],
+    "minimum_vertical_ink_gap": 94.71975281759569,
+    "maximum_double_mark_top": 1913.2802471824043,
+    "double_stacks_within_win_ascent": true,
+    "triple_stack_probes": [
+      {
+        "sample": "ã̃̃",
+        "top": 2334.2802471824043,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": true
+      },
+      {
+        "sample": "ê̈́",
+        "top": 2082,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": false
+      },
+      {
+        "sample": "ё́̈",
+        "top": 2003,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": false
+      }
+    ],
+    "kern_pairs_tested": 57,
+    "kerning_raster_overlaps": [],
+    "pair_details": {
+      "AV": {
+        "kern_delta": -75,
+        "raster_overlap_pixels_128px": 0
+      },
+      "VA": {
+        "kern_delta": -65,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AW": {
+        "kern_delta": -80,
+        "raster_overlap_pixels_128px": 0
+      },
+      "WA": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AT": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "TA": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "To": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Te": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ty": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ta": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Tr": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "LT": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "LY": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "La": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Vo": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ve": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Va": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Wo": {
+        "kern_delta": -65,
+        "raster_overlap_pixels_128px": 0
+      },
+      "We": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Wa": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Yo": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ya": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Fo": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Fa": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Pa": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Po": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ry": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ly": {
+        "kern_delta": -15,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ff": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "rt": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АУ": {
+        "kern_delta": -70,
+        "raster_overlap_pixels_128px": 0
+      },
+      "УА": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АЛ": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ЛТ": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ДА": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АТ": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ТО": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "То": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Те": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ту": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Го": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Га": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ча": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ла": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Лу": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Уо": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Уе": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ар": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ур": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "БА": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ро": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ра": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Фо": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AУ": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АV": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "VА": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Tо": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      }
+    },
+    "mark_pair_details": [
+      {
+        "sample": "à̀",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "à́",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "à̂",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "à̃",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "à̄",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "à̆",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "à̈",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "à̊",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "á̀",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "á́",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "á̂",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "á̃",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "á̄",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "á̆",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "á̈",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "á̊",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "ầ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ấ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "â̂",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "ẫ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "â̄",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "â̆",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "â̈",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "â̊",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "ã̀",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0300",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã́",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0301",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã̂",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0302",
+        "vertical_gap": 139.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã̃",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0303",
+        "vertical_gap": 184.7,
+        "top": 1913.3
+      },
+      {
+        "sample": "ã̄",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0304",
+        "vertical_gap": 184.7,
+        "top": 1777
+      },
+      {
+        "sample": "ã̆",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0306",
+        "vertical_gap": 112.7,
+        "top": 1830
+      },
+      {
+        "sample": "ã̈",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0308",
+        "vertical_gap": 129.7,
+        "top": 1777
+      },
+      {
+        "sample": "ã̊",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+030A",
+        "vertical_gap": 94.7,
+        "top": 1877
+      },
+      {
+        "sample": "ā̀",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ā́",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ā̂",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "ā̃",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "ā̄",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "ā̆",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "ā̈",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "ā̊",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "ằ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ắ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ă̂",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1772
+      },
+      {
+        "sample": "ẵ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1830.3
+      },
+      {
+        "sample": "ă̄",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1694
+      },
+      {
+        "sample": "ă̆",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1747
+      },
+      {
+        "sample": "ă̈",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1694
+      },
+      {
+        "sample": "ă̊",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1794
+      },
+      {
+        "sample": "ä̀",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ä́",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ä̂",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "ä̃",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "ǟ",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "ä̆",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "ä̈",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "ä̊",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "å̀",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "ǻ",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "å̂",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1819
+      },
+      {
+        "sample": "å̃",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1877.3
+      },
+      {
+        "sample": "å̄",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1741
+      },
+      {
+        "sample": "å̆",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1794
+      },
+      {
+        "sample": "å̈",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1741
+      },
+      {
+        "sample": "å̊",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1841
+      },
+      {
+        "sample": "ѐ̀",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ́",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ̂",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ̃",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "ѐ̄",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "ѐ̆",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "ѐ̈",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ѐ̊",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е́̀",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е́́",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е́̂",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "е́̃",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "е́̄",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "е́̆",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "е́̈",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е́̊",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е̂̀",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е̂́",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е̂̂",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "е̂̃",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "е̂̄",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "е̂̆",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "е̂̈",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̂̊",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е̃̀",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0300",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃́",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0301",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃̂",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0302",
+        "vertical_gap": 139.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃̃",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0303",
+        "vertical_gap": 184.7,
+        "top": 1913.3
+      },
+      {
+        "sample": "е̃̄",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0304",
+        "vertical_gap": 184.7,
+        "top": 1777
+      },
+      {
+        "sample": "е̃̆",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0306",
+        "vertical_gap": 112.7,
+        "top": 1830
+      },
+      {
+        "sample": "е̃̈",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0308",
+        "vertical_gap": 129.7,
+        "top": 1777
+      },
+      {
+        "sample": "е̃̊",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+030A",
+        "vertical_gap": 94.7,
+        "top": 1877
+      },
+      {
+        "sample": "е̄̀",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̄́",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̄̂",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "е̄̃",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "е̄̄",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "е̄̆",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "е̄̈",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "е̄̊",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "ӗ̀",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ́",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ̂",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ̃",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1830.3
+      },
+      {
+        "sample": "ӗ̄",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1694
+      },
+      {
+        "sample": "ӗ̆",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1747
+      },
+      {
+        "sample": "ӗ̈",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1694
+      },
+      {
+        "sample": "ӗ̊",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1794
+      },
+      {
+        "sample": "е̊̀",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "е̊́",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "е̊̂",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1819
+      },
+      {
+        "sample": "е̊̃",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1877.3
+      },
+      {
+        "sample": "е̊̄",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1741
+      },
+      {
+        "sample": "е̊̆",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1794
+      },
+      {
+        "sample": "е̊̈",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1741
+      },
+      {
+        "sample": "е̊̊",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1841
+      }
+    ],
+    "codepoints": 212,
+    "control_no_change": true,
+    "prior_overlapping_sample": [
+      {
+        "g": "uni0061",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 1140,
+        "ay": 0
+      },
+      {
+        "g": "uni0308",
+        "cl": 0,
+        "dx": -570,
+        "dy": 1166,
+        "ax": 0,
+        "ay": 0
+      },
+      {
+        "g": "uni0301",
+        "cl": 0,
+        "dx": -570,
+        "dy": 1166,
+        "ax": 0,
+        "ay": 0
+      }
+    ]
+  },
+  "Text": {
+    "mark_stacks_tested": 120,
+    "precomposed_cases": [
+      {
+        "sample": "ё̀",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё́",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̂",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̃",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̄",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̆",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̈",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      },
+      {
+        "sample": "ё̊",
+        "composed_base": "ё",
+        "last_mark_y_offset": 1429
+      }
+    ],
+    "minimum_vertical_ink_gap": 94.71975281759569,
+    "maximum_double_mark_top": 1913.2802471824043,
+    "double_stacks_within_win_ascent": true,
+    "triple_stack_probes": [
+      {
+        "sample": "ã̃̃",
+        "top": 2334.2802471824043,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": true
+      },
+      {
+        "sample": "ê̈́",
+        "top": 2082,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": false
+      },
+      {
+        "sample": "ё́̈",
+        "top": 1982,
+        "win_ascent": 2160,
+        "exceeds_win_ascent": false
+      }
+    ],
+    "kern_pairs_tested": 57,
+    "kerning_raster_overlaps": [],
+    "pair_details": {
+      "AV": {
+        "kern_delta": -75,
+        "raster_overlap_pixels_128px": 0
+      },
+      "VA": {
+        "kern_delta": -65,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AW": {
+        "kern_delta": -80,
+        "raster_overlap_pixels_128px": 0
+      },
+      "WA": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AT": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "TA": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "To": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Te": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ty": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ta": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Tr": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "LT": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "LY": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "La": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Vo": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ve": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Va": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Wo": {
+        "kern_delta": -65,
+        "raster_overlap_pixels_128px": 0
+      },
+      "We": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Wa": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Yo": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ya": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Fo": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Fa": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Pa": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Po": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ry": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ly": {
+        "kern_delta": -15,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ff": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "rt": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АУ": {
+        "kern_delta": -70,
+        "raster_overlap_pixels_128px": 0
+      },
+      "УА": {
+        "kern_delta": -60,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АЛ": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ЛТ": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ДА": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АТ": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "ТО": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "То": {
+        "kern_delta": -50,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Те": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ту": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Го": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Га": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ча": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ла": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Лу": {
+        "kern_delta": -30,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Уо": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Уе": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ар": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ур": {
+        "kern_delta": -25,
+        "raster_overlap_pixels_128px": 0
+      },
+      "БА": {
+        "kern_delta": -20,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ро": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Ра": {
+        "kern_delta": -35,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Фо": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "AУ": {
+        "kern_delta": -45,
+        "raster_overlap_pixels_128px": 0
+      },
+      "АV": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "VА": {
+        "kern_delta": -55,
+        "raster_overlap_pixels_128px": 0
+      },
+      "Tо": {
+        "kern_delta": -40,
+        "raster_overlap_pixels_128px": 0
+      }
+    },
+    "mark_pair_details": [
+      {
+        "sample": "à̀",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "à́",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "à̂",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "à̃",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "à̄",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "à̆",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "à̈",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "à̊",
+        "base": "a",
+        "first": "U+0300",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "á̀",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "á́",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "á̂",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "á̃",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "á̄",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "á̆",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "á̈",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "á̊",
+        "base": "a",
+        "first": "U+0301",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "ầ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ấ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "â̂",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "ẫ",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "â̄",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "â̆",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "â̈",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "â̊",
+        "base": "a",
+        "first": "U+0302",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "ã̀",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0300",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã́",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0301",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã̂",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0302",
+        "vertical_gap": 139.7,
+        "top": 1855
+      },
+      {
+        "sample": "ã̃",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0303",
+        "vertical_gap": 184.7,
+        "top": 1913.3
+      },
+      {
+        "sample": "ã̄",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0304",
+        "vertical_gap": 184.7,
+        "top": 1777
+      },
+      {
+        "sample": "ã̆",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0306",
+        "vertical_gap": 112.7,
+        "top": 1830
+      },
+      {
+        "sample": "ã̈",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+0308",
+        "vertical_gap": 129.7,
+        "top": 1777
+      },
+      {
+        "sample": "ã̊",
+        "base": "a",
+        "first": "U+0303",
+        "second": "U+030A",
+        "vertical_gap": 94.7,
+        "top": 1877
+      },
+      {
+        "sample": "ā̀",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ā́",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ā̂",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "ā̃",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "ā̄",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "ā̆",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "ā̈",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "ā̊",
+        "base": "a",
+        "first": "U+0304",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "ằ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ắ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ă̂",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1772
+      },
+      {
+        "sample": "ẵ",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1830.3
+      },
+      {
+        "sample": "ă̄",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1694
+      },
+      {
+        "sample": "ă̆",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1747
+      },
+      {
+        "sample": "ă̈",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1694
+      },
+      {
+        "sample": "ă̊",
+        "base": "a",
+        "first": "U+0306",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1794
+      },
+      {
+        "sample": "ä̀",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ä́",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ä̂",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "ä̃",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "ǟ",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "ä̆",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "ä̈",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "ä̊",
+        "base": "a",
+        "first": "U+0308",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "å̀",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "ǻ",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "å̂",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1819
+      },
+      {
+        "sample": "å̃",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1877.3
+      },
+      {
+        "sample": "å̄",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1741
+      },
+      {
+        "sample": "å̆",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1794
+      },
+      {
+        "sample": "å̈",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1741
+      },
+      {
+        "sample": "å̊",
+        "base": "a",
+        "first": "U+030A",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1841
+      },
+      {
+        "sample": "ѐ̀",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ́",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ̂",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "ѐ̃",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "ѐ̄",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "ѐ̆",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "ѐ̈",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "ѐ̊",
+        "base": "е",
+        "first": "U+0300",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е́̀",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е́́",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е́̂",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "е́̃",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "е́̄",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "е́̆",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "е́̈",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е́̊",
+        "base": "е",
+        "first": "U+0301",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е̂̀",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е̂́",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1797
+      },
+      {
+        "sample": "е̂̂",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1797
+      },
+      {
+        "sample": "е̂̃",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1855.3
+      },
+      {
+        "sample": "е̂̄",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1719
+      },
+      {
+        "sample": "е̂̆",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1772
+      },
+      {
+        "sample": "е̂̈",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̂̊",
+        "base": "е",
+        "first": "U+0302",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1819
+      },
+      {
+        "sample": "е̃̀",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0300",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃́",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0301",
+        "vertical_gap": 129.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃̂",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0302",
+        "vertical_gap": 139.7,
+        "top": 1855
+      },
+      {
+        "sample": "е̃̃",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0303",
+        "vertical_gap": 184.7,
+        "top": 1913.3
+      },
+      {
+        "sample": "е̃̄",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0304",
+        "vertical_gap": 184.7,
+        "top": 1777
+      },
+      {
+        "sample": "е̃̆",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0306",
+        "vertical_gap": 112.7,
+        "top": 1830
+      },
+      {
+        "sample": "е̃̈",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+0308",
+        "vertical_gap": 129.7,
+        "top": 1777
+      },
+      {
+        "sample": "е̃̊",
+        "base": "е",
+        "first": "U+0303",
+        "second": "U+030A",
+        "vertical_gap": 94.7,
+        "top": 1877
+      },
+      {
+        "sample": "е̄̀",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̄́",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1719
+      },
+      {
+        "sample": "е̄̂",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1719
+      },
+      {
+        "sample": "е̄̃",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1777.3
+      },
+      {
+        "sample": "е̄̄",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1641
+      },
+      {
+        "sample": "е̄̆",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1694
+      },
+      {
+        "sample": "е̄̈",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1641
+      },
+      {
+        "sample": "е̄̊",
+        "base": "е",
+        "first": "U+0304",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1741
+      },
+      {
+        "sample": "ӗ̀",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ́",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ̂",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1772
+      },
+      {
+        "sample": "ӗ̃",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1830.3
+      },
+      {
+        "sample": "ӗ̄",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1694
+      },
+      {
+        "sample": "ӗ̆",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1747
+      },
+      {
+        "sample": "ӗ̈",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1694
+      },
+      {
+        "sample": "ӗ̊",
+        "base": "е",
+        "first": "U+0306",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1794
+      },
+      {
+        "sample": "е̊̀",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0300",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "е̊́",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0301",
+        "vertical_gap": 130,
+        "top": 1819
+      },
+      {
+        "sample": "е̊̂",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0302",
+        "vertical_gap": 140,
+        "top": 1819
+      },
+      {
+        "sample": "е̊̃",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0303",
+        "vertical_gap": 185,
+        "top": 1877.3
+      },
+      {
+        "sample": "е̊̄",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0304",
+        "vertical_gap": 185,
+        "top": 1741
+      },
+      {
+        "sample": "е̊̆",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0306",
+        "vertical_gap": 113,
+        "top": 1794
+      },
+      {
+        "sample": "е̊̈",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+0308",
+        "vertical_gap": 130,
+        "top": 1741
+      },
+      {
+        "sample": "е̊̊",
+        "base": "е",
+        "first": "U+030A",
+        "second": "U+030A",
+        "vertical_gap": 95,
+        "top": 1841
+      }
+    ],
+    "codepoints": 212,
+    "control_no_change": true,
+    "prior_overlapping_sample": [
+      {
+        "g": "uni0061",
+        "cl": 0,
+        "dx": 0,
+        "dy": 0,
+        "ax": 1130,
+        "ay": 0
+      },
+      {
+        "g": "uni0308",
+        "cl": 0,
+        "dx": -565,
+        "dy": 1166,
+        "ax": 0,
+        "ay": 0
+      },
+      {
+        "g": "uni0301",
+        "cl": 0,
+        "dx": -565,
+        "dy": 1166,
+        "ax": 0,
+        "ay": 0
+      }
+    ]
+  }
+}

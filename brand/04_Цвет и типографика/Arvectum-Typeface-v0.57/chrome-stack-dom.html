@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><title>Arvectum v0.57 mkmk browser QA</title>
+<style>
+@font-face{font-family:ArvectumDisplay057;src:url('experimental/ArvectumDisplayGoldenStepDraft057-Medium.woff2') format('woff2')}
+@font-face{font-family:ArvectumText057;src:url('experimental/ArvectumTextGoldenStepDraft057-Regular.woff2') format('woff2')}
+body{padding:30px;background:#fff;color:#001432;font-family:Arial,sans-serif}
+h1{font-size:24px} .grid{display:flex;gap:38px}.card{width:780px}
+.sample{font-size:55px;line-height:1.7;white-space:nowrap}
+.display{font-family:ArvectumDisplay057}.text{font-family:ArvectumText057}
+.small{font-size:25px}.note{font-size:15px;color:#475569}
+</style></head><body>
+<h1>Arvectum Golden Step v0.57 — browser mkmk proof (draft)</h1>
+<p class="note">Two stacked top marks — not a precomposed lookalike. No production or owner approval.</p>
+<div class="grid">
+<section class="card display"><h2>Display Medium</h2>
+<div class="sample">ä́ ế ů́</div><div class="sample">е̂́ ӓ́ Й́</div>
+<div class="sample small">AV VA Te АУ ЛТ ДА • 1 250 000,00 ₽</div></section>
+<section class="card text"><h2>Text Regular</h2>
+<div class="sample">ä́ ế ů́</div><div class="sample">е̂́ ӓ́ Й́</div>
+<div class="sample small">AV VA Te АУ ЛТ ДА • 1 250 000,00 ₽</div></section>
+</div><p id="qa">FONT_QA_V057 display=true text=true widths=407.6,354.1 result=PASS</p>
+<script>document.fonts.ready.then(()=>{
+  const d=document.fonts.check('32px ArvectumDisplay057'),
+        t=document.fonts.check('32px ArvectumText057'),
+        a=document.createElement('canvas').getContext('2d');
+  a.font='32px ArvectumDisplay057';const width=a.measureText('Арвектум ä́ 0123456789').width;
+  a.font='32px Arial';const fallback=a.measureText('Арвектум ä́ 0123456789').width;
+  document.getElementById('qa').textContent='FONT_QA_V057 display='+d+' text='+t+
+     ' widths='+width.toFixed(1)+','+fallback.toFixed(1)+' result='+(d&&t&&Math.abs(width-fallback)>1?'PASS':'FAIL');
+});</script>
+
+</body></html>
