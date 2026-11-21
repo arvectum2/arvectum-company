@@ -23,7 +23,14 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-032 Build a read-only stack inventory of 21 distinct repository identities, with actual tracked language files, manifest technologies, framework declarations, lockfile and CI counts; do not treat worktrees as separate products. **Declared-source evidence only**.
 - [ ] AEC-001-033 Compare versions, declared dependencies, build/release workflows, runtimes, storage, integration/AI mechanisms and common CI policies. Separate proven overlap from hypotheses and list unsampled cloud/GitVerse sources. **First matrix populated; semantic/runtime comparison not complete**.
 - [ ] AEC-001-034 Produce an evaluated cross-project keep/standardize/reuse/extract/retire decision matrix, with contracts, accountable Product/Company/OS owner, data/security/sovereignty constraints, estimated cost/benefit and rollback.
-- [ ] AEC-001-035 Validate the highest-value stack/process consolidation candidate with two real consumer contracts and characterization tests, before any production change or common-library extraction.
+- [ ] AEC-001-035 Validate the highest-value stack/process consolidation candidate with two real consumer contracts and characterization tests, before any production change or common-library extraction. PARTIAL: 10 real SDK mock-contract cases passed, but cost, security and approval gates remain OPEN.
+
+## P0b — Semantic boundaries and consumer characterization
+
+- [x] AEC-001-036 Execute a no-network two-real-consumer pilot: installed Tender Agent Python SDK 0.4.0 vs Site vendored JS SDK 0.3.0, 10 bounded HTTP behavior scenarios, explicit language return-shape normalization and negative comparator tests.
+- [x] AEC-001-037 Review source-level outbox/retry/job and HTTP acquisition differences across Tender Agent, MAX2TG, Creative Test Agent, Compliance and Data Platform; record KEEP SEPARATE and security/delivery constraints with source references.
+- [ ] AEC-001-038 Verify the pinned two-consumer mock pilot in Draft PR CI using separately checked-out immutable public source commits, no live traffic. **Not accepted until GitHub PASS**.
+- [ ] AEC-001-039 Establish per-consumer runtime contract/tenant/authorization and delivery/recovery tests; quantify economic benefit and owner workload before any extracted implementation or SDK release.
 
 ## P1a — Evidence gaps surfaced by host audit
 - [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources.

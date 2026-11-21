@@ -62,6 +62,10 @@ Expected choices: **KEEP SEPARATE**, **STANDARDIZE POLICY**, **REUSE EXISTING CO
 
 Score each by verified number of consumers, recurring cost, defect rate, customer/revenue criticality, security/data risk, migration cost and reversibility.
 
+## First two-consumer characterization results (not a cutover)
+
+The existing Data Platform SDK was tested using actual Tender Agent Python 0.4.0 installed sources and Arvectum Site JS 0.3.0 vendor artifact with **10 offline mocked HTTP scenarios**, matching after explicit normalized outcomes. This supports reuse of the *existing* contract and avoids inventing another transport abstraction. It does not establish live auth, business delivery, complete compatibility or cost savings. The source-level semantic audit also found that MAX2TG UNKNOWN delivery must not be conflated with Creative queue retry or Tender event idempotency; Compliance's IP-pinned acquisition must not be replaced by a weaker URL validator. Reference [sdk-consumer-pilot.md](sdk-consumer-pilot.md) and [semantic-overlap.md](semantic-overlap.md).
+
 ## Per-pilot steps
 Pin exact production and git versions → define boundaries and baseline → write characterization/contract tests → implement behind explicit adapter or flag → run side-by-side and failure/retry simulations → security, sovereignty and cost review → obtain required approval → gradual cutover → rollback proof → reconcile canonical decisions and docs.
 

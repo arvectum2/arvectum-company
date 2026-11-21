@@ -74,6 +74,14 @@ A read-only, version-declaration-aware scan covered **21 unique Git repository i
 
 The scan observed 116 tracked CI workflow files across all 21 sampled identities, 14 named technologies declared by >=2 source repos, and differences in FastAPI, HTTPX, SQLAlchemy/Alembic and selected GitHub Actions version ranges. These are source-level findings, not proven deployed-version conflicts, redundant business behavior or any mandate for a one-stack rewrite. Data Platform HTTP SDK and in-process client contracts remain distinct; museum and native product isolation remains mandatory.
 
+## Isolated real-consumer SDK pilot and semantic guards
+
+The active Tender Agent release `9b650a2b` declares and loads Python SDK **0.4.0**; all four installed Python package sources match the source at remote `consumer-sdk-v0.4.0` tag commit `d3417316`. A separate local Tender work checkout still declares 0.3.0. **This is checkout/release version difference, not a demonstrated production inconsistency.** Arvectum Site vendors JS SDK **0.3.0**, whose tarball and source match its published tag.
+
+A two-real-consumer, offline mock HTTP characterization ran on the installed Tender Python SDK (Mac mini) and the Site JS artifact (MacBook). It found **10/10 matching normalized scenarios**, including 401/503/error, contract v1/v2, search payload, and collection create/lookup. No real network or product state was involved. The Python SDK returns search hits whereas JS returns the search envelope; see [sdk-consumer-pilot.md](sdk-consumer-pilot.md) for scope, provenance and remaining gaps. CI reproducibility remains a separate gate.
+
+Reading concrete implementation paths also showed **material semantic differences** among Tender's integration outbox, Creative's retryable SQL job queue, MAX2TG's non-retried UNKNOWN delivery, and Compliance's IP-pinned egress vs Data Platform's URL validator. See [semantic-overlap.md](semantic-overlap.md). Do not identify these as safe deduplication candidates based solely on similar names.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

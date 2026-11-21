@@ -63,3 +63,16 @@ python3 tools/aec001_stack_matrix.py \
 ```
 
 This command reads Git-tracked manifests/source names and selected GitHub Actions metadata without executing application code or fetching dependencies. The JSON includes private/local repository identities and **must not be committed** to the public Company repository. For a deliberately redacted human-readable first comparison see [stack-comparison.md](stack-comparison.md). Static source declarations are not deployed-version evidence or semantic duplication proof.
+
+
+## Two real consumer mock-contract pilot (isolated)
+
+`tests/pilot/probe_python_consumer.py` runs with the existing Tender backend Python SDK installation, using only `httpx.MockTransport`. `tests/pilot/probe_js_consumer.mjs` runs on a Node 22+ test host against the Site's **verified and independently extracted** vendor SDK JavaScript source, with a mock `fetchImpl`. No actual network calls occur. Two JSON outputs are compared using:
+
+```sh
+python3 tools/aec001_compare_consumer_contract.py \
+  --python-result /path/to/private/python-result.json \
+  --javascript-result /path/to/private/javascript-result.json
+```
+
+Do not use real credentials or copy production `.env` files into tests. The CI candidate checks out immutable public source revisions to an isolated test workspace, extracts only the signed-off vendor tar member after SHA-256 verification and runs both probes. It does not call real Data Platform endpoints, access customer data, or update consumer products. See [sdk-consumer-pilot.md](sdk-consumer-pilot.md).

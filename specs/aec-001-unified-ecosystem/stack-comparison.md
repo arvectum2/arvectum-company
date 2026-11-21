@@ -65,6 +65,12 @@ These version gaps are *candidates* for compatibility and supply-chain review, n
 
 Proposed outcomes are architectural hypotheses, not accepted decisions. All extractions require at least two verified consumers, accountable Product/Company/OS ownership, measurable avoided maintenance or risk, data/security/legal/sovereignty boundaries and reversible deployment.
 
+## Evidence from two concrete consumers and source-level semantics
+
+A bounded offline characterization for Tender Agent's **deployed** Python SDK `0.4.0` and Arvectum Site's vendored JS SDK `0.3.0` passed **10/10 common HTTP scenarios** using only mock transports. Tender's separately sampled development checkout still declares Python SDK 0.3.0, but deployed source and installed version agree at 0.4.0; these do **not** establish a runtime version defect. This is meaningful reuse evidence for the existing Data Platform HTTP contract, **not** blanket 0.3↔0.4 behavioral equivalence. See [sdk-consumer-pilot.md](sdk-consumer-pilot.md).
+
+Further source review differentiated Tender's deduplicated integration outbox, Creative's requeueable failed jobs, MAX2TG's UNKNOWN delivery and Compliance's IP-pinned outbound safety. These are **not** interchangeable shared queues or HTTP transports; see [semantic-overlap.md](semantic-overlap.md). Their retention is a protection of product guarantees, not a failure to consolidate.
+
 ## Remaining comparison work
 
 - Resolve installed versions, SBOM/licenses, dependency locks, offline/RU viability and production deployment origins without revealing credentials.
