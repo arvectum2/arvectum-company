@@ -1,0 +1,20 @@
+{
+  "Display": {
+    "previous_pairs_preserved": 57,
+    "new_pairs_verified": 14,
+    "no_raster_collisions_at_12_16_24_40_72_128_px": true,
+    "outlines_and_hmtx_unchanged": 212,
+    "old_win_vertical_metrics_preserved": true,
+    "financial_tabular_and_mkmk_regression": "PASS",
+    "font_family": "Draft061 - proposal, not approved"
+  },
+  "Text": {
+    "previous_pairs_preserved": 57,
+    "new_pairs_verified": 14,
+    "no_raster_collisions_at_12_16_24_40_72_128_px": true,
+    "outlines_and_hmtx_unchanged": 212,
+    "old_win_vertical_metrics_preserved": true,
+    "financial_tabular_and_mkmk_regression": "PASS",
+    "font_family": "Draft061 - proposal, not approved"
+  }
+}
