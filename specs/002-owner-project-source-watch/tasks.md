@@ -26,3 +26,9 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 - [ ] Publish approved PR, repin the installed source-watch script + sidecar under a controlled launchd window, then verify hash, ownership, read-only Git evidence, previous report preservation and rollback materials.
 - [ ] Confirm natural scheduled Git-first run at the existing daily cadence; a manual kickstart is not proof of natural scheduled execution.
 - [ ] Admit read-only Company candidate report input into Mission Control only through a separate explicit contract, preserving WSF-07A and WSF-05 authority boundaries.
+
+## Read-only Owner display of candidate source observations (2026-11-21)
+
+- [x] Specify minimum exact Company report envelope and security/authority boundaries in `docs/contracts/COMPANY-SOURCE-WATCH-READ-ONLY-EVIDENCE-v1.md`.
+- [ ] Independently test and review a same-host owner-authenticated read-only Mission Control adapter; reject malformed/untrusted/stale-to-fresh transformations.
+- [ ] Promote only after OS collector continuity is independently verified; do not repin WSF-05 or rewrite Company task/business status.
