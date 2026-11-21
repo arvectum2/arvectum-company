@@ -1,0 +1,52 @@
+{
+  "Display": {
+    "input": "ArvectumDisplayGoldenStepDraft058-Medium.otf",
+    "input_sha": "28c7450ebcdd4d27ab1b0390ef768806021d9cf66f7ee21bc2b080e99e88bbee",
+    "otf": "ArvectumDisplayGoldenStepDraft059-Medium.otf",
+    "otf_sha": "646f9d4d2522c7d40f486434542f07060834d810f1eedffaad24c24153a58a40",
+    "os2_version": 4,
+    "use_typo_metrics": true,
+    "hhea_typo_unchanged": true,
+    "old_win": [
+      2160,
+      760
+    ],
+    "new_win": [
+      2400,
+      1200
+    ],
+    "old_win_sum": 2920,
+    "new_win_sum": 3600,
+    "potential_legacy_lineheight_increase_pct": 23.29,
+    "html_typo_preference_not_guaranteed": true,
+    "codepoints": 212,
+    "changed_outlines": 0,
+    "changed_hmtx": 0,
+    "risk": "legacy Windows applications may use usWin metrics for line spacing"
+  },
+  "Text": {
+    "input": "ArvectumTextGoldenStepDraft058-Regular.otf",
+    "input_sha": "97d5c6be70fbb601ac7dbdbff1146ab030ed773fb901d7540dd1854c65954b82",
+    "otf": "ArvectumTextGoldenStepDraft059-Regular.otf",
+    "otf_sha": "263757710aa547d814f69924dd8538d1d884331df7ed5db000516c25e2b96df6",
+    "os2_version": 4,
+    "use_typo_metrics": true,
+    "hhea_typo_unchanged": true,
+    "old_win": [
+      2160,
+      760
+    ],
+    "new_win": [
+      2400,
+      1200
+    ],
+    "old_win_sum": 2920,
+    "new_win_sum": 3600,
+    "potential_legacy_lineheight_increase_pct": 23.29,
+    "html_typo_preference_not_guaranteed": true,
+    "codepoints": 212,
+    "changed_outlines": 0,
+    "changed_hmtx": 0,
+    "risk": "legacy Windows applications may use usWin metrics for line spacing"
+  }
+}

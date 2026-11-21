@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8"><title>Golden Step 059 — metrics A/B</title>
+<style>
+@font-face{font-family:D58;src:url('../Arvectum-Typeface-v0.58/experimental/ArvectumDisplayGoldenStepDraft058-Medium.woff2') format('woff2')}
+@font-face{font-family:D59;src:url('experimental/ArvectumDisplayGoldenStepDraft059-Medium.woff2') format('woff2')}
+@font-face{font-family:T58;src:url('../Arvectum-Typeface-v0.58/experimental/ArvectumTextGoldenStepDraft058-Regular.woff2') format('woff2')}
+@font-face{font-family:T59;src:url('experimental/ArvectumTextGoldenStepDraft059-Regular.woff2') format('woff2')}
+body{padding:22px;font-family:Arial,sans-serif;color:#001432;background:white;max-width:1650px}
+h1{font-size:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.panel{border:1px solid #ccd6db;padding:24px;min-width:0}
+.label{font-family:Arial,sans-serif;font-size:16px;color:#475569}
+.sample{font-size:48px;line-height:normal;margin:25px 0}.text{font-size:23px;line-height:normal;margin:18px 0}
+.baseline{font-family:D58}.candidate{font-family:D59}
+#t58{font-family:T58}#t59{font-family:T59}
+</style></head><body>
+<h1>Golden Step v0.59 — Windows clipping metric candidate (not approved)</h1>
+<p>Redesign of Win metrics only; old and new typographic metrics unchanged. The browser check is not a Windows test.</p>
+<div class="grid"><section class="panel baseline" id="d58"><div class="label">Display v0.58 / baseline</div><div class="sample">ã̃̃ · ç̧̧</div><div class="text">Арвектум — 1 250 000 ₽ / AV To ЛТ</div></section>
+<section class="panel candidate" id="d59"><div class="label">Display v0.59 / candidate</div><div class="sample">ã̃̃ · ç̧̧</div><div class="text">Арвектум — 1 250 000 ₽ / AV To ЛТ</div></section>
+<section class="panel" id="t58"><div class="label">Text v0.58 / baseline</div><div class="sample">ã̃̃ · ç̧̧</div><div class="text">Арвектум — 1 250 000 ₽ / AV To ЛТ</div></section>
+<section class="panel" id="t59"><div class="label">Text v0.59 / candidate</div><div class="sample">ã̃̃ · ç̧̧</div><div class="text">Арвектум — 1 250 000 ₽ / AV To ЛТ</div></section></div>
+<pre id="qa">ARVECTUM_059_BROWSER PASS {"ready":[true,true,true,true],"data":{"D58":{"sample_height":65,"paragraph_height":31,"paragraph_width":756},"D59":{"sample_height":65,"paragraph_height":31,"paragraph_width":756},"T58":{"sample_height":65,"paragraph_height":31,"paragraph_width":756},"T59":{"sample_height":65,"paragraph_height":31,"paragraph_width":756}}}</pre>
+<script>
+document.fonts.ready.then(()=>{
+ const families=['D58','D59','T58','T59'],ready=families.map(f=>document.fonts.check('48px '+f));
+ const get=id=>{let x=document.getElementById(id);return {sample_height:+x.querySelector('.sample').getBoundingClientRect().height.toFixed(3),
+ paragraph_height:+x.querySelector('.text').getBoundingClientRect().height.toFixed(3),
+ paragraph_width:+x.querySelector('.text').getBoundingClientRect().width.toFixed(3)}};
+ let data={D58:get('d58'),D59:get('d59'),T58:get('t58'),T59:get('t59')};
+ const ok=ready.every(Boolean)&&data.D58.sample_height===data.D59.sample_height&&data.T58.sample_height===data.T59.sample_height&&data.D58.paragraph_height===data.D59.paragraph_height&&data.T58.paragraph_height===data.T59.paragraph_height;
+ document.getElementById('qa').textContent='ARVECTUM_059_BROWSER '+(ok?'PASS':'FAIL')+' '+JSON.stringify({ready,data});
+});
+</script>
+</body></html>

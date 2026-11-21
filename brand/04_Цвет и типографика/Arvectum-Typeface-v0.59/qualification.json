@@ -1,0 +1,88 @@
+{
+  "Display": {
+    "triples_tested": 512,
+    "max_triple_top": 2334.28,
+    "max_triple_sample": "ã̃̃",
+    "old_win_ascent": 2160,
+    "new_win_ascent": 2400,
+    "bottom_stacks": [
+      {
+        "count": 2,
+        "lowest_ink": -725,
+        "within_new_win_descent": true
+      },
+      {
+        "count": 3,
+        "lowest_ink": -1120,
+        "within_new_win_descent": true
+      },
+      {
+        "count": 4,
+        "lowest_ink": -1515,
+        "within_new_win_descent": false
+      }
+    ],
+    "four_tilde_upper_ink": 2755.28,
+    "four_mark_support": false,
+    "kerning_pairs_unchanged": 57,
+    "GPOS_shaping_unchanged": true,
+    "typo_metrics": [
+      2080,
+      -680,
+      0
+    ],
+    "hhea_metrics": [
+      2080,
+      -680,
+      0
+    ],
+    "win_metrics": [
+      2400,
+      1200
+    ],
+    "use_typo_metrics_flag": true
+  },
+  "Text": {
+    "triples_tested": 512,
+    "max_triple_top": 2334.28,
+    "max_triple_sample": "ã̃̃",
+    "old_win_ascent": 2160,
+    "new_win_ascent": 2400,
+    "bottom_stacks": [
+      {
+        "count": 2,
+        "lowest_ink": -725,
+        "within_new_win_descent": true
+      },
+      {
+        "count": 3,
+        "lowest_ink": -1120,
+        "within_new_win_descent": true
+      },
+      {
+        "count": 4,
+        "lowest_ink": -1515,
+        "within_new_win_descent": false
+      }
+    ],
+    "four_tilde_upper_ink": 2755.28,
+    "four_mark_support": false,
+    "kerning_pairs_unchanged": 57,
+    "GPOS_shaping_unchanged": true,
+    "typo_metrics": [
+      2080,
+      -680,
+      0
+    ],
+    "hhea_metrics": [
+      2080,
+      -680,
+      0
+    ],
+    "win_metrics": [
+      2400,
+      1200
+    ],
+    "use_typo_metrics_flag": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "Display" : {
+    "baseline" : {
+      "ct_ascent_12" : 12.1875,
+      "ct_ascent_52" : 52.8125,
+      "ct_descent_12" : 3.984375,
+      "ct_descent_52" : 17.265625,
+      "ct_leading_52" : 0,
+      "line_ascent_12" : 12.1875,
+      "line_descent_12" : 3.984375,
+      "line_leading_12" : 0,
+      "line_width_12" : 229.01953125
+    },
+    "candidate" : {
+      "ct_ascent_12" : 12.1875,
+      "ct_ascent_52" : 52.8125,
+      "ct_descent_12" : 3.984375,
+      "ct_descent_52" : 17.265625,
+      "ct_leading_52" : 0,
+      "line_ascent_12" : 12.1875,
+      "line_descent_12" : 3.984375,
+      "line_leading_12" : 0,
+      "line_width_12" : 229.01953125
+    },
+    "line_measurements_equal" : true
+  },
+  "Text" : {
+    "baseline" : {
+      "ct_ascent_12" : 12.1875,
+      "ct_ascent_52" : 52.8125,
+      "ct_descent_12" : 3.984375,
+      "ct_descent_52" : 17.265625,
+      "ct_leading_52" : 0,
+      "line_ascent_12" : 12.1875,
+      "line_descent_12" : 3.984375,
+      "line_leading_12" : 0,
+      "line_width_12" : 224.537109375
+    },
+    "candidate" : {
+      "ct_ascent_12" : 12.1875,
+      "ct_ascent_52" : 52.8125,
+      "ct_descent_12" : 3.984375,
+      "ct_descent_52" : 17.265625,
+      "ct_leading_52" : 0,
+      "line_ascent_12" : 12.1875,
+      "line_descent_12" : 3.984375,
+      "line_leading_12" : 0,
+      "line_width_12" : 224.537109375
+    },
+    "line_measurements_equal" : true
+  }
+}
