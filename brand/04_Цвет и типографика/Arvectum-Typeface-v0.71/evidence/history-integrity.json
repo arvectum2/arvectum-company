@@ -1,0 +1,496 @@
+{
+  "status": "VERSIONED_SOURCE_INVENTORY",
+  "version_folders_existing": 59,
+  "prior_history_directory_presence_not_original_archive_recovery": true,
+  "manifests_present": 35,
+  "manifests_missing": 24,
+  "total_tracked_files": 1176,
+  "files_checksum_verified": 944,
+  "checksum_errors": [],
+  "latest_v061_v070_manifests_all_pass": true,
+  "original_zip_gap": [
+    "v0.13",
+    "v0.23",
+    "v0.24"
+  ],
+  "versions": [
+    {
+      "version": "Arvectum-Typeface-v0.10",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.13",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.2",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.20",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.22",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 15,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.23",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.24",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.26",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 7,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.27",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 9,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.28",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 11,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.29",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 5,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.3",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.30",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 13,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.31",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 21,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.32",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 21,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.33",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 17,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.34",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 27,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.35",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 24,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.36",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 13,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.37",
+      "manifest_available": true,
+      "files_checked": 36,
+      "checksum_errors": [],
+      "tracked_file_count": 37,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.38",
+      "manifest_available": true,
+      "files_checked": 34,
+      "checksum_errors": [],
+      "tracked_file_count": 35,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.39",
+      "manifest_available": true,
+      "files_checked": 53,
+      "checksum_errors": [],
+      "tracked_file_count": 54,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.4",
+      "manifest_available": true,
+      "files_checked": 36,
+      "checksum_errors": [],
+      "tracked_file_count": 38,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.40",
+      "manifest_available": true,
+      "files_checked": 44,
+      "checksum_errors": [],
+      "tracked_file_count": 45,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.41",
+      "manifest_available": true,
+      "files_checked": 42,
+      "checksum_errors": [],
+      "tracked_file_count": 43,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.42",
+      "manifest_available": true,
+      "files_checked": 38,
+      "checksum_errors": [],
+      "tracked_file_count": 39,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.43",
+      "manifest_available": true,
+      "files_checked": 41,
+      "checksum_errors": [],
+      "tracked_file_count": 42,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.44",
+      "manifest_available": true,
+      "files_checked": 36,
+      "checksum_errors": [],
+      "tracked_file_count": 37,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.45",
+      "manifest_available": true,
+      "files_checked": 76,
+      "checksum_errors": [],
+      "tracked_file_count": 77,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.46",
+      "manifest_available": true,
+      "files_checked": 44,
+      "checksum_errors": [],
+      "tracked_file_count": 45,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.47",
+      "manifest_available": true,
+      "files_checked": 31,
+      "checksum_errors": [],
+      "tracked_file_count": 32,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.48",
+      "manifest_available": true,
+      "files_checked": 15,
+      "checksum_errors": [],
+      "tracked_file_count": 16,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.49",
+      "manifest_available": true,
+      "files_checked": 33,
+      "checksum_errors": [],
+      "tracked_file_count": 33,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.5",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.50",
+      "manifest_available": true,
+      "files_checked": 25,
+      "checksum_errors": [],
+      "tracked_file_count": 26,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.51",
+      "manifest_available": true,
+      "files_checked": 20,
+      "checksum_errors": [],
+      "tracked_file_count": 21,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.52",
+      "manifest_available": true,
+      "files_checked": 7,
+      "checksum_errors": [],
+      "tracked_file_count": 8,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.53",
+      "manifest_available": true,
+      "files_checked": 9,
+      "checksum_errors": [],
+      "tracked_file_count": 10,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.54",
+      "manifest_available": true,
+      "files_checked": 27,
+      "checksum_errors": [],
+      "tracked_file_count": 28,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.55",
+      "manifest_available": true,
+      "files_checked": 9,
+      "checksum_errors": [],
+      "tracked_file_count": 10,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.56",
+      "manifest_available": true,
+      "files_checked": 29,
+      "checksum_errors": [],
+      "tracked_file_count": 30,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.57",
+      "manifest_available": true,
+      "files_checked": 19,
+      "checksum_errors": [],
+      "tracked_file_count": 20,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.58",
+      "manifest_available": true,
+      "files_checked": 32,
+      "checksum_errors": [],
+      "tracked_file_count": 33,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.59",
+      "manifest_available": true,
+      "files_checked": 21,
+      "checksum_errors": [],
+      "tracked_file_count": 22,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.6",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.60",
+      "manifest_available": true,
+      "files_checked": 40,
+      "checksum_errors": [],
+      "tracked_file_count": 42,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.61",
+      "manifest_available": true,
+      "files_checked": 21,
+      "checksum_errors": [],
+      "tracked_file_count": 22,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.62",
+      "manifest_available": true,
+      "files_checked": 8,
+      "checksum_errors": [],
+      "tracked_file_count": 9,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.63",
+      "manifest_available": true,
+      "files_checked": 21,
+      "checksum_errors": [],
+      "tracked_file_count": 22,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.64",
+      "manifest_available": true,
+      "files_checked": 19,
+      "checksum_errors": [],
+      "tracked_file_count": 20,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.65",
+      "manifest_available": true,
+      "files_checked": 16,
+      "checksum_errors": [],
+      "tracked_file_count": 17,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.66",
+      "manifest_available": true,
+      "files_checked": 23,
+      "checksum_errors": [],
+      "tracked_file_count": 25,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.67",
+      "manifest_available": true,
+      "files_checked": 11,
+      "checksum_errors": [],
+      "tracked_file_count": 12,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.68",
+      "manifest_available": true,
+      "files_checked": 8,
+      "checksum_errors": [],
+      "tracked_file_count": 9,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.69",
+      "manifest_available": true,
+      "files_checked": 10,
+      "checksum_errors": [],
+      "tracked_file_count": 11,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.7",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.70",
+      "manifest_available": true,
+      "files_checked": 10,
+      "checksum_errors": [],
+      "tracked_file_count": 11,
+      "has_README": true
+    },
+    {
+      "version": "Arvectum-Typeface-v0.8",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    },
+    {
+      "version": "Arvectum-Typeface-v0.9",
+      "manifest_available": false,
+      "files_checked": 0,
+      "checksum_errors": [],
+      "tracked_file_count": 1,
+      "has_README": false
+    }
+  ],
+  "limitations": [
+    "Older version folders may predate SHA256 manifests, do not add retroactive claims",
+    "Tracked files are not proof that original historical ZIP bytes were restored",
+    "This checks local working copy, not GitHub/GitVerse remote persistence",
+    "No previous version files modified"
+  ]
+}

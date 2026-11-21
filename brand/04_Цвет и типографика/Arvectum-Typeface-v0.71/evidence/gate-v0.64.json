@@ -1,0 +1,65 @@
+{
+  "candidate": "v0.64",
+  "baseline": "v0.58",
+  "mode": "kerning-only",
+  "status": "PASS_TECHNICAL_KERN_ONLY",
+  "styles": {
+    "Display": {
+      "font": "ArvectumDisplayGoldenStepDraft064-Medium.otf",
+      "sha256": "f393b89f3e75b46aa64f305ee3eb07fe145fe283cc6c59b6e2f22a2dfb07665a",
+      "style": "Display",
+      "codepoints": 212,
+      "outlines_and_hmtx_unchanged": 212,
+      "tables_unchanged": [
+        "OS/2",
+        "hhea",
+        "GDEF"
+      ],
+      "pairs_validated": 85,
+      "features": [
+        "kern",
+        "mark",
+        "mkmk"
+      ],
+      "tabular_figure_width": 1323,
+      "space_advances": {
+        "space": 512,
+        "nbsp": 512,
+        "nnbsp": 316
+      },
+      "source_attribution_preserved": true,
+      "woff_roundtrip": true,
+      "woff2_roundtrip": true
+    },
+    "Text": {
+      "font": "ArvectumTextGoldenStepDraft064-Regular.otf",
+      "sha256": "44be914add89beee7cbab93753570a3f5236ae53e2fe4134565d1f1b714aee74",
+      "style": "Text",
+      "codepoints": 212,
+      "outlines_and_hmtx_unchanged": 212,
+      "tables_unchanged": [
+        "OS/2",
+        "hhea",
+        "GDEF"
+      ],
+      "pairs_validated": 85,
+      "features": [
+        "kern",
+        "mark",
+        "mkmk"
+      ],
+      "tabular_figure_width": 1266,
+      "space_advances": {
+        "space": 512,
+        "nbsp": 512,
+        "nnbsp": 316
+      },
+      "source_attribution_preserved": true,
+      "woff_roundtrip": true,
+      "woff2_roundtrip": true
+    }
+  },
+  "expected_pairs": 85,
+  "production_approved": false,
+  "windows_device_test_performed": false
+}

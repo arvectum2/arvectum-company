@@ -1,0 +1,11 @@
+{
+  "candidate": "v0.59",
+  "baseline": "v0.58",
+  "mode": "kerning-only",
+  "status": "BLOCKED_SCOPE_VIOLATION",
+  "styles": {},
+  "expected_pairs": 57,
+  "production_approved": false,
+  "windows_device_test_performed": false,
+  "reason": "OS/2 changed relative to v0.58: Display"
+}
