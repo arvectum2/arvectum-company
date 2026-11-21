@@ -35,7 +35,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 ## P1c — Source-safe service catalog (derived view)
 
 - [x] AEC-001-040 Build and test private read-only launchd/Docker service catalog projection: 58 observations, 23 Git identity links, 35 unresolved, zero fabricated health or Product owner claims. Deny output inside Git worktrees and require private 0600 atomic output.
-- [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption.
+- [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption. PARTIAL: provenance grew to 31/58; no owner/health/backup field promoted.
 
 ## P1d — Pinned Spec Kit source comparison
 
@@ -43,10 +43,10 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-043 Approve product-specific template exception/version-upgrade procedure and cadence under Skills/Company/OS ownership; no automatic sync or second source watcher.
 
 ## P1a — Evidence gaps surfaced by host audit
-- [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources.
-- [ ] AEC-001-023 Review worktree lifecycle and 11 prunable candidates with active runtime references before any Git cleanup.
+- [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources. PARTIAL: 31/58 links evidenced (23 direct hints, 6 pinned source files, 2 current PID+release handles); loaded code and 27 sources remain UNKNOWN.
+- [ ] AEC-001-023 Review worktree lifecycle and 11 prunable candidates with active runtime references before any Git cleanup. PARTIAL: all 605 registered entries classified; 11 stale-metadata candidates not referenced in sampled runtime, but current/remote jobs and accountable owner retention are not fully verified. No prune.
 - [ ] AEC-001-024 Review HTTP SDK v0.3.0 vs pinned in-process Data Platform consumers, without weakening Compliance network security.
-- [ ] AEC-001-025 Validate service health, recovery and backup independently of PID / exit status / Docker Up.
+- [ ] AEC-001-025 Validate service health, recovery and backup independently of PID / exit status / Docker Up. Scheduled backup jobs last-exit=0 are not restore evidence; product-specific restore/PITR/recovery tests still OPEN.
 
 ## P1b — Read-only provenance / contract-pilot evidence
 
@@ -56,6 +56,15 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-029 Compare Data Platform published Python/JS SDK 0.3.0 to later source, verify Site packaged JS against tag and record additive static method drift.
 - [ ] AEC-001-030 Validate actual consumer contract semantics, auth, packaging/wheel hashes, release approval, dependency SBOM and failure/rollback tests.
 - [ ] AEC-001-031 Establish complete source-to-executable evidence for MAX2TG and unknown launchers without production mutations.
+
+## P1e — Runtime identity, worktree and recovery verification
+
+- [x] AEC-001-044 Add offline pinned-release script and installed tool source reconciliation; five Arvectum OS scripts and the Company Source Watch installation match exact Git blobs and/or installed manifest digests. No process-memory code claim.
+- [x] AEC-001-045 Add live PID/launchctl/lsof release association for Tender Agent and Data Platform; source-file samples and handles match release paths, with mismatched PID/commit/handles failing closed. Catalog now links 31/58 observations, without inventing health/authority.
+- [x] AEC-001-046 Classify 605 registered worktrees across 21 identities; 11 Git-prunable missing temporary paths without snapshot process references are metadata review candidates only. Zero cleanup.
+- [x] AEC-001-047 Record separate backup/restore acceptance requirements; no restoration performed and no backup-readiness PASS inferred from scheduled job exit=0.
+- [ ] AEC-001-048 Confirm 27 remaining source-unresolved service identities and current/remote/ephemeral worktree usage, with accountable ownership and security/data boundaries. Prioritize obligations and operational continuity over catalog coverage score.
+- [ ] AEC-001-049 Establish RPO/RTO, tenant-safe restore evidence, actual service readiness and operational/economic baseline before recommending any production refactor or cleanup.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

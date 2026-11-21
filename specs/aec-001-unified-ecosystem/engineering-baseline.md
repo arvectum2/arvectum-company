@@ -56,3 +56,8 @@ See service-catalog-candidate.md for the derived private runtime projection (58 
 ## Spec Kit provenance without forced template upgrades
 
 See speckit-drift.md: seven installed root or nested bundles (77 files) matched the immutable Arvectum Skills sample reference. This is good reusable engineering evidence and a candidate drift check, not a direction to replace or run templates without product-specific governance. Existing Skills review/workflow cadence should own any eventual automated check, not a new daemon.
+
+
+## Live-source evidence tiers and restore boundary
+
+Runtime provenance evidence has been expanded from 23 to 31 Git-linked observations without introducing an agent or changing existing Product/Company/OS authority. See runtime-provenance-reconciliation.md. Backup job registration, PID, last exit=0 and lsof release handles are **not** independently accepted readiness or restoration proof. See backup-readiness-review.md. Git worktree retention candidates are reviewed via worktree-retention-review.md; no automatic prune or metadata repair.

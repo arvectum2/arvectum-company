@@ -50,6 +50,75 @@ class ServiceCatalogTests(unittest.TestCase):
         self.assertEqual(c["source_reconciled"],0)
         self.assertEqual(c["unresolved_source"],2)
 
+    def test_pinned_source_adds_identity_but_never_health_or_owner(self):
+        runtime,stacks=sources()
+        runtime["launchd"][0]["repository"]=None
+        attest={
+          "schema":"aec001-runtime-source-attribution-v1",
+          "runtime_observed_utc":runtime["observed_utc"],
+          "records":[{
+            "service_label":"com.arvectum.fixture",
+            "source_repository_identity":"arvectum2/fixture",
+            "commit":"a"*40,
+            "status":"GIT_BLOB_EQUALS_OBSERVED_SOURCE_FILE",
+            "loaded_process_code_verified":False,
+          }]
+        }
+        row=next(v for v in m.build(runtime,stacks,attest)["records"]
+                 if v["service_locator"]=="com.arvectum.fixture")
+        self.assertTrue(row["source"]["catalog_reconciled"])
+        self.assertTrue(row["source"]["source_file_verified"])
+        self.assertEqual(row["source"]["mapping_evidence"],
+                         "pinned_release_file_git_blob_match")
+        self.assertEqual(row["loaded_code_identity"],"UNKNOWN")
+        self.assertEqual(row["health"]["status"],"UNKNOWN")
+        self.assertEqual(row["product_owner"],"UNKNOWN")
+
+    def test_installed_script_evidence_is_not_a_health_claim(self):
+        runtime,stacks=sources()
+        runtime["launchd"][0]["repository"]=None
+        attest={
+          "schema":"aec001-runtime-source-attribution-v1",
+          "runtime_observed_utc":runtime["observed_utc"],
+          "records":[{
+            "service_label":"com.arvectum.fixture",
+            "source_repository_identity":"arvectum2/fixture",
+            "commit":"a"*40,
+            "status":"INSTALLED_SCRIPT_MANIFEST_AND_GIT_BLOB_MATCH",
+            "loaded_process_code_verified":False,
+          }]
+        }
+        report=m.build(runtime,stacks,attest)
+        row=next(v for v in report["records"] if v["service_locator"]=="com.arvectum.fixture")
+        self.assertEqual(row["source"]["mapping_evidence"],"installed_manifest_script_git_blob_match")
+        self.assertEqual(row["loaded_code_identity"],"UNKNOWN")
+        self.assertEqual(report["health_verified_count"],0)
+
+    def test_attestation_timestamp_must_match(self):
+        runtime,stacks=sources()
+        proof={"schema":"aec001-runtime-source-attribution-v1",
+               "runtime_observed_utc":"2000-01-01","records":[]}
+        with self.assertRaisesRegex(ValueError,"stale"):
+            m.build(runtime,stacks,proof)
+
+    def test_bad_commit_or_unknown_repo_cannot_add_provenance(self):
+        runtime,stacks=sources()
+        proof={"schema":"aec001-runtime-source-attribution-v1",
+               "runtime_observed_utc":runtime["observed_utc"],
+               "records":[{
+                 "service_label":"com.arvectum.fixture",
+                 "source_repository_identity":"arvectum2/fixture",
+                 "commit":"not-a-commit",
+                 "status":"GIT_BLOB_EQUALS_OBSERVED_SOURCE_FILE",
+                 "loaded_process_code_verified":False,
+               }]}
+        with self.assertRaisesRegex(ValueError,"unusable"):
+            m.build(runtime,stacks,proof)
+        proof["records"][0]["commit"]="a"*40
+        proof["records"][0]["source_repository_identity"]="arvectum2/not-in-matrix"
+        with self.assertRaisesRegex(ValueError,"unusable"):
+            m.build(runtime,stacks,proof)
+
     def test_stable_identity_independent_of_pid(self):
         runtime,stacks=sources()
         a=m.build(runtime,stacks)

@@ -90,6 +90,14 @@ A versioned, private, read-only projection combines 51 launchd labels and 7 Dock
 
 The initial exact duplicate shell scripts are deliberately distributed as Spec Kit bundles. A pinned comparison against Arvectum Skills commit 38e86a05e1e7398690769e445eb2545342b8b3a4 covered seven root/nested Spec Kit bundles, each with six Bash scripts and five templates: 77 of 77 files matched, no missing/different paths. This is source-level equality, not approval of an automatic upgrade or a claim about future releases. See speckit-drift.md and the private report in Mac mini audit storage.
 
+## Deeper source-to-runtime and worktree evidence (AEC-001-044—049)
+
+The source-safe runtime reconciler now links 31 of 58 launchd/Docker observations: the original 23 direct Git/Compose/CWD hints, five pinned Arvectum OS release script files, one Company Source Watch installed script matching release metadata and Git blob (commit 26d01768), and two live Tender Agent/Data Platform processes whose current launchctl PIDs and lsof open handles are within source-file-verified release roots. **27 entries remain source-unknown**, and this is still not a process-memory, business-health or authority attestation. See [runtime-provenance-reconciliation.md](runtime-provenance-reconciliation.md).
+
+A separate no-prune lifecycle scanner inspected all 605 registered worktrees across 21 Git identities: 590 existing with no sampled runtime reference, four runtime-referenced, and eleven Git-prunable missing temporary entries (ten Arvectum Tools, one Data Platform) without a sampled reference. The eleven are metadata cleanup **review candidates only**; user/remote/scheduled use and branch/data retention require a later authorized check. See [worktree-retention-review.md](worktree-retention-review.md).
+
+Scheduled host/PostgreSQL/OS backup launchers were observed with last-exit=0, but no complete backup and isolated restoration proof was obtained or claimed. See [backup-readiness-review.md](backup-readiness-review.md). No backup restore, service restart, Git prune, product migration or external action occurred.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

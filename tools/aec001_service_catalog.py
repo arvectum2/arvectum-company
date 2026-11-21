@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import os
+import re
 from pathlib import Path
 import sys
 import tempfile
@@ -73,7 +74,7 @@ def record(kind,host,observed_at,entry,known):
         "source_of_organizational_authority":False,
     }
 
-def build(runtime,stack):
+def build(runtime,stack,source_attest=None,process_attest=None):
     if (not isinstance(runtime,dict) or runtime.get("schema")!=RUNTIME_SCHEMA or
         not isinstance(runtime.get("launchd"),list) or not isinstance(runtime.get("docker"),list)
         or not isinstance(runtime.get("observed_utc"),str) or
@@ -96,6 +97,81 @@ def build(runtime,stack):
     keys=[row["record_key"] for row in records]
     if len(keys)!=len(set(keys)):
         raise ValueError("duplicate service identity across inputs")
+    attested=0
+    if source_attest is not None:
+        if (not isinstance(source_attest,dict) or
+            source_attest.get("schema")!="aec001-runtime-source-attribution-v1" or
+            source_attest.get("runtime_observed_utc") != runtime["observed_utc"] or
+            not isinstance(source_attest.get("records"),list)):
+            raise ValueError("invalid or stale source attestation")
+        mapped={row["service_locator"]:row for row in records if row["runtime_kind"]=="launchd"}
+        labels=set()
+        for proof in source_attest["records"]:
+            label=proof.get("service_label")
+            ident=proof.get("source_repository_identity")
+            if (not isinstance(label,str) or label in labels or
+                label not in mapped or not isinstance(ident,str) or
+                ident not in known or
+                not isinstance(proof.get("commit"),str) or
+                re.fullmatch(r"(?:[0-9a-f]{40}|[0-9a-f]{64})",proof["commit"]) is None or
+                proof.get("status") not in ("GIT_BLOB_EQUALS_OBSERVED_SOURCE_FILE",
+                                            "INSTALLED_SCRIPT_MANIFEST_AND_GIT_BLOB_MATCH") or
+                proof.get("loaded_process_code_verified") is not False):
+                raise ValueError("unusable source attestation")
+            labels.add(label)
+            target=mapped[label]["source"]
+            if (target["catalog_reconciled"] and
+                target["repository_identity"]!=ident):
+                raise ValueError("conflicting source attribution")
+            target["repository_identity"]=ident
+            target["catalog_reconciled"]=True
+            target["mapping_evidence"]=(
+                "pinned_release_file_git_blob_match"
+                if proof["status"]=="GIT_BLOB_EQUALS_OBSERVED_SOURCE_FILE"
+                else "installed_manifest_script_git_blob_match")
+            target["release_source_commit"]=proof["commit"]
+            target["source_file_verified"]=True
+            attested+=1
+    process_mapped=0
+    if process_attest is not None:
+        if (not isinstance(process_attest,dict) or
+            process_attest.get("schema")!="aec001-process-release-association-v1" or
+            process_attest.get("runtime_snapshot_utc")!=runtime["observed_utc"] or
+            not isinstance(process_attest.get("process_observed_utc"),str) or
+            not isinstance(process_attest.get("records"),list)):
+            raise ValueError("invalid process-release association")
+        by_label={v["service_locator"]:v for v in records if v["runtime_kind"]=="launchd"}
+        seen_process_labels=set()
+        for proof in process_attest["records"]:
+            label=proof.get("service_label")
+            if label in seen_process_labels or label not in by_label:
+                raise ValueError("duplicate or unknown process attestation label")
+            seen_process_labels.add(label)
+            if proof.get("status")!="PROCESS_RELEASE_OPEN_HANDLES_AND_GIT_BLOB_EVIDENCE":
+                continue
+            identity=proof.get("source_repository_identity")
+            commit=proof.get("commit")
+            if (identity not in known or
+                not isinstance(commit,str) or
+                re.fullmatch(r"(?:[0-9a-f]{40}|[0-9a-f]{64})",commit) is None or
+                proof.get("current_pid_matches_snapshot") is not True or
+                proof.get("loaded_process_code_verified") is not False or
+                not isinstance(proof.get("open_release_handle_count"),int) or
+                proof["open_release_handle_count"]<=0 or
+                not isinstance(proof.get("source_files_matched"),int) or
+                proof["source_files_matched"]<=0):
+                raise ValueError("unusable process release association")
+            src=by_label[label]["source"]
+            if src["catalog_reconciled"] and src["repository_identity"]!=identity:
+                raise ValueError("conflicting process source identity")
+            src["repository_identity"]=identity
+            src["catalog_reconciled"]=True
+            src["mapping_evidence"]="live_pid_release_open_handles_plus_git_blob"
+            src["release_source_commit"]=commit
+            src["sampled_source_files_matched"]=proof["source_files_matched"]
+            src["open_release_handle_count"]=proof["open_release_handle_count"]
+            src["process_evidence_observed_at"]=process_attest["process_observed_utc"]
+            process_mapped+=1
     records.sort(key=lambda x:(x["runtime_kind"],x["service_locator"]))
     matched=sum(row["source"]["catalog_reconciled"] for row in records)
     return {
@@ -108,6 +184,8 @@ def build(runtime,stack):
         "source_watch_integration":"NOT_CONFIGURED",
         "service_count":len(records),
         "source_reconciled":matched,
+        "added_file_attributions":attested,
+        "added_process_release_attributions":process_mapped,
         "unresolved_source":len(records)-matched,
         "health_verified_count":0,
         "owner_verified_count":0,
@@ -143,11 +221,18 @@ def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--runtime",type=Path,required=True)
     p.add_argument("--stacks",type=Path,required=True)
+    p.add_argument("--source-attestation",type=Path)
+    p.add_argument("--process-attestation",type=Path)
     p.add_argument("--output",type=Path,required=True)
     args=p.parse_args()
     try:
+        attest=(json.loads(args.source_attestation.read_text(encoding="utf-8"))
+                if args.source_attestation else None)
+        process=(json.loads(args.process_attestation.read_text(encoding="utf-8"))
+                 if args.process_attestation else None)
         data=build(json.loads(args.runtime.read_text(encoding="utf-8")),
-                   json.loads(args.stacks.read_text(encoding="utf-8")))
+                   json.loads(args.stacks.read_text(encoding="utf-8")),
+                   source_attest=attest,process_attest=process)
     except (OSError,ValueError,UnicodeDecodeError) as error:
         print(f"INCOMPLETE: {type(error).__name__}",file=sys.stderr)
         return 2

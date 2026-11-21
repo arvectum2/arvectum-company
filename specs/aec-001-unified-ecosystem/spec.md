@@ -59,6 +59,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-015: Make version divergence and unpinned/unknown dependency supply-chain risks visible with affected consumers and measured regression gates; retain product-specific data/privacy, execution/approval, customer delivery and Arvectum OS governance boundaries.
 - FR-016: A derived service catalog must distinguish observed process presence, source identity hints, exact executable provenance, verified business health, Product authority/Principal, tenant/data classification and recovery; UNKNOWN stays UNKNOWN. It must not introduce a competing source watch, unauthorized OS capability or public host-data exposure.
 - FR-017: Repeated Spec Kit resources must be evaluated against an immutable, explicitly named reference and classified as identical, intentionally customized or unresolved; no project templates, constitutions or histories may be silently overwritten by a drift checker.
+- FR-018: Runtime provenance evidence is graded by repository-path hint, exact Git-blob source-file equality, installed manifest digest, and current PID/release handle association; no tier alone proves memory-loaded code, Product health or authority. Any stale PID, bad release commit, symlink escape or conflicting evidence must fail closed.
+- FR-019: Git worktree metadata is reviewed read-only with explicit active-runtime reference, missing path and prunable status; the checker must neither issue prune nor infer safe cleanup from absence in one dated snapshot.
+- FR-020: Backup readiness requires product-owned recoverable dataset evidence, approved RPO/RTO and an isolated authenticated restoration/functional test; launchd registration, PID and last exit=0 are insufficient.
 
 ## Success Criteria
 
@@ -72,6 +75,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-008: Stack-specific CI/lock/dependency drift findings are separated from functional equivalence and proposed shared components, and a read-only audit reruns with offline negative tests.
 - SC-009: A deterministic private catalog projection counts launchd/Docker observations and source associations without inventing health, owner, approval or backup readiness, and without writing generated data to a public Git checkout.
 - SC-010: A pinned read-only Spec Kit bundle comparison includes both root and nested copies, detects intentional modifications/missing files, never mutates tracked sources and retains unknowns for review.
+- SC-011: A source-provenance registry improves known service links only from scoped independently verified evidence and records unchanged UNKNOWN service health, Product owner, tenant rights and restore readiness; inconsistent snapshots/IDs are rejected.
+- SC-012: The worktree report covers the 21 scanned registries and 605 entries without destructive commands and quarantines 11 potential stale-metadata entries for separate authority review.
+- SC-013: Backup/scheduled job observations are explicitly separate from recovery verification; no operational readiness or customer SLA is fabricated.
 
 ## Non-Goals
 

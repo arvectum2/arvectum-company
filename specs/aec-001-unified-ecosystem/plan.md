@@ -66,6 +66,10 @@ Score each by verified number of consumers, recurring cost, defect rate, custome
 
 The existing Data Platform SDK was tested using actual Tender Agent Python 0.4.0 installed sources and Arvectum Site JS 0.3.0 vendor artifact with **10 offline mocked HTTP scenarios**, matching after explicit normalized outcomes. This supports reuse of the *existing* contract and avoids inventing another transport abstraction. It does not establish live auth, business delivery, complete compatibility or cost savings. The source-level semantic audit also found that MAX2TG UNKNOWN delivery must not be conflated with Creative queue retry or Tender event idempotency; Compliance's IP-pinned acquisition must not be replaced by a weaker URL validator. Reference [sdk-consumer-pilot.md](sdk-consumer-pilot.md) and [semantic-overlap.md](semantic-overlap.md).
 
+## Operational continuity and rollback gate
+
+The source-to-service provenance projection now has 31/58 scoped links, 27 unconfirmed. A separate worktree metadata review found 11 Git-prunable missing temporary paths among 605 registered, with no observed references in one launchd/Docker sample; this is **not** authorization to prune. Installed backup launchers with zero last-exit status do not establish recoverability. See [runtime-provenance-reconciliation.md](runtime-provenance-reconciliation.md), [worktree-retention-review.md](worktree-retention-review.md) and [backup-readiness-review.md](backup-readiness-review.md). Any live transition requires confirmed Product ownership, stable exact deployed code/dependencies, verified isolated restore/rollback and measured client/owner value.
+
 ## Per-pilot steps
 Pin exact production and git versions → define boundaries and baseline → write characterization/contract tests → implement behind explicit adapter or flag → run side-by-side and failure/retry simulations → security, sovereignty and cost review → obtain required approval → gradual cutover → rollback proof → reconcile canonical decisions and docs.
 

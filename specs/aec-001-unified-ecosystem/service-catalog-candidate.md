@@ -16,16 +16,16 @@ The new catalog candidate derives only from previously collected local read-only
 | Arvectum launchd records | 51 |
 | Docker container records | 7 |
 | **Combined runtime records** | **58** |
-| Associated with a known Git repository identity | 23 |
-| Source identity not reconciled | 35 |
+| Associated with a known Git repository identity | 31 |
+| Source identity not reconciled | 27 |
 | Independently verified health in this projection | **0** |
 | Canonically confirmed Product/Position owners in this projection | **0** |
 
-The 23 links are Git identity associations through source path/Compose/process CWD, not exact loaded-code proof. PID or Docker Up is an observation, never health PASS. A scheduled launchd job without PID need not be failed. The separate Tender/Data Platform health probes have not been admitted into this catalog, so health=UNKNOWN is correct.
+The original 23 links were Git identity hints from source path/Compose/process CWD. Six more links came from source file / installation manifest equality with pinned Git blobs, and two from matching current PID and release directory open handles plus independently checked Git file samples. See runtime-provenance-reconciliation.md. **None** is exact loaded-code closure proof. PID or Docker Up is an observation, never health PASS. A scheduled launchd job without PID need not be failed. The separate Tender/Data Platform health probes have not been admitted into this catalog, so health=UNKNOWN is correct.
 
 ## Record contract, version 1 candidate
 
-The tool tools/aec001_service_catalog.py emits the versioned schema aec001-service-catalog-candidate-v1 with stable host-scoped record ID, runtime kind, observed label/time, Git repository identity and checkout-HEAD hint where supported, and a distinct observed-process flag.
+The tool tools/aec001_service_catalog.py emits the versioned schema aec001-service-catalog-candidate-v1 with stable host-scoped record ID, runtime kind, observed label/time, Git repository identity, checkout-HEAD hint where supported, source-file/process-release evidence when separately provided, and a distinct observed-process flag. It validates snapshot alignment and rejects conflicting or false source associations.
 
 The following fields default to UNKNOWN until separately verified: executable artifact digest and loaded code, accountable Product and Authority Principal, owner decision and approval, tenant/data scope, API contract, readiness, backup/restore and rollback evidence. The projection explicitly sets source_of_organizational_authority=false and source_watch_integration=NOT_CONFIGURED.
 
@@ -36,6 +36,8 @@ Raw per-service labels and exact system paths are retained privately on Mac mini
 - Reject unsupported schema, malformed/duplicate service identities and missing source evidence without guessing.
 - Never promote PID, Docker Up, inferred repo name or checkout HEAD into verified business readiness or organizational approval.
 - Never copy process argv, environment variables, raw Compose labels or credential-like fields from inputs.
+- Treat installed manifest script digest, pinned source file equality and PID/lsof release handles as *separate* provenance tiers; reject conflicting source identities, stale snapshots and bad commits rather than guessing.
+- Observe source evidence snapshot time separately from subsequent PID/lsof time; the latter is not business readiness.
 - Require an explicit output path outside any Git checkout; write atomically with mode 0600.
 - A missing source/owner/health/recovery relation is a named UNKNOWN, not proof of failure or success.
 

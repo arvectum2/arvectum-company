@@ -101,3 +101,41 @@ The tool performs no network calls, OS service interactions or application code 
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-speckit-private.json"
 
 Do not use this command to install or synchronize templates. The reference commit is fixed for this read-only evidence snapshot, not an approved universal product update. A template difference requires source/owner review; no automatic overwrites. See speckit-drift.md.
+
+## Layered pinned runtime provenance (private and non-mutating)
+
+These checks reuse the original private runtime snapshot and pinned release manifest. Optional installed-artifact and process association manifests are private allowlists of **exact source paths and labels**, not credentials, shell snippets or authority grants.
+
+    python3 tools/aec001_runtime_source_attest.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --release-manifest "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-release-check-manifest-private.json" \
+      --installed-artifact-checks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-installed-checks-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-runtime-source-attest-private.json"
+
+    python3 tools/aec001_process_release_handles.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --release-manifest "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-release-check-manifest-private.json" \
+      --release-results "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-release-check-result-private.json" \
+      --associations "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-process-associations-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-process-release-private.json"
+
+    python3 tools/aec001_service_catalog.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --stacks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --source-attestation "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-runtime-source-attest-private.json" \
+      --process-attestation "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-process-release-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-private.json"
+
+A current PID that no longer matches the source snapshot is inconclusive rather than a failed service. Direct source file equality or a process open file handle is not a full proof of deployed/loaded code, backup success, tenant rights or availability. Do not use this evidence to auto-approve production changes. For results and boundaries see runtime-provenance-reconciliation.md.
+
+## Git worktree retention review (read-only, no prune)
+
+    python3 tools/aec001_worktree_retention.py \
+      --root /Volumes/ArvectumSSD/Arvectum/repos \
+      --root /Volumes/ArvectumSSD/Arvectum \
+      --root "$HOME/ArvectumSafe/ecosystem-audit-20261121/repositories" \
+      --stacks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-worktree-retention-private.json"
+
+Do not run git worktree prune, remove, git clean or reset on the basis of this output. Current task, branch, remote, backup and owner/maintainer retention reviews are required. See worktree-retention-review.md and backup-readiness-review.md.
