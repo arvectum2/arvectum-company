@@ -1,0 +1,28 @@
+{
+  "status": "MOCKUP_PROOFS_PASS_IN_SCOPE",
+  "six_mockup_preview_types": [
+    "site-desktop",
+    "site-mobile",
+    "letterhead",
+    "proposal",
+    "slides",
+    "business-card"
+  ],
+  "two_native_Pages_document_exports": true,
+  "editable_DOCX": 2,
+  "editable_PPTX": 1,
+  "PPTX_native_Keynote_export": "BLOCKED: app did not return AppleScript document count; no file validated through Keynote",
+  "slides_PDF_verified_source": "Chromium HTML slide mockup, not exported from editable PPTX",
+  "logo_source_bytes_preserved": true,
+  "font_original_v064_bytes_preserved": true,
+  "font_license_copied_unchanged": true,
+  "temporary_user_fonts_removed": true,
+  "production_site_changed": false,
+  "brand_release_approved": false,
+  "limits": [
+    "No CMYK/Pantone/print bleed certification",
+    "No visual parity claim between PPTX and HTML slide PDF",
+    "Logo lockup proportions, palette and typeface final approval remain open",
+    "No legal contract or real buyer information"
+  ]
+}

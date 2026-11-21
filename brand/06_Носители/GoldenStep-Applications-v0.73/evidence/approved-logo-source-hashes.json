@@ -1,0 +1,22 @@
+{
+  "assets/lockup_ru.svg": {
+    "original": "brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_RU.svg",
+    "sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+    "same_bytes": true
+  },
+  "assets/lockup_en.svg": {
+    "original": "brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_EN.svg",
+    "sha256": "b011c891ad6b27605c728b50d44110aff0b3ac78b98b4ce8b1566ed4724a73b8",
+    "same_bytes": true
+  },
+  "assets/monogram_navy.svg": {
+    "original": "brand/03_Логотип/Golden-Vector-v0.18/AV_Golden_v018_navy.svg",
+    "sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+    "same_bytes": true
+  },
+  "assets/monogram_mint.svg": {
+    "original": "brand/03_Логотип/Golden-Vector-v0.18/AV_Golden_v018_mint.svg",
+    "sha256": "9fc4b52cee3aee4c2412e9264a1e2882ccade506673d0dc7f0c8f478a8674eb8",
+    "same_bytes": true
+  }
+}
