@@ -23,9 +23,9 @@ No DONE merely from structural tests. In particular SW-T006…008 do not authori
 - [x] Implement allowlisted Git-first source evidence with exact predecessor diff and existing REST fallback in separate branch.
 - [x] Pass legacy and negative transport tests; run isolated candidate report against 22 projects.
 - [x] Review exact diff, transport/security, private cache permissions and source assurance against approved governance; Owner authorization captured as DECISION-2026-11-21-SOURCE-WATCH-GIT-FAILOVER.
-- [ ] Publish approved PR, repin the installed source-watch script + sidecar under a controlled launchd window, then verify hash, ownership, read-only Git evidence, previous report preservation and rollback materials.
+- [x] Published Company PR #43/#44 and repinned installed v3 script + sidecar under controlled launchd window: exact SHA/permissions, private reports, source pins and v2 rollback materials verified on Mac mini 2026-11-21 (manual kickstart exit 0).
 - [ ] Confirm natural scheduled Git-first run at the existing daily cadence; a manual kickstart is not proof of natural scheduled execution.
-- [ ] Admit read-only Company candidate report input into Mission Control only through a separate explicit contract, preserving WSF-07A and WSF-05 authority boundaries.
+- [ ] Company read-only owner report contract accepted via PR #45; OS F11 adapter merged via #92. **Physical Mission Control activation and owner acceptance remain open** pending WSF-07A verified next-window cycle and exact PR #91 release gate; WSF-05 unchanged.
 
 ## Read-only Owner display of candidate source observations (2026-11-21)
 
