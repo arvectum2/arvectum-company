@@ -82,6 +82,10 @@ A two-real-consumer, offline mock HTTP characterization ran on the installed Ten
 
 Reading concrete implementation paths also showed **material semantic differences** among Tender's integration outbox, Creative's retryable SQL job queue, MAX2TG's non-retried UNKNOWN delivery, and Compliance's IP-pinned egress vs Data Platform's URL validator. See [semantic-overlap.md](semantic-overlap.md). Do not identify these as safe deduplication candidates based solely on similar names.
 
+## Derived service catalog candidate (offline only)
+
+A versioned, private, read-only projection combines 51 launchd labels and 7 Docker containers sampled on Mac mini. 23 of 58 observations link to one of 21 known Git identities; 35 remain unresolved. Its inputs contain no authoritative owner or independently accepted service health: both fields deliberately remain UNKNOWN in all 58 records. The tool neither duplicates Company Source Watch Git polling nor changes the OS WSF-07A collector. The private writer requires mode 0600, atomic output and denies writing inside Git checkouts. See service-catalog-candidate.md.
+
 ## Unverified scope
 GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running release hashes, full network/data dependency map, secrets/SBOM/license provenance, cross-repo semantic clones, service SLO, cloud costs, real saved engineering hours and incident baselines. Every one remains an explicit open evidence item.
 

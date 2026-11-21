@@ -12,7 +12,7 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-007 Measure incident, SLO, work-hours, recurring spend, release lead time and recovery baselines.
 
 ## P1 — Engineering standardization
-- [ ] AEC-001-008 Define versioned service/repository catalog integrated with existing source watch.
+- [ ] AEC-001-008 Define versioned service/repository catalog integrated with existing source watch. PARTIAL: derived private 58-service catalog candidate; integration/ownership approval remains open.
 - [ ] AEC-001-009 Define stack-specific equivalent security, CI, lint/test, dependency and release policies. PARTIAL: Python-only AEC test CI candidate on isolated branch; no cross-product adoption.
 - [ ] AEC-001-010 Introduce pinned Spec Kit drift check, without automatically overwriting vendored scripts.
 - [ ] AEC-001-011 Map typed API/event SDK compatibility, retries, UNKNOWN states, evidence and recovery semantics. PARTIAL: distinct HTTP SDK and pinned in-process Data Platform users identified.
@@ -29,8 +29,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 - [x] AEC-001-036 Execute a no-network two-real-consumer pilot: installed Tender Agent Python SDK 0.4.0 vs Site vendored JS SDK 0.3.0, 10 bounded HTTP behavior scenarios, explicit language return-shape normalization and negative comparator tests.
 - [x] AEC-001-037 Review source-level outbox/retry/job and HTTP acquisition differences across Tender Agent, MAX2TG, Creative Test Agent, Compliance and Data Platform; record KEEP SEPARATE and security/delivery constraints with source references.
-- [ ] AEC-001-038 Verify the pinned two-consumer mock pilot in Draft PR CI using separately checked-out immutable public source commits, no live traffic. **Not accepted until GitHub PASS**.
+- [x] AEC-001-038 Verify the pinned two-consumer mock pilot in Draft PR CI using separately checked-out immutable public source commits, no live traffic. GitHub Actions sdk-consumer-mock-pilot PASS (run 44921890298).
 - [ ] AEC-001-039 Establish per-consumer runtime contract/tenant/authorization and delivery/recovery tests; quantify economic benefit and owner workload before any extracted implementation or SDK release.
+
+## P1c — Source-safe service catalog (derived view)
+
+- [x] AEC-001-040 Build and test private read-only launchd/Docker service catalog projection: 58 observations, 23 Git identity links, 35 unresolved, zero fabricated health or Product owner claims. Deny output inside Git worktrees and require private 0600 atomic output.
+- [ ] AEC-001-041 Reconcile authoritative Product/Position ownership, exact runtime artifacts, readiness/recovery evidence, data scope, costs and source-watch/OS collector integration before operational adoption.
 
 ## P1a — Evidence gaps surfaced by host audit
 - [ ] AEC-001-022 Prove exact immutable release/source provenance for critical launchd wrappers and active process CWD sources.

@@ -57,6 +57,7 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-013: Classify duplicated or overlapping stacks/processes by **shared third-party dependency**, **intentional language-specific implementation**, **shared product contract/SDK**, **semantic workflow overlap**, **release/operations/CI policy duplication**, or **true redundant authority/code**; require evidence and ownership before consolidation.
 - FR-014: Produce a cross-product compatibility/sovereignty/risk/economic comparison and a recommendation for each significant candidate: KEEP SEPARATE, STANDARDIZE POLICY, REUSE CONTRACT/SDK, EXTRACT REPLACEABLE COMPONENT, or RETIRE AFTER APPROVAL. No language/framework migration based only on package counts.
 - FR-015: Make version divergence and unpinned/unknown dependency supply-chain risks visible with affected consumers and measured regression gates; retain product-specific data/privacy, execution/approval, customer delivery and Arvectum OS governance boundaries.
+- FR-016: A derived service catalog must distinguish observed process presence, source identity hints, exact executable provenance, verified business health, Product authority/Principal, tenant/data classification and recovery; UNKNOWN stays UNKNOWN. It must not introduce a competing source watch, unauthorized OS capability or public host-data exposure.
 
 ## Success Criteria
 
@@ -68,6 +69,7 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-006: A reproducible stack matrix covers all 21 initially identified unique local/GitHub repository identities or marks missing evidence explicitly; each finding names the checked repository/revision and its confidence (declared/observed/verified).
 - SC-007: The top overlap opportunities have at least two actual consumers or repeated operations, risk and sovereignty boundaries, version/contract impact, measurable business hypothesis, accountable owner and one of the defined outcomes; no automatic migrations or deletions.
 - SC-008: Stack-specific CI/lock/dependency drift findings are separated from functional equivalence and proposed shared components, and a read-only audit reruns with offline negative tests.
+- SC-009: A deterministic private catalog projection counts launchd/Docker observations and source associations without inventing health, owner, approval or backup readiness, and without writing generated data to a public Git checkout.
 
 ## Non-Goals
 

@@ -76,3 +76,15 @@ python3 tools/aec001_compare_consumer_contract.py \
 ```
 
 Do not use real credentials or copy production `.env` files into tests. The CI candidate checks out immutable public source revisions to an isolated test workspace, extracts only the signed-off vendor tar member after SHA-256 verification and runs both probes. It does not call real Data Platform endpoints, access customer data, or update consumer products. See [sdk-consumer-pilot.md](sdk-consumer-pilot.md).
+
+
+## Private derived service catalog (no daemon or product writes)
+
+Run the on-demand tool against previously captured private runtime and stack evidence:
+
+    python3 tools/aec001_service_catalog.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --stacks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-private.json"
+
+The tool performs no network calls, OS service interactions or application code execution. Output is atomic and mode 0600, and any destination inside a Git checkout is forbidden. See service-catalog-candidate.md. Never interpret observed_process_present as service health; preserve UNKNOWN values.

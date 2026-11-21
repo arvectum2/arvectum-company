@@ -46,3 +46,8 @@ The accepted Company/OS boundaries remain unchanged. Candidate technology conver
 ## Behavioral contract pilot
 
 An on-demand mock-transport pilot now exercises two real consumers: installed Python SDK 0.4.0 in Tender backend and Site vendored JS SDK 0.3.0. Ten normalized HTTP cases matched, without network contact or any process restart. This is a more meaningful proof of SDK reuse than method-name scanning. The reusable comparator and PR-only CI proposal remain engineering *evidence tooling*, not an accepted product release or Organizational Authority. See [sdk-consumer-pilot.md](sdk-consumer-pilot.md) and [semantic-overlap.md](semantic-overlap.md).
+
+
+## Passive service catalog proposal
+
+See service-catalog-candidate.md for the derived private runtime projection (58 observations, 23 Git source associations and 35 unresolved). No daemon or new authority is introduced. All Product owner, tenant-data, service readiness and rollback claims remain UNKNOWN until admitted through existing Product/Company/OS governance. Neither Company Source Watch nor the OS collector is duplicated.
