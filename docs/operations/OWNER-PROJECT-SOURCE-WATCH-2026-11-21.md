@@ -30,3 +30,13 @@ Stop/unload only `com.arvectum.company.project-source-watch`, retain prior repor
 ## Definition of done
 
 Exact source pin and tests; actual live read on Mac mini; private reports; scheduled-run evidence; CI and canonical Company publication; no new permission. Real status refreshing in Mission Control is not complete until a separately reviewed Company source update and WSF-05 admission are tested, with actual Owner usefulness.
+
+## Physical installation and negative-control evidence — 2026-11-21
+
+- Canonical Company PR #39, merged main `c095672be2743be816e81c399fbd801a847ccb68`; GitVerse main matched, Python 3.14.10, ten standard-library tests PASS.
+- Installed separate private immutable code and approved source bytes at `~/ArvectumSafe/company-source-watch-service/` (source SHA-256 `1911e34f...`, code SHA-256 `d82a0265...`). Only the owner account can read/write these files. The original Company checkout on its governance branch was not switched or modified.
+- New `com.arvectum.company.project-source-watch` launchd calendar schedule registered for 09:15 MSK daily; no `RunAtLoad`, no new credential, no service listener, no change to the two existing OS launchd services.
+- Initial direct public scan PASS: 8 observed source-unchanged, 4 unrelated repo changes, 10 incomplete evidence, 22 projects / 35 refs / 20 repo names. Its immutable JSON and Markdown live in `~/ArvectumSafe/company-source-watch-reports/` (not repository-published).
+- Subsequent immediate repeated requests consumed public GitHub's anonymous 60/hour budget. The controlled `launchctl kickstart` produced a private report with all sources marked unknown, `transient_repo_errors=20`, and explicit exit code 2 (not false success). This is a **correct fail-closed negative test**, not evidence of a successful scheduled production scan. Actual next calendar-run health remains OPEN. No runtime policy, Company register or admitted WSF-05 source was changed.
+- Separate ChatGPT conditional follow-up automation reviews new private reports without re-running scans or changing source state; no daily Owner ritual or silent approval.
+- To stop this additional watcher without affecting Company/OS runtime: `launchctl bootout gui/$(id -u)/com.arvectum.company.project-source-watch`; preserve report history for audit. Restart only after verifying the pinned file, job owner and current operating approval.
