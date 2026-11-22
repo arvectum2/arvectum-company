@@ -1,0 +1,27 @@
+{
+  "version": "0.85",
+  "kind": "experimental/unapproved",
+  "source": "Inter 4.1 InterDisplay static CFF",
+  "unchanged_outlines": true,
+  "source_hashes": {
+    "InterDisplay-Medium.otf": "9a17712bbd6da13b7ce9beb056d19fe15648799a11d5c35f8086a1270a0d13b2",
+    "InterDisplay-Regular.otf": "35c1f7437dd6d63f4e60a49144df4b4e4edc190e13ffc1e54b86083747fe3acf",
+    "LICENSE.txt": "262481e844521b326f5ecd053e59b98c8b2da78c8ee1bdbb6e8174305e54935a"
+  },
+  "styles": {
+    "Display": {
+      "source": "InterDisplay-Medium.otf",
+      "output": "experimental/ArvectumGoldenStepDisplayBaseDraft085-Medium.otf",
+      "sha256": "281b70340ae56345642de3ce99a3e91ef73fdb3dbc63f9fc2e1fbfac658bf011",
+      "unicode_positions": 2852,
+      "glyph_count": 2937
+    },
+    "Text": {
+      "source": "InterDisplay-Regular.otf",
+      "output": "experimental/ArvectumGoldenStepTextBaseDraft085-Regular.otf",
+      "sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+      "unicode_positions": 2852,
+      "glyph_count": 2937
+    }
+  }
+}
