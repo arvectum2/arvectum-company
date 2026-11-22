@@ -1,0 +1,43 @@
+name: AEC-001 local Git inventory offline tests
+
+on:
+  pull_request:
+    paths:
+      - 'tools/aec001_inventory.py'
+      - 'tests/test_aec001_inventory.py'
+      - '.github/workflows/aec001-inventory-ci.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/aec001_inventory.py'
+      - 'tests/test_aec001_inventory.py'
+      - '.github/workflows/aec001-inventory-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aec001-inventory-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+jobs:
+  offline-inventory-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Read-only inventory negative tests on synthetic inputs
+        run: python3 -B -m unittest discover -s tests -p 'test_aec001_inventory.py' -v
+      - name: Syntax-only compilation of inventory source
+        run: |
+          python3 - <<'PY'
+          import ast
+          from pathlib import Path
+          ast.parse(Path('tools/aec001_inventory.py').read_text(encoding='utf-8'))
+          PY
