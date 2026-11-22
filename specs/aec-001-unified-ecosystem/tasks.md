@@ -81,6 +81,11 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-057 Establish accountable Product/Company RPO/RTO and explicitly approve an isolated restore of a selected logical database dump; measure functional recovery before deciding if PITR adds real value.
 - [ ] AEC-001-058 If justified and separately approved, verify physical base backup, timeline/required WAL, independent storage and perform isolated PITR drill; agree retention, cost, rights and rollback before any live backup or WAL changes.
 
+## P1h — Local service exposure evidence
+
+- [x] AEC-001-059 Check PID-matched current local TCP listeners for embeddings, Museum Bread PDF share and proxy gateway with bounded read-only launchctl/lsof and eight negative offline tests. All three show loopback-only at observation time; no authorization, loaded code, exposure or Product readiness is certified.
+- [ ] AEC-001-060 Reconcile Museum Bread temporary PDF share expiry (72 hours), customer access/rights, forwarding exposure and artifact provenance with accountable principal; separately verify model and proxy egress, before any live change.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

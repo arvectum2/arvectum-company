@@ -116,3 +116,7 @@ GitVerse-only repos, other GitHub accounts, VPS/cloud services, actual running r
 ## Authority
 Company: `docs/CANONICAL-SOURCES.md`, approved Company governance, `docs/portfolio/PORTFOLIO.md`, `docs/roadmap/ROADMAP.md`.
 OS: its current Constitution, Accepted RFC-0001..0008, Product Contracts and approved decisions. This draft does not alter them. Spec Kit template reference: `arvectum-skills/.specify/templates` (do not establish a second constitution).
+
+## Local service listener observations — 2026-11-22
+
+Current launchctl PID and read-only TCP LISTEN evidence matched for the existing embeddings server, museum PDF share and proxy gateway: **1, 1 and 2 loopback listeners**, respectively. Network-local observation is not authentication, end-to-end health, customer data, release, or remote-tunnel assurance; no source mapping was promoted (41/58 remains). The museum PDF share's 72-hour runtime expiry and temporary source location require Product confirmation, not automatic intervention. See [service-access-boundary-review.md](service-access-boundary-review.md).

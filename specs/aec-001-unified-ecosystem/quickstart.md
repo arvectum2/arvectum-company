@@ -186,3 +186,17 @@ Combine the WAL metadata and existing bounded logical backup metadata reports in
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-recovery-gate-private.json"
 
 A CONTIGUOUS_OBSERVED_FILENAMES status proves no gaps in the visible local filenames, not a valid WAL recovery chain. A logical pg_dump cannot serve as a filesystem-level base backup for PostgreSQL PITR. RECOVERY_NOT_VERIFIED means no approved recovery test has taken place; no deletion/rotation, live service changes, new jobs or restoration are permitted from this audit. See wal-pitr-recovery-gate.md.
+
+## One-time local listener visibility (never security PASS)
+
+The target labels must exist in the same private runtime snapshot and service catalog. On Mac mini, run on demand, not as an independent Source Watch scheduler:
+
+    python3 -B tools/aec001_listener_boundary.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --catalog "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-private.json" \
+      --service com.arvectum.embeddings \
+      --service com.arvectum.musbread.pdf-share \
+      --service ru.arvectum.proxy-gateway \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-listener-boundary-private.json"
+
+PID drift, absent permission, missing listeners and unknown addresses fail closed. This observes local sockets only; it neither connects to services nor audits authentication, port forwarding, customer rights or loaded source. See service-access-boundary-review.md.

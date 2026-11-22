@@ -26,3 +26,7 @@ The two stateful WAL receiver records remain source-Git UNKNOWN but have additio
 5. Resolve purely OS-local utility provenance only where it meaningfully reduces risk, continuity cost or owner workload.
 
 Business case cannot be scored numerically until incident frequency, time-to-recover, operational effort, customer exposure and recurring spend are evidenced. **No invented savings, headcount or service-readiness percentages.**
+
+## Local listener-only follow-up — 22 November 2026
+
+Three product-facing candidate services were sampled with current launchctl-PID validation and read-only lsof, showing loopback-only listeners. None of their source Git identities was promoted. The temporary museum PDF share has a three-day runtime expiry; Product must confirm whether the delivery window and routing are intentional. See service-access-boundary-review.md. All three remain UNKNOWN for authorization, upstream forwarding and owner-approved operational readiness.
