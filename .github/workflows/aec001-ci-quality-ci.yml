@@ -1,0 +1,56 @@
+name: AEC-001 two-product CI quality source shadow
+
+on:
+  pull_request:
+    paths:
+      - 'tools/aec001_ci_quality_shadow.py'
+      - 'tools/aec001_private_output.py'
+      - 'tests/test_aec001_private_output.py'
+      - 'tests/test_aec001_ci_quality_shadow.py'
+      - 'specs/aec-001-unified-ecosystem/ci-quality-shadow-contract.json'
+      - '.github/workflows/aec001-ci-quality-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aec001-ci-shadow-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality-contract-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Offline private report safety tests
+        run: python3 -B -m unittest discover -s tests -p 'test_aec001_private_output.py' -v
+      - name: Offline CI quality shadow negative tests
+        run: python3 -B -m unittest discover -s tests -p 'test_aec001_ci_quality_shadow.py' -v
+      - name: Pin Data Platform CI source
+        uses: actions/checkout@v4
+        with:
+          repository: arvectum2/data-platform
+          ref: b6a5755e6f86a2c7f07bc82c2be005aa929faf0c
+          path: .aec-input/data-platform-ci
+          persist-credentials: false
+      - name: Pin Compliance CI source
+        uses: actions/checkout@v4
+        with:
+          repository: arvectum2/compliance
+          ref: fce41cc06109a651b6741291f30850d9f16d56c1
+          path: .aec-input/compliance-ci
+          persist-credentials: false
+      - name: Characterize two unmodified Python quality workflows
+        run: |
+          python3 -B tools/aec001_ci_quality_shadow.py \
+            --contract specs/aec-001-unified-ecosystem/ci-quality-shadow-contract.json \
+            --data-platform .aec-input/data-platform-ci \
+            --compliance .aec-input/compliance-ci
