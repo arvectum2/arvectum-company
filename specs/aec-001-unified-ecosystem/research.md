@@ -120,3 +120,7 @@ OS: its current Constitution, Accepted RFC-0001..0008, Product Contracts and app
 ## Local service listener observations — 2026-11-22
 
 Current launchctl PID and read-only TCP LISTEN evidence matched for the existing embeddings server, museum PDF share and proxy gateway: **1, 1 and 2 loopback listeners**, respectively. Network-local observation is not authentication, end-to-end health, customer data, release, or remote-tunnel assurance; no source mapping was promoted (41/58 remains). The museum PDF share's 72-hour runtime expiry and temporary source location require Product confirmation, not automatic intervention. See [service-access-boundary-review.md](service-access-boundary-review.md).
+
+## Installed artifact identifiers for 17 source-unresolved records — 2026-11-22
+
+A bounded one-shot checker recorded 15 installed launchd plist file SHA-256 hashes, 12 launcher script hashes and two current Docker WAL receiver container image IDs matched to the snapshotted prefixes. Three launchd entries had no script-file hint. **Git-source provenance remains 41/58, 17 unresolved, newly reconciled source identities zero**; no authentication, executable-loaded proof, backup/PITR or Product readiness follows. Private evidence file mode 0600; see [unresolved-artifact-baseline.md](unresolved-artifact-baseline.md).

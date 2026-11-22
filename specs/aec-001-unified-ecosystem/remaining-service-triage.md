@@ -30,3 +30,7 @@ Business case cannot be scored numerically until incident frequency, time-to-rec
 ## Local listener-only follow-up — 22 November 2026
 
 Three product-facing candidate services were sampled with current launchctl-PID validation and read-only lsof, showing loopback-only listeners. None of their source Git identities was promoted. The temporary museum PDF share has a three-day runtime expiry; Product must confirm whether the delivery window and routing are intentional. See service-access-boundary-review.md. All three remain UNKNOWN for authorization, upstream forwarding and owner-approved operational readiness.
+
+## Installed artifact baseline — 22 November 2026
+
+An additional read-only snapshot produced 15 launchd plist digests, 12 on-disk script digests and image IDs for both WAL receiver containers. This creates an incident-change comparison baseline but **does not resolve any of the 17 Git/source identities**, load a running-code proof or approve an operator. See unresolved-artifact-baseline.md; zero changes to jobs, release pointers, stateful files or images.

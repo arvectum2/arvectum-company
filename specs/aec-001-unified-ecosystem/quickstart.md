@@ -200,3 +200,14 @@ The target labels must exist in the same private runtime snapshot and service ca
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-listener-boundary-private.json"
 
 PID drift, absent permission, missing listeners and unknown addresses fail closed. This observes local sockets only; it neither connects to services nor audits authentication, port forwarding, customer rights or loaded source. See service-access-boundary-review.md.
+
+## Installed artifact baseline for remaining unknown Git sources
+
+Run on demand using the same private snapshot and catalog (no separate scheduled checker):
+
+    python3 -B tools/aec001_unresolved_artifacts.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --catalog "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-unresolved-artifacts-private.json"
+
+This hashes only installed bounded launchd plist/script files and inspects current Docker container/image IDs; it never reads WAL, secrets, customer files, process command arguments or environment. Missing, changed and replaced inputs fail closed. Exact on-disk hash **does not** prove Git source, currently loaded code, health, backup recovery or organizational authority. See unresolved-artifact-baseline.md.

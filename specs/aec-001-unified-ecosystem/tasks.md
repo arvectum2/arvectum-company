@@ -86,6 +86,11 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-059 Check PID-matched current local TCP listeners for embeddings, Museum Bread PDF share and proxy gateway with bounded read-only launchctl/lsof and eight negative offline tests. All three show loopback-only at observation time; no authorization, loaded code, exposure or Product readiness is certified.
 - [ ] AEC-001-060 Reconcile Museum Bread temporary PDF share expiry (72 hours), customer access/rights, forwarding exposure and artifact provenance with accountable principal; separately verify model and proxy egress, before any live change.
 
+## P1i — Unknown-source installed artifact fingerprinting
+
+- [x] AEC-001-061 Capture bounded, private installed SHA-256 launcher/plist evidence for 15 unknown-source launchd entries and Docker image IDs for two unknown-source WAL containers, rejecting stale catalog/snapshots and replaced containers. Result: 15 plist + 12 script + 2 Docker IDs; no new Git links, health or ownership claims. Ten negative offline tests.
+- [ ] AEC-001-062 Resolve source/binary provenance and approved operators for high-risk unknown-source services, including temporary Museum PDF share, host guards, model and proxy gateways. Do not promote on-disk hashes to loaded-code/authority claims.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.
