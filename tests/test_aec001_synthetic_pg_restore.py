@@ -40,7 +40,14 @@ class FixtureSafetyTests(unittest.TestCase):
             self.assertNotIn(name,result)
 
     def test_private_existing_scratch_root(self):
-        self.assertEqual(m.private_audit_root(self.root/"report.json"),self.root)
+        # GitHub offline CI need not have an installed PostgreSQL server.
+        with mock.patch.object(m.shutil,"which",return_value="/fixture/bin"):
+            self.assertEqual(m.private_audit_root(self.root/"report.json"),self.root)
+
+    def test_missing_postgres_tool_fails_closed(self):
+        with mock.patch.object(m.shutil,"which",return_value=None):
+            with self.assertRaises(ValueError):
+                m.private_audit_root(self.root/"report.json")
 
     def test_world_readable_root_rejected(self):
         self.root.chmod(0o755)
