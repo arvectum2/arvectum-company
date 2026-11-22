@@ -1,0 +1,41 @@
+{
+  "type": "synthetic source-controlled local carrier, no live company/client data",
+  "fonts": {
+    "old0103-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepDisplayDualAngleDraft0103-Medium.otf",
+      "source_sha256": "279bf7adec0a599a73e86d40179db52b7907720db0e5395174f1037994a32c72",
+      "woff2_sha256": "a25015c4512296d9b5bd46dbcc24367c9c8b6728d77e2aeebbf7fa4bb1beb305"
+    },
+    "old0103-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepTextDualAngleDraft0103-Regular.otf",
+      "source_sha256": "d75dcde5bec59d724c5ea288a915b9d0f5853aa56eaf8af40dccece1b93d28bb",
+      "woff2_sha256": "572eb08801336013424654b1f6033d5304b02f276d14c1f7c2a589d1e78b6f09"
+    },
+    "new0104-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepDisplayAlphaHarmonizedDraft0104-Medium.otf",
+      "source_sha256": "e646a8c7672594319c18bb1e2e214696fd82748c51612002b79e3d21c15d076c",
+      "woff2_sha256": "c91a4ae258cbb2b3a420cd9bd23036cd71834d1a2a09a5ee54b5c03c187d0b59"
+    },
+    "new0104-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepTextAlphaHarmonizedDraft0104-Regular.otf",
+      "source_sha256": "cb41314219b4e74b47a90062faea5ffafbc444bbe46316da8e48fa2d68bbce45",
+      "woff2_sha256": "f858f21ee63fa68c377979117aa6f4fb61757523a330c227da7dd5a406c8598e"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-DualAngle-Carrier-v0.103/cases/letter/new0103.html",
+      "source_sha256": "bf827e9edfc4cc72991439bec00d62dc302527fbce350b909f8f60f0bac72b94"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-DualAngle-Carrier-v0.103/cases/proposal/new0103.html",
+      "source_sha256": "78c9417c336ab316bdcd97b27265a0b5262d2bf3e26ce745dfb392b7771be50a"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-DualAngle-Carrier-v0.103/cases/mobile/new0103.html",
+      "source_sha256": "84acb51bf0745af1aa4330834b862960b148bd5d448322cdfc8b6ed9a314c521"
+    }
+  },
+  "input_stylesheet_sha256": "0891c454d81accdf44de9533552b1bc0062cd9a6632ca01fcf5e5d67a7fe526f",
+  "approved_logo_copy_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4"
+}

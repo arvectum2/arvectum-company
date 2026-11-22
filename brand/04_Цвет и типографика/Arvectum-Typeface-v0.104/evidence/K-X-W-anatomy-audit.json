@@ -1,0 +1,1098 @@
+{
+  "status": "ANALYSIS/PROPOSAL ONLY, not owner-approved or implemented",
+  "principles": {
+    "K/К": "β for each major upper and lower fork rail, with optical connection around stem",
+    "X/Х": "β for crossing full-height diagonals; leave curved center branches smooth",
+    "W": "α for four-leg compact zig-zag, preserve three bowl valleys and ample internal spaces"
+  },
+  "angles": {
+    "alpha": 69.0948425521107,
+    "beta": 58.282525588538995
+  },
+  "masters": {
+    "Display": {
+      "K": {
+        "glyph": "K",
+        "assigned_provisionally": "beta",
+        "advance": 1334,
+        "major_segments": [
+          {
+            "index": 3,
+            "current_angle_deg": 53.42276,
+            "target_angle_deg": 58.28253,
+            "error_deg": -4.85977,
+            "length_UPM": 352.4,
+            "from_xy": [
+              358,
+              462
+            ],
+            "to_xy": [
+              568,
+              745
+            ]
+          },
+          {
+            "index": 4,
+            "current_angle_deg": 56.9356,
+            "target_angle_deg": 58.28253,
+            "error_deg": -1.34692,
+            "length_UPM": 888.96,
+            "from_xy": [
+              568,
+              745
+            ],
+            "to_xy": [
+              1053,
+              0
+            ]
+          },
+          {
+            "index": 6,
+            "current_angle_deg": 56.5022,
+            "target_angle_deg": 58.28253,
+            "error_deg": -1.78033,
+            "length_UPM": 1074.46,
+            "from_xy": [
+              1313,
+              0
+            ],
+            "to_xy": [
+              720,
+              896
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 45.29084,
+            "target_angle_deg": 58.28253,
+            "error_deg": -12.99169,
+            "length_UPM": 835.81,
+            "from_xy": [
+              720,
+              896
+            ],
+            "to_xy": [
+              1308,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 47.76297,
+            "target_angle_deg": 58.28253,
+            "error_deg": -10.51955,
+            "length_UPM": 630.77,
+            "from_xy": [
+              1027,
+              1490
+            ],
+            "to_xy": [
+              603,
+              1023
+            ]
+          }
+        ],
+        "count": 5,
+        "largest_abs_deviation_deg": 12.99169
+      },
+      "К": {
+        "glyph": "Kacyr",
+        "assigned_provisionally": "beta",
+        "advance": 1334,
+        "major_segments": [
+          {
+            "index": 4,
+            "current_angle_deg": 55.00798,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.27455,
+            "length_UPM": 866.67,
+            "from_xy": [
+              553,
+              710
+            ],
+            "to_xy": [
+              1050,
+              0
+            ]
+          },
+          {
+            "index": 6,
+            "current_angle_deg": 54.64805,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.63448,
+            "length_UPM": 1004.15,
+            "from_xy": [
+              1313,
+              0
+            ],
+            "to_xy": [
+              732,
+              819
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 50.30379,
+            "target_angle_deg": 58.28253,
+            "error_deg": -7.97874,
+            "length_UPM": 872.06,
+            "from_xy": [
+              732,
+              819
+            ],
+            "to_xy": [
+              1289,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 50.43778,
+            "target_angle_deg": 58.28253,
+            "error_deg": -7.84474,
+            "length_UPM": 753.63,
+            "from_xy": [
+              1025,
+              1490
+            ],
+            "to_xy": [
+              545,
+              909
+            ]
+          }
+        ],
+        "count": 4,
+        "largest_abs_deviation_deg": 7.97874
+      },
+      "X": {
+        "glyph": "X",
+        "assigned_provisionally": "beta",
+        "advance": 1357,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 55.29659,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.98593,
+            "length_UPM": 439.11,
+            "from_xy": [
+              272,
+              0
+            ],
+            "to_xy": [
+              522,
+              361
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 55.7279,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.55463,
+            "length_UPM": 436.85,
+            "from_xy": [
+              834,
+              361
+            ],
+            "to_xy": [
+              1080,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 55.56101,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.72151,
+            "length_UPM": 933.64,
+            "from_xy": [
+              1337,
+              0
+            ],
+            "to_xy": [
+              809,
+              770
+            ]
+          },
+          {
+            "index": 8,
+            "current_angle_deg": 55.49148,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.79105,
+            "length_UPM": 873.74,
+            "from_xy": [
+              809,
+              770
+            ],
+            "to_xy": [
+              1304,
+              1490
+            ]
+          },
+          {
+            "index": 10,
+            "current_angle_deg": 55.56473,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.71779,
+            "length_UPM": 362.53,
+            "from_xy": [
+              1055,
+              1490
+            ],
+            "to_xy": [
+              850,
+              1191
+            ]
+          },
+          {
+            "index": 13,
+            "current_angle_deg": 56.0894,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.19313,
+            "length_UPM": 360.28,
+            "from_xy": [
+              514,
+              1191
+            ],
+            "to_xy": [
+              313,
+              1490
+            ]
+          },
+          {
+            "index": 15,
+            "current_angle_deg": 55.67895,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.60358,
+            "length_UPM": 881.47,
+            "from_xy": [
+              58,
+              1490
+            ],
+            "to_xy": [
+              555,
+              762
+            ]
+          },
+          {
+            "index": 16,
+            "current_angle_deg": 54.97771,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.30481,
+            "length_UPM": 930.48,
+            "from_xy": [
+              555,
+              762
+            ],
+            "to_xy": [
+              21,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 3.30481
+      },
+      "Х": {
+        "glyph": "uni0425",
+        "assigned_provisionally": "beta",
+        "advance": 1357,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 55.29659,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.98593,
+            "length_UPM": 439.11,
+            "from_xy": [
+              272,
+              0
+            ],
+            "to_xy": [
+              522,
+              361
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 55.7279,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.55463,
+            "length_UPM": 436.85,
+            "from_xy": [
+              834,
+              361
+            ],
+            "to_xy": [
+              1080,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 55.56101,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.72151,
+            "length_UPM": 933.64,
+            "from_xy": [
+              1337,
+              0
+            ],
+            "to_xy": [
+              809,
+              770
+            ]
+          },
+          {
+            "index": 8,
+            "current_angle_deg": 55.49148,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.79105,
+            "length_UPM": 873.74,
+            "from_xy": [
+              809,
+              770
+            ],
+            "to_xy": [
+              1304,
+              1490
+            ]
+          },
+          {
+            "index": 10,
+            "current_angle_deg": 55.56473,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.71779,
+            "length_UPM": 362.53,
+            "from_xy": [
+              1055,
+              1490
+            ],
+            "to_xy": [
+              850,
+              1191
+            ]
+          },
+          {
+            "index": 13,
+            "current_angle_deg": 56.0894,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.19313,
+            "length_UPM": 360.28,
+            "from_xy": [
+              514,
+              1191
+            ],
+            "to_xy": [
+              313,
+              1490
+            ]
+          },
+          {
+            "index": 15,
+            "current_angle_deg": 55.67895,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.60358,
+            "length_UPM": 881.47,
+            "from_xy": [
+              58,
+              1490
+            ],
+            "to_xy": [
+              555,
+              762
+            ]
+          },
+          {
+            "index": 16,
+            "current_angle_deg": 54.97771,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.30481,
+            "length_UPM": 930.48,
+            "from_xy": [
+              555,
+              762
+            ],
+            "to_xy": [
+              21,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 3.30481
+      },
+      "W": {
+        "glyph": "W",
+        "assigned_provisionally": "alpha",
+        "advance": 1976,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 75.06467,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.96983,
+            "length_UPM": 942.85,
+            "from_xy": [
+              677,
+              0
+            ],
+            "to_xy": [
+              920,
+              911
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 74.9473,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.85246,
+            "length_UPM": 943.37,
+            "from_xy": [
+              1055,
+              911
+            ],
+            "to_xy": [
+              1300,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 74.7579,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.66305,
+            "length_UPM": 1544.32,
+            "from_xy": [
+              1554,
+              0
+            ],
+            "to_xy": [
+              1960,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 75.8239,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.72905,
+            "length_UPM": 894.23,
+            "from_xy": [
+              1728,
+              1490
+            ],
+            "to_xy": [
+              1509,
+              623
+            ]
+          },
+          {
+            "index": 12,
+            "current_angle_deg": 75.51372,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.41888,
+            "length_UPM": 895.47,
+            "from_xy": [
+              1334,
+              623
+            ],
+            "to_xy": [
+              1110,
+              1490
+            ]
+          },
+          {
+            "index": 14,
+            "current_angle_deg": 75.38989,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.29504,
+            "length_UPM": 895.97,
+            "from_xy": [
+              867,
+              1490
+            ],
+            "to_xy": [
+              641,
+              623
+            ]
+          },
+          {
+            "index": 17,
+            "current_angle_deg": 75.8239,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.72905,
+            "length_UPM": 894.23,
+            "from_xy": [
+              466,
+              623
+            ],
+            "to_xy": [
+              247,
+              1490
+            ]
+          },
+          {
+            "index": 19,
+            "current_angle_deg": 74.82951,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.73467,
+            "length_UPM": 1543.8,
+            "from_xy": [
+              16,
+              1490
+            ],
+            "to_xy": [
+              420,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 6.72905
+      }
+    },
+    "Text": {
+      "K": {
+        "glyph": "K",
+        "assigned_provisionally": "beta",
+        "advance": 1299,
+        "major_segments": [
+          {
+            "index": 3,
+            "current_angle_deg": 52.71423,
+            "target_angle_deg": 58.28253,
+            "error_deg": -5.5683,
+            "length_UPM": 358.21,
+            "from_xy": [
+              328,
+              488
+            ],
+            "to_xy": [
+              545,
+              773
+            ]
+          },
+          {
+            "index": 4,
+            "current_angle_deg": 56.27574,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.00679,
+            "length_UPM": 929.4,
+            "from_xy": [
+              545,
+              773
+            ],
+            "to_xy": [
+              1061,
+              0
+            ]
+          },
+          {
+            "index": 6,
+            "current_angle_deg": 55.97186,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.31066,
+            "length_UPM": 1081.13,
+            "from_xy": [
+              1274,
+              0
+            ],
+            "to_xy": [
+              669,
+              896
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 44.47437,
+            "target_angle_deg": 58.28253,
+            "error_deg": -13.80816,
+            "length_UPM": 847.86,
+            "from_xy": [
+              669,
+              896
+            ],
+            "to_xy": [
+              1274,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 47.07591,
+            "target_angle_deg": 58.28253,
+            "error_deg": -11.20662,
+            "length_UPM": 663.7,
+            "from_xy": [
+              1036,
+              1490
+            ],
+            "to_xy": [
+              584,
+              1004
+            ]
+          }
+        ],
+        "count": 5,
+        "largest_abs_deviation_deg": 13.80816
+      },
+      "К": {
+        "glyph": "Kacyr",
+        "assigned_provisionally": "beta",
+        "advance": 1299,
+        "major_segments": [
+          {
+            "index": 4,
+            "current_angle_deg": 54.85994,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.42258,
+            "length_UPM": 887.8,
+            "from_xy": [
+              546,
+              726
+            ],
+            "to_xy": [
+              1057,
+              0
+            ]
+          },
+          {
+            "index": 6,
+            "current_angle_deg": 54.64805,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.63448,
+            "length_UPM": 1004.15,
+            "from_xy": [
+              1274,
+              0
+            ],
+            "to_xy": [
+              693,
+              819
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 50.30379,
+            "target_angle_deg": 58.28253,
+            "error_deg": -7.97874,
+            "length_UPM": 872.06,
+            "from_xy": [
+              693,
+              819
+            ],
+            "to_xy": [
+              1250,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 50.38343,
+            "target_angle_deg": 58.28253,
+            "error_deg": -7.8991,
+            "length_UPM": 776.29,
+            "from_xy": [
+              1032,
+              1490
+            ],
+            "to_xy": [
+              537,
+              892
+            ]
+          }
+        ],
+        "count": 4,
+        "largest_abs_deviation_deg": 7.97874
+      },
+      "X": {
+        "glyph": "X",
+        "assigned_provisionally": "beta",
+        "advance": 1322,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 55.18863,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.0939,
+            "length_UPM": 467.7,
+            "from_xy": [
+              229,
+              0
+            ],
+            "to_xy": [
+              496,
+              384
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 55.39028,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.89224,
+            "length_UPM": 466.56,
+            "from_xy": [
+              825,
+              384
+            ],
+            "to_xy": [
+              1090,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 55.47567,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.80686,
+            "length_UPM": 933.38,
+            "from_xy": [
+              1297,
+              0
+            ],
+            "to_xy": [
+              768,
+              769
+            ]
+          },
+          {
+            "index": 8,
+            "current_angle_deg": 55.15223,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.13029,
+            "length_UPM": 878.55,
+            "from_xy": [
+              768,
+              769
+            ],
+            "to_xy": [
+              1270,
+              1490
+            ]
+          },
+          {
+            "index": 10,
+            "current_angle_deg": 55.17551,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.10701,
+            "length_UPM": 392.25,
+            "from_xy": [
+              1067,
+              1490
+            ],
+            "to_xy": [
+              843,
+              1168
+            ]
+          },
+          {
+            "index": 13,
+            "current_angle_deg": 55.65795,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.62458,
+            "length_UPM": 389.98,
+            "from_xy": [
+              485,
+              1168
+            ],
+            "to_xy": [
+              265,
+              1490
+            ]
+          },
+          {
+            "index": 15,
+            "current_angle_deg": 55.37457,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.90795,
+            "length_UPM": 883.48,
+            "from_xy": [
+              57,
+              1490
+            ],
+            "to_xy": [
+              559,
+              763
+            ]
+          },
+          {
+            "index": 16,
+            "current_angle_deg": 55.01302,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.26951,
+            "length_UPM": 931.3,
+            "from_xy": [
+              559,
+              763
+            ],
+            "to_xy": [
+              25,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 3.26951
+      },
+      "Х": {
+        "glyph": "uni0425",
+        "assigned_provisionally": "beta",
+        "advance": 1322,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 55.18863,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.0939,
+            "length_UPM": 467.7,
+            "from_xy": [
+              229,
+              0
+            ],
+            "to_xy": [
+              496,
+              384
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 55.39028,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.89224,
+            "length_UPM": 466.56,
+            "from_xy": [
+              825,
+              384
+            ],
+            "to_xy": [
+              1090,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 55.47567,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.80686,
+            "length_UPM": 933.38,
+            "from_xy": [
+              1297,
+              0
+            ],
+            "to_xy": [
+              768,
+              769
+            ]
+          },
+          {
+            "index": 8,
+            "current_angle_deg": 55.15223,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.13029,
+            "length_UPM": 878.55,
+            "from_xy": [
+              768,
+              769
+            ],
+            "to_xy": [
+              1270,
+              1490
+            ]
+          },
+          {
+            "index": 10,
+            "current_angle_deg": 55.17551,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.10701,
+            "length_UPM": 392.25,
+            "from_xy": [
+              1067,
+              1490
+            ],
+            "to_xy": [
+              843,
+              1168
+            ]
+          },
+          {
+            "index": 13,
+            "current_angle_deg": 55.65795,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.62458,
+            "length_UPM": 389.98,
+            "from_xy": [
+              485,
+              1168
+            ],
+            "to_xy": [
+              265,
+              1490
+            ]
+          },
+          {
+            "index": 15,
+            "current_angle_deg": 55.37457,
+            "target_angle_deg": 58.28253,
+            "error_deg": -2.90795,
+            "length_UPM": 883.48,
+            "from_xy": [
+              57,
+              1490
+            ],
+            "to_xy": [
+              559,
+              763
+            ]
+          },
+          {
+            "index": 16,
+            "current_angle_deg": 55.01302,
+            "target_angle_deg": 58.28253,
+            "error_deg": -3.26951,
+            "length_UPM": 931.3,
+            "from_xy": [
+              559,
+              763
+            ],
+            "to_xy": [
+              25,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 3.26951
+      },
+      "W": {
+        "glyph": "W",
+        "assigned_provisionally": "alpha",
+        "advance": 1944,
+        "major_segments": [
+          {
+            "index": 2,
+            "current_angle_deg": 74.84593,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.75109,
+            "length_UPM": 994.59,
+            "from_xy": [
+              638,
+              0
+            ],
+            "to_xy": [
+              898,
+              960
+            ]
+          },
+          {
+            "index": 5,
+            "current_angle_deg": 74.79034,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.6955,
+            "length_UPM": 994.85,
+            "from_xy": [
+              1045,
+              960
+            ],
+            "to_xy": [
+              1306,
+              0
+            ]
+          },
+          {
+            "index": 7,
+            "current_angle_deg": 74.68633,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.59149,
+            "length_UPM": 1544.85,
+            "from_xy": [
+              1516,
+              0
+            ],
+            "to_xy": [
+              1924,
+              1490
+            ]
+          },
+          {
+            "index": 9,
+            "current_angle_deg": 75.52971,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.43486,
+            "length_UPM": 960.47,
+            "from_xy": [
+              1740,
+              1490
+            ],
+            "to_xy": [
+              1500,
+              560
+            ]
+          },
+          {
+            "index": 12,
+            "current_angle_deg": 75.2989,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.20406,
+            "length_UPM": 961.48,
+            "from_xy": [
+              1320,
+              560
+            ],
+            "to_xy": [
+              1076,
+              1490
+            ]
+          },
+          {
+            "index": 14,
+            "current_angle_deg": 75.18368,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.08884,
+            "length_UPM": 961.99,
+            "from_xy": [
+              868,
+              1490
+            ],
+            "to_xy": [
+              622,
+              560
+            ]
+          },
+          {
+            "index": 17,
+            "current_angle_deg": 75.47196,
+            "target_angle_deg": 69.09484,
+            "error_deg": 6.37712,
+            "length_UPM": 960.72,
+            "from_xy": [
+              443,
+              560
+            ],
+            "to_xy": [
+              202,
+              1490
+            ]
+          },
+          {
+            "index": 19,
+            "current_angle_deg": 74.7579,
+            "target_angle_deg": 69.09484,
+            "error_deg": 5.66305,
+            "length_UPM": 1544.32,
+            "from_xy": [
+              20,
+              1490
+            ],
+            "to_xy": [
+              426,
+              0
+            ]
+          }
+        ],
+        "count": 8,
+        "largest_abs_deviation_deg": 6.43486
+      }
+    }
+  }
+}

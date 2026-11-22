@@ -33,13 +33,13 @@ The two independently developed Arvectum Display and Text optical masters share 
 
 The number/position of turns is a heuristic, **not** an automatic classification rule. Determine the role and span of the straight diagonal and preserve recognition, internal spaces, legibility and optical balance. K/К, X/Х, W and mixed structures require explicit stroke-by-stroke assignment to α or β before redesign; approved optical deviations are documented exceptions, not a third base. The historical atan(2φ) Text W is an archived experiment, **not** an active typeface base.
 
-The approved Golden Wordmark C and monogram remain at their own β angle and their approved SVG geometry is **unchanged**. The Display A/А maintains its distinct right-open/left-attached bar and the specific v0.102 terminal rule. **The existing N/И/Y outlines have not yet been rebuilt or certified against β.** This is an accepted design direction, not approval of the actual full-font outlines.
+The approved Golden Wordmark C and monogram remain at their own β angle and their approved SVG geometry is **unchanged**. The Display A/А maintains its distinct right-open/left-attached bar and the specific v0.102 terminal rule. **The experimental v0.103 N/И/Y outlines have been rebuilt and mechanically verified against β; v0.104 separately harmonizes V/M/М at α.** These are measured candidates, not owner approval of actual glyph forms or of the full-font outlines.
 
 ## Angular qualification under dual-angle grammar
 
 Audit each intentional **straight** major segment against its **assigned** family angle, not a universal α-only or β-only test. For newly built structural rails require ≤0.08° deviation as measured on saved CFF glyphs; use ±0.5° at major segment length ≥250 UPM for provisional diagnostic screening. Report α, β, unassigned and explicitly justified optical deviations separately; meeting either angle without family assignment is not acceptance.
 
-Old all-glyph α-only scan counts remain historical evidence and **do not establish dual-angle conformity**. Next test N/И and Y against β in both optical masters; separately design K/К, X/Х, W. Do not globally shear inherited Inter glyphs to match an angle: verify kerning, text wraps, Russian/Latin mixed content, Display 24–96px and Text 12–24px. No production implementation or owner glyph acceptance is implied.
+Old all-glyph α-only scan counts remain historical evidence and **do not establish dual-angle conformity**. Current experimental v0.104 measured result: among explicitly assigned major straight strokes, α **32/32** and β **8/8** per master, while thousands of unassigned inherited segments remain outside design review. K/К, X/Х and W are analyzed as PROPOSALS, not yet assigned by owner nor implemented. Do not globally shear inherited Inter glyphs to match an angle: verify kerning, text wraps, Russian/Latin mixed content, Display 24–96px and Text 12–24px. No production implementation or owner glyph acceptance is implied.
 
 ## Display A/А free crossbar terminal — owner correction v0.102
 

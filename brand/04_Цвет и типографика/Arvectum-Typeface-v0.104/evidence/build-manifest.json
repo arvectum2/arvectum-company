@@ -1,0 +1,280 @@
+{
+  "version": "0.104",
+  "status": "experimental; no owner artistic approval",
+  "angles": {
+    "alpha_deg": 69.0948425521107,
+    "beta_deg": 58.282525588538995
+  },
+  "scoped_chars": [
+    "V",
+    "M",
+    "М"
+  ],
+  "preserved": [
+    "A",
+    "А",
+    "N",
+    "И",
+    "Y",
+    "Д",
+    "Л",
+    "д",
+    "л"
+  ],
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepDisplayDualAngleDraft0103-Medium.otf",
+      "source_sha256": "279bf7adec0a599a73e86d40179db52b7907720db0e5395174f1037994a32c72",
+      "output": "experimental/ArvectumGoldenStepDisplayAlphaHarmonizedDraft0104-Medium.otf",
+      "output_sha256": "e646a8c7672594319c18bb1e2e214696fd82748c51612002b79e3d21c15d076c",
+      "glyphs": {
+        "V": {
+          "glyph": "V",
+          "old_advance": 1374,
+          "new_advance": 1374,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "outer_baseline_old": [
+            557,
+            824
+          ],
+          "outer_baseline_new": [
+            585.1293567626567,
+            787.8706432373433
+          ],
+          "inside_bends_shift_X": [
+            25.85144945008824,
+            -33.85144945008824
+          ],
+          "original_tip_control_unchanged": true,
+          "cap_outer_endpoints_preserved": true
+        },
+        "M": {
+          "glyph": "M",
+          "old_advance": 1781,
+          "new_advance": 1781,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "base_foot_delta": [
+            -6.843598864914611,
+            3.843598864914611
+          ],
+          "inner_leg_delta": [
+            -4.456327821341802,
+            -0.5436721786581984
+          ],
+          "vertical_stems_and_outer_caps_unchanged": true
+        },
+        "М": {
+          "glyph": "uni041C",
+          "old_advance": 1781,
+          "new_advance": 1781,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "base_foot_delta": [
+            -6.843598864914611,
+            3.843598864914611
+          ],
+          "inner_leg_delta": [
+            -4.456327821341802,
+            -0.5436721786581984
+          ],
+          "vertical_stems_and_outer_caps_unchanged": true
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepTextDualAngleDraft0103-Regular.otf",
+      "source_sha256": "d75dcde5bec59d724c5ea288a915b9d0f5853aa56eaf8af40dccece1b93d28bb",
+      "output": "experimental/ArvectumGoldenStepTextAlphaHarmonizedDraft0104-Regular.otf",
+      "output_sha256": "cb41314219b4e74b47a90062faea5ffafbc444bbe46316da8e48fa2d68bbce45",
+      "glyphs": {
+        "V": {
+          "glyph": "V",
+          "old_advance": 1338,
+          "new_advance": 1338,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              0
+            ]
+          ],
+          "outer_baseline_old": [
+            570,
+            774
+          ],
+          "outer_baseline_new": [
+            589.1293567626567,
+            748.8706432373433
+          ],
+          "inside_bends_shift_X": [
+            21.005478102594452,
+            -29.005478102594452
+          ],
+          "original_tip_control_unchanged": true,
+          "cap_outer_endpoints_preserved": true
+        },
+        "M": {
+          "glyph": "M",
+          "old_advance": 1756,
+          "new_advance": 1756,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "base_foot_delta": [
+            -17.98136627990914,
+            15.981366279909139
+          ],
+          "inner_leg_delta": [
+            4.548697177398935,
+            -10.548697177398935
+          ],
+          "vertical_stems_and_outer_caps_unchanged": true
+        },
+        "М": {
+          "glyph": "uni041C",
+          "old_advance": 1756,
+          "new_advance": 1756,
+          "new_measured_angles_deg": [
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107,
+            69.0948425521107
+          ],
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              13,
+              14
+            ],
+            [
+              16,
+              17
+            ]
+          ],
+          "base_foot_delta": [
+            -17.98136627990914,
+            15.981366279909139
+          ],
+          "inner_leg_delta": [
+            4.548697177398935,
+            -10.548697177398935
+          ],
+          "vertical_stems_and_outer_caps_unchanged": true
+        }
+      }
+    }
+  }
+}

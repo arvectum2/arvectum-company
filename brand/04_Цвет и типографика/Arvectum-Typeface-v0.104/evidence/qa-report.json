@@ -1,0 +1,107 @@
+{
+  "version": "0.104",
+  "status": "MECHANICAL PASS; owner optical approval OPEN",
+  "target_alpha_deg": 69.0948425521107,
+  "preserved_beta_deg": 58.282525588538995,
+  "styles": {
+    "Display": {
+      "changed_glyphs": [
+        "M",
+        "V",
+        "uni041C"
+      ],
+      "other_unchanged": 2934,
+      "font_metric_layout_tables_preserved": true,
+      "glyphs": {
+        "V": {
+          "max_error_deg": 3.7133831654045935e-07,
+          "area_change_pct": -1.65357,
+          "bounds_preserved": true,
+          "advance": 1374,
+          "angle_degrees": [
+            69.09484230878432,
+            69.09484218077239,
+            69.09484218077239,
+            69.09484230878432
+          ]
+        },
+        "M": {
+          "max_error_deg": 8.945983154262649e-08,
+          "area_change_pct": 0.56263,
+          "bounds_preserved": true,
+          "advance": 1781,
+          "angle_degrees": [
+            69.09484246265087,
+            69.09484246265087,
+            69.09484246480345,
+            69.09484246480345
+          ]
+        },
+        "М": {
+          "max_error_deg": 8.945983154262649e-08,
+          "area_change_pct": 0.56263,
+          "bounds_preserved": true,
+          "advance": 1781,
+          "angle_degrees": [
+            69.09484246265087,
+            69.09484246265087,
+            69.09484246480345,
+            69.09484246480345
+          ]
+        }
+      }
+    },
+    "Text": {
+      "changed_glyphs": [
+        "M",
+        "V",
+        "uni041C"
+      ],
+      "other_unchanged": 2934,
+      "font_metric_layout_tables_preserved": true,
+      "glyphs": {
+        "V": {
+          "max_error_deg": 7.807690991512573e-07,
+          "area_change_pct": -0.25701,
+          "bounds_preserved": true,
+          "advance": 1338,
+          "angle_degrees": [
+            69.09484230878432,
+            69.09484256309756,
+            69.09484256309756,
+            69.0948433328798
+          ]
+        },
+        "M": {
+          "max_error_deg": 3.316839070066635e-07,
+          "area_change_pct": 0.5176,
+          "bounds_preserved": true,
+          "advance": 1756,
+          "angle_degrees": [
+            69.09484271059956,
+            69.09484271059956,
+            69.0948422204268,
+            69.0948422204268
+          ]
+        },
+        "М": {
+          "max_error_deg": 3.316839070066635e-07,
+          "area_change_pct": 0.5176,
+          "bounds_preserved": true,
+          "advance": 1756,
+          "angle_degrees": [
+            69.09484271059956,
+            69.09484271059956,
+            69.0948422204268,
+            69.0948422204268
+          ]
+        }
+      }
+    }
+  },
+  "limitations": [
+    "K/К X/Х W not redesigned",
+    "global optical kerning/reading study OPEN",
+    "release legality/naming/platform checks OPEN"
+  ]
+}
