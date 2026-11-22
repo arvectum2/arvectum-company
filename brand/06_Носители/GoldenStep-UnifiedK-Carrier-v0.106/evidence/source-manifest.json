@@ -1,0 +1,41 @@
+{
+  "status": "synthetic HTML/CSS company carrier proofs only; no production changes",
+  "fonts": {
+    "old0105-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepDisplayBetaCrossDraft0105-Medium.otf",
+      "source_sha256": "f28749c3ecb0534d18d474e2b0a71f92547dc87f94df0df942caa45116f272ee",
+      "woff2_sha256": "7a27b205eb7e03fb727cb76059202a6bc6a4f0ec3651bf19f3305ec3c7660e12"
+    },
+    "old0105-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepTextBetaCrossDraft0105-Regular.otf",
+      "source_sha256": "f8d1a80512903631f1ac5e2fd736c681553e4ef1c356ac4efbe8fd4982f2c748",
+      "woff2_sha256": "1c430786b61629553969b5fc52423da9e25b5422e8b87730bad5351be4948b5e"
+    },
+    "new0106-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+      "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+      "woff2_sha256": "37470b71edb0f7989cc4f1880d860442df8f9fc7307fbe4e94a17c554bb87d28"
+    },
+    "new0106-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+      "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+      "woff2_sha256": "3a912b9109fbfb7a12686ef4ce8ba9518163bcf2398cbccb4925b446ef8bfd00"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-BetaCross-Carrier-v0.105/cases/letter/new0105.html",
+      "source_sha256": "434c8392523b135f627c071743002f9d80d1b5c176eab8ce94a252bb692f417d"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-BetaCross-Carrier-v0.105/cases/proposal/new0105.html",
+      "source_sha256": "045cf3535a42e0ed186a59f7df56894a29f968d8e17c90e411273cc1851dcbca"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-BetaCross-Carrier-v0.105/cases/mobile/new0105.html",
+      "source_sha256": "62f704e756eb194bc3bc2289c5dab154fe47e250ab7278e9744c18e036156249"
+    }
+  },
+  "input_stylesheet_sha256": "584deb0b83e62ce562f65f09adc94b0dc08ff9c59196d8780f9771106885bb3e",
+  "approved_logo_copy_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4"
+}

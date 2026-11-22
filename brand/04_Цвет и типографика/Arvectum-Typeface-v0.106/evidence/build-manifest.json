@@ -1,0 +1,56 @@
+{
+  "version": "0.106",
+  "status": "Experimental prototype, owner optical acceptance OPEN",
+  "owner_direction": "Use Cyrillic К short-horizontal-then-two-diagonal shape as both Latin K and Cyrillic К; visually relate to Ж",
+  "preserve": [
+    "Ж",
+    "ж",
+    "X",
+    "Х",
+    "W",
+    "A",
+    "А",
+    "N",
+    "И",
+    "Y",
+    "V",
+    "M",
+    "М",
+    "Д",
+    "Л",
+    "д",
+    "л"
+  ],
+  "angles": {
+    "alpha": 69.0948425521107,
+    "beta": 58.282525588538995
+  },
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepDisplayBetaCrossDraft0105-Medium.otf",
+      "source_sha256": "f28749c3ecb0534d18d474e2b0a71f92547dc87f94df0df942caa45116f272ee",
+      "output": "experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+      "output_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+      "latin_K_name": "K",
+      "cyrillic_K_name": "Kacyr",
+      "Zh_name": "uni0416",
+      "charstring_K_identical_to_Kacyr": true,
+      "Zh_contour_preserved": true,
+      "advance_K": 1334,
+      "shape_statement": "K and К share exact full CFF contour. Ж has a similar stub/fork motif but is NOT exact mirrored half; different branch heights and optical extents."
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepTextBetaCrossDraft0105-Regular.otf",
+      "source_sha256": "f8d1a80512903631f1ac5e2fd736c681553e4ef1c356ac4efbe8fd4982f2c748",
+      "output": "experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+      "output_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+      "latin_K_name": "K",
+      "cyrillic_K_name": "Kacyr",
+      "Zh_name": "uni0416",
+      "charstring_K_identical_to_Kacyr": true,
+      "Zh_contour_preserved": true,
+      "advance_K": 1299,
+      "shape_statement": "K and К share exact full CFF contour. Ж has a similar stub/fork motif but is NOT exact mirrored half; different branch heights and optical extents."
+    }
+  }
+}

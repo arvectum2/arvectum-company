@@ -1,0 +1,56 @@
+"""Proof that old/new local carriers differ only by font source, not content."""
+from pathlib import Path
+from fontTools.ttLib import TTFont
+from fontTools.pens.recordingPen import RecordingPen
+from PIL import Image
+import json,hashlib,subprocess
+P=Path(__file__).resolve().parent.parent;R=P.parents[2]
+meta=json.loads((P/'evidence/source-manifest.json').read_text())
+browser=json.loads((P/'evidence/browser-report.json').read_text())
+diff=json.loads((P/'evidence/pixel-difference-report.json').read_text())
+sha=lambda f:hashlib.sha256(f.read_bytes()).hexdigest()
+assert sha(P/'assets/lockup_ru.svg')==meta['approved_logo_copy_sha256']
+ref=R/'brand/06_Носители/GoldenStep-BetaCross-Carrier-v0.105'
+assert sha(ref/'tokens-new0105.css')==meta['input_stylesheet_sha256']
+assert (P/'tokens-old0105.css').read_text().replace('old0105','ANY')==(
+ P/'tokens-new0106.css').read_text().replace('new0106','ANY')
+def outline(f,n):
+ p=RecordingPen();f.getGlyphSet()[n].draw(p);return p.value
+for k,entry in meta['fonts'].items():
+ orig=R/entry['source'];web=P/'fonts'/f'{k}.woff2'
+ assert sha(orig)==entry['source_sha256'] and sha(web)==entry['woff2_sha256']
+ a,b=TTFont(orig),TTFont(web)
+ assert len(a.getGlyphOrder())==len(b.getGlyphOrder())==2937
+ assert a.getBestCmap()==b.getBestCmap() and a['hmtx'].metrics==b['hmtx'].metrics
+ for n in a.getGlyphOrder():assert outline(a,n)==outline(b,n),(k,n)
+measure={}
+for case in ('letter','proposal','mobile'):
+ original=R/meta['cases'][case]['source']
+ assert sha(original)==meta['cases'][case]['source_sha256']
+ old=(P/'cases'/case/'old0105.html').read_text()
+ new=(P/'cases'/case/'new0106.html').read_text()
+ assert old.replace('tokens-old0105.css','tokens-ANY.css')==new.replace('tokens-new0106.css','tokens-ANY.css')
+ x=browser[f'{case}-old0105']['metrics'];y=browser[f'{case}-new0106']['metrics']
+ assert x['docWidth']==y['docWidth'] and x['height']==y['height'] and x['bodyText']==y['bodyText']
+ for z in (x,y):
+  assert 'GSDisplay' in z['families'] and 'GSText' in z['families']
+  assert all(img['loaded'] and img['natural']>0 for img in z['images'])
+ if case=='mobile':
+  assert x['docWidth']==y['docWidth']==x['viewport']==y['viewport']==390
+  for variant in ('old0105','new0106'):
+   im=Image.open(P/'proofs'/f'mobile-{variant}.png')
+   assert im.width==390 and im.height==x['height']
+ else:
+  pages=1 if case=='letter' else 2
+  for variant in ('old0105','new0106'):
+   info=subprocess.check_output(['pdfinfo',str(P/'proofs'/f'{case}-{variant}.pdf')],text=True)
+   assert f'Pages:           {pages}' in info
+ measure[case]={'width':x['docWidth'],'height':x['height'],'content_length':x['bodyText']}
+assert 'Pages:           4' in subprocess.check_output(['pdfinfo',str(P/'proofs/SIDE-BY-SIDE-REVIEW.pdf')],text=True)
+assert 'Pages:           6' in subprocess.check_output(['pdfinfo',str(P/'proofs/VECTOR-A4-OLD-v0105-NEW-v0106.pdf')],text=True)
+report={'status':'PASS controlled fixture comparison; owner optical acceptance OPEN',
+        'cases':measure,'image_pixel_differences':diff,'fonts_full_parity':True,
+        'limitations':['production not affected','real kerning/readability not signed off']}
+(P/'evidence/qa-report.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+print('PASS 4 OTF↔WOFF2 2937 glyph parity, 3 unchanged-layout carrier cases, PDF pages')
+for case,m in measure.items():print('RENDER',case,m)

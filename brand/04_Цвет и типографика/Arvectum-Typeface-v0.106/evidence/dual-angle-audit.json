@@ -1,0 +1,48 @@
+{
+  "grammar": "alpha=atan(phi^2) compact; beta=atan(phi) single spanning/branch",
+  "alpha_deg": 69.0948425521107,
+  "beta_deg": 58.282525588538995,
+  "primary_family_assignments": {
+    "alpha": "AАVMМДЛдл",
+    "beta": "NИYKКXХ"
+  },
+  "scope": "all 2937 glyph paths per master, including inherited unassigned scripts",
+  "inclusion": "|dx|,|dy|>=30 UPM; length>=120 UPM; major>=250 UPM",
+  "tolerance_deg": 0.5,
+  "conclusion": "global conformity OPEN; K/К X/Х beta assignment is PROPOSED only, not owner accepted; W unchanged/HOLD",
+  "masters": {
+    "Display": {
+      "unassigned": {
+        "segments": 5872,
+        "major": 4614
+      },
+      "alpha": {
+        "segments": 36,
+        "major": 32,
+        "major_assigned_in_tolerance": 32
+      },
+      "beta": {
+        "segments": 32,
+        "major": 32,
+        "major_assigned_in_tolerance": 32
+      }
+    },
+    "Text": {
+      "unassigned": {
+        "segments": 5860,
+        "major": 4665
+      },
+      "alpha": {
+        "segments": 32,
+        "major": 32,
+        "major_assigned_in_tolerance": 32
+      },
+      "beta": {
+        "segments": 32,
+        "major": 32,
+        "major_assigned_in_tolerance": 32
+      }
+    }
+  },
+  "rows": 11864
+}

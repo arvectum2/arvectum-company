@@ -1,0 +1,114 @@
+{
+  "version": "0.106",
+  "status": "mechanical QA PASS, artistic owner acceptance OPEN",
+  "claim": "Latin K and Cyrillic К have EXACT SAME Type2 CFF outline. Ж is stylistically related, not literal mirrored half.",
+  "styles": {
+    "Display": {
+      "only_changed_glyph": "K",
+      "other_paths_unchanged": 2936,
+      "identical_Latin_Cyrillic_K": true,
+      "Zh_unchanged": true,
+      "short_horizontal_connectors": true,
+      "metrics_unchanged": true,
+      "same_K_bounds": true,
+      "K_ink_area_delta_percent": -1.77909,
+      "raster_diff_pixels": {
+        "K": {
+          "12": 27,
+          "14": 41,
+          "16": 44,
+          "18": 56,
+          "24": 69,
+          "32": 114,
+          "48": 182,
+          "96": 548
+        },
+        "К": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0
+        },
+        "Ж": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0
+        }
+      },
+      "actual_fork_y": {
+        "lower": 710,
+        "upper": 909
+      },
+      "Zh_fork_y": {
+        "lower": 646,
+        "upper": 836
+      }
+    },
+    "Text": {
+      "only_changed_glyph": "K",
+      "other_paths_unchanged": 2936,
+      "identical_Latin_Cyrillic_K": true,
+      "Zh_unchanged": true,
+      "short_horizontal_connectors": true,
+      "metrics_unchanged": true,
+      "same_K_bounds": true,
+      "K_ink_area_delta_percent": -1.77781,
+      "raster_diff_pixels": {
+        "K": {
+          "12": 30,
+          "14": 39,
+          "16": 44,
+          "18": 60,
+          "24": 83,
+          "32": 112,
+          "48": 202,
+          "96": 558
+        },
+        "К": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0
+        },
+        "Ж": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0
+        }
+      },
+      "actual_fork_y": {
+        "lower": 726,
+        "upper": 892
+      },
+      "Zh_fork_y": {
+        "lower": 665,
+        "upper": 825
+      }
+    }
+  },
+  "open": [
+    "whether to revise Ж to exact half-K skeleton",
+    "optical comparisons at 12-24px",
+    "W angle HOLD",
+    "optical kerning",
+    "whole font family release/rights/windows/print"
+  ]
+}
