@@ -1,0 +1,297 @@
+{
+  "status": "PASS scoped geometry; universal slant conformity NOT YET established",
+  "angle_deg": 58.282525588538995,
+  "styles": {
+    "Display": {
+      "modified_vs_v099": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "metric_changed": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "unchanged_vs_v099": 2931,
+      "geometry": {
+        "A": {
+          "glyph": "A",
+          "old_advance": 1379,
+          "new_advance": 2050,
+          "new_lsb": 0,
+          "source": "exact approved C_Wordmark_EN SVG first glyph",
+          "right_open": true,
+          "left_attached": true,
+          "not_scaled": true
+        },
+        "А": {
+          "glyph": "uni0410",
+          "old_advance": 1379,
+          "new_advance": 2050,
+          "new_lsb": 0,
+          "source": "exact approved C_Wordmark_EN SVG first glyph",
+          "right_open": true,
+          "left_attached": true,
+          "not_scaled": true
+        },
+        "Д": {
+          "glyph": "uni0414",
+          "old_advance": 1599,
+          "new_advance": 1935,
+          "new_lsb": 18,
+          "structure": "CLOSED underside + descenders",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 60,
+          "outer_top": 980.8706432373433,
+          "inner_bottom": 278,
+          "inner_top": 1078.3540154311138,
+          "height": 1490,
+          "roof": 195,
+          "bar_width": 218,
+          "right": 1830,
+          "topology_contours": 2,
+          "slope_ratio": 1.618033988749895
+        },
+        "Л": {
+          "glyph": "uni041B",
+          "old_advance": 1458,
+          "new_advance": 1935,
+          "new_lsb": 60,
+          "structure": "OPEN underside",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 60,
+          "outer_top": 980.8706432373433,
+          "inner_bottom": 278,
+          "inner_top": 1078.3540154311138,
+          "height": 1490,
+          "roof": 195,
+          "bar_width": 218,
+          "right": 1830,
+          "topology_contours": 1,
+          "slope_ratio": 1.618033988749895
+        },
+        "д": {
+          "glyph": "uni0434",
+          "old_advance": 1247,
+          "new_advance": 1520,
+          "new_lsb": 18,
+          "structure": "CLOSED underside + descenders",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 44,
+          "outer_top": 696.643892119889,
+          "inner_bottom": 216,
+          "inner_top": 751.8354682461588,
+          "height": 1056,
+          "roof": 189,
+          "bar_width": 172,
+          "right": 1415,
+          "topology_contours": 2,
+          "slope_ratio": 1.618033988749895
+        },
+        "л": {
+          "glyph": "uni043B",
+          "old_advance": 1158,
+          "new_advance": 1520,
+          "new_lsb": 44,
+          "structure": "OPEN underside",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 44,
+          "outer_top": 696.643892119889,
+          "inner_bottom": 216,
+          "inner_top": 751.8354682461588,
+          "height": 1056,
+          "roof": 189,
+          "bar_width": 172,
+          "right": 1415,
+          "topology_contours": 1,
+          "slope_ratio": 1.618033988749895
+        }
+      },
+      "corrected_phi_diagonals": {
+        "A": {
+          "count": 6,
+          "max_abs_angle_error_deg": 0.07281537436843877
+        },
+        "А": {
+          "count": 6,
+          "max_abs_angle_error_deg": 0.07281537436843877
+        },
+        "Д": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.03157235366951738
+        },
+        "Л": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.011335241759326209
+        },
+        "д": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.007867179171341832
+        },
+        "л": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.013979042856135493
+        }
+      }
+    },
+    "Text": {
+      "modified_vs_v099": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "metric_changed": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "unchanged_vs_v099": 2931,
+      "geometry": {
+        "A": {
+          "glyph": "A",
+          "old_advance": 1338,
+          "new_advance": 2050,
+          "new_lsb": 0,
+          "source": "phi-slope wordmark geometry with CLOSED bar and triangle counter",
+          "right_open": false,
+          "left_attached": true,
+          "counter_count": 2
+        },
+        "А": {
+          "glyph": "uni0410",
+          "old_advance": 1338,
+          "new_advance": 2050,
+          "new_lsb": 0,
+          "source": "phi-slope wordmark geometry with CLOSED bar and triangle counter",
+          "right_open": false,
+          "left_attached": true,
+          "counter_count": 2
+        },
+        "Д": {
+          "glyph": "uni0414",
+          "old_advance": 1569,
+          "new_advance": 1875,
+          "new_lsb": 18,
+          "structure": "CLOSED underside + descenders",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 60,
+          "outer_top": 980.8706432373433,
+          "inner_bottom": 240,
+          "inner_top": 1061.9852050373602,
+          "height": 1490,
+          "roof": 160,
+          "bar_width": 180,
+          "right": 1770,
+          "topology_contours": 2,
+          "slope_ratio": 1.618033988749895
+        },
+        "Л": {
+          "glyph": "uni041B",
+          "old_advance": 1446,
+          "new_advance": 1875,
+          "new_lsb": 60,
+          "structure": "OPEN underside",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 60,
+          "outer_top": 980.8706432373433,
+          "inner_bottom": 240,
+          "inner_top": 1061.9852050373602,
+          "height": 1490,
+          "roof": 160,
+          "bar_width": 180,
+          "right": 1770,
+          "topology_contours": 1,
+          "slope_ratio": 1.618033988749895
+        },
+        "д": {
+          "glyph": "uni0434",
+          "old_advance": 1214,
+          "new_advance": 1465,
+          "new_lsb": 18,
+          "structure": "CLOSED underside + descenders",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 44,
+          "outer_top": 696.643892119889,
+          "inner_bottom": 196,
+          "inner_top": 749.7584539199057,
+          "height": 1056,
+          "roof": 160,
+          "bar_width": 152,
+          "right": 1360,
+          "topology_contours": 2,
+          "slope_ratio": 1.618033988749895
+        },
+        "л": {
+          "glyph": "uni043B",
+          "old_advance": 1133,
+          "new_advance": 1465,
+          "new_lsb": 44,
+          "structure": "OPEN underside",
+          "left_slopes": "parallel straight lines, angle atan(phi)",
+          "angle_deg": 58.282525588538995,
+          "outer_bottom": 44,
+          "outer_top": 696.643892119889,
+          "inner_bottom": 196,
+          "inner_top": 749.7584539199057,
+          "height": 1056,
+          "roof": 160,
+          "bar_width": 152,
+          "right": 1360,
+          "topology_contours": 1,
+          "slope_ratio": 1.618033988749895
+        }
+      },
+      "corrected_phi_diagonals": {
+        "A": {
+          "count": 6,
+          "max_abs_angle_error_deg": 0.05868323932324415
+        },
+        "А": {
+          "count": 6,
+          "max_abs_angle_error_deg": 0.05868323932324415
+        },
+        "Д": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.0035354294499256866
+        },
+        "Л": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.00359924390826194
+        },
+        "д": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.011175446748431739
+        },
+        "л": {
+          "count": 2,
+          "max_abs_angle_error_deg": 0.013979042856135493
+        }
+      }
+    }
+  },
+  "open": [
+    "owner optical approval",
+    "all-glyph diagonal convergence",
+    "platform/kerning rebalance"
+  ]
+}

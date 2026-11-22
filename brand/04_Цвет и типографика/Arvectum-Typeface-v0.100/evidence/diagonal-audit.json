@@ -1,0 +1,645 @@
+{
+  "source": "exact approved v0.21 C Logo A",
+  "reference_angle_deg": 58.282525588538995,
+  "tolerance_deg": 0.5,
+  "minimum_length_units": 120,
+  "major_length_units": 250,
+  "measure": "all straight line segments (curved tangents excluded)",
+  "global_conformance": "OPEN/FAIL because inherited and previously modified glyphs remain outside reference",
+  "masters": {
+    "Display": {
+      "major_diagonal_segments": 4677,
+      "major_within_half_degree": 115,
+      "major_needing_design": 4562,
+      "glyphs_with_unresolved_major_diagonals": 1314,
+      "top_outliers": [
+        {
+          "glyph": "uni025A",
+          "max_error_deg": 49.408,
+          "characters": "ɚ"
+        },
+        {
+          "glyph": "uni0489",
+          "max_error_deg": 47.257,
+          "characters": "҉"
+        },
+        {
+          "glyph": "ascript_uni02DE",
+          "max_error_deg": 47.145,
+          "characters": ""
+        },
+        {
+          "glyph": "uni02DE",
+          "max_error_deg": 46.973,
+          "characters": "˞"
+        },
+        {
+          "glyph": "musicalnotedbl",
+          "max_error_deg": 46.631,
+          "characters": "♫"
+        },
+        {
+          "glyph": "uni1DFF",
+          "max_error_deg": 44.582,
+          "characters": "᷿"
+        },
+        {
+          "glyph": "uni211F",
+          "max_error_deg": 42.647,
+          "characters": "℟"
+        },
+        {
+          "glyph": "uni1DCD",
+          "max_error_deg": 42.041,
+          "characters": "᷍"
+        },
+        {
+          "glyph": "lessequal.tf",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.tf",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "lessequal.case.tf",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.case.tf",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "lessequal",
+          "max_error_deg": 41.623,
+          "characters": "≤"
+        },
+        {
+          "glyph": "greaterequal",
+          "max_error_deg": 41.623,
+          "characters": "≥"
+        },
+        {
+          "glyph": "lessequal.case",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.case",
+          "max_error_deg": 41.623,
+          "characters": ""
+        },
+        {
+          "glyph": "uni02F1",
+          "max_error_deg": 39.686,
+          "characters": "˱"
+        },
+        {
+          "glyph": "uni0354",
+          "max_error_deg": 39.631,
+          "characters": "͔"
+        },
+        {
+          "glyph": "uni0355",
+          "max_error_deg": 39.631,
+          "characters": "͕"
+        },
+        {
+          "glyph": "uni0356",
+          "max_error_deg": 39.631,
+          "characters": "͖"
+        },
+        {
+          "glyph": "uni02F2",
+          "max_error_deg": 39.576,
+          "characters": "˲"
+        },
+        {
+          "glyph": "uni02C3",
+          "max_error_deg": 38.35,
+          "characters": "˃"
+        },
+        {
+          "glyph": "uni0350",
+          "max_error_deg": 38.31,
+          "characters": "͐"
+        },
+        {
+          "glyph": "uni1DFE",
+          "max_error_deg": 38.31,
+          "characters": "᷾"
+        },
+        {
+          "glyph": "uni02C2",
+          "max_error_deg": 38.269,
+          "characters": "˂"
+        },
+        {
+          "glyph": "uni20AE",
+          "max_error_deg": 36.975,
+          "characters": "₮"
+        },
+        {
+          "glyph": "uni20BA",
+          "max_error_deg": 36.033,
+          "characters": "₺"
+        },
+        {
+          "glyph": "OI",
+          "max_error_deg": 35.337,
+          "characters": "Ƣ"
+        },
+        {
+          "glyph": "greater.tf",
+          "max_error_deg": 33.759,
+          "characters": ""
+        },
+        {
+          "glyph": "less.tf",
+          "max_error_deg": 33.729,
+          "characters": ""
+        },
+        {
+          "glyph": "less",
+          "max_error_deg": 33.729,
+          "characters": "<"
+        },
+        {
+          "glyph": "greater",
+          "max_error_deg": 33.729,
+          "characters": ">"
+        },
+        {
+          "glyph": "greater.case.tf",
+          "max_error_deg": 33.692,
+          "characters": ""
+        },
+        {
+          "glyph": "greater.squared",
+          "max_error_deg": 33.692,
+          "characters": ""
+        },
+        {
+          "glyph": "less.case.tf",
+          "max_error_deg": 33.662,
+          "characters": ""
+        }
+      ],
+      "key_glyphs": {
+        "A": {
+          "glyph": "A",
+          "major_count": 5,
+          "max_abs_error_deg": 0.047,
+          "status": "PASS"
+        },
+        "А": {
+          "glyph": "uni0410",
+          "major_count": 5,
+          "max_abs_error_deg": 0.047,
+          "status": "PASS"
+        },
+        "Д": {
+          "glyph": "uni0414",
+          "major_count": 2,
+          "max_abs_error_deg": 0.032,
+          "status": "PASS"
+        },
+        "Л": {
+          "glyph": "uni041B",
+          "major_count": 2,
+          "max_abs_error_deg": 0.011,
+          "status": "PASS"
+        },
+        "д": {
+          "glyph": "uni0434",
+          "major_count": 2,
+          "max_abs_error_deg": 0.008,
+          "status": "PASS"
+        },
+        "л": {
+          "glyph": "uni043B",
+          "major_count": 2,
+          "max_abs_error_deg": 0.014,
+          "status": "PASS"
+        },
+        "K": {
+          "glyph": "K",
+          "major_count": 5,
+          "max_abs_error_deg": 12.992,
+          "status": "NEEDS_DESIGN"
+        },
+        "К": {
+          "glyph": "Kacyr",
+          "major_count": 4,
+          "max_abs_error_deg": 7.979,
+          "status": "NEEDS_DESIGN"
+        },
+        "И": {
+          "glyph": "uni0418",
+          "major_count": 2,
+          "max_abs_error_deg": 0.025,
+          "status": "PASS"
+        },
+        "и": {
+          "glyph": "uni0438",
+          "major_count": 2,
+          "max_abs_error_deg": 2.116,
+          "status": "NEEDS_DESIGN"
+        },
+        "М": {
+          "glyph": "uni041C",
+          "major_count": 4,
+          "max_abs_error_deg": 11.068,
+          "status": "NEEDS_DESIGN"
+        },
+        "M": {
+          "glyph": "M",
+          "major_count": 4,
+          "max_abs_error_deg": 11.068,
+          "status": "NEEDS_DESIGN"
+        },
+        "Х": {
+          "glyph": "uni0425",
+          "major_count": 8,
+          "max_abs_error_deg": 3.305,
+          "status": "NEEDS_DESIGN"
+        },
+        "X": {
+          "glyph": "X",
+          "major_count": 8,
+          "max_abs_error_deg": 3.305,
+          "status": "NEEDS_DESIGN"
+        },
+        "W": {
+          "glyph": "W",
+          "major_count": 8,
+          "max_abs_error_deg": 17.541,
+          "status": "NEEDS_DESIGN"
+        },
+        "w": {
+          "glyph": "w",
+          "major_count": 8,
+          "max_abs_error_deg": 16.07,
+          "status": "NEEDS_DESIGN"
+        },
+        "Y": {
+          "glyph": "Y",
+          "major_count": 4,
+          "max_abs_error_deg": 0.933,
+          "status": "NEEDS_DESIGN"
+        },
+        "y": {
+          "glyph": "y",
+          "major_count": 4,
+          "max_abs_error_deg": 11.957,
+          "status": "NEEDS_DESIGN"
+        },
+        "V": {
+          "glyph": "V",
+          "major_count": 4,
+          "max_abs_error_deg": 12.854,
+          "status": "NEEDS_DESIGN"
+        },
+        "v": {
+          "glyph": "v",
+          "major_count": 4,
+          "max_abs_error_deg": 12.045,
+          "status": "NEEDS_DESIGN"
+        },
+        "N": {
+          "glyph": "N",
+          "major_count": 2,
+          "max_abs_error_deg": 0.588,
+          "status": "NEEDS_DESIGN"
+        },
+        "н": {
+          "glyph": "uni043D",
+          "major_count": 0,
+          "max_abs_error_deg": 0,
+          "status": "NEEDS_DESIGN"
+        }
+      }
+    },
+    "Text": {
+      "major_diagonal_segments": 4730,
+      "major_within_half_degree": 182,
+      "major_needing_design": 4548,
+      "glyphs_with_unresolved_major_diagonals": 1291,
+      "top_outliers": [
+        {
+          "glyph": "uni025A",
+          "max_error_deg": 49.382,
+          "characters": "ɚ"
+        },
+        {
+          "glyph": "uni02DE",
+          "max_error_deg": 47.701,
+          "characters": "˞"
+        },
+        {
+          "glyph": "ascript_uni02DE",
+          "max_error_deg": 47.684,
+          "characters": ""
+        },
+        {
+          "glyph": "uni0489",
+          "max_error_deg": 47.164,
+          "characters": "҉"
+        },
+        {
+          "glyph": "musicalnotedbl",
+          "max_error_deg": 46.173,
+          "characters": "♫"
+        },
+        {
+          "glyph": "uni1DFF",
+          "max_error_deg": 44.187,
+          "characters": "᷿"
+        },
+        {
+          "glyph": "uni1DCD",
+          "max_error_deg": 42.57,
+          "characters": "᷍"
+        },
+        {
+          "glyph": "uni211F",
+          "max_error_deg": 41.716,
+          "characters": "℟"
+        },
+        {
+          "glyph": "lessequal.tf",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.tf",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "lessequal.case.tf",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.case.tf",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "lessequal",
+          "max_error_deg": 40.219,
+          "characters": "≤"
+        },
+        {
+          "glyph": "greaterequal",
+          "max_error_deg": 40.219,
+          "characters": "≥"
+        },
+        {
+          "glyph": "lessequal.case",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "greaterequal.case",
+          "max_error_deg": 40.219,
+          "characters": ""
+        },
+        {
+          "glyph": "uni02F1",
+          "max_error_deg": 38.767,
+          "characters": "˱"
+        },
+        {
+          "glyph": "uni02F2",
+          "max_error_deg": 38.767,
+          "characters": "˲"
+        },
+        {
+          "glyph": "uni0354",
+          "max_error_deg": 38.767,
+          "characters": "͔"
+        },
+        {
+          "glyph": "uni0355",
+          "max_error_deg": 38.767,
+          "characters": "͕"
+        },
+        {
+          "glyph": "uni0356",
+          "max_error_deg": 38.767,
+          "characters": "͖"
+        },
+        {
+          "glyph": "uni02C3",
+          "max_error_deg": 37.533,
+          "characters": "˃"
+        },
+        {
+          "glyph": "uni0350",
+          "max_error_deg": 37.533,
+          "characters": "͐"
+        },
+        {
+          "glyph": "uni02C2",
+          "max_error_deg": 37.449,
+          "characters": "˂"
+        },
+        {
+          "glyph": "uni1DFE",
+          "max_error_deg": 37.449,
+          "characters": "᷾"
+        },
+        {
+          "glyph": "uni20AE",
+          "max_error_deg": 36.969,
+          "characters": "₮"
+        },
+        {
+          "glyph": "OI",
+          "max_error_deg": 36.042,
+          "characters": "Ƣ"
+        },
+        {
+          "glyph": "uni20BA",
+          "max_error_deg": 33.672,
+          "characters": "₺"
+        },
+        {
+          "glyph": "less.tf",
+          "max_error_deg": 32.623,
+          "characters": ""
+        },
+        {
+          "glyph": "greater.tf",
+          "max_error_deg": 32.623,
+          "characters": ""
+        },
+        {
+          "glyph": "less.case.tf",
+          "max_error_deg": 32.623,
+          "characters": ""
+        },
+        {
+          "glyph": "greater.case.tf",
+          "max_error_deg": 32.623,
+          "characters": ""
+        },
+        {
+          "glyph": "less",
+          "max_error_deg": 32.623,
+          "characters": "<"
+        },
+        {
+          "glyph": "greater",
+          "max_error_deg": 32.623,
+          "characters": ">"
+        },
+        {
+          "glyph": "less.case",
+          "max_error_deg": 32.623,
+          "characters": ""
+        }
+      ],
+      "key_glyphs": {
+        "A": {
+          "glyph": "A",
+          "major_count": 6,
+          "max_abs_error_deg": 0.059,
+          "status": "PASS"
+        },
+        "А": {
+          "glyph": "uni0410",
+          "major_count": 6,
+          "max_abs_error_deg": 0.059,
+          "status": "PASS"
+        },
+        "Д": {
+          "glyph": "uni0414",
+          "major_count": 2,
+          "max_abs_error_deg": 0.004,
+          "status": "PASS"
+        },
+        "Л": {
+          "glyph": "uni041B",
+          "major_count": 2,
+          "max_abs_error_deg": 0.004,
+          "status": "PASS"
+        },
+        "д": {
+          "glyph": "uni0434",
+          "major_count": 2,
+          "max_abs_error_deg": 0.011,
+          "status": "PASS"
+        },
+        "л": {
+          "glyph": "uni043B",
+          "major_count": 2,
+          "max_abs_error_deg": 0.014,
+          "status": "PASS"
+        },
+        "K": {
+          "glyph": "K",
+          "major_count": 5,
+          "max_abs_error_deg": 13.808,
+          "status": "NEEDS_DESIGN"
+        },
+        "К": {
+          "glyph": "Kacyr",
+          "major_count": 4,
+          "max_abs_error_deg": 7.979,
+          "status": "NEEDS_DESIGN"
+        },
+        "И": {
+          "glyph": "uni0418",
+          "major_count": 2,
+          "max_abs_error_deg": 0.021,
+          "status": "PASS"
+        },
+        "и": {
+          "glyph": "uni0438",
+          "major_count": 2,
+          "max_abs_error_deg": 1.737,
+          "status": "NEEDS_DESIGN"
+        },
+        "М": {
+          "glyph": "uni041C",
+          "major_count": 4,
+          "max_abs_error_deg": 10.576,
+          "status": "NEEDS_DESIGN"
+        },
+        "M": {
+          "glyph": "M",
+          "major_count": 4,
+          "max_abs_error_deg": 10.576,
+          "status": "NEEDS_DESIGN"
+        },
+        "Х": {
+          "glyph": "uni0425",
+          "major_count": 8,
+          "max_abs_error_deg": 3.27,
+          "status": "NEEDS_DESIGN"
+        },
+        "X": {
+          "glyph": "X",
+          "major_count": 8,
+          "max_abs_error_deg": 3.27,
+          "status": "NEEDS_DESIGN"
+        },
+        "W": {
+          "glyph": "W",
+          "major_count": 8,
+          "max_abs_error_deg": 17.247,
+          "status": "NEEDS_DESIGN"
+        },
+        "w": {
+          "glyph": "w",
+          "major_count": 8,
+          "max_abs_error_deg": 15.837,
+          "status": "NEEDS_DESIGN"
+        },
+        "Y": {
+          "glyph": "Y",
+          "major_count": 4,
+          "max_abs_error_deg": 0.311,
+          "status": "PASS"
+        },
+        "y": {
+          "glyph": "y",
+          "major_count": 4,
+          "max_abs_error_deg": 11.493,
+          "status": "NEEDS_DESIGN"
+        },
+        "V": {
+          "glyph": "V",
+          "major_count": 4,
+          "max_abs_error_deg": 12.444,
+          "status": "NEEDS_DESIGN"
+        },
+        "v": {
+          "glyph": "v",
+          "major_count": 4,
+          "max_abs_error_deg": 11.41,
+          "status": "NEEDS_DESIGN"
+        },
+        "N": {
+          "glyph": "N",
+          "major_count": 2,
+          "max_abs_error_deg": 0.633,
+          "status": "NEEDS_DESIGN"
+        },
+        "н": {
+          "glyph": "uni043D",
+          "major_count": 0,
+          "max_abs_error_deg": 0,
+          "status": "NEEDS_DESIGN"
+        }
+      }
+    }
+  }
+}

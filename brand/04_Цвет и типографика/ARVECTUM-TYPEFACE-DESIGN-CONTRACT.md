@@ -16,11 +16,17 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 
 1. Architectural precision, seriousness, technological clarity, regularity and restraint — no frivolous sci-fi details.
 2. Disciplined verticals, horizontals, compact terminals, carefully selected optical overshoots, counterform geometry and related bowl radii. Prefer fewer unnecessary curves **without polygonizing naturally smooth bowls**.
-3. φ=(1+√5)/2≈1.618034 informs selected modules, segment ratios, diagonal angles where appropriate (atan φ≈58.2825°), centers and local transitions. Do NOT impose one mathematical ratio on every curve.
+3. φ=(1+√5)/2≈1.618034 informs selected modules and transitions. **Every intentionally designed STRAIGHT structural diagonal must target the exact approved Wordmark C A angle, θ=atan φ≈58.2825256° from horizontal**, in either direction. Deviations require explicit documented optical reasoning and owner review, not silent exceptions. Do NOT impose this angle on curved shoulders, rounding or unrelated script and symbol anatomy.
 4. Optical correction overrides φ when needed to preserve recognition, balance, counter spacing and reading ease. Every exception is explicit and testable.
 5. Link anatomically equivalent Latin/Cyrillic families when they truly match (A/А, B/В, C/С, E/Е, H/Н, K/К, M/М, O/О, P/Р, T/Т, X/Х), but avoid forced equivalence of unrelated lowercase glyphs.
 6. The approved Wordmark C specifies a Display A/А whose crossbar is anchored to the LEFT leg and breaks on the RIGHT. In Arvectum Text A/А the crossbar remains CLOSED and is separately refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
+
+## Angular conformity and prototype gate (owner correction v0.100)
+
+Measure the target angle from the actual approved Golden Wordmark v0.21 C, not a remembered or approximated diagonal. Store an automatic full-glyph audit (major straight-segment threshold 250 UPM, reference tolerance ±0.5°); require the corrected high-priority A/А and Д/Л/д/л to meet stricter ±0.08° before an experimental candidate is considered mechanically qualified. Legacy/inherited diagonals remain OPEN if nonconforming; NEVER declare an all-font PASS based on the corrected subset.
+
+For fixed cap height, a change from Inter's ~70° to 58.2825° necessarily alters glyph width. Such revision may invalidate visual kerning, text wrapping and existing template assumptions even if GPOS/GSUB tables are mechanically unchanged. Width, spacing, area, readability and actual carrier reflow require a new separate check. No automated blanket shear of the entire alphabet.
 
 ## Glyph-by-glyph development process
 

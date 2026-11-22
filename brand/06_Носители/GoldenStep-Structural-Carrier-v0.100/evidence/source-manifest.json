@@ -1,0 +1,41 @@
+{
+  "fonts": {
+    "old099-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.99/experimental/ArvectumGoldenStepDisplayLowercaseRhythmDraft099-Medium.otf",
+      "source_sha256": "6320d7135ffd049a1b6d51e2ad3030eb0e5d3e3e1c75f1f6ce805cb7d2c722fd",
+      "woff2_sha256": "b9a2a793dd9436e7b3cda047ab07fd49d9e3b434cb8ab856605cb5686daa489a"
+    },
+    "old099-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.99/experimental/ArvectumGoldenStepTextLowercaseRhythmDraft099-Regular.otf",
+      "source_sha256": "0af36c97fd0e8ab19e1bc3347d087bb780c6aa8d9cd4d45bf5c1c3d9b26337fd",
+      "woff2_sha256": "af8b89d6f831ef8cbd13d20a0c4564fd254ba16d3bed22670ebf1d6f95e59290"
+    },
+    "new0100-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.100/experimental/ArvectumGoldenStepDisplayCanonicalAngleDraft0100-Medium.otf",
+      "source_sha256": "105d4073c272e0568632e102f38910aaaaf93146c85374afc971f7d90e462ef7",
+      "woff2_sha256": "286c7e06020e68ef6a0281d9984d808d40ba07335ea8b68f234e78b1a21c466a"
+    },
+    "new0100-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.100/experimental/ArvectumGoldenStepTextCanonicalAngleDraft0100-Regular.otf",
+      "source_sha256": "4f3f48449696dbf1b8e61c5f891174c16ff059d36e2c945f98986a29a861d354",
+      "woff2_sha256": "983bff0926e743a2b718474724c17d9e92648dfa3afe4f3461796f4e7f8e723e"
+    }
+  },
+  "fixtures": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Lowercase-Carrier-v0.99/cases/letter/new099.html",
+      "source_sha256": "f96b32e72da6a59925be4b455a9715075bd7b6fdb5aa5e878bee67cc10e506c8"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Lowercase-Carrier-v0.99/cases/proposal/new099.html",
+      "source_sha256": "b074253c132073b8ea7c652727c9bad3cd6a5dcf6ae8258c809259b67d11a045"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Lowercase-Carrier-v0.99/cases/mobile/new099.html",
+      "source_sha256": "1f7a11c947fdf0bbbe02306ee5de3d4ea262509d501ed69d8d4a01bca6be8608"
+    }
+  },
+  "approved_logo_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "input_token_sha256": "7d445349a6a87e181270834635c0b8e31befe1bbdda70d59b7c6b7d1c9949f95",
+  "status": "local mockup only, reference actual approved Wordmark master unchanged"
+}
