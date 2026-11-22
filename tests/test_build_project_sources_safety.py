@@ -114,6 +114,47 @@ class SourcePackSafetyTests(unittest.TestCase):
         self.assertEqual(list(self.output.glob("*_ARVECTUM_OS_*.md")),[])
         self.assert_owner_registry_preserved()
 
+    def commit_os(self, message):
+        subprocess.run(["git","-C",str(self.os),"add","-A"],check=True,capture_output=True)
+        subprocess.run(["git","-C",str(self.os),"commit","-qm",message],check=True,capture_output=True)
+
+    def test_unrelated_os_commit_does_not_rewrite_snapshots(self):
+        self.assertEqual(self.invoke().returncode,0)
+        original={p.name:p.read_bytes() for p in self.output.glob("*_ARVECTUM_OS_*.md")}
+        (self.os/"UNRELATED-ROADMAP.md").write_text("new unrelated OS planning\n")
+        self.commit_os("unrelated planning changes")
+        second=self.invoke()
+        self.assertEqual(second.returncode,0,second.stderr)
+        self.assertIn("Source snapshot files updated: 0",second.stdout)
+        actual={p.name:p.read_bytes() for p in self.output.glob("*_ARVECTUM_OS_*.md")}
+        self.assertEqual(actual,original)
+        self.assert_owner_registry_preserved()
+
+    def test_changed_included_source_updates_only_its_bundle(self):
+        self.assertEqual(self.invoke().returncode,0)
+        before={p.name:p.read_bytes() for p in self.output.glob("*_ARVECTUM_OS_*.md")}
+        name=build.GROUPS[0][0]
+        (self.os/build.GROUPS[0][2][0]).write_text("Changed canonical fixture content\n")
+        self.commit_os("change one included source")
+        second=self.invoke()
+        self.assertEqual(second.returncode,0,second.stderr)
+        self.assertIn("Source snapshot files updated: 1",second.stdout)
+        after={p.name:p.read_bytes() for p in self.output.glob("*_ARVECTUM_OS_*.md")}
+        self.assertEqual([n for n in sorted(before) if before[n]!=after[n]],[name])
+        self.assert_owner_registry_preserved()
+
+    def test_source_body_provenance_like_text_is_not_ignored(self):
+        first=build.GROUPS[0][0]
+        self.assertEqual(self.invoke().returncode,0)
+        p=self.os/build.GROUPS[0][2][0]
+        p.write_text(p.read_text()+"Snapshot commit: IMPORTANT SOURCE TEXT\n")
+        self.commit_os("included text includes provenance-like line")
+        second=self.invoke()
+        self.assertEqual(second.returncode,0,second.stderr)
+        self.assertIn("Source snapshot files updated: 1",second.stdout)
+        self.assertIn("Snapshot commit: IMPORTANT SOURCE TEXT",(self.output/first).read_text())
+        self.assert_owner_registry_preserved()
+
     def test_source_registry_function_is_not_exported(self):
         self.assertFalse(hasattr(build,"render_registry"))
         self.assertIn("registry",SCRIPT.read_text())
