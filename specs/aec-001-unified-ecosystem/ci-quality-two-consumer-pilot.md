@@ -43,3 +43,7 @@ Data Platform additionally has a three-version Python matrix, a lock-consistency
 ## Reproducibility correction (before PR CI)
 
 The Mac mini's original Data Platform **developer branch** HEAD was 38322fd5f1cbec2d377c478d9980cae2382366a0, which was not resolvable as a published commit in the GitHub primary. The full published main-source commit **b6a5755e6f86a2c7f07bc82c2be005aa929faf0c** was verified by GitHub API and a separate, read-only shallow/sparse checkout under ArvectumSafe. The two versions' workflow file SHA-256 is identical: **b6bb065d8b51db6e316ab2102af9f83a7703c26534c98082495c86419a6ebadb**. The shadow CI contract and new PR-only workflow pin the **published** commit and do not push, change or fetch into the active Product developer worktree.
+
+## Subsequent Company-only job layout trial
+
+The previously separate third ci-quality-shadow-pilot job has been folded into existing Company offline-tests while keeping both immutable Product source pins, non-cancelled after-failure execution, and separately visible checks. The SDK mock pilot remains an independent job; Product workflows are untouched. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md). Earlier text describing a third job documents the *historical baseline*, not the current candidate layout.

@@ -129,8 +129,14 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 - [x] AEC-001-082 Record immutable pinned Data Platform and Compliance product CI workflows and six common quality-stage criteria without normalizing away product-specific DB, browser, lock, Spec Kit or security gates. Both source workflows have different declared checkout/setup-python action refs.
 - [x] AEC-001-083 Implement a versioned, stdlib-only **shadow contract comparator** and 26 offline positive/negative tests, plus an isolated Company PR-only CI job that retrieves these two fixed source commits. No product workflow files modified; production CI semantic equivalence is NOT claimed.
-- [ ] AEC-001-084 Compare actual two-product CI run time, runner cost, operator maintenance effort, security evidence and feature-specific behavior against a candidate opt-in reusable workflow. Document downside, rollback and Company/Product owner approvals before Product PR changes.
+- [ ] AEC-001-084 Compare actual two-product CI run time, runner cost, operator maintenance effort, security evidence and feature-specific behavior against a candidate opt-in reusable workflow. **PARTIAL:** 8 GitHub Actions runs per Product measured (Data Platform 64s median whole-run / 194 median summed job-seconds; Compliance 24s / 21); provider billable_ms=0 is not a verified USD cost. Product maintenance cost, two-Product behavioral equivalence, authority and rollback remain outstanding.
 - [ ] AEC-001-085 If 084 proves value, implement a versioned replaceable common CI component with two product-specific adoption/rollback proofs and approved exception policy. Do not change Tender Agent or customer-facing products under this Company-only audit approval.
+
+## P1p — Measured GitHub Actions baseline and Company job consolidation
+
+- [x] AEC-001-086 Sample read-only GitHub Actions provider run/job timings and reported billable metadata from 8 recent runs each for Data Platform, Compliance and Company AEC-001. No invoices, secrets or customer logs, and 12 offline quality/negative tests.
+- [x] AEC-001-087 Consolidate the Company-only third shadow CI job into existing offline-tests; preserve exact immutable two-Product source pins, distinct steps, failure-preserving !cancelled status condition and SDK mock job. Eight static regression tests. **CI post-change runtime evidence still required.**
+- [ ] AEC-001-088 Compare Company pre/post runner timing and shadow step outcome using real GitHub Actions; retain only if both checks stay effective and the net overhead decreases, otherwise revert this isolated Company change.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

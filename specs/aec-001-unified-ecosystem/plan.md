@@ -101,3 +101,7 @@ The [host-controls and Tender guard review](host-controls-and-tender-guard-revie
 ## Cross-product CI-quality shadow pilot — 2026-11-22
 
 The first [two-real-consumer CI quality pilot](ci-quality-two-consumer-pilot.md) records a **versioned six-stage source contract**, pinned Data Platform and Compliance workflow commits, an offline negative-test checker and an isolated Company PR CI job. No product migration or common CI job extraction has occurred. This establishes CI source-level commonality, not saved engineering time, runtime quality equivalence, Product release authority or approved organization-wide standard. CP4 remains AMBER; CP6 RED. Future adoption requires baseline cost and real two-Product opt-in/rollback evidence.
+
+## Actual CI run-time evidence and Company-only footprint — 2026-11-22
+
+Read-only GitHub Actions API baseline from 8 completed runs each: Data Platform 64s median wall/194 summed job-seconds/five parallel jobs; Compliance 24s/21/one job; Company AEC 14s/18/two-to-three jobs. Provider reported billable zero is not actual invoiced cost or developer labor evidence. The Company-only extra shadow job previously consumed 11 seconds in run 45007572330; consolidation into offline-tests removes a separate job but needs real post-change CI comparison. No Product pipeline modifications. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md).

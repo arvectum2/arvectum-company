@@ -340,3 +340,11 @@ Do not repeat git init for a preexisting scratch checkout; inspect/reuse the pin
     python3 -B -m unittest discover -s tests -p 'test_aec001_ci_quality_shadow.py' -v
 
 The candidate .github/workflows/aec001-audit-ci.yml has a PR-only job retrieving the two exact Git commits, with read-only GitHub permissions and persist-credentials false. No product application/test code executes in this shadow job. The verifier covers a strict subset of workflow source syntax, **not complete YAML execution semantics**. Read ci-quality-two-consumer-pilot.md before making any Product workflow change.
+
+## Read-only Actions timing baseline (no workflows triggered)
+
+    python3 -B tools/aec001_ci_run_baseline.py \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-ci-run-baseline-private.json" \
+      --limit 8
+
+Only preapproved repo/workflow/branch names are queried through authenticated gh api GET, reading run/job/timing metadata (no logs or secrets). Source evidence remains private 0600; job-seconds differ from run wall time. Reported API billable_ms may be zero without proving invoiced $0. The Company shadow source comparison is now an explicit series of steps in the existing offline-tests job, not a third runner job. See ci-cost-and-job-consolidation.md.
