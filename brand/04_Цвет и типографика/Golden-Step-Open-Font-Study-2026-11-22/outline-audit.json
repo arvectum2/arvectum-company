@@ -1,0 +1,851 @@
+{
+  "source": "Google Fonts OFL originals and Arvectum own font",
+  "note": "Straight perimeter ratio counts SVG/TTF outline lines; curve segments may have long near-straight pieces; comparisons are geometrical, not a ranking.",
+  "fonts": {
+    "Golden Step v0.83 S": {
+      "source_filename": "ArvectumDisplayGoldenStepRetroSDraft083-Medium.otf",
+      "sha256": "6fc7f35aa67483ca219e418168506765bac10f99e8f9debc505d52973a13d39f",
+      "variation_coords": null,
+      "glyphs": {
+        "А": {
+          "line_segments": 11,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 2045
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1250
+        },
+        "М": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1500
+        },
+        "З": {
+          "line_segments": 5,
+          "quadratic_segments": 0,
+          "cubic_segments": 12,
+          "line_fraction_perimeter": 0.138,
+          "cubic_inner_inflections": 0,
+          "advance": 1362
+        },
+        "з": {
+          "line_segments": 5,
+          "quadratic_segments": 0,
+          "cubic_segments": 12,
+          "line_fraction_perimeter": 0.148,
+          "cubic_inner_inflections": 0,
+          "advance": 1141
+        },
+        "В": {
+          "line_segments": 10,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.518,
+          "cubic_inner_inflections": 0,
+          "advance": 1360
+        },
+        "в": {
+          "line_segments": 10,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.513,
+          "cubic_inner_inflections": 0,
+          "advance": 1140
+        },
+        "Б": {
+          "line_segments": 10,
+          "quadratic_segments": 0,
+          "cubic_segments": 4,
+          "line_fraction_perimeter": 0.695,
+          "cubic_inner_inflections": 0,
+          "advance": 1360
+        },
+        "б": {
+          "line_segments": 3,
+          "quadratic_segments": 0,
+          "cubic_segments": 10,
+          "line_fraction_perimeter": 0.122,
+          "cubic_inner_inflections": 1,
+          "advance": 1140
+        },
+        "О": {
+          "line_segments": 0,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1520
+        },
+        "о": {
+          "line_segments": 0,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1150
+        },
+        "С": {
+          "line_segments": 2,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.062,
+          "cubic_inner_inflections": 0,
+          "advance": 1366
+        },
+        "с": {
+          "line_segments": 2,
+          "quadratic_segments": 0,
+          "cubic_segments": 8,
+          "line_fraction_perimeter": 0.09,
+          "cubic_inner_inflections": 0,
+          "advance": 1033
+        },
+        "3": {
+          "line_segments": 2,
+          "quadratic_segments": 0,
+          "cubic_segments": 14,
+          "line_fraction_perimeter": 0.052,
+          "cubic_inner_inflections": 3,
+          "advance": 1323
+        }
+      }
+    },
+    "Unbounded Medium": {
+      "source_filename": "unbounded.ttf",
+      "sha256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f",
+      "variation_coords": {
+        "wght": 500
+      },
+      "glyphs": {
+        "А": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 928
+        },
+        "Е": {
+          "line_segments": 16,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 780
+        },
+        "М": {
+          "line_segments": 16,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1206
+        },
+        "З": {
+          "line_segments": 6,
+          "quadratic_segments": 32,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.152,
+          "cubic_inner_inflections": 0,
+          "advance": 829
+        },
+        "з": {
+          "line_segments": 6,
+          "quadratic_segments": 29,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.167,
+          "cubic_inner_inflections": 0,
+          "advance": 692
+        },
+        "В": {
+          "line_segments": 14,
+          "quadratic_segments": 19,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.672,
+          "cubic_inner_inflections": 0,
+          "advance": 865
+        },
+        "в": {
+          "line_segments": 14,
+          "quadratic_segments": 16,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.681,
+          "cubic_inner_inflections": 0,
+          "advance": 732
+        },
+        "Б": {
+          "line_segments": 14,
+          "quadratic_segments": 10,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.8,
+          "cubic_inner_inflections": 0,
+          "advance": 825
+        },
+        "б": {
+          "line_segments": 3,
+          "quadratic_segments": 33,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.038,
+          "cubic_inner_inflections": 0,
+          "advance": 784
+        },
+        "О": {
+          "line_segments": 0,
+          "quadratic_segments": 24,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 956
+        },
+        "о": {
+          "line_segments": 0,
+          "quadratic_segments": 24,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 778
+        },
+        "С": {
+          "line_segments": 2,
+          "quadratic_segments": 24,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.08,
+          "cubic_inner_inflections": 0,
+          "advance": 923
+        },
+        "с": {
+          "line_segments": 2,
+          "quadratic_segments": 22,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.102,
+          "cubic_inner_inflections": 0,
+          "advance": 743
+        },
+        "3": {
+          "line_segments": 6,
+          "quadratic_segments": 31,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.153,
+          "cubic_inner_inflections": 0,
+          "advance": 821
+        }
+      }
+    },
+    "Geologica Medium": {
+      "source_filename": "geologica.ttf",
+      "sha256": "9124d9e88ac6c11d761f35241713a51d68e2c4ebedce0edaca834717a00959ec",
+      "variation_coords": {
+        "wght": 500,
+        "SHRP": 0
+      },
+      "glyphs": {
+        "А": {
+          "line_segments": 11,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1408
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1240
+        },
+        "М": {
+          "line_segments": 16,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1843
+        },
+        "З": {
+          "line_segments": 5,
+          "quadratic_segments": 30,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.172,
+          "cubic_inner_inflections": 0,
+          "advance": 1234
+        },
+        "з": {
+          "line_segments": 5,
+          "quadratic_segments": 28,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.168,
+          "cubic_inner_inflections": 0,
+          "advance": 1045
+        },
+        "В": {
+          "line_segments": 9,
+          "quadratic_segments": 19,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.525,
+          "cubic_inner_inflections": 0,
+          "advance": 1284
+        },
+        "в": {
+          "line_segments": 10,
+          "quadratic_segments": 18,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.571,
+          "cubic_inner_inflections": 0,
+          "advance": 1148
+        },
+        "Б": {
+          "line_segments": 10,
+          "quadratic_segments": 9,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.696,
+          "cubic_inner_inflections": 0,
+          "advance": 1284
+        },
+        "б": {
+          "line_segments": 3,
+          "quadratic_segments": 32,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.159,
+          "cubic_inner_inflections": 0,
+          "advance": 1243
+        },
+        "О": {
+          "line_segments": 0,
+          "quadratic_segments": 30,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1659
+        },
+        "о": {
+          "line_segments": 0,
+          "quadratic_segments": 26,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1221
+        },
+        "С": {
+          "line_segments": 2,
+          "quadratic_segments": 22,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.08,
+          "cubic_inner_inflections": 0,
+          "advance": 1396
+        },
+        "с": {
+          "line_segments": 2,
+          "quadratic_segments": 20,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.101,
+          "cubic_inner_inflections": 0,
+          "advance": 1045
+        },
+        "3": {
+          "line_segments": 8,
+          "quadratic_segments": 18,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.506,
+          "cubic_inner_inflections": 0,
+          "advance": 1166
+        }
+      }
+    },
+    "Geologica Sharp": {
+      "source_filename": "geologica.ttf",
+      "sha256": "9124d9e88ac6c11d761f35241713a51d68e2c4ebedce0edaca834717a00959ec",
+      "variation_coords": {
+        "wght": 500,
+        "SHRP": 100
+      },
+      "glyphs": {
+        "А": {
+          "line_segments": 11,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1408
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1240
+        },
+        "М": {
+          "line_segments": 16,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1843
+        },
+        "З": {
+          "line_segments": 5,
+          "quadratic_segments": 30,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.183,
+          "cubic_inner_inflections": 0,
+          "advance": 1178
+        },
+        "з": {
+          "line_segments": 5,
+          "quadratic_segments": 28,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.178,
+          "cubic_inner_inflections": 0,
+          "advance": 1013
+        },
+        "В": {
+          "line_segments": 9,
+          "quadratic_segments": 19,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.525,
+          "cubic_inner_inflections": 0,
+          "advance": 1284
+        },
+        "в": {
+          "line_segments": 10,
+          "quadratic_segments": 18,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.57,
+          "cubic_inner_inflections": 0,
+          "advance": 1148
+        },
+        "Б": {
+          "line_segments": 10,
+          "quadratic_segments": 9,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.696,
+          "cubic_inner_inflections": 0,
+          "advance": 1284
+        },
+        "б": {
+          "line_segments": 3,
+          "quadratic_segments": 32,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.154,
+          "cubic_inner_inflections": 0,
+          "advance": 1243
+        },
+        "О": {
+          "line_segments": 0,
+          "quadratic_segments": 30,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1659
+        },
+        "о": {
+          "line_segments": 0,
+          "quadratic_segments": 26,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.0,
+          "cubic_inner_inflections": 0,
+          "advance": 1221
+        },
+        "С": {
+          "line_segments": 2,
+          "quadratic_segments": 22,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.09,
+          "cubic_inner_inflections": 0,
+          "advance": 1339
+        },
+        "с": {
+          "line_segments": 2,
+          "quadratic_segments": 20,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.113,
+          "cubic_inner_inflections": 0,
+          "advance": 988
+        },
+        "3": {
+          "line_segments": 8,
+          "quadratic_segments": 18,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.512,
+          "cubic_inner_inflections": 0,
+          "advance": 1166
+        }
+      }
+    },
+    "Golos Text Medium": {
+      "source_filename": "golostext.ttf",
+      "sha256": "17bb58fb69aec2dfb047a2ebf52534023e9b688c97a6b7ac795b0a72912c2063",
+      "variation_coords": {
+        "wght": 500
+      },
+      "glyphs": {
+        "А": {
+          "line_segments": 11,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 680
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 615
+        },
+        "М": {
+          "line_segments": 13,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 870
+        },
+        "З": {
+          "line_segments": 5,
+          "quadratic_segments": 29,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.14,
+          "cubic_inner_inflections": 0,
+          "advance": 650
+        },
+        "з": {
+          "line_segments": 5,
+          "quadratic_segments": 28,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.165,
+          "cubic_inner_inflections": 0,
+          "advance": 535
+        },
+        "В": {
+          "line_segments": 9,
+          "quadratic_segments": 17,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.549,
+          "cubic_inner_inflections": 0,
+          "advance": 675
+        },
+        "в": {
+          "line_segments": 9,
+          "quadratic_segments": 17,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.573,
+          "cubic_inner_inflections": 0,
+          "advance": 570
+        },
+        "Б": {
+          "line_segments": 10,
+          "quadratic_segments": 8,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.682,
+          "cubic_inner_inflections": 0,
+          "advance": 670
+        },
+        "б": {
+          "line_segments": 5,
+          "quadratic_segments": 33,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.049,
+          "cubic_inner_inflections": 0,
+          "advance": 595
+        },
+        "О": {
+          "line_segments": 4,
+          "quadratic_segments": 28,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.022,
+          "cubic_inner_inflections": 0,
+          "advance": 750
+        },
+        "о": {
+          "line_segments": 4,
+          "quadratic_segments": 24,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.029,
+          "cubic_inner_inflections": 0,
+          "advance": 600
+        },
+        "С": {
+          "line_segments": 4,
+          "quadratic_segments": 26,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.089,
+          "cubic_inner_inflections": 0,
+          "advance": 690
+        },
+        "с": {
+          "line_segments": 4,
+          "quadratic_segments": 22,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.104,
+          "cubic_inner_inflections": 0,
+          "advance": 555
+        },
+        "3": {
+          "line_segments": 5,
+          "quadratic_segments": 28,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.139,
+          "cubic_inner_inflections": 0,
+          "advance": 595
+        }
+      }
+    },
+    "Tektur Medium": {
+      "source_filename": "tektur.ttf",
+      "sha256": "a4c451e5336874811267c2a514efa09bca7bc8cabf32a310f0b44e111eacb933",
+      "variation_coords": {
+        "wght": 500
+      },
+      "glyphs": {
+        "А": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 652
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 580
+        },
+        "М": {
+          "line_segments": 13,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 780
+        },
+        "З": {
+          "line_segments": 17,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 614
+        },
+        "з": {
+          "line_segments": 17,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 588
+        },
+        "В": {
+          "line_segments": 17,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 644
+        },
+        "в": {
+          "line_segments": 17,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 610
+        },
+        "Б": {
+          "line_segments": 14,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 642
+        },
+        "б": {
+          "line_segments": 16,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 620
+        },
+        "О": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 680
+        },
+        "о": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 600
+        },
+        "С": {
+          "line_segments": 10,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 552
+        },
+        "с": {
+          "line_segments": 10,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 540
+        },
+        "3": {
+          "line_segments": 17,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 614
+        }
+      }
+    },
+    "Russo One": {
+      "source_filename": "russoone.ttf",
+      "sha256": "bc0abcc660bd8b7ad3000ecb2898a27c58a29a50f7ec81652fa12e75148d09df",
+      "variation_coords": {},
+      "glyphs": {
+        "А": {
+          "line_segments": 11,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 710
+        },
+        "Е": {
+          "line_segments": 12,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 635
+        },
+        "М": {
+          "line_segments": 13,
+          "quadratic_segments": 0,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 1.0,
+          "cubic_inner_inflections": 0,
+          "advance": 900
+        },
+        "З": {
+          "line_segments": 10,
+          "quadratic_segments": 15,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.429,
+          "cubic_inner_inflections": 0,
+          "advance": 640
+        },
+        "з": {
+          "line_segments": 9,
+          "quadratic_segments": 17,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.454,
+          "cubic_inner_inflections": 0,
+          "advance": 550
+        },
+        "В": {
+          "line_segments": 11,
+          "quadratic_segments": 12,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.646,
+          "cubic_inner_inflections": 0,
+          "advance": 710
+        },
+        "в": {
+          "line_segments": 11,
+          "quadratic_segments": 16,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.66,
+          "cubic_inner_inflections": 0,
+          "advance": 600
+        },
+        "Б": {
+          "line_segments": 12,
+          "quadratic_segments": 6,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.789,
+          "cubic_inner_inflections": 0,
+          "advance": 710
+        },
+        "б": {
+          "line_segments": 12,
+          "quadratic_segments": 16,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.564,
+          "cubic_inner_inflections": 0,
+          "advance": 610
+        },
+        "О": {
+          "line_segments": 8,
+          "quadratic_segments": 12,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.555,
+          "cubic_inner_inflections": 0,
+          "advance": 730
+        },
+        "о": {
+          "line_segments": 8,
+          "quadratic_segments": 12,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.548,
+          "cubic_inner_inflections": 0,
+          "advance": 630
+        },
+        "С": {
+          "line_segments": 6,
+          "quadratic_segments": 13,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.513,
+          "cubic_inner_inflections": 0,
+          "advance": 620
+        },
+        "с": {
+          "line_segments": 6,
+          "quadratic_segments": 9,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.512,
+          "cubic_inner_inflections": 0,
+          "advance": 550
+        },
+        "3": {
+          "line_segments": 10,
+          "quadratic_segments": 15,
+          "cubic_segments": 0,
+          "line_fraction_perimeter": 0.418,
+          "cubic_inner_inflections": 0,
+          "advance": 610
+        }
+      }
+    }
+  }
+}
