@@ -99,6 +99,11 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-066 Establish approved Product/database/generation, tenant rights, isolated storage, RPO/RTO and accountable Principal before any real restore.
 - [ ] AEC-001-067 Verify proxy gateway loaded interpreter/module/dependencies, release authority, ingress/egress, authorization and fallback before production changes.
 
+## P1k — Correlated live installed-package source evidence
+
+- [x] AEC-001-068 Link proxy gateway's pinned 8/8 Python module file proof to current launchctl PID and lsof CWD for strict derived source reconciliation; source mapped 41/58 -> 42/58, remaining unknown 16. Twenty-one offline fixture tests; no loaded-code/health/authority promotion.
+- [ ] AEC-001-069 Reconcile remaining sixteen source-unresolved records, especially stateful WAL, temporary customer file share and host guards; retain separate evidence for Product owner and service health. No production code/restart/cleanup.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

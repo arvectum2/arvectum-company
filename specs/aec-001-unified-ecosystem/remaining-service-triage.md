@@ -38,3 +38,7 @@ An additional read-only snapshot produced 15 launchd plist digests, 12 on-disk s
 ## Installed proxy and synthetic restore evidence — 22 November 2026
 
 The non-Git installed gateway package's 8/8 immediate .py files match exact Proxy Launcher v0.2.16 Git blobs. Catalog source link count remains 41/58 until process/authority reconciliation. Updated 2026-11-22 host and Docker backup structures have five dumps each; private synthetic 42-row logical restore passed. A real backup restore or PITR remains NOT VERIFIED. See proxy-module-provenance.md and synthetic-postgres-restore.md.
+
+## After strict live proxy package/source reconciliation — 22 November 2026
+
+One previously unresolved product-facing service now has an installed Python package-to-Git mapping corroborated by launchd PID and process CWD. Derived source mapping: **42/58**; remaining source-unresolved records: **16**. For the original product-serving/exposed-tools review area, the proxy gateway on-disk source has a match but access, egress and loaded code still need proof. Original 17-record queue counts are historical, not the current live 16-record queue. No Product owner, health or recovery field was promoted. See proxy-runtime-reconciliation.md.

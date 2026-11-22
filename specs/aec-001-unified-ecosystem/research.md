@@ -130,3 +130,7 @@ A bounded one-shot checker recorded 15 installed launchd plist file SHA-256 hash
 Installed proxy gateway free_gateway package: **8/8 Python modules** match pinned Proxy Launcher v0.2.16 commit 6799297bf1492d352ca9d78a0a49b2adf3345d2a, as well as local HEAD. This is an on-disk code provenance finding, not loaded-code/release or runtime-authorization proof; the catalog remains 41/58. See [proxy-module-provenance.md](proxy-module-provenance.md).
 
 A private Unix-socket-only PostgreSQL 18.7 synthetic fixture was dumped/restored: 42/42 test rows, primary-key sum 903/903, cleanup confirmed, no live database/dump/customer content accessed. The 2026-11-22 real backup metadata scan recorded five host and five Docker dump files, with only structural verification; **no real restoration**. See [synthetic-postgres-restore.md](synthetic-postgres-restore.md).
+
+## Live PID/CWD and pinned installed proxy package reconciliation — 2026-11-22
+
+A second one-shot read-only attestation connects the current launchd proxy PID and observed lsof CWD with all **8/8** installed Python module Git blob matches at pinned Proxy Launcher v0.2.16. The optional strict candidate catalog importer now links **42/58** observed Mac mini entries to source identity (up from 41), leaving **16 unresolved**, with no new Product owner, loaded process code, health, RPO/RTO or Company authority claims. No proxy calls or credential reading occurred. See [proxy-runtime-reconciliation.md](proxy-runtime-reconciliation.md).

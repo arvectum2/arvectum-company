@@ -236,3 +236,26 @@ Then run **synthetic-only** on Mac mini:
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/isolated-fixture/aec001-synthetic-pg-restore-private.json"
 
 The fixture is isolated to a private Unix socket and cannot connect to real databases or accept actual backup files. A synthetic PASS does not mean real backup/PITR recovery has been validated.
+
+## Correlated proxy runtime source evidence (read-only)
+
+First create an on-demand private runtime/installed-module proof on Mac mini. Stale or mismatched PID or CWD fails closed:
+
+    python3 -B tools/aec001_gateway_runtime_attest.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --repo /Volumes/ArvectumSSD/Arvectum/repos/proxy-launcher \
+      --installed "$HOME/Library/Application Support/Arvectum/proxy-gateway/src/free_gateway" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-proxy-gateway-runtime-package-private.json"
+
+Derive a **new private candidate catalog file**, preserving the old 41/58 baseline. Use the exact source, process-release and installed-copy reports taken from the same runtime snapshot:
+
+    python3 -B tools/aec001_service_catalog.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --stacks "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --source-attestation "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-runtime-source-attest-private.json" \
+      --process-attestation "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-process-release-private.json" \
+      --copy-matches "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-source-copy-match-private.json" \
+      --package-attestation "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-proxy-gateway-runtime-package-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-proxy-reconciled-private.json"
+
+Expected for this dated snapshot: 58 observations, **42 source relationships**, 16 unresolved; Product owner, loaded code and health remain UNKNOWN. Never automatically merge this into Company/OS authority or add a second Source Watch scheduler. See proxy-runtime-reconciliation.md.

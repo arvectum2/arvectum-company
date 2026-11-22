@@ -74,7 +74,7 @@ def record(kind,host,observed_at,entry,known):
         "source_of_organizational_authority":False,
     }
 
-def build(runtime,stack,source_attest=None,process_attest=None,copy_matches=None):
+def build(runtime,stack,source_attest=None,process_attest=None,copy_matches=None,package_attest=None):
     if (not isinstance(runtime,dict) or runtime.get("schema")!=RUNTIME_SCHEMA or
         not isinstance(runtime.get("launchd"),list) or not isinstance(runtime.get("docker"),list)
         or not isinstance(runtime.get("observed_utc"),str) or
@@ -218,6 +218,53 @@ def build(runtime,stack,source_attest=None,process_attest=None,copy_matches=None
                 entry["matched_checkout_head_hint"]=head
                 entry["loaded_code_verified"]=False
                 copy_new+=1
+    package_links=0
+    if package_attest is not None:
+        label="ru.arvectum.proxy-gateway"
+        by_label={r["service_locator"]:r for r in records if r["runtime_kind"]=="launchd"}
+        snapshot={r.get("label"):r for r in runtime["launchd"]}
+        proof=package_attest
+        launcher=snapshot.get(label)
+        if (not isinstance(proof,dict)
+            or proof.get("schema")!="aec001-runtime-installed-package-v1"
+            or proof.get("runtime_snapshot_utc")!=date
+            or proof.get("runtime_host")!=host
+            or proof.get("service_label")!=label
+            or label not in by_label or not isinstance(launcher,dict)
+            or proof.get("source_repository_identity")!="arvectum2/proxy-launcher"
+            or proof["source_repository_identity"] not in known
+            or proof.get("source_commit")!="6799297bf1492d352ca9d78a0a49b2adf3345d2a"
+            or proof.get("package_prefix")!="free_gateway"
+            or proof.get("package_git_status")!="PINNED_GIT_MODULE_FILESET_MATCH"
+            or proof.get("status")!="INSTALLED_GIT_PACKAGE_AND_LIVE_PID_CWD_MATCH"
+            or proof.get("snapshot_pid")!=launcher.get("pid")
+            or not isinstance(proof.get("matched_python_files"),int)
+            or proof.get("matched_python_files")<1
+            or proof.get("tracked_python_files")!=proof["matched_python_files"]
+            or proof.get("live_pid_matches_snapshot") is not True
+            or proof.get("live_process_cwd_matches_snapshot") is not True
+            or proof.get("loaded_process_code_verified") is not False
+            or proof.get("service_health_verified") is not False
+            or proof.get("organizational_authority_verified") is not False
+            or not isinstance(launcher.get("process_cwd_hint"),str)
+            or proof.get("process_cwd_from_snapshot")!=launcher["process_cwd_hint"]
+            or proof.get("source_wrapper_from_snapshot")!=launcher.get("source_file_hint")
+            or proof.get("installed_package_path")!=str(Path(launcher["process_cwd_hint"])/"free_gateway")
+            or launcher.get("source_file_hint")!=str(Path(launcher["process_cwd_hint"]).parent/"run.sh")
+            or launcher.get("state")!="running_pid"):
+            raise ValueError("unusable installed package/process source evidence")
+        source=by_label[label]["source"]
+        if source["catalog_reconciled"] and source["repository_identity"]!=proof["source_repository_identity"]:
+            raise ValueError("conflicting installed package source evidence")
+        if not source["catalog_reconciled"]:
+            source["repository_identity"]=proof["source_repository_identity"]
+            source["catalog_reconciled"]=True
+            source["mapping_evidence"]="installed_git_module_files_plus_live_pid_cwd"
+            source["source_module_files_matched"]=proof["matched_python_files"]
+            source["release_source_commit"]=proof["source_commit"]
+            source["process_cwd_observed_at"]=proof.get("observed_utc","UNKNOWN")
+            source["loaded_code_verified"]=False
+            package_links=1
     records.sort(key=lambda x:(x["runtime_kind"],x["service_locator"]))
     matched=sum(row["source"]["catalog_reconciled"] for row in records)
     return {
@@ -233,6 +280,7 @@ def build(runtime,stack,source_attest=None,process_attest=None,copy_matches=None
         "added_file_attributions":attested,
         "added_process_release_attributions":process_mapped,
         "new_source_copy_links":copy_new,
+        "new_installed_package_source_links":package_links,
         "unresolved_source":len(records)-matched,
         "health_verified_count":0,
         "owner_verified_count":0,
@@ -271,6 +319,7 @@ def main():
     p.add_argument("--source-attestation",type=Path)
     p.add_argument("--process-attestation",type=Path)
     p.add_argument("--copy-matches",type=Path)
+    p.add_argument("--package-attestation",type=Path)
     p.add_argument("--output",type=Path,required=True)
     args=p.parse_args()
     try:
@@ -280,10 +329,12 @@ def main():
                  if args.process_attestation else None)
         copies=(json.loads(args.copy_matches.read_text(encoding="utf-8"))
                 if args.copy_matches else None)
+        package=(json.loads(args.package_attestation.read_text(encoding="utf-8"))
+                 if args.package_attestation else None)
         data=build(json.loads(args.runtime.read_text(encoding="utf-8")),
                    json.loads(args.stacks.read_text(encoding="utf-8")),
                    source_attest=attest,process_attest=process,
-                   copy_matches=copies)
+                   copy_matches=copies,package_attest=package)
     except (OSError,ValueError,UnicodeDecodeError) as error:
         print(f"INCOMPLETE: {type(error).__name__}",file=sys.stderr)
         return 2
