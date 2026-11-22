@@ -1,0 +1,76 @@
+{
+  "status": "PASS technical, NOT owner/production approval",
+  "changed_vs_v089": [
+    "A",
+    "uni0410"
+  ],
+  "changed_vs_original_inter": [
+    "A",
+    "uni0410",
+    "B",
+    "uni0412",
+    "uni0411",
+    "uni0417",
+    "uni0431",
+    "uni0432",
+    "uni0437"
+  ],
+  "unchanged_vs_v089": 2935,
+  "unchanged_vs_original_inter": 2928,
+  "covered_codepoints": 2852,
+  "text_exact_inter_sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+  "recorded_geometry": {
+    "A": {
+      "name": "A",
+      "width": 1379,
+      "lsb": 16,
+      "original_full_bar": 601,
+      "retained_lower_bar": 371,
+      "retained_fraction": 0.6173044925124792,
+      "phi_target_fraction": 0.6180339887498948,
+      "open_gap_at_lower_bar": 230,
+      "cantilever_tip_x": 618,
+      "lower_bar_y": 387,
+      "counter_y": 576,
+      "outline_contours_before": 2,
+      "after": 1
+    },
+    "А": {
+      "name": "uni0410",
+      "width": 1379,
+      "lsb": 16,
+      "original_full_bar": 601,
+      "retained_lower_bar": 371,
+      "retained_fraction": 0.6173044925124792,
+      "phi_target_fraction": 0.6180339887498948,
+      "open_gap_at_lower_bar": 230,
+      "cantilever_tip_x": 618,
+      "lower_bar_y": 387,
+      "counter_y": 576,
+      "outline_contours_before": 2,
+      "after": 1
+    }
+  },
+  "raster_changed_pixels": {
+    "A": {
+      "12": 48,
+      "16": 59,
+      "24": 101,
+      "32": 110,
+      "48": 181,
+      "72": 320,
+      "128": 497
+    },
+    "А": {
+      "12": 48,
+      "16": 59,
+      "24": 101,
+      "32": 110,
+      "48": 181,
+      "72": 320,
+      "128": 497
+    }
+  },
+  "metrics_kern_layout": "byte-identical compiled tags",
+  "logo": "not modified"
+}

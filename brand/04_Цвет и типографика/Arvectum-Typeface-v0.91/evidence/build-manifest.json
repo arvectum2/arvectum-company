@@ -1,0 +1,51 @@
+{
+  "version": "0.91",
+  "status": "experimental; design signoff open",
+  "design": "open left end of the A/А crossbar as a single continuous outline",
+  "concept_source": "Golden-Wordmark-v0.21 approval, 2026-11-18",
+  "display_base": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.89/experimental/ArvectumGoldenStepDisplayPhiBeDraft089-Medium.otf",
+  "display_base_sha256": "96da8821c23ddb1e2a8e6bedb66d8403d91947b203a234ca30add56096d14f9f",
+  "inter_display": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepDisplayBaseDraft085-Medium.otf",
+  "inter_display_sha256": "281b70340ae56345642de3ce99a3e91ef73fdb3dbc63f9fc2e1fbfac658bf011",
+  "text_base": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepTextBaseDraft085-Regular.otf",
+  "text_base_sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+  "display_output": "experimental/ArvectumGoldenStepDisplayOpenADraft091-Medium.otf",
+  "display_output_sha256": "84e513d7559a18eed661b963e05e6123bea7af100a5a9846a09282b9cd49769e",
+  "phi": 1.618033988749895,
+  "modified_codepoints": [
+    "U+0041",
+    "U+0410"
+  ],
+  "parameters": {
+    "A": {
+      "name": "A",
+      "width": 1379,
+      "lsb": 16,
+      "original_full_bar": 601,
+      "retained_lower_bar": 371,
+      "retained_fraction": 0.6173044925124792,
+      "phi_target_fraction": 0.6180339887498948,
+      "open_gap_at_lower_bar": 230,
+      "cantilever_tip_x": 618,
+      "lower_bar_y": 387,
+      "counter_y": 576,
+      "outline_contours_before": 2,
+      "after": 1
+    },
+    "А": {
+      "name": "uni0410",
+      "width": 1379,
+      "lsb": 16,
+      "original_full_bar": 601,
+      "retained_lower_bar": 371,
+      "retained_fraction": 0.6173044925124792,
+      "phi_target_fraction": 0.6180339887498948,
+      "open_gap_at_lower_bar": 230,
+      "cantilever_tip_x": 618,
+      "lower_bar_y": 387,
+      "counter_y": 576,
+      "outline_contours_before": 2,
+      "after": 1
+    }
+  }
+}

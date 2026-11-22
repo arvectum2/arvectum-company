@@ -1,0 +1,12 @@
+{
+  "intent": "presentation-only alternative to font-only A/B",
+  "styles": {
+    "letter": "h1{font-size:29pt!important;line-height:1.10!important;letter-spacing:-.032em!important}\nh1::after{content:'';display:block;width:28mm;height:.9mm;background:#41B599;margin-top:5mm}\n",
+    "proposal": "h1{font-size:34pt!important;line-height:1.05!important;letter-spacing:-.035em!important}\nh1::after{content:'';display:block;width:22mm;height:1mm;background:#41B599;margin-top:5mm}\nh2{letter-spacing:-.02em}\n",
+    "mobile": ".hero h1{font-size:clamp(39px,9.5vw,69px)!important;line-height:1.06!important;letter-spacing:-.032em!important}\n.hero h1::after{content:'';display:block;width:76px;height:4px;background:#41B599;margin-top:23px}\n.content h2{letter-spacing:-.025em;line-height:1.12}\n"
+  },
+  "body_font_exact_inter": true,
+  "font_display_open_A": true,
+  "comparison_is_not_font_only": true,
+  "site_and_office_sources_unchanged": true
+}

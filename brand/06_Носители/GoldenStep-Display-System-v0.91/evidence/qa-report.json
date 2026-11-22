@@ -1,0 +1,186 @@
+{
+  "technical_status": "PASS",
+  "approval_status": "experiment, owner design release pending",
+  "font_only": {
+    "letter": {
+      "identical_html_except_display_font": true,
+      "same_height": true
+    },
+    "proposal": {
+      "identical_html_except_display_font": true,
+      "same_height": true
+    },
+    "mobile": {
+      "identical_html_except_display_font": true,
+      "same_height": true
+    }
+  },
+  "system_level": {
+    "letter": {
+      "heading_style_addition_only": true,
+      "height_baseline": 1173,
+      "height_system": 1173
+    },
+    "proposal": {
+      "heading_style_addition_only": true,
+      "height_baseline": 2323,
+      "height_system": 2323
+    },
+    "mobile": {
+      "heading_style_addition_only": true,
+      "height_baseline": 1831,
+      "height_system": 1820
+    }
+  },
+  "fonts": {
+    "inter-display": {
+      "num_glyphs": 2937,
+      "identical_source_outlines": true
+    },
+    "golden-display": {
+      "num_glyphs": 2937,
+      "identical_source_outlines": true
+    },
+    "inter-text": {
+      "num_glyphs": 2937,
+      "identical_source_outlines": true
+    },
+    "golden_vs_inter": {
+      "changed": [
+        "A",
+        "B",
+        "uni0410",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ],
+      "unchanged": 2928
+    }
+  },
+  "origins": {
+    "version": "0.91",
+    "intent": "A/B Inter Display vs one open-A Golden Step Display, Inter Text unchanged",
+    "approved_logo_source": "brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_RU.svg",
+    "approved_logo_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+    "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+    "token_source": "brand/06_Носители/GoldenStep-Carrier-Comparison-v0.90/tokens-inter.css",
+    "token_source_sha256": "7bd721b3a9fe9f8f5eebed6879c9c22c8c724eda3c7abe607a2a871f905b8b60",
+    "fonts": {
+      "inter-display": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepDisplayBaseDraft085-Medium.otf",
+        "source_sha256": "281b70340ae56345642de3ce99a3e91ef73fdb3dbc63f9fc2e1fbfac658bf011",
+        "output_sha256": "eb874bb1e42567db24f6061fe8a64391c2fbb0339c4e77d01904dae0e8ace845"
+      },
+      "golden-display": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.91/experimental/ArvectumGoldenStepDisplayOpenADraft091-Medium.otf",
+        "source_sha256": "84e513d7559a18eed661b963e05e6123bea7af100a5a9846a09282b9cd49769e",
+        "output_sha256": "6f4f9c6d97fc7864249bad1e8b519a579df496b08ba1ca24d2161f69ebfc8ea9"
+      },
+      "inter-text": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepTextBaseDraft085-Regular.otf",
+        "source_sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+        "output_sha256": "a8b38c14fcfd562a4079c7b6ac202bd7fdf947a248d175ca6023aed4f22a71d9"
+      }
+    },
+    "carriers": {
+      "letter": {
+        "reference": "brand/06_Носители/GoldenStep-Carrier-Comparison-v0.90/cases/letter/inter.html",
+        "reference_sha256": "e3e9db557e4c7589038e8a4b37fef957d2d48837c1cc2138e6137fde6313a597",
+        "replacement_headline": "<h1>Архитектура решений</h1>",
+        "test_only": true
+      },
+      "proposal": {
+        "reference": "brand/06_Носители/GoldenStep-Carrier-Comparison-v0.90/cases/proposal/inter.html",
+        "reference_sha256": "d403a6505a26edaa5a3a53e90e355df9aedc24822f6008d5549618a596624e44",
+        "replacement_headline": "<h1>АРХИТЕКТУРА<br>РЕШЕНИЙ.</h1>",
+        "test_only": true
+      },
+      "mobile": {
+        "reference": "brand/06_Носители/GoldenStep-Carrier-Comparison-v0.90/cases/mobile/inter.html",
+        "reference_sha256": "db114be56c4f032f9dc9f982d2cb46b96546eb78631cca1ca43152dc6d83b6f2",
+        "replacement_headline": "<h1>АРХИТЕКТУРА<br>РЕШЕНИЙ.</h1>",
+        "test_only": true
+      }
+    },
+    "copied_assets_not_authorized_for_production": true
+  },
+  "scope": "isolated design copies, no website or native templates",
+  "font_only_pixel_diff_full_image": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.00272,
+      "changed_pixels": 29
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.01332,
+      "changed_pixels": 142
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.00816,
+      "changed_pixels": 87
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.00966,
+      "changed_pixels": 69
+    }
+  },
+  "applied_system_pixel_diff_full_image": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 4.14625,
+      "changed_pixels": 44195
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 7.63042,
+      "changed_pixels": 81333
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.51515,
+      "changed_pixels": 5491
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 13.90735,
+      "changed_pixels": 99311
+    }
+  },
+  "open": [
+    "Human design and legibility judgement",
+    "Official company brand release",
+    "Commercial font licensing/attribution review",
+    "PDF/X printing preflight",
+    "Windows"
+  ]
+}

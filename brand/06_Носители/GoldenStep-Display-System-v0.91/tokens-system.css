@@ -1,0 +1,12 @@
+/* Golden Step Applications 0.73 — PROPOSAL ONLY, no release rights or production changes. */
+@font-face{font-family:GSDisplay;src:url('fonts/golden-display.woff2') format('woff2');font-weight:500;font-style:normal;font-display:block}
+@font-face{font-family:GSText;src:url('fonts/inter-text.woff2') format('woff2');font-weight:400;font-style:normal;font-display:block}
+:root{--navy:#001432;--graphite:#162737;--mint:#41B599;--dark-teal:#0B7468;--purple-proposal:#6B4A86;--gray:#687583;--light:#F5F8F9;--line:#D9E4E8;--white:#FFFFFF;--phi:1.61803398875;--font-display:GSDisplay,Arial,sans-serif;--font-text:GSText,Arial,sans-serif;}
+*,*::before,*::after{box-sizing:border-box}
+html{color-scheme:light;-webkit-text-size-adjust:100%}
+body{color:var(--navy);background:var(--white);font:400 16px/1.55 var(--font-text);margin:0;overflow-wrap:break-word}
+h1,h2,h3{font-family:var(--font-display);font-weight:500;line-height:1.18;overflow-wrap:anywhere;margin:0}
+h1{font-size:clamp(38px,5.5vw,68px)}h2{font-size:clamp(26px,3vw,42px)}h3{font-size:clamp(21px,2vw,28px)}
+a{color:var(--dark-teal)}.draft-note{font:11px/1.4 Arial,sans-serif;letter-spacing:.07em;color:var(--gray)}
+.mock-rule{height:2px;background:var(--navy);width:100%}.eyebrow{font:700 12px/1.4 Arial,sans-serif;letter-spacing:.13em;color:var(--dark-teal)}
+.mono{font-family:ui-monospace,Menlo,Consolas,monospace}
