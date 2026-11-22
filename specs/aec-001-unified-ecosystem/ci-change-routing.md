@@ -29,3 +29,11 @@ A separate draft PR #48 against Company main proposes GitVerse **main-only healt
 Check YAML syntax and static routing tests; verify the three new AEC workflow jobs succeed in PR #47, each preserves its distinct expected test/immutable pin, and the GitVerse mirror still works. Future standalone docs-only PRs should not invoke AEC unit/SDK/shadow tests, while independent Company governance checks continue according to their own paths. Maintain full tests before merging code that affects AEC behavior. Changes to required status-check protections need a separate approval; no main branch protection requirement was confirmed during this audit.
 
 Restore the former two-job combined draft CI at commit 88d2d353dc42d2b7bed47ec3abad30b4adce859b if post-change behavior is worse.
+
+## Live GitHub validation — 2026-11-22
+
+- PR #47 source commit 66f78620: AEC offline unit flow (run 45009238298), SDK two-consumer mock (45009238338) and CI-quality shadow (45009238336) each completed SUCCESS as separate workflows.
+- Temporary stacked, documentation-only PR #49 had one changed Markdown file, head a2991c816b5afe4ad075413c66c51606d611d04a, base AEC PR #47 branch. Only GitVerse Mirror Health (45009656445) and Mirror to GitVerse (45009652393) ran, both SUCCESS; no AEC unit/SDK/shadow workflow ran. PR #49 was closed WITHOUT MERGE afterward.
+- PR #49 inherited its base branch's older per-PR GitVerse health trigger. This is consistent with base-branch workflow rules and does not invalidate the AEC path-routing result.
+- Independent PR #48 was squash MERGED to main at c91b8309774503a02d5235adcb94ceec14b68ec4. On this main push, GitVerse mirror publication (45009585766) and main-health check (45009585809) both completed SUCCESS. Its first daily scheduled check has not yet been observed.
+- The broad 91-file AEC PR #47 remains DRAFT and UNMERGED. Passing AEC branch CI does not mean its new routing is already running in main. No Product CI, live application, queue or database was changed.

@@ -143,8 +143,8 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 - [x] AEC-001-090 Split AEC CI into three PR path-scoped offline, SDK mock and CI source-shadow flows with manual dispatch, read-only permissions, exact source pins and superseded PR run cancellation.
 - [x] AEC-001-091 Add 10 targeted routing/coverage tests and static YAML parsing. Remove the wildcard Markdown trigger from AEC CI. Product CI and mirror publishing are unchanged.
-- [ ] AEC-001-092 Check real GitHub Actions runs of all three flows on the cumulative-diff PR #47. Verify a *future separate* docs-only PR bypasses AEC tests (not provable on this existing mixed PR).
-- [ ] AEC-001-093 Review independent draft Company PR #48 for GitVerse main-health PR trigger reduction; approve/merge separately and verify post-merge main-push and daily health before marking complete.
+- [x] AEC-001-092 Confirm 3 scoped AEC CI flows SUCCESS (45009238298, 45009238338, 45009238336); separate docs-only PR #49 (one Markdown file) triggered zero AEC CI runs and was closed unmerged. PR #47 remains DRAFT.
+- [ ] AEC-001-093 PARTIAL: PR #48 reviewed and squash merged to main c91b830; main-push Mirror to GitVerse 45009585766 and GitVerse Mirror Health 45009585809 SUCCESS. Daily scheduled health run still unobserved.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

@@ -164,3 +164,7 @@ Post-change Actions verification: Company AEC run 45008219102 had 2 successful j
 ## AEC check-routing evidence — 2026-11-22
 
 GitHub PR path filters inspect a PR cumulative diff, making the former specs/aec-001-unified-ecosystem/** trigger too broad for documentation-only PRs. Offline unit, SDK mock and CI-source shadow are now separate code/contract scoped checks with manual dispatch; the unit suite and immutable source comparison are preserved. Existing broad PR #47 will still run all flows; future focused PRs allow meaningful skip routing. Separate draft PR #48 removes GitVerse main-health PR trigger, retaining main-push/scheduled/manual, without changing GitVerse publishing. See [ci-change-routing.md](ci-change-routing.md).
+
+## CI PR routing and mirror real evidence (2026-11-22)
+
+Three AEC workflows succeeded on draft PR #47 (runs 45009238298, 45009238338, 45009238336). Temporary standalone docs-only stacked PR #49 changed one Markdown document; no AEC check ran, only the inherited base branch's legacy GitVerse health and mirror publication, both successful; PR #49 closed without merge. PR #48 merged to main c91b830; actual main-push mirror publication and GitVerse main-health both passed. The daily health schedule is not yet verified. AEC PR #47 is 91 files and remains DRAFT, so its new routing has not been adopted in main. CP4 AMBER and CP6 RED. See ci-change-routing.md.

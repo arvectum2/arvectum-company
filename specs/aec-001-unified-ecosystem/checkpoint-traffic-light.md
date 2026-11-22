@@ -50,3 +50,7 @@ The first real consolidated Company Actions run (45008219102) passed both jobs a
 ## 2026-11-22 CP4 scoped CI routing candidate
 
 **CP4 AMBER:** Three distinct AEC PR/manual flows: offline unit, two-consumer SDK mock, two-Product CI source shadow. Arbitrary Markdown specs no longer match the AEC workflows. Existing large PR #47 contains cumulative code/SDK/CI diffs and will still run all three; future focused PRs should avoid irrelevant checks. Draft separate PR #48 moves GitVerse main-health from PR to main push + scheduled/manual, without altering branch/tag mirror publication. **CP6 RED** pending governance/real Product proof. See [ci-change-routing.md](ci-change-routing.md).
+
+## CI PR routing and mirror real evidence (2026-11-22)
+
+Three AEC workflows succeeded on draft PR #47 (runs 45009238298, 45009238338, 45009238336). Temporary standalone docs-only stacked PR #49 changed one Markdown document; no AEC check ran, only the inherited base branch's legacy GitVerse health and mirror publication, both successful; PR #49 closed without merge. PR #48 merged to main c91b830; actual main-push mirror publication and GitVerse main-health both passed. The daily health schedule is not yet verified. AEC PR #47 is 91 files and remains DRAFT, so its new routing has not been adopted in main. CP4 AMBER and CP6 RED. See ci-change-routing.md.

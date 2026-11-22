@@ -113,3 +113,7 @@ Real GitHub Actions run 45008219102 succeeded with both original verification fu
 ## PR-scoped CI routing candidate — 2026-11-22
 
 AEC-001 combined PR tests were separated into three independent path-scoped PR/manual checks to avoid re-running full unit, SDK or external source comparison for unrelated future small PR changes. The cumulative diff of draft PR #47 still matches them all. No Product pipeline or GitVerse mirror publication changed. Independent Company draft PR #48 proposes main-push + daily/manual GitVerse health instead of PR polling. See [ci-change-routing.md](ci-change-routing.md).
+
+## CI PR routing and mirror real evidence (2026-11-22)
+
+Three AEC workflows succeeded on draft PR #47 (runs 45009238298, 45009238338, 45009238336). Temporary standalone docs-only stacked PR #49 changed one Markdown document; no AEC check ran, only the inherited base branch's legacy GitVerse health and mirror publication, both successful; PR #49 closed without merge. PR #48 merged to main c91b830; actual main-push mirror publication and GitVerse main-health both passed. The daily health schedule is not yet verified. AEC PR #47 is 91 files and remains DRAFT, so its new routing has not been adopted in main. CP4 AMBER and CP6 RED. See ci-change-routing.md.
