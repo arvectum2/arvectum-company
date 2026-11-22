@@ -26,16 +26,18 @@ class MainGatePolicy(unittest.TestCase):
     def test_gate_runs_offline_aec_tests(self):
         self.assertIn("python3 -B -m unittest discover -s tests -p 'test_aec001*.py' -q",GATE)
         self.assertIn("test_company_main_gate_policy.py",GATE)
+        self.assertIn("test_build_project_sources_safety.py",GATE)
         self.assertIn("COMPANY-CONSTITUTION.md",GATE)
 
     def test_source_pack_never_pushes_directly_into_main(self):
         self.assertNotRegex(SOURCES,r"git push[^\n]*HEAD:main")
         self.assertIn("refs/heads/$branch",SOURCES)
-        self.assertIn("gh pr create --base main",SOURCES)
-        self.assertIn(" --draft ",SOURCES)
+        self.assertNotIn("gh pr create",SOURCES)
+        self.assertNotIn("gh pr merge",SOURCES)
+        self.assertIn("independent owner review and PR",SOURCES)
 
     def test_source_pack_does_not_auto_approve_or_merge(self):
-        self.assertIn("  pull-requests: write",SOURCES)
+        self.assertNotIn("  pull-requests: write",SOURCES)
         self.assertIn("  contents: write",SOURCES)
         self.assertNotRegex(SOURCES,r"\bgh pr (?:review|merge)\b")
         self.assertIn('  workflow_dispatch:',SOURCES)
@@ -46,9 +48,16 @@ class MainGatePolicy(unittest.TestCase):
         guard=SOURCES.index("Verify anonymous canonical OS source access")
         clone=SOURCES.index("Checkout canonical Arvectum OS")
         self.assertLess(guard,clone)
-        self.assertIn("git ls-remote --exit-code https://github.com/arvectum/arvectum-os.git",SOURCES)
-        self.assertIn("Owner approval of cross-repository read and public source scope is required",SOURCES)
+        self.assertIn("git ls-remote --exit-code https://github.com/arvectum2/arvectum-os.git",SOURCES)
+        self.assertIn("Public OS GitHub transport unavailable",SOURCES)
         self.assertIn("GIT_TERMINAL_PROMPT=0",SOURCES)
+
+    def test_source_pack_never_stages_or_writes_company_registry(self):
+        self.assertNotIn("--registry docs/CANONICAL-SOURCES.md",SOURCES)
+        self.assertNotIn("git add docs/project-sources docs/CANONICAL-SOURCES.md",SOURCES)
+        self.assertIn("git diff --exit-code -- docs/CANONICAL-SOURCES.md",SOURCES)
+        self.assertIn("git push origin \"HEAD:refs/heads/$branch\"",SOURCES)
+        self.assertNotRegex(SOURCES,r"(?m)^\s*gh pr create")
 
 if __name__=="__main__":
     unittest.main()
