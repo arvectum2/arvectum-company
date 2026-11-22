@@ -1,0 +1,100 @@
+name: AEC-001 SDK two-consumer mock contract
+
+on:
+  pull_request:
+    paths:
+      - 'tests/pilot/**'
+      - 'tools/aec001_compare_consumer_contract.py'
+      - 'tests/test_aec001_compare_consumer_contract.py'
+      - 'tools/aec001_sdk_surface.py'
+      - 'tests/test_aec001_sdk_surface.py'
+      - 'tests/test_aec001_sdk_private_reports.py'
+      - 'tools/aec001_private_output.py'
+      - '.github/workflows/aec001-sdk-ci.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: aec001-sdk-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  sdk-consumer-mock-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Pin Data Platform published Python SDK source v0.4.0
+        uses: actions/checkout@v4
+        with:
+          repository: arvectum2/data-platform
+          ref: d341731664bdc4bc6bb5e8fdeef3df00706c72bd
+          path: .aec-input/data-platform
+          persist-credentials: false
+      - name: Pin Arvectum Site JS SDK artifact source
+        uses: actions/checkout@v4
+        with:
+          repository: arvectum2/arvectum-site
+          ref: 98a5c217c264d0125783a4f2e8e4fec071d8275c
+          path: .aec-input/site
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Offline SDK source, comparison and private output tests
+        run: |
+          python3 -B -m unittest discover -s tests -p 'test_aec001_compare_consumer_contract.py' -v
+          python3 -B -m unittest discover -s tests -p 'test_aec001_sdk_surface.py' -v
+          python3 -B -m unittest discover -s tests -p 'test_aec001_sdk_private_reports.py' -v
+      - name: Install isolated mock-transport dependency
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir httpx==0.28.1
+      - name: Validate vendored artifact without running product scripts
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import hashlib
+          import tarfile
+          import os
+          p = Path('.aec-input/site/vendor/arvectum-data-platform-client-0.3.0.tgz')
+          sha = hashlib.sha256(p.read_bytes()).hexdigest()
+          if sha != '3300a992887c5cbf3bc832f2abed0c83d13600863620e9bb8728b58b23e5260c':
+              raise SystemExit('JS SDK archive checksum mismatch')
+          target = Path(os.environ['RUNNER_TEMP'])/'aec001-site-client.mjs'
+          with tarfile.open(p, 'r:gz') as archive:
+              member = archive.getmember('package/sdk/javascript/client.mjs')
+              if not member.isfile() or member.size > 100000:
+                  raise SystemExit('Invalid vendored JS SDK member')
+              target.write_bytes(archive.extractfile(member).read())
+          print('Site SDK v0.3.0 source verified')
+          PY
+      - name: Execute two real consumer SDKs with isolated HTTP mocks
+        run: |
+          set -eu
+          umask 077
+          export PYTHONPATH="$GITHUB_WORKSPACE/.aec-input/data-platform/sdk/python/src"
+          python3 tests/pilot/probe_python_consumer.py > "$RUNNER_TEMP/aec001-python.json"
+          node tests/pilot/probe_js_consumer.mjs "$RUNNER_TEMP/aec001-site-client.mjs" > "$RUNNER_TEMP/aec001-js.json"
+          python3 tools/aec001_compare_consumer_contract.py \
+            --python-result "$RUNNER_TEMP/aec001-python.json" \
+            --javascript-result "$RUNNER_TEMP/aec001-js.json" \
+            --output "$RUNNER_TEMP/aec001-sdk-comparison.json"
+          python3 - <<'CHECK'
+          import json,os,stat
+          from pathlib import Path
+          base=Path(os.environ["RUNNER_TEMP"])
+          for name in ("aec001-python.json","aec001-js.json","aec001-sdk-comparison.json"):
+              assert stat.S_IMODE((base/name).stat().st_mode)==0o600, name
+          report=json.loads((base/"aec001-sdk-comparison.json").read_text())
+          assert report["status"]=="SCOPED_EQUIVALENCE"
+          assert report["case_count"]==10 and report["matched"]==10
+          assert report["real_service_used"] is False
+          assert report["live_product_behavior_or_memory_proven"] is False
+          print("PRIVATE_SDK_MOCK_REPORT_VERIFIED 0600 10_cases no_live_service")
+          CHECK
