@@ -1,0 +1,105 @@
+{
+  "status": "PASS (mechanical only)",
+  "design_approved": false,
+  "styles": {
+    "Display": {
+      "modified_glyphs": [
+        "uni0417",
+        "uni0437"
+      ],
+      "unchanged_glyphs": 2935,
+      "codepoints": 2852,
+      "phi_dimensions": {
+        "З": {
+          "upper_flat": 68,
+          "lower_flat": 110,
+          "ratio": 1.6176470588235294,
+          "bridge_inset": 16
+        },
+        "з": {
+          "upper_flat": 49,
+          "lower_flat": 79,
+          "ratio": 1.6122448979591837,
+          "bridge_inset": 13
+        }
+      },
+      "raster_differences": {
+        "12": {
+          "from_inter": 49,
+          "from_v086": 22
+        },
+        "16": {
+          "from_inter": 74,
+          "from_v086": 27
+        },
+        "24": {
+          "from_inter": 113,
+          "from_v086": 43
+        },
+        "48": {
+          "from_inter": 250,
+          "from_v086": 83
+        },
+        "96": {
+          "from_inter": 423,
+          "from_v086": 183
+        }
+      },
+      "hmtx_gpos_gdef_gsub_cmap_os2": "byte-identical"
+    },
+    "Text": {
+      "modified_glyphs": [
+        "uni0417",
+        "uni0437"
+      ],
+      "unchanged_glyphs": 2935,
+      "codepoints": 2852,
+      "phi_dimensions": {
+        "З": {
+          "upper_flat": 67,
+          "lower_flat": 108,
+          "ratio": 1.6119402985074627,
+          "bridge_inset": 16
+        },
+        "з": {
+          "upper_flat": 48,
+          "lower_flat": 78,
+          "ratio": 1.625,
+          "bridge_inset": 13
+        }
+      },
+      "raster_differences": {
+        "12": {
+          "from_inter": 47,
+          "from_v086": 21
+        },
+        "16": {
+          "from_inter": 73,
+          "from_v086": 25
+        },
+        "24": {
+          "from_inter": 116,
+          "from_v086": 42
+        },
+        "48": {
+          "from_inter": 255,
+          "from_v086": 80
+        },
+        "96": {
+          "from_inter": 408,
+          "from_v086": 170
+        }
+      },
+      "hmtx_gpos_gdef_gsub_cmap_os2": "byte-identical"
+    }
+  },
+  "warnings": [
+    "66 Poppler messages (Type3 glyph bounding box; print preflight open)"
+  ],
+  "pdf": {
+    "pages": 4,
+    "vector_only": true,
+    "rendered_previews": 4,
+    "warnings": 66
+  }
+}
