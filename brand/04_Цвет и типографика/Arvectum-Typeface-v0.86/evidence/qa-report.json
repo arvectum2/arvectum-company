@@ -1,0 +1,39 @@
+{
+  "results": {
+    "Display": {
+      "changed_glyphs": [
+        "uni0417",
+        "uni0437"
+      ],
+      "untouched_glyph_count": 2935,
+      "unicode_positions": 2852,
+      "Z_vs_3_source_equal": true,
+      "Z_vs_3_candidate_distinct": true,
+      "changed_greyscale_pixels": {
+        "12": 49,
+        "16": 75,
+        "24": 111,
+        "48": 251,
+        "96": 445
+      }
+    },
+    "Text": {
+      "changed_glyphs": [
+        "uni0417",
+        "uni0437"
+      ],
+      "untouched_glyph_count": 2935,
+      "unicode_positions": 2852,
+      "Z_vs_3_source_equal": true,
+      "Z_vs_3_candidate_distinct": true,
+      "changed_greyscale_pixels": {
+        "12": 46,
+        "16": 72,
+        "24": 115,
+        "48": 258,
+        "96": 420
+      }
+    }
+  },
+  "status": "PASS"
+}

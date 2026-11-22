@@ -1,0 +1,74 @@
+{
+  "version": "0.86",
+  "status": "experimental / not approved",
+  "concept": "one restrained optical correction of original Inter bowl: flat top and bottom tangents; no other form modifications",
+  "source_version": "0.85",
+  "changed_codepoints": [
+    "U+0417",
+    "U+0437"
+  ],
+  "source_file_hashes": {
+    "Display": "281b70340ae56345642de3ce99a3e91ef73fdb3dbc63f9fc2e1fbfac658bf011",
+    "Text": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c"
+  },
+  "styles": {
+    "Display": {
+      "otf": "experimental/ArvectumGoldenStepDisplayArchFlatsDraft086-Medium.otf",
+      "source": "experimental/ArvectumGoldenStepDisplayBaseDraft085-Medium.otf",
+      "sha256": "b75fb5657927f84d76a3ea1e6a3e7f2e4990e79a578d497138def91142572c70",
+      "modified": {
+        "З": {
+          "name": "uni0417",
+          "advance": 1240,
+          "left_side_bearing": 88,
+          "top_span": 174,
+          "bottom_span": 174,
+          "top_y": 1514,
+          "bottom_y": -24,
+          "operation_count_original": 20,
+          "operation_count_proposed": 22
+        },
+        "з": {
+          "name": "uni0437",
+          "advance": 974,
+          "left_side_bearing": 66,
+          "top_span": 136,
+          "bottom_span": 136,
+          "top_y": 1079,
+          "bottom_y": -16,
+          "operation_count_original": 20,
+          "operation_count_proposed": 22
+        }
+      }
+    },
+    "Text": {
+      "otf": "experimental/ArvectumGoldenStepTextArchFlatsDraft086-Regular.otf",
+      "source": "experimental/ArvectumGoldenStepTextBaseDraft085-Regular.otf",
+      "sha256": "636a1c813b2558280b8e7bfc784b99ec8b387530203c3d7b5b6997c9abd273ad",
+      "modified": {
+        "З": {
+          "name": "uni0417",
+          "advance": 1226,
+          "left_side_bearing": 96,
+          "top_span": 172,
+          "bottom_span": 172,
+          "top_y": 1514,
+          "bottom_y": -24,
+          "operation_count_original": 20,
+          "operation_count_proposed": 22
+        },
+        "з": {
+          "name": "uni0437",
+          "advance": 954,
+          "left_side_bearing": 72,
+          "top_span": 134,
+          "bottom_span": 134,
+          "top_y": 1079,
+          "bottom_y": -16,
+          "operation_count_original": 20,
+          "operation_count_proposed": 22
+        }
+      }
+    }
+  }
+}

@@ -77,6 +77,13 @@ Updated 2026-11-21. A durable working-status document, not a revision of pinned 
 - Следующий шаг: оптическая оценка **оригинальных** Inter З/з относительно 3 при 12–48px; затем ровно одна аккуратная индивидуальная коррекция поверх Inter, без новых произвольных трёхсторонних наборов. Работа с другими буквами отдельно. Предыдущие версии и утверждённый логотип не менять.
 - Owner approval, коммерческая лицензия/атрибуция, текущее шрифтовое решение и выпуск — OPEN. Windows — DEFERRED.
 
+## Golden Step v0.86 — Inter-first З/з, один точечный кандидат
+- v0.85 взята за неизменяемую базу Inter 4.1; новая v0.86 меняет только З/з в каждом начертании: небольшие горизонтальные касательные сверху и снизу; цифра 3 не менялась.
+- По каждому начертанию 2935/2937 остальных глифов совпадают с источником; hmtx, GPOS, GDEF, GSUB, cmap, OS/2 совпадают. HarfBuzz PASS. На 12/16/24/48/96px растровые отличия есть в обоих вариантах.
+- Комплект: 2 OTF, 12 SVG (Inter vs Arvectum), исходные скрипты, JSON QA, 3-страничный векторный PDF, 3 визуальных JPG, лицензия OFL 1.1.
+- Оптический эффект небольшой и сам по себе не доказывает улучшения. Собственник не утвердил форму; пока это одна проверяемая итерация. Chrome Type3 PDF подсеты дают предупреждения Poppler bbox: печатный preflight открыт.
+- Вернуться к выбору З/з и затем развивать связанные В/в/B, Б/б, Р/р по отдельности, без серий произвольных вариантов. Windows и production не менялись.
+
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.
 2. Review v0.63 alternative З/д/л forms and high 3/З ambiguity across small pixel sizes; reject or choose explicit modifications.
