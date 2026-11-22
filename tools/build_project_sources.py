@@ -133,6 +133,24 @@ def render_bundle(
 
 
 
+
+def source_snapshot_content(text: str) -> str:
+    """Only ignore provenance lines in the snapshot header, not its sources.
+
+    An OS commit without changes to the 13 included source documents must
+    not create another public review branch or rewrite seven snapshots.
+    """
+    before, marker, included = text.partition("\n## Included canonical sources\n")
+    if not marker:
+        return text
+    lines=before.splitlines(keepends=True)
+    excluded=("Snapshot commit: ","Source commit timestamp: ")
+    for prefix in excluded:
+        if sum(line.startswith(prefix) for line in lines)!=1:
+            return text
+    return "".join(line for line in lines if not line.startswith(excluded)) + marker + included
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--os-repo", type=Path, required=True)
@@ -164,8 +182,11 @@ def main() -> None:
         if (output/filename).is_symlink():
             raise ValueError(f"source output symlink forbidden: {filename}")
     output.mkdir(parents=True, exist_ok=True)
+    modified=0
     for filename, body in rendered.items():
         target=output/filename
+        if target.is_file() and source_snapshot_content(target.read_text(encoding="utf-8")) == source_snapshot_content(body):
+            continue
         scratch=None
         try:
             with tempfile.NamedTemporaryFile(mode="w",encoding="utf-8",delete=False,
@@ -176,11 +197,13 @@ def main() -> None:
                 os.fsync(handle.fileno())
             os.replace(scratch,target)
             scratch=None
+            modified+=1
         finally:
             if scratch is not None:
                 scratch.unlink(missing_ok=True)
 
     print(f"Generated {len(GROUPS)} noncanonical OS source snapshots from {source_commit}")
+    print(f"Source snapshot files updated: {modified}")
     print("Company canonical registry: NOT MODIFIED")
 
 
