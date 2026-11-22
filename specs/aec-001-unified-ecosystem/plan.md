@@ -93,3 +93,7 @@ The dated [checkpoint roadmap](checkpoint-traffic-light.md) supersedes historica
 ## CP1/CP3 evidence refinement — 22 November 2026
 
 The [WAL installed image and restore-input review](wal-image-and-restore-input-review.md) recorded two current image/container ID matches, but no canonical Product source/Compose ownership evidence. Backup compressed inputs and free space were measured from metadata only; isolated target and uncompressed recovery capacity remain unknown. No new Company service source links or business readiness: CP1 AMBER 42/58, CP3 RED/BLOCKED.
+
+## Host control and Tender guard incident boundary — 2026-11-22
+
+The [host-controls and Tender guard review](host-controls-and-tender-guard-review.md) identifies local standalone scheduled scripts without an exact canonical Git object relation, and Tender's isolated GitHub-main parity warning. Treat these as CP1/CP2 amber provenance and Product-release policy tasks, not an automatic migration or service failure. Real backup restores are still blocked, CP3 red.

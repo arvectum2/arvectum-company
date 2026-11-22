@@ -46,3 +46,7 @@ One previously unresolved product-facing service now has an installed Python pac
 ## WAL images and real-backup storage preflight (metadata) — 22 November 2026
 
 The two source-unresolved Docker receivers have stable local container and image identities with observed pgvector PG17/PG16 tags but no Compose ownership labels or source Git mapping. They remain in the 16 unresolved services. Disk-metadata-only input sizing totals 6.38 MB (5 host dumps) and 1.60 GB (5 Docker dumps). Neither source-disk free capacity nor archive size is an approved isolated restoration or PITR acceptance. See wal-image-and-restore-input-review.md.
+
+## Local host guards and Tender drift — 2026-11-22
+
+Source origins remain unknown for host-backup, host-watchdog, weekly-maintenance and Tender drift guard; their four installed file blob IDs were absent from the 18 checked local Git stores. The Tender guard's last status is DRIFT_OR_DEGRADED due solely to GitHub main parity (14/15 guard checks passed). This is not independent Product health evidence and must not trigger deployment/cleanup. Source-linked total is still 42/58; see host-controls-and-tender-guard-review.md.

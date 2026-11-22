@@ -288,3 +288,30 @@ This is a one-shot Docker metadata-only scan; it records the local container/ima
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-restore-input-capacity-private.json"
 
 This reads only stat/directory and source-filesystem free-space metadata for already structurally reviewed generations. No dump payload is read; any stale or unsafe source fails closed. The report deliberately NEVER asserts adequate isolated target space, genuine backup recoverability, customer rights or approved RPO/RTO. See wal-image-and-restore-input-review.md.
+
+## Host controls and existing Tender Agent drift report (read-only)
+
+On Mac mini, derive the existing report location from the installed drift guard's static REPORT assignment **without executing the guard script**:
+
+    guard_report=$(python3 - <<'PY'
+    import ast
+    from pathlib import Path
+    file=Path.home()/".local/bin/tender-agent-backend-drift-guard.py"
+    tree=ast.parse(file.read_text())
+    report=next(Path(n.value.args[0].value) for n in tree.body
+                if isinstance(n,ast.Assign)
+                and any(isinstance(t,ast.Name) and t.id=="REPORT" for t in n.targets)
+                and isinstance(n.value,ast.Call))
+    print(report)
+    PY
+    )
+
+    python3 -B tools/aec001_host_control_review.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --stack "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-stack-matrix-private.json" \
+      --home "$HOME" \
+      --repo-root /Volumes/ArvectumSSD/Arvectum/repos \
+      --drift-report "$guard_report" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-host-controls-private.json"
+
+The one-shot tool scans four exact allowlisted launchd jobs, bounded installed source file hashes, current launchctl last-exit metadata, 18 accessible local Git object stores and a private boolean-only Tender guard report summary. It does **not** execute any scheduled job, read its logs/secrets, change source files, query the live application, or infer HEALTHY/backup restoration from exit 0. The output is private 0600. An exact local Git blob match is evidence only, not canonical Product authority. See host-controls-and-tender-guard-review.md.

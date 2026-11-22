@@ -118,6 +118,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-076 Identify accountable deployment source, exact immutable image provenance, license/SBOM, RU supply chain and replacement of two WAL receivers before operational adoption; do not repull/restart in audit.
 - [ ] AEC-001-077 Approve Product/tenant data scope, isolated target storage/compute, RPO/RTO and exact logical backup generation before any real restoration; derive uncompressed space, role/extension/DB rights and rollback from sanctioned evidence.
 
+## P1n — Host control provenance and Tender guard parity interpretation
+
+- [x] AEC-001-078 Inspect four installed host-control launchd schedules, current last-exit/runs, bounded SHA256/Git blob identities, and compare against 18 locally available Git object stores without executing scripts. No canonical Git source matches or new Company source links; 17 offline positive/negative tests.
+- [x] AEC-001-079 Interpret Tender Agent guard status from existing private structured report: DRIFT_OR_DEGRADED with 14/15 passed and only release_code_parity_with_github_main failed; active abbreviation equals local main and differs from GitHub main. No service-health PASS, code upgrade or source promotion.
+- [ ] AEC-001-080 Establish Product/Company ownership, canonical immutable source and controlled release for host-backup/watchdog/weekly maintenance and Tender guard; independently verify scheduling, retention and rollback before any live change.
+- [ ] AEC-001-081 Obtain Tender Agent Product decision on approved active release versus moving GitHub main, then fix alert policy through Product-governed change if current lag is intentional; never auto-deploy main or silence other failures.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

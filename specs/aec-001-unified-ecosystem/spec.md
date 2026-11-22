@@ -70,6 +70,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-025: Read-only local Docker container/image matching must reject drift from the prior immutable ID evidence while refusing to promote third-party image tags or repo digests into Product Git origin, PostgreSQL server compatibility, signed SBOM, health, physical basebackup or PITR claims.
 - FR-026: Actual compressed backup file-size and source filesystem capacity evidence must remain distinct from isolated restore target capacity, uncompressed storage requirements, customer/tenant rights, approved RPO/RTO and tested recovery. No customer file payload read during metadata preflight.
 
+- FR-027: Host-control provenance audits must read installed script bytes only for bounded, private hashing and compare exact Git objects against explicitly scoped local repositories; neither scheduled exit code nor file digest proves source ownership, executable health or backup restoration.
+- FR-028: Interpret a Product drift-guard structured report from exact failed check names without publishing private SHA values or silently changing the guard's status. A moving GitHub main parity difference must be flagged for Product review, never trigger automatic upgrade or conceal unrelated health/authentication failures.
+
 ## Success Criteria
 
 - SC-001: 19 initially accessible GitHub repositories reconciled, plus any newly discovered sources explicitly classified.
@@ -92,6 +95,8 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 
 - SC-018: Two WAL receiver containers have scoped current Docker ID/image ID/tag evidence matching the dated preserved snapshot; the remaining Company source-unresolved count stays unchanged and failed/moved containers are rejected.
 - SC-019: Five host and five Docker logical dumps have aggregate input size metadata without reading payload bytes or asserting actual restoration capacity, with negative tests for stale and unsafe filesystem evidence.
+
+- SC-020: Four Mac mini host-control launchd jobs are reviewed with installed artifact metadata, schedule and last-exit evidence, scoped Git object lookup and a strict Tender report diagnostic. Results fail closed on mismatched scripts, schedules, invalid guard schema and service result disagreement; no production action.
 
 ## Non-Goals
 
