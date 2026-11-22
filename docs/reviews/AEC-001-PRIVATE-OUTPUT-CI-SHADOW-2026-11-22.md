@@ -24,3 +24,5 @@ A single narrowly filtered Company PR CI job runs offline private evidence tests
 Passing means only that two pinned source workflows declare the same six ordered static quality categories in the supported text subset. It does not certify full YAML semantics, runtime CI equivalence, data sovereignty, current Product main parity, financial savings, or Organizational Authority.
 
 Rollback is isolated: close/revert this candidate PR. No production resources, Product CI, databases, queues or customer data are modified.
+
+The same real pinned-source CI invocation also writes its result into GitHub runner temporary storage and validates its file mode 0600, two-source identity count, and no-Product-execution flags. The full report is not uploaded or printed.

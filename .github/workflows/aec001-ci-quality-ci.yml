@@ -53,4 +53,17 @@ jobs:
           python3 -B tools/aec001_ci_quality_shadow.py \
             --contract specs/aec-001-unified-ecosystem/ci-quality-shadow-contract.json \
             --data-platform .aec-input/data-platform-ci \
-            --compliance .aec-input/compliance-ci
+            --compliance .aec-input/compliance-ci \
+            --output "$RUNNER_TEMP/aec001-ci-quality.json"
+          python3 - <<'CHECK'
+          import json,os,stat
+          from pathlib import Path
+          p=Path(os.environ["RUNNER_TEMP"])/"aec001-ci-quality.json"
+          assert stat.S_IMODE(p.stat().st_mode)==0o600, "private report permissions"
+          report=json.loads(p.read_text(encoding="utf-8"))
+          assert report["status"]=="TWO_CONSUMERS_MATCH_SHARED_STATIC_QUALITY_CHAIN"
+          assert len(report["consumers"])==2
+          assert report["product_ci_executed"] is False
+          assert report["product_workflow_modified"] is False
+          print("PRIVATE_REPORT_VERIFIED 0600 two_pinned_consumers no_product_execution")
+          CHECK
