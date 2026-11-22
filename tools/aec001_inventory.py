@@ -15,6 +15,7 @@ import re
 import subprocess
 import sys
 import tempfile
+from urllib.parse import urlsplit
 
 LANGUAGES = {".py":"Python",".swift":"Swift",".ts":"TypeScript",".tsx":"React TSX",
              ".js":"JavaScript",".jsx":"React JSX",".php":"PHP",".go":"Go",
@@ -31,20 +32,36 @@ MANIFEST_NAMES = {"pyproject.toml","package.json","requirements.txt","go.mod",
 def git(repo, *args):
     try:
         p = subprocess.run(["git", "-C", str(repo), *args], capture_output=True,
-                           check=False, timeout=15)
+                           check=False, timeout=15,
+                           env={**os.environ, "GIT_OPTIONAL_LOCKS": "0"})
         return p.stdout if p.returncode == 0 else b""
     except (OSError, subprocess.TimeoutExpired):
         return b""
 
 def identity(repo):
+    """Only recognize exact GitHub/GitVerse hosts, never lookalike domains."""
     url = git(repo,"remote","get-url","origin").decode("utf-8","replace").strip()
     if not url:
         url = git(repo,"remote","get-url","gitverse").decode("utf-8","replace").strip()
-    match = re.search(r"(?:github\.com|gitverse\.ru)[:/]([^?#]+)", url)
-    if not match:
+    remote_path=None
+    if "://" in url:
+        try:
+            from_url=urlsplit(url)
+            if (from_url.scheme.lower() in {"https","http","ssh","git"}
+                    and (from_url.hostname or "").lower() in {"github.com","gitverse.ru"}):
+                remote_path=from_url.path
+        except ValueError:
+            return "local:" + repo.name
+    else:
+        scp=re.fullmatch(r"(?:[^@/:]+@)?(github\.com|gitverse\.ru):([^?#]+)",url)
+        if scp:
+            remote_path=scp.group(2)
+    if remote_path is None:
         return "local:" + repo.name
-    path = match.group(1).removesuffix(".git").strip("/")
-    return path if path.count("/") >= 1 else "unresolved:" + repo.name
+    segments=remote_path.strip("/").removesuffix(".git").split("/")
+    if len(segments)!=2 or any(not re.fullmatch(r"[A-Za-z0-9_.-]+",v) for v in segments):
+        return "unresolved:" + repo.name
+    return "/".join(segments)
 
 def discover(roots):
     paths = {}
@@ -114,21 +131,28 @@ def worktree_overview(repo):
     }
 
 def write_private_report(path, payload):
-    """Atomically write 0600 metadata outside any Git checkout; reject symlinks.
+    """Atomically write 0600 metadata outside Git, refusing symlink escapes.
 
-    Inventory output may expose local repo identities/paths. It is private
-    evidence, not a publishable default or permission to inspect client repos.
+    Reject both the given lexical path and its resolved target; a path inside
+    Git may not become allowed simply because a parent symlink points outside.
     """
-    target=path.expanduser()
+    if not isinstance(payload,str):
+        raise TypeError("private inventory report must be text")
+    target=Path(path).expanduser()
     if not target.is_absolute():
         target=Path.cwd()/target
     if target.is_symlink():
         raise ValueError("refuse symlink output destination")
+    for parent in target.parents:
+        marker=parent/".git"
+        if marker.exists() or marker.is_symlink():
+            raise ValueError("private inventory report inside a Git checkout")
     target=target.resolve(strict=False)
     for parent in target.parents:
-        if (parent/".git").exists() or (parent/".git").is_symlink():
+        marker=parent/".git"
+        if marker.exists() or marker.is_symlink():
             raise ValueError("private inventory report inside a Git checkout")
-    target.parent.mkdir(parents=True,exist_ok=True)
+    target.parent.mkdir(parents=True,exist_ok=True,mode=0o700)
     tmp=None
     try:
         with tempfile.NamedTemporaryFile(mode="w",encoding="utf-8",

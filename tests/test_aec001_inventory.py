@@ -100,4 +100,70 @@ class PrivateReportSafetyTests(unittest.TestCase):
         discovered=mod.discover([self.base])
         self.assertEqual([p.name for p in discovered],["repo"])
 
+
+    def test_similar_untrusted_domains_cannot_spoof_identity(self):
+        for url in (
+            b"https://evilgithub.com/arvectum2/repo.git",
+            b"https://evilgitverse.ru/arvectum/repo.git",
+            b"https://github.com@evil.example/arvectum2/repo.git",
+            b"https://gitverse.ru.evil.example/arvectum/repo.git",
+        ):
+            with self.subTest(remote=url),mock.patch.object(mod,"git",return_value=url):
+                self.assertEqual(mod.identity(Path("fixture")),"local:fixture")
+
+    def test_ssh_remote_and_query_secret_handling(self):
+        cases=(
+            (b"git@github.com:arvectum2/arvectum-company.git", "arvectum2/arvectum-company"),
+            (b"ssh://git@gitverse.ru/arvectum/arvectum-company.git","arvectum/arvectum-company"),
+            (b"https://user:SECRET@github.com/arvectum2/repo.git?token=PRIVATE","arvectum2/repo"),
+        )
+        for url,expected in cases:
+            with self.subTest(remote=url),mock.patch.object(mod,"git",return_value=url):
+                self.assertEqual(mod.identity(Path("fixture")),expected)
+
+    def test_rejects_lexical_git_path_with_symlink_outside(self):
+        repo=self.base/"checkout"
+        repo.mkdir()
+        (repo/".git").mkdir()
+        external=self.base/"outside"
+        external.mkdir()
+        (repo/"alias").symlink_to(external,target_is_directory=True)
+        with self.assertRaisesRegex(ValueError,"Git checkout"):
+            mod.write_private_report(repo/"alias"/"report.json","private")
+        self.assertFalse((external/"report.json").exists())
+
+    def test_rejects_linked_worktree_marker_and_symlinked_git_marker(self):
+        repo=self.base/"linked"
+        repo.mkdir()
+        (repo/".git").write_text("gitdir: /placeholder")
+        with self.assertRaisesRegex(ValueError,"Git checkout"):
+            mod.write_private_report(repo/"report.json","private")
+        (repo/".git").unlink()
+        (repo/".git").symlink_to(self.base/"missing")
+        with self.assertRaisesRegex(ValueError,"Git checkout"):
+            mod.write_private_report(repo/"report.json","private")
+
+    def test_private_report_parent_directory_is_restricted(self):
+        import os
+        dest=self.base/"private"/"evidence.json"
+        mod.write_private_report(dest,"{}")
+        self.assertEqual(os.stat(dest.parent).st_mode & 0o777,0o700)
+
+
+
+    def test_git_calls_disable_optional_index_writes(self):
+        from unittest.mock import Mock
+        status=Mock(returncode=0,stdout=b"")
+        with mock.patch.object(mod.subprocess,"run",return_value=status) as invoked:
+            mod.git(Path("/fixture"),"status","--porcelain","--untracked-files=no")
+        kwargs=invoked.call_args.kwargs
+        self.assertEqual(kwargs["env"]["GIT_OPTIONAL_LOCKS"],"0")
+        self.assertEqual(invoked.call_args.args[0][-3:],
+                         ["status","--porcelain","--untracked-files=no"])
+
+    def test_invalid_remote_uri_does_not_abort_inventory(self):
+        with mock.patch.object(mod,"git",return_value=b"https://[invalid-git-url/repo"):
+            self.assertEqual(mod.identity(Path("fixture")),"local:fixture")
+
+
 if __name__=="__main__": unittest.main()
