@@ -91,6 +91,14 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-061 Capture bounded, private installed SHA-256 launcher/plist evidence for 15 unknown-source launchd entries and Docker image IDs for two unknown-source WAL containers, rejecting stale catalog/snapshots and replaced containers. Result: 15 plist + 12 script + 2 Docker IDs; no new Git links, health or ownership claims. Ten negative offline tests.
 - [ ] AEC-001-062 Resolve source/binary provenance and approved operators for high-risk unknown-source services, including temporary Museum PDF share, host guards, model and proxy gateways. Do not promote on-disk hashes to loaded-code/authority claims.
 
+## P1j — Source module and synthetic recovery evidence
+
+- [x] AEC-001-063 Prove installed proxy Python module byte-match to pinned Proxy Launcher v0.2.16 Git commit: 8/8, with 11 negative offline tests. Not loaded-code proof.
+- [x] AEC-001-064 Run TCP-disabled private synthetic PostgreSQL 18.7 dump/restore: 42/42 test records, checksum 903/903, cleaned up, with 11 offline safety tests. Not a real database restore.
+- [x] AEC-001-065 Refresh latest 2026-11-22 host and Docker backup metadata: five dumps each, structure only, not independently hashed or restored.
+- [ ] AEC-001-066 Establish approved Product/database/generation, tenant rights, isolated storage, RPO/RTO and accountable Principal before any real restore.
+- [ ] AEC-001-067 Verify proxy gateway loaded interpreter/module/dependencies, release authority, ingress/egress, authorization and fallback before production changes.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

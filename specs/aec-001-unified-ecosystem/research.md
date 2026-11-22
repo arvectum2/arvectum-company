@@ -124,3 +124,9 @@ Current launchctl PID and read-only TCP LISTEN evidence matched for the existing
 ## Installed artifact identifiers for 17 source-unresolved records — 2026-11-22
 
 A bounded one-shot checker recorded 15 installed launchd plist file SHA-256 hashes, 12 launcher script hashes and two current Docker WAL receiver container image IDs matched to the snapshotted prefixes. Three launchd entries had no script-file hint. **Git-source provenance remains 41/58, 17 unresolved, newly reconciled source identities zero**; no authentication, executable-loaded proof, backup/PITR or Product readiness follows. Private evidence file mode 0600; see [unresolved-artifact-baseline.md](unresolved-artifact-baseline.md).
+
+## Proxy modules and synthetic restore — 2026-11-22
+
+Installed proxy gateway free_gateway package: **8/8 Python modules** match pinned Proxy Launcher v0.2.16 commit 6799297bf1492d352ca9d78a0a49b2adf3345d2a, as well as local HEAD. This is an on-disk code provenance finding, not loaded-code/release or runtime-authorization proof; the catalog remains 41/58. See [proxy-module-provenance.md](proxy-module-provenance.md).
+
+A private Unix-socket-only PostgreSQL 18.7 synthetic fixture was dumped/restored: 42/42 test rows, primary-key sum 903/903, cleanup confirmed, no live database/dump/customer content accessed. The 2026-11-22 real backup metadata scan recorded five host and five Docker dump files, with only structural verification; **no real restoration**. See [synthetic-postgres-restore.md](synthetic-postgres-restore.md).

@@ -34,3 +34,7 @@ Three product-facing candidate services were sampled with current launchctl-PID 
 ## Installed artifact baseline — 22 November 2026
 
 An additional read-only snapshot produced 15 launchd plist digests, 12 on-disk script digests and image IDs for both WAL receiver containers. This creates an incident-change comparison baseline but **does not resolve any of the 17 Git/source identities**, load a running-code proof or approve an operator. See unresolved-artifact-baseline.md; zero changes to jobs, release pointers, stateful files or images.
+
+## Installed proxy and synthetic restore evidence — 22 November 2026
+
+The non-Git installed gateway package's 8/8 immediate .py files match exact Proxy Launcher v0.2.16 Git blobs. Catalog source link count remains 41/58 until process/authority reconciliation. Updated 2026-11-22 host and Docker backup structures have five dumps each; private synthetic 42-row logical restore passed. A real backup restore or PITR remains NOT VERIFIED. See proxy-module-provenance.md and synthetic-postgres-restore.md.

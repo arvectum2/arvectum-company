@@ -211,3 +211,28 @@ Run on demand using the same private snapshot and catalog (no separate scheduled
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-unresolved-artifacts-private.json"
 
 This hashes only installed bounded launchd plist/script files and inspects current Docker container/image IDs; it never reads WAL, secrets, customer files, process command arguments or environment. Missing, changed and replaced inputs fail closed. Exact on-disk hash **does not** prove Git source, currently loaded code, health, backup recovery or organizational authority. See unresolved-artifact-baseline.md.
+
+## Installed proxy Python modules versus pinned source Git blobs
+
+    python3 -B tools/aec001_directory_provenance.py \
+      --repo /Volumes/ArvectumSSD/Arvectum/repos/proxy-launcher \
+      --installed "$HOME/Library/Application Support/Arvectum/proxy-gateway/src/free_gateway" \
+      --commit 6799297bf1492d352ca9d78a0a49b2adf3345d2a \
+      --prefix free_gateway \
+      --expected-origin https://github.com/arvectum2/proxy-launcher.git \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-proxy-gateway-provenance-private.json"
+
+This only matches immediate Python files against a full pinned Git commit; it is not process-memory, dependency, ingress/egress or business authority evidence.
+
+## Disposable local synthetic PostgreSQL restoration
+
+Create an owner-only scratch report directory outside Git (once only):
+
+    mkdir -m 700 "$HOME/ArvectumSafe/ecosystem-audit-20261121/isolated-fixture"
+
+Then run **synthetic-only** on Mac mini:
+
+    python3 -B tools/aec001_synthetic_pg_restore.py --synthetic-only \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/isolated-fixture/aec001-synthetic-pg-restore-private.json"
+
+The fixture is isolated to a private Unix socket and cannot connect to real databases or accept actual backup files. A synthetic PASS does not mean real backup/PITR recovery has been validated.
