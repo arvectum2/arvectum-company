@@ -35,3 +35,17 @@ No Product CI, databases, backups, live Mac mini/host services, OS constitution 
 5. Review actual new draft source-pack PRs before merging; close an invalid generated PR, do not attribute Company/OS authority to it.
 
 Limits: passing static CI does not demonstrate legal compliance, release readiness, availability of GitVerse, Product behavior or financial benefit. This is a source-management safeguard proportionate to a one-admin, publicly readable Company repository.
+
+## Verified enforcement and remaining source-pack blocker — 22 November 2026
+
+**Verified actual state on Company main 17fa0f5ac03aa3a35007097ddb2c23e436f88d87:**
+
+- GitHub API branch protection: PRs required, **0 peer reviews** (one admin), administrators enforced, strict required GitHub Actions app 15368 context company-main-integrity, force-push and deletion disabled. This is not a substitute for explicit owner approval of material Company governance.
+- Main integrity gate run 45015079001 passed 5 policy tests, 75 existing AEC regression tests and canonical source/Python AST checks. GitVerse main mirror run 45015079003 and health run 45015079081 both succeeded.
+- One Markdown-only smoke PR #56 ran the required unfiltered gate 45015265708 successfully. The PR was **closed without merge** and its test branch removed.
+- Manual source-pack workflow run 45015280212 failed at anonymous clone of canonical Arvectum OS main. The GitHub API also returned HTTP 404 to current local credentials for arvectum/arvectum-os. This does not establish whether it was private, renamed or missing. **No OS materials were published or modified**.
+- Existing Company GitHub Actions secrets shown in names-only inspection were GitVerse-related. No OS read token was provisioned or copied. A prereq anonymous source-access check now fails closed with an explicit diagnostic before attempting the source clone.
+- The repository-wide GitHub Actions ability to create/approve PRs is **disabled** (can_approve_pull_request_reviews=false, default token read-only) after temporary evaluation, as no authorized cross-repo source is available and broad bot approval capability would violate least privilege. Automated source-pack draft PR publication remains BLOCKED.
+- To restore generator automation, the owner must separately approve the actual canonical OS read path, scope of content that may be published in this public Company repository and narrowly governed PR creation. Do not weaken protected main or publish private OS source via a workaround.
+
+This is observed operational evidence, not a new Company governance or OS decision. No Product CI or running service was changed.

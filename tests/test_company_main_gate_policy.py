@@ -42,5 +42,13 @@ class MainGatePolicy(unittest.TestCase):
         # Workflow's own code change must not trigger unattended PR automation.
         self.assertNotIn("      - '.github/workflows/build-project-sources.yml'",SOURCES)
 
+    def test_os_source_pack_fails_closed_before_clone(self):
+        guard=SOURCES.index("Verify anonymous canonical OS source access")
+        clone=SOURCES.index("Checkout canonical Arvectum OS")
+        self.assertLess(guard,clone)
+        self.assertIn("git ls-remote --exit-code https://github.com/arvectum/arvectum-os.git",SOURCES)
+        self.assertIn("Owner approval of cross-repository read and public source scope is required",SOURCES)
+        self.assertIn("GIT_TERMINAL_PROMPT=0",SOURCES)
+
 if __name__=="__main__":
     unittest.main()

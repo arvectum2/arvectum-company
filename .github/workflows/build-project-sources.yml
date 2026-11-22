@@ -28,6 +28,15 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Verify anonymous canonical OS source access (fail closed)
+        run: |
+          set -euo pipefail
+          export GIT_TERMINAL_PROMPT=0
+          if ! git ls-remote --exit-code https://github.com/arvectum/arvectum-os.git refs/heads/main >/dev/null 2>&1; then
+            echo "::error title=Arvectum OS source unavailable::Canonical OS Git main is not accessible. No source pack will be generated or published. Owner approval of cross-repository read and public source scope is required."
+            exit 2
+          fi
+
       - name: Checkout canonical Arvectum OS
         run: |
           set -euo pipefail
