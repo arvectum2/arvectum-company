@@ -1,0 +1,101 @@
+{
+  "version": "0.95",
+  "status": "EXPERIMENTAL, artistic approval OPEN",
+  "phi": 1.618033988749895,
+  "changed_glyphs": [
+    "uni0414",
+    "uni041B"
+  ],
+  "unchanged_inspected": [
+    "uni041F",
+    "uni0422",
+    "T"
+  ],
+  "interpretation": "Д/Л common roof wedge, П retained because cap thickness and shoulder anatomy already align",
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.94/experimental/ArvectumGoldenStepDisplayStrictStructuralDraft094-Medium.otf",
+      "source_sha256": "e99727a9e542b4c6164288cd5ff6917f4f0d6dceaa8b30b23531b678931e439f",
+      "output": "experimental/ArvectumGoldenStepDisplayRoofGeometryDraft095-Medium.otf",
+      "output_sha256": "b4c0403c91b0caeb264226f971d0a0303abf7b025da5ee21aa201401590150eb",
+      "glyphs": {
+        "Д": {
+          "glyph_name": "uni0414",
+          "advance_width": 1599,
+          "lsb": 48,
+          "upper_outer_x_before": 427,
+          "upper_outer_x_after": 510,
+          "upper_inner_x_before": 631,
+          "upper_inner_x_after": 691,
+          "right_inner_x": 1165,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 60,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 37,
+          "upper_wedge_to_shelf_ratio": 0.3818565400843882,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        },
+        "Л": {
+          "glyph_name": "uni041B",
+          "advance_width": 1458,
+          "lsb": 48,
+          "upper_outer_x_before": 377,
+          "upper_outer_x_after": 460,
+          "upper_inner_x_before": 581,
+          "upper_inner_x_after": 637,
+          "right_inner_x": 1100,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 56,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 35,
+          "upper_wedge_to_shelf_ratio": 0.38228941684665224,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.94/experimental/ArvectumGoldenStepTextStrictStructuralDraft094-Regular.otf",
+      "source_sha256": "f65f7c6aef6067c046304c53db76e94210e68c9c580c6e8b3c9a372d14ee5121",
+      "output": "experimental/ArvectumGoldenStepTextRoofGeometryDraft095-Regular.otf",
+      "output_sha256": "711bea6bf590813e8f31a22dc4af5cb531a37a63e01603f9325f247d63e41ded",
+      "glyphs": {
+        "Д": {
+          "glyph_name": "uni0414",
+          "advance_width": 1569,
+          "lsb": 50,
+          "upper_outer_x_before": 431,
+          "upper_outer_x_after": 514,
+          "upper_inner_x_before": 596,
+          "upper_inner_x_after": 697,
+          "right_inner_x": 1175,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 101,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 62,
+          "upper_wedge_to_shelf_ratio": 0.38284518828451886,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        },
+        "Л": {
+          "glyph_name": "uni041B",
+          "advance_width": 1446,
+          "lsb": 50,
+          "upper_outer_x_before": 385,
+          "upper_outer_x_after": 468,
+          "upper_inner_x_before": 549,
+          "upper_inner_x_after": 648,
+          "right_inner_x": 1118,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 99,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 61,
+          "upper_wedge_to_shelf_ratio": 0.3829787234042553,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        }
+      }
+    }
+  }
+}

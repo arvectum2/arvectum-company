@@ -1,0 +1,148 @@
+{
+  "status": "TECHNICAL PASS, no artistic owner approval",
+  "styles": {
+    "Display": {
+      "changed": [
+        "uni0414",
+        "uni041B"
+      ],
+      "unchanged": 2935,
+      "geometry": {
+        "Д": {
+          "glyph_name": "uni0414",
+          "advance_width": 1599,
+          "lsb": 48,
+          "upper_outer_x_before": 427,
+          "upper_outer_x_after": 510,
+          "upper_inner_x_before": 631,
+          "upper_inner_x_after": 691,
+          "right_inner_x": 1165,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 60,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 37,
+          "upper_wedge_to_shelf_ratio": 0.3818565400843882,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        },
+        "Л": {
+          "glyph_name": "uni041B",
+          "advance_width": 1458,
+          "lsb": 48,
+          "upper_outer_x_before": 377,
+          "upper_outer_x_after": 460,
+          "upper_inner_x_before": 581,
+          "upper_inner_x_after": 637,
+          "right_inner_x": 1100,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 56,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 35,
+          "upper_wedge_to_shelf_ratio": 0.38228941684665224,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        }
+      },
+      "raster_difference": {
+        "Д": {
+          "12": 27,
+          "14": 40,
+          "16": 42,
+          "18": 54,
+          "24": 64,
+          "32": 94,
+          "48": 156,
+          "64": 229,
+          "96": 414
+        },
+        "Л": {
+          "12": 30,
+          "14": 43,
+          "16": 44,
+          "18": 58,
+          "24": 72,
+          "32": 107,
+          "48": 175,
+          "64": 267,
+          "96": 486
+        }
+      },
+      "preserved_metrics_layout": true
+    },
+    "Text": {
+      "changed": [
+        "uni0414",
+        "uni041B"
+      ],
+      "unchanged": 2935,
+      "geometry": {
+        "Д": {
+          "glyph_name": "uni0414",
+          "advance_width": 1569,
+          "lsb": 50,
+          "upper_outer_x_before": 431,
+          "upper_outer_x_after": 514,
+          "upper_inner_x_before": 596,
+          "upper_inner_x_after": 697,
+          "right_inner_x": 1175,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 101,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 62,
+          "upper_wedge_to_shelf_ratio": 0.38284518828451886,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        },
+        "Л": {
+          "glyph_name": "uni041B",
+          "advance_width": 1446,
+          "lsb": 50,
+          "upper_outer_x_before": 385,
+          "upper_outer_x_after": 468,
+          "upper_inner_x_before": 549,
+          "upper_inner_x_after": 648,
+          "right_inner_x": 1118,
+          "outer_cap_dx": 83,
+          "inner_cap_dx": 99,
+          "outer_mid_dx": 51,
+          "inner_mid_dx": 61,
+          "upper_wedge_to_shelf_ratio": 0.3829787234042553,
+          "ratio_target": 0.38196601125010515,
+          "method": "upper roof wedge geometry + original cubic G1 handle continuity"
+        }
+      },
+      "raster_difference": {
+        "Д": {
+          "12": 25,
+          "14": 37,
+          "16": 42,
+          "18": 55,
+          "24": 78,
+          "32": 113,
+          "48": 170,
+          "64": 262,
+          "96": 486
+        },
+        "Л": {
+          "12": 29,
+          "14": 37,
+          "16": 46,
+          "18": 59,
+          "24": 88,
+          "32": 125,
+          "48": 200,
+          "64": 305,
+          "96": 584
+        }
+      },
+      "preserved_metrics_layout": true
+    }
+  },
+  "designer_decision": "П and T/Т inherited provisionally",
+  "pdf_pages": 4,
+  "open": [
+    "art approval",
+    "user legibility",
+    "print preflight"
+  ]
+}

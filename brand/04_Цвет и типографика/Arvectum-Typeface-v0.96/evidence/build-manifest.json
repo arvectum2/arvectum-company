@@ -1,0 +1,345 @@
+{
+  "version": "0.96",
+  "status": "EXPERIMENTAL, no owner optical approval",
+  "phi": 1.618033988749895,
+  "technique": "phi-derived cubic handle lengths on natural elliptical quadrant paths",
+  "scope": "O/О/o/о, C/С/c/с; digit zero unchanged, all original extrema and width preserved",
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.95/experimental/ArvectumGoldenStepDisplayRoofGeometryDraft095-Medium.otf",
+      "source_sha256": "b4c0403c91b0caeb264226f971d0a0303abf7b025da5ee21aa201401590150eb",
+      "output": "experimental/ArvectumGoldenStepDisplayPhiRoundDraft096-Medium.otf",
+      "output_sha256": "2561a25c138af29d4a7446e72341386122071603d786c3a75596da189419af43",
+      "glyphs": {
+        "O": {
+          "glyph": "O",
+          "width": 1533,
+          "lsb": 81,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            423,
+            424
+          ],
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handles": [
+            286,
+            286
+          ],
+          "inner_vertical_phi_handles": [
+            349,
+            350
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "О": {
+          "glyph": "uni041E",
+          "width": 1533,
+          "lsb": 81,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            423,
+            424
+          ],
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handles": [
+            286,
+            286
+          ],
+          "inner_vertical_phi_handles": [
+            349,
+            350
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "o": {
+          "glyph": "o",
+          "width": 1146,
+          "lsb": 67,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            313,
+            312
+          ],
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handles": [
+            180,
+            180
+          ],
+          "inner_vertical_phi_handles": [
+            227,
+            230
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "о": {
+          "glyph": "uni043E",
+          "width": 1146,
+          "lsb": 67,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            313,
+            312
+          ],
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handles": [
+            180,
+            180
+          ],
+          "inner_vertical_phi_handles": [
+            227,
+            230
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "C": {
+          "glyph": "C",
+          "width": 1482,
+          "lsb": 81,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 430,
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handle": 293,
+          "inner_vertical_phi_handles": [
+            349,
+            350
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "С": {
+          "glyph": "uni0421",
+          "width": 1482,
+          "lsb": 81,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 430,
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handle": 293,
+          "inner_vertical_phi_handles": [
+            349,
+            350
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "c": {
+          "glyph": "c",
+          "width": 1093,
+          "lsb": 67,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 311,
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handle": 180,
+          "inner_vertical_phi_handles": [
+            227,
+            230
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "с": {
+          "glyph": "uni0441",
+          "width": 1093,
+          "lsb": 67,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 311,
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handle": 180,
+          "inner_vertical_phi_handles": [
+            227,
+            230
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.95/experimental/ArvectumGoldenStepTextRoofGeometryDraft095-Regular.otf",
+      "source_sha256": "711bea6bf590813e8f31a22dc4af5cb531a37a63e01603f9325f247d63e41ded",
+      "output": "experimental/ArvectumGoldenStepTextPhiRoundDraft096-Regular.otf",
+      "output_sha256": "d7f1120b948923f7989d719f81c64d5c8514ab4083b118b6e41efc6ea2faa1e5",
+      "glyphs": {
+        "O": {
+          "glyph": "O",
+          "width": 1534,
+          "lsb": 90,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            418,
+            418
+          ],
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handles": [
+            307,
+            307
+          ],
+          "inner_vertical_phi_handles": [
+            371,
+            372
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "О": {
+          "glyph": "uni041E",
+          "width": 1534,
+          "lsb": 90,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            418,
+            418
+          ],
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handles": [
+            307,
+            307
+          ],
+          "inner_vertical_phi_handles": [
+            371,
+            372
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "o": {
+          "glyph": "o",
+          "width": 1124,
+          "lsb": 72,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            303,
+            303
+          ],
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handles": [
+            197,
+            197
+          ],
+          "inner_vertical_phi_handles": [
+            245,
+            247
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "о": {
+          "glyph": "uni043E",
+          "width": 1124,
+          "lsb": 72,
+          "family": "round closed bowl",
+          "outer_horizontal_phi_handles": [
+            303,
+            303
+          ],
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handles": [
+            197,
+            197
+          ],
+          "inner_vertical_phi_handles": [
+            245,
+            247
+          ],
+          "preserve": "all 8 extrema and original top/bottom/x advances"
+        },
+        "C": {
+          "glyph": "C",
+          "width": 1479,
+          "lsb": 90,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 426,
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handle": 315,
+          "inner_vertical_phi_handles": [
+            371,
+            372
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "С": {
+          "glyph": "uni0421",
+          "width": 1479,
+          "lsb": 90,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 426,
+          "outer_vertical_phi_handles": [
+            475,
+            476
+          ],
+          "inner_horizontal_phi_handle": 315,
+          "inner_vertical_phi_handles": [
+            371,
+            372
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "c": {
+          "glyph": "c",
+          "width": 1071,
+          "lsb": 72,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 303,
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handle": 197,
+          "inner_vertical_phi_handles": [
+            245,
+            247
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        },
+        "с": {
+          "glyph": "uni0441",
+          "width": 1071,
+          "lsb": 72,
+          "family": "round open bowl",
+          "outer_horizontal_phi_handle": 303,
+          "outer_vertical_phi_handles": [
+            340,
+            342
+          ],
+          "inner_horizontal_phi_handle": 197,
+          "inner_vertical_phi_handles": [
+            245,
+            247
+          ],
+          "preserve": "C/c right-side aperture and terminals untouched; all extrema unchanged"
+        }
+      }
+    }
+  }
+}

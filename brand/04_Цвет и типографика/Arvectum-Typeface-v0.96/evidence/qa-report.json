@@ -1,0 +1,357 @@
+{
+  "status": "PASS technical, visual/reader approval OPEN",
+  "styles": {
+    "Display": {
+      "changed_vs_v095": [
+        "C",
+        "O",
+        "c",
+        "o",
+        "uni041E",
+        "uni0421",
+        "uni043E",
+        "uni0441"
+      ],
+      "unchanged_vs_v095": 2929,
+      "cumulative_changed_vs_Inter": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "H",
+        "K",
+        "Kacyr",
+        "M",
+        "O",
+        "c",
+        "o",
+        "uni0410",
+        "uni0411",
+        "uni0412",
+        "uni0414",
+        "uni0415",
+        "uni0417",
+        "uni0418",
+        "uni041B",
+        "uni041C",
+        "uni041D",
+        "uni041E",
+        "uni0421",
+        "uni0431",
+        "uni0432",
+        "uni0437",
+        "uni043E",
+        "uni0441"
+      ],
+      "unchanged_vs_Inter": 2909,
+      "glyph_ink_area": {
+        "O": {
+          "old_area": 843579.85,
+          "new_area": 863627.05,
+          "ink_area_delta_pct": 2.3764,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "О": {
+          "old_area": 843579.85,
+          "new_area": 863627.05,
+          "ink_area_delta_pct": 2.3764,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "o": {
+          "old_area": 545921.95,
+          "new_area": 556596.7,
+          "ink_area_delta_pct": 1.9554,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "о": {
+          "old_area": 545921.95,
+          "new_area": 556596.7,
+          "ink_area_delta_pct": 1.9554,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "C": {
+          "old_area": 732271.1,
+          "new_area": 741430.25,
+          "ink_area_delta_pct": 1.2508,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "С": {
+          "old_area": 732271.1,
+          "new_area": 741430.25,
+          "ink_area_delta_pct": 1.2508,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "c": {
+          "old_area": 469094.05,
+          "new_area": 474835.9,
+          "ink_area_delta_pct": 1.224,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "с": {
+          "old_area": 469094.05,
+          "new_area": 474835.9,
+          "ink_area_delta_pct": 1.224,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        }
+      },
+      "raster_pixel_changes": {
+        "О": {
+          "12": 53,
+          "14": 71,
+          "16": 75,
+          "18": 99,
+          "24": 124,
+          "32": 172,
+          "48": 279,
+          "64": 321,
+          "96": 526
+        },
+        "С": {
+          "12": 52,
+          "14": 68,
+          "16": 71,
+          "18": 93,
+          "24": 119,
+          "32": 162,
+          "48": 250,
+          "64": 291,
+          "96": 440
+        },
+        "о": {
+          "12": 40,
+          "14": 51,
+          "16": 57,
+          "18": 70,
+          "24": 86,
+          "32": 112,
+          "48": 183,
+          "64": 209,
+          "96": 339
+        },
+        "с": {
+          "12": 36,
+          "14": 47,
+          "16": 54,
+          "18": 63,
+          "24": 77,
+          "32": 106,
+          "48": 173,
+          "64": 202,
+          "96": 323
+        },
+        "O": {
+          "12": 53,
+          "14": 71,
+          "16": 75,
+          "18": 99,
+          "24": 124,
+          "32": 172,
+          "48": 279,
+          "64": 321,
+          "96": 526
+        },
+        "0": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "64": 0,
+          "96": 0
+        }
+      },
+      "unchanged_digit_zero": true,
+      "metrics_layout_same": true
+    },
+    "Text": {
+      "changed_vs_v095": [
+        "C",
+        "O",
+        "c",
+        "o",
+        "uni041E",
+        "uni0421",
+        "uni043E",
+        "uni0441"
+      ],
+      "unchanged_vs_v095": 2929,
+      "cumulative_changed_vs_Inter": [
+        "A",
+        "B",
+        "C",
+        "E",
+        "H",
+        "K",
+        "Kacyr",
+        "M",
+        "O",
+        "c",
+        "o",
+        "uni0410",
+        "uni0411",
+        "uni0412",
+        "uni0414",
+        "uni0415",
+        "uni0417",
+        "uni0418",
+        "uni041B",
+        "uni041C",
+        "uni041D",
+        "uni041E",
+        "uni0421",
+        "uni0431",
+        "uni0432",
+        "uni0437",
+        "uni043E",
+        "uni0441"
+      ],
+      "unchanged_vs_Inter": 2909,
+      "glyph_ink_area": {
+        "O": {
+          "old_area": 703035.9,
+          "new_area": 722062.5,
+          "ink_area_delta_pct": 2.7063,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "О": {
+          "old_area": 703035.9,
+          "new_area": 722062.5,
+          "ink_area_delta_pct": 2.7063,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "o": {
+          "old_area": 456788.55,
+          "new_area": 468169.8,
+          "ink_area_delta_pct": 2.4916,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "о": {
+          "old_area": 456788.55,
+          "new_area": 468169.8,
+          "ink_area_delta_pct": 2.4916,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "C": {
+          "old_area": 609032.2,
+          "new_area": 617132.2,
+          "ink_area_delta_pct": 1.33,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "С": {
+          "old_area": 609032.2,
+          "new_area": 617132.2,
+          "ink_area_delta_pct": 1.33,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "c": {
+          "old_area": 390384.8,
+          "new_area": 396140.9,
+          "ink_area_delta_pct": 1.4745,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        },
+        "с": {
+          "old_area": 390384.8,
+          "new_area": 396140.9,
+          "ink_area_delta_pct": 1.4745,
+          "conserved_bbox": true,
+          "same_curve_anchors": true
+        }
+      },
+      "raster_pixel_changes": {
+        "О": {
+          "12": 50,
+          "14": 71,
+          "16": 69,
+          "18": 102,
+          "24": 120,
+          "32": 170,
+          "48": 299,
+          "64": 332,
+          "96": 549
+        },
+        "С": {
+          "12": 47,
+          "14": 70,
+          "16": 65,
+          "18": 94,
+          "24": 115,
+          "32": 162,
+          "48": 261,
+          "64": 305,
+          "96": 449
+        },
+        "о": {
+          "12": 39,
+          "14": 47,
+          "16": 56,
+          "18": 67,
+          "24": 93,
+          "32": 107,
+          "48": 186,
+          "64": 216,
+          "96": 339
+        },
+        "с": {
+          "12": 35,
+          "14": 45,
+          "16": 48,
+          "18": 63,
+          "24": 85,
+          "32": 97,
+          "48": 174,
+          "64": 204,
+          "96": 316
+        },
+        "O": {
+          "12": 50,
+          "14": 71,
+          "16": 69,
+          "18": 102,
+          "24": 120,
+          "32": 170,
+          "48": 299,
+          "64": 332,
+          "96": 549
+        },
+        "0": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "64": 0,
+          "96": 0
+        }
+      },
+      "unchanged_digit_zero": true,
+      "metrics_layout_same": true
+    }
+  },
+  "phi": 1.618033988749895,
+  "pdf_pages": 5,
+  "open": [
+    "human optical/reading study",
+    "legal name/OFL release",
+    "printing PDF/X",
+    "Windows"
+  ]
+}

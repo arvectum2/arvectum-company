@@ -1,0 +1,69 @@
+{
+  "status": "PASS mechanical A/B, not independent legibility or production signoff",
+  "cases": {
+    "letter": {
+      "width": 1160,
+      "height": 1173,
+      "text_length": 650,
+      "typography_only": true,
+      "full_image_pixel_differences": {
+        "letter-page-1": 0.05526
+      }
+    },
+    "proposal": {
+      "width": 1160,
+      "height": 2323,
+      "text_length": 1567,
+      "typography_only": true,
+      "full_image_pixel_differences": {
+        "proposal-page-1": 0.06258,
+        "proposal-page-2": 0.09476
+      }
+    },
+    "mobile": {
+      "width": 390,
+      "height": 1831,
+      "text_length": 712,
+      "typography_only": true,
+      "full_image_pixel_differences": {
+        "mobile": 0.03179
+      }
+    }
+  },
+  "pixel_deltas_full_image": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.05526,
+      "changed_pixels": 589
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.06258,
+      "changed_pixels": 667
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.09476,
+      "changed_pixels": 1010
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.03179,
+      "changed_pixels": 227
+    }
+  },
+  "source_font_contour_match": true,
+  "safety_boundary": "local draft only; no site or real customer modification"
+}

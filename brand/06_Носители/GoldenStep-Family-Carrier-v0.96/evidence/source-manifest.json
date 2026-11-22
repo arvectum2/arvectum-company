@@ -1,0 +1,46 @@
+{
+  "scope": "Offline typography only, no live site or real customer artifacts",
+  "styles": {
+    "old094-display": {
+      "otf_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.94/experimental/ArvectumGoldenStepDisplayStrictStructuralDraft094-Medium.otf",
+      "source_sha256": "e99727a9e542b4c6164288cd5ff6917f4f0d6dceaa8b30b23531b678931e439f",
+      "woff2_sha256": "01aa3f25f2955f17b7cd6376ca709f5d5652c8dacbbe446c5478564a60fef558"
+    },
+    "old094-text": {
+      "otf_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.94/experimental/ArvectumGoldenStepTextStrictStructuralDraft094-Regular.otf",
+      "source_sha256": "f65f7c6aef6067c046304c53db76e94210e68c9c580c6e8b3c9a372d14ee5121",
+      "woff2_sha256": "fd93d4bc2ab55baf472aace2d2052959e31f0f0fb3a0115a0900ea165032a7ce"
+    },
+    "new096-display": {
+      "otf_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepDisplayPhiRoundDraft096-Medium.otf",
+      "source_sha256": "2561a25c138af29d4a7446e72341386122071603d786c3a75596da189419af43",
+      "woff2_sha256": "7c89dd95d6b8b42f9c0937f4564d0c20969a846310b2f0f6fa4bbe50c49f3c9a"
+    },
+    "new096-text": {
+      "otf_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepTextPhiRoundDraft096-Regular.otf",
+      "source_sha256": "d7f1120b948923f7989d719f81c64d5c8514ab4083b118b6e41efc6ea2faa1e5",
+      "woff2_sha256": "26a2016c395609487677219ef83103dc367c91cd35f67267e43a8c93a58883b6"
+    }
+  },
+  "carriers": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Family-Review-v0.92/cases/letter/new092.html",
+      "source_sha256": "6a4e045ba46cb14590b9af08d819a2457f41868f3338837c060486cc2956ce00"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Family-Review-v0.92/cases/proposal/new092.html",
+      "source_sha256": "c5bda4c1c6e8e7cf8412da35d1848deac93a8ea11dc8037e8784452d24248ec0"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Family-Review-v0.92/cases/mobile/new092.html",
+      "source_sha256": "64316c1b3568be03e68fe4d9e250502c6e15a1e1c3a2c4564cfc953d34e47c80"
+    }
+  },
+  "approved_wordmark_svg_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+  "base_tokens_sha256": "6652d618395e75869d701fac20f3dffb28c1d5260a5da88c1508c84e42fd3e82",
+  "variants": [
+    "old094",
+    "new096"
+  ]
+}
