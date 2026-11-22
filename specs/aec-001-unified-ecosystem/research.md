@@ -134,3 +134,7 @@ A private Unix-socket-only PostgreSQL 18.7 synthetic fixture was dumped/restored
 ## Live PID/CWD and pinned installed proxy package reconciliation — 2026-11-22
 
 A second one-shot read-only attestation connects the current launchd proxy PID and observed lsof CWD with all **8/8** installed Python module Git blob matches at pinned Proxy Launcher v0.2.16. The optional strict candidate catalog importer now links **42/58** observed Mac mini entries to source identity (up from 41), leaving **16 unresolved**, with no new Product owner, loaded process code, health, RPO/RTO or Company authority claims. No proxy calls or credential reading occurred. See [proxy-runtime-reconciliation.md](proxy-runtime-reconciliation.md).
+
+## Museum temporary PDF exposure/expiry — 2026-11-22
+
+A read-only AST/PID-matched launchctl/lsof sample corroborated the current *installed* script's 72-hour timer and three allowlisted filenames with a local TCP 127.0.0.1:8910 listener. No self.headers access was observed in the Python HTTP handler; upstream auth/forwarding, loaded code, actual customer delivery and rights remain **UNKNOWN**. Expected stop near 22 November 14:46 +03 if the process has not restarted. No service change/customer-file/HTTP/log access. Twelve offline tests. See [checkpoint-traffic-light.md](checkpoint-traffic-light.md).

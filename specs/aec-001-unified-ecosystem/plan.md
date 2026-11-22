@@ -85,3 +85,7 @@ After exact source-copy review the catalog maps 41/58 script sources. The remain
 ## WAL retention and recovery policy decision (not automatically implemented)
 
 An offline auditor proves local WAL filename-range continuity only and explicitly blocks PITR acceptance when the observed backup artifacts are logical pg_dump files without independently verified compatible physical base backup. Observed WAL allocation is about 39.7 GiB across the two receivers; repeated evidence is needed for retention/capacity forecasts. See wal-pitr-recovery-gate.md. Next safe business step is to define owner-approved RPO/RTO and, after separate authorization, test an isolated logical dump restore before deciding if physical PITR justifies the cost. No deletion, replication slot change or new background monitor is authorized.
+
+## Current checkpoint traffic lights — 22 November 2026
+
+The dated [checkpoint roadmap](checkpoint-traffic-light.md) supersedes historical numeric source-link counts in earlier sections without rewriting prior evidence: **42/58 source-linked**, **16 unresolved**. CP0 GREEN; CP1/CP2/CP4/CP5 AMBER; CP3/CP6/CP7 RED/BLOCKED. Temporary Museum PDF-share source/loopback evidence is not authorization or customer reachability; real PostgreSQL restoration and PITR remain unverified. Product/Company decisions require explicit acceptance and authority.

@@ -104,6 +104,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-068 Link proxy gateway's pinned 8/8 Python module file proof to current launchctl PID and lsof CWD for strict derived source reconciliation; source mapped 41/58 -> 42/58, remaining unknown 16. Twenty-one offline fixture tests; no loaded-code/health/authority promotion.
 - [ ] AEC-001-069 Reconcile remaining sixteen source-unresolved records, especially stateful WAL, temporary customer file share and host guards; retain separate evidence for Product owner and service health. No production code/restart/cleanup.
 
+## P1l — Temporary customer share and dated checkpoint map
+
+- [x] AEC-001-070 Confirm installed Museum share script's static three-file/72-hour handler and current PID-matched local 127.0.0.1:8910 listener; no customer files, HTTP links or logs, no external-tunnel or loaded-code claim. Twelve offline tests.
+- [x] AEC-001-071 Record dated eight-checkpoint traffic-light roadmap distinguishing engineering evidence and Product/business approvals. Draft only.
+- [ ] AEC-001-072 Verify whether temporary PDF distribution is an active client obligation, authorized forwarding and access; no extension/restart without accountable approval.
+- [ ] AEC-001-073 Approve specific real PostgreSQL backup/database, tenant rights, isolated restoration environment and RPO/RTO before any real restore, separately from synthetic PASS.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

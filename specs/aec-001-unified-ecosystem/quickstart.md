@@ -259,3 +259,13 @@ Derive a **new private candidate catalog file**, preserving the old 41/58 baseli
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-proxy-reconciled-private.json"
 
 Expected for this dated snapshot: 58 observations, **42 source relationships**, 16 unresolved; Product owner, loaded code and health remain UNKNOWN. Never automatically merge this into Company/OS authority or add a second Source Watch scheduler. See proxy-runtime-reconciliation.md.
+
+## One-shot local review of the temporary Museum PDF share
+
+    python3 -B tools/aec001_ephemeral_share_audit.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --catalog "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-service-catalog-proxy-reconciled-private.json" \
+      --script "$HOME/Library/Caches/Arvectum/MuseumBreadExports_20261103/share_server.py" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-museum-ephemeral-share-private.json"
+
+This samples AST/static code, launchd PID and local listening sockets without reading customer PDFs, filenames, logs, HTTP links, credentials or runtime state. Temporary local scope does not prove upstream authentication. No service restart or extension is permitted. See checkpoint-traffic-light.md.
