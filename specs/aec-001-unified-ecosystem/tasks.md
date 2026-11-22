@@ -139,6 +139,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [x] AEC-001-088 Compare first Company pre/post GitHub Actions runs: 45007572330 vs 45008219102. **3→2 jobs, 30→26 summed job-seconds, 15→17 wall seconds;** both jobs, two pinned source checkout steps and shadow checker succeeded. No demonstrated billable-dollar, latency or labor saving.
 - [ ] AEC-001-089 Validate durable savings across repeated AEC CI runs and failure-path visibility; rollback the two-job Company-only candidate if critical path or detection worsens materially. Do not adopt shared Product workflow without separate delegated approvals and economics evidence.
 
+## P1q — Reduce unnecessary PR checks (draft routing)
+
+- [x] AEC-001-090 Split AEC CI into three PR path-scoped offline, SDK mock and CI source-shadow flows with manual dispatch, read-only permissions, exact source pins and superseded PR run cancellation.
+- [x] AEC-001-091 Add 10 targeted routing/coverage tests and static YAML parsing. Remove the wildcard Markdown trigger from AEC CI. Product CI and mirror publishing are unchanged.
+- [ ] AEC-001-092 Check real GitHub Actions runs of all three flows on the cumulative-diff PR #47. Verify a *future separate* docs-only PR bypasses AEC tests (not provable on this existing mixed PR).
+- [ ] AEC-001-093 Review independent draft Company PR #48 for GitVerse main-health PR trigger reduction; approve/merge separately and verify post-merge main-push and daily health before marking complete.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

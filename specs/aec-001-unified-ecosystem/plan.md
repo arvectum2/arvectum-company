@@ -109,3 +109,7 @@ Read-only GitHub Actions API baseline from 8 completed runs each: Data Platform 
 ## CP4 follow-up evidence: Company two-job CI result
 
 Real GitHub Actions run 45008219102 succeeded with both original verification functions preserved and an aggregate job duration reduction 30→26s versus prior run 45007572330; provider wall duration increased 15→17s. This is insufficient to prove reduced paid CI expense, owner work or generic cross-product pipeline value. Candidate remains in draft PR; repeated-run and failure-mode regression gate AEC-001-089 is open.
+
+## PR-scoped CI routing candidate — 2026-11-22
+
+AEC-001 combined PR tests were separated into three independent path-scoped PR/manual checks to avoid re-running full unit, SDK or external source comparison for unrelated future small PR changes. The cumulative diff of draft PR #47 still matches them all. No Product pipeline or GitVerse mirror publication changed. Independent Company draft PR #48 proposes main-push + daily/manual GitVerse health instead of PR polling. See [ci-change-routing.md](ci-change-routing.md).

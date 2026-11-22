@@ -1,16 +1,20 @@
-name: AEC-001 read-only audit candidate
+name: AEC-001 offline unit and policy tests
 
 on:
   pull_request:
     paths:
       - 'tools/aec001_*.py'
       - 'tests/test_aec001_*.py'
-      - 'tests/pilot/**'
-      - 'specs/aec-001-unified-ecosystem/**'
-      - '.github/workflows/aec001-audit-ci.yml'
+      - 'specs/aec-001-unified-ecosystem/*.json'
+      - '.github/workflows/aec001-*.yml'
+  workflow_dispatch:
 
 permissions:
   contents: read
+
+concurrency:
+  group: aec001-unit-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   offline-tests:
@@ -34,88 +38,3 @@ jobs:
           for file in sorted(Path('tools').glob('aec001_*.py')):
               ast.parse(file.read_text(encoding='utf-8'), filename=str(file))
           PY
-
-      - name: Pin Data Platform CI source
-        if: ${{ !cancelled() }}
-        uses: actions/checkout@v4
-        with:
-          repository: arvectum2/data-platform
-          ref: b6a5755e6f86a2c7f07bc82c2be005aa929faf0c
-          path: .aec-input/data-platform-ci
-          persist-credentials: false
-      - name: Pin Compliance CI source
-        if: ${{ !cancelled() }}
-        uses: actions/checkout@v4
-        with:
-          repository: arvectum2/compliance
-          ref: fce41cc06109a651b6741291f30850d9f16d56c1
-          path: .aec-input/compliance-ci
-          persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - name: Characterize two unmodified Python quality workflows
-        if: ${{ !cancelled() }}
-        run: |
-          python3 -B tools/aec001_ci_quality_shadow.py \
-            --contract specs/aec-001-unified-ecosystem/ci-quality-shadow-contract.json \
-            --data-platform .aec-input/data-platform-ci \
-            --compliance .aec-input/compliance-ci
-
-  sdk-consumer-mock-pilot:
-    runs-on: ubuntu-latest
-    timeout-minutes: 8
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          persist-credentials: false
-      - name: Pin Data Platform published Python SDK source v0.4.0
-        uses: actions/checkout@v4
-        with:
-          repository: arvectum2/data-platform
-          ref: d341731664bdc4bc6bb5e8fdeef3df00706c72bd
-          path: .aec-input/data-platform
-          persist-credentials: false
-      - name: Pin Arvectum Site JS SDK artifact source
-        uses: actions/checkout@v4
-        with:
-          repository: arvectum2/arvectum-site
-          ref: 98a5c217c264d0125783a4f2e8e4fec071d8275c
-          path: .aec-input/site
-          persist-credentials: false
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-      - name: Install isolated mock-transport dependency
-        run: python3 -m pip install --disable-pip-version-check --no-cache-dir httpx==0.28.1
-      - name: Validate vendored artifact without running product scripts
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import hashlib
-          import tarfile
-          import os
-          p = Path('.aec-input/site/vendor/arvectum-data-platform-client-0.3.0.tgz')
-          sha = hashlib.sha256(p.read_bytes()).hexdigest()
-          if sha != '3300a992887c5cbf3bc832f2abed0c83d13600863620e9bb8728b58b23e5260c':
-              raise SystemExit('JS SDK archive checksum mismatch')
-          target = Path(os.environ['RUNNER_TEMP'])/'aec001-site-client.mjs'
-          with tarfile.open(p, 'r:gz') as archive:
-              member = archive.getmember('package/sdk/javascript/client.mjs')
-              if not member.isfile() or member.size > 100000:
-                  raise SystemExit('Invalid vendored JS SDK member')
-              target.write_bytes(archive.extractfile(member).read())
-          print('Site SDK v0.3.0 source verified')
-          PY
-      - name: Execute two real consumer SDKs with isolated HTTP mocks
-        run: |
-          set -eu
-          export PYTHONPATH="$GITHUB_WORKSPACE/.aec-input/data-platform/sdk/python/src"
-          python3 tests/pilot/probe_python_consumer.py > "$RUNNER_TEMP/aec001-python.json"
-          node tests/pilot/probe_js_consumer.mjs "$RUNNER_TEMP/aec001-site-client.mjs" > "$RUNNER_TEMP/aec001-js.json"
-          python3 tools/aec001_compare_consumer_contract.py \
-            --python-result "$RUNNER_TEMP/aec001-python.json" \
-            --javascript-result "$RUNNER_TEMP/aec001-js.json"

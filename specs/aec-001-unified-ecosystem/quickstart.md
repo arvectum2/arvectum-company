@@ -348,3 +348,12 @@ The candidate .github/workflows/aec001-audit-ci.yml has a PR-only job retrieving
       --limit 8
 
 Only preapproved repo/workflow/branch names are queried through authenticated gh api GET, reading run/job/timing metadata (no logs or secrets). Source evidence remains private 0600; job-seconds differ from run wall time. Reported API billable_ms may be zero without proving invoiced $0. The Company shadow source comparison is now an explicit series of steps in the existing offline-tests job, not a third runner job. See ci-cost-and-job-consolidation.md.
+
+## AEC PR CI trigger routing
+
+Three PR/manual workflows: aec001-audit-ci.yml, aec001-sdk-ci.yml, aec001-ci-quality-ci.yml. Check their YAML syntax and route coverage:
+
+    ruby -ryaml -e 'ARGV.each { |f| YAML.parse_file(f) }' .github/workflows/aec001-*.yml
+    python3 -B -m unittest discover -s tests -p test_aec001_ci_job_footprint.py -v
+
+GitHub filters PR changes against the cumulative base-to-head diff: a Markdown-only *latest commit* on mixed PR #47 does not qualify for skipping all tests. A new docs-only PR will not trigger these AEC workflows after this routing is merged. See ci-change-routing.md.

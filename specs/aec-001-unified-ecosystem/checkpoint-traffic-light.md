@@ -46,3 +46,7 @@ Installed host-backup, host-watchdog, weekly-maintenance and Tender Agent drift-
 ## 2026-11-22 CP4 post-change runner evidence
 
 The first real consolidated Company Actions run (45008219102) passed both jobs and all visible shadow source-check steps. Compared with three-job 45007572330: **3→2 jobs, 30→26 summed job-seconds, but 15→17s wall time**. Keep **CP4 AMBER**, not GREEN: one-run reduction in runner workload is not proof of lower invoice cost or better CI latency. **CP6 remains RED** pending Product approvals, actual maintenance baseline and repeatability. Original three-job version remains recoverable from commit 2bae15f.
+
+## 2026-11-22 CP4 scoped CI routing candidate
+
+**CP4 AMBER:** Three distinct AEC PR/manual flows: offline unit, two-consumer SDK mock, two-Product CI source shadow. Arbitrary Markdown specs no longer match the AEC workflows. Existing large PR #47 contains cumulative code/SDK/CI diffs and will still run all three; future focused PRs should avoid irrelevant checks. Draft separate PR #48 moves GitVerse main-health from PR to main push + scheduled/manual, without altering branch/tag mirror publication. **CP6 RED** pending governance/real Product proof. See [ci-change-routing.md](ci-change-routing.md).

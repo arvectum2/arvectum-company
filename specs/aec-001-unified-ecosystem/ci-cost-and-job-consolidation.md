@@ -37,3 +37,7 @@ Two exact Company PR runs were retrieved again from Actions job and /timing endp
 **Observed deltas (one run per implementation):** -1 runner job, -4 aggregate runner job-seconds (30→26, about 13%), **+2 seconds wall time** (15→17). This is a workflow-structure/runner-footprint improvement, **not** proof of shorter feedback latency, reduced bills, or organizational labor savings. Variability, checkout-network reliability and behavior when an AEC unit test fails still require ongoing evidence; no deliberate CI failure was injected into active Product pipelines.
 
 The two-job Company candidate remains in the draft PR for follow-up regression checks. Revert its isolated workflow change if future evidence shows meaningful repeated latency increase, missing source checks on failures, or broken contractual coverage; original full job layout is recoverable from commit 2bae15f36afe0891e51b743a687f32b1fffbea4f. **Do not extract a Product CI workflow based on this single-run result.**
+
+## Later routing supersedes the two-job footprint candidate
+
+The previous two-job result is a measured historical baseline, not the final candidate topology. AEC checks are now three **separately path-scoped** workflows. Broad PR #47 may still run all three; future narrowly scoped PRs should not run unrelated SDK/shadow checks. This prioritizes avoided checks over a smaller job count on exceptionally broad PRs. See [ci-change-routing.md](ci-change-routing.md). Savings are not yet proven.
