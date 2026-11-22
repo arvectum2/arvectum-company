@@ -1,0 +1,208 @@
+{
+  "kind": "experimental_new_original_Z_construction",
+  "baseline": "v0.83 S",
+  "variants": {
+    "A": {
+      "upper": 0.28,
+      "lower": 0.21,
+      "outer": 0.18,
+      "transition": 0.16,
+      "terminal": 0.62,
+      "label": "A · Structural"
+    },
+    "B": {
+      "upper": 0.42,
+      "lower": 0.34,
+      "outer": 0.31,
+      "transition": 0.3,
+      "terminal": 0.51,
+      "label": "B · Balanced"
+    },
+    "C": {
+      "upper": 0.33,
+      "lower": 0.27,
+      "outer": 0.23,
+      "transition": 0.23,
+      "terminal": 0.57,
+      "label": "C · Arvectum Main"
+    }
+  },
+  "sources": {
+    "Display": "6fc7f35aa67483ca219e418168506765bac10f99e8f9debc505d52973a13d39f",
+    "Text": "695febad7b460b80c8b7de3a20bf70f1877f83e8ce508895a7c1dea03a725552"
+  },
+  "styles": {
+    "Display": {
+      "A": {
+        "otf": "experimental/Display-A.otf",
+        "sha256": "f4ae34b073146990f4b66fc11d6848d4d8a039c57be34b87cc9294a242194b23",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              100,
+              -15,
+              1262,
+              1505
+            ],
+            "advance": 1362,
+            "svg": "glyphs/A/Display/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              100,
+              -15,
+              1050,
+              1071
+            ],
+            "advance": 1141,
+            "svg": "glyphs/A/Display/U+0437.svg"
+          }
+        ]
+      },
+      "B": {
+        "otf": "experimental/Display-B.otf",
+        "sha256": "c8e01aca4e57e2c9aea55953b36c7999d0f45cb00cc59f2c43d45eb2ddd42fbd",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              100,
+              -15,
+              1262,
+              1505
+            ],
+            "advance": 1362,
+            "svg": "glyphs/B/Display/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              100,
+              -15,
+              1050,
+              1071
+            ],
+            "advance": 1141,
+            "svg": "glyphs/B/Display/U+0437.svg"
+          }
+        ]
+      },
+      "C": {
+        "otf": "experimental/Display-C.otf",
+        "sha256": "7b08807a9569b36d947006eac33c38d49c78f2aea021658c8df7da57ba2e594b",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              100,
+              -15,
+              1262,
+              1505
+            ],
+            "advance": 1362,
+            "svg": "glyphs/C/Display/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              100,
+              -15,
+              1050,
+              1071
+            ],
+            "advance": 1141,
+            "svg": "glyphs/C/Display/U+0437.svg"
+          }
+        ]
+      }
+    },
+    "Text": {
+      "A": {
+        "otf": "experimental/Text-A.otf",
+        "sha256": "89e2efed3d335a17a327b0b31771728884139a9d2b7701359cea5a21bd6aa627",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              104,
+              -15,
+              1196,
+              1505
+            ],
+            "advance": 1300,
+            "svg": "glyphs/A/Text/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              105,
+              -15,
+              1025,
+              1071
+            ],
+            "advance": 1151,
+            "svg": "glyphs/A/Text/U+0437.svg"
+          }
+        ]
+      },
+      "B": {
+        "otf": "experimental/Text-B.otf",
+        "sha256": "ffe973a93b3d98b1c8790c3afec30f53fb58c733c9e62a86e3316d866e60ab2b",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              104,
+              -15,
+              1196,
+              1505
+            ],
+            "advance": 1300,
+            "svg": "glyphs/B/Text/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              105,
+              -15,
+              1025,
+              1071
+            ],
+            "advance": 1151,
+            "svg": "glyphs/B/Text/U+0437.svg"
+          }
+        ]
+      },
+      "C": {
+        "otf": "experimental/Text-C.otf",
+        "sha256": "9bc64d4694194626ece270aa846e3b752b766a344f51eec8591371a0742e379b",
+        "glyphs": [
+          {
+            "ch": "З",
+            "bbox": [
+              104,
+              -15,
+              1196,
+              1505
+            ],
+            "advance": 1300,
+            "svg": "glyphs/C/Text/U+0417.svg"
+          },
+          {
+            "ch": "з",
+            "bbox": [
+              105,
+              -15,
+              1025,
+              1071
+            ],
+            "advance": 1151,
+            "svg": "glyphs/C/Text/U+0437.svg"
+          }
+        ]
+      }
+    }
+  }
+}
