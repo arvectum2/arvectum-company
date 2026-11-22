@@ -1,0 +1,43 @@
+{
+  "status": "historical v0.91 left-opening rejected, v0.92 corrective candidate not approved",
+  "masters": {
+    "old091-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.91/experimental/ArvectumGoldenStepDisplayOpenADraft091-Medium.otf",
+      "source_sha256": "84e513d7559a18eed661b963e05e6123bea7af100a5a9846a09282b9cd49769e",
+      "woff2_sha256": "db4c186e5893b1a96685abec26b78f69e9d84b37e66266c57bcb2f686dfb83fc"
+    },
+    "old091-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.91/experimental/InterDisplay-Regular-exact-baseline-v085.otf",
+      "source_sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+      "woff2_sha256": "ad0c4ed3fe12f0abe26a461bb80dc69039aec93d69a69fc0d561c6b90d342e2e"
+    },
+    "new092-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.92/experimental/ArvectumGoldenStepDisplayCorrectDraft092-Medium.otf",
+      "source_sha256": "da5f39b517a9f46f94bba42dc5560ffb0a83bb5e3cf569dcb977c80d54e6d79d",
+      "woff2_sha256": "4b54c0cbe7e2bdea78ba2b360fb7302fbada806e7a719e0cae4eb73fa3768498"
+    },
+    "new092-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.92/experimental/ArvectumGoldenStepTextCorrectDraft092-Regular.otf",
+      "source_sha256": "18eeb7adb49cf18b4f80f70c3fb03b2eb898e101ee3b2927ba068bd90c1d6466",
+      "woff2_sha256": "f69ab0b88e2dd598d11099d50f5889d947af1154d070bf5aab56820fb5198caf"
+    }
+  },
+  "cases": {
+    "letter": {
+      "from": "brand/06_Носители/GoldenStep-Display-System-v0.91/cases/letter/golden.html",
+      "sha256": "7789d044b652931b40787405674a8c650ed197e18bd37e2e5a8ff62bdd5a0f1c"
+    },
+    "proposal": {
+      "from": "brand/06_Носители/GoldenStep-Display-System-v0.91/cases/proposal/golden.html",
+      "sha256": "47f1c4bfeab08fad04d36db763769339304e6fd770b32772488e32b1db0e38f0"
+    },
+    "mobile": {
+      "from": "brand/06_Носители/GoldenStep-Display-System-v0.91/cases/mobile/golden.html",
+      "sha256": "9de848fcc9a544046c9f39b8ada0ae8b58b78d59840383279fa6a0803324227a"
+    }
+  },
+  "wordmark_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+  "source_tokens_sha256": "d6d10e71ba6bb22a0baff9680aa005c4c3b76566955854802f28c6d74fc34f2f",
+  "body_text_accepted_as_inter": false
+}

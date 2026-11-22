@@ -1,0 +1,175 @@
+{
+  "status": "TECHNICAL PASS / NO OPTICAL APPROVAL",
+  "design_rule": "RIGHT OPEN Display and CLOSED evolving Text",
+  "styles": {
+    "Display": {
+      "changed_vs_previous": [
+        "A",
+        "uni0410"
+      ],
+      "unchanged_vs_previous": 2935,
+      "cumulative_changed_vs_inter": [
+        "A",
+        "B",
+        "uni0410",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ],
+      "unchanged_vs_inter": 2928,
+      "glyph_metrics_OpenType": "identical",
+      "letterforms": {
+        "A": {
+          "contours": 1,
+          "parameters": {
+            "glyph": "A",
+            "advance": 1379,
+            "lsb": 16,
+            "opening_side": "RIGHT",
+            "left_bar_anchor": [
+              388,
+              387
+            ],
+            "right_bar_tip": [
+              759,
+              387
+            ],
+            "bar_foot_width": 601,
+            "retained_bar_width": 371,
+            "retained_fraction": 0.6173044925124792,
+            "opening_right_width": 230,
+            "counter_y": 576,
+            "ratio_target": 0.6180339887498948,
+            "glyph_advance": 1379
+          }
+        },
+        "А": {
+          "contours": 1,
+          "parameters": {
+            "glyph": "uni0410",
+            "advance": 1379,
+            "lsb": 16,
+            "opening_side": "RIGHT",
+            "left_bar_anchor": [
+              388,
+              387
+            ],
+            "right_bar_tip": [
+              759,
+              387
+            ],
+            "bar_foot_width": 601,
+            "retained_bar_width": 371,
+            "retained_fraction": 0.6173044925124792,
+            "opening_right_width": 230,
+            "counter_y": 576,
+            "ratio_target": 0.6180339887498948,
+            "glyph_advance": 1379
+          }
+        }
+      },
+      "raster_changed_pixels": {
+        "A": {
+          "12": 48,
+          "16": 60,
+          "24": 102,
+          "48": 182,
+          "72": 320,
+          "128": 500
+        },
+        "А": {
+          "12": 48,
+          "16": 60,
+          "24": 102,
+          "48": 182,
+          "72": 320,
+          "128": 500
+        }
+      }
+    },
+    "Text": {
+      "changed_vs_previous": [
+        "A",
+        "uni0410"
+      ],
+      "unchanged_vs_previous": 2935,
+      "cumulative_changed_vs_inter": [
+        "A",
+        "B",
+        "uni0410",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ],
+      "unchanged_vs_inter": 2928,
+      "glyph_metrics_OpenType": "identical",
+      "letterforms": {
+        "A": {
+          "contours": 2,
+          "parameters": {
+            "glyph": "A",
+            "advance": 1338,
+            "lsb": 20,
+            "opening_side": "NONE; closed Text counter",
+            "phi_crossbar_upper_target": 569,
+            "phi_crossbar_upper_actual": 569,
+            "original_upper": 578,
+            "original_lower": 418,
+            "lower_after": 409,
+            "shift": -9,
+            "bar_thickness": 160,
+            "capheight": 1490,
+            "ratio_y_to_cap": 0.3818791946308725,
+            "ratio_target": 0.38196601125010515,
+            "glyph_advance": 1338
+          }
+        },
+        "А": {
+          "contours": 2,
+          "parameters": {
+            "glyph": "uni0410",
+            "advance": 1338,
+            "lsb": 20,
+            "opening_side": "NONE; closed Text counter",
+            "phi_crossbar_upper_target": 569,
+            "phi_crossbar_upper_actual": 569,
+            "original_upper": 578,
+            "original_lower": 418,
+            "lower_after": 409,
+            "shift": -9,
+            "bar_thickness": 160,
+            "capheight": 1490,
+            "ratio_y_to_cap": 0.3818791946308725,
+            "ratio_target": 0.38196601125010515,
+            "glyph_advance": 1338
+          }
+        }
+      },
+      "raster_changed_pixels": {
+        "A": {
+          "12": 42,
+          "16": 65,
+          "24": 107,
+          "48": 180,
+          "72": 214,
+          "128": 498
+        },
+        "А": {
+          "12": 42,
+          "16": 65,
+          "24": 107,
+          "48": 180,
+          "72": 214,
+          "128": 498
+        }
+      }
+    }
+  },
+  "print_status": "PDF proof only, Type3 warnings possible, commercial preflight OPEN"
+}

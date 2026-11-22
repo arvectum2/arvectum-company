@@ -1,0 +1,2562 @@
+[
+  {
+    "face": "Display",
+    "codepoint": "U+0041",
+    "glyph": "A",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0042",
+    "glyph": "B",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0043",
+    "glyph": "C",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0044",
+    "glyph": "D",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0045",
+    "glyph": "E",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0046",
+    "glyph": "F",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0047",
+    "glyph": "G",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0048",
+    "glyph": "H",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0049",
+    "glyph": "I",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004A",
+    "glyph": "J",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004B",
+    "glyph": "K",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004C",
+    "glyph": "L",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004D",
+    "glyph": "M",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004E",
+    "glyph": "N",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+004F",
+    "glyph": "O",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0050",
+    "glyph": "P",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0051",
+    "glyph": "Q",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0052",
+    "glyph": "R",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0053",
+    "glyph": "S",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0054",
+    "glyph": "T",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0055",
+    "glyph": "U",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0056",
+    "glyph": "V",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0057",
+    "glyph": "W",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0058",
+    "glyph": "X",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0059",
+    "glyph": "Y",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+005A",
+    "glyph": "Z",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0061",
+    "glyph": "a",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0062",
+    "glyph": "b",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0063",
+    "glyph": "c",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0064",
+    "glyph": "d",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0065",
+    "glyph": "e",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0066",
+    "glyph": "f",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0067",
+    "glyph": "g",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0068",
+    "glyph": "h",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0069",
+    "glyph": "i",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006A",
+    "glyph": "j",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006B",
+    "glyph": "k",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006C",
+    "glyph": "l",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006D",
+    "glyph": "m",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006E",
+    "glyph": "n",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+006F",
+    "glyph": "o",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0070",
+    "glyph": "p",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0071",
+    "glyph": "q",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0072",
+    "glyph": "r",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0073",
+    "glyph": "s",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0074",
+    "glyph": "t",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0075",
+    "glyph": "u",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0076",
+    "glyph": "v",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0077",
+    "glyph": "w",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0078",
+    "glyph": "x",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0079",
+    "glyph": "y",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+007A",
+    "glyph": "z",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0410",
+    "glyph": "А",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0411",
+    "glyph": "Б",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0412",
+    "glyph": "В",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0413",
+    "glyph": "Г",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0414",
+    "glyph": "Д",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0415",
+    "glyph": "Е",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0401",
+    "glyph": "Ё",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0416",
+    "glyph": "Ж",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0417",
+    "glyph": "З",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0418",
+    "glyph": "И",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0419",
+    "glyph": "Й",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041A",
+    "glyph": "К",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041B",
+    "glyph": "Л",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041C",
+    "glyph": "М",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041D",
+    "glyph": "Н",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041E",
+    "glyph": "О",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+041F",
+    "glyph": "П",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0420",
+    "glyph": "Р",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0421",
+    "glyph": "С",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0422",
+    "glyph": "Т",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0423",
+    "glyph": "У",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0424",
+    "glyph": "Ф",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0425",
+    "glyph": "Х",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0426",
+    "glyph": "Ц",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0427",
+    "glyph": "Ч",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0428",
+    "glyph": "Ш",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0429",
+    "glyph": "Щ",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042A",
+    "glyph": "Ъ",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042B",
+    "glyph": "Ы",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042C",
+    "glyph": "Ь",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042D",
+    "glyph": "Э",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042E",
+    "glyph": "Ю",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+042F",
+    "glyph": "Я",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0430",
+    "glyph": "а",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0431",
+    "glyph": "б",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0432",
+    "glyph": "в",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0433",
+    "glyph": "г",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0434",
+    "glyph": "д",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0435",
+    "glyph": "е",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0451",
+    "glyph": "ё",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0436",
+    "glyph": "ж",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0437",
+    "glyph": "з",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0438",
+    "glyph": "и",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0439",
+    "glyph": "й",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043A",
+    "glyph": "к",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043B",
+    "glyph": "л",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043C",
+    "glyph": "м",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043D",
+    "glyph": "н",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043E",
+    "glyph": "о",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+043F",
+    "glyph": "п",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0440",
+    "glyph": "р",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0441",
+    "glyph": "с",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0442",
+    "glyph": "т",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0443",
+    "glyph": "у",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0444",
+    "glyph": "ф",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0445",
+    "glyph": "х",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0446",
+    "glyph": "ц",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0447",
+    "glyph": "ч",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0448",
+    "glyph": "ш",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0449",
+    "glyph": "щ",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044A",
+    "glyph": "ъ",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044B",
+    "glyph": "ы",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044C",
+    "glyph": "ь",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044D",
+    "glyph": "э",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044E",
+    "glyph": "ю",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+044F",
+    "glyph": "я",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0030",
+    "glyph": "0",
+    "script": "Digits",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0031",
+    "glyph": "1",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0032",
+    "glyph": "2",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0033",
+    "glyph": "3",
+    "script": "Digits",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0034",
+    "glyph": "4",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0035",
+    "glyph": "5",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0036",
+    "glyph": "6",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0037",
+    "glyph": "7",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0038",
+    "glyph": "8",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Display",
+    "codepoint": "U+0039",
+    "glyph": "9",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0041",
+    "glyph": "A",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0042",
+    "glyph": "B",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0043",
+    "glyph": "C",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0044",
+    "glyph": "D",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0045",
+    "glyph": "E",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0046",
+    "glyph": "F",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0047",
+    "glyph": "G",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0048",
+    "glyph": "H",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0049",
+    "glyph": "I",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004A",
+    "glyph": "J",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004B",
+    "glyph": "K",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004C",
+    "glyph": "L",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004D",
+    "glyph": "M",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004E",
+    "glyph": "N",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+004F",
+    "glyph": "O",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0050",
+    "glyph": "P",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0051",
+    "glyph": "Q",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0052",
+    "glyph": "R",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0053",
+    "glyph": "S",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0054",
+    "glyph": "T",
+    "script": "Latin",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0055",
+    "glyph": "U",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0056",
+    "glyph": "V",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0057",
+    "glyph": "W",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0058",
+    "glyph": "X",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0059",
+    "glyph": "Y",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+005A",
+    "glyph": "Z",
+    "script": "Latin",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0061",
+    "glyph": "a",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0062",
+    "glyph": "b",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0063",
+    "glyph": "c",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0064",
+    "glyph": "d",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0065",
+    "glyph": "e",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0066",
+    "glyph": "f",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0067",
+    "glyph": "g",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0068",
+    "glyph": "h",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0069",
+    "glyph": "i",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006A",
+    "glyph": "j",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006B",
+    "glyph": "k",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006C",
+    "glyph": "l",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006D",
+    "glyph": "m",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006E",
+    "glyph": "n",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+006F",
+    "glyph": "o",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0070",
+    "glyph": "p",
+    "script": "Latin",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0071",
+    "glyph": "q",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0072",
+    "glyph": "r",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0073",
+    "glyph": "s",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0074",
+    "glyph": "t",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0075",
+    "glyph": "u",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0076",
+    "glyph": "v",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0077",
+    "glyph": "w",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0078",
+    "glyph": "x",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0079",
+    "glyph": "y",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+007A",
+    "glyph": "z",
+    "script": "Latin",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0410",
+    "glyph": "А",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0411",
+    "glyph": "Б",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0412",
+    "glyph": "В",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0413",
+    "glyph": "Г",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0414",
+    "glyph": "Д",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0415",
+    "glyph": "Е",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0401",
+    "glyph": "Ё",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0416",
+    "glyph": "Ж",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0417",
+    "glyph": "З",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0418",
+    "glyph": "И",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0419",
+    "glyph": "Й",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041A",
+    "glyph": "К",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041B",
+    "glyph": "Л",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041C",
+    "glyph": "М",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041D",
+    "glyph": "Н",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041E",
+    "glyph": "О",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+041F",
+    "glyph": "П",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0420",
+    "glyph": "Р",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0421",
+    "glyph": "С",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0422",
+    "glyph": "Т",
+    "script": "Cyrillic",
+    "family": "structural capitals",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0423",
+    "glyph": "У",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0424",
+    "glyph": "Ф",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0425",
+    "glyph": "Х",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0426",
+    "glyph": "Ц",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0427",
+    "glyph": "Ч",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0428",
+    "glyph": "Ш",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0429",
+    "glyph": "Щ",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042A",
+    "glyph": "Ъ",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042B",
+    "glyph": "Ы",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042C",
+    "glyph": "Ь",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042D",
+    "glyph": "Э",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042E",
+    "glyph": "Ю",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+042F",
+    "glyph": "Я",
+    "script": "Cyrillic",
+    "family": "other caps",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0430",
+    "glyph": "а",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0431",
+    "glyph": "б",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0432",
+    "glyph": "в",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0433",
+    "glyph": "г",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0434",
+    "glyph": "д",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0435",
+    "glyph": "е",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0451",
+    "glyph": "ё",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0436",
+    "glyph": "ж",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0437",
+    "glyph": "з",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "modified / candidate",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0438",
+    "glyph": "и",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0439",
+    "glyph": "й",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043A",
+    "glyph": "к",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043B",
+    "glyph": "л",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043C",
+    "glyph": "м",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043D",
+    "glyph": "н",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043E",
+    "glyph": "о",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+043F",
+    "glyph": "п",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0440",
+    "glyph": "р",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0441",
+    "glyph": "с",
+    "script": "Cyrillic",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0442",
+    "glyph": "т",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0443",
+    "glyph": "у",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0444",
+    "glyph": "ф",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0445",
+    "glyph": "х",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0446",
+    "glyph": "ц",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0447",
+    "glyph": "ч",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0448",
+    "glyph": "ш",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0449",
+    "glyph": "щ",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044A",
+    "glyph": "ъ",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044B",
+    "glyph": "ы",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044C",
+    "glyph": "ь",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044D",
+    "glyph": "э",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044E",
+    "glyph": "ю",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+044F",
+    "glyph": "я",
+    "script": "Cyrillic",
+    "family": "lowercase",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0030",
+    "glyph": "0",
+    "script": "Digits",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0031",
+    "glyph": "1",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0032",
+    "glyph": "2",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0033",
+    "glyph": "3",
+    "script": "Digits",
+    "family": "bowls / counters / distinctions",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0034",
+    "glyph": "4",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0035",
+    "glyph": "5",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0036",
+    "glyph": "6",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0037",
+    "glyph": "7",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0038",
+    "glyph": "8",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  },
+  {
+    "face": "Text",
+    "codepoint": "U+0039",
+    "glyph": "9",
+    "script": "Digits",
+    "family": "digits",
+    "outline_state": "inherited / not reviewed",
+    "design_review": "OPEN",
+    "owner_art_acceptance": "OPEN"
+  }
+]

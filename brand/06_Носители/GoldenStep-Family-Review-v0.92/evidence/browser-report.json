@@ -1,0 +1,160 @@
+{
+  "letter-old091": {
+    "source": "cases/letter/old091.html",
+    "output": "proofs/letter-old091.pdf",
+    "bytes": 76918,
+    "metrics": {
+      "viewport": 1160,
+      "docWidth": 1160,
+      "height": 1173,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        }
+      ],
+      "bodyText": 650,
+      "caseTitle": "Арвектум / фирменное письмо — макет"
+    }
+  },
+  "letter-new092": {
+    "source": "cases/letter/new092.html",
+    "output": "proofs/letter-new092.pdf",
+    "bytes": 76956,
+    "metrics": {
+      "viewport": 1160,
+      "docWidth": 1160,
+      "height": 1173,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        }
+      ],
+      "bodyText": 650,
+      "caseTitle": "Арвектум / фирменное письмо — макет"
+    }
+  },
+  "proposal-old091": {
+    "source": "cases/proposal/old091.html",
+    "output": "proofs/proposal-old091.pdf",
+    "bytes": 146345,
+    "metrics": {
+      "viewport": 1160,
+      "docWidth": 1160,
+      "height": 2323,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        },
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        }
+      ],
+      "bodyText": 1567,
+      "caseTitle": "Арвектум / коммерческое предложение — макет"
+    }
+  },
+  "proposal-new092": {
+    "source": "cases/proposal/new092.html",
+    "output": "proofs/proposal-new092.pdf",
+    "bytes": 146373,
+    "metrics": {
+      "viewport": 1160,
+      "docWidth": 1160,
+      "height": 2323,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        },
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        }
+      ],
+      "bodyText": 1567,
+      "caseTitle": "Арвектум / коммерческое предложение — макет"
+    }
+  },
+  "mobile-old091": {
+    "source": "cases/mobile/old091.html",
+    "output": "proofs/mobile-old091.png",
+    "bytes": 108903,
+    "metrics": {
+      "viewport": 390,
+      "docWidth": 390,
+      "height": 1831,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        },
+        {
+          "url": "../../assets/monogram_navy.svg",
+          "natural": 243,
+          "loaded": true
+        }
+      ],
+      "bodyText": 712,
+      "caseTitle": "Arvectum / Golden Step — главная, макет"
+    }
+  },
+  "mobile-new092": {
+    "source": "cases/mobile/new092.html",
+    "output": "proofs/mobile-new092.png",
+    "bytes": 108973,
+    "metrics": {
+      "viewport": 390,
+      "docWidth": 390,
+      "height": 1831,
+      "families": [
+        "GSDisplay",
+        "GSText"
+      ],
+      "images": [
+        {
+          "url": "../../assets/lockup_ru.svg",
+          "natural": 300,
+          "loaded": true
+        },
+        {
+          "url": "../../assets/monogram_navy.svg",
+          "natural": 243,
+          "loaded": true
+        }
+      ],
+      "bodyText": 712,
+      "caseTitle": "Arvectum / Golden Step — главная, макет"
+    }
+  }
+}

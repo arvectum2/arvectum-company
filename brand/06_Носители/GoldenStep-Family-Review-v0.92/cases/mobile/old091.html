@@ -1,0 +1,37 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Arvectum / Golden Step — главная, макет</title>
+<link rel="stylesheet" href="../../tokens-old091.css">
+<style>
+body{background:#eef3f4}main{max-width:1512px;margin:0 auto;background:var(--white);min-height:100vh}
+header{display:flex;align-items:center;justify-content:space-between;gap:22px;padding:26px clamp(20px,5vw,74px);border-bottom:1px solid var(--line)}
+.brand{width:244px;max-width:55%;height:auto;display:block}
+nav{display:flex;flex-wrap:wrap;gap:23px}nav a{text-decoration:none;color:var(--navy);font:600 14px/1.4 Arial,sans-serif}nav a:hover{color:var(--dark-teal)}
+.hero{padding:clamp(48px,8vw,118px) clamp(20px,6vw,88px) clamp(56px,8vw,105px);display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.8fr);gap:7%;align-items:center}
+.hero h1{max-width:720px;margin:24px 0 27px}
+.hero .lead{font-size:clamp(18px,1.8vw,22px);line-height:1.5;max-width:680px;color:var(--graphite)}
+.hero .cta{margin-top:29px;display:inline-flex;padding:14px 20px;background:var(--navy);color:white;text-decoration:none;font:700 14px/1.5 Arial,sans-serif;border-radius:5px}
+.art{min-height:330px;border-radius:6px;background:#eef7f5;position:relative;display:grid;place-items:center;overflow:hidden}
+.art::before{content:'';position:absolute;width:500px;height:500px;border:1px solid #a8d9cb;border-radius:50%;transform:translate(35%,15%)}
+.art::after{content:'';position:absolute;width:260px;height:260px;border:1px solid #a8d9cb;border-radius:50%;transform:translate(15%,8%)}
+.art img{width:60%;height:auto;position:relative;z-index:1}
+.content{padding:50px clamp(20px,6vw,88px) 80px;background:#f9fbfc}
+.content .intro{max-width:750px;margin:19px 0 38px;font-size:19px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:5px;padding:26px;min-height:210px}
+.card .n{font:700 13px/1 Arial,sans-serif;color:var(--dark-teal);padding-bottom:28px}
+.card p{font-size:15px;line-height:1.5;color:var(--graphite);margin:15px 0 0}
+footer{padding:25px clamp(20px,6vw,88px);border-top:1px solid var(--line);display:flex;gap:12px;justify-content:space-between;flex-wrap:wrap}
+footer small{font:12px/1.5 Arial,sans-serif;color:var(--gray)}
+@media(max-width:780px){nav{gap:12px}.hero{grid-template-columns:minmax(0,1fr);gap:32px}.art{min-height:245px}.art img{width:44%}.cards{grid-template-columns:1fr}}
+@media(max-width:480px){header{align-items:flex-start;flex-direction:column;padding-top:18px}.brand{max-width:240px;width:210px}nav{gap:18px;font-size:13px}.hero{padding-top:48px}.art{min-height:200px}.hero h1{font-size:clamp(28px,9.6vw,40px)}.content{padding-top:36px}.cards{gap:14px}.card{min-height:auto}.hero .cta{width:100%;justify-content:center}}
+@media(max-width:260px){nav{gap:8px}.hero h1{font-size:26px}}
+</style></head><body><main>
+<header><img class="brand" src="../../assets/lockup_ru.svg" alt="Арвектум — экспериментальная компоновка согласованных контуров"><nav aria-label="Навигация"><a href="#about">О компании</a><a href="#services">Решения</a><a href="#contact">Контакты</a></nav></header>
+<section class="hero" id="about"><div><div class="eyebrow">АРВЕКТУМ / ИНФОРМАЦИОННЫЕ ТЕХНОЛОГИИ</div><h1>АРХИТЕКТУРА<br>РЕШЕНИЙ.</h1><p class="lead">Программное обеспечение и цифровые решения для бизнеса и организаций.</p><a class="cta" href="#services">Изучить направления</a></div><div class="art"><img src="../../assets/monogram_navy.svg" alt="Знак Arvectum Golden Vector"></div></section>
+<section class="content" id="services"><div class="eyebrow">НАШИ НАПРАВЛЕНИЯ — КОНЦЕПТ</div><h2>Автоматизация для бизнеса</h2><p class="intro">Делаем сложные процессы понятнее, а цифровые инструменты — полезнее для повседневной деятельности организаций.</p><div class="cards">
+<article class="card"><div class="n">01 / РАЗРАБОТКА</div><h3>Программное обеспечение</h3><p>Проектирование, создание и развитие прикладных решений.</p></article>
+<article class="card"><div class="n">02 / ПРОЦЕССЫ</div><h3>Автоматизация</h3><p>Снижение повторяемой ручной работы и прозрачность исполнения.</p></article>
+<article class="card"><div class="n">03 / ИНТЕГРАЦИИ</div><h3>Цифровые решения</h3><p>Объединение инструментов, данных и операционных процессов.</p></article>
+</div></section>
+<footer id="contact"><small>ООО «Арвектум» · <a href="https://arvectum.com">arvectum.com</a></small><small>ВНУТРЕННИЙ МАКЕТ / GOLDEN STEP v0.73 / НЕ ОПУБЛИКОВАНО</small></footer>
+</main><script>document.fonts.ready.then(()=>{const x=document.documentElement;const logo=document.querySelector('.brand');const art=document.querySelector('.art img');const data={w:innerWidth,scroll:x.scrollWidth,fonts:document.fonts.check('20px GSText')&&document.fonts.check('30px GSDisplay'),logo:logo.complete&&logo.naturalWidth>0,monogram:art.complete&&art.naturalWidth>0};document.body.setAttribute('data-qa',JSON.stringify(data));})</script>
+</body></html>

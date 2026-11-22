@@ -1,0 +1,60 @@
+{
+  "status": "TECHNICAL PASS, NOT FINAL ARTISTIC APPROVAL",
+  "cases": {
+    "letter": {
+      "body_text_equal": true,
+      "render_height": 1173,
+      "doc_width": 1160
+    },
+    "proposal": {
+      "body_text_equal": true,
+      "render_height": 2323,
+      "doc_width": 1160
+    },
+    "mobile": {
+      "body_text_equal": true,
+      "render_height": 1831,
+      "doc_width": 390
+    }
+  },
+  "pixel_diffs_over_full_image": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.02561,
+      "changed_pixels": 273
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.02045,
+      "changed_pixels": 218
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.0197,
+      "changed_pixels": 210
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.0168,
+      "changed_pixels": 120
+    }
+  },
+  "caveats": [
+    "v0.91 is historical incorrect-left opening and unmodified text, not an accepted design",
+    "v0.92 is a candidate with right opening and independently evolving Text",
+    "percentages include entire page white space; not readability scores",
+    "all proofs are local synthetic mockups, not production"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "version": "0.92",
+  "lifecycle": "EXPERIMENTAL, owner artistic approval OPEN",
+  "correction": "Display A/А crossbar opens on RIGHT, not LEFT",
+  "architecture": "Arvectum Display AND Arvectum Text both under active development, Inter only source",
+  "source_logo_wordmark_en_sha256": "f8569d36aa1d0a30c9817e6f10ec581e99daa0eda6ad72fb67f917ba7b44e89f",
+  "phi": 1.618033988749895,
+  "styles": {
+    "Display": {
+      "weight": "Medium",
+      "prior": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.89/experimental/ArvectumGoldenStepDisplayPhiBeDraft089-Medium.otf",
+      "prior_sha256": "96da8821c23ddb1e2a8e6bedb66d8403d91947b203a234ca30add56096d14f9f",
+      "output": "experimental/ArvectumGoldenStepDisplayCorrectDraft092-Medium.otf",
+      "output_sha256": "da5f39b517a9f46f94bba42dc5560ffb0a83bb5e3cf569dcb977c80d54e6d79d",
+      "modified": [
+        "U+0041",
+        "U+0410"
+      ],
+      "geometry": {
+        "A": {
+          "glyph": "A",
+          "advance": 1379,
+          "lsb": 16,
+          "opening_side": "RIGHT",
+          "left_bar_anchor": [
+            388,
+            387
+          ],
+          "right_bar_tip": [
+            759,
+            387
+          ],
+          "bar_foot_width": 601,
+          "retained_bar_width": 371,
+          "retained_fraction": 0.6173044925124792,
+          "opening_right_width": 230,
+          "counter_y": 576,
+          "ratio_target": 0.6180339887498948,
+          "glyph_advance": 1379
+        },
+        "А": {
+          "glyph": "uni0410",
+          "advance": 1379,
+          "lsb": 16,
+          "opening_side": "RIGHT",
+          "left_bar_anchor": [
+            388,
+            387
+          ],
+          "right_bar_tip": [
+            759,
+            387
+          ],
+          "bar_foot_width": 601,
+          "retained_bar_width": 371,
+          "retained_fraction": 0.6173044925124792,
+          "opening_right_width": 230,
+          "counter_y": 576,
+          "ratio_target": 0.6180339887498948,
+          "glyph_advance": 1379
+        }
+      }
+    },
+    "Text": {
+      "weight": "Regular",
+      "prior": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.89/experimental/ArvectumGoldenStepTextPhiBeDraft089-Regular.otf",
+      "prior_sha256": "ed3835f80546793b34f3f4f70e33f08b54b0dce055deae1d2357e945a6bba4a5",
+      "output": "experimental/ArvectumGoldenStepTextCorrectDraft092-Regular.otf",
+      "output_sha256": "18eeb7adb49cf18b4f80f70c3fb03b2eb898e101ee3b2927ba068bd90c1d6466",
+      "modified": [
+        "U+0041",
+        "U+0410"
+      ],
+      "geometry": {
+        "A": {
+          "glyph": "A",
+          "advance": 1338,
+          "lsb": 20,
+          "opening_side": "NONE; closed Text counter",
+          "phi_crossbar_upper_target": 569,
+          "phi_crossbar_upper_actual": 569,
+          "original_upper": 578,
+          "original_lower": 418,
+          "lower_after": 409,
+          "shift": -9,
+          "bar_thickness": 160,
+          "capheight": 1490,
+          "ratio_y_to_cap": 0.3818791946308725,
+          "ratio_target": 0.38196601125010515,
+          "glyph_advance": 1338
+        },
+        "А": {
+          "glyph": "uni0410",
+          "advance": 1338,
+          "lsb": 20,
+          "opening_side": "NONE; closed Text counter",
+          "phi_crossbar_upper_target": 569,
+          "phi_crossbar_upper_actual": 569,
+          "original_upper": 578,
+          "original_lower": 418,
+          "lower_after": 409,
+          "shift": -9,
+          "bar_thickness": 160,
+          "capheight": 1490,
+          "ratio_y_to_cap": 0.3818791946308725,
+          "ratio_target": 0.38196601125010515,
+          "glyph_advance": 1338
+        }
+      }
+    }
+  }
+}
