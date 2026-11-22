@@ -2,9 +2,10 @@
 
 Updated 2026-11-22. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
 
-## Working candidate
-- v0.64: Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
-- Golden Step geometry follows phi-derived proportions and target 58.2825-degree diagonals in prominent letters. This is not a requirement for 100% of font strokes; v0.68 measured 261/263 long diagonal segments, 107/119 within 0.35 degree of atan(phi).
+## Working candidate and historical baseline
+- **Current experiment v0.101:** Arvectum Golden Step Display Medium and Text Regular, compact atan(φ²)=69.0948425521° in corrected A/А, Д/Л and д/л; both independent designs. Owner optical acceptance OPEN.
+- **Historical v0.64 baseline (not current):** Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
+- **Historical baseline only:** older v0.64–v0.68 work used the 58.2825° atan φ logo angle for prominent letter studies. This does not supersede the current v0.101 compact font target atan(φ²)=69.0948°. The approved logo still retains its distinct original 58.2825° design.
 
 ## Evidence completed during this session
 - v0.62: small-size optical audit; high likeness digit 3 / Cyrillic З in some sizes.
@@ -160,6 +161,16 @@ Updated 2026-11-22. A durable working-status document, not a revision of pinned 
 - Полный независимый аудит ВСЕХ 2937 глифов и всех прямых диагональных сегментов сохранён в CSV/JSON: 11 862 наклонных отрезка, из крупных (≥250 UPM) совпадают с θ±0,5° 115/4677 Display и 182/4730 Text. **Глобальный угол НЕ пройден**. К/К, М/M, Х/X, и, V/v, W/w, Y/y и многие унаследованные символы требуют дальнейшего системного проектирования или явного оптического исключения. Не выполнять массовое механическое деформирование остальных глифов.
 - Получены реальные OTF/WOFF2, SHA256, 5-страничный PDF сравнения с утверждённым логотипом, полный числовой аудит и локальный A/B на бланке, двухстраничном КП и мобильном 390px. Ни число страниц, ни высота/ширина этих макетов не изменились; пиксельная разница 2,76–3,78% всей композиции, не оценка читаемости.
 - Следующая последовательность: художественная проверка A/А и Д/Л; геометрическая унификация наклонных в K/К, М/M, X/Х и остальных конструктивных семействах; оптическая настройка кернинга после расширения glyph advance; только затем политика production. Утверждённый логотип, предыдущие версии, сайт, клиенты и OS не менялись. Дизайн-решение собственника и международно-правовая проверка шрифта OPEN.
+
+## Golden Step v0.101 — компактный угол φ², Display и Text
+- После проверки v0.100 собственник напомнил о ранее исследованном более крутом золотом угле. Исторический v0.22/REVIEW.md: Display W atan(φ²)=69,0948425521°, Text W atan(2φ)=72,8279621495°, диагностический W atan φ=58,2825255885°. Текущий выбор для ОБОИХ начертаний: **atan(φ²)=69,0948425521°** с явными оптическими исключениями, но не автоматическим допуском всех исходных букв.
+- Важное разграничение: утверждённый Wordmark C/Golden Vector (atan φ≈58,2825°) **не меняется**. У шрифта A/А сохраняются крепление перекладины слева и разрыв справа в Display, а Text A/А остаётся закрытой. Новый буквенный контур не тождествен широкому логотипному A — это осознанная типографическая адаптация.
+- От v0.100 переработаны ровно A/А, Д/Л и д/л в каждой оптической ветке (6 контуров и 6 записей hmtx/стиль), остальные 2931 CFF контуров сохранены. Д/Л и д/л остаются прямыми параллельными трапециями: Л/л открыта снизу, Д/д замкнута, имеют два выступа. Контроль основного наклона на всех шести формах/начертание — менее 0,08° отклонения.
+- Сокращены ширины: A/А с 2050 до 1480; Display Д/Л с 1935 до 1585, д/л с 1520 до 1270; Text Д/Л с 1875 до 1535, д/л с 1465 до 1215 (UPM 2048). Исторические 58,2825° оставлены в v0.100 как сравнение, не как действующий стандарт шрифта.
+- Полный аудит реальных 2937 CFF глифов заново измерен к φ²: из крупных прямых диагональных сегментов проходят 191/4679 Display и 176/4730 Text, ещё 4488/4554 не соответствуют. Всего в двух начертаниях 11 864 зафиксированных наклонных сегмента; глобальная готовность по углам OPEN. Нельзя автоматически деформировать весь Inter-derived набор; приоритет — выделенные основные конструктивные буквы и читаемость.
+- Собраны 2 экспериментальных OTF, 2 WOFF2, реальные SVG, полный 7-страничный PDF сравнения и QA. Все 2937 контуров совпадают для OTF↔WOFF2 в обеих ветках; RU/EN shaping и проба Text 12–32px PASS технически.
+- Исторические локальные носители: A4 письмо 1 страница, КП 2 страницы, мобильный 390px и высотой 1831px, без переполнения; отличие между v0.100/v0.101 2,68–3,62% пикселей всего изображения (не оценка дизайна). Рабочие корпоративные носители не изменялись.
+- Незавершено: оптическое решение собственника по v0.101, баланс кернинга после новых продвижений, остальные семейства, независимый читательский тест, право выпуска под собственным названием/лицензия, печать PDF/X, Windows, production. Утверждённые логотипы и предыдущие версии не затронуты.
 
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.

@@ -16,17 +16,19 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 
 1. Architectural precision, seriousness, technological clarity, regularity and restraint — no frivolous sci-fi details.
 2. Disciplined verticals, horizontals, compact terminals, carefully selected optical overshoots, counterform geometry and related bowl radii. Prefer fewer unnecessary curves **without polygonizing naturally smooth bowls**.
-3. φ=(1+√5)/2≈1.618034 informs selected modules and transitions. **Every intentionally designed STRAIGHT structural diagonal must target the exact approved Wordmark C A angle, θ=atan φ≈58.2825256° from horizontal**, in either direction. Deviations require explicit documented optical reasoning and owner review, not silent exceptions. Do NOT impose this angle on curved shoulders, rounding or unrelated script and symbol anatomy.
+3. φ=(1+√5)/2≈1.618034 informs selected modules and transitions. **The current default structural straight-diagonal angle for Arvectum Golden Step Display AND Text is θ=atan(φ²)≈69.0948425521° from horizontal** (owner clarification v0.101). This differs intentionally from the approved Wordmark C / monogram angle atan(φ)≈58.2825255885°, which remains authoritative for those LOGO files and is NOT to be modified. The historical Text W variant atan(2φ)≈72.8279621495° remains an alternative, not the current Text default. Document optical exceptions and assess readability; do not impose the default on rounded curves, foreign scripts or unrelated symbol anatomy.
 4. Optical correction overrides φ when needed to preserve recognition, balance, counter spacing and reading ease. Every exception is explicit and testable.
 5. Link anatomically equivalent Latin/Cyrillic families when they truly match (A/А, B/В, C/С, E/Е, H/Н, K/К, M/М, O/О, P/Р, T/Т, X/Х), but avoid forced equivalence of unrelated lowercase glyphs.
-6. The approved Wordmark C specifies a Display A/А whose crossbar is anchored to the LEFT leg and breaks on the RIGHT. In Arvectum Text A/А the crossbar remains CLOSED and is separately refined.
+6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
-## Angular conformity and prototype gate (owner correction v0.100)
+## Angular conformity and prototype gate (owner correction v0.101)
 
-Measure the target angle from the actual approved Golden Wordmark v0.21 C, not a remembered or approximated diagonal. Store an automatic full-glyph audit (major straight-segment threshold 250 UPM, reference tolerance ±0.5°); require the corrected high-priority A/А and Д/Л/д/л to meet stricter ±0.08° before an experimental candidate is considered mechanically qualified. Legacy/inherited diagonals remain OPEN if nonconforming; NEVER declare an all-font PASS based on the corrected subset.
+**Do not conflate logo design geometry with typeface design geometry.** Approved Golden Wordmark C and AV monogram retain atan φ=58.2825°. The current independent Arvectum Display/Text font masters use atan(φ²)=69.0948° for intentionally straight structural diagonals; the font may reuse the logo's RIGHT opening/LEFT-anchored A rule without copying the wider logo A contour. This revision supersedes the mistaken universal logo-angle requirement in the v0.100 experiment.
 
-For fixed cap height, a change from Inter's ~70° to 58.2825° necessarily alters glyph width. Such revision may invalidate visual kerning, text wrapping and existing template assumptions even if GPOS/GSUB tables are mechanically unchanged. Width, spacing, area, readability and actual carrier reflow require a new separate check. No automated blanket shear of the entire alphabet.
+Record full-font diagonal audit across all 2937 glyphs per style: major straight segment length≥250 UPM and tolerance ±0.5°. For newly corrected A/А, Д/Л/д/л require ±0.08° to the current φ² target before a mechanical PASS. Inherited and earlier-modified diagonals are OPEN until reviewed; do not claim all-glyph conformity or force thousands of glyphs through a global shear.
+
+Changes to advance widths affect optical kerning, reflow, counter readability and real carrier layout even when OpenType GPOS/GSUB remain byte-identical. Verify source provenance, raster proofs and controlled carrier A/B. The approved Wordmark master stays untouched. The two font optical masters remain distinct, independently tuned, and Inter remains a licensed construction source, not final Text.
 
 ## Glyph-by-glyph development process
 

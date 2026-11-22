@@ -1,0 +1,34 @@
+{
+  "letter-page-1": {
+    "size": [
+      868,
+      1228
+    ],
+    "pixel_change_pct_threshold12": 3.06801,
+    "changed_pixels": 32702
+  },
+  "proposal-page-1": {
+    "size": [
+      868,
+      1228
+    ],
+    "pixel_change_pct_threshold12": 2.68307,
+    "changed_pixels": 28599
+  },
+  "proposal-page-2": {
+    "size": [
+      868,
+      1228
+    ],
+    "pixel_change_pct_threshold12": 3.61533,
+    "changed_pixels": 38536
+  },
+  "mobile": {
+    "size": [
+      390,
+      1831
+    ],
+    "pixel_change_pct_threshold12": 2.79503,
+    "changed_pixels": 19959
+  }
+}

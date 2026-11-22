@@ -1,0 +1,66 @@
+{
+  "technical": "PASS; advances compacted, fixture layout stable",
+  "carriers": {
+    "letter": {
+      "pagecount": 1,
+      "docWidth": 1160,
+      "height": 1173,
+      "chars": 650,
+      "font_only": true
+    },
+    "proposal": {
+      "pagecount": 2,
+      "docWidth": 1160,
+      "height": 2323,
+      "chars": 1567,
+      "font_only": true
+    },
+    "mobile": {
+      "pagecount": null,
+      "docWidth": 390,
+      "height": 1831,
+      "chars": 712,
+      "font_only": true
+    }
+  },
+  "whole_image_pixel_differences": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 3.06801,
+      "changed_pixels": 32702
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 2.68307,
+      "changed_pixels": 28599
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 3.61533,
+      "changed_pixels": 38536
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 2.79503,
+      "changed_pixels": 19959
+    }
+  },
+  "font_contour_match": true,
+  "limitations": [
+    "independent kerning not reapproved",
+    "actual production layouts not tested",
+    "optical and legal signoff OPEN"
+  ]
+}

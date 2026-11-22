@@ -1,0 +1,317 @@
+{
+  "version": "0.101",
+  "mechanical_status": "PASS",
+  "optical_owner_approval": "OPEN",
+  "angle_deg": 69.0948425521107,
+  "logo_untouched": true,
+  "styles": {
+    "Display": {
+      "changed_glyphs": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "unchanged_vs_v0100": 2931,
+      "cumulative_changed_vs_Inter": 39,
+      "unchanged_vs_Inter": 2898,
+      "glyphs": {
+        "A": {
+          "advance_from": 2050,
+          "advance_to": 1480,
+          "contours": 1,
+          "bbox": [
+            20,
+            0,
+            1360,
+            1490
+          ],
+          "ink_area": 639739.8,
+          "diagonal_max_error_deg": 0.06
+        },
+        "А": {
+          "advance_from": 2050,
+          "advance_to": 1480,
+          "contours": 1,
+          "bbox": [
+            20,
+            0,
+            1360,
+            1490
+          ],
+          "ink_area": 639739.8,
+          "diagonal_max_error_deg": 0.06
+        },
+        "Д": {
+          "advance_from": 1935,
+          "advance_to": 1585,
+          "contours": 2,
+          "bbox": [
+            18,
+            -320,
+            1520,
+            1490
+          ],
+          "ink_area": 1093197.5,
+          "diagonal_max_error_deg": 0.038
+        },
+        "Л": {
+          "advance_from": 1935,
+          "advance_to": 1585,
+          "contours": 1,
+          "bbox": [
+            60,
+            0,
+            1480,
+            1490
+          ],
+          "ink_area": 738127.5,
+          "diagonal_max_error_deg": 0.014
+        },
+        "д": {
+          "advance_from": 1520,
+          "advance_to": 1270,
+          "contours": 2,
+          "bbox": [
+            18,
+            -320,
+            1205,
+            1056
+          ],
+          "ink_area": 747348.5,
+          "diagonal_max_error_deg": 0.009
+        },
+        "л": {
+          "advance_from": 1520,
+          "advance_to": 1270,
+          "contours": 1,
+          "bbox": [
+            44,
+            0,
+            1165,
+            1056
+          ],
+          "ink_area": 440821.5,
+          "diagonal_max_error_deg": 0.017
+        }
+      },
+      "raster_delta_pixels": {
+        "А": {
+          "12": 64,
+          "14": 88,
+          "16": 108,
+          "18": 133,
+          "24": 216,
+          "32": 346,
+          "48": 699,
+          "72": 1439,
+          "96": 2432
+        },
+        "д": {
+          "12": 52,
+          "14": 62,
+          "16": 82,
+          "18": 93,
+          "24": 150,
+          "32": 251,
+          "48": 497,
+          "72": 1051,
+          "96": 1761
+        },
+        "л": {
+          "12": 48,
+          "14": 55,
+          "16": 72,
+          "18": 84,
+          "24": 133,
+          "32": 218,
+          "48": 417,
+          "72": 871,
+          "96": 1458
+        },
+        "Д": {
+          "12": 71,
+          "14": 104,
+          "16": 134,
+          "18": 146,
+          "24": 258,
+          "32": 406,
+          "48": 817,
+          "72": 1781,
+          "96": 2926
+        },
+        "Л": {
+          "12": 67,
+          "14": 94,
+          "16": 122,
+          "18": 133,
+          "24": 238,
+          "32": 371,
+          "48": 730,
+          "72": 1589,
+          "96": 2616
+        }
+      },
+      "unresolved_full_font_diagonals": 4488
+    },
+    "Text": {
+      "changed_glyphs": [
+        "A",
+        "uni0410",
+        "uni0414",
+        "uni041B",
+        "uni0434",
+        "uni043B"
+      ],
+      "unchanged_vs_v0100": 2931,
+      "cumulative_changed_vs_Inter": 39,
+      "unchanged_vs_Inter": 2898,
+      "glyphs": {
+        "A": {
+          "advance_from": 2050,
+          "advance_to": 1480,
+          "contours": 2,
+          "bbox": [
+            20,
+            0,
+            1360,
+            1490
+          ],
+          "ink_area": 666934.0,
+          "diagonal_max_error_deg": 0.027
+        },
+        "А": {
+          "advance_from": 2050,
+          "advance_to": 1480,
+          "contours": 2,
+          "bbox": [
+            20,
+            0,
+            1360,
+            1490
+          ],
+          "ink_area": 666934.0,
+          "diagonal_max_error_deg": 0.027
+        },
+        "Д": {
+          "advance_from": 1875,
+          "advance_to": 1535,
+          "contours": 2,
+          "bbox": [
+            18,
+            -320,
+            1470,
+            1490
+          ],
+          "ink_area": 911435.0,
+          "diagonal_max_error_deg": 0.004
+        },
+        "Л": {
+          "advance_from": 1875,
+          "advance_to": 1535,
+          "contours": 1,
+          "bbox": [
+            60,
+            0,
+            1430,
+            1490
+          ],
+          "ink_area": 611915.0,
+          "diagonal_max_error_deg": 0.004
+        },
+        "д": {
+          "advance_from": 1465,
+          "advance_to": 1215,
+          "contours": 2,
+          "bbox": [
+            18,
+            -320,
+            1150,
+            1056
+          ],
+          "ink_area": 640656.0,
+          "diagonal_max_error_deg": 0.013
+        },
+        "л": {
+          "advance_from": 1465,
+          "advance_to": 1215,
+          "contours": 1,
+          "bbox": [
+            44,
+            0,
+            1110,
+            1056
+          ],
+          "ink_area": 383376.0,
+          "diagonal_max_error_deg": 0.017
+        }
+      },
+      "raster_delta_pixels": {
+        "А": {
+          "12": 64,
+          "14": 88,
+          "16": 108,
+          "18": 132,
+          "24": 215,
+          "32": 343,
+          "48": 703,
+          "72": 1447,
+          "96": 2454
+        },
+        "д": {
+          "12": 49,
+          "14": 64,
+          "16": 72,
+          "18": 86,
+          "24": 133,
+          "32": 242,
+          "48": 468,
+          "72": 1016,
+          "96": 1676
+        },
+        "л": {
+          "12": 40,
+          "14": 55,
+          "16": 64,
+          "18": 74,
+          "24": 107,
+          "32": 215,
+          "48": 386,
+          "72": 833,
+          "96": 1398
+        },
+        "Д": {
+          "12": 74,
+          "14": 106,
+          "16": 121,
+          "18": 146,
+          "24": 231,
+          "32": 381,
+          "48": 741,
+          "72": 1624,
+          "96": 2658
+        },
+        "Л": {
+          "12": 65,
+          "14": 96,
+          "16": 107,
+          "18": 140,
+          "24": 202,
+          "32": 343,
+          "48": 654,
+          "72": 1461,
+          "96": 2366
+        }
+      },
+      "unresolved_full_font_diagonals": 4554
+    }
+  },
+  "unresolved": [
+    "remaining full-font diagonal families",
+    "actual kerning after changed metrics",
+    "human reading/accommodation tests",
+    "production font naming/IP/Windows/PDFX"
+  ]
+}

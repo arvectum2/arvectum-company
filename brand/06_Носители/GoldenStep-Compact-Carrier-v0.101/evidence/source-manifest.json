@@ -1,0 +1,42 @@
+{
+  "purpose": "font-only A/B on historical mockups, no production mutation",
+  "fonts": {
+    "old0100-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.100/experimental/ArvectumGoldenStepDisplayCanonicalAngleDraft0100-Medium.otf",
+      "source_sha256": "105d4073c272e0568632e102f38910aaaaf93146c85374afc971f7d90e462ef7",
+      "woff2_sha256": "e557d1a374454acba10b69f0f82bacc621cf9b9160481e29f9f818fd68a20ffe"
+    },
+    "old0100-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.100/experimental/ArvectumGoldenStepTextCanonicalAngleDraft0100-Regular.otf",
+      "source_sha256": "4f3f48449696dbf1b8e61c5f891174c16ff059d36e2c945f98986a29a861d354",
+      "woff2_sha256": "d8d461650345e6930cf5959e205d916d264009a1599ef4f9c50b11488accfad3"
+    },
+    "new0101-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepDisplayCompactPhi2Draft0101-Medium.otf",
+      "source_sha256": "f07c5cf5e337df76ac8cb58901b1b4113ec8eb7e225d56d22f0211e8fdd263e2",
+      "woff2_sha256": "d02e51673335e7614c990e245692a3996cfc5a5c2140c723edc7e62624c08395"
+    },
+    "new0101-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepTextCompactPhi2Draft0101-Regular.otf",
+      "source_sha256": "27dfadb4b5f68ee50c02fd1754ad51d00aed9712e9f8f16d08b655e032118efc",
+      "woff2_sha256": "15ac99a5b53630db22f3df10a305c3076b3abe364ff2e83998fbb7a27c7af1f2"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Structural-Carrier-v0.100/cases/letter/new0100.html",
+      "source_sha256": "63c7626acff3df013f71a695958fb4558d705cf1938f882f9db62f52a47b2ac5"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Structural-Carrier-v0.100/cases/proposal/new0100.html",
+      "source_sha256": "1b39628c071d171695fddafb9619b3df5c2d8986266a7e392c567fc321d1c50b"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Structural-Carrier-v0.100/cases/mobile/new0100.html",
+      "source_sha256": "9b51d1a9ed88ecbe848e59acb39c99f67508b0fc042ade314787b3c94dafbc50"
+    }
+  },
+  "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+  "approved_lockup_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "css_source_sha256": "afaf6e4a6e639f3441e270e0930b41b313e1af4f8197741aceab4fb37fc7a352"
+}
