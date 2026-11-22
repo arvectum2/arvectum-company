@@ -1,0 +1,88 @@
+{
+  "version": "0.89",
+  "status": "EXPERIMENTAL / NOT APPROVED",
+  "phi": 1.618033988749895,
+  "source": "v0.88, Inter v4.1-derived",
+  "changes": [
+    "U+0411",
+    "U+0431"
+  ],
+  "styles": {
+    "Display": {
+      "prior": "ArvectumGoldenStepDisplayPhiBowlDraft088-Medium.otf",
+      "prior_sha256": "ef46e81c6d484a23be81bbdb55a5fb5614a230bfc74becaeb3ee5fd92fa75ff4",
+      "output": "experimental/ArvectumGoldenStepDisplayPhiBeDraft089-Medium.otf",
+      "output_sha256": "96da8821c23ddb1e2a8e6bedb66d8403d91947b203a234ca30add56096d14f9f",
+      "parameters": {
+        "Б": {
+          "glyph": "uni0411",
+          "advance": 1258,
+          "lsb": 136,
+          "right_vertical_flat": 27,
+          "baseline_length": 557,
+          "top_visor_length": 901,
+          "visor_to_baseline_ratio": 1.6175942549371634,
+          "visor_right_shift": -14,
+          "right_extremum": [
+            1187,
+            446
+          ]
+        },
+        "б": {
+          "glyph": "uni0431",
+          "advance": 1142,
+          "lsb": 67,
+          "right_vertical_flat": 24,
+          "bottom_horizontal_flat": 39,
+          "bottom_to_right_ratio": 1.625,
+          "right_extremum": [
+            1075,
+            523
+          ],
+          "bottom_extremum": [
+            575,
+            -24
+          ]
+        }
+      }
+    },
+    "Text": {
+      "prior": "ArvectumGoldenStepTextPhiBowlDraft088-Regular.otf",
+      "prior_sha256": "7d5b7702b063ca56562dfe7dfeb050d42f13dbbe859563ef5dd8eb04d07531d2",
+      "output": "experimental/ArvectumGoldenStepTextPhiBeDraft089-Regular.otf",
+      "output_sha256": "ed3835f80546793b34f3f4f70e33f08b54b0dce055deae1d2357e945a6bba4a5",
+      "parameters": {
+        "Б": {
+          "glyph": "uni0411",
+          "advance": 1250,
+          "lsb": 148,
+          "right_vertical_flat": 27,
+          "baseline_length": 526,
+          "top_visor_length": 851,
+          "visor_to_baseline_ratio": 1.61787072243346,
+          "visor_right_shift": -33,
+          "right_extremum": [
+            1170,
+            440
+          ]
+        },
+        "б": {
+          "glyph": "uni0431",
+          "advance": 1120,
+          "lsb": 72,
+          "right_vertical_flat": 24,
+          "bottom_horizontal_flat": 39,
+          "bottom_to_right_ratio": 1.625,
+          "right_extremum": [
+            1048,
+            524
+          ],
+          "bottom_extremum": [
+            565,
+            -24
+          ]
+        }
+      }
+    }
+  }
+}

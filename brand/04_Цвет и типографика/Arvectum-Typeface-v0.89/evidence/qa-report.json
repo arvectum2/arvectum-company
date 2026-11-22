@@ -1,0 +1,107 @@
+{
+  "status": "MECHANICAL PASS (not artistic approval)",
+  "styles": {
+    "Display": {
+      "changed": [
+        "uni0411",
+        "uni0431"
+      ],
+      "unchanged_contours": 2935,
+      "unicode_positions": 2852,
+      "metrics_and_layout_preserved": true,
+      "geometry": {
+        "Б": {
+          "flat": 27,
+          "visor": 901,
+          "baseline": 557,
+          "ratio": 1.6175942549371634
+        },
+        "б": {
+          "right": 24,
+          "bottom": 39,
+          "ratio": 1.625
+        }
+      },
+      "changed_pixels": {
+        "Б": {
+          "12": 27,
+          "16": 40,
+          "24": 56,
+          "48": 117,
+          "96": 284
+        },
+        "б": {
+          "12": 46,
+          "16": 74,
+          "24": 125,
+          "48": 259,
+          "96": 465
+        }
+      },
+      "cumulative_changed_vs_unmodified_Inter": [
+        "B",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ]
+    },
+    "Text": {
+      "changed": [
+        "uni0411",
+        "uni0431"
+      ],
+      "unchanged_contours": 2935,
+      "unicode_positions": 2852,
+      "metrics_and_layout_preserved": true,
+      "geometry": {
+        "Б": {
+          "flat": 27,
+          "visor": 851,
+          "baseline": 526,
+          "ratio": 1.61787072243346
+        },
+        "б": {
+          "right": 24,
+          "bottom": 39,
+          "ratio": 1.625
+        }
+      },
+      "changed_pixels": {
+        "Б": {
+          "12": 31,
+          "16": 45,
+          "24": 71,
+          "48": 127,
+          "96": 167
+        },
+        "б": {
+          "12": 44,
+          "16": 62,
+          "24": 125,
+          "48": 252,
+          "96": 382
+        }
+      },
+      "cumulative_changed_vs_unmodified_Inter": [
+        "B",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ]
+    }
+  },
+  "optical_approved": false,
+  "pdf": {
+    "pages": 6,
+    "raster_objects": 0,
+    "preview_pages": 6,
+    "poppler_warnings": 86
+  },
+  "warning": "Type3 glyph bounding-box warnings from Chrome export; print qualification open"
+}
