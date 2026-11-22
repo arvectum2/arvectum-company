@@ -1,0 +1,102 @@
+{
+  "version": "0.99",
+  "mechanical_status": "PASS / artistic owner decision OPEN",
+  "styles": {
+    "Display": {
+      "stage_changed": [
+        "n",
+        "uni0438",
+        "uni043D"
+      ],
+      "unchanged_vs_parent": 2934,
+      "cumulative_changed_vs_Inter": 39,
+      "unchanged_vs_Inter": 2898,
+      "area_delta_percent": {
+        "и": 0.0,
+        "н": 0.0,
+        "n": 0.0988
+      },
+      "raster_delta_pixels": {
+        "и": {
+          "12": 25,
+          "14": 30,
+          "16": 36,
+          "18": 42,
+          "24": 52,
+          "32": 78,
+          "48": 113,
+          "72": 186
+        },
+        "н": {
+          "12": 16,
+          "14": 14,
+          "16": 16,
+          "18": 16,
+          "24": 21,
+          "32": 26,
+          "48": 51,
+          "72": 92
+        },
+        "n": {
+          "12": 18,
+          "14": 21,
+          "16": 26,
+          "18": 27,
+          "24": 33,
+          "32": 41,
+          "48": 70,
+          "72": 90
+        }
+      },
+      "metrics_and_OT_tables_preserved": true
+    },
+    "Text": {
+      "stage_changed": [
+        "n",
+        "uni0438",
+        "uni043D"
+      ],
+      "unchanged_vs_parent": 2934,
+      "cumulative_changed_vs_Inter": 39,
+      "unchanged_vs_Inter": 2898,
+      "area_delta_percent": {
+        "и": 0.0,
+        "н": 0.0,
+        "n": 0.0368
+      },
+      "raster_delta_pixels": {
+        "и": {
+          "12": 24,
+          "14": 28,
+          "16": 33,
+          "18": 41,
+          "24": 55,
+          "32": 82,
+          "48": 127,
+          "72": 179
+        },
+        "н": {
+          "12": 12,
+          "14": 13,
+          "16": 15,
+          "18": 16,
+          "24": 20,
+          "32": 27,
+          "48": 52,
+          "72": 94
+        },
+        "n": {
+          "12": 17,
+          "14": 19,
+          "16": 22,
+          "18": 27,
+          "24": 33,
+          "32": 38,
+          "48": 74,
+          "72": 87
+        }
+      },
+      "metrics_and_OT_tables_preserved": true
+    }
+  }
+}

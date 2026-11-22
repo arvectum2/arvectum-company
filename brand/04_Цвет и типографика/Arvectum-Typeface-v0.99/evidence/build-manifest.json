@@ -1,0 +1,72 @@
+{
+  "version": "0.99",
+  "status": "EXPERIMENTAL / owner optical acceptance OPEN",
+  "scope": "lowercase batch 0.99",
+  "phi": 1.618033988749895,
+  "chars": [
+    "и",
+    "н",
+    "n"
+  ],
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.98/experimental/ArvectumGoldenStepDisplayLowercaseJointsDraft098-Medium.otf",
+      "source_sha256": "662604149b48b7aa4dd4e668553d5bf9eeabe2ced383044cb20a9d517d392040",
+      "output": "experimental/ArvectumGoldenStepDisplayLowercaseRhythmDraft099-Medium.otf",
+      "output_sha256": "6320d7135ffd049a1b6d51e2ad3030eb0e5d3e3e1c75f1f6ce805cb7d2c722fd",
+      "glyphs": {
+        "и": {
+          "glyph": "uni0438",
+          "width": 1165,
+          "lsb": 119,
+          "rule": "two diagonal slopes gently approach 1/phi",
+          "dx": 23
+        },
+        "н": {
+          "glyph": "uni043D",
+          "width": 1160,
+          "lsb": 119,
+          "rule": "crossbar raised toward xheight/phi, original thickness",
+          "dy": 42
+        },
+        "n": {
+          "glyph": "n",
+          "width": 1146,
+          "lsb": 119,
+          "rule": "outer and inner shoulder arch handles balanced, endpoints fixed",
+          "dx": 36
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.98/experimental/ArvectumGoldenStepTextLowercaseJointsDraft098-Regular.otf",
+      "source_sha256": "e04bf23affa2784dfe902c36c81f14760eca893e28e4e0e628477cf25eeab725",
+      "output": "experimental/ArvectumGoldenStepTextLowercaseRhythmDraft099-Regular.otf",
+      "output_sha256": "0af36c97fd0e8ab19e1bc3347d087bb780c6aa8d9cd4d45bf5c1c3d9b26337fd",
+      "glyphs": {
+        "и": {
+          "glyph": "uni0438",
+          "width": 1136,
+          "lsb": 126,
+          "rule": "two diagonal slopes gently approach 1/phi",
+          "dx": 21
+        },
+        "н": {
+          "glyph": "uni043D",
+          "width": 1130,
+          "lsb": 126,
+          "rule": "crossbar raised toward xheight/phi, original thickness",
+          "dy": 42
+        },
+        "n": {
+          "glyph": "n",
+          "width": 1120,
+          "lsb": 126,
+          "rule": "outer and inner shoulder arch handles balanced, endpoints fixed",
+          "dx": 36
+        }
+      }
+    }
+  },
+  "origin": "Inter 4.1 (SIL OFL 1.1)"
+}

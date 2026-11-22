@@ -1,0 +1,31 @@
+{
+  "technical": "PASS",
+  "cases": {
+    "letter": {
+      "width": 1160,
+      "height": 1173,
+      "text_chars": 650
+    },
+    "proposal": {
+      "width": 1160,
+      "height": 2323,
+      "text_chars": 1567
+    },
+    "mobile": {
+      "width": 390,
+      "height": 1831,
+      "text_chars": 712
+    }
+  },
+  "full_image_pixel_difference_pct": {
+    "letter-page-1": 0.2747,
+    "proposal-page-1": 0.35106,
+    "proposal-page-2": 0.37011,
+    "mobile": 0.36354
+  },
+  "font_woff2_full_contour_match": true,
+  "limitations": [
+    "No optical approval or human reading study",
+    "All test materials are local historical design mockups"
+  ]
+}

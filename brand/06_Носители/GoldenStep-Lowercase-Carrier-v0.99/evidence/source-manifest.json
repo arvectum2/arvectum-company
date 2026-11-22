@@ -1,0 +1,42 @@
+{
+  "fonts": {
+    "old096-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepDisplayPhiRoundDraft096-Medium.otf",
+      "otf_sha256": "2561a25c138af29d4a7446e72341386122071603d786c3a75596da189419af43",
+      "woff2_sha256": "64b921ae1571fa0adc19fc59543f1518ef8857fcb0d8a3dc0f92c30baf010dc9"
+    },
+    "old096-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepTextPhiRoundDraft096-Regular.otf",
+      "otf_sha256": "d7f1120b948923f7989d719f81c64d5c8514ab4083b118b6e41efc6ea2faa1e5",
+      "woff2_sha256": "047088c1789a7bcff8e97474b5605fb20e65f3cc6c9ef5c0d10cd3689c9dc000"
+    },
+    "new099-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.99/experimental/ArvectumGoldenStepDisplayLowercaseRhythmDraft099-Medium.otf",
+      "otf_sha256": "6320d7135ffd049a1b6d51e2ad3030eb0e5d3e3e1c75f1f6ce805cb7d2c722fd",
+      "woff2_sha256": "895594437c28ef68596305bbe58a8ec7d28655d81dd925d45de21187c0ca77d2"
+    },
+    "new099-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.99/experimental/ArvectumGoldenStepTextLowercaseRhythmDraft099-Regular.otf",
+      "otf_sha256": "0af36c97fd0e8ab19e1bc3347d087bb780c6aa8d9cd4d45bf5c1c3d9b26337fd",
+      "woff2_sha256": "7c1c1c9b49606525f73a2dc24226720471486400640384c5b5b8853c97b519bf"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Family-Carrier-v0.96/cases/letter/new096.html",
+      "sha256": "bbf21c1c69501a954bbbcfba39be3c5832dafdd1185cbd75e656478b034da9ac"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Family-Carrier-v0.96/cases/proposal/new096.html",
+      "sha256": "dcb44614cc3413f02d0d638f2c6df5a1995b4a3f9aa35df6e9d82efa1a5bf8f3"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Family-Carrier-v0.96/cases/mobile/new096.html",
+      "sha256": "cddcf969a344b394a22a694eb11f71fbaee8ae9cbcaccf3158e88c06d7fdf274"
+    }
+  },
+  "approved_logo_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+  "css_sha256": "f4a327b74bf0aceef69d3693a41575fddcc75972e5421fca6e36fc0b519948b2",
+  "local_mockups_only": true
+}

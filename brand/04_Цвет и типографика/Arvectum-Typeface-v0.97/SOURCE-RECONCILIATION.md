@@ -1,0 +1,1 @@
+# v0.97 provenance\n\nExact parent v0.96 Display and Text OTF under Arvectum Company brand repository; original Inter v4.1 under SIL OFL 1.1. Numeric parent/output hashes in evidence/build-manifest.json. This version modifies only a/а, e/е. No master wordmark/site/client modifications; no approved production font or independent source IP claim.\n

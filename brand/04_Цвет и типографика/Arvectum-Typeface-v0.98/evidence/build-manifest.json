@@ -1,0 +1,107 @@
+{
+  "version": "0.98",
+  "status": "EXPERIMENTAL / owner optical acceptance OPEN",
+  "scope": "lowercase batch 0.98",
+  "phi": 1.618033988749895,
+  "chars": [
+    "p",
+    "р",
+    "д",
+    "л"
+  ],
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.97/experimental/ArvectumGoldenStepDisplayLowercaseBowlsDraft097-Medium.otf",
+      "source_sha256": "0bfda6d03ef584abc58fcc30cd6e3c436afe2d58b5d63b0ef368b07b40ebbf96",
+      "output": "experimental/ArvectumGoldenStepDisplayLowercaseJointsDraft098-Medium.otf",
+      "output_sha256": "662604149b48b7aa4dd4e668553d5bf9eeabe2ced383044cb20a9d517d392040",
+      "glyphs": {
+        "p": {
+          "glyph": "p",
+          "width": 1180,
+          "lsb": 119,
+          "rule": "matched counter top/bottom handles; unchanged external p descender",
+          "counter_handles": [
+            379,
+            838
+          ]
+        },
+        "р": {
+          "glyph": "uni0440",
+          "width": 1180,
+          "lsb": 119,
+          "rule": "matched counter top/bottom handles; unchanged external p descender",
+          "counter_handles": [
+            379,
+            838
+          ]
+        },
+        "д": {
+          "glyph": "uni0434",
+          "width": 1247,
+          "lsb": 22,
+          "rule": "lowercase roof wedge/shelf phi^-2, original curved supports",
+          "outer_dx": 36,
+          "inner_dx": -10,
+          "ratio": 0.3810810810810811
+        },
+        "л": {
+          "glyph": "uni043B",
+          "width": 1158,
+          "lsb": 16,
+          "rule": "lowercase roof wedge/shelf phi^-2, original curved supports",
+          "outer_dx": 36,
+          "inner_dx": -17,
+          "ratio": 0.38303341902313626
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.97/experimental/ArvectumGoldenStepTextLowercaseBowlsDraft097-Regular.otf",
+      "source_sha256": "2b41bf88991e86d52847abe98ae5e9710dffbacfcddfabee0d44027e7fc8ec40",
+      "output": "experimental/ArvectumGoldenStepTextLowercaseJointsDraft098-Regular.otf",
+      "output_sha256": "e04bf23affa2784dfe902c36c81f14760eca893e28e4e0e628477cf25eeab725",
+      "glyphs": {
+        "p": {
+          "glyph": "p",
+          "width": 1158,
+          "lsb": 126,
+          "rule": "matched counter top/bottom handles; unchanged external p descender",
+          "counter_handles": [
+            350,
+            847
+          ]
+        },
+        "р": {
+          "glyph": "uni0440",
+          "width": 1158,
+          "lsb": 126,
+          "rule": "matched counter top/bottom handles; unchanged external p descender",
+          "counter_handles": [
+            350,
+            847
+          ]
+        },
+        "д": {
+          "glyph": "uni0434",
+          "width": 1214,
+          "lsb": 23,
+          "rule": "lowercase roof wedge/shelf phi^-2, original curved supports",
+          "outer_dx": 36,
+          "inner_dx": 20,
+          "ratio": 0.38082191780821917
+        },
+        "л": {
+          "glyph": "uni043B",
+          "width": 1133,
+          "lsb": 15,
+          "rule": "lowercase roof wedge/shelf phi^-2, original curved supports",
+          "outer_dx": 36,
+          "inner_dx": 23,
+          "ratio": 0.38303341902313626
+        }
+      }
+    }
+  },
+  "origin": "Inter 4.1 (SIL OFL 1.1)"
+}

@@ -1,0 +1,79 @@
+{
+  "version": "0.97",
+  "status": "EXPERIMENTAL / owner optical acceptance OPEN",
+  "scope": "lowercase batch 0.97",
+  "phi": 1.618033988749895,
+  "chars": [
+    "a",
+    "а",
+    "е",
+    "e"
+  ],
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepDisplayPhiRoundDraft096-Medium.otf",
+      "source_sha256": "2561a25c138af29d4a7446e72341386122071603d786c3a75596da189419af43",
+      "output": "experimental/ArvectumGoldenStepDisplayLowercaseBowlsDraft097-Medium.otf",
+      "output_sha256": "0bfda6d03ef584abc58fcc30cd6e3c436afe2d58b5d63b0ef368b07b40ebbf96",
+      "glyphs": {
+        "a": {
+          "glyph": "a",
+          "width": 1084,
+          "lsb": 75,
+          "rule": "outer cap and counter upper horizontal tangents with local 1/sqrt(phi) handles"
+        },
+        "а": {
+          "glyph": "uni0430",
+          "width": 1084,
+          "lsb": 75,
+          "rule": "outer cap and counter upper horizontal tangents with local 1/sqrt(phi) handles"
+        },
+        "е": {
+          "glyph": "uni0435",
+          "width": 1115,
+          "lsb": 67,
+          "rule": "upper curve continuity with 1/sqrt(phi) handles; aperture and horizontal bar fixed"
+        },
+        "e": {
+          "glyph": "e",
+          "width": 1115,
+          "lsb": 67,
+          "rule": "upper curve continuity with 1/sqrt(phi) handles; aperture and horizontal bar fixed"
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.96/experimental/ArvectumGoldenStepTextPhiRoundDraft096-Regular.otf",
+      "source_sha256": "d7f1120b948923f7989d719f81c64d5c8514ab4083b118b6e41efc6ea2faa1e5",
+      "output": "experimental/ArvectumGoldenStepTextLowercaseBowlsDraft097-Regular.otf",
+      "output_sha256": "2b41bf88991e86d52847abe98ae5e9710dffbacfcddfabee0d44027e7fc8ec40",
+      "glyphs": {
+        "a": {
+          "glyph": "a",
+          "width": 1060,
+          "lsb": 80,
+          "rule": "outer cap and counter upper horizontal tangents with local 1/sqrt(phi) handles"
+        },
+        "а": {
+          "glyph": "uni0430",
+          "width": 1060,
+          "lsb": 80,
+          "rule": "outer cap and counter upper horizontal tangents with local 1/sqrt(phi) handles"
+        },
+        "е": {
+          "glyph": "uni0435",
+          "width": 1098,
+          "lsb": 72,
+          "rule": "upper curve continuity with 1/sqrt(phi) handles; aperture and horizontal bar fixed"
+        },
+        "e": {
+          "glyph": "e",
+          "width": 1098,
+          "lsb": 72,
+          "rule": "upper curve continuity with 1/sqrt(phi) handles; aperture and horizontal bar fixed"
+        }
+      }
+    }
+  },
+  "origin": "Inter 4.1 (SIL OFL 1.1)"
+}

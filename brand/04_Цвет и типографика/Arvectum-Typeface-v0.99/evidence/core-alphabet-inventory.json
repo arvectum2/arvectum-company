@@ -1,0 +1,2562 @@
+[
+  {
+    "face": "Display",
+    "unicode": "U+0041",
+    "character": "A",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0042",
+    "character": "B",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0043",
+    "character": "C",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0044",
+    "character": "D",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0045",
+    "character": "E",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0046",
+    "character": "F",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0047",
+    "character": "G",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0048",
+    "character": "H",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0049",
+    "character": "I",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004A",
+    "character": "J",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004B",
+    "character": "K",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004C",
+    "character": "L",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004D",
+    "character": "M",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004E",
+    "character": "N",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+004F",
+    "character": "O",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0050",
+    "character": "P",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0051",
+    "character": "Q",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0052",
+    "character": "R",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0053",
+    "character": "S",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0054",
+    "character": "T",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0055",
+    "character": "U",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0056",
+    "character": "V",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0057",
+    "character": "W",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0058",
+    "character": "X",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0059",
+    "character": "Y",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+005A",
+    "character": "Z",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0061",
+    "character": "a",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0062",
+    "character": "b",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0063",
+    "character": "c",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0064",
+    "character": "d",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0065",
+    "character": "e",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0066",
+    "character": "f",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0067",
+    "character": "g",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0068",
+    "character": "h",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0069",
+    "character": "i",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006A",
+    "character": "j",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006B",
+    "character": "k",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006C",
+    "character": "l",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006D",
+    "character": "m",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006E",
+    "character": "n",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+006F",
+    "character": "o",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0070",
+    "character": "p",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0071",
+    "character": "q",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0072",
+    "character": "r",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0073",
+    "character": "s",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0074",
+    "character": "t",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0075",
+    "character": "u",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0076",
+    "character": "v",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0077",
+    "character": "w",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0078",
+    "character": "x",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0079",
+    "character": "y",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+007A",
+    "character": "z",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0410",
+    "character": "А",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0411",
+    "character": "Б",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0412",
+    "character": "В",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0413",
+    "character": "Г",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0414",
+    "character": "Д",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0415",
+    "character": "Е",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0401",
+    "character": "Ё",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0416",
+    "character": "Ж",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0417",
+    "character": "З",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0418",
+    "character": "И",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0419",
+    "character": "Й",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041A",
+    "character": "К",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041B",
+    "character": "Л",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041C",
+    "character": "М",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041D",
+    "character": "Н",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041E",
+    "character": "О",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+041F",
+    "character": "П",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0420",
+    "character": "Р",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0421",
+    "character": "С",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0422",
+    "character": "Т",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0423",
+    "character": "У",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0424",
+    "character": "Ф",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0425",
+    "character": "Х",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0426",
+    "character": "Ц",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0427",
+    "character": "Ч",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0428",
+    "character": "Ш",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0429",
+    "character": "Щ",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042A",
+    "character": "Ъ",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042B",
+    "character": "Ы",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042C",
+    "character": "Ь",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042D",
+    "character": "Э",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042E",
+    "character": "Ю",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+042F",
+    "character": "Я",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0430",
+    "character": "а",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0431",
+    "character": "б",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0432",
+    "character": "в",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0433",
+    "character": "г",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0434",
+    "character": "д",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0435",
+    "character": "е",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0451",
+    "character": "ё",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0436",
+    "character": "ж",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0437",
+    "character": "з",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0438",
+    "character": "и",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0439",
+    "character": "й",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043A",
+    "character": "к",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043B",
+    "character": "л",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043C",
+    "character": "м",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043D",
+    "character": "н",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043E",
+    "character": "о",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+043F",
+    "character": "п",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0440",
+    "character": "р",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0441",
+    "character": "с",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0442",
+    "character": "т",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0443",
+    "character": "у",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0444",
+    "character": "ф",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0445",
+    "character": "х",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0446",
+    "character": "ц",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0447",
+    "character": "ч",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0448",
+    "character": "ш",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0449",
+    "character": "щ",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044A",
+    "character": "ъ",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044B",
+    "character": "ы",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044C",
+    "character": "ь",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044D",
+    "character": "э",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044E",
+    "character": "ю",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+044F",
+    "character": "я",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0030",
+    "character": "0",
+    "script": "Digits",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0031",
+    "character": "1",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0032",
+    "character": "2",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0033",
+    "character": "3",
+    "script": "Digits",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0034",
+    "character": "4",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0035",
+    "character": "5",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0036",
+    "character": "6",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0037",
+    "character": "7",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0038",
+    "character": "8",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Display",
+    "unicode": "U+0039",
+    "character": "9",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0041",
+    "character": "A",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0042",
+    "character": "B",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0043",
+    "character": "C",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0044",
+    "character": "D",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0045",
+    "character": "E",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0046",
+    "character": "F",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0047",
+    "character": "G",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0048",
+    "character": "H",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0049",
+    "character": "I",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004A",
+    "character": "J",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004B",
+    "character": "K",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004C",
+    "character": "L",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004D",
+    "character": "M",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004E",
+    "character": "N",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+004F",
+    "character": "O",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0050",
+    "character": "P",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0051",
+    "character": "Q",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0052",
+    "character": "R",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0053",
+    "character": "S",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0054",
+    "character": "T",
+    "script": "Latin",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0055",
+    "character": "U",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0056",
+    "character": "V",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0057",
+    "character": "W",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0058",
+    "character": "X",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0059",
+    "character": "Y",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+005A",
+    "character": "Z",
+    "script": "Latin",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0061",
+    "character": "a",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0062",
+    "character": "b",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0063",
+    "character": "c",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0064",
+    "character": "d",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0065",
+    "character": "e",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0066",
+    "character": "f",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0067",
+    "character": "g",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0068",
+    "character": "h",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0069",
+    "character": "i",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006A",
+    "character": "j",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006B",
+    "character": "k",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006C",
+    "character": "l",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006D",
+    "character": "m",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006E",
+    "character": "n",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+006F",
+    "character": "o",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0070",
+    "character": "p",
+    "script": "Latin",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0071",
+    "character": "q",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0072",
+    "character": "r",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0073",
+    "character": "s",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0074",
+    "character": "t",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0075",
+    "character": "u",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0076",
+    "character": "v",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0077",
+    "character": "w",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0078",
+    "character": "x",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0079",
+    "character": "y",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+007A",
+    "character": "z",
+    "script": "Latin",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0410",
+    "character": "А",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0411",
+    "character": "Б",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0412",
+    "character": "В",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0413",
+    "character": "Г",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0414",
+    "character": "Д",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0415",
+    "character": "Е",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0401",
+    "character": "Ё",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0416",
+    "character": "Ж",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0417",
+    "character": "З",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0418",
+    "character": "И",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0419",
+    "character": "Й",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041A",
+    "character": "К",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041B",
+    "character": "Л",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041C",
+    "character": "М",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041D",
+    "character": "Н",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041E",
+    "character": "О",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+041F",
+    "character": "П",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0420",
+    "character": "Р",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0421",
+    "character": "С",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0422",
+    "character": "Т",
+    "script": "Cyrillic",
+    "group": "structural capitals",
+    "outline_status": "inspected / inherited provisional",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0423",
+    "character": "У",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0424",
+    "character": "Ф",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0425",
+    "character": "Х",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0426",
+    "character": "Ц",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0427",
+    "character": "Ч",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0428",
+    "character": "Ш",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0429",
+    "character": "Щ",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042A",
+    "character": "Ъ",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042B",
+    "character": "Ы",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042C",
+    "character": "Ь",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042D",
+    "character": "Э",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042E",
+    "character": "Ю",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+042F",
+    "character": "Я",
+    "script": "Cyrillic",
+    "group": "other capitals",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0430",
+    "character": "а",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0431",
+    "character": "б",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0432",
+    "character": "в",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0433",
+    "character": "г",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0434",
+    "character": "д",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0435",
+    "character": "е",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0451",
+    "character": "ё",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0436",
+    "character": "ж",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0437",
+    "character": "з",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0438",
+    "character": "и",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0439",
+    "character": "й",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043A",
+    "character": "к",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043B",
+    "character": "л",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043C",
+    "character": "м",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043D",
+    "character": "н",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043E",
+    "character": "о",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+043F",
+    "character": "п",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0440",
+    "character": "р",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0441",
+    "character": "с",
+    "script": "Cyrillic",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "modified / candidate",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0442",
+    "character": "т",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0443",
+    "character": "у",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0444",
+    "character": "ф",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0445",
+    "character": "х",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0446",
+    "character": "ц",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0447",
+    "character": "ч",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0448",
+    "character": "ш",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0449",
+    "character": "щ",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044A",
+    "character": "ъ",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044B",
+    "character": "ы",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044C",
+    "character": "ь",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044D",
+    "character": "э",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044E",
+    "character": "ю",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+044F",
+    "character": "я",
+    "script": "Cyrillic",
+    "group": "lowercase anatomy",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0030",
+    "character": "0",
+    "script": "Digits",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0031",
+    "character": "1",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0032",
+    "character": "2",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0033",
+    "character": "3",
+    "script": "Digits",
+    "group": "round/bowl and disambiguation",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0034",
+    "character": "4",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0035",
+    "character": "5",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0036",
+    "character": "6",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0037",
+    "character": "7",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0038",
+    "character": "8",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  },
+  {
+    "face": "Text",
+    "unicode": "U+0039",
+    "character": "9",
+    "script": "Digits",
+    "group": "digits",
+    "outline_status": "inherited / not reviewed",
+    "artistic_owner_approval": "OPEN",
+    "upstream": "Inter 4.1"
+  }
+]

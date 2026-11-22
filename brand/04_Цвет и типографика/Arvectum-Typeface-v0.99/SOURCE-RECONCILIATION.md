@@ -1,0 +1,1 @@
+# v0.99 provenance\n\nExact parent v0.98 Display and Text OTF under Arvectum Company brand repository; original Inter v4.1 under SIL OFL 1.1. Numeric parent/output hashes in evidence/build-manifest.json. This version modifies only и, н, n. No master wordmark/site/client modifications; no approved production font or independent source IP claim.\n
