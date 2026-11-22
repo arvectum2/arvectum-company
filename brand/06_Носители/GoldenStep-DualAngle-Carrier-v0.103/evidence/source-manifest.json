@@ -1,0 +1,41 @@
+{
+  "status": "local historical synthetic fixture, not live site or customer data",
+  "fonts": {
+    "old0102-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepDisplaySlantedTerminalDraft0102-Medium.otf",
+      "source_sha256": "7dae7851484791875fd9d2f2d708ec6491a2f2feba55b6d44f9dba3533701c72",
+      "woff2_sha256": "e23ff94bd27aab6ea44dd21e34963bacac4a115da023f70d870ff356ecc9f791"
+    },
+    "old0102-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepTextSlantedTerminalDraft0102-Regular.otf",
+      "source_sha256": "0925187ee22e6ca1253bfae24b73a54bc6c7d4fded56ceb0f315e0c963062f17",
+      "woff2_sha256": "c00305f2045940f156835ae0a5b9118379df3acaf4aa599c1f920a018271e94e"
+    },
+    "new0103-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepDisplayDualAngleDraft0103-Medium.otf",
+      "source_sha256": "279bf7adec0a599a73e86d40179db52b7907720db0e5395174f1037994a32c72",
+      "woff2_sha256": "a25015c4512296d9b5bd46dbcc24367c9c8b6728d77e2aeebbf7fa4bb1beb305"
+    },
+    "new0103-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.103/experimental/ArvectumGoldenStepTextDualAngleDraft0103-Regular.otf",
+      "source_sha256": "d75dcde5bec59d724c5ea288a915b9d0f5853aa56eaf8af40dccece1b93d28bb",
+      "woff2_sha256": "572eb08801336013424654b1f6033d5304b02f276d14c1f7c2a589d1e78b6f09"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Terminal-Carrier-v0.102/cases/letter/new0102.html",
+      "source_sha256": "fa4b5a28c85bc7cf2ffc576ddf893b1e1665c5a17342b82053a28ee676f050ab"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Terminal-Carrier-v0.102/cases/proposal/new0102.html",
+      "source_sha256": "463c6e7ebd7ccf1d22580d2506f460b2cdc4b2ee48913fa260310c7973b5dd4c"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Terminal-Carrier-v0.102/cases/mobile/new0102.html",
+      "source_sha256": "1ec9147ffedb88c9ec516a25b2b89b0a46348f4d18284b4efd06df894e1fe022"
+    }
+  },
+  "input_stylesheet_sha256": "8f70b2b55e4bde14e13cb81a559c4cc90761e54d72f9ed5c36cdecf341f5074a",
+  "approved_logo_copy_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4"
+}

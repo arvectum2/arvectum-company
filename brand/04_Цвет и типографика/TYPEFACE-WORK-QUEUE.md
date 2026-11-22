@@ -3,7 +3,7 @@
 Updated 2026-11-22. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
 
 ## Working candidate and historical baseline
-- **Current experimental font v0.102:** Arvectum Golden Step Display Medium and Text Regular, compact atan(φ²)=69.0948425521° in A/А, Д/Л, д/л, with right-opening Display A/А. The accepted design grammar now has TWO base angles α=atan(φ²) and β=atan(φ); N/И/Y at β are NOT yet implemented or accepted. Both optical masters remain independently designed; glyph acceptance OPEN.
+- **Current experimental font v0.103:** Arvectum Golden Step Display Medium and Text Regular, retaining v0.102 compact A/А, Д/Л, д/л and the approved right-opening Display A/А terminal. TWO base angles are now implemented in selected families: α=atan(φ²)=69.0948425521° and β=atan(φ)=58.2825255885° newly applied to N/И/Y. Both masters remain independently designed. The family grammar is owner-approved; the new shapes, full alphabet and production release remain OPEN.
 - **Historical v0.64 baseline (not current):** Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
 - **Historical baseline only:** older v0.64–v0.68 work used the 58.2825° atan φ logo angle for prominent letter studies. This does not supersede the current v0.101 compact font target atan(φ²)=69.0948°. The approved logo still retains its distinct original 58.2825° design.
 
@@ -13,8 +13,8 @@ Updated 2026-11-22. A durable working-status document, not a revision of pinned 
 - **β = atan(φ) = 58.2825255885° from horizontal:** a single spanning diagonal N/И and upper branches that meet midway Y; evaluate У by its actual anatomy. Both values apply to BOTH independently developed Display and Text.
 - The approved Wordmark C/monogram remain unchanged and have their own β geometry. Earlier atan(2φ)≈72.8279621495° Text W trial is historical, NOT a third approved angle.
 - For K/К, X/Х, W and mixed families assign angles per structural stroke and record optical exceptions. Counting corners is only a heuristic, not permission to force every glyph mechanically.
-- **Design rule accepted, not a new built font:** the currently saved v0.102 N/И/Y outlines have not yet been corrected or measured to β. The historical one-angle α global audit does not certify dual-angle alignment.
-- Next optional experiment: design N/И/Y in both masters at β, test reading, counters, kerning and historical carriers. No v0.102 CFF, approved master logo, production website or customer materials changed in this design-only decision.
+- **Historical acceptance note (pre-v0.103):** the two-angle grammar was approved while v0.102 N/И/Y still had inherited geometry. v0.103 subsequently implemented β in those three families; the prior all-α audit does NOT prove whole-font dual-angle conformance.
+- The approved family grammar and current experimental outline work remain distinct owner authority decisions. No v0.102 CFF, approved master logo, production website, customer materials or Arvectum OS was changed.
 
 ## Evidence completed during this session
 - v0.62: small-size optical audit; high likeness digit 3 / Cyrillic З in some sizes.
@@ -188,6 +188,15 @@ Updated 2026-11-22. A durable working-status document, not a revision of pinned 
 - Область изменённых CFF: только латинская A и кириллическая А в Display (2/2937). В Text 2937/2937 контуров оставлены в точности от v0.101, перемычка Text A/А остаётся ЗАКРЫТОЙ. Все hmtx/GPOS/GSUB/GDEF/cmap/OS2/hhea и 2852 Unicode-позиции неизменны.
 - Собран 4-страничный сравнительный PDF с увеличенным настоящим контуром и отложенными нормалями, пробами 12/14/16/24/40px, полным базовым алфавитом обеих гарнитур; OTF и WOFF2 содержат одинаковые 2937 контуров в каждой ветке. Архивы и контрольные суммы в каталоге версии.
 - Дальнейшие задачи: оптическая оценка правого разрыва собственником, рабочий кернинг, другие семейства и диагонали, законность выпуска, Windows/PDF/X. Production, утверждённый Wordmark, v0.101, документы заказчиков и Arvectum OS не изменены.
+
+## Golden Step v0.103 — применение угла β к N/И/Y в обоих начертаниях
+
+- На базе **v0.102** построены **три CFF глифа на каждое начертание**: латинская N, кириллическая И и латинская Y. Для N/И приняты два основных диагональных пролёта с β=atan(φ)=58,2825255885°; для Y — четыре наклонных участка верхней развилки с тем же β. После записи OTF максимальное отклонение <0,000001° в каждом начертании.
+- У N/И сохранили вертикальные стойки и исходные плавные переходы; у Y скорректировали концы внутренних диагоналей и две пары координат вертикальной ножки, **не меняя** крайние точки наверху, форму внутреннего плавного стыка, внешние габариты и advance. Исходные границы проверены с допуском 0,001 UPM к дробной CFF кодировке.
+- По сравнению с v0.102 изменились только N, uni0418 и Y; **2934 остальных CFF контура/стиль**, включая все формы A/А, V, M/М, Д/Л/д/л и диагональный срез с равным разрывом Display A/А, сохранены. hmtx, Unicode 2852, GPOS/GSUB/GDEF и остальные глобальные OpenType-таблицы неизменны. В каждой ветке 2937 контуров.
+- Пройдены сохранённые контуры OTF↔WOFF2 (2937/2937/начертание), русско-английский shaping, проверка замыкания/площади/габаритов и реальный 6-страничный векторный PDF с Text 12–32 px. Два набора фирменных DEMO OTF/WOFF2 отдельно протестированы на письме A4, двухстраничном КП и мобильном 390px: габариты и число страниц прежние, визуальные изменения на полных носителях от 0 до 0,00113% пикселей.
+- Новый независимый **двухугловой** аудит всех 2937 CFF глифов каждого начертания: β-семейства N/И/Y — **8/8 крупных прямых сегментов PASS** и в Display, и в Text. Ранее существовавшие α-семейства — **28/32 Display и 22/32 Text**; остальные 4639/4690 крупных сегментов унаследованных символов пока не классифицированы/не утверждены. **Глобальная готовность НЕ пройдена.**
+- Следующий возможный инженерный блок: исправление оставшихся отклонений α-семейств (без разрушения утверждённой A/А) и проектирование K/К, X/Х, W, затем общий читательский/кернинговый обзор. Утверждённый Wordmark, старые шрифты и production не изменены; формы v0.103 ожидают художественной оценки собственника.
 
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.

@@ -1,0 +1,193 @@
+{
+  "version": "0.103",
+  "status": "EXPERIMENTAL - owner shape approval OPEN",
+  "design_contract": "two angles: alpha=atan(phi^2), beta=atan(phi)",
+  "alpha_degrees": 69.0948425521107,
+  "beta_degrees": 58.282525588538995,
+  "changed": [
+    "N",
+    "И",
+    "Y"
+  ],
+  "alpha_glyphs_preserved": [
+    "A",
+    "А",
+    "V",
+    "M",
+    "М",
+    "Д",
+    "Л",
+    "д",
+    "л"
+  ],
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepDisplaySlantedTerminalDraft0102-Medium.otf",
+      "source_sha256": "7dae7851484791875fd9d2f2d708ec6491a2f2feba55b6d44f9dba3533701c72",
+      "output": "experimental/ArvectumGoldenStepDisplayDualAngleDraft0103-Medium.otf",
+      "output_sha256": "279bf7adec0a599a73e86d40179db52b7907720db0e5395174f1037994a32c72",
+      "geometry": {
+        "N": {
+          "glyph": "N",
+          "advance": 1464,
+          "lsb": 136,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "source_path_length": 15,
+          "measured_degrees": [
+            58.282525588538995,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        },
+        "И": {
+          "glyph": "uni0418",
+          "advance": 1464,
+          "lsb": 136,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "source_path_length": 15,
+          "measured_degrees": [
+            58.28252558853901,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        },
+        "Y": {
+          "glyph": "Y",
+          "advance": 1348,
+          "lsb": 16,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "source_path_length": 12,
+          "measured_degrees": [
+            58.282525588538995,
+            58.282525588538995,
+            58.282525588538995,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepTextSlantedTerminalDraft0102-Regular.otf",
+      "source_sha256": "0925187ee22e6ca1253bfae24b73a54bc6c7d4fded56ceb0f315e0c963062f17",
+      "output": "experimental/ArvectumGoldenStepTextDualAngleDraft0103-Regular.otf",
+      "output_sha256": "d75dcde5bec59d724c5ea288a915b9d0f5853aa56eaf8af40dccece1b93d28bb",
+      "geometry": {
+        "N": {
+          "glyph": "N",
+          "advance": 1454,
+          "lsb": 148,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "source_path_length": 15,
+          "measured_degrees": [
+            58.282525588538995,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        },
+        "И": {
+          "glyph": "uni0418",
+          "advance": 1454,
+          "lsb": 148,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "source_path_length": 15,
+          "measured_degrees": [
+            58.282525588538995,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        },
+        "Y": {
+          "glyph": "Y",
+          "advance": 1316,
+          "lsb": 20,
+          "rule": "beta=atan(phi) for assigned straight spanning/upper branch",
+          "target_edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "source_path_length": 12,
+          "measured_degrees": [
+            58.282525588538995,
+            58.282525588538995,
+            58.282525588538995,
+            58.282525588538995
+          ],
+          "scope": "anchors only on baseline or cap, inner curves and stem preserved"
+        }
+      }
+    }
+  }
+}

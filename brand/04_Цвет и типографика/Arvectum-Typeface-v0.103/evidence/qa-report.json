@@ -1,0 +1,182 @@
+{
+  "version": "0.103",
+  "status": "mechanical PASS, artistic approval OPEN",
+  "beta_target_deg": 58.282525588538995,
+  "alpha_target_deg": 69.0948425521107,
+  "styles": {
+    "Display": {
+      "scope": [
+        "N",
+        "Y",
+        "uni0418"
+      ],
+      "unchanged_vs_parent": 2934,
+      "metrics_and_OT_tables_preserved": true,
+      "glyphs": {
+        "N": {
+          "glyph": "N",
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 2.903528013575851e-07,
+          "original_angle_errors_deg": [
+            -0.58762,
+            -0.55578
+          ],
+          "ink_area_difference_percent": 1.0685,
+          "bbox_preserved": true,
+          "advance": 1464
+        },
+        "И": {
+          "glyph": "uni0418",
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 2.903528013575851e-07,
+          "original_angle_errors_deg": [
+            -0.00697,
+            -0.02485
+          ],
+          "ink_area_difference_percent": 0.0282,
+          "bbox_preserved": true,
+          "advance": 1464
+        },
+        "Y": {
+          "glyph": "Y",
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 6.444080469236724e-07,
+          "original_angle_errors_deg": [
+            0.33195,
+            0.93333,
+            0.66417,
+            0.1457
+          ],
+          "ink_area_difference_percent": 2.7263,
+          "bbox_preserved": true,
+          "advance": 1348
+        }
+      }
+    },
+    "Text": {
+      "scope": [
+        "N",
+        "Y",
+        "uni0418"
+      ],
+      "unchanged_vs_parent": 2934,
+      "metrics_and_OT_tables_preserved": true,
+      "glyphs": {
+        "N": {
+          "glyph": "N",
+          "edges": [
+            [
+              4,
+              5
+            ],
+            [
+              11,
+              12
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 1.4485885913018137e-07,
+          "original_angle_errors_deg": [
+            -0.63313,
+            -0.61591
+          ],
+          "ink_area_difference_percent": 1.6241,
+          "bbox_preserved": true,
+          "advance": 1454
+        },
+        "И": {
+          "glyph": "uni0418",
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 1.4485885913018137e-07,
+          "original_angle_errors_deg": [
+            0.02108,
+            -0.01225
+          ],
+          "ink_area_difference_percent": 0.0168,
+          "bbox_preserved": true,
+          "advance": 1454
+        },
+        "Y": {
+          "glyph": "Y",
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ]
+          ],
+          "maximum_abs_angle_error_deg": 3.420495104933252e-07,
+          "original_angle_errors_deg": [
+            -0.31142,
+            -0.00926,
+            -0.09517,
+            -0.31142
+          ],
+          "ink_area_difference_percent": 3.1649,
+          "bbox_preserved": true,
+          "advance": 1316
+        }
+      }
+    }
+  },
+  "owner_open": [
+    "optical signoff",
+    "unreviewed alphabet",
+    "real-world kerning",
+    "OFL/Windows/PDF-X"
+  ]
+}
