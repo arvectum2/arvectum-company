@@ -29,3 +29,11 @@ Both Product workflows implement six common source-level quality stages, but Dat
 A genuinely reusable workflow/action is justified only after real two-Product success/failure and rollback equivalence, confirmed accountable Product/Company owners, security/RU sovereignty/license/replaceability review, and measured reduction of operator maintenance work. At present **AEC-001-084 remains PARTIAL**, AEC-001-085 NOT APPROVED, CP4 AMBER, CP6 RED.
 
 The baseline tool is one-shot and read-only, rejects incomplete/paginated job evidence and cannot prove invoices. The Company footprint test forbids dropping quality/SDK checks or losing the two pinned Product snapshots.
+
+## First actual post-change comparison (GitHub Actions, 2026-11-22)
+
+Two exact Company PR runs were retrieved again from Actions job and /timing endpoints. The first run with a dedicated shadow job was **45007572330** (3 successful jobs, 15s provider whole-run duration, 30 summed job-seconds). The post-consolidation run was **45008219102** (2 successful jobs, 17s provider duration, 26 summed job-seconds). The post-change offline-tests job and SDK mock pilot both succeeded. The pinned Data Platform and Compliance checkout steps and the explicit shadow-contract step also each concluded **success** in the combined offline-tests job.
+
+**Observed deltas (one run per implementation):** -1 runner job, -4 aggregate runner job-seconds (30→26, about 13%), **+2 seconds wall time** (15→17). This is a workflow-structure/runner-footprint improvement, **not** proof of shorter feedback latency, reduced bills, or organizational labor savings. Variability, checkout-network reliability and behavior when an AEC unit test fails still require ongoing evidence; no deliberate CI failure was injected into active Product pipelines.
+
+The two-job Company candidate remains in the draft PR for follow-up regression checks. Revert its isolated workflow change if future evidence shows meaningful repeated latency increase, missing source checks on failures, or broken contractual coverage; original full job layout is recoverable from commit 2bae15f36afe0891e51b743a687f32b1fffbea4f. **Do not extract a Product CI workflow based on this single-run result.**

@@ -158,3 +158,5 @@ The CI pilot's initial Data Platform developer checkout was not a published GitH
 ## Actual CI run-time evidence and Company-only footprint — 2026-11-22
 
 Read-only GitHub Actions API baseline from 8 completed runs each: Data Platform 64s median wall/194 summed job-seconds/five parallel jobs; Compliance 24s/21/one job; Company AEC 14s/18/two-to-three jobs. Provider reported billable zero is not actual invoiced cost or developer labor evidence. The Company-only extra shadow job previously consumed 11 seconds in run 45007572330; consolidation into offline-tests removes a separate job but needs real post-change CI comparison. No Product pipeline modifications. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md).
+
+Post-change Actions verification: Company AEC run 45008219102 had 2 successful jobs, 26 summed job-seconds and 17s provider wall time; earlier 45007572330 had 3 jobs, 30 summed job-seconds and 15s wall. All new pinned source checkout/static contract steps succeeded. No proven USD or owner-time savings; keep draft pending repeated runs, and do not alter Product CI.

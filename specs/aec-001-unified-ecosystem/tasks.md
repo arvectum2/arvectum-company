@@ -136,7 +136,8 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 
 - [x] AEC-001-086 Sample read-only GitHub Actions provider run/job timings and reported billable metadata from 8 recent runs each for Data Platform, Compliance and Company AEC-001. No invoices, secrets or customer logs, and 12 offline quality/negative tests.
 - [x] AEC-001-087 Consolidate the Company-only third shadow CI job into existing offline-tests; preserve exact immutable two-Product source pins, distinct steps, failure-preserving !cancelled status condition and SDK mock job. Eight static regression tests. **CI post-change runtime evidence still required.**
-- [ ] AEC-001-088 Compare Company pre/post runner timing and shadow step outcome using real GitHub Actions; retain only if both checks stay effective and the net overhead decreases, otherwise revert this isolated Company change.
+- [x] AEC-001-088 Compare first Company pre/post GitHub Actions runs: 45007572330 vs 45008219102. **3→2 jobs, 30→26 summed job-seconds, 15→17 wall seconds;** both jobs, two pinned source checkout steps and shadow checker succeeded. No demonstrated billable-dollar, latency or labor saving.
+- [ ] AEC-001-089 Validate durable savings across repeated AEC CI runs and failure-path visibility; rollback the two-job Company-only candidate if critical path or detection worsens materially. Do not adopt shared Product workflow without separate delegated approvals and economics evidence.
 
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.

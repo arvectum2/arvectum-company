@@ -42,3 +42,7 @@ Installed host-backup, host-watchdog, weekly-maintenance and Tender Agent drift-
 ## 2026-11-22 CP4 actual run-time baseline / Company-only job consolidation
 
 **CP4 AMBER**: eight actual completed Actions runs per source yielded medians Data Platform **64s wall / 194 summed job-seconds** (five jobs), Compliance **24s / 21 summed job-seconds** (one job), and Company AEC **14s / 18 summed job-seconds** (mixed two/three jobs). A dedicated 11s Company shadow job was added in the latest baseline. Candidate now folds the same pinned read-only checks into existing offline-tests, with non-cancelled after-failure steps, reducing Company job count from 3 to 2. Product CI remains unchanged. Provider billable_ms=0 does NOT establish invoiced USD cost or owner-effort savings. **CP6 RED**; post-change real CI and Product authority required. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md).
+
+## 2026-11-22 CP4 post-change runner evidence
+
+The first real consolidated Company Actions run (45008219102) passed both jobs and all visible shadow source-check steps. Compared with three-job 45007572330: **3→2 jobs, 30→26 summed job-seconds, but 15→17s wall time**. Keep **CP4 AMBER**, not GREEN: one-run reduction in runner workload is not proof of lower invoice cost or better CI latency. **CP6 remains RED** pending Product approvals, actual maintenance baseline and repeatability. Original three-job version remains recoverable from commit 2bae15f.

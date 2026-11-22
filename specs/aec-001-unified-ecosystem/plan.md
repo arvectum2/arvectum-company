@@ -105,3 +105,7 @@ The first [two-real-consumer CI quality pilot](ci-quality-two-consumer-pilot.md)
 ## Actual CI run-time evidence and Company-only footprint — 2026-11-22
 
 Read-only GitHub Actions API baseline from 8 completed runs each: Data Platform 64s median wall/194 summed job-seconds/five parallel jobs; Compliance 24s/21/one job; Company AEC 14s/18/two-to-three jobs. Provider reported billable zero is not actual invoiced cost or developer labor evidence. The Company-only extra shadow job previously consumed 11 seconds in run 45007572330; consolidation into offline-tests removes a separate job but needs real post-change CI comparison. No Product pipeline modifications. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md).
+
+## CP4 follow-up evidence: Company two-job CI result
+
+Real GitHub Actions run 45008219102 succeeded with both original verification functions preserved and an aggregate job duration reduction 30→26s versus prior run 45007572330; provider wall duration increased 15→17s. This is insufficient to prove reduced paid CI expense, owner work or generic cross-product pipeline value. Candidate remains in draft PR; repeated-run and failure-mode regression gate AEC-001-089 is open.
