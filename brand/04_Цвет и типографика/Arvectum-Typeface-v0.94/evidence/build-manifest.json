@@ -1,0 +1,106 @@
+{
+  "version": "0.94",
+  "status": "EXPERIMENT; optical approval OPEN",
+  "continuity": "derived from v0.93; changes K, К, И independently with different native anatomy",
+  "phi": 1.618033988749895,
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.93/experimental/ArvectumGoldenStepDisplayStructuralDraft093-Medium.otf",
+      "source_sha256": "c5cc6df62e5f489f05d3a5bff5d60d297f91c3dbd46f5d6865798de7399e5dc1",
+      "output": "experimental/ArvectumGoldenStepDisplayStrictStructuralDraft094-Medium.otf",
+      "output_sha256": "e99727a9e542b4c6164288cd5ff6917f4f0d6dceaa8b30b23531b678931e439f",
+      "glyphs": {
+        "K": {
+          "glyph": "K",
+          "advance": 1334,
+          "lsb": 136,
+          "script": "Latin",
+          "rule": "Latin K crossing lift cap/phi^7; preserve cubic entry and exit handle directions",
+          "center_shift": 51,
+          "source_y": [
+            694,
+            845,
+            748
+          ]
+        },
+        "К": {
+          "glyph": "Kacyr",
+          "advance": 1334,
+          "lsb": 136,
+          "script": "Cyrillic",
+          "rule": "Cyrillic K inner upper and lower spurs and crossing peak lifted by cap/phi^7",
+          "center_shift": 51,
+          "source_y": [
+            659,
+            659,
+            768,
+            858,
+            858
+          ]
+        },
+        "И": {
+          "glyph": "uni0418",
+          "advance": 1464,
+          "lsb": 136,
+          "script": "Cyrillic",
+          "rule": "two independent exposed diagonal x/y slopes forced to phi^-1; neighboring cubic incoming handles shifted to retain tangents",
+          "upper_old_ratio": 0.6315205327413984,
+          "upper_new_ratio": 0.6182019977802442,
+          "lower_old_ratio": 0.6322981366459627,
+          "lower_new_ratio": 0.6186335403726708,
+          "upper_x_shift": 12,
+          "lower_x_shift": -11
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.93/experimental/ArvectumGoldenStepTextStructuralDraft093-Regular.otf",
+      "source_sha256": "63be87ec57c44160a4390a32d635a98b81b26e06872e02bdf288fadc3d1e0db8",
+      "output": "experimental/ArvectumGoldenStepTextStrictStructuralDraft094-Regular.otf",
+      "output_sha256": "f65f7c6aef6067c046304c53db76e94210e68c9c580c6e8b3c9a372d14ee5121",
+      "glyphs": {
+        "K": {
+          "glyph": "K",
+          "advance": 1299,
+          "lsb": 148,
+          "script": "Latin",
+          "rule": "Latin K crossing lift cap/phi^7; preserve cubic entry and exit handle directions",
+          "center_shift": 51,
+          "source_y": [
+            722,
+            845,
+            726
+          ]
+        },
+        "К": {
+          "glyph": "Kacyr",
+          "advance": 1299,
+          "lsb": 148,
+          "script": "Cyrillic",
+          "rule": "Cyrillic K inner upper and lower spurs and crossing peak lifted by cap/phi^7",
+          "center_shift": 51,
+          "source_y": [
+            675,
+            675,
+            768,
+            841,
+            841
+          ]
+        },
+        "И": {
+          "glyph": "uni0418",
+          "advance": 1454,
+          "lsb": 148,
+          "script": "Cyrillic",
+          "rule": "two independent exposed diagonal x/y slopes forced to phi^-1; neighboring cubic incoming handles shifted to retain tangents",
+          "upper_old_ratio": 0.6329896907216495,
+          "upper_new_ratio": 0.6175257731958763,
+          "lower_old_ratio": 0.6334106728538283,
+          "lower_new_ratio": 0.6183294663573086,
+          "upper_x_shift": 15,
+          "lower_x_shift": -13
+        }
+      }
+    }
+  }
+}

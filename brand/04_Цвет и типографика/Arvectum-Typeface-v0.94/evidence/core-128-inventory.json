@@ -1,0 +1,2306 @@
+[
+  {
+    "style": "Display",
+    "codepoint": "U+0041",
+    "character": "A",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0042",
+    "character": "B",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0043",
+    "character": "C",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0044",
+    "character": "D",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0045",
+    "character": "E",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0046",
+    "character": "F",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0047",
+    "character": "G",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0048",
+    "character": "H",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0049",
+    "character": "I",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004A",
+    "character": "J",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004B",
+    "character": "K",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004C",
+    "character": "L",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004D",
+    "character": "M",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004E",
+    "character": "N",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+004F",
+    "character": "O",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0050",
+    "character": "P",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0051",
+    "character": "Q",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0052",
+    "character": "R",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0053",
+    "character": "S",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0054",
+    "character": "T",
+    "script": "Latin",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0055",
+    "character": "U",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0056",
+    "character": "V",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0057",
+    "character": "W",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0058",
+    "character": "X",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0059",
+    "character": "Y",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+005A",
+    "character": "Z",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0061",
+    "character": "a",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0062",
+    "character": "b",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0063",
+    "character": "c",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0064",
+    "character": "d",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0065",
+    "character": "e",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0066",
+    "character": "f",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0067",
+    "character": "g",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0068",
+    "character": "h",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0069",
+    "character": "i",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006A",
+    "character": "j",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006B",
+    "character": "k",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006C",
+    "character": "l",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006D",
+    "character": "m",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006E",
+    "character": "n",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+006F",
+    "character": "o",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0070",
+    "character": "p",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0071",
+    "character": "q",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0072",
+    "character": "r",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0073",
+    "character": "s",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0074",
+    "character": "t",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0075",
+    "character": "u",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0076",
+    "character": "v",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0077",
+    "character": "w",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0078",
+    "character": "x",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0079",
+    "character": "y",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+007A",
+    "character": "z",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0410",
+    "character": "А",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0411",
+    "character": "Б",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0412",
+    "character": "В",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0413",
+    "character": "Г",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0414",
+    "character": "Д",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0415",
+    "character": "Е",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0401",
+    "character": "Ё",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0416",
+    "character": "Ж",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0417",
+    "character": "З",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0418",
+    "character": "И",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0419",
+    "character": "Й",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041A",
+    "character": "К",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041B",
+    "character": "Л",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041C",
+    "character": "М",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041D",
+    "character": "Н",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041E",
+    "character": "О",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+041F",
+    "character": "П",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0420",
+    "character": "Р",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0421",
+    "character": "С",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0422",
+    "character": "Т",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0423",
+    "character": "У",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0424",
+    "character": "Ф",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0425",
+    "character": "Х",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0426",
+    "character": "Ц",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0427",
+    "character": "Ч",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0428",
+    "character": "Ш",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0429",
+    "character": "Щ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042A",
+    "character": "Ъ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042B",
+    "character": "Ы",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042C",
+    "character": "Ь",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042D",
+    "character": "Э",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042E",
+    "character": "Ю",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+042F",
+    "character": "Я",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0430",
+    "character": "а",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0431",
+    "character": "б",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0432",
+    "character": "в",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0433",
+    "character": "г",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0434",
+    "character": "д",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0435",
+    "character": "е",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0451",
+    "character": "ё",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0436",
+    "character": "ж",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0437",
+    "character": "з",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0438",
+    "character": "и",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0439",
+    "character": "й",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043A",
+    "character": "к",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043B",
+    "character": "л",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043C",
+    "character": "м",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043D",
+    "character": "н",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043E",
+    "character": "о",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+043F",
+    "character": "п",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0440",
+    "character": "р",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0441",
+    "character": "с",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0442",
+    "character": "т",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0443",
+    "character": "у",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0444",
+    "character": "ф",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0445",
+    "character": "х",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0446",
+    "character": "ц",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0447",
+    "character": "ч",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0448",
+    "character": "ш",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0449",
+    "character": "щ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044A",
+    "character": "ъ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044B",
+    "character": "ы",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044C",
+    "character": "ь",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044D",
+    "character": "э",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044E",
+    "character": "ю",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+044F",
+    "character": "я",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0030",
+    "character": "0",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0031",
+    "character": "1",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0032",
+    "character": "2",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0033",
+    "character": "3",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0034",
+    "character": "4",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0035",
+    "character": "5",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0036",
+    "character": "6",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0037",
+    "character": "7",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0038",
+    "character": "8",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Display",
+    "codepoint": "U+0039",
+    "character": "9",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0041",
+    "character": "A",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0042",
+    "character": "B",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0043",
+    "character": "C",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0044",
+    "character": "D",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0045",
+    "character": "E",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0046",
+    "character": "F",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0047",
+    "character": "G",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0048",
+    "character": "H",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0049",
+    "character": "I",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004A",
+    "character": "J",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004B",
+    "character": "K",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004C",
+    "character": "L",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004D",
+    "character": "M",
+    "script": "Latin",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004E",
+    "character": "N",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+004F",
+    "character": "O",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0050",
+    "character": "P",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0051",
+    "character": "Q",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0052",
+    "character": "R",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0053",
+    "character": "S",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0054",
+    "character": "T",
+    "script": "Latin",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0055",
+    "character": "U",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0056",
+    "character": "V",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0057",
+    "character": "W",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0058",
+    "character": "X",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0059",
+    "character": "Y",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+005A",
+    "character": "Z",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0061",
+    "character": "a",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0062",
+    "character": "b",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0063",
+    "character": "c",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0064",
+    "character": "d",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0065",
+    "character": "e",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0066",
+    "character": "f",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0067",
+    "character": "g",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0068",
+    "character": "h",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0069",
+    "character": "i",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006A",
+    "character": "j",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006B",
+    "character": "k",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006C",
+    "character": "l",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006D",
+    "character": "m",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006E",
+    "character": "n",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+006F",
+    "character": "o",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0070",
+    "character": "p",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0071",
+    "character": "q",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0072",
+    "character": "r",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0073",
+    "character": "s",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0074",
+    "character": "t",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0075",
+    "character": "u",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0076",
+    "character": "v",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0077",
+    "character": "w",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0078",
+    "character": "x",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0079",
+    "character": "y",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+007A",
+    "character": "z",
+    "script": "Latin",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0410",
+    "character": "А",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0411",
+    "character": "Б",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0412",
+    "character": "В",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0413",
+    "character": "Г",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0414",
+    "character": "Д",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0415",
+    "character": "Е",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0401",
+    "character": "Ё",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0416",
+    "character": "Ж",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0417",
+    "character": "З",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0418",
+    "character": "И",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0419",
+    "character": "Й",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041A",
+    "character": "К",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041B",
+    "character": "Л",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041C",
+    "character": "М",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041D",
+    "character": "Н",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041E",
+    "character": "О",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+041F",
+    "character": "П",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0420",
+    "character": "Р",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0421",
+    "character": "С",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0422",
+    "character": "Т",
+    "script": "Cyrillic",
+    "status": "inspected / inherited provisional",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0423",
+    "character": "У",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0424",
+    "character": "Ф",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0425",
+    "character": "Х",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0426",
+    "character": "Ц",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0427",
+    "character": "Ч",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0428",
+    "character": "Ш",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0429",
+    "character": "Щ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042A",
+    "character": "Ъ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042B",
+    "character": "Ы",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042C",
+    "character": "Ь",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042D",
+    "character": "Э",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042E",
+    "character": "Ю",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+042F",
+    "character": "Я",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0430",
+    "character": "а",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0431",
+    "character": "б",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0432",
+    "character": "в",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0433",
+    "character": "г",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0434",
+    "character": "д",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0435",
+    "character": "е",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0451",
+    "character": "ё",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0436",
+    "character": "ж",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0437",
+    "character": "з",
+    "script": "Cyrillic",
+    "status": "modified / candidate",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0438",
+    "character": "и",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0439",
+    "character": "й",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043A",
+    "character": "к",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043B",
+    "character": "л",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043C",
+    "character": "м",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043D",
+    "character": "н",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043E",
+    "character": "о",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+043F",
+    "character": "п",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0440",
+    "character": "р",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0441",
+    "character": "с",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0442",
+    "character": "т",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0443",
+    "character": "у",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0444",
+    "character": "ф",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0445",
+    "character": "х",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0446",
+    "character": "ц",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0447",
+    "character": "ч",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0448",
+    "character": "ш",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0449",
+    "character": "щ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044A",
+    "character": "ъ",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044B",
+    "character": "ы",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044C",
+    "character": "ь",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044D",
+    "character": "э",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044E",
+    "character": "ю",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+044F",
+    "character": "я",
+    "script": "Cyrillic",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0030",
+    "character": "0",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0031",
+    "character": "1",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0032",
+    "character": "2",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0033",
+    "character": "3",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0034",
+    "character": "4",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0035",
+    "character": "5",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0036",
+    "character": "6",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0037",
+    "character": "7",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0038",
+    "character": "8",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  },
+  {
+    "style": "Text",
+    "codepoint": "U+0039",
+    "character": "9",
+    "script": "Digits",
+    "status": "inherited / not reviewed",
+    "owner_optical_approval": "OPEN",
+    "source": "Inter 4.1 (v0.85) / Arvectum workstream"
+  }
+]

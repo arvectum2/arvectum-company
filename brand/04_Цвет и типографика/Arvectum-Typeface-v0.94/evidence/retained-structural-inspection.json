@@ -1,0 +1,68 @@
+{
+  "Display": {
+    "T": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "left_arm": 475,
+      "right_arm": 473,
+      "arm_difference": 2
+    },
+    "Д": {
+      "ops": 20,
+      "unchanged_from_Inter": true,
+      "top_inner_y": 1295,
+      "bottom_join_y": 195
+    },
+    "Л": {
+      "ops": 13,
+      "unchanged_from_Inter": true,
+      "top_inner_y": 1295,
+      "bottom_join_y": 195
+    },
+    "П": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "opening_upper_bar_ratio": 0.6253164556962025
+    },
+    "Т": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "left_arm": 475,
+      "right_arm": 473,
+      "arm_difference": 2
+    }
+  },
+  "Text": {
+    "T": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "left_arm": 486,
+      "right_arm": 484,
+      "arm_difference": 2
+    },
+    "Д": {
+      "ops": 20,
+      "unchanged_from_Inter": true,
+      "top_inner_y": 1330,
+      "bottom_join_y": 160
+    },
+    "Л": {
+      "ops": 13,
+      "unchanged_from_Inter": true,
+      "top_inner_y": 1330,
+      "bottom_join_y": 160
+    },
+    "П": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "opening_upper_bar_ratio": 0.6880415944540728
+    },
+    "Т": {
+      "ops": 9,
+      "unchanged_from_Inter": true,
+      "left_arm": 486,
+      "right_arm": 484,
+      "arm_difference": 2
+    }
+  }
+}

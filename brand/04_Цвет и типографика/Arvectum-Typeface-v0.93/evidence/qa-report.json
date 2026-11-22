@@ -1,0 +1,328 @@
+{
+  "status": "PASS mechanical, NOT owner optical approval",
+  "styles": {
+    "Display": {
+      "changed": [
+        "E",
+        "H",
+        "M",
+        "uni0415",
+        "uni041C",
+        "uni041D"
+      ],
+      "other_unchanged": 2931,
+      "unicode_positions": 2852,
+      "glyphs": {
+        "E": {
+          "name": "E",
+          "advance": 1206,
+          "lsb": 136,
+          "family": "E/Е shared geometry",
+          "raised_bar_units": 62,
+          "old_middle_length": 722,
+          "new_middle_length": 613,
+          "top_inner_length": 780,
+          "middle_top_ratio": 0.7858974358974359,
+          "target_ratio": 0.7861513777574233,
+          "unchanged_bar_thickness": 193,
+          "rule": "middle arm length = upper inner reach / sqrt(phi); raise bar toward cap/phi by fraction phi^-2"
+        },
+        "Е": {
+          "name": "uni0415",
+          "advance": 1206,
+          "lsb": 136,
+          "family": "E/Е shared geometry",
+          "raised_bar_units": 62,
+          "old_middle_length": 722,
+          "new_middle_length": 613,
+          "top_inner_length": 780,
+          "middle_top_ratio": 0.7858974358974359,
+          "target_ratio": 0.7861513777574233,
+          "unchanged_bar_thickness": 193,
+          "rule": "middle arm length = upper inner reach / sqrt(phi); raise bar toward cap/phi by fraction phi^-2"
+        },
+        "М": {
+          "name": "uni041C",
+          "advance": 1781,
+          "lsb": 136,
+          "family": "M/М shared geometry",
+          "inner_valley_original": 297,
+          "inner_valley_new": 217,
+          "shift_y": -80,
+          "capheight": 1490,
+          "target_ratio": 0.14589803375031543,
+          "rule": "set inner crotch at cap/phi^4, preserve neighbor Bezier tangent vectors"
+        },
+        "M": {
+          "name": "M",
+          "advance": 1781,
+          "lsb": 136,
+          "family": "M/М shared geometry",
+          "inner_valley_original": 297,
+          "inner_valley_new": 217,
+          "shift_y": -80,
+          "capheight": 1490,
+          "target_ratio": 0.14589803375031543,
+          "rule": "set inner crotch at cap/phi^4, preserve neighbor Bezier tangent vectors"
+        },
+        "Н": {
+          "name": "uni041D",
+          "advance": 1457,
+          "lsb": 136,
+          "family": "H/Н shared geometry",
+          "raised_bar_units": 61,
+          "old_center": 762.0,
+          "new_center": 823.0,
+          "capheight": 1490,
+          "unchanged_bar_thickness": 194,
+          "rule": "raise center toward cap/phi using weight phi^-2, keep original bar thickness"
+        },
+        "H": {
+          "name": "H",
+          "advance": 1457,
+          "lsb": 136,
+          "family": "H/Н shared geometry",
+          "raised_bar_units": 61,
+          "old_center": 762.0,
+          "new_center": 823.0,
+          "capheight": 1490,
+          "unchanged_bar_thickness": 194,
+          "rule": "raise center toward cap/phi using weight phi^-2, keep original bar thickness"
+        }
+      },
+      "raster_delta": {
+        "Е": {
+          "12": 22,
+          "14": 33,
+          "16": 30,
+          "18": 38,
+          "24": 43,
+          "32": 68,
+          "48": 121,
+          "64": 182,
+          "96": 352
+        },
+        "E": {
+          "12": 22,
+          "14": 33,
+          "16": 30,
+          "18": 38,
+          "24": 43,
+          "32": 68,
+          "48": 121,
+          "64": 182,
+          "96": 352
+        },
+        "М": {
+          "12": 41,
+          "14": 53,
+          "16": 62,
+          "18": 70,
+          "24": 88,
+          "32": 127,
+          "48": 159,
+          "64": 248,
+          "96": 350
+        },
+        "M": {
+          "12": 41,
+          "14": 53,
+          "16": 62,
+          "18": 70,
+          "24": 88,
+          "32": 127,
+          "48": 159,
+          "64": 248,
+          "96": 350
+        },
+        "Н": {
+          "12": 15,
+          "14": 18,
+          "16": 19,
+          "18": 20,
+          "24": 26,
+          "32": 47,
+          "48": 102,
+          "64": 112,
+          "96": 310
+        },
+        "H": {
+          "12": 15,
+          "14": 18,
+          "16": 19,
+          "18": 20,
+          "24": 26,
+          "32": 47,
+          "48": 102,
+          "64": 112,
+          "96": 310
+        }
+      },
+      "layout_and_metrics_unchanged": true
+    },
+    "Text": {
+      "changed": [
+        "E",
+        "H",
+        "M",
+        "uni0415",
+        "uni041C",
+        "uni041D"
+      ],
+      "other_unchanged": 2931,
+      "unicode_positions": 2852,
+      "glyphs": {
+        "E": {
+          "name": "E",
+          "advance": 1187,
+          "lsb": 148,
+          "family": "E/Е shared geometry",
+          "raised_bar_units": 60,
+          "old_middle_length": 731,
+          "new_middle_length": 620,
+          "top_inner_length": 789,
+          "middle_top_ratio": 0.7858048162230672,
+          "target_ratio": 0.7861513777574233,
+          "unchanged_bar_thickness": 160,
+          "rule": "middle arm length = upper inner reach / sqrt(phi); raise bar toward cap/phi by fraction phi^-2"
+        },
+        "Е": {
+          "name": "uni0415",
+          "advance": 1187,
+          "lsb": 148,
+          "family": "E/Е shared geometry",
+          "raised_bar_units": 60,
+          "old_middle_length": 731,
+          "new_middle_length": 620,
+          "top_inner_length": 789,
+          "middle_top_ratio": 0.7858048162230672,
+          "target_ratio": 0.7861513777574233,
+          "unchanged_bar_thickness": 160,
+          "rule": "middle arm length = upper inner reach / sqrt(phi); raise bar toward cap/phi by fraction phi^-2"
+        },
+        "М": {
+          "name": "uni041C",
+          "advance": 1756,
+          "lsb": 148,
+          "family": "M/М shared geometry",
+          "inner_valley_original": 237,
+          "inner_valley_new": 217,
+          "shift_y": -20,
+          "capheight": 1490,
+          "target_ratio": 0.14589803375031543,
+          "rule": "set inner crotch at cap/phi^4, preserve neighbor Bezier tangent vectors"
+        },
+        "M": {
+          "name": "M",
+          "advance": 1756,
+          "lsb": 148,
+          "family": "M/М shared geometry",
+          "inner_valley_original": 237,
+          "inner_valley_new": 217,
+          "shift_y": -20,
+          "capheight": 1490,
+          "target_ratio": 0.14589803375031543,
+          "rule": "set inner crotch at cap/phi^4, preserve neighbor Bezier tangent vectors"
+        },
+        "Н": {
+          "name": "uni041D",
+          "advance": 1450,
+          "lsb": 148,
+          "family": "H/Н shared geometry",
+          "raised_bar_units": 60,
+          "old_center": 763.0,
+          "new_center": 823.0,
+          "capheight": 1490,
+          "unchanged_bar_thickness": 160,
+          "rule": "raise center toward cap/phi using weight phi^-2, keep original bar thickness"
+        },
+        "H": {
+          "name": "H",
+          "advance": 1450,
+          "lsb": 148,
+          "family": "H/Н shared geometry",
+          "raised_bar_units": 60,
+          "old_center": 763.0,
+          "new_center": 823.0,
+          "capheight": 1490,
+          "unchanged_bar_thickness": 160,
+          "rule": "raise center toward cap/phi using weight phi^-2, keep original bar thickness"
+        }
+      },
+      "raster_delta": {
+        "Е": {
+          "12": 24,
+          "14": 25,
+          "16": 30,
+          "18": 41,
+          "24": 56,
+          "32": 79,
+          "48": 133,
+          "64": 159,
+          "96": 339
+        },
+        "E": {
+          "12": 24,
+          "14": 25,
+          "16": 30,
+          "18": 41,
+          "24": 56,
+          "32": 79,
+          "48": 133,
+          "64": 159,
+          "96": 339
+        },
+        "М": {
+          "12": 42,
+          "14": 51,
+          "16": 59,
+          "18": 73,
+          "24": 89,
+          "32": 127,
+          "48": 158,
+          "64": 245,
+          "96": 333
+        },
+        "M": {
+          "12": 42,
+          "14": 51,
+          "16": 59,
+          "18": 73,
+          "24": 89,
+          "32": 127,
+          "48": 158,
+          "64": 245,
+          "96": 333
+        },
+        "Н": {
+          "12": 16,
+          "14": 16,
+          "16": 19,
+          "18": 21,
+          "24": 28,
+          "32": 47,
+          "48": 110,
+          "64": 117,
+          "96": 286
+        },
+        "H": {
+          "12": 16,
+          "14": 16,
+          "16": 19,
+          "18": 21,
+          "24": 28,
+          "32": 47,
+          "48": 110,
+          "64": 117,
+          "96": 286
+        }
+      },
+      "layout_and_metrics_unchanged": true
+    }
+  },
+  "phi": 1.618033988749895,
+  "proof": {
+    "pages": 4,
+    "print_qualification": "OPEN"
+  }
+}
