@@ -138,3 +138,9 @@ A second one-shot read-only attestation connects the current launchd proxy PID a
 ## Museum temporary PDF exposure/expiry — 2026-11-22
 
 A read-only AST/PID-matched launchctl/lsof sample corroborated the current *installed* script's 72-hour timer and three allowlisted filenames with a local TCP 127.0.0.1:8910 listener. No self.headers access was observed in the Python HTTP handler; upstream auth/forwarding, loaded code, actual customer delivery and rights remain **UNKNOWN**. Expected stop near 22 November 14:46 +03 if the process has not restarted. No service change/customer-file/HTTP/log access. Twelve offline tests. See [checkpoint-traffic-light.md](checkpoint-traffic-light.md).
+
+## WAL receiver local OCI images and backup input sizing — 2026-11-22
+
+Both current WAL container IDs and local image object IDs matched the earlier private snapshot. Image metadata: locally installed pgvector pg17 and pg16 tags (Linux/arm64); no Docker Compose owner labels. This is **installed image evidence, not Company/Product Git source identity**, database binary/physical backup compatibility or recoverability. Source links remain **42/58**, 16 UNKNOWN.
+
+Metadata-only filesystem survey of structurally reported backup generations: host 5 compressed dumps 6,383,579 bytes, Docker 5 dumps 1,599,884,685 bytes. Source filesystems' observed free space ~1.09 TB/~139 GB. Real isolated destination capacity, RPO/RTO and restore remain UNVERIFIED; no backup payload read. See [wal-image-and-restore-input-review.md](wal-image-and-restore-input-review.md).

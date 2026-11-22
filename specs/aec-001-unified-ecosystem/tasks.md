@@ -111,6 +111,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-072 Verify whether temporary PDF distribution is an active client obligation, authorized forwarding and access; no extension/restart without accountable approval.
 - [ ] AEC-001-073 Approve specific real PostgreSQL backup/database, tenant rights, isolated restoration environment and RPO/RTO before any real restore, separately from synthetic PASS.
 
+## P1m — WAL image supply chain and real restore capacity gate
+
+- [x] AEC-001-074 Compare two running WAL receiver local container/image IDs against preserved snapshot using only Docker inspection metadata. Both match pgvector local pg17/pg16 tags; **no new Company/Product Git identity**, no Compose labels, source mapping remains 42/58. Eleven offline tests.
+- [x] AEC-001-075 Measure size of five host and five Docker actual backup inputs via stat-only metadata: ~6.4 MB and ~1.60 GB respectively; independent filesystem source free space ~1.09 TB and ~139 GB. No payload read, isolated destination or full restore capacity verified. Eleven offline tests.
+- [ ] AEC-001-076 Identify accountable deployment source, exact immutable image provenance, license/SBOM, RU supply chain and replacement of two WAL receivers before operational adoption; do not repull/restart in audit.
+- [ ] AEC-001-077 Approve Product/tenant data scope, isolated target storage/compute, RPO/RTO and exact logical backup generation before any real restoration; derive uncompressed space, role/extension/DB rights and rollback from sanctioned evidence.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

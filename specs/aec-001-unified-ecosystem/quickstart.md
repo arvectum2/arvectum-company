@@ -269,3 +269,22 @@ Expected for this dated snapshot: 58 observations, **42 source relationships**, 
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-museum-ephemeral-share-private.json"
 
 This samples AST/static code, launchd PID and local listening sockets without reading customer PDFs, filenames, logs, HTTP links, credentials or runtime state. Temporary local scope does not prove upstream authentication. No service restart or extension is permitted. See checkpoint-traffic-light.md.
+
+## WAL receiver installed image metadata without source/restore claims
+
+    python3 -B tools/aec001_wal_image_chain.py \
+      --runtime "$HOME/ArvectumSafe/ecosystem-audit-20261121/runtime-inventory-mac-mini-private.json" \
+      --artifact "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-unresolved-artifacts-private.json" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-wal-image-chain-private.json"
+
+This is a one-shot Docker metadata-only scan; it records the local container/image identities, tags and image metadata, without reading environment, mounts, PostgreSQL, customer backup files or WAL. It does not establish Product Git owner, base backup or a recoverable PITR chain.
+
+## Current logical backup input size preflight — not an actual restore
+
+    python3 -B tools/aec001_restore_input_capacity.py \
+      --backup "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-backup-metadata-20261122-private.json" \
+      --host-root "$HOME/Library/Application Support/ArvectumHost/backups/host-nightly" \
+      --docker-root "$HOME/.local/state/arvectum-recovery/docker-postgres" \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-restore-input-capacity-private.json"
+
+This reads only stat/directory and source-filesystem free-space metadata for already structurally reviewed generations. No dump payload is read; any stale or unsafe source fails closed. The report deliberately NEVER asserts adequate isolated target space, genuine backup recoverability, customer rights or approved RPO/RTO. See wal-image-and-restore-input-review.md.

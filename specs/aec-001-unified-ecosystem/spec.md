@@ -67,6 +67,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-023: Evaluate WAL-directory evidence strictly from bounded file metadata and explicitly assumed segment size; classify holes, unexpected files, partial placement, timeline changes and unsafe paths as REVIEW, never equating filename continuity with WAL content integrity or PITR capability.
 - FR-024: Maintain independent recovery gates for logical pg_dump restoration and physical basebackup+WAL PITR. No PITR PASS without compatible physical base backup, exact database identity, required WAL range, customer/tenant restrictions and separately authorized isolated restore; no automatic WAL deletion or backup-service changes.
 
+- FR-025: Read-only local Docker container/image matching must reject drift from the prior immutable ID evidence while refusing to promote third-party image tags or repo digests into Product Git origin, PostgreSQL server compatibility, signed SBOM, health, physical basebackup or PITR claims.
+- FR-026: Actual compressed backup file-size and source filesystem capacity evidence must remain distinct from isolated restore target capacity, uncompressed storage requirements, customer/tenant rights, approved RPO/RTO and tested recovery. No customer file payload read during metadata preflight.
+
 ## Success Criteria
 
 - SC-001: 19 initially accessible GitHub repositories reconciled, plus any newly discovered sources explicitly classified.
@@ -86,6 +89,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-015: Backup state and manifest metadata checks produce structural evidence or explicit UNKNOWN/INCOMPLETE on malformed, missing, unsafe paths/permissions, without reading dumps or performing restoration.
 - SC-016: Both existing WAL receiver directories pass internal filename/size/timeline gap checks without payload reading; negative tests reject gaps, symlinks, unsafe permissions, unexpected files and invalid partials.
 - SC-017: A combined offline recovery decision gate refuses to promote logical dump status or WAL file-name continuity to a recoverability/PITR PASS; no physical backup, restore or RPO/RTO proof is fabricated.
+
+- SC-018: Two WAL receiver containers have scoped current Docker ID/image ID/tag evidence matching the dated preserved snapshot; the remaining Company source-unresolved count stays unchanged and failed/moved containers are rejected.
+- SC-019: Five host and five Docker logical dumps have aggregate input size metadata without reading payload bytes or asserting actual restoration capacity, with negative tests for stale and unsafe filesystem evidence.
 
 ## Non-Goals
 

@@ -89,3 +89,7 @@ An offline auditor proves local WAL filename-range continuity only and explicitl
 ## Current checkpoint traffic lights — 22 November 2026
 
 The dated [checkpoint roadmap](checkpoint-traffic-light.md) supersedes historical numeric source-link counts in earlier sections without rewriting prior evidence: **42/58 source-linked**, **16 unresolved**. CP0 GREEN; CP1/CP2/CP4/CP5 AMBER; CP3/CP6/CP7 RED/BLOCKED. Temporary Museum PDF-share source/loopback evidence is not authorization or customer reachability; real PostgreSQL restoration and PITR remain unverified. Product/Company decisions require explicit acceptance and authority.
+
+## CP1/CP3 evidence refinement — 22 November 2026
+
+The [WAL installed image and restore-input review](wal-image-and-restore-input-review.md) recorded two current image/container ID matches, but no canonical Product source/Compose ownership evidence. Backup compressed inputs and free space were measured from metadata only; isolated target and uncompressed recovery capacity remain unknown. No new Company service source links or business readiness: CP1 AMBER 42/58, CP3 RED/BLOCKED.

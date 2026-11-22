@@ -42,3 +42,7 @@ The non-Git installed gateway package's 8/8 immediate .py files match exact Prox
 ## After strict live proxy package/source reconciliation — 22 November 2026
 
 One previously unresolved product-facing service now has an installed Python package-to-Git mapping corroborated by launchd PID and process CWD. Derived source mapping: **42/58**; remaining source-unresolved records: **16**. For the original product-serving/exposed-tools review area, the proxy gateway on-disk source has a match but access, egress and loaded code still need proof. Original 17-record queue counts are historical, not the current live 16-record queue. No Product owner, health or recovery field was promoted. See proxy-runtime-reconciliation.md.
+
+## WAL images and real-backup storage preflight (metadata) — 22 November 2026
+
+The two source-unresolved Docker receivers have stable local container and image identities with observed pgvector PG17/PG16 tags but no Compose ownership labels or source Git mapping. They remain in the 16 unresolved services. Disk-metadata-only input sizing totals 6.38 MB (5 host dumps) and 1.60 GB (5 Docker dumps). Neither source-disk free capacity nor archive size is an approved isolated restoration or PITR acceptance. See wal-image-and-restore-input-review.md.

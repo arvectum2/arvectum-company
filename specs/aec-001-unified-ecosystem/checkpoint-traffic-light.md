@@ -24,3 +24,9 @@ A one-shot AST/static-source plus launchctl/lsof check observed an installed Pyt
 At the earlier process start observation (2026-11-19 14:46:36, Mac mini +03:00), in-process expiry is expected **around 2026-11-22 14:46 +03:00** if unchanged. The separate Yandex Disk file delivery channel is not established as dependent on this ephemeral server. The correct business gate remains OWNER_REVIEW_REQUIRED, not automatically extend/stop it.
 
 The one-shot report status is TEMPORARY_LOCAL_SHARE_ACCESS_UNVERIFIED and is private (0600) outside Git. Twelve offline tests cover expiry, allowed-file count, shutdown, header access, local-only versus wildcard listening, PID drift, source mismatch, symlinks, malformed code and oversize content.
+
+## 2026-11-22 follow-up: CP1/CP3 evidence without color promotion
+
+A read-only Docker image chain comparison confirmed local immutable image IDs and tags for two WAL receivers: Data Platform pgvector/pgvector:pg17 and Tender Agent pgvector/pgvector:pg16, with no compose owner labels or verified product deployment source. No new source links; **CP1 stays AMBER: 42/58**, 16 unresolved.
+
+The same-day measured compressed PostgreSQL logical dumps are **6,383,579 bytes for five host dumps** and **1,599,884,685 bytes for five Docker dumps**. Free space on the respective **backup-source** filesystems was ~1.09 TB and ~139 GB at observation. Neither proves enough approved isolated-target capacity or tested recovery. **CP3 stays RED/BLOCKED.** See [wal-image-and-restore-input-review.md](wal-image-and-restore-input-review.md).
