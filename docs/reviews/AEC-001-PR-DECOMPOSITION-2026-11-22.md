@@ -50,3 +50,7 @@ Prioritize **closing verified isolated PR reviews and reconciling the source of 
 - PR #54 was **CLOSED UNMERGED**. Neither #52 nor #53 was merged or changed in main by this verification. When #52 is eventually approved/merged and #53 is retargeted/rebased to main, verify its independent PR workflows again.
 - Do **not** use the smoke proof as evidence of live Product semantic parity, production security, end-to-end tenancy, customer contracts, current Product main version or measured economics. No Product CI workflow or running service was changed.
 - Further branches increase coordination burden. Next priority is a scoped review/approval package for #51/#52 and the dependent #53, then a governed merge/reconciliation path, **not** another speculative shared layer.
+
+## Merge-readiness signoff (2026-11-22)
+
+The detailed, source-revision-specific decision matrix is in [AEC-001-MERGE-READINESS-2026-11-22.md](AEC-001-MERGE-READINESS-2026-11-22.md). Latest PR #51 hardening (SHA a4bd081) passed 16 tests and GitHub Actions. PRs #50/#51/#52 are candidate GO for explicit owner-approved, independent Company source merges only. PR #53 is HOLD until #52 is merged and SDK checks are re-run against main. The 91-file PR #47 is NO GO to merge whole. No branch protection/rulesets are currently configured; passing CI is evidence, not an enforced merge gate or owner approval.
