@@ -1,0 +1,77 @@
+{
+  "status": "PASS mechanical",
+  "optical_accepted": false,
+  "styles": {
+    "Display": {
+      "changed": [
+        "B",
+        "uni0412",
+        "uni0432"
+      ],
+      "unchanged": 2934,
+      "cyrillic_V_equals_latin_B": true,
+      "raster_pixel_delta": {
+        "В": {
+          "12": 36,
+          "16": 55,
+          "24": 80,
+          "48": 146,
+          "96": 313
+        },
+        "в": {
+          "12": 29,
+          "16": 45,
+          "24": 61,
+          "48": 103,
+          "96": 239
+        },
+        "B": {
+          "12": 36,
+          "16": 55,
+          "24": 80,
+          "48": 146,
+          "96": 313
+        }
+      },
+      "metrices_layout_and_Зз_unchanged": true
+    },
+    "Text": {
+      "changed": [
+        "B",
+        "uni0412",
+        "uni0432"
+      ],
+      "unchanged": 2934,
+      "cyrillic_V_equals_latin_B": true,
+      "raster_pixel_delta": {
+        "В": {
+          "12": 38,
+          "16": 56,
+          "24": 96,
+          "48": 150,
+          "96": 320
+        },
+        "в": {
+          "12": 29,
+          "16": 43,
+          "24": 66,
+          "48": 106,
+          "96": 252
+        },
+        "B": {
+          "12": 38,
+          "16": 56,
+          "24": 96,
+          "48": 150,
+          "96": 320
+        }
+      },
+      "metrices_layout_and_Зз_unchanged": true
+    }
+  },
+  "not_print_qualified": true,
+  "pdf": {
+    "pages": 4,
+    "renderer_warnings": 42
+  }
+}

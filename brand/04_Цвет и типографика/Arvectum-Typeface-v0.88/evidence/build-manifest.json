@@ -1,0 +1,178 @@
+{
+  "version": "0.88",
+  "status": "experimental, owner optical approval OPEN",
+  "phi": 1.618033988749895,
+  "changes": [
+    "U+0042",
+    "U+0412",
+    "U+0432"
+  ],
+  "styles": {
+    "Display": {
+      "source": "ArvectumGoldenStepDisplayPhiDraft087-Medium.otf",
+      "source_sha256": "f414919f2e182942a1c1e4b3ac0d16a36230624ba56f5c77ff9a03f1ac339531",
+      "output": "experimental/ArvectumGoldenStepDisplayPhiBowlDraft088-Medium.otf",
+      "sha256": "ef46e81c6d484a23be81bbdb55a5fb5614a230bfc74becaeb3ee5fd92fa75ff4",
+      "glyphs": {
+        "В": {
+          "glyph": "uni0412",
+          "advance": 1311,
+          "lsb": 136,
+          "upper": 28,
+          "lower": 45,
+          "ratio": 1.6071428571428572,
+          "phi_difference": 0.010891131607037696,
+          "features": {
+            "upper": {
+              "width": 28,
+              "x": 1180,
+              "y_original": 1098,
+              "from_y": 1084,
+              "to_y": 1112
+            },
+            "lower": {
+              "width": 45,
+              "x": 1239,
+              "y_original": 419,
+              "from_y": 397,
+              "to_y": 442
+            }
+          }
+        },
+        "B": {
+          "glyph": "B",
+          "advance": 1311,
+          "lsb": 136,
+          "upper": 28,
+          "lower": 45,
+          "ratio": 1.6071428571428572,
+          "phi_difference": 0.010891131607037696,
+          "features": {
+            "upper": {
+              "width": 28,
+              "x": 1180,
+              "y_original": 1098,
+              "from_y": 1084,
+              "to_y": 1112
+            },
+            "lower": {
+              "width": 45,
+              "x": 1239,
+              "y_original": 419,
+              "from_y": 397,
+              "to_y": 442
+            }
+          }
+        },
+        "в": {
+          "glyph": "uni0432",
+          "advance": 1084,
+          "lsb": 119,
+          "upper": 23,
+          "lower": 37,
+          "ratio": 1.608695652173913,
+          "phi_difference": 0.00933833657598182,
+          "features": {
+            "upper": {
+              "width": 23,
+              "x": 976,
+              "y_original": 776,
+              "from_y": 765,
+              "to_y": 788
+            },
+            "lower": {
+              "width": 37,
+              "x": 1017,
+              "y_original": 299,
+              "from_y": 281,
+              "to_y": 318
+            }
+          }
+        }
+      }
+    },
+    "Text": {
+      "source": "ArvectumGoldenStepTextPhiDraft087-Regular.otf",
+      "source_sha256": "886a1eaec2d0fb2ba17db1046152b285008464286656cfc18e2efda5cf371faa",
+      "output": "experimental/ArvectumGoldenStepTextPhiBowlDraft088-Regular.otf",
+      "sha256": "7d5b7702b063ca56562dfe7dfeb050d42f13dbbe859563ef5dd8eb04d07531d2",
+      "glyphs": {
+        "В": {
+          "glyph": "uni0412",
+          "advance": 1307,
+          "lsb": 148,
+          "upper": 28,
+          "lower": 45,
+          "ratio": 1.6071428571428572,
+          "phi_difference": 0.010891131607037696,
+          "features": {
+            "upper": {
+              "width": 28,
+              "x": 1166,
+              "y_original": 1094,
+              "from_y": 1080,
+              "to_y": 1108
+            },
+            "lower": {
+              "width": 45,
+              "x": 1227,
+              "y_original": 418,
+              "from_y": 396,
+              "to_y": 441
+            }
+          }
+        },
+        "B": {
+          "glyph": "B",
+          "advance": 1307,
+          "lsb": 148,
+          "upper": 28,
+          "lower": 45,
+          "ratio": 1.6071428571428572,
+          "phi_difference": 0.010891131607037696,
+          "features": {
+            "upper": {
+              "width": 28,
+              "x": 1166,
+              "y_original": 1094,
+              "from_y": 1080,
+              "to_y": 1108
+            },
+            "lower": {
+              "width": 45,
+              "x": 1227,
+              "y_original": 418,
+              "from_y": 396,
+              "to_y": 441
+            }
+          }
+        },
+        "в": {
+          "glyph": "uni0432",
+          "advance": 1074,
+          "lsb": 126,
+          "upper": 23,
+          "lower": 37,
+          "ratio": 1.608695652173913,
+          "phi_difference": 0.00933833657598182,
+          "features": {
+            "upper": {
+              "width": 23,
+              "x": 958,
+              "y_original": 775,
+              "from_y": 764,
+              "to_y": 787
+            },
+            "lower": {
+              "width": 37,
+              "x": 1000,
+              "y_original": 299,
+              "from_y": 281,
+              "to_y": 318
+            }
+          }
+        }
+      }
+    }
+  }
+}
