@@ -1,0 +1,101 @@
+{
+  "status": "PASS technical carrier QA, not visual or release approval",
+  "case_control": "identical source HTML and branding, font face files only differ",
+  "source_hashes": {
+    "wordmark": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+    "tokens": "ce3650c12bae4aefeeccb14e1fa36705247fb698221c5e731fe40eda6cb3cff1",
+    "monogram": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655"
+  },
+  "fonts": {
+    "display": {
+      "from_Inter_modified_glyph_count": 7,
+      "modified_names": [
+        "B",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ],
+      "unchanged": 2930,
+      "cmap_positions": 2852
+    },
+    "text": {
+      "from_Inter_modified_glyph_count": 7,
+      "modified_names": [
+        "B",
+        "uni0411",
+        "uni0412",
+        "uni0417",
+        "uni0431",
+        "uni0432",
+        "uni0437"
+      ],
+      "unchanged": 2930,
+      "cmap_positions": 2852
+    }
+  },
+  "layout": {
+    "letter": {
+      "body_characters": 647,
+      "scrollheight": 1173,
+      "docwidth": 1160,
+      "font_both_loaded": true,
+      "logo_images_loaded": true
+    },
+    "proposal": {
+      "body_characters": 1570,
+      "scrollheight": 2323,
+      "docwidth": 1160,
+      "font_both_loaded": true,
+      "logo_images_loaded": true
+    },
+    "mobile": {
+      "body_characters": 716,
+      "scrollheight": 1831,
+      "docwidth": 390,
+      "font_both_loaded": true,
+      "logo_images_loaded": true
+    }
+  },
+  "pixel_differences": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.01989,
+      "changed_pixels": 212
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.02533,
+      "changed_pixels": 270
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.02674,
+      "changed_pixels": 285
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.00448,
+      "changed_pixels": 32
+    }
+  },
+  "open": [
+    "Human optical/legibility evaluation not performed",
+    "Chrome PDF uses subset Type3; no commercial print preflight",
+    "Font release/rights and approved brand tokens remain out of scope"
+  ]
+}

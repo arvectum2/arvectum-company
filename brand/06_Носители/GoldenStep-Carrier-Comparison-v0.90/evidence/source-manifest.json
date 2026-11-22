@@ -1,0 +1,48 @@
+{
+  "original_wordmark": "brand/03_Логотип/Golden-Wordmark-v0.21/C_Lockup_RU.svg",
+  "original_wordmark_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "reference_tokens": "brand/06_Носители/GoldenStep-Applications-v0.76/tokens.css",
+  "reference_tokens_sha256": "ce3650c12bae4aefeeccb14e1fa36705247fb698221c5e731fe40eda6cb3cff1",
+  "monogram_svg": "brand/06_Носители/GoldenStep-Applications-v0.76/assets/monogram_navy.svg",
+  "monogram_sha256": "ddf11d7c5795b4e4098c214a5e47a12901f0d01d8c43abd2ec0310ab0c5c4655",
+  "fonts": {
+    "inter": {
+      "display": {
+        "src": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepDisplayBaseDraft085-Medium.otf",
+        "source_sha256": "281b70340ae56345642de3ce99a3e91ef73fdb3dbc63f9fc2e1fbfac658bf011",
+        "webfont_sha256": "0dc61768b02acbd4d86fb66a0570b9111fcd09b0ab4afa97effb6bfd2c5c996b"
+      },
+      "text": {
+        "src": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.85/experimental/ArvectumGoldenStepTextBaseDraft085-Regular.otf",
+        "source_sha256": "4477612eed9455b2152fc780d3ac702a2a8e33acdb48676be0e0ea1022b3ba1c",
+        "webfont_sha256": "21e15371885e09855fdb03855e0b6b036f397ef6c0273cee340c87900823cf61"
+      }
+    },
+    "golden": {
+      "display": {
+        "src": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.89/experimental/ArvectumGoldenStepDisplayPhiBeDraft089-Medium.otf",
+        "source_sha256": "96da8821c23ddb1e2a8e6bedb66d8403d91947b203a234ca30add56096d14f9f",
+        "webfont_sha256": "78f63a623500ef8355f79adafd80cc4383e03a79b80d20ba2027d6a5ce95e241"
+      },
+      "text": {
+        "src": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.89/experimental/ArvectumGoldenStepTextPhiBeDraft089-Regular.otf",
+        "source_sha256": "ed3835f80546793b34f3f4f70e33f08b54b0dce055deae1d2357e945a6bba4a5",
+        "webfont_sha256": "d0cea5d169086ed7f19e7d4bcd66262ef8e297dca690da1d072163bfdc5f0347"
+      }
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Applications-v0.73/office/letterhead.html",
+      "source_sha256": "0c9e6263e5cc28f9ada5b562e7ca2ac80841019af787ddd00112c123421bfb05"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Applications-v0.73/office/proposal.html",
+      "source_sha256": "e0b78008799e351e09833131e409c5d4d58fd04927ec7778345ce92bbf442607"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Applications-v0.76/site/home.html",
+      "source_sha256": "294e726455de7536688b7678a1f8a20e5c3c3c146cd1523aec41ee34d5194ddd"
+    }
+  }
+}
