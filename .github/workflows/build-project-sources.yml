@@ -6,11 +6,11 @@ on:
       - main
     paths:
       - 'tools/build_project_sources.py'
-      - '.github/workflows/build-project-sources.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
 
 concurrency:
   group: build-project-sources
@@ -49,7 +49,9 @@ jobs:
           grep -q 'Convenience Snapshot / Non-Canonical Copy' docs/project-sources/01_ARVECTUM_OS_CONSTITUTION.md
           grep -q 'Proposed `0.2.1`' docs/CANONICAL-SOURCES.md
 
-      - name: Commit generated sources when changed
+      - name: Propose generated sources through a draft PR (never push main)
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           git add docs/project-sources docs/CANONICAL-SOURCES.md
@@ -57,12 +59,16 @@ jobs:
             echo "Project Source pack is already current."
             exit 0
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           os_sha="$(git -C /tmp/arvectum-os rev-parse HEAD)"
-          git commit -m "docs: refresh project source pack from Arvectum OS ${os_sha:0:12}"
-          git push origin HEAD:main
+          branch="automation/project-source-review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git switch -c "$branch"
+          git commit -m "docs: propose source pack from Arvectum OS ${os_sha:0:12}"
+          git push origin "HEAD:refs/heads/$branch"
+          gh pr create --base main --head "$branch" --draft \
+            --title "docs: review generated Arvectum OS project sources" \
+            --body "Generated non-canonical convenience snapshot from pinned OS commit $os_sha. Requires independent owner review and the always-running Company main integrity gate before merge. No automation may approve or merge this PR."
 
       - name: Summary
         run: |
