@@ -1,0 +1,247 @@
+{
+  "nature": "structural and raster diagnostic, not user reading study",
+  "styles": {
+    "Display": {
+      "v0.81": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              14,
+              15
+            ]
+          },
+          "з": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              14,
+              15
+            ]
+          },
+          "В": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          },
+          "в": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          },
+          "B": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.8214,
+          "14": 0.7429,
+          "16": 0.82,
+          "24": 0.7315,
+          "40": 0.7288,
+          "72": 0.7762
+        }
+      },
+      "R": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 3,
+            "segments": [
+              2,
+              10,
+              17
+            ]
+          },
+          "з": {
+            "cubic_curvature_inflections": 4,
+            "segments": [
+              2,
+              10,
+              17
+            ]
+          },
+          "В": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "в": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "B": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.8,
+          "14": 0.6757,
+          "16": 0.7885,
+          "24": 0.7921,
+          "40": 0.7509,
+          "72": 0.7609
+        }
+      },
+      "S": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "з": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "В": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "в": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "B": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.7692,
+          "14": 0.6757,
+          "16": 0.7885,
+          "24": 0.7843,
+          "40": 0.7423,
+          "72": 0.7656
+        }
+      }
+    },
+    "Text": {
+      "v0.81": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              14,
+              15
+            ]
+          },
+          "з": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              14,
+              15
+            ]
+          },
+          "В": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          },
+          "в": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          },
+          "B": {
+            "cubic_curvature_inflections": 2,
+            "segments": [
+              3,
+              4
+            ]
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.3636,
+          "14": 0.6857,
+          "16": 0.7174,
+          "24": 0.7755,
+          "40": 0.7099,
+          "72": 0.7442
+        }
+      },
+      "R": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 3,
+            "segments": [
+              2,
+              10,
+              17
+            ]
+          },
+          "з": {
+            "cubic_curvature_inflections": 3,
+            "segments": [
+              2,
+              10,
+              17
+            ]
+          },
+          "В": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "в": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "B": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.375,
+          "14": 0.7576,
+          "16": 0.7273,
+          "24": 0.7526,
+          "40": 0.7469,
+          "72": 0.7333
+        }
+      },
+      "S": {
+        "curves": {
+          "З": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "з": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "В": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "в": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          },
+          "B": {
+            "cubic_curvature_inflections": 0,
+            "segments": []
+          }
+        },
+        "digit3_vs_Z_mask_IoU": {
+          "12": 0.375,
+          "14": 0.7576,
+          "16": 0.7111,
+          "24": 0.7604,
+          "40": 0.7398,
+          "72": 0.7376
+        }
+      }
+    }
+  }
+}

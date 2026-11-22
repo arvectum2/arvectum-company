@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "glyphs": {
+    "R/Display/U+0042": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1519196,
+        168750,
+        438485
+      ]
+    },
+    "R/Display/U+0412": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1519196,
+        168750,
+        438485
+      ]
+    },
+    "R/Display/U+0417": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        620579
+      ]
+    },
+    "R/Display/U+0432": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        860592,
+        125473,
+        123353
+      ]
+    },
+    "R/Display/U+0437": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        485887
+      ]
+    },
+    "R/Text/U+0042": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1419510,
+        173990,
+        431930
+      ]
+    },
+    "R/Text/U+0412": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1419510,
+        173990,
+        431930
+      ]
+    },
+    "R/Text/U+0417": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        538695
+      ]
+    },
+    "R/Text/U+0432": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        829956,
+        135621,
+        134139
+      ]
+    },
+    "R/Text/U+0437": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        434379
+      ]
+    },
+    "S/Display/U+0042": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1519196,
+        168750,
+        438485
+      ]
+    },
+    "S/Display/U+0412": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1519196,
+        168750,
+        438485
+      ]
+    },
+    "S/Display/U+0417": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        625114
+      ]
+    },
+    "S/Display/U+0432": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        860592,
+        125473,
+        123353
+      ]
+    },
+    "S/Display/U+0437": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        489948
+      ]
+    },
+    "S/Text/U+0042": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1419510,
+        173990,
+        431930
+      ]
+    },
+    "S/Text/U+0412": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        1419510,
+        173990,
+        431930
+      ]
+    },
+    "S/Text/U+0417": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        542374
+      ]
+    },
+    "S/Text/U+0432": {
+      "count": 3,
+      "total_path_points": 781,
+      "absolute_area": [
+        829956,
+        135621,
+        134139
+      ]
+    },
+    "S/Text/U+0437": {
+      "count": 1,
+      "total_path_points": 1158,
+      "absolute_area": [
+        437797
+      ]
+    }
+  },
+  "limitations": [
+    "Bezier segments sampled at 96 intervals; not a formal proof of all exact intersections"
+  ]
+}

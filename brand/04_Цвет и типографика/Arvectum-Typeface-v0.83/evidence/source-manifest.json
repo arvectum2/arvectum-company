@@ -1,0 +1,396 @@
+{
+  "base": "v0.81",
+  "project": "BR-05",
+  "status": "experimental_not_authorized",
+  "variants": {
+    "R": "historical_reconstruction",
+    "S": "historical_with_simple_quadratic_termini"
+  },
+  "historical_source_by_char": {
+    "З": "0.63",
+    "з": "0.42",
+    "В": "0.41",
+    "в": "0.41",
+    "B": "0.41"
+  },
+  "source_glyph_scope": [
+    "U+0042",
+    "U+0412",
+    "U+0417",
+    "U+0432",
+    "U+0437"
+  ],
+  "exclusions": [
+    "v0.82 polygonal angular trial",
+    "approved Golden Wordmark",
+    "Golden Vector"
+  ],
+  "styles": {
+    "Display": {
+      "source": "ArvectumDisplayGoldenStepDraft081-Medium.otf",
+      "sha256": "04b3d530044a22281ace1553e40ef40aec39457c17346a26387da9c7bdf3f3f7",
+      "variants": {
+        "R": {
+          "filename": "ArvectumDisplayGoldenStepRetroRDraft083-Medium.otf",
+          "sha256": "893b6f457eef5c0ec5d5697a4d0581b9183b880f7bd1bd5a62b4507a059d2588",
+          "changes": [
+            {
+              "cp": "U+0042",
+              "char": "B",
+              "historical": "0.41",
+              "historical_width": 1360,
+              "baseline_width_preserved": 1360,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1260,
+                1490
+              ],
+              "svg_sha256": "bf09cbfe74810a6f14f3584e59f2dd5895107a8ff53504d143684cab2247b928"
+            },
+            {
+              "cp": "U+0412",
+              "char": "В",
+              "historical": "0.41",
+              "historical_width": 1360,
+              "baseline_width_preserved": 1360,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1260,
+                1490
+              ],
+              "svg_sha256": "73c404cfb4041058757536c4f973f9d95f47c973a43c567a2f7ac3df3ef52099"
+            },
+            {
+              "cp": "U+0417",
+              "char": "З",
+              "historical": "0.63",
+              "historical_width": 1362,
+              "baseline_width_preserved": 1362,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                -15,
+                1262,
+                1505
+              ],
+              "svg_sha256": "8319c0e7eb73a7add343fa360c0d9e27252cf442e5b0334966bdcd40849ffb05"
+            },
+            {
+              "cp": "U+0432",
+              "char": "в",
+              "historical": "0.41",
+              "historical_width": 1140,
+              "baseline_width_preserved": 1140,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1040,
+                1056
+              ],
+              "svg_sha256": "a5b79992f51b5e521dd728b6916dee32867d7edfbd992303d70dfa0c495a2bf3"
+            },
+            {
+              "cp": "U+0437",
+              "char": "з",
+              "historical": "0.42",
+              "historical_width": 1150,
+              "baseline_width_preserved": 1141,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                -15,
+                1050,
+                1071
+              ],
+              "svg_sha256": "509d2f9bf03fd9ac38e0dddd4688cd72f713d0e4337159c77470c353e3e1cf50"
+            }
+          ]
+        },
+        "S": {
+          "filename": "ArvectumDisplayGoldenStepRetroSDraft083-Medium.otf",
+          "sha256": "6fc7f35aa67483ca219e418168506765bac10f99e8f9debc505d52973a13d39f",
+          "changes": [
+            {
+              "cp": "U+0042",
+              "char": "B",
+              "historical": "0.41",
+              "historical_width": 1360,
+              "baseline_width_preserved": 1360,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1260,
+                1490
+              ],
+              "svg_sha256": "fd26ccdaa5ebcdc2546453547e7abbebbd2baf3099fbbf8e5e71458038e78d88"
+            },
+            {
+              "cp": "U+0412",
+              "char": "В",
+              "historical": "0.41",
+              "historical_width": 1360,
+              "baseline_width_preserved": 1360,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1260,
+                1490
+              ],
+              "svg_sha256": "b7c8fb8d9de85dffb68dee811fe78a44029c1bda438c071b22f4a965b83dd0ff"
+            },
+            {
+              "cp": "U+0417",
+              "char": "З",
+              "historical": "0.63",
+              "historical_width": 1362,
+              "baseline_width_preserved": 1362,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                -15,
+                1262,
+                1505
+              ],
+              "svg_sha256": "43cc8e984ff5048486240fedf4b31d7c5eac071ccf2127e68c228c85946d9b46"
+            },
+            {
+              "cp": "U+0432",
+              "char": "в",
+              "historical": "0.41",
+              "historical_width": 1140,
+              "baseline_width_preserved": 1140,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                0,
+                1040,
+                1056
+              ],
+              "svg_sha256": "84255c06bd7c047c8b265c16151a50ab588224ff438d32125a4295bc61defd23"
+            },
+            {
+              "cp": "U+0437",
+              "char": "з",
+              "historical": "0.42",
+              "historical_width": 1150,
+              "baseline_width_preserved": 1141,
+              "historical_lsb": 100,
+              "baseline_lsb_preserved": 100,
+              "bbox": [
+                100,
+                -15,
+                1050,
+                1071
+              ],
+              "svg_sha256": "caeb2d800965c6b70ad512e19c1e217f740ef290561927f45114c5692d544c30"
+            }
+          ]
+        }
+      },
+      "original_sources": {
+        "0.41": "8c61b5fe94af10508e513a6cb10b10a604bf4f9582ee799201b56f6e295a9372",
+        "0.42": "98a954c09e9b322bb1a5be3f1459debfa1002573daa72795dccf72e43cbad3f4",
+        "0.63": "cfae2f087d3ea71753c33b163a583ee86842ee0c08567aad6f6858ca27c7ecbd"
+      }
+    },
+    "Text": {
+      "source": "ArvectumTextGoldenStepDraft081-Regular.otf",
+      "sha256": "cda2a693e327995c8fc37a060b74c9e0e90a37fd6e2a410189f5a7c28463360b",
+      "variants": {
+        "R": {
+          "filename": "ArvectumTextGoldenStepRetroRDraft083-Regular.otf",
+          "sha256": "df80654e3cd3e0042e59b8d4cee8c616c6dedc07729f50d5fc99fa0281fce67e",
+          "changes": [
+            {
+              "cp": "U+0042",
+              "char": "B",
+              "historical": "0.41",
+              "historical_width": 1310,
+              "baseline_width_preserved": 1310,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1205,
+                1490
+              ],
+              "svg_sha256": "5a1c83f679c66e6bebb42b70dac1c3338f917d26ebb1f73cebb4ddcfec8ef6e2"
+            },
+            {
+              "cp": "U+0412",
+              "char": "В",
+              "historical": "0.41",
+              "historical_width": 1310,
+              "baseline_width_preserved": 1310,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1205,
+                1490
+              ],
+              "svg_sha256": "988f8ad9886d6ed8b8de740d31e39f3725a3a1924078bc13c46ecaca5df3874f"
+            },
+            {
+              "cp": "U+0417",
+              "char": "З",
+              "historical": "0.63",
+              "historical_width": 1301,
+              "baseline_width_preserved": 1300,
+              "historical_lsb": 104,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                104,
+                -15,
+                1196,
+                1505
+              ],
+              "svg_sha256": "1d03f0c5d9f4dd02db3bcd56e36f4cacb75e3e932f86a01533367f5e03a8d242"
+            },
+            {
+              "cp": "U+0432",
+              "char": "в",
+              "historical": "0.41",
+              "historical_width": 1130,
+              "baseline_width_preserved": 1130,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1025,
+                1056
+              ],
+              "svg_sha256": "051327c57e63dda354cf74c2bcc74c6dca8af41e4fef9c4fdf4e372bc98e4799"
+            },
+            {
+              "cp": "U+0437",
+              "char": "з",
+              "historical": "0.42",
+              "historical_width": 1130,
+              "baseline_width_preserved": 1151,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                -15,
+                1025,
+                1071
+              ],
+              "svg_sha256": "812b05172643c0c47148e6c500ed6c851f7d1c57d6fd48e2d515f80a502ed2db"
+            }
+          ]
+        },
+        "S": {
+          "filename": "ArvectumTextGoldenStepRetroSDraft083-Regular.otf",
+          "sha256": "695febad7b460b80c8b7de3a20bf70f1877f83e8ce508895a7c1dea03a725552",
+          "changes": [
+            {
+              "cp": "U+0042",
+              "char": "B",
+              "historical": "0.41",
+              "historical_width": 1310,
+              "baseline_width_preserved": 1310,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1205,
+                1490
+              ],
+              "svg_sha256": "19f83b758864559ebf09650942c0e662952ca16646e9a2eabdb241a43d2ed893"
+            },
+            {
+              "cp": "U+0412",
+              "char": "В",
+              "historical": "0.41",
+              "historical_width": 1310,
+              "baseline_width_preserved": 1310,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1205,
+                1490
+              ],
+              "svg_sha256": "b22df76a58c5e2b34f7b3ac9d56c25569319c801f4ebd3094f8c6cd647e1c5ce"
+            },
+            {
+              "cp": "U+0417",
+              "char": "З",
+              "historical": "0.63",
+              "historical_width": 1301,
+              "baseline_width_preserved": 1300,
+              "historical_lsb": 104,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                104,
+                -15,
+                1196,
+                1505
+              ],
+              "svg_sha256": "8e42ae49b8bf06fb7de1d3777c503fb7307e7915530cd829a837d83aa7e9d27a"
+            },
+            {
+              "cp": "U+0432",
+              "char": "в",
+              "historical": "0.41",
+              "historical_width": 1130,
+              "baseline_width_preserved": 1130,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                0,
+                1025,
+                1056
+              ],
+              "svg_sha256": "822c6402da6fb4ee4a3004b6288f5501cd04ac246789becea9f0f6b82112bc92"
+            },
+            {
+              "cp": "U+0437",
+              "char": "з",
+              "historical": "0.42",
+              "historical_width": 1130,
+              "baseline_width_preserved": 1151,
+              "historical_lsb": 105,
+              "baseline_lsb_preserved": 105,
+              "bbox": [
+                105,
+                -15,
+                1025,
+                1071
+              ],
+              "svg_sha256": "ac269a3fbf1cd47324cf37bce574306482c827b2c638a2e5f6c61e0b6d9d761a"
+            }
+          ]
+        }
+      },
+      "original_sources": {
+        "0.41": "70bd94ba792b848fa7d36fe79e0ea7f834a8f62c6de9cf7199c644df2179ae2f",
+        "0.42": "50e767d1159e5ffbf775c02768b47e6e9cd1376bfe5d815db3fb99acb57ecd03",
+        "0.63": "4e578984f4247b90eb93501795c77e3d3eb3704698e5d1a16504312c38473590"
+      }
+    }
+  }
+}
