@@ -125,6 +125,13 @@ Status: **Draft**. Checked items indicate initial evidence only, NOT approval or
 - [ ] AEC-001-080 Establish Product/Company ownership, canonical immutable source and controlled release for host-backup/watchdog/weekly maintenance and Tender guard; independently verify scheduling, retention and rollback before any live change.
 - [ ] AEC-001-081 Obtain Tender Agent Product decision on approved active release versus moving GitHub main, then fix alert policy through Product-governed change if current lag is intentional; never auto-deploy main or silence other failures.
 
+## P1o — First two-real-consumer CI quality contract pilot
+
+- [x] AEC-001-082 Record immutable pinned Data Platform and Compliance product CI workflows and six common quality-stage criteria without normalizing away product-specific DB, browser, lock, Spec Kit or security gates. Both source workflows have different declared checkout/setup-python action refs.
+- [x] AEC-001-083 Implement a versioned, stdlib-only **shadow contract comparator** and 26 offline positive/negative tests, plus an isolated Company PR-only CI job that retrieves these two fixed source commits. No product workflow files modified; production CI semantic equivalence is NOT claimed.
+- [ ] AEC-001-084 Compare actual two-product CI run time, runner cost, operator maintenance effort, security evidence and feature-specific behavior against a candidate opt-in reusable workflow. Document downside, rollback and Company/Product owner approvals before Product PR changes.
+- [ ] AEC-001-085 If 084 proves value, implement a versioned replaceable common CI component with two product-specific adoption/rollback proofs and approved exception policy. Do not change Tender Agent or customer-facing products under this Company-only audit approval.
+
 ## P2 — Gated implementation
 - [ ] AEC-001-013 Characterization/contract tests for chosen source and consumers.
 - [ ] AEC-001-014 Implement one shared component/adapter with legacy fallback.

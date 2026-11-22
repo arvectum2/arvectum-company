@@ -73,6 +73,9 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - FR-027: Host-control provenance audits must read installed script bytes only for bounded, private hashing and compare exact Git objects against explicitly scoped local repositories; neither scheduled exit code nor file digest proves source ownership, executable health or backup restoration.
 - FR-028: Interpret a Product drift-guard structured report from exact failed check names without publishing private SHA values or silently changing the guard's status. A moving GitHub main parity difference must be flagged for Product review, never trigger automatic upgrade or conceal unrelated health/authentication failures.
 
+- FR-029: An initial reusable CI-quality contract pilot must be versioned and pinned to at least two real Product workflow revisions, compare exact declared core checks and job ordering in a read-only shadow mode, preserve Product-specific CI and exceptions, and reject impersonated, missing or skipped mandatory steps before any Product workflow cutover.
+- FR-030: Report concrete CI overlap and source-version divergence separately from runner-cost/time savings, process correctness and Product authority. A green source-level shadow contract is not production CI equivalence, organizational policy approval or permission to change a Product pipeline.
+
 ## Success Criteria
 
 - SC-001: 19 initially accessible GitHub repositories reconciled, plus any newly discovered sources explicitly classified.
@@ -97,6 +100,8 @@ Owner sees business rationale, maintenance/incident baselines, dependencies, app
 - SC-019: Five host and five Docker logical dumps have aggregate input size metadata without reading payload bytes or asserting actual restoration capacity, with negative tests for stale and unsafe filesystem evidence.
 
 - SC-020: Four Mac mini host-control launchd jobs are reviewed with installed artifact metadata, schedule and last-exit evidence, scoped Git object lookup and a strict Tender report diagnostic. Results fail closed on mismatched scripts, schedules, invalid guard schema and service result disagreement; no production action.
+
+- SC-021: Two real immutable Product workflow commits (Data Platform and Compliance) match the six-stage core quality chain under one draft versioned contract; source pin drift, privilege expansion, skipped tests, step order drift and YAML/text spoof cases fail closed in offline negative tests. Product workflow files and production processes remain untouched.
 
 ## Non-Goals
 

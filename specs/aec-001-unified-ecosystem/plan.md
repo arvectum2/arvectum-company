@@ -97,3 +97,7 @@ The [WAL installed image and restore-input review](wal-image-and-restore-input-r
 ## Host control and Tender guard incident boundary — 2026-11-22
 
 The [host-controls and Tender guard review](host-controls-and-tender-guard-review.md) identifies local standalone scheduled scripts without an exact canonical Git object relation, and Tender's isolated GitHub-main parity warning. Treat these as CP1/CP2 amber provenance and Product-release policy tasks, not an automatic migration or service failure. Real backup restores are still blocked, CP3 red.
+
+## Cross-product CI-quality shadow pilot — 2026-11-22
+
+The first [two-real-consumer CI quality pilot](ci-quality-two-consumer-pilot.md) records a **versioned six-stage source contract**, pinned Data Platform and Compliance workflow commits, an offline negative-test checker and an isolated Company PR CI job. No product migration or common CI job extraction has occurred. This establishes CI source-level commonality, not saved engineering time, runtime quality equivalence, Product release authority or approved organization-wide standard. CP4 remains AMBER; CP6 RED. Future adoption requires baseline cost and real two-Product opt-in/rollback evidence.

@@ -1,0 +1,10 @@
+{
+  "schema": "aec001-ci-quality-shadow-contract-v1",
+  "contract_version": "0.1.0",
+  "mode": "offline-static-source-only",
+  "core": ["contents-read", "checkout", "setup-python", "pip-install", "ruff-check", "pytest"],
+  "consumers": [
+    {"repository": "arvectum2/data-platform", "commit": "b6a5755e6f86a2c7f07bc82c2be005aa929faf0c", "workflow": ".github/workflows/ci.yml", "job": "test"},
+    {"repository": "arvectum2/compliance", "commit": "fce41cc06109a651b6741291f30850d9f16d56c1", "workflow": ".github/workflows/ci.yml", "job": "core"}
+  ]
+}

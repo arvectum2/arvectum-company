@@ -315,3 +315,28 @@ On Mac mini, derive the existing report location from the installed drift guard'
       --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-host-controls-private.json"
 
 The one-shot tool scans four exact allowlisted launchd jobs, bounded installed source file hashes, current launchctl last-exit metadata, 18 accessible local Git object stores and a private boolean-only Tender guard report summary. It does **not** execute any scheduled job, read its logs/secrets, change source files, query the live application, or infer HEALTHY/backup restoration from exit 0. The output is private 0600. An exact local Git blob match is evidence only, not canonical Product authority. See host-controls-and-tender-guard-review.md.
+
+## Two-real-consumer CI quality shadow pilot (no Product workflow execution)
+
+On Mac mini, use **separately checked-out exact pinned commits**. The active Data Platform developer checkout is at a different local revision and **must not** be used as the pinned source. Create the private scratch checkout once (not in the Product repository):
+
+    scratch="$HOME/ArvectumSafe/aec001-ci-consumer-inputs-20261122/data-platform"
+    mkdir -p "$(dirname "$scratch")"
+    git init -q "$scratch"
+    git -C "$scratch" remote add origin https://github.com/arvectum2/data-platform.git
+    git -C "$scratch" sparse-checkout init --cone
+    git -C "$scratch" sparse-checkout set .github/workflows
+    git -C "$scratch" fetch --no-tags --depth 1 --filter=blob:none origin b6a5755e6f86a2c7f07bc82c2be005aa929faf0c
+    git -C "$scratch" checkout --detach FETCH_HEAD
+
+Do not repeat git init for a preexisting scratch checkout; inspect/reuse the pinned path instead. Verify both checkouts' Git HEAD against ci-quality-shadow-contract.json before the following run:
+
+    python3 -B tools/aec001_ci_quality_shadow.py \
+      --contract specs/aec-001-unified-ecosystem/ci-quality-shadow-contract.json \
+      --data-platform "$HOME/ArvectumSafe/aec001-ci-consumer-inputs-20261122/data-platform" \
+      --compliance /Volumes/ArvectumSSD/Arvectum/repos/compliance \
+      --output "$HOME/ArvectumSafe/ecosystem-audit-20261121/aec001-ci-quality-shadow-private.json"
+
+    python3 -B -m unittest discover -s tests -p 'test_aec001_ci_quality_shadow.py' -v
+
+The candidate .github/workflows/aec001-audit-ci.yml has a PR-only job retrieving the two exact Git commits, with read-only GitHub permissions and persist-credentials false. No product application/test code executes in this shadow job. The verifier covers a strict subset of workflow source syntax, **not complete YAML execution semantics**. Read ci-quality-two-consumer-pilot.md before making any Product workflow change.
