@@ -1,0 +1,119 @@
+# AEC-001 — Implementation Plan (Spec Kit style)
+
+Status: **Draft**, no production change authorization. Spec: [spec.md](spec.md). Evidence: [research.md](research.md).
+Owner: Company owner; each migration requires accountable product/OS principal within approved authority.
+
+## Intended architecture
+
+```text
+Company: strategy, budget, authority, portfolio and obligations
+  |
+  +-- Product layer: Tender, Creative, Work, Data, Compliance,
+  |   Deal, MAX2TG, Site, Mobile/Proxy and customer projects
+  |   - each owns domain rules, client rights, releases and data scope
+  |
+  +-- Explicit, versioned integration / Product Contracts (where applicable)
+  |        |
+  |        +-- Arvectum OS: domain-neutral Identity, Records, Relationships,
+  |             Authority, Governed Execution, Events, Documents, Knowledge
+  |
+  +-- Shared engineering side-plane (no organizational authority):
+       repo/service catalog, Spec Kit source, CI quality/security, SDK policy,
+       runtime configuration and credential references, release evidence,
+       observability, backup, restoration, operational runbooks
+```
+
+Preferred structure: **managed polyrepo**, explicit versioned contracts and optional replaceable common libraries; no mandatory monorepo or universal storage. The Data Platform is a candidate shared data product only with actual consumers and documented economics, not a universal authority.
+
+## Constitution / scope gate
+- Company business and portfolio approvals remain in Company; product semantics in product repos.
+- OS constitutional requirements, RFC-0003 security/sovereignty and RFC-0004 Product Contracts apply before governed reliance; only approved OS governance can alter OS contracts.
+- No pooled customer data, shared credentials or silent cross-organization knowledge reuse.
+- Platform or library selection must consider licenses, RU availability, self-host/offline, vendor replacement, cost and auditability.
+- Current deployments, client contracts, active bids, messages and worktrees must continue unaffected during discovery.
+
+## Phases and proof
+
+| Phase | Output | Minimum gate |
+|---|---|---|
+| P0 Discovery | Canonical repo/worktree registry; service/runtime map; data/API/job dependencies; cost and incident baselines | Read only, facts vs gaps |
+| P1 Engineering foundation | Versioned engineering policy; reusable CI patterns; service catalog; Spec Kit drift detection | No automatic deployment |
+| P2 One reusable pilot | One proven cross-product consumer-backed mechanism with tests, contract, ownership and economics | Bounded approval, reversible |
+| P3 Operations | Unified service health/evidence/backup policy and runtime registration without forcing shared service processes | Shadow checks, no incidents, rollback |
+| P4 OS adoption | Explicit product-by-product Product Contracts for genuine universal platform reuse | OS owner/capability governance |
+| P5 Decommission | Approved removal or containment of truly redundant implementation after tested migration | Evidence, customer rights, history preserved |
+
+## Worktree and provenance evidence
+
+A read-only host reconciliation exposed 605 registered Git worktrees across 21 repository identities and 11 prunable/missing working directories. First establish ownership, active service links, business evidence retention and reversible cleanup criteria; none may be pruned automatically. Runtime provenance is a more immediate common concern than code migration: launchd/OS release wrappers and Docker images require exact source and artifact linkage before any mass consolidation. The derived scanner is **not** a replacement for existing Company Source Watch.
+
+## AEC-001 stack-comparison decision gate
+
+Before selecting any common implementation, compare the 21 identified repository identities using `tools/aec001_stack_matrix.py` and the evidence in `stack-comparison.md` (when available). Keep repository declarations distinct from deployed image/package evidence. For each proposed simplification, state the actual repeated business/engineering mechanism, consumers, API/data boundaries, standard/version difference, security and technology-sovereignty impact, owner, business gain hypothesis, reversibility and stop criteria.
+
+Expected choices: **KEEP SEPARATE**, **STANDARDIZE POLICY**, **REUSE EXISTING CONTRACT/SDK**, **EXTRACT AFTER EVIDENCE**, **RETIRE ONLY AFTER APPROVAL**. A package match does not prove duplicate functionality and a missing manifest does not prove a dependency is absent. Prefer reusing Company Skills/Source Watch, Data Platform SDK and OS contracts (where already admitted) rather than building a new platform.
+
+## Early testable candidate ranking (not final priority)
+1. Service and deployment registry tied to existing Company source watch — high operational visibility, low product disruption.
+2. Data Platform SDK/consumer compatibility — real candidate interfaces in Python and JS; validate actual usage, failure paths and cost.
+3. Spec Kit pinned template drift checker — six identical groups appear intentionally vendored; don't blindly dedupe.
+4. Shared HTTP/retry, queue/idempotency and report-generation primitives — inspect semantics, side effects, provenance and differences first.
+5. Site/Landing ownership of routes and build/deployment — only after verifying production.
+
+Score each by verified number of consumers, recurring cost, defect rate, customer/revenue criticality, security/data risk, migration cost and reversibility.
+
+## First two-consumer characterization results (not a cutover)
+
+The existing Data Platform SDK was tested using actual Tender Agent Python 0.4.0 installed sources and Arvectum Site JS 0.3.0 vendor artifact with **10 offline mocked HTTP scenarios**, matching after explicit normalized outcomes. This supports reuse of the *existing* contract and avoids inventing another transport abstraction. It does not establish live auth, business delivery, complete compatibility or cost savings. The source-level semantic audit also found that MAX2TG UNKNOWN delivery must not be conflated with Creative queue retry or Tender event idempotency; Compliance's IP-pinned acquisition must not be replaced by a weaker URL validator. Reference [sdk-consumer-pilot.md](sdk-consumer-pilot.md) and [semantic-overlap.md](semantic-overlap.md).
+
+## Operational continuity and rollback gate
+
+The source-to-service provenance projection now has 31/58 scoped links, 27 unconfirmed. A separate worktree metadata review found 11 Git-prunable missing temporary paths among 605 registered, with no observed references in one launchd/Docker sample; this is **not** authorization to prune. Installed backup launchers with zero last-exit status do not establish recoverability. See [runtime-provenance-reconciliation.md](runtime-provenance-reconciliation.md), [worktree-retention-review.md](worktree-retention-review.md) and [backup-readiness-review.md](backup-readiness-review.md). Any live transition requires confirmed Product ownership, stable exact deployed code/dependencies, verified isolated restore/rollback and measured client/owner value.
+
+## Per-pilot steps
+Pin exact production and git versions → define boundaries and baseline → write characterization/contract tests → implement behind explicit adapter or flag → run side-by-side and failure/retry simulations → security, sovereignty and cost review → obtain required approval → gradual cutover → rollback proof → reconcile canonical decisions and docs.
+
+## Done means
+Complete source-to-runtime inventory and explicit gaps; measured pilot equivalence and economics; no new implicit authority; no production regressions; no claims of business readiness on technical PASS alone.
+
+
+## Next business-first evidence boundary
+
+After exact source-copy review the catalog maps 41/58 script sources. The remaining 17 include two stateful WAL receivers, backup, product serving and host utilities; do not create new Product nodes solely to eliminate UNKNOWNs. Review data recovery and product/customer exposure first, then inspect permitted release/source identity. A structural backup manifest and success state are **not** a restored database. See source-copy-reconciliation.md, remaining-service-triage.md and backup-readiness-review.md.
+
+
+## WAL retention and recovery policy decision (not automatically implemented)
+
+An offline auditor proves local WAL filename-range continuity only and explicitly blocks PITR acceptance when the observed backup artifacts are logical pg_dump files without independently verified compatible physical base backup. Observed WAL allocation is about 39.7 GiB across the two receivers; repeated evidence is needed for retention/capacity forecasts. See wal-pitr-recovery-gate.md. Next safe business step is to define owner-approved RPO/RTO and, after separate authorization, test an isolated logical dump restore before deciding if physical PITR justifies the cost. No deletion, replication slot change or new background monitor is authorized.
+
+## Current checkpoint traffic lights — 22 November 2026
+
+The dated [checkpoint roadmap](checkpoint-traffic-light.md) supersedes historical numeric source-link counts in earlier sections without rewriting prior evidence: **42/58 source-linked**, **16 unresolved**. CP0 GREEN; CP1/CP2/CP4/CP5 AMBER; CP3/CP6/CP7 RED/BLOCKED. Temporary Museum PDF-share source/loopback evidence is not authorization or customer reachability; real PostgreSQL restoration and PITR remain unverified. Product/Company decisions require explicit acceptance and authority.
+
+## CP1/CP3 evidence refinement — 22 November 2026
+
+The [WAL installed image and restore-input review](wal-image-and-restore-input-review.md) recorded two current image/container ID matches, but no canonical Product source/Compose ownership evidence. Backup compressed inputs and free space were measured from metadata only; isolated target and uncompressed recovery capacity remain unknown. No new Company service source links or business readiness: CP1 AMBER 42/58, CP3 RED/BLOCKED.
+
+## Host control and Tender guard incident boundary — 2026-11-22
+
+The [host-controls and Tender guard review](host-controls-and-tender-guard-review.md) identifies local standalone scheduled scripts without an exact canonical Git object relation, and Tender's isolated GitHub-main parity warning. Treat these as CP1/CP2 amber provenance and Product-release policy tasks, not an automatic migration or service failure. Real backup restores are still blocked, CP3 red.
+
+## Cross-product CI-quality shadow pilot — 2026-11-22
+
+The first [two-real-consumer CI quality pilot](ci-quality-two-consumer-pilot.md) records a **versioned six-stage source contract**, pinned Data Platform and Compliance workflow commits, an offline negative-test checker and an isolated Company PR CI job. No product migration or common CI job extraction has occurred. This establishes CI source-level commonality, not saved engineering time, runtime quality equivalence, Product release authority or approved organization-wide standard. CP4 remains AMBER; CP6 RED. Future adoption requires baseline cost and real two-Product opt-in/rollback evidence.
+
+## Actual CI run-time evidence and Company-only footprint — 2026-11-22
+
+Read-only GitHub Actions API baseline from 8 completed runs each: Data Platform 64s median wall/194 summed job-seconds/five parallel jobs; Compliance 24s/21/one job; Company AEC 14s/18/two-to-three jobs. Provider reported billable zero is not actual invoiced cost or developer labor evidence. The Company-only extra shadow job previously consumed 11 seconds in run 45007572330; consolidation into offline-tests removes a separate job but needs real post-change CI comparison. No Product pipeline modifications. See [ci-cost-and-job-consolidation.md](ci-cost-and-job-consolidation.md).
+
+## CP4 follow-up evidence: Company two-job CI result
+
+Real GitHub Actions run 45008219102 succeeded with both original verification functions preserved and an aggregate job duration reduction 30→26s versus prior run 45007572330; provider wall duration increased 15→17s. This is insufficient to prove reduced paid CI expense, owner work or generic cross-product pipeline value. Candidate remains in draft PR; repeated-run and failure-mode regression gate AEC-001-089 is open.
+
+## PR-scoped CI routing candidate — 2026-11-22
+
+AEC-001 combined PR tests were separated into three independent path-scoped PR/manual checks to avoid re-running full unit, SDK or external source comparison for unrelated future small PR changes. The cumulative diff of draft PR #47 still matches them all. No Product pipeline or GitVerse mirror publication changed. Independent Company draft PR #48 proposes main-push + daily/manual GitVerse health instead of PR polling. See [ci-change-routing.md](ci-change-routing.md).
+
+## CI PR routing and mirror real evidence (2026-11-22)
+
+Three AEC workflows succeeded on draft PR #47 (runs 45009238298, 45009238338, 45009238336). Temporary standalone docs-only stacked PR #49 changed one Markdown document; no AEC check ran, only the inherited base branch's legacy GitVerse health and mirror publication, both successful; PR #49 closed without merge. PR #48 merged to main c91b830; actual main-push mirror publication and GitVerse main-health both passed. The daily health schedule is not yet verified. AEC PR #47 is 91 files and remains DRAFT, so its new routing has not been adopted in main. CP4 AMBER and CP6 RED. See ci-change-routing.md.
