@@ -1,0 +1,299 @@
+{
+  "status": "MECHANICAL PASS; two alternatives/artistic acceptance OPEN",
+  "version": "0.107",
+  "faces": {
+    "Display": {
+      "Fork": {
+        "changed_glyphs": [
+          "P",
+          "R",
+          "uni0420",
+          "uni042A",
+          "uni042B",
+          "uni042C",
+          "uni042F"
+        ],
+        "unchanged": 2930,
+        "gap_checks": {
+          "P": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99987764656544,
+            "probe_error_UPM": 0.0001223534345626831
+          },
+          "Р": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99987764656544,
+            "probe_error_UPM": 0.0001223534345626831
+          },
+          "Ь": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "Ъ": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "Ы": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "R": {
+            "measured_on_saved_CFF_UPM": 189,
+            "target_UPM": 189,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 188.99995386600494,
+            "probe_error_UPM": 4.6133995056152344e-05
+          },
+          "Я": {
+            "measured_on_saved_CFF_UPM": 189,
+            "target_UPM": 189,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 188.99993861094117,
+            "probe_error_UPM": 6.138905882835388e-05
+          }
+        },
+        "K_advance": 1334,
+        "Zh_advance": 1938,
+        "K_ink_change_pct": 0.0,
+        "Zh_ink_change_pct": 0.0,
+        "refined_left_YERY_STEM": true,
+        "right_YERY_STEM_unchanged": true
+      },
+      "Direct": {
+        "changed_glyphs": [
+          "K",
+          "Kacyr",
+          "P",
+          "R",
+          "uni0416",
+          "uni0420",
+          "uni042A",
+          "uni042B",
+          "uni042C",
+          "uni042F"
+        ],
+        "unchanged": 2927,
+        "gap_checks": {
+          "P": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99987764656544,
+            "probe_error_UPM": 0.0001223534345626831
+          },
+          "Р": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99987764656544,
+            "probe_error_UPM": 0.0001223534345626831
+          },
+          "Ь": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "Ъ": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "Ы": {
+            "measured_on_saved_CFF_UPM": 222,
+            "target_UPM": 222,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 221.99996937811375,
+            "probe_error_UPM": 3.0621886253356934e-05
+          },
+          "R": {
+            "measured_on_saved_CFF_UPM": 189,
+            "target_UPM": 189,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 188.99995386600494,
+            "probe_error_UPM": 4.6133995056152344e-05
+          },
+          "Я": {
+            "measured_on_saved_CFF_UPM": 189,
+            "target_UPM": 189,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 188.99993861094117,
+            "probe_error_UPM": 6.138905882835388e-05
+          }
+        },
+        "K_advance": 1094,
+        "Zh_advance": 1561,
+        "K_ink_change_pct": -5.063105081844432,
+        "Zh_ink_change_pct": -8.234557567068313,
+        "refined_left_YERY_STEM": true,
+        "right_YERY_STEM_unchanged": true
+      }
+    },
+    "Text": {
+      "Fork": {
+        "changed_glyphs": [
+          "P",
+          "R",
+          "uni0420",
+          "uni042A",
+          "uni042B",
+          "uni042C",
+          "uni042F"
+        ],
+        "unchanged": 2930,
+        "gap_checks": {
+          "P": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99987753480673,
+            "probe_error_UPM": 0.00012246519327163696
+          },
+          "Р": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99987753480673,
+            "probe_error_UPM": 0.00012246519327163696
+          },
+          "Ь": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "Ъ": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "Ы": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "R": {
+            "measured_on_saved_CFF_UPM": 160,
+            "target_UPM": 160,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 159.9999544620514,
+            "probe_error_UPM": 4.553794860839844e-05
+          },
+          "Я": {
+            "measured_on_saved_CFF_UPM": 160,
+            "target_UPM": 160,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 159.99993900209665,
+            "probe_error_UPM": 6.099790334701538e-05
+          }
+        },
+        "K_advance": 1299,
+        "Zh_advance": 1879,
+        "K_ink_change_pct": 0.0,
+        "Zh_ink_change_pct": 0.0,
+        "refined_left_YERY_STEM": true,
+        "right_YERY_STEM_unchanged": true
+      },
+      "Direct": {
+        "changed_glyphs": [
+          "K",
+          "Kacyr",
+          "P",
+          "R",
+          "uni0416",
+          "uni0420",
+          "uni042A",
+          "uni042B",
+          "uni042C",
+          "uni042F"
+        ],
+        "unchanged": 2927,
+        "gap_checks": {
+          "P": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99987753480673,
+            "probe_error_UPM": 0.00012246519327163696
+          },
+          "Р": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99987753480673,
+            "probe_error_UPM": 0.00012246519327163696
+          },
+          "Ь": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "Ъ": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "Ы": {
+            "measured_on_saved_CFF_UPM": 180,
+            "target_UPM": 180,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 179.99996899813414,
+            "probe_error_UPM": 3.100186586380005e-05
+          },
+          "R": {
+            "measured_on_saved_CFF_UPM": 160,
+            "target_UPM": 160,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 159.9999544620514,
+            "probe_error_UPM": 4.553794860839844e-05
+          },
+          "Я": {
+            "measured_on_saved_CFF_UPM": 160,
+            "target_UPM": 160,
+            "absolute_error_UPM": 0,
+            "independent_point_in_path_probe_UPM": 159.99993900209665,
+            "probe_error_UPM": 6.099790334701538e-05
+          }
+        },
+        "K_advance": 1032,
+        "Zh_advance": 1454,
+        "K_ink_change_pct": -5.464358713615458,
+        "Zh_ink_change_pct": -9.328676162263738,
+        "refined_left_YERY_STEM": true,
+        "right_YERY_STEM_unchanged": true
+      }
+    }
+  },
+  "limitations": [
+    "X/Х center optical mass inherited from v0.105",
+    "W α HOLD inherited",
+    "small gap legibility unproven",
+    "new Direct advances require fresh optical kerning/reflow",
+    "production release/rights not approved"
+  ]
+}

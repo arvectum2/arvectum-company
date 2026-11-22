@@ -1,0 +1,77 @@
+{
+  "angles": {
+    "alpha": 69.0948425521107,
+    "beta": 58.282525588538995
+  },
+  "classification": "alpha core, beta N/И/Y K/К X/Х; Ж beta only in Direct; unassigned elsewhere",
+  "tolerance_deg": 0.5,
+  "major_length_UPM": 250,
+  "rows": 23728,
+  "status": "SCOPED ASSIGNMENTS PASS, full glyph/artistic approval OPEN",
+  "styles": {
+    "Display-Fork": {
+      "unassigned": {
+        "segments": 5872,
+        "major": 4614
+      },
+      "alpha": {
+        "segments": 36,
+        "major": 32,
+        "pass": 32
+      },
+      "beta": {
+        "segments": 32,
+        "major": 32,
+        "pass": 32
+      }
+    },
+    "Display-Direct": {
+      "unassigned": {
+        "segments": 5864,
+        "major": 4606
+      },
+      "alpha": {
+        "segments": 36,
+        "major": 32,
+        "pass": 32
+      },
+      "beta": {
+        "segments": 40,
+        "major": 40,
+        "pass": 40
+      }
+    },
+    "Text-Fork": {
+      "unassigned": {
+        "segments": 5860,
+        "major": 4665
+      },
+      "alpha": {
+        "segments": 32,
+        "major": 32,
+        "pass": 32
+      },
+      "beta": {
+        "segments": 32,
+        "major": 32,
+        "pass": 32
+      }
+    },
+    "Text-Direct": {
+      "unassigned": {
+        "segments": 5852,
+        "major": 4657
+      },
+      "alpha": {
+        "segments": 32,
+        "major": 32,
+        "pass": 32
+      },
+      "beta": {
+        "segments": 40,
+        "major": 40,
+        "pass": 40
+      }
+    }
+  }
+}

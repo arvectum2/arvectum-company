@@ -1,0 +1,506 @@
+{
+  "version": "0.107",
+  "status": "TWO independent working variants, neither owner-optically accepted",
+  "angles": {
+    "alpha": 69.0948425521107,
+    "beta": 58.282525588538995
+  },
+  "gap_rule": "gap length equals LOCAL stroke thickness. P/Р and Ь/Ъ/Ы vertical-height gap; Я/R lower horizontal-bar-width gap.",
+  "critical_user_correction": "Ы: cut the LEFT vertical of the ь-shaped bowl, exactly as Ь; NEVER cut separate right vertical.",
+  "variants": {
+    "Fork": "existing K/К and Ж horizontal stubs",
+    "Direct": "compact K/К and bilateral Ж direct branches, no horizontal stubs"
+  },
+  "faces": {
+    "Display": {
+      "Fork": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+        "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+        "output": "experimental/ArvectumGoldenStepDisplayForkDraft0107-Medium.otf",
+        "output_sha256": "94f9a3bfdf8f95bddc2170ca7dda3818e5f8ce2bc8dfc1ad343235693c7261f0",
+        "gap_geometry": {
+          "P": {
+            "glyph": "P",
+            "rect": [
+              134,
+              1059,
+              360,
+              1281
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "upper bowl / vertical stem"
+          },
+          "Р": {
+            "glyph": "uni0420",
+            "rect": [
+              134,
+              1059,
+              360,
+              1281
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "upper bowl / vertical stem"
+          },
+          "Ь": {
+            "glyph": "uni042C",
+            "rect": [
+              134,
+              261,
+              360,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ъ": {
+            "glyph": "uni042A",
+            "rect": [
+              470,
+              261,
+              696,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ы": {
+            "glyph": "uni042B",
+            "rect": [
+              134,
+              261,
+              360,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / LEFT stem"
+          },
+          "R": {
+            "glyph": "R",
+            "rect": [
+              434,
+              562,
+              623,
+              755
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 189,
+            "bar_stroke_UPM": 189,
+            "target": "lower bowl bar close to vertical stem"
+          },
+          "Я": {
+            "glyph": "uni042F",
+            "rect": [
+              684,
+              562,
+              873,
+              755
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 189,
+            "bar_stroke_UPM": 189,
+            "target": "lower bowl bar close to vertical stem"
+          }
+        },
+        "alternative_geometry": {},
+        "expected_changed": [
+          "P",
+          "Р",
+          "Ь",
+          "Ъ",
+          "Ы",
+          "R",
+          "Я"
+        ]
+      },
+      "Direct": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+        "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+        "output": "experimental/ArvectumGoldenStepDisplayDirectDraft0107-Medium.otf",
+        "output_sha256": "ec49638392e21e0dee5ea00729abd2b10fe224b5f98f21cf76f5dd9ccf78c361",
+        "gap_geometry": {
+          "P": {
+            "glyph": "P",
+            "rect": [
+              134,
+              1059,
+              360,
+              1281
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "upper bowl / vertical stem"
+          },
+          "Р": {
+            "glyph": "uni0420",
+            "rect": [
+              134,
+              1059,
+              360,
+              1281
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "upper bowl / vertical stem"
+          },
+          "Ь": {
+            "glyph": "uni042C",
+            "rect": [
+              134,
+              261,
+              360,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ъ": {
+            "glyph": "uni042A",
+            "rect": [
+              470,
+              261,
+              696,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ы": {
+            "glyph": "uni042B",
+            "rect": [
+              134,
+              261,
+              360,
+              483
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 222,
+            "stem_stroke_UPM": 222,
+            "target": "lower bowl / LEFT stem"
+          },
+          "R": {
+            "glyph": "R",
+            "rect": [
+              434,
+              562,
+              623,
+              755
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 189,
+            "bar_stroke_UPM": 189,
+            "target": "lower bowl bar close to vertical stem"
+          },
+          "Я": {
+            "glyph": "uni042F",
+            "rect": [
+              684,
+              562,
+              873,
+              755
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 189,
+            "bar_stroke_UPM": 189,
+            "target": "lower bowl bar close to vertical stem"
+          }
+        },
+        "alternative_geometry": {
+          "K_and_K": {
+            "stem_inner_x": 358,
+            "lower_fork_y": 710,
+            "upper_fork_y": 909,
+            "new_outer_foot_x": 1072.5467777986732,
+            "new_cap_outer_x": 981.0777474636889,
+            "old_advance": 1334,
+            "new_advance": 1093.5467777986732,
+            "new_contour_points": 11,
+            "cap_band_thickness": 264.0
+          },
+          "Zh": {
+            "outer_base_right": 1539.8869044748549,
+            "stem_width": 222,
+            "old_advance": 1938,
+            "new_advance": 1560.8869044748549,
+            "fork_upper_y": 836,
+            "fork_lower_y": 646,
+            "mirror_axis_x": 780.4434522374274,
+            "new_outline_points": 18
+          }
+        },
+        "expected_changed": [
+          "P",
+          "Р",
+          "Ь",
+          "Ъ",
+          "Ы",
+          "R",
+          "Я",
+          "K",
+          "К",
+          "Ж"
+        ]
+      }
+    },
+    "Text": {
+      "Fork": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+        "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+        "output": "experimental/ArvectumGoldenStepTextForkDraft0107-Regular.otf",
+        "output_sha256": "7daed15ec0bc3688565813c2c72f3c66690eea92f48dc81f1e8afa25a4c892fe",
+        "gap_geometry": {
+          "P": {
+            "glyph": "P",
+            "rect": [
+              146,
+              1137,
+              330,
+              1317
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "upper bowl / vertical stem"
+          },
+          "Р": {
+            "glyph": "uni0420",
+            "rect": [
+              146,
+              1137,
+              330,
+              1317
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "upper bowl / vertical stem"
+          },
+          "Ь": {
+            "glyph": "uni042C",
+            "rect": [
+              146,
+              275,
+              330,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ъ": {
+            "glyph": "uni042A",
+            "rect": [
+              480,
+              275,
+              664,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ы": {
+            "glyph": "uni042B",
+            "rect": [
+              146,
+              275,
+              330,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / LEFT stem"
+          },
+          "R": {
+            "glyph": "R",
+            "rect": [
+              398,
+              583,
+              558,
+              747
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 160,
+            "bar_stroke_UPM": 160,
+            "target": "lower bowl bar close to vertical stem"
+          },
+          "Я": {
+            "glyph": "uni042F",
+            "rect": [
+              737,
+              583,
+              897,
+              747
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 160,
+            "bar_stroke_UPM": 160,
+            "target": "lower bowl bar close to vertical stem"
+          }
+        },
+        "alternative_geometry": {},
+        "expected_changed": [
+          "P",
+          "Р",
+          "Ь",
+          "Ъ",
+          "Ы",
+          "R",
+          "Я"
+        ]
+      },
+      "Direct": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+        "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+        "output": "experimental/ArvectumGoldenStepTextDirectDraft0107-Regular.otf",
+        "output_sha256": "3247981a7a26aede046f17b596257a3a06ed6d662aa11ac5b3b64dbf7e32bdf9",
+        "gap_geometry": {
+          "P": {
+            "glyph": "P",
+            "rect": [
+              146,
+              1137,
+              330,
+              1317
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "upper bowl / vertical stem"
+          },
+          "Р": {
+            "glyph": "uni0420",
+            "rect": [
+              146,
+              1137,
+              330,
+              1317
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "upper bowl / vertical stem"
+          },
+          "Ь": {
+            "glyph": "uni042C",
+            "rect": [
+              146,
+              275,
+              330,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ъ": {
+            "glyph": "uni042A",
+            "rect": [
+              480,
+              275,
+              664,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / vertical stem"
+          },
+          "Ы": {
+            "glyph": "uni042B",
+            "rect": [
+              146,
+              275,
+              330,
+              455
+            ],
+            "gap_axis": "vertical",
+            "gap_UPM": 180,
+            "stem_stroke_UPM": 180,
+            "target": "lower bowl / LEFT stem"
+          },
+          "R": {
+            "glyph": "R",
+            "rect": [
+              398,
+              583,
+              558,
+              747
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 160,
+            "bar_stroke_UPM": 160,
+            "target": "lower bowl bar close to vertical stem"
+          },
+          "Я": {
+            "glyph": "uni042F",
+            "rect": [
+              737,
+              583,
+              897,
+              747
+            ],
+            "gap_axis": "horizontal",
+            "gap_UPM": 160,
+            "bar_stroke_UPM": 160,
+            "target": "lower bowl bar close to vertical stem"
+          }
+        },
+        "alternative_geometry": {
+          "K_and_K": {
+            "stem_inner_x": 328,
+            "lower_fork_y": 726,
+            "upper_fork_y": 892,
+            "new_outer_foot_x": 1007.0533556074215,
+            "new_cap_outer_x": 915.5843252724371,
+            "old_advance": 1299,
+            "new_advance": 1032.0533556074215,
+            "new_contour_points": 11,
+            "cap_band_thickness": 218.0
+          },
+          "Zh": {
+            "outer_base_right": 1429.0115162723532,
+            "stem_width": 180,
+            "old_advance": 1879,
+            "new_advance": 1454.0115162723532,
+            "fork_upper_y": 825,
+            "fork_lower_y": 665,
+            "mirror_axis_x": 727.0057581361766,
+            "new_outline_points": 18
+          }
+        },
+        "expected_changed": [
+          "P",
+          "Р",
+          "Ь",
+          "Ъ",
+          "Ы",
+          "R",
+          "Я",
+          "K",
+          "К",
+          "Ж"
+        ]
+      }
+    }
+  }
+}

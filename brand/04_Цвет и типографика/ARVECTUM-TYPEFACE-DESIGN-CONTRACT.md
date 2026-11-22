@@ -49,6 +49,20 @@ The chosen fork has an intentional **constructive visual relationship to the Cyr
 
 Use the two owner-adopted base angles for assigned straight strokes (K/К beta remains experimental under the broader family mapping). Keep the v0.102 Display A/А parallel slanted cut and one-leg gap rule, unchanged prior source versions, and owner review/approval boundary.
 
+## Working construction alternatives and one-stroke breaks — owner direction v0.107
+
+Retain **TWO parallel, real-font working variants** for uppercase Ж and Latin/Cyrillic K/К, independently in Display and Text. Both variants inherit the same existing, owner-directed two-angle grammar. **Fork v1** keeps current K/К short horizontal stem connector and existing Ж horizontal connections. **Direct v2** removes the horizontal connectors, making narrower K/К with diagonal arms leaving the stem directly, and a correspondingly compact bilaterally symmetrical Ж. Neither is silently selected as corporate default or owner-optically approved.
+
+Provide a single consistent *open-element* grammar, related to the established Display A/А right gap. The break must be cut out of the **actual CFF stroke**, with its LIGHT CLEARANCE equal to the local thickness of that affected stroke, measured in the **direction of interruption**, and verified on stored OTF geometry. In both optical masters and BOTH Fork/Direct variants:
+
+- **Latin P / Cyrillic Р:** interrupt the **VERTICAL** stem alongside the UPPER part of the bowl; vertical whitespace height equals the horizontal stem thickness.
+- **Ь / Ъ / Ы:** interrupt the **VERTICAL** stem alongside the LOWER part of the bowl; vertical whitespace height equals the horizontal stem thickness. **Critical: Ы uses the LEFT vertical of the ь-shaped component, exactly as Ь; NEVER interrupt the separate RIGHT vertical of Ы.**
+- **Latin R / Cyrillic Я:** interrupt the **HORIZONTAL** lower bowl connector close to the upright, not the upright itself; horizontal whitespace length equals the vertical thickness of this connector.
+
+Retain original Bézier bowl curves, leg supports, legible counters and advances where possible. Direct K/К and Ж naturally need new narrower advances and therefore fresh real-word kerning/line-wrap checks before release. Optical legibility of breaks at Text 12–16 px and actual mobile rendering remains a separate owner acceptance gate; geometric measurement alone is insufficient.
+
+The two base angles stay α=atan(φ²)=69.0948425521° and β=atan(φ)=58.2825255885°. The approved Golden Wordmark, the v0.102 Display A/А left attachment and one-leg normal right opening, historical fonts and company production must NOT be modified by prototype work.
+
 ## Display A/А free crossbar terminal — owner correction v0.102
 
 For Arvectum **Display** Latin A and Cyrillic А, the crossbar is joined to the **LEFT** diagonal leg and remains **OPEN on the RIGHT**. Its free right end has a **DIAGONAL cut PARALLEL to the right leg**, never an unqualified vertical end. The LIGHT GAP from this cut to the right leg MUST equal exactly ONE WIDTH OF THAT RIGHT LEG, both widths measured **perpendicular / normal to the right-leg diagonal** in actual stored CFF font geometry.
