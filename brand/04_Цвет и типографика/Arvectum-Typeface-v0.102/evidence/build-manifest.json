@@ -1,0 +1,76 @@
+{
+  "version": "0.102",
+  "status": "EXPERIMENTAL; owner optical approval OPEN",
+  "design_default_angle_deg": 69.0948425521107,
+  "delta_scope": "Display A/А terminal only; Text A/А CLOSED and untouched",
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepDisplayCompactPhi2Draft0101-Medium.otf",
+      "source_sha256": "f07c5cf5e337df76ac8cb58901b1b4113ec8eb7e225d56d22f0211e8fdd263e2",
+      "output": "experimental/ArvectumGoldenStepDisplaySlantedTerminalDraft0102-Medium.otf",
+      "output_sha256": "7dae7851484791875fd9d2f2d708ec6491a2f2feba55b6d44f9dba3533701c72",
+      "changed": [
+        "A",
+        "А"
+      ],
+      "glyphs": {
+        "A": {
+          "glyph": "A",
+          "advance": 1480,
+          "lsb": 20,
+          "actual_right_leg_angle_deg": 69.09918357519501,
+          "slope_dx_per_dy": -0.3818791946308725,
+          "right_leg_horizontal_width_UPM": 200,
+          "right_leg_normal_width_UPM": 186.83987819181564,
+          "gap_normal_width_UPM": 186.83987819181564,
+          "gap_to_leg_ratio": 1.0,
+          "terminal_top": [
+            738.510067114094,
+            580
+          ],
+          "terminal_bottom": [
+            803.8114093959732,
+            409
+          ],
+          "bar_y": [
+            409,
+            580
+          ],
+          "rule": "right terminal parallel to actual right leg; perpendicular gap exactly one leg thickness"
+        },
+        "А": {
+          "glyph": "uni0410",
+          "advance": 1480,
+          "lsb": 20,
+          "actual_right_leg_angle_deg": 69.09918357519501,
+          "slope_dx_per_dy": -0.3818791946308725,
+          "right_leg_horizontal_width_UPM": 200,
+          "right_leg_normal_width_UPM": 186.83987819181564,
+          "gap_normal_width_UPM": 186.83987819181564,
+          "gap_to_leg_ratio": 1.0,
+          "terminal_top": [
+            738.510067114094,
+            580
+          ],
+          "terminal_bottom": [
+            803.8114093959732,
+            409
+          ],
+          "bar_y": [
+            409,
+            580
+          ],
+          "rule": "right terminal parallel to actual right leg; perpendicular gap exactly one leg thickness"
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepTextCompactPhi2Draft0101-Regular.otf",
+      "source_sha256": "27dfadb4b5f68ee50c02fd1754ad51d00aed9712e9f8f16d08b655e032118efc",
+      "output": "experimental/ArvectumGoldenStepTextSlantedTerminalDraft0102-Regular.otf",
+      "output_sha256": "0925187ee22e6ca1253bfae24b73a54bc6c7d4fded56ceb0f315e0c963062f17",
+      "changed": [],
+      "glyphs": {}
+    }
+  }
+}

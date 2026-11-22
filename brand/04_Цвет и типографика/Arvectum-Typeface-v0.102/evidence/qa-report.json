@@ -1,0 +1,91 @@
+{
+  "status": "PASS mechanical; final owner optical acceptance OPEN",
+  "angle_target_deg": 69.0948425521107,
+  "styles": {
+    "Display": {
+      "modified_glyphs": [
+        "A",
+        "uni0410"
+      ],
+      "unchanged_glyphs": 2935,
+      "metrics_unchanged": true,
+      "cmap_layout_unchanged": true,
+      "geometry": {
+        "normal_right_leg_UPM": 186.83987819181564,
+        "normal_gap_at_bar_bottom_UPM": 186.83987143755093,
+        "normal_gap_at_bar_top_UPM": 186.83987474771467,
+        "ratio_bottom": 0.9999999638499832,
+        "ratio_top": 0.9999999815665638,
+        "terminal_angle_deg": 69.09918253906183,
+        "right_leg_angle_deg": 69.09918357519501,
+        "max_normal_distance_error_UPM": 6.754264717301339e-06,
+        "preserved_bbox": true,
+        "preserved_advance": 1480
+      },
+      "raster_pixels_changed": {
+        "A": {
+          "12": 2,
+          "14": 2,
+          "16": 8,
+          "18": 11,
+          "24": 13,
+          "32": 15,
+          "48": 28,
+          "96": 72,
+          "160": 175
+        },
+        "А": {
+          "12": 2,
+          "14": 2,
+          "16": 8,
+          "18": 11,
+          "24": 13,
+          "32": 15,
+          "48": 28,
+          "96": 72,
+          "160": 175
+        }
+      }
+    },
+    "Text": {
+      "modified_glyphs": [],
+      "unchanged_glyphs": 2937,
+      "metrics_unchanged": true,
+      "cmap_layout_unchanged": true,
+      "geometry": {
+        "Text_A_contours_exactly_preserved": true,
+        "closed_bar": true
+      },
+      "raster_pixels_changed": {
+        "A": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0,
+          "160": 0
+        },
+        "А": {
+          "12": 0,
+          "14": 0,
+          "16": 0,
+          "18": 0,
+          "24": 0,
+          "32": 0,
+          "48": 0,
+          "96": 0,
+          "160": 0
+        }
+      }
+    }
+  },
+  "open": [
+    "owner optical approval",
+    "font optical kerning globally",
+    "full other glyph families",
+    "Windows/PDFX/legal"
+  ]
+}

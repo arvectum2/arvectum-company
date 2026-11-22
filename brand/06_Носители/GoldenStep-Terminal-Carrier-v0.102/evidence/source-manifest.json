@@ -1,0 +1,41 @@
+{
+  "status": "local synthetic carriers only, no production change",
+  "fonts": {
+    "old0101-display": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepDisplayCompactPhi2Draft0101-Medium.otf",
+      "source_sha256": "f07c5cf5e337df76ac8cb58901b1b4113ec8eb7e225d56d22f0211e8fdd263e2",
+      "woff2_sha256": "998bddb2ad67f7d6e3d69b16df7a85d83d02619d1a05a68d4a55caca313ad64a"
+    },
+    "old0101-text": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.101/experimental/ArvectumGoldenStepTextCompactPhi2Draft0101-Regular.otf",
+      "source_sha256": "27dfadb4b5f68ee50c02fd1754ad51d00aed9712e9f8f16d08b655e032118efc",
+      "woff2_sha256": "64a63b9a2ce29aade4174a591f9863046d923837187c213f572e1b02934778b5"
+    },
+    "new0102-display": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepDisplaySlantedTerminalDraft0102-Medium.otf",
+      "source_sha256": "7dae7851484791875fd9d2f2d708ec6491a2f2feba55b6d44f9dba3533701c72",
+      "woff2_sha256": "e23ff94bd27aab6ea44dd21e34963bacac4a115da023f70d870ff356ecc9f791"
+    },
+    "new0102-text": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.102/experimental/ArvectumGoldenStepTextSlantedTerminalDraft0102-Regular.otf",
+      "source_sha256": "0925187ee22e6ca1253bfae24b73a54bc6c7d4fded56ceb0f315e0c963062f17",
+      "woff2_sha256": "c00305f2045940f156835ae0a5b9118379df3acaf4aa599c1f920a018271e94e"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Compact-Carrier-v0.101/cases/letter/new0101.html",
+      "sha256": "6f3b7a1d85956837399cadb3de564d1ea0cae793a316a2005099894c9bd050e4"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Compact-Carrier-v0.101/cases/proposal/new0101.html",
+      "sha256": "7f2548012add990837e99cb2664c805ee6e544678f114d5ee9d61c8a795c8d83"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Compact-Carrier-v0.101/cases/mobile/new0101.html",
+      "sha256": "d8b1c11afec09b7c44836d8b83e8d3e052c79d08329eb13ff4941e240e0c77fe"
+    }
+  },
+  "css_sha256": "3baaa50debfca78bd011bf3a92b6ed66bf0adac200168edc9dd93a7a20e592bc",
+  "approved_lockup_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4"
+}

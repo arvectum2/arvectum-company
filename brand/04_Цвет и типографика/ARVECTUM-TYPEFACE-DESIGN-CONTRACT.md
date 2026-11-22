@@ -30,6 +30,14 @@ Record full-font diagonal audit across all 2937 glyphs per style: major straight
 
 Changes to advance widths affect optical kerning, reflow, counter readability and real carrier layout even when OpenType GPOS/GSUB remain byte-identical. Verify source provenance, raster proofs and controlled carrier A/B. The approved Wordmark master stays untouched. The two font optical masters remain distinct, independently tuned, and Inter remains a licensed construction source, not final Text.
 
+## Display A/А free crossbar terminal — owner correction v0.102
+
+For Arvectum **Display** Latin A and Cyrillic А, the crossbar is joined to the **LEFT** diagonal leg and remains **OPEN on the RIGHT**. Its free right end has a **DIAGONAL cut PARALLEL to the right leg**, never an unqualified vertical end. The LIGHT GAP from this cut to the right leg MUST equal exactly ONE WIDTH OF THAT RIGHT LEG, both widths measured **perpendicular / normal to the right-leg diagonal** in actual stored CFF font geometry.
+
+Construction method: if outer and inner right-leg straight rails have the common slope m=dx/dy and a horizontal separation t, the terminal must lie on a third parallel rail with the same t of horizontal separation from the inner rail. Both perpendicular distances then equal t/sqrt(1+m²). Re-verify equality on the reloaded OTF, not just draft coordinates, with fractional charstring coordinates preserved. Equality is a geometric requirement; tiny file-encoding tolerance must be explicitly measured and documented.
+
+For Arvectum **Text**, A/А crossbars remain CLOSED. There is no free right terminal and no gap to which this equality applies: do NOT reopen the Text glyph solely to satisfy Display's terminal rule. Keep the current straight diagonal default atan(φ²) and approved Wordmark master unchanged. This is owner-directed glyph geometry, not automatic brand release approval.
+
 ## Glyph-by-glyph development process
 
 Inter source → glyph family/anatomy → designed Arvectum geometry → φ metric plus justified exceptions → outline and spacing validation → Russian and English word examples → reader/optical evidence → authorized owner decision → durable master.
