@@ -1,0 +1,373 @@
+{
+  "version": "0.105",
+  "status": "Experimental, owner optical approval OPEN",
+  "angle_alpha_deg": 69.0948425521107,
+  "angle_beta_deg": 58.282525588538995,
+  "changed_glyphs": [
+    "K",
+    "К",
+    "X",
+    "Х"
+  ],
+  "W_status": "HOLD: alpha would distort current width; separate model study",
+  "styles": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepDisplayAlphaHarmonizedDraft0104-Medium.otf",
+      "source_sha256": "e646a8c7672594319c18bb1e2e214696fd82748c51612002b79e3d21c15d076c",
+      "output": "experimental/ArvectumGoldenStepDisplayBetaCrossDraft0105-Medium.otf",
+      "output_sha256": "f28749c3ecb0534d18d474e2b0a71f92547dc87f94df0df942caa45116f272ee",
+      "glyphs": {
+        "K": {
+          "name": "K",
+          "advance": 1334,
+          "lsb": 136,
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "upper_band_width": 281,
+          "fork_delta": 39.24154608009428,
+          "cap_outer_delta": -181.64626460246814,
+          "latin_k_unique_anatomy": true
+        },
+        "К": {
+          "name": "Kacyr",
+          "advance": 1334,
+          "lsb": 136,
+          "edges": [
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "cyrillic_horizontal_fork_maintained": true,
+          "cap_outer_delta": -67.46903033498438,
+          "fork_delta": 74.83016321383616
+        },
+        "X": {
+          "name": "X",
+          "advance": 1357,
+          "lsb": 21,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              0
+            ]
+          ],
+          "linked_latin_cyrillic": true,
+          "crossing_center_shift": {
+            "left": [
+              -55.06467838132835,
+              12.933628791873048
+            ],
+            "right": [
+              51.06467838132835,
+              1.6975608143732188
+            ]
+          },
+          "inner_connection_delta": [
+            -26.88973006128799,
+            22.88973006128799,
+            20.207837363781437,
+            -16.207837363781437
+          ],
+          "original_four_outer_extrema_kept": true
+        },
+        "Х": {
+          "name": "uni0425",
+          "advance": 1357,
+          "lsb": 21,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              0
+            ]
+          ],
+          "linked_latin_cyrillic": true,
+          "crossing_center_shift": {
+            "left": [
+              -55.06467838132835,
+              12.933628791873048
+            ],
+            "right": [
+              51.06467838132835,
+              1.6975608143732188
+            ]
+          },
+          "inner_connection_delta": [
+            -26.88973006128799,
+            22.88973006128799,
+            20.207837363781437,
+            -16.207837363781437
+          ],
+          "original_four_outer_extrema_kept": true
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepTextAlphaHarmonizedDraft0104-Regular.otf",
+      "source_sha256": "cb41314219b4e74b47a90062faea5ffafbc444bbe46316da8e48fa2d68bbce45",
+      "output": "experimental/ArvectumGoldenStepTextBetaCrossDraft0105-Regular.otf",
+      "output_sha256": "f8d1a80512903631f1ac5e2fd736c681553e4ef1c356ac4efbe8fd4982f2c748",
+      "glyphs": {
+        "K": {
+          "name": "K",
+          "advance": 1299,
+          "lsb": 148,
+          "edges": [
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "upper_band_width": 238,
+          "fork_delta": 51.24154608009428,
+          "cap_outer_delta": -186.64626460246814,
+          "latin_k_unique_anatomy": true
+        },
+        "К": {
+          "name": "Kacyr",
+          "advance": 1299,
+          "lsb": 148,
+          "edges": [
+            [
+              3,
+              4
+            ],
+            [
+              5,
+              6
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              8,
+              9
+            ]
+          ],
+          "cyrillic_horizontal_fork_maintained": true,
+          "cap_outer_delta": -67.46903033498438,
+          "fork_delta": 74.83016321383616
+        },
+        "X": {
+          "name": "X",
+          "advance": 1322,
+          "lsb": 25,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              0
+            ]
+          ],
+          "linked_latin_cyrillic": true,
+          "crossing_center_shift": {
+            "left": [
+              -57.56467838132835,
+              7.88854381999829
+            ],
+            "right": [
+              55.06467838132835,
+              -2.1565411518764677
+            ]
+          },
+          "inner_connection_delta": [
+            -29.674948320040357,
+            27.674948320040357,
+            24.993055622533802,
+            -20.99305562253386
+          ],
+          "original_four_outer_extrema_kept": true
+        },
+        "Х": {
+          "name": "uni0425",
+          "advance": 1322,
+          "lsb": 25,
+          "edges": [
+            [
+              1,
+              2
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              6,
+              7
+            ],
+            [
+              7,
+              8
+            ],
+            [
+              9,
+              10
+            ],
+            [
+              12,
+              13
+            ],
+            [
+              14,
+              15
+            ],
+            [
+              15,
+              0
+            ]
+          ],
+          "linked_latin_cyrillic": true,
+          "crossing_center_shift": {
+            "left": [
+              -57.56467838132835,
+              7.88854381999829
+            ],
+            "right": [
+              55.06467838132835,
+              -2.1565411518764677
+            ]
+          },
+          "inner_connection_delta": [
+            -29.674948320040357,
+            27.674948320040357,
+            24.993055622533802,
+            -20.99305562253386
+          ],
+          "original_four_outer_extrema_kept": true
+        }
+      }
+    }
+  }
+}

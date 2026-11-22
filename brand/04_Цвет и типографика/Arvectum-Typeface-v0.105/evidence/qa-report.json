@@ -1,0 +1,104 @@
+{
+  "version": "0.105",
+  "status": "experimental mechanics PASS; owner optical approval OPEN",
+  "angle_alpha": 69.0948425521107,
+  "angle_beta": 58.282525588538995,
+  "W_status": "UNCHANGED/HOLD due metric conflict",
+  "limitations": [
+    "X/Х center ink area increase 7-9%, needs optical assessment",
+    "K vs К differing anatomy; separate artistic approval",
+    "W α would compromise widths/counters, unbuilt",
+    "K/X family angle mapping proposed, not adopted owner decision",
+    "other inherited scripts/kerning/legal/open"
+  ],
+  "styles": {
+    "Display": {
+      "changed_glyphs": [
+        "K",
+        "Kacyr",
+        "X",
+        "uni0425"
+      ],
+      "unchanged_2937": 2933,
+      "metrics_and_layout_unchanged": true,
+      "provisional_beta_glyphs": {
+        "K": {
+          "glyph_name": "K",
+          "max_beta_angle_error_deg": 6.272047343713893e-07,
+          "target_segments": 5,
+          "area_change_pct": 2.36384,
+          "bounds_preserved": true,
+          "advance": 1334
+        },
+        "К": {
+          "glyph_name": "Kacyr",
+          "max_beta_angle_error_deg": 3.603581149036472e-07,
+          "target_segments": 4,
+          "area_change_pct": 2.2037,
+          "bounds_preserved": true,
+          "advance": 1334
+        },
+        "X": {
+          "glyph_name": "X",
+          "max_beta_angle_error_deg": 3.2210628759798965e-06,
+          "target_segments": 8,
+          "area_change_pct": 7.44257,
+          "bounds_preserved": true,
+          "advance": 1357
+        },
+        "Х": {
+          "glyph_name": "uni0425",
+          "max_beta_angle_error_deg": 3.2210628759798965e-06,
+          "target_segments": 8,
+          "area_change_pct": 7.44257,
+          "bounds_preserved": true,
+          "advance": 1357
+        }
+      }
+    },
+    "Text": {
+      "changed_glyphs": [
+        "K",
+        "Kacyr",
+        "X",
+        "uni0425"
+      ],
+      "unchanged_2937": 2933,
+      "metrics_and_layout_unchanged": true,
+      "provisional_beta_glyphs": {
+        "K": {
+          "glyph_name": "K",
+          "max_beta_angle_error_deg": 4.6765958927608153e-07,
+          "target_segments": 5,
+          "area_change_pct": 2.76464,
+          "bounds_preserved": true,
+          "advance": 1299
+        },
+        "К": {
+          "glyph_name": "Kacyr",
+          "max_beta_angle_error_deg": 3.6080110277225685e-07,
+          "target_segments": 4,
+          "area_change_pct": 2.15165,
+          "bounds_preserved": true,
+          "advance": 1299
+        },
+        "X": {
+          "glyph_name": "X",
+          "max_beta_angle_error_deg": 2.0680161938457786e-06,
+          "target_segments": 8,
+          "area_change_pct": 8.58469,
+          "bounds_preserved": true,
+          "advance": 1322
+        },
+        "Х": {
+          "glyph_name": "uni0425",
+          "max_beta_angle_error_deg": 2.0680161938457786e-06,
+          "target_segments": 8,
+          "area_change_pct": 8.58469,
+          "bounds_preserved": true,
+          "advance": 1322
+        }
+      }
+    }
+  }
+}

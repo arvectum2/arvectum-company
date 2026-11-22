@@ -1,0 +1,41 @@
+{
+  "status": "synthetic source-controlled fixtures; production unchanged",
+  "fonts": {
+    "old0104-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepDisplayAlphaHarmonizedDraft0104-Medium.otf",
+      "source_sha256": "e646a8c7672594319c18bb1e2e214696fd82748c51612002b79e3d21c15d076c",
+      "woff2_sha256": "c91a4ae258cbb2b3a420cd9bd23036cd71834d1a2a09a5ee54b5c03c187d0b59"
+    },
+    "old0104-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.104/experimental/ArvectumGoldenStepTextAlphaHarmonizedDraft0104-Regular.otf",
+      "source_sha256": "cb41314219b4e74b47a90062faea5ffafbc444bbe46316da8e48fa2d68bbce45",
+      "woff2_sha256": "f858f21ee63fa68c377979117aa6f4fb61757523a330c227da7dd5a406c8598e"
+    },
+    "new0105-display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepDisplayBetaCrossDraft0105-Medium.otf",
+      "source_sha256": "f28749c3ecb0534d18d474e2b0a71f92547dc87f94df0df942caa45116f272ee",
+      "woff2_sha256": "7a27b205eb7e03fb727cb76059202a6bc6a4f0ec3651bf19f3305ec3c7660e12"
+    },
+    "new0105-text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.105/experimental/ArvectumGoldenStepTextBetaCrossDraft0105-Regular.otf",
+      "source_sha256": "f8d1a80512903631f1ac5e2fd736c681553e4ef1c356ac4efbe8fd4982f2c748",
+      "woff2_sha256": "1c430786b61629553969b5fc52423da9e25b5422e8b87730bad5351be4948b5e"
+    }
+  },
+  "cases": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/letter/new0104.html",
+      "source_sha256": "06a2de32a4f38038324f7fed7ea57ef7f4a29d4c4817d9d932768db79f5fe753"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/proposal/new0104.html",
+      "source_sha256": "1e69760e1bc316ff5376bb97273252dd46ae6ab2a81b3ff3a083f42c56775969"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/mobile/new0104.html",
+      "source_sha256": "cd99ac5cb493f44203d56c1c09aadc65b597761b7e907e96105804db40243848"
+    }
+  },
+  "input_stylesheet_sha256": "f9ab85ef4b6f0da3c741f2a79f5eb5213d4a6127cd57ef5ef7c2aa5475cbd104",
+  "approved_logo_copy_sha256": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4"
+}

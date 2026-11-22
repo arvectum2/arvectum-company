@@ -1,0 +1,59 @@
+{
+  "status": "PASS controlled fixture comparison; owner optical acceptance OPEN",
+  "cases": {
+    "letter": {
+      "width": 1160,
+      "height": 1173,
+      "content_length": 650
+    },
+    "proposal": {
+      "width": 1160,
+      "height": 2323,
+      "content_length": 1567
+    },
+    "mobile": {
+      "width": 390,
+      "height": 1831,
+      "content_length": 712
+    }
+  },
+  "image_pixel_differences": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.00169,
+      "changed_pixels": 18
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.02871,
+      "changed_pixels": 306
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.00675,
+      "changed_pixels": 72
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.02815,
+      "changed_pixels": 201
+    }
+  },
+  "fonts_full_parity": true,
+  "limitations": [
+    "production not affected",
+    "real kerning/readability not signed off"
+  ]
+}
