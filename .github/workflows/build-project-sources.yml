@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 concurrency:
   group: build-project-sources
@@ -32,23 +31,22 @@ jobs:
         run: |
           set -euo pipefail
           export GIT_TERMINAL_PROMPT=0
-          if ! git ls-remote --exit-code https://github.com/arvectum/arvectum-os.git refs/heads/main >/dev/null 2>&1; then
-            echo "::error title=Arvectum OS source unavailable::Canonical OS Git main is not accessible. No source pack will be generated or published. Owner approval of cross-repository read and public source scope is required."
+          if ! git ls-remote --exit-code https://github.com/arvectum2/arvectum-os.git refs/heads/main >/dev/null 2>&1; then
+            echo "::error title=Arvectum OS source unavailable::Canonical OS Git main is not accessible. Public OS GitHub transport unavailable. No source pack will be generated or published; canonical GitVerse mirror remains separate."
             exit 2
           fi
 
       - name: Checkout canonical Arvectum OS
         run: |
           set -euo pipefail
-          git clone --depth 1 --branch main https://github.com/arvectum/arvectum-os.git /tmp/arvectum-os
+          git clone --depth 1 --branch main https://github.com/arvectum2/arvectum-os.git /tmp/arvectum-os
 
-      - name: Build Project Source bundles and registry
+      - name: Build only seven noncanonical OS source snapshots
         run: |
           set -euo pipefail
           python3 tools/build_project_sources.py \
             --os-repo /tmp/arvectum-os \
-            --output docs/project-sources \
-            --registry docs/CANONICAL-SOURCES.md
+            --output docs/project-sources
 
       - name: Validate generated set
         run: |
@@ -56,16 +54,21 @@ jobs:
           test -f docs/CANONICAL-SOURCES.md
           test "$(find docs/project-sources -maxdepth 1 -type f -name '*_ARVECTUM_OS_*.md' | wc -l | tr -d ' ')" = "7"
           grep -q 'Convenience Snapshot / Non-Canonical Copy' docs/project-sources/01_ARVECTUM_OS_CONSTITUTION.md
-          grep -q 'Proposed `0.2.1`' docs/CANONICAL-SOURCES.md
+          git diff --exit-code -- docs/CANONICAL-SOURCES.md
 
-      - name: Propose generated sources through a draft PR (never push main)
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Publish candidate source snapshots to a review branch only
         run: |
           set -euo pipefail
-          git add docs/project-sources docs/CANONICAL-SOURCES.md
+          git add -- \
+            docs/project-sources/01_ARVECTUM_OS_CONSTITUTION.md \
+            docs/project-sources/02_ARVECTUM_OS_RFC_0001_ARCHITECTURE.md \
+            docs/project-sources/03_ARVECTUM_OS_RFC_0002_RECORD_AUTHORITY_MODEL.md \
+            docs/project-sources/04_ARVECTUM_OS_RFC_0003_IDENTITY_SECURITY_SOVEREIGNTY.md \
+            docs/project-sources/05_ARVECTUM_OS_RFC_0004_0008_ACCEPTED.md \
+            docs/project-sources/06_ARVECTUM_OS_GOVERNANCE_REFERENCE.md \
+            docs/project-sources/07_ARVECTUM_OS_PRODUCT_CONTRACTS_REFERENCE.md
           if git diff --cached --quiet; then
-            echo "Project Source pack is already current."
+            echo "Project Source snapshots already match public Arvectum OS; no branch published."
             exit 0
           fi
           git config user.name "github-actions[bot]"
@@ -73,11 +76,10 @@ jobs:
           os_sha="$(git -C /tmp/arvectum-os rev-parse HEAD)"
           branch="automation/project-source-review-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
           git switch -c "$branch"
-          git commit -m "docs: propose source pack from Arvectum OS ${os_sha:0:12}"
+          git commit -m "docs: propose noncanonical OS snapshots ${os_sha:0:12}"
           git push origin "HEAD:refs/heads/$branch"
-          gh pr create --base main --head "$branch" --draft \
-            --title "docs: review generated Arvectum OS project sources" \
-            --body "Generated non-canonical convenience snapshot from pinned OS commit $os_sha. Requires independent owner review and the always-running Company main integrity gate before merge. No automation may approve or merge this PR."
+          echo "Candidate branch: $branch" >> "$GITHUB_STEP_SUMMARY"
+          echo "Requires independent owner review and PR. No automatic main or canonical registry update." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Summary
         run: |
@@ -85,5 +87,5 @@ jobs:
           echo "### Arvectum Company Project Source pack" >> "$GITHUB_STEP_SUMMARY"
           echo "- Canonical OS commit: \`$os_sha\`" >> "$GITHUB_STEP_SUMMARY"
           echo "- Generated bundles: \`7\`" >> "$GITHUB_STEP_SUMMARY"
-          echo "- Registry: \`docs/CANONICAL-SOURCES.md\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Company canonical registry: preserved unchanged" >> "$GITHUB_STEP_SUMMARY"
           echo "- Generated files are non-canonical convenience snapshots." >> "$GITHUB_STEP_SUMMARY"
