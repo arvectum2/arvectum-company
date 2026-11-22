@@ -3,9 +3,18 @@
 Updated 2026-11-22. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
 
 ## Working candidate and historical baseline
-- **Current experiment v0.101:** Arvectum Golden Step Display Medium and Text Regular, compact atan(φ²)=69.0948425521° in corrected A/А, Д/Л and д/л; both independent designs. Owner optical acceptance OPEN.
+- **Current experimental font v0.102:** Arvectum Golden Step Display Medium and Text Regular, compact atan(φ²)=69.0948425521° in A/А, Д/Л, д/л, with right-opening Display A/А. The accepted design grammar now has TWO base angles α=atan(φ²) and β=atan(φ); N/И/Y at β are NOT yet implemented or accepted. Both optical masters remain independently designed; glyph acceptance OPEN.
 - **Historical v0.64 baseline (not current):** Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
 - **Historical baseline only:** older v0.64–v0.68 work used the 58.2825° atan φ logo angle for prominent letter studies. This does not supersede the current v0.101 compact font target atan(φ²)=69.0948°. The approved logo still retains its distinct original 58.2825° design.
+
+## Owner-adopted two-angle system — after v0.102
+
+- **α = atan(φ²) = 69.0948425521° from horizontal:** compact two-diagonal skeletons A/А, V, M/М and trapezoidal straight Д/Л/д/л. Preserve the v0.102 Display A/А left anchor, right opening, parallel diagonal terminal and normal clear gap exactly one right-leg thickness.
+- **β = atan(φ) = 58.2825255885° from horizontal:** a single spanning diagonal N/И and upper branches that meet midway Y; evaluate У by its actual anatomy. Both values apply to BOTH independently developed Display and Text.
+- The approved Wordmark C/monogram remain unchanged and have their own β geometry. Earlier atan(2φ)≈72.8279621495° Text W trial is historical, NOT a third approved angle.
+- For K/К, X/Х, W and mixed families assign angles per structural stroke and record optical exceptions. Counting corners is only a heuristic, not permission to force every glyph mechanically.
+- **Design rule accepted, not a new built font:** the currently saved v0.102 N/И/Y outlines have not yet been corrected or measured to β. The historical one-angle α global audit does not certify dual-angle alignment.
+- Next optional experiment: design N/И/Y in both masters at β, test reading, counters, kerning and historical carriers. No v0.102 CFF, approved master logo, production website or customer materials changed in this design-only decision.
 
 ## Evidence completed during this session
 - v0.62: small-size optical audit; high likeness digit 3 / Cyrillic З in some sizes.
