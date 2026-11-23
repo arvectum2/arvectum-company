@@ -1,0 +1,2089 @@
+{
+  "version": "0.113",
+  "purpose": "Golden Step alpha-stroke alignment across uppercase Latin A with accents",
+  "decision": "Only unaccented Display A/А have signature open crossbar. Accent A remains CLOSED.",
+  "scope": "30 precomposed Latin A diacritic source glyphs; 29 direct + 1 custom Aogonek integrated",
+  "status": "candidate, source QA and real visual proof pending",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.112/otf/ArvectumGoldenStepDisplayWHarmonizedWorking0112-Medium.otf",
+      "source_sha256": "6765a8de967fdd7a2d3b4e39528bee6188f5fe7e3f9f5dced900d57ffad16d45",
+      "output": "otf/ArvectumGoldenStepDisplayAFamilyWorking0113-Medium.otf",
+      "output_sha256": "c97fad1edf5a144086dd2af3e1340b2a885ec475be66846ffb644dc4aba4fc37",
+      "A_accent_glyphs": [
+        "Agrave",
+        "Aacute",
+        "Acircumflex",
+        "Atilde",
+        "Adieresis",
+        "Aring",
+        "Amacron",
+        "Abreve",
+        "Aogonek",
+        "uni01CD",
+        "uni01DE",
+        "uni01E0",
+        "Aringacute",
+        "uni0200",
+        "uni0202",
+        "uni0226",
+        "uni1E00",
+        "uni1EA0",
+        "uni1EA2",
+        "uni1EA4",
+        "uni1EA6",
+        "uni1EA8",
+        "uni1EAA",
+        "uni1EAC",
+        "uni1EAE",
+        "uni1EB0",
+        "uni1EB2",
+        "uni1EB4",
+        "uni1EB6",
+        "uni212B"
+      ],
+      "plain_A_glyph_must_remain_original": true,
+      "alpha_reference": "exact saved v0.112 Text A",
+      "accent_shift_x_UPM": 0,
+      "anchor_updates": {
+        "4:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 1362,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "8:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1913
+          }
+        ],
+        "8:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1854
+          }
+        ],
+        "8:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1919
+          }
+        ],
+        "8:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1935
+          }
+        ],
+        "8:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 2211
+          }
+        ],
+        "8:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 2210
+          }
+        ],
+        "8:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 2261
+          }
+        ],
+        "8:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1906
+          }
+        ],
+        "8:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 2198
+          }
+        ],
+        "8:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1927
+          }
+        ],
+        "8:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 692,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ]
+      },
+      "changed": {
+        "Agrave": {
+          "codepoint": "U+00C0",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 5
+        },
+        "Aacute": {
+          "codepoint": "U+00C1",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 5
+        },
+        "Acircumflex": {
+          "codepoint": "U+00C2",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 10
+        },
+        "Atilde": {
+          "codepoint": "U+00C3",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 10
+        },
+        "Adieresis": {
+          "codepoint": "U+00C4",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 12
+        },
+        "Aring": {
+          "codepoint": "U+00C5",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 12
+        },
+        "Amacron": {
+          "codepoint": "U+0100",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 5
+        },
+        "Abreve": {
+          "codepoint": "U+0102",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 21,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 8
+        },
+        "Aogonek": {
+          "codepoint": "U+0104",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "old_start": 1121,
+          "old_end": 1362,
+          "new_start": 1160,
+          "new_end": 1360,
+          "ogonek_x_scale": 0.8298755186721992
+        },
+        "uni01CD": {
+          "codepoint": "U+01CD",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 10
+        },
+        "uni01DE": {
+          "codepoint": "U+01DE",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 17
+        },
+        "uni01E0": {
+          "codepoint": "U+01E0",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 24,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 11
+        },
+        "Aringacute": {
+          "codepoint": "U+01FA",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 17
+        },
+        "uni0200": {
+          "codepoint": "U+0200",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 10
+        },
+        "uni0202": {
+          "codepoint": "U+0202",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 21,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 8
+        },
+        "uni0226": {
+          "codepoint": "U+0226",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 6
+        },
+        "uni1E00": {
+          "codepoint": "U+1E00",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 12
+        },
+        "uni1EA0": {
+          "codepoint": "U+1EA0",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 6
+        },
+        "uni1EA2": {
+          "codepoint": "U+1EA2",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 22,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 9
+        },
+        "uni1EA4": {
+          "codepoint": "U+1EA4",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 28,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 15
+        },
+        "uni1EA6": {
+          "codepoint": "U+1EA6",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 28,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 15
+        },
+        "uni1EA8": {
+          "codepoint": "U+1EA8",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 32,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 19
+        },
+        "uni1EAA": {
+          "codepoint": "U+1EAA",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 33,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 20
+        },
+        "uni1EAC": {
+          "codepoint": "U+1EAC",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 29,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 16
+        },
+        "uni1EAE": {
+          "codepoint": "U+1EAE",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 26,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 13
+        },
+        "uni1EB0": {
+          "codepoint": "U+1EB0",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 26,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 13
+        },
+        "uni1EB2": {
+          "codepoint": "U+1EB2",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 17
+        },
+        "uni1EB4": {
+          "codepoint": "U+1EB4",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 31,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 18
+        },
+        "uni1EB6": {
+          "codepoint": "U+1EB6",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 27,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 14
+        },
+        "uni212B": {
+          "codepoint": "U+212B",
+          "prior_advance": 1379,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 0,
+          "unchanged_accent_command_count": 12
+        }
+      },
+      "kerning_scope": {
+        "source_pair_count": 160,
+        "new_total_pair_count": 760,
+        "new_Aaccent_W_pairs": 600,
+        "W_family_count": 10,
+        "A_accent_count": 30,
+        "optical_delta_upm": -80
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.112/otf/ArvectumGoldenStepTextWHarmonizedWorking0112-Regular.otf",
+      "source_sha256": "d9b08e3609ea1b61c0fb50338707806832058ec2bda05507a7a7e50f1bceb7ca",
+      "output": "otf/ArvectumGoldenStepTextAFamilyWorking0113-Regular.otf",
+      "output_sha256": "7af7301edb3f4d3dd8e58f0159f99fa4644bc6cf5caaab20aee33f08452d31aa",
+      "A_accent_glyphs": [
+        "Agrave",
+        "Aacute",
+        "Acircumflex",
+        "Atilde",
+        "Adieresis",
+        "Aring",
+        "Amacron",
+        "Abreve",
+        "Aogonek",
+        "uni01CD",
+        "uni01DE",
+        "uni01E0",
+        "Aringacute",
+        "uni0200",
+        "uni0202",
+        "uni0226",
+        "uni1E00",
+        "uni1EA0",
+        "uni1EA2",
+        "uni1EA4",
+        "uni1EA6",
+        "uni1EA8",
+        "uni1EAA",
+        "uni1EAC",
+        "uni1EAE",
+        "uni1EB0",
+        "uni1EB2",
+        "uni1EB4",
+        "uni1EB6",
+        "uni212B"
+      ],
+      "plain_A_glyph_must_remain_original": true,
+      "alpha_reference": "exact saved v0.112 Text A",
+      "accent_shift_x_UPM": 21,
+      "anchor_updates": {
+        "4:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "4:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "7:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 1318,
+            "x_to": 690,
+            "y_retained": 0
+          }
+        ],
+        "8:0:A": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Agrave": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Aacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Acircumflex": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Atilde": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1909
+          }
+        ],
+        "8:0:Adieresis": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Aring": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Amacron": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1850
+          }
+        ],
+        "8:0:Abreve": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:Aogonek": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni01CD": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:uni01DE": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni01E0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:Aringacute": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni0200": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:uni0202": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1914
+          }
+        ],
+        "8:0:uni0226": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1928
+          }
+        ],
+        "8:0:uni1E00": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA2": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EA4": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 2199
+          }
+        ],
+        "8:0:uni1EA6": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 2198
+          }
+        ],
+        "8:0:uni1EA8": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EAA": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EAC": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:uni1EAE": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 2260
+          }
+        ],
+        "8:0:uni1EB0": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ],
+        "8:0:uni1EB2": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1898
+          }
+        ],
+        "8:0:uni1EB4": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 2180
+          }
+        ],
+        "8:0:uni1EB6": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1924
+          }
+        ],
+        "8:0:uni212B": [
+          {
+            "mark_idx": 0,
+            "x_from": 672,
+            "x_to": 690,
+            "y_retained": 1490
+          }
+        ]
+      },
+      "changed": {
+        "Agrave": {
+          "codepoint": "U+00C0",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 5
+        },
+        "Aacute": {
+          "codepoint": "U+00C1",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 5
+        },
+        "Acircumflex": {
+          "codepoint": "U+00C2",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 10
+        },
+        "Atilde": {
+          "codepoint": "U+00C3",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 10
+        },
+        "Adieresis": {
+          "codepoint": "U+00C4",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 12
+        },
+        "Aring": {
+          "codepoint": "U+00C5",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 12
+        },
+        "Amacron": {
+          "codepoint": "U+0100",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 18,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 5
+        },
+        "Abreve": {
+          "codepoint": "U+0102",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 21,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 8
+        },
+        "Aogonek": {
+          "codepoint": "U+0104",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "old_start": 1125,
+          "old_end": 1318,
+          "new_start": 1160,
+          "new_end": 1360,
+          "ogonek_x_scale": 1.0362694300518134
+        },
+        "uni01CD": {
+          "codepoint": "U+01CD",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 10
+        },
+        "uni01DE": {
+          "codepoint": "U+01DE",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 17
+        },
+        "uni01E0": {
+          "codepoint": "U+01E0",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 24,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 11
+        },
+        "Aringacute": {
+          "codepoint": "U+01FA",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 17
+        },
+        "uni0200": {
+          "codepoint": "U+0200",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 23,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 10
+        },
+        "uni0202": {
+          "codepoint": "U+0202",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 21,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 8
+        },
+        "uni0226": {
+          "codepoint": "U+0226",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 6
+        },
+        "uni1E00": {
+          "codepoint": "U+1E00",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 12
+        },
+        "uni1EA0": {
+          "codepoint": "U+1EA0",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 19,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 6
+        },
+        "uni1EA2": {
+          "codepoint": "U+1EA2",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 22,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 9
+        },
+        "uni1EA4": {
+          "codepoint": "U+1EA4",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 28,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 15
+        },
+        "uni1EA6": {
+          "codepoint": "U+1EA6",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 28,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 15
+        },
+        "uni1EA8": {
+          "codepoint": "U+1EA8",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 32,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 19
+        },
+        "uni1EAA": {
+          "codepoint": "U+1EAA",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 33,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 20
+        },
+        "uni1EAC": {
+          "codepoint": "U+1EAC",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 29,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 16
+        },
+        "uni1EAE": {
+          "codepoint": "U+1EAE",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 26,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 13
+        },
+        "uni1EB0": {
+          "codepoint": "U+1EB0",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 26,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 13
+        },
+        "uni1EB2": {
+          "codepoint": "U+1EB2",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 30,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 17
+        },
+        "uni1EB4": {
+          "codepoint": "U+1EB4",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 31,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 18
+        },
+        "uni1EB6": {
+          "codepoint": "U+1EB6",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 27,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 14
+        },
+        "uni212B": {
+          "codepoint": "U+212B",
+          "prior_advance": 1338,
+          "new_advance": 1480,
+          "new_contour_commands": 25,
+          "accents_shift_x_UPM": 21,
+          "unchanged_accent_command_count": 12
+        }
+      },
+      "kerning_scope": {
+        "source_pair_count": 160,
+        "new_total_pair_count": 760,
+        "new_Aaccent_W_pairs": 600,
+        "W_family_count": 10,
+        "A_accent_count": 30,
+        "optical_delta_upm": -80
+      }
+    }
+  }
+}

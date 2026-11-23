@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Acircumflex" format="2">
+  <advance width="1480"/>
+  <unicode hex="00C2"/>
+  <note>
+Golden Step v0.113, exact saved CFF contour, owner signature preserved
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="376" y="409" type="line"/>
+      <point x="1004" y="409" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="1360" y="0" type="line"/>
+      <point x="791" y="1490" type="line"/>
+      <point x="589" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="690" y="1230" type="line"/>
+      <point x="938" y="580" type="line"/>
+      <point x="442" y="580" type="line"/>
+    </contour>
+    <contour>
+      <point x="549" y="1650" type="line"/>
+      <point x="693" y="1826" type="line"/>
+      <point x="835" y="1650" type="line"/>
+      <point x="1007" y="1650" type="line"/>
+      <point x="1007" y="1651" type="line"/>
+      <point x="775" y="1924" type="line"/>
+      <point x="609" y="1924" type="line"/>
+      <point x="379" y="1651" type="line"/>
+      <point x="379" y="1650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

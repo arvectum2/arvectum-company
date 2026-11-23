@@ -1,0 +1,1766 @@
+{
+  "scope": "non-mutating inherited accent family survey on saved v0.113 CFF",
+  "alpha": 69.0948425521107,
+  "beta": 58.282525588538995,
+  "caveat": "Major-segment samples and Unicode NFD only; optical reconstruction requires separate anatomy review",
+  "faces": {
+    "Display": {
+      "V": {
+        "family_target_deg": 69.0948425521107,
+        "members": [
+          {
+            "char": "Ṽ",
+            "glyph": "uni1E7C",
+            "advance": 1374,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 70.31695,
+                "length": 1582.5
+              },
+              {
+                "idx": 4,
+                "deg": 71.13641,
+                "length": 887.7
+              },
+              {
+                "idx": 7,
+                "deg": 70.64921,
+                "length": 890.3
+              },
+              {
+                "idx": 9,
+                "deg": 70.04469,
+                "length": 1585.2
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 2.0416
+          },
+          {
+            "char": "Ṿ",
+            "glyph": "uni1E7E",
+            "advance": 1374,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 70.31695,
+                "length": 1582.5
+              },
+              {
+                "idx": 4,
+                "deg": 71.13641,
+                "length": 887.7
+              },
+              {
+                "idx": 7,
+                "deg": 70.64921,
+                "length": 890.3
+              },
+              {
+                "idx": 9,
+                "deg": 70.04469,
+                "length": 1585.2
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 2.0416
+          }
+        ],
+        "n_members": 2,
+        "n_over_1deg": 2,
+        "flagged_glyphs": [
+          "uni1E7C",
+          "uni1E7E"
+        ]
+      },
+      "M": {
+        "family_target_deg": 69.0948425521107,
+        "members": [
+          {
+            "char": "Ḿ",
+            "glyph": "uni1E3E",
+            "advance": 1781,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.67462,
+                "length": 871.7
+              },
+              {
+                "idx": 7,
+                "deg": 68.85854,
+                "length": 870.6
+              },
+              {
+                "idx": 14,
+                "deg": 69.35051,
+                "length": 932.9
+              },
+              {
+                "idx": 17,
+                "deg": 69.06371,
+                "length": 934.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.4202
+          },
+          {
+            "char": "Ṁ",
+            "glyph": "uni1E40",
+            "advance": 1781,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.67462,
+                "length": 871.7
+              },
+              {
+                "idx": 7,
+                "deg": 68.85854,
+                "length": 870.6
+              },
+              {
+                "idx": 14,
+                "deg": 69.35051,
+                "length": 932.9
+              },
+              {
+                "idx": 17,
+                "deg": 69.06371,
+                "length": 934.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.4202
+          },
+          {
+            "char": "Ṃ",
+            "glyph": "uni1E42",
+            "advance": 1781,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.67462,
+                "length": 871.7
+              },
+              {
+                "idx": 7,
+                "deg": 68.85854,
+                "length": 870.6
+              },
+              {
+                "idx": 14,
+                "deg": 69.35051,
+                "length": 932.9
+              },
+              {
+                "idx": 17,
+                "deg": 69.06371,
+                "length": 934.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.4202
+          }
+        ],
+        "n_members": 3,
+        "n_over_1deg": 0,
+        "flagged_glyphs": []
+      },
+      "N": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ñ",
+            "glyph": "Ntilde",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ń",
+            "glyph": "Nacute",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ņ",
+            "glyph": "uni0145",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ň",
+            "glyph": "Ncaron",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ǹ",
+            "glyph": "uni01F8",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ṅ",
+            "glyph": "uni1E44",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ṇ",
+            "glyph": "uni1E46",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ṉ",
+            "glyph": "uni1E48",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          },
+          {
+            "char": "Ṋ",
+            "glyph": "uni1E4A",
+            "advance": 1464,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.69491,
+                "length": 952.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.72675,
+                "length": 1065.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.5876
+          }
+        ],
+        "n_members": 9,
+        "n_over_1deg": 0,
+        "flagged_glyphs": []
+      },
+      "Y": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ý",
+            "glyph": "Yacute",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ŷ",
+            "glyph": "Ycircumflex",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ÿ",
+            "glyph": "Ydieresis",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ȳ",
+            "glyph": "uni0232",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ẏ",
+            "glyph": "uni1E8E",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ỳ",
+            "glyph": "Ygrave",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ỵ",
+            "glyph": "uni1EF4",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ỷ",
+            "glyph": "uni1EF6",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          },
+          {
+            "char": "Ỹ",
+            "glyph": "uni1EF8",
+            "advance": 1348,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 58.61448,
+                "length": 1048.4
+              },
+              {
+                "idx": 5,
+                "deg": 59.21585,
+                "length": 547.1
+              },
+              {
+                "idx": 8,
+                "deg": 58.94669,
+                "length": 548.6
+              },
+              {
+                "idx": 10,
+                "deg": 58.42823,
+                "length": 1050.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.9333
+          }
+        ],
+        "n_members": 9,
+        "n_over_1deg": 0,
+        "flagged_glyphs": []
+      },
+      "X": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ẋ",
+            "glyph": "uni1E8A",
+            "advance": 1357,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 55.29659,
+                "length": 439.1
+              },
+              {
+                "idx": 5,
+                "deg": 55.7279,
+                "length": 436.8
+              },
+              {
+                "idx": 7,
+                "deg": 55.56101,
+                "length": 933.6
+              },
+              {
+                "idx": 8,
+                "deg": 55.49148,
+                "length": 873.7
+              },
+              {
+                "idx": 10,
+                "deg": 55.56473,
+                "length": 362.5
+              },
+              {
+                "idx": 13,
+                "deg": 56.0894,
+                "length": 360.3
+              },
+              {
+                "idx": 15,
+                "deg": 55.67895,
+                "length": 881.5
+              },
+              {
+                "idx": 16,
+                "deg": 54.97771,
+                "length": 930.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 3.3048
+          },
+          {
+            "char": "Ẍ",
+            "glyph": "uni1E8C",
+            "advance": 1357,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 55.29659,
+                "length": 439.1
+              },
+              {
+                "idx": 5,
+                "deg": 55.7279,
+                "length": 436.8
+              },
+              {
+                "idx": 7,
+                "deg": 55.56101,
+                "length": 933.6
+              },
+              {
+                "idx": 8,
+                "deg": 55.49148,
+                "length": 873.7
+              },
+              {
+                "idx": 10,
+                "deg": 55.56473,
+                "length": 362.5
+              },
+              {
+                "idx": 13,
+                "deg": 56.0894,
+                "length": 360.3
+              },
+              {
+                "idx": 15,
+                "deg": 55.67895,
+                "length": 881.5
+              },
+              {
+                "idx": 16,
+                "deg": 54.97771,
+                "length": 930.5
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 3.3048
+          }
+        ],
+        "n_members": 2,
+        "n_over_1deg": 2,
+        "flagged_glyphs": [
+          "uni1E8A",
+          "uni1E8C"
+        ]
+      },
+      "K": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ķ",
+            "glyph": "uni0136",
+            "advance": 1334,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.84947,
+                "length": 312.9
+              },
+              {
+                "idx": 4,
+                "deg": 55.05233,
+                "length": 846.7
+              },
+              {
+                "idx": 6,
+                "deg": 54.93978,
+                "length": 1032.3
+              },
+              {
+                "idx": 7,
+                "deg": 47.64683,
+                "length": 872.8
+              },
+              {
+                "idx": 9,
+                "deg": 47.76297,
+                "length": 630.8
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 10.6357
+          },
+          {
+            "char": "Ǩ",
+            "glyph": "uni01E8",
+            "advance": 1334,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.84947,
+                "length": 312.9
+              },
+              {
+                "idx": 4,
+                "deg": 55.05233,
+                "length": 846.7
+              },
+              {
+                "idx": 6,
+                "deg": 54.93978,
+                "length": 1032.3
+              },
+              {
+                "idx": 7,
+                "deg": 47.64683,
+                "length": 872.8
+              },
+              {
+                "idx": 9,
+                "deg": 47.76297,
+                "length": 630.8
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 10.6357
+          },
+          {
+            "char": "Ḱ",
+            "glyph": "uni1E30",
+            "advance": 1334,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.84947,
+                "length": 312.9
+              },
+              {
+                "idx": 4,
+                "deg": 55.05233,
+                "length": 846.7
+              },
+              {
+                "idx": 6,
+                "deg": 54.93978,
+                "length": 1032.3
+              },
+              {
+                "idx": 7,
+                "deg": 47.64683,
+                "length": 872.8
+              },
+              {
+                "idx": 9,
+                "deg": 47.76297,
+                "length": 630.8
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 10.6357
+          },
+          {
+            "char": "Ḳ",
+            "glyph": "uni1E32",
+            "advance": 1334,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.84947,
+                "length": 312.9
+              },
+              {
+                "idx": 4,
+                "deg": 55.05233,
+                "length": 846.7
+              },
+              {
+                "idx": 6,
+                "deg": 54.93978,
+                "length": 1032.3
+              },
+              {
+                "idx": 7,
+                "deg": 47.64683,
+                "length": 872.8
+              },
+              {
+                "idx": 9,
+                "deg": 47.76297,
+                "length": 630.8
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 10.6357
+          },
+          {
+            "char": "Ḵ",
+            "glyph": "uni1E34",
+            "advance": 1334,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.84947,
+                "length": 312.9
+              },
+              {
+                "idx": 4,
+                "deg": 55.05233,
+                "length": 846.7
+              },
+              {
+                "idx": 6,
+                "deg": 54.93978,
+                "length": 1032.3
+              },
+              {
+                "idx": 7,
+                "deg": 47.64683,
+                "length": 872.8
+              },
+              {
+                "idx": 9,
+                "deg": 47.76297,
+                "length": 630.8
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 10.6357
+          }
+        ],
+        "n_members": 5,
+        "n_over_1deg": 5,
+        "flagged_glyphs": [
+          "uni0136",
+          "uni01E8",
+          "uni1E30",
+          "uni1E32",
+          "uni1E34"
+        ]
+      }
+    },
+    "Text": {
+      "V": {
+        "family_target_deg": 69.0948425521107,
+        "members": [
+          {
+            "char": "Ṽ",
+            "glyph": "uni1E7C",
+            "advance": 1338,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 69.94283,
+                "length": 1586.2
+              },
+              {
+                "idx": 4,
+                "deg": 70.72701,
+                "length": 951.3
+              },
+              {
+                "idx": 7,
+                "deg": 70.27346,
+                "length": 954.0
+              },
+              {
+                "idx": 9,
+                "deg": 69.73951,
+                "length": 1588.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 1.6322
+          },
+          {
+            "char": "Ṿ",
+            "glyph": "uni1E7E",
+            "advance": 1338,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 69.94283,
+                "length": 1586.2
+              },
+              {
+                "idx": 4,
+                "deg": 70.72701,
+                "length": 951.3
+              },
+              {
+                "idx": 7,
+                "deg": 70.27346,
+                "length": 954.0
+              },
+              {
+                "idx": 9,
+                "deg": 69.73951,
+                "length": 1588.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 1.6322
+          }
+        ],
+        "n_members": 2,
+        "n_over_1deg": 2,
+        "flagged_glyphs": [
+          "uni1E7C",
+          "uni1E7E"
+        ]
+      },
+      "M": {
+        "family_target_deg": 69.0948425521107,
+        "members": [
+          {
+            "char": "Ḿ",
+            "glyph": "uni1E3E",
+            "advance": 1756,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.06152,
+                "length": 931.5
+              },
+              {
+                "idx": 7,
+                "deg": 68.17573,
+                "length": 930.7
+              },
+              {
+                "idx": 14,
+                "deg": 68.85879,
+                "length": 1031.4
+              },
+              {
+                "idx": 17,
+                "deg": 68.54858,
+                "length": 1033.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 1.0333
+          },
+          {
+            "char": "Ṁ",
+            "glyph": "uni1E40",
+            "advance": 1756,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.06152,
+                "length": 931.5
+              },
+              {
+                "idx": 7,
+                "deg": 68.17573,
+                "length": 930.7
+              },
+              {
+                "idx": 14,
+                "deg": 68.85879,
+                "length": 1031.4
+              },
+              {
+                "idx": 17,
+                "deg": 68.54858,
+                "length": 1033.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 1.0333
+          },
+          {
+            "char": "Ṃ",
+            "glyph": "uni1E42",
+            "advance": 1756,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 68.06152,
+                "length": 931.5
+              },
+              {
+                "idx": 7,
+                "deg": 68.17573,
+                "length": 930.7
+              },
+              {
+                "idx": 14,
+                "deg": 68.85879,
+                "length": 1031.4
+              },
+              {
+                "idx": 17,
+                "deg": 68.54858,
+                "length": 1033.6
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 1.0333
+          }
+        ],
+        "n_members": 3,
+        "n_over_1deg": 3,
+        "flagged_glyphs": [
+          "uni1E3E",
+          "uni1E40",
+          "uni1E42"
+        ]
+      },
+      "N": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ñ",
+            "glyph": "Ntilde",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ń",
+            "glyph": "Nacute",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ņ",
+            "glyph": "uni0145",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ň",
+            "glyph": "Ncaron",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ǹ",
+            "glyph": "uni01F8",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ṅ",
+            "glyph": "uni1E44",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ṇ",
+            "glyph": "uni1E46",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ṉ",
+            "glyph": "uni1E48",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          },
+          {
+            "char": "Ṋ",
+            "glyph": "uni1E4A",
+            "advance": 1454,
+            "structural_angle_samples": [
+              {
+                "idx": 5,
+                "deg": 57.64939,
+                "length": 1020.4
+              },
+              {
+                "idx": 12,
+                "deg": 57.66661,
+                "length": 1148.0
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.6331
+          }
+        ],
+        "n_members": 9,
+        "n_over_1deg": 0,
+        "flagged_glyphs": []
+      },
+      "Y": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ý",
+            "glyph": "Yacute",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ŷ",
+            "glyph": "Ycircumflex",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ÿ",
+            "glyph": "Ydieresis",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ȳ",
+            "glyph": "uni0232",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ẏ",
+            "glyph": "uni1E8E",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ỳ",
+            "glyph": "Ygrave",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ỵ",
+            "glyph": "uni1EF4",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ỷ",
+            "glyph": "uni1EF6",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          },
+          {
+            "char": "Ỹ",
+            "glyph": "uni1EF8",
+            "advance": 1316,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 57.97111,
+                "length": 1033.3
+              },
+              {
+                "idx": 5,
+                "deg": 58.27327,
+                "length": 566.7
+              },
+              {
+                "idx": 8,
+                "deg": 58.18735,
+                "length": 567.2
+              },
+              {
+                "idx": 10,
+                "deg": 57.97111,
+                "length": 1033.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 0.3114
+          }
+        ],
+        "n_members": 9,
+        "n_over_1deg": 0,
+        "flagged_glyphs": []
+      },
+      "X": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ẋ",
+            "glyph": "uni1E8A",
+            "advance": 1322,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 55.18863,
+                "length": 467.7
+              },
+              {
+                "idx": 5,
+                "deg": 55.39028,
+                "length": 466.6
+              },
+              {
+                "idx": 7,
+                "deg": 55.47567,
+                "length": 933.4
+              },
+              {
+                "idx": 8,
+                "deg": 55.15223,
+                "length": 878.5
+              },
+              {
+                "idx": 10,
+                "deg": 55.17551,
+                "length": 392.2
+              },
+              {
+                "idx": 13,
+                "deg": 55.65795,
+                "length": 390.0
+              },
+              {
+                "idx": 15,
+                "deg": 55.37457,
+                "length": 883.5
+              },
+              {
+                "idx": 16,
+                "deg": 55.01302,
+                "length": 931.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 3.2695
+          },
+          {
+            "char": "Ẍ",
+            "glyph": "uni1E8C",
+            "advance": 1322,
+            "structural_angle_samples": [
+              {
+                "idx": 2,
+                "deg": 55.18863,
+                "length": 467.7
+              },
+              {
+                "idx": 5,
+                "deg": 55.39028,
+                "length": 466.6
+              },
+              {
+                "idx": 7,
+                "deg": 55.47567,
+                "length": 933.4
+              },
+              {
+                "idx": 8,
+                "deg": 55.15223,
+                "length": 878.5
+              },
+              {
+                "idx": 10,
+                "deg": 55.17551,
+                "length": 392.2
+              },
+              {
+                "idx": 13,
+                "deg": 55.65795,
+                "length": 390.0
+              },
+              {
+                "idx": 15,
+                "deg": 55.37457,
+                "length": 883.5
+              },
+              {
+                "idx": 16,
+                "deg": 55.01302,
+                "length": 931.3
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 3.2695
+          }
+        ],
+        "n_members": 2,
+        "n_over_1deg": 2,
+        "flagged_glyphs": [
+          "uni1E8A",
+          "uni1E8C"
+        ]
+      },
+      "K": {
+        "family_target_deg": 58.282525588538995,
+        "members": [
+          {
+            "char": "Ķ",
+            "glyph": "uni0136",
+            "advance": 1299,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.15869,
+                "length": 319.1
+              },
+              {
+                "idx": 4,
+                "deg": 54.44731,
+                "length": 887.4
+              },
+              {
+                "idx": 6,
+                "deg": 54.39823,
+                "length": 1039.3
+              },
+              {
+                "idx": 7,
+                "deg": 46.83284,
+                "length": 884.3
+              },
+              {
+                "idx": 9,
+                "deg": 47.07591,
+                "length": 663.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 11.4497
+          },
+          {
+            "char": "Ǩ",
+            "glyph": "uni01E8",
+            "advance": 1299,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.15869,
+                "length": 319.1
+              },
+              {
+                "idx": 4,
+                "deg": 54.44731,
+                "length": 887.4
+              },
+              {
+                "idx": 6,
+                "deg": 54.39823,
+                "length": 1039.3
+              },
+              {
+                "idx": 7,
+                "deg": 46.83284,
+                "length": 884.3
+              },
+              {
+                "idx": 9,
+                "deg": 47.07591,
+                "length": 663.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 11.4497
+          },
+          {
+            "char": "Ḱ",
+            "glyph": "uni1E30",
+            "advance": 1299,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.15869,
+                "length": 319.1
+              },
+              {
+                "idx": 4,
+                "deg": 54.44731,
+                "length": 887.4
+              },
+              {
+                "idx": 6,
+                "deg": 54.39823,
+                "length": 1039.3
+              },
+              {
+                "idx": 7,
+                "deg": 46.83284,
+                "length": 884.3
+              },
+              {
+                "idx": 9,
+                "deg": 47.07591,
+                "length": 663.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 11.4497
+          },
+          {
+            "char": "Ḳ",
+            "glyph": "uni1E32",
+            "advance": 1299,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.15869,
+                "length": 319.1
+              },
+              {
+                "idx": 4,
+                "deg": 54.44731,
+                "length": 887.4
+              },
+              {
+                "idx": 6,
+                "deg": 54.39823,
+                "length": 1039.3
+              },
+              {
+                "idx": 7,
+                "deg": 46.83284,
+                "length": 884.3
+              },
+              {
+                "idx": 9,
+                "deg": 47.07591,
+                "length": 663.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 11.4497
+          },
+          {
+            "char": "Ḵ",
+            "glyph": "uni1E34",
+            "advance": 1299,
+            "structural_angle_samples": [
+              {
+                "idx": 3,
+                "deg": 47.15869,
+                "length": 319.1
+              },
+              {
+                "idx": 4,
+                "deg": 54.44731,
+                "length": 887.4
+              },
+              {
+                "idx": 6,
+                "deg": 54.39823,
+                "length": 1039.3
+              },
+              {
+                "idx": 7,
+                "deg": 46.83284,
+                "length": 884.3
+              },
+              {
+                "idx": 9,
+                "deg": 47.07591,
+                "length": 663.7
+              }
+            ],
+            "max_absolute_deviation_from_target_deg": 11.4497
+          }
+        ],
+        "n_members": 5,
+        "n_over_1deg": 5,
+        "flagged_glyphs": [
+          "uni0136",
+          "uni01E8",
+          "uni1E30",
+          "uni1E32",
+          "uni1E34"
+        ]
+      }
+    }
+  }
+}

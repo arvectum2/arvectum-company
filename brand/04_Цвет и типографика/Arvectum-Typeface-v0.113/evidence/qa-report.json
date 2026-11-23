@@ -1,0 +1,40 @@
+{
+  "version": "0.113",
+  "active_status": "WORKING, not final artistic approval",
+  "alpha_deg": 69.0948425521107,
+  "beta_deg": 58.282525588538995,
+  "masters": {
+    "Display": {
+      "changed_Aaccent_glyphs": 30,
+      "untouched_glyphs": 2907,
+      "A_and_Cyr_A_contours_unchanged": true,
+      "A_alpha_applied_to_all_30": true,
+      "closed_accent_A_skeleton": true,
+      "ogonek_fused_contour_valid": true,
+      "Mark_anchors_modified": 93,
+      "Kern_overlay_source_pairs": 160,
+      "Kern_overlay_new_total_pairs": 760,
+      "Kern_overlay_AaccentW_pairs": 600,
+      "all_other_GPOS_unchanged_proved_by_inverse_diff": true,
+      "35_exact_saved_CFF_GLIF_sources": true,
+      "W_alpha_unchanged": true,
+      "X_CyrX_beta_unchanged": true
+    },
+    "Text": {
+      "changed_Aaccent_glyphs": 30,
+      "untouched_glyphs": 2907,
+      "A_and_Cyr_A_contours_unchanged": true,
+      "A_alpha_applied_to_all_30": true,
+      "closed_accent_A_skeleton": true,
+      "ogonek_fused_contour_valid": true,
+      "Mark_anchors_modified": 93,
+      "Kern_overlay_source_pairs": 160,
+      "Kern_overlay_new_total_pairs": 760,
+      "Kern_overlay_AaccentW_pairs": 600,
+      "all_other_GPOS_unchanged_proved_by_inverse_diff": true,
+      "35_exact_saved_CFF_GLIF_sources": true,
+      "W_alpha_unchanged": true,
+      "X_CyrX_beta_unchanged": true
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Aogonek" format="2">
+  <advance width="1480"/>
+  <unicode hex="0104"/>
+  <note>
+Golden Step v0.113, exact saved CFF contour, owner signature preserved
+</note>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="220" y="0" type="line"/>
+      <point x="376" y="409" type="line"/>
+      <point x="1004" y="409" type="line"/>
+      <point x="1160" y="0" type="line"/>
+      <point x="1080.207260131836" y="-68"/>
+      <point x="1030.466323852539" y="-132"/>
+      <point x="1030.466323852539" y="-230" type="curve" smooth="yes"/>
+      <point x="1030.466323852539" y="-354"/>
+      <point x="1110.2590637207031" y="-418"/>
+      <point x="1237.720199584961" y="-418" type="curve" smooth="yes"/>
+      <point x="1359.999984741211" y="-418" type="line"/>
+      <point x="1359.999984741211" y="-272" type="line"/>
+      <point x="1295.7512817382812" y="-272" type="line" smooth="yes"/>
+      <point x="1232.5388488769531" y="-272"/>
+      <point x="1205.5958404541016" y="-246"/>
+      <point x="1205.5958404541016" y="-202" type="curve" smooth="yes"/>
+      <point x="1205.5958404541016" y="-150"/>
+      <point x="1242.9015350341797" y="-104"/>
+      <point x="1359.999984741211" y="0" type="curve"/>
+      <point x="790.9999847412109" y="1490" type="line"/>
+      <point x="588.9999847412109" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="689.9999847412109" y="1230" type="line"/>
+      <point x="937.9999847412109" y="580" type="line"/>
+      <point x="441.99998474121094" y="580" type="line"/>
+    </contour>
+  </outline>
+</glyph>
