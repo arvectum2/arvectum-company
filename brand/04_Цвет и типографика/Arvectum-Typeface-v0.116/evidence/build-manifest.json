@@ -1,0 +1,470 @@
+{
+  "version": "0.116",
+  "status": "WORKING, owner approval NOT implied",
+  "source_scope": "Eight real Cyrillic special accents, leave Ї/ї unmodified",
+  "golden_rule": "A/А right-open basic Display only; Cyrillic accented Ӑ/Ӓ CLOSED α geometry",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.115/otf/ArvectumGoldenStepDisplayCoreAccentWorking0115-Medium.otf",
+      "source_sha256": "0804ff3e6a2bea562542824ed4756f55bfea4d14e0ad6f4f465e7d8758b4ebd8",
+      "output": "otf/ArvectumGoldenStepDisplayCyrHarmonyWorking0116-Medium.otf",
+      "output_sha256": "f5e4e1b6c28af724d8c8f84ee62953a85a5004eb3503d7d362d2cf257863261f",
+      "changed": {
+        "uni04D0": {
+          "source_body": "Aacute",
+          "new_body_contours": 2,
+          "accent_contours": 1,
+          "mark_shift_x": -2.0,
+          "before_mark_center_x": 692.0,
+          "old_hmtx": [
+            1379,
+            16
+          ],
+          "new_hmtx": [
+            1480,
+            20
+          ]
+        },
+        "uni04D2": {
+          "source_body": "Aacute",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": -2.0,
+          "before_mark_center_x": 692.0,
+          "old_hmtx": [
+            1379,
+            16
+          ],
+          "new_hmtx": [
+            1480,
+            20
+          ]
+        },
+        "uni04D1": {
+          "source_body": "uni0430",
+          "new_body_contours": 2,
+          "accent_contours": 1,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1084,
+            75
+          ],
+          "new_hmtx": [
+            1084,
+            75
+          ]
+        },
+        "uni04D3": {
+          "source_body": "uni0430",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1084,
+            75
+          ],
+          "new_hmtx": [
+            1084,
+            75
+          ]
+        },
+        "uni04DE": {
+          "source_body": "uni0417",
+          "new_body_contours": 1,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1240,
+            88
+          ],
+          "new_hmtx": [
+            1240,
+            88
+          ]
+        },
+        "uni04DF": {
+          "source_body": "uni0437",
+          "new_body_contours": 1,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            974,
+            66
+          ],
+          "new_hmtx": [
+            974,
+            66
+          ]
+        },
+        "uni04E6": {
+          "source_body": "uni041E",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1533,
+            81
+          ],
+          "new_hmtx": [
+            1533,
+            81
+          ]
+        },
+        "uni04E7": {
+          "source_body": "uni043E",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1146,
+            67
+          ],
+          "new_hmtx": [
+            1146,
+            67
+          ]
+        }
+      },
+      "changed_count": 8,
+      "changed_mark_anchors": {
+        "4:0:uni04D0:0": {
+          "old_x": 692,
+          "new_x": 690,
+          "mark_glyphs": [
+            "commabelowcmb",
+            "dotbelow",
+            "uni0326",
+            "uni0326.ss03",
+            "uni0326.ss07",
+            "uni0347",
+            "uni035F"
+          ],
+          "y_preserved": 0
+        },
+        "4:0:uni04D2:0": {
+          "old_x": 692,
+          "new_x": 690,
+          "mark_glyphs": [
+            "commabelowcmb",
+            "dotbelow",
+            "uni0326",
+            "uni0326.ss03",
+            "uni0326.ss07",
+            "uni0347",
+            "uni035F"
+          ],
+          "y_preserved": 0
+        },
+        "7:0:uni04D0:0": {
+          "old_x": 1362,
+          "new_x": 1360,
+          "mark_glyphs": [
+            "uni0328"
+          ],
+          "y_preserved": 0
+        },
+        "7:0:uni04D2:0": {
+          "old_x": 1362,
+          "new_x": 1360,
+          "mark_glyphs": [
+            "uni0328"
+          ],
+          "y_preserved": 0
+        },
+        "8:0:uni04D0:0": {
+          "old_x": 692,
+          "new_x": 690,
+          "mark_glyphs": [
+            "acutecomb",
+            "gravecomb",
+            "hookabovecomb",
+            "tildecomb",
+            "uni0302",
+            "uni0304",
+            "uni0306",
+            "uni03060309",
+            "uni0307",
+            "uni0307.ss07",
+            "uni0308",
+            "uni0308.ss07",
+            "uni030A",
+            "uni030A.uc",
+            "uni030C",
+            "uni030F",
+            "uni0357",
+            "uni035E",
+            "uni1DC4",
+            "uni1DC6.lc",
+            "uni20F0"
+          ],
+          "y_preserved": 1927
+        },
+        "8:0:uni04D2:0": {
+          "old_x": 692,
+          "new_x": 690,
+          "mark_glyphs": [
+            "acutecomb",
+            "gravecomb",
+            "hookabovecomb",
+            "tildecomb",
+            "uni0302",
+            "uni0304",
+            "uni0306",
+            "uni03060309",
+            "uni0307",
+            "uni0307.ss07",
+            "uni0308",
+            "uni0308.ss07",
+            "uni030A",
+            "uni030A.uc",
+            "uni030C",
+            "uni030F",
+            "uni0357",
+            "uni035E",
+            "uni1DC4",
+            "uni1DC6.lc",
+            "uni20F0"
+          ],
+          "y_preserved": 1924
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.115/otf/ArvectumGoldenStepTextCoreAccentWorking0115-Regular.otf",
+      "source_sha256": "ce3f1eea4a8c50f0c36ca7e987da95f8f2c6ecba766ec11988af5106f2936189",
+      "output": "otf/ArvectumGoldenStepTextCyrHarmonyWorking0116-Regular.otf",
+      "output_sha256": "7f9d66edef6657c736c7b60e87d5eb07f7179f8a4200e5867e07350e17880f61",
+      "changed": {
+        "uni04D0": {
+          "source_body": "Aacute",
+          "new_body_contours": 2,
+          "accent_contours": 1,
+          "mark_shift_x": 18.0,
+          "before_mark_center_x": 672.0,
+          "old_hmtx": [
+            1338,
+            20
+          ],
+          "new_hmtx": [
+            1480,
+            20
+          ]
+        },
+        "uni04D2": {
+          "source_body": "Aacute",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 18.0,
+          "before_mark_center_x": 672.0,
+          "old_hmtx": [
+            1338,
+            20
+          ],
+          "new_hmtx": [
+            1480,
+            20
+          ]
+        },
+        "uni04D1": {
+          "source_body": "uni0430",
+          "new_body_contours": 2,
+          "accent_contours": 1,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1060,
+            80
+          ],
+          "new_hmtx": [
+            1060,
+            80
+          ]
+        },
+        "uni04D3": {
+          "source_body": "uni0430",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1060,
+            80
+          ],
+          "new_hmtx": [
+            1060,
+            80
+          ]
+        },
+        "uni04DE": {
+          "source_body": "uni0417",
+          "new_body_contours": 1,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1226,
+            96
+          ],
+          "new_hmtx": [
+            1226,
+            96
+          ]
+        },
+        "uni04DF": {
+          "source_body": "uni0437",
+          "new_body_contours": 1,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            954,
+            72
+          ],
+          "new_hmtx": [
+            954,
+            72
+          ]
+        },
+        "uni04E6": {
+          "source_body": "uni041E",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1534,
+            90
+          ],
+          "new_hmtx": [
+            1534,
+            90
+          ]
+        },
+        "uni04E7": {
+          "source_body": "uni043E",
+          "new_body_contours": 2,
+          "accent_contours": 2,
+          "mark_shift_x": 0,
+          "before_mark_center_x": null,
+          "old_hmtx": [
+            1124,
+            72
+          ],
+          "new_hmtx": [
+            1124,
+            72
+          ]
+        }
+      },
+      "changed_count": 8,
+      "changed_mark_anchors": {
+        "4:0:uni04D0:0": {
+          "old_x": 672,
+          "new_x": 690,
+          "mark_glyphs": [
+            "commabelowcmb",
+            "dotbelow",
+            "uni0326",
+            "uni0326.ss03",
+            "uni0326.ss07",
+            "uni0347",
+            "uni035F"
+          ],
+          "y_preserved": 0
+        },
+        "4:0:uni04D2:0": {
+          "old_x": 672,
+          "new_x": 690,
+          "mark_glyphs": [
+            "commabelowcmb",
+            "dotbelow",
+            "uni0326",
+            "uni0326.ss03",
+            "uni0326.ss07",
+            "uni0347",
+            "uni035F"
+          ],
+          "y_preserved": 0
+        },
+        "7:0:uni04D0:0": {
+          "old_x": 1318,
+          "new_x": 1360,
+          "mark_glyphs": [
+            "uni0328"
+          ],
+          "y_preserved": 0
+        },
+        "7:0:uni04D2:0": {
+          "old_x": 1318,
+          "new_x": 1360,
+          "mark_glyphs": [
+            "uni0328"
+          ],
+          "y_preserved": 0
+        },
+        "8:0:uni04D0:0": {
+          "old_x": 672,
+          "new_x": 690,
+          "mark_glyphs": [
+            "acutecomb",
+            "gravecomb",
+            "hookabovecomb",
+            "tildecomb",
+            "uni0302",
+            "uni0304",
+            "uni0306",
+            "uni03060309",
+            "uni0307",
+            "uni0307.ss07",
+            "uni0308",
+            "uni0308.ss07",
+            "uni030A",
+            "uni030A.uc",
+            "uni030C",
+            "uni030F",
+            "uni0357",
+            "uni035E",
+            "uni1DC4",
+            "uni1DC6.lc",
+            "uni20F0"
+          ],
+          "y_preserved": 1924
+        },
+        "8:0:uni04D2:0": {
+          "old_x": 672,
+          "new_x": 690,
+          "mark_glyphs": [
+            "acutecomb",
+            "gravecomb",
+            "hookabovecomb",
+            "tildecomb",
+            "uni0302",
+            "uni0304",
+            "uni0306",
+            "uni03060309",
+            "uni0307",
+            "uni0307.ss07",
+            "uni0308",
+            "uni0308.ss07",
+            "uni030A",
+            "uni030A.uc",
+            "uni030C",
+            "uni030F",
+            "uni0357",
+            "uni035E",
+            "uni1DC4",
+            "uni1DC6.lc",
+            "uni20F0"
+          ],
+          "y_preserved": 1924
+        }
+      }
+    }
+  }
+}

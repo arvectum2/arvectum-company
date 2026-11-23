@@ -1,0 +1,848 @@
+{
+  "method": "HarfBuzz shaping + actual FreeType bitmap scanline pixel gap, 256ppem, glyph body rows only",
+  "scope": "selected informative real two-letter pairs, NOT full global kerning guarantee",
+  "faces": {
+    "Display": {
+      "old": {
+        "АӐ": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 87.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "ӐА": {
+          "min_visible_gap_px": 6.12,
+          "median_visible_gap_px": 75.62,
+          "advance_1_upm": 1401,
+          "xoffset_2_upm": 0
+        },
+        "АӒ": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 87.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "ӒА": {
+          "min_visible_gap_px": 6.12,
+          "median_visible_gap_px": 75.62,
+          "advance_1_upm": 1401,
+          "xoffset_2_upm": 0
+        },
+        "ЖӐ": {
+          "min_visible_gap_px": 4.25,
+          "median_visible_gap_px": 79.25,
+          "advance_1_upm": 1938,
+          "xoffset_2_upm": 0
+        },
+        "ӐЖ": {
+          "min_visible_gap_px": 3.38,
+          "median_visible_gap_px": 79.38,
+          "advance_1_upm": 1379,
+          "xoffset_2_upm": 0
+        },
+        "ЖӒ": {
+          "min_visible_gap_px": 4.25,
+          "median_visible_gap_px": 79.25,
+          "advance_1_upm": 1938,
+          "xoffset_2_upm": 0
+        },
+        "ӒЖ": {
+          "min_visible_gap_px": 3.38,
+          "median_visible_gap_px": 79.38,
+          "advance_1_upm": 1379,
+          "xoffset_2_upm": 0
+        },
+        "МӐ": {
+          "min_visible_gap_px": 18.62,
+          "median_visible_gap_px": 51.62,
+          "advance_1_upm": 1781,
+          "xoffset_2_upm": 0
+        },
+        "ӒМ": {
+          "min_visible_gap_px": 18.38,
+          "median_visible_gap_px": 52.38,
+          "advance_1_upm": 1379,
+          "xoffset_2_upm": 0
+        },
+        "WӐ": {
+          "min_visible_gap_px": 52.75,
+          "median_visible_gap_px": 54.75,
+          "advance_1_upm": 2150,
+          "xoffset_2_upm": 0
+        },
+        "ӒW": {
+          "min_visible_gap_px": 51.88,
+          "median_visible_gap_px": 54.88,
+          "advance_1_upm": 1239,
+          "xoffset_2_upm": 0
+        },
+        "ЗӞ": {
+          "min_visible_gap_px": 21.0,
+          "median_visible_gap_px": 66.5,
+          "advance_1_upm": 1240,
+          "xoffset_2_upm": 0
+        },
+        "ӞЗ": {
+          "min_visible_gap_px": 21.0,
+          "median_visible_gap_px": 66.0,
+          "advance_1_upm": 1240,
+          "xoffset_2_upm": 0
+        },
+        "зӟ": {
+          "min_visible_gap_px": 15.75,
+          "median_visible_gap_px": 56.75,
+          "advance_1_upm": 974,
+          "xoffset_2_upm": 0
+        },
+        "ӟз": {
+          "min_visible_gap_px": 15.75,
+          "median_visible_gap_px": 58.25,
+          "advance_1_upm": 974,
+          "xoffset_2_upm": 0
+        },
+        "ОӦ": {
+          "min_visible_gap_px": 19.62,
+          "median_visible_gap_px": 37.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "ӦО": {
+          "min_visible_gap_px": 19.62,
+          "median_visible_gap_px": 37.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "оӧ": {
+          "min_visible_gap_px": 16.25,
+          "median_visible_gap_px": 29.25,
+          "advance_1_upm": 1146,
+          "xoffset_2_upm": 0
+        },
+        "ӧо": {
+          "min_visible_gap_px": 16.25,
+          "median_visible_gap_px": 28.75,
+          "advance_1_upm": 1146,
+          "xoffset_2_upm": 0
+        },
+        "АА": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "АЖ": {
+          "min_visible_gap_px": 17.0,
+          "median_visible_gap_px": 96.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "АW": {
+          "min_visible_gap_px": 68.5,
+          "median_visible_gap_px": 69.5,
+          "advance_1_upm": 1340,
+          "xoffset_2_upm": 0
+        },
+        "ОЗ": {
+          "min_visible_gap_px": 24.62,
+          "median_visible_gap_px": 70.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "её": {
+          "min_visible_gap_px": 15.38,
+          "median_visible_gap_px": 32.88,
+          "advance_1_upm": 1115,
+          "xoffset_2_upm": 0
+        },
+        "ий": {
+          "min_visible_gap_px": 28.62,
+          "median_visible_gap_px": 28.62,
+          "advance_1_upm": 1165,
+          "xoffset_2_upm": 0
+        },
+        "ЇІ": {
+          "min_visible_gap_px": 33.75,
+          "median_visible_gap_px": 33.75,
+          "advance_1_upm": 494,
+          "xoffset_2_upm": 0
+        },
+        "їі": {
+          "min_visible_gap_px": 17.75,
+          "median_visible_gap_px": 50.75,
+          "advance_1_upm": 630,
+          "xoffset_2_upm": 0
+        }
+      },
+      "new": {
+        "АӐ": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "ӐА": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "АӒ": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "ӒА": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "ЖӐ": {
+          "min_visible_gap_px": 4.25,
+          "median_visible_gap_px": 83.25,
+          "advance_1_upm": 1938,
+          "xoffset_2_upm": 0
+        },
+        "ӐЖ": {
+          "min_visible_gap_px": 17.0,
+          "median_visible_gap_px": 96.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "ЖӒ": {
+          "min_visible_gap_px": 4.25,
+          "median_visible_gap_px": 83.25,
+          "advance_1_upm": 1938,
+          "xoffset_2_upm": 0
+        },
+        "ӒЖ": {
+          "min_visible_gap_px": 17.0,
+          "median_visible_gap_px": 96.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "МӐ": {
+          "min_visible_gap_px": 18.62,
+          "median_visible_gap_px": 54.62,
+          "advance_1_upm": 1781,
+          "xoffset_2_upm": 0
+        },
+        "ӒМ": {
+          "min_visible_gap_px": 32.0,
+          "median_visible_gap_px": 67.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "WӐ": {
+          "min_visible_gap_px": 56.75,
+          "median_visible_gap_px": 56.75,
+          "advance_1_upm": 2150,
+          "xoffset_2_upm": 0
+        },
+        "ӒW": {
+          "min_visible_gap_px": 68.5,
+          "median_visible_gap_px": 69.5,
+          "advance_1_upm": 1340,
+          "xoffset_2_upm": 0
+        },
+        "ЗӞ": {
+          "min_visible_gap_px": 21.0,
+          "median_visible_gap_px": 66.0,
+          "advance_1_upm": 1240,
+          "xoffset_2_upm": 0
+        },
+        "ӞЗ": {
+          "min_visible_gap_px": 21.0,
+          "median_visible_gap_px": 66.0,
+          "advance_1_upm": 1240,
+          "xoffset_2_upm": 0
+        },
+        "зӟ": {
+          "min_visible_gap_px": 15.75,
+          "median_visible_gap_px": 57.25,
+          "advance_1_upm": 974,
+          "xoffset_2_upm": 0
+        },
+        "ӟз": {
+          "min_visible_gap_px": 15.75,
+          "median_visible_gap_px": 57.25,
+          "advance_1_upm": 974,
+          "xoffset_2_upm": 0
+        },
+        "ОӦ": {
+          "min_visible_gap_px": 19.62,
+          "median_visible_gap_px": 36.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "ӦО": {
+          "min_visible_gap_px": 19.62,
+          "median_visible_gap_px": 36.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "оӧ": {
+          "min_visible_gap_px": 16.25,
+          "median_visible_gap_px": 28.25,
+          "advance_1_upm": 1146,
+          "xoffset_2_upm": 0
+        },
+        "ӧо": {
+          "min_visible_gap_px": 16.25,
+          "median_visible_gap_px": 28.25,
+          "advance_1_upm": 1146,
+          "xoffset_2_upm": 0
+        },
+        "АА": {
+          "min_visible_gap_px": 19.75,
+          "median_visible_gap_px": 90.75,
+          "advance_1_upm": 1502,
+          "xoffset_2_upm": 0
+        },
+        "АЖ": {
+          "min_visible_gap_px": 17.0,
+          "median_visible_gap_px": 96.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "АW": {
+          "min_visible_gap_px": 68.5,
+          "median_visible_gap_px": 69.5,
+          "advance_1_upm": 1340,
+          "xoffset_2_upm": 0
+        },
+        "ОЗ": {
+          "min_visible_gap_px": 24.62,
+          "median_visible_gap_px": 70.62,
+          "advance_1_upm": 1533,
+          "xoffset_2_upm": 0
+        },
+        "её": {
+          "min_visible_gap_px": 15.38,
+          "median_visible_gap_px": 32.88,
+          "advance_1_upm": 1115,
+          "xoffset_2_upm": 0
+        },
+        "ий": {
+          "min_visible_gap_px": 28.62,
+          "median_visible_gap_px": 28.62,
+          "advance_1_upm": 1165,
+          "xoffset_2_upm": 0
+        },
+        "ЇІ": {
+          "min_visible_gap_px": 33.75,
+          "median_visible_gap_px": 33.75,
+          "advance_1_upm": 494,
+          "xoffset_2_upm": 0
+        },
+        "їі": {
+          "min_visible_gap_px": 17.75,
+          "median_visible_gap_px": 50.75,
+          "advance_1_upm": 630,
+          "xoffset_2_upm": 0
+        }
+      },
+      "changes": {
+        "АӐ": {
+          "old": 19.75,
+          "new": 19.75
+        },
+        "ӐА": {
+          "old": 6.12,
+          "new": 19.75
+        },
+        "АӒ": {
+          "old": 19.75,
+          "new": 19.75
+        },
+        "ӒА": {
+          "old": 6.12,
+          "new": 19.75
+        },
+        "ЖӐ": {
+          "old": 4.25,
+          "new": 4.25
+        },
+        "ӐЖ": {
+          "old": 3.38,
+          "new": 17.0
+        },
+        "ЖӒ": {
+          "old": 4.25,
+          "new": 4.25
+        },
+        "ӒЖ": {
+          "old": 3.38,
+          "new": 17.0
+        },
+        "МӐ": {
+          "old": 18.62,
+          "new": 18.62
+        },
+        "ӒМ": {
+          "old": 18.38,
+          "new": 32.0
+        },
+        "WӐ": {
+          "old": 52.75,
+          "new": 56.75
+        },
+        "ӒW": {
+          "old": 51.88,
+          "new": 68.5
+        },
+        "ЗӞ": {
+          "old": 21.0,
+          "new": 21.0
+        },
+        "зӟ": {
+          "old": 15.75,
+          "new": 15.75
+        },
+        "ӟз": {
+          "old": 15.75,
+          "new": 15.75
+        },
+        "ОӦ": {
+          "old": 19.62,
+          "new": 19.62
+        },
+        "ӦО": {
+          "old": 19.62,
+          "new": 19.62
+        },
+        "оӧ": {
+          "old": 16.25,
+          "new": 16.25
+        },
+        "ӧо": {
+          "old": 16.25,
+          "new": 16.25
+        }
+      },
+      "negative_clearance_pairs": []
+    },
+    "Text": {
+      "old": {
+        "АӐ": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 88.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "ӐА": {
+          "min_visible_gap_px": 6.75,
+          "median_visible_gap_px": 75.75,
+          "advance_1_upm": 1358,
+          "xoffset_2_upm": 0
+        },
+        "АӒ": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 88.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "ӒА": {
+          "min_visible_gap_px": 6.75,
+          "median_visible_gap_px": 75.75,
+          "advance_1_upm": 1358,
+          "xoffset_2_upm": 0
+        },
+        "ЖӐ": {
+          "min_visible_gap_px": 4.88,
+          "median_visible_gap_px": 82.88,
+          "advance_1_upm": 1879,
+          "xoffset_2_upm": 0
+        },
+        "ӐЖ": {
+          "min_visible_gap_px": 5.25,
+          "median_visible_gap_px": 82.25,
+          "advance_1_upm": 1338,
+          "xoffset_2_upm": 0
+        },
+        "ЖӒ": {
+          "min_visible_gap_px": 4.88,
+          "median_visible_gap_px": 82.88,
+          "advance_1_upm": 1879,
+          "xoffset_2_upm": 0
+        },
+        "ӒЖ": {
+          "min_visible_gap_px": 5.25,
+          "median_visible_gap_px": 82.25,
+          "advance_1_upm": 1338,
+          "xoffset_2_upm": 0
+        },
+        "МӐ": {
+          "min_visible_gap_px": 20.5,
+          "median_visible_gap_px": 54.5,
+          "advance_1_upm": 1756,
+          "xoffset_2_upm": 0
+        },
+        "ӒМ": {
+          "min_visible_gap_px": 20.25,
+          "median_visible_gap_px": 53.75,
+          "advance_1_upm": 1338,
+          "xoffset_2_upm": 0
+        },
+        "WӐ": {
+          "min_visible_gap_px": 57.0,
+          "median_visible_gap_px": 59.0,
+          "advance_1_upm": 2152,
+          "xoffset_2_upm": 0
+        },
+        "ӒW": {
+          "min_visible_gap_px": 56.25,
+          "median_visible_gap_px": 58.25,
+          "advance_1_upm": 1218,
+          "xoffset_2_upm": 0
+        },
+        "ЗӞ": {
+          "min_visible_gap_px": 23.25,
+          "median_visible_gap_px": 68.75,
+          "advance_1_upm": 1226,
+          "xoffset_2_upm": 0
+        },
+        "ӞЗ": {
+          "min_visible_gap_px": 23.25,
+          "median_visible_gap_px": 70.25,
+          "advance_1_upm": 1226,
+          "xoffset_2_upm": 0
+        },
+        "зӟ": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 61.25,
+          "advance_1_upm": 954,
+          "xoffset_2_upm": 0
+        },
+        "ӟз": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 61.75,
+          "advance_1_upm": 954,
+          "xoffset_2_upm": 0
+        },
+        "ОӦ": {
+          "min_visible_gap_px": 21.75,
+          "median_visible_gap_px": 40.25,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "ӦО": {
+          "min_visible_gap_px": 21.75,
+          "median_visible_gap_px": 39.75,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "оӧ": {
+          "min_visible_gap_px": 17.5,
+          "median_visible_gap_px": 29.5,
+          "advance_1_upm": 1124,
+          "xoffset_2_upm": 0
+        },
+        "ӧо": {
+          "min_visible_gap_px": 17.5,
+          "median_visible_gap_px": 30.0,
+          "advance_1_upm": 1124,
+          "xoffset_2_upm": 0
+        },
+        "АА": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "АЖ": {
+          "min_visible_gap_px": 18.0,
+          "median_visible_gap_px": 97.5,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "АW": {
+          "min_visible_gap_px": 72.0,
+          "median_visible_gap_px": 72.0,
+          "advance_1_upm": 1360,
+          "xoffset_2_upm": 0
+        },
+        "ОЗ": {
+          "min_visible_gap_px": 26.75,
+          "median_visible_gap_px": 71.75,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "её": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 34.75,
+          "advance_1_upm": 1098,
+          "xoffset_2_upm": 0
+        },
+        "ий": {
+          "min_visible_gap_px": 30.0,
+          "median_visible_gap_px": 30.0,
+          "advance_1_upm": 1136,
+          "xoffset_2_upm": 0
+        },
+        "ЇІ": {
+          "min_visible_gap_px": 36.5,
+          "median_visible_gap_px": 36.5,
+          "advance_1_upm": 476,
+          "xoffset_2_upm": 0
+        },
+        "їі": {
+          "min_visible_gap_px": 20.5,
+          "median_visible_gap_px": 54.5,
+          "advance_1_upm": 612,
+          "xoffset_2_upm": 0
+        }
+      },
+      "new": {
+        "АӐ": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "ӐА": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "АӒ": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "ӒА": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "ЖӐ": {
+          "min_visible_gap_px": 4.88,
+          "median_visible_gap_px": 84.88,
+          "advance_1_upm": 1879,
+          "xoffset_2_upm": 0
+        },
+        "ӐЖ": {
+          "min_visible_gap_px": 18.0,
+          "median_visible_gap_px": 97.5,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "ЖӒ": {
+          "min_visible_gap_px": 4.88,
+          "median_visible_gap_px": 84.88,
+          "advance_1_upm": 1879,
+          "xoffset_2_upm": 0
+        },
+        "ӒЖ": {
+          "min_visible_gap_px": 18.0,
+          "median_visible_gap_px": 97.5,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "МӐ": {
+          "min_visible_gap_px": 20.5,
+          "median_visible_gap_px": 56.5,
+          "advance_1_upm": 1756,
+          "xoffset_2_upm": 0
+        },
+        "ӒМ": {
+          "min_visible_gap_px": 33.0,
+          "median_visible_gap_px": 68.0,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "WӐ": {
+          "min_visible_gap_px": 59.0,
+          "median_visible_gap_px": 60.0,
+          "advance_1_upm": 2152,
+          "xoffset_2_upm": 0
+        },
+        "ӒW": {
+          "min_visible_gap_px": 72.0,
+          "median_visible_gap_px": 72.0,
+          "advance_1_upm": 1360,
+          "xoffset_2_upm": 0
+        },
+        "ЗӞ": {
+          "min_visible_gap_px": 23.25,
+          "median_visible_gap_px": 70.25,
+          "advance_1_upm": 1226,
+          "xoffset_2_upm": 0
+        },
+        "ӞЗ": {
+          "min_visible_gap_px": 23.25,
+          "median_visible_gap_px": 70.25,
+          "advance_1_upm": 1226,
+          "xoffset_2_upm": 0
+        },
+        "зӟ": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 60.25,
+          "advance_1_upm": 954,
+          "xoffset_2_upm": 0
+        },
+        "ӟз": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 60.25,
+          "advance_1_upm": 954,
+          "xoffset_2_upm": 0
+        },
+        "ОӦ": {
+          "min_visible_gap_px": 21.75,
+          "median_visible_gap_px": 38.75,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "ӦО": {
+          "min_visible_gap_px": 21.75,
+          "median_visible_gap_px": 38.75,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "оӧ": {
+          "min_visible_gap_px": 17.5,
+          "median_visible_gap_px": 29.0,
+          "advance_1_upm": 1124,
+          "xoffset_2_upm": 0
+        },
+        "ӧо": {
+          "min_visible_gap_px": 17.5,
+          "median_visible_gap_px": 29.0,
+          "advance_1_upm": 1124,
+          "xoffset_2_upm": 0
+        },
+        "АА": {
+          "min_visible_gap_px": 19.5,
+          "median_visible_gap_px": 90.5,
+          "advance_1_upm": 1500,
+          "xoffset_2_upm": 0
+        },
+        "АЖ": {
+          "min_visible_gap_px": 18.0,
+          "median_visible_gap_px": 97.5,
+          "advance_1_upm": 1480,
+          "xoffset_2_upm": 0
+        },
+        "АW": {
+          "min_visible_gap_px": 72.0,
+          "median_visible_gap_px": 72.0,
+          "advance_1_upm": 1360,
+          "xoffset_2_upm": 0
+        },
+        "ОЗ": {
+          "min_visible_gap_px": 26.75,
+          "median_visible_gap_px": 71.75,
+          "advance_1_upm": 1534,
+          "xoffset_2_upm": 0
+        },
+        "её": {
+          "min_visible_gap_px": 17.25,
+          "median_visible_gap_px": 34.75,
+          "advance_1_upm": 1098,
+          "xoffset_2_upm": 0
+        },
+        "ий": {
+          "min_visible_gap_px": 30.0,
+          "median_visible_gap_px": 30.0,
+          "advance_1_upm": 1136,
+          "xoffset_2_upm": 0
+        },
+        "ЇІ": {
+          "min_visible_gap_px": 36.5,
+          "median_visible_gap_px": 36.5,
+          "advance_1_upm": 476,
+          "xoffset_2_upm": 0
+        },
+        "їі": {
+          "min_visible_gap_px": 20.5,
+          "median_visible_gap_px": 54.5,
+          "advance_1_upm": 612,
+          "xoffset_2_upm": 0
+        }
+      },
+      "changes": {
+        "АӐ": {
+          "old": 19.5,
+          "new": 19.5
+        },
+        "ӐА": {
+          "old": 6.75,
+          "new": 19.5
+        },
+        "АӒ": {
+          "old": 19.5,
+          "new": 19.5
+        },
+        "ӒА": {
+          "old": 6.75,
+          "new": 19.5
+        },
+        "ЖӐ": {
+          "old": 4.88,
+          "new": 4.88
+        },
+        "ӐЖ": {
+          "old": 5.25,
+          "new": 18.0
+        },
+        "ЖӒ": {
+          "old": 4.88,
+          "new": 4.88
+        },
+        "ӒЖ": {
+          "old": 5.25,
+          "new": 18.0
+        },
+        "МӐ": {
+          "old": 20.5,
+          "new": 20.5
+        },
+        "ӒМ": {
+          "old": 20.25,
+          "new": 33.0
+        },
+        "WӐ": {
+          "old": 57.0,
+          "new": 59.0
+        },
+        "ӒW": {
+          "old": 56.25,
+          "new": 72.0
+        },
+        "ЗӞ": {
+          "old": 23.25,
+          "new": 23.25
+        },
+        "зӟ": {
+          "old": 17.25,
+          "new": 17.25
+        },
+        "ӟз": {
+          "old": 17.25,
+          "new": 17.25
+        },
+        "ОӦ": {
+          "old": 21.75,
+          "new": 21.75
+        },
+        "ӦО": {
+          "old": 21.75,
+          "new": 21.75
+        },
+        "оӧ": {
+          "old": 17.5,
+          "new": 17.5
+        },
+        "ӧо": {
+          "old": 17.5,
+          "new": 17.5
+        }
+      },
+      "negative_clearance_pairs": []
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": "0.116",
+  "status": "ENGINEERING, owner/artistic approval OPEN",
+  "owner_exception": "Ї/ї are correctly different as dot replacement, NOT stale base",
+  "masters": {
+    "Display": {
+      "modified_glyphs": [
+        "uni04D0",
+        "uni04D1",
+        "uni04D2",
+        "uni04D3",
+        "uni04DE",
+        "uni04DF",
+        "uni04E6",
+        "uni04E7"
+      ],
+      "untouched_glyphs": 2929,
+      "changed_hmtx": [
+        "uni04D0",
+        "uni04D2"
+      ],
+      "GPOS_anchor_changes": 6,
+      "all_other_tables_unchanged": true,
+      "all_mark_curves_preserved": true,
+      "Aaccent_bodies_closed_alpha_1480_UPM": true,
+      "dotted_Ї_ї_intentionally_preserved": true,
+      "mark_bbox_clearance_over_40UPM": true,
+      "GLIF_and_exact_CFF_JSON": true
+    },
+    "Text": {
+      "modified_glyphs": [
+        "uni04D0",
+        "uni04D1",
+        "uni04D2",
+        "uni04D3",
+        "uni04DE",
+        "uni04DF",
+        "uni04E6",
+        "uni04E7"
+      ],
+      "untouched_glyphs": 2929,
+      "changed_hmtx": [
+        "uni04D0",
+        "uni04D2"
+      ],
+      "GPOS_anchor_changes": 6,
+      "all_other_tables_unchanged": true,
+      "all_mark_curves_preserved": true,
+      "Aaccent_bodies_closed_alpha_1480_UPM": true,
+      "dotted_Ї_ї_intentionally_preserved": true,
+      "mark_bbox_clearance_over_40UPM": true,
+      "GLIF_and_exact_CFF_JSON": true
+    }
+  }
+}

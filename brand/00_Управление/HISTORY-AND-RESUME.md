@@ -59,3 +59,7 @@ Pointer to the later working state, NOT a retroactive rewrite of missing or reco
 ## 2026-11-23 — next working checkpoint v0.115
 
 Source is v0.114, fully retained. New current v0.115 harmonizes Latin N/Y and Cyrillic И/и/Е/е/К accent bodies (33 per master, all attached marks identical). Brand roadmap and work queue now use v0.115. Older original archive gaps remain open and no production/artistic approval is inferred.
+
+## 2026-11-23 — next working checkpoint v0.116
+
+Current engineering source: Golden Step v0.116, derived from unmodified v0.115. Of ten Cyrillic exceptions, eight were corrected; Ї/ї preserved as correct dot-replacement forms. Exactly eight glyph bodies per master, two widths and six targeted GPOS anchors changed. Font source, HTML/browser/PDF proofs and QA are in 04_Цвет и типографика/Arvectum-Typeface-v0.116/. Production and owner-artistic approval OPEN.

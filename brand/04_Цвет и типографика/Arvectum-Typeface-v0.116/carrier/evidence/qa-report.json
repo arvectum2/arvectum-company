@@ -1,0 +1,141 @@
+{
+  "status": "PASS",
+  "scope": "old0115/new0116 identical synthetic existing carrier sources except font files",
+  "cases": {
+    "letter": {
+      "before": {
+        "viewport": 1160,
+        "docWidth": 1160,
+        "height": 1173,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          }
+        ],
+        "bodyText": 650,
+        "caseTitle": "Арвектум / фирменное письмо — макет"
+      },
+      "after": {
+        "viewport": 1160,
+        "docWidth": 1160,
+        "height": 1173,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          }
+        ],
+        "bodyText": 650,
+        "caseTitle": "Арвектум / фирменное письмо — макет"
+      }
+    },
+    "proposal": {
+      "before": {
+        "viewport": 1160,
+        "docWidth": 1160,
+        "height": 2323,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          },
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          }
+        ],
+        "bodyText": 1567,
+        "caseTitle": "Арвектум / коммерческое предложение — макет"
+      },
+      "after": {
+        "viewport": 1160,
+        "docWidth": 1160,
+        "height": 2323,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          },
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          }
+        ],
+        "bodyText": 1567,
+        "caseTitle": "Арвектум / коммерческое предложение — макет"
+      }
+    },
+    "mobile": {
+      "before": {
+        "viewport": 390,
+        "docWidth": 390,
+        "height": 1831,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          },
+          {
+            "url": "../../assets/monogram_navy.svg",
+            "natural": 243,
+            "loaded": true
+          }
+        ],
+        "bodyText": 712,
+        "caseTitle": "Arvectum / Golden Step — главная, макет"
+      },
+      "after": {
+        "viewport": 390,
+        "docWidth": 390,
+        "height": 1831,
+        "families": [
+          "GSDisplay",
+          "GSText"
+        ],
+        "images": [
+          {
+            "url": "../../assets/lockup_ru.svg",
+            "natural": 300,
+            "loaded": true
+          },
+          {
+            "url": "../../assets/monogram_navy.svg",
+            "natural": 243,
+            "loaded": true
+          }
+        ],
+        "bodyText": 712,
+        "caseTitle": "Arvectum / Golden Step — главная, макет"
+      }
+    }
+  },
+  "owner_review": "OPEN"
+}
