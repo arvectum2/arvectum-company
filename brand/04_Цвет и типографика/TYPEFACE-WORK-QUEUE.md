@@ -3,7 +3,7 @@
 Updated 2026-11-23. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
 
 ## Working candidate and historical baseline
-- **Current active experimental font: RESTORED exact v0.106**, per explicit owner decision **23 November 2026**. Use the original Display Medium and Text Regular OTF/WOFF2, byte-identical to the pre-v0.107 baseline; Latin K and Cyrillic К retain the identical short-horizontal-fork shape, Ж retains its pre-experiment shape. **Only Display uppercase Latin A / Cyrillic А retain the signature right-open bar.** Text A/А remains closed. P/Р, Ь/Ъ/Ы, R/Я are again fully joined. **v0.107 Fork/Direct and all its extra gaps are REJECTED, historical only**, not active candidates. Existing α/β design grammar, X/Х and W backlog remain separately open; owner has not approved production or final typeface release.
+- **Current active experimental font: RESTORED exact v0.106**, per explicit owner decision **23 November 2026**. Use the original Display Medium and Text Regular OTF/WOFF2, byte-identical to the pre-v0.107 baseline; Latin K and Cyrillic К retain the identical short-horizontal-fork shape, Ж retains its pre-experiment shape. **Only Display uppercase Latin A / Cyrillic А retain the signature right-open bar.** Text A/А remains closed. P/Р, Ь/Ъ/Ы, R/Я are again fully joined. **v0.107 Fork/Direct and all its extra gaps are REJECTED, historical only**, not active candidates. Existing α/β design grammar continues, with the **original W explicitly preferred as an optical exception** (23 November 2026); X/Х remains separate research. Owner has not approved production or final typeface release.
 - **Historical v0.64 baseline (not current):** Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
 - **Historical baseline only:** older v0.64–v0.68 work used the 58.2825° atan φ logo angle for prominent letter studies. This does not supersede the current v0.101 compact font target atan(φ²)=69.0948°. The approved logo still retains its distinct original 58.2825° design.
 
@@ -12,7 +12,7 @@ Updated 2026-11-23. A durable working-status document, not a revision of pinned 
 - **α = atan(φ²) = 69.0948425521° from horizontal:** compact two-diagonal skeletons A/А, V, M/М and trapezoidal straight Д/Л/д/л. Preserve the v0.102 Display A/А left anchor, right opening, parallel diagonal terminal and normal clear gap exactly one right-leg thickness.
 - **β = atan(φ) = 58.2825255885° from horizontal:** a single spanning diagonal N/И and upper branches that meet midway Y; evaluate У by its actual anatomy. Both values apply to BOTH independently developed Display and Text.
 - The approved Wordmark C/monogram remain unchanged and have their own β geometry. Earlier atan(2φ)≈72.8279621495° Text W trial is historical, NOT a third approved angle.
-- For K/К, X/Х, W and mixed families assign angles per structural stroke and record optical exceptions. Counting corners is only a heuristic, not permission to force every glyph mechanically.
+- For K/К, X/Х and mixed families assign angles per structural stroke and record optical exceptions. **For W the owner expressly selected the ORIGINAL v0.106 silhouette** over attempts to force α by adding bends, kinks, or excessive width; preserve it as a documented optical exception, not a third standard angle. Counting corners is only a heuristic, not permission to force every glyph mechanically.
 - **Historical acceptance note (pre-v0.103):** the two-angle grammar was approved while v0.102 N/И/Y still had inherited geometry. v0.103 subsequently implemented β in those three families; the prior all-α audit does NOT prove whole-font dual-angle conformance.
 - The approved family grammar and current experimental outline work remain distinct owner authority decisions. No v0.102 CFF, approved master logo, production website, customer materials or Arvectum OS was changed.
 
@@ -261,6 +261,14 @@ Updated 2026-11-23. A durable working-status document, not a revision of pinned 
 - Самостоятельная QA подтверждает: W-контур один и не самопересекающийся; исходные cmap, hhea, OS/2, GPOS/GSUB/GDEF и остальные hmtx совпадают, 2937 glyphs / 2852 Unicode на каждый оптический мастер; обе пары OTF/WOFF2 совпадают по всем 2937 контурам и метрикам. Сборка OTF побитово воспроизводима.
 - Сохранены: четырёхстраничный PDF с W в трёх вариантах, проверкой X/Х на 12–32px и метриками, отдельный увеличенный PNG 12–16px с различающимися пикселями, сравнительный PNG W, QA JSON и воспроизводимые скрипты.
 - **OPEN:** художественное решение по W (в особенности уплотнение двух нижних просветов), кернинг/переносы, реальная читаемость XSoft, остальные исходные глифы, Windows/печатный выпуск/право. Production, утверждённый Wordmark C, прежние версии и Arvectum OS без изменений.
+
+## 23 November 2026 — definitive preference for the original W
+
+- **Owner decision:** the **original W from active v0.106 is aesthetically preferable**, and additional bends, inflections or kinks must NOT be invented merely to satisfy a mathematical angle when an existing letter works well.
+- **Both WAlphaWide v0.108 and WAlphaBalanced v0.109 are rejected as current W candidates.** Keep their files and measured evidence only in versioned history. Do NOT automatically rebuild W or resume attempts to impose α on it. This overrides the historical v0.108/109 W investigation instructions above.
+- W is an explicit **optical exception in the owner-approved two-angle framework**: α and β remain the only two BASE DESIGN angles, while the preserved original W skeleton is NOT reclassified to a third base angle. Readability, simplicity, clear counters and visual rhythm take priority over mechanical angle matching.
+- **Working font stays byte-identical v0.106** (Display Medium / Text Regular). Only Display uppercase A/А has the existing approved open crossbar; all rejected v0.107 extra cuts remain absent. No font binary, logo, clients, website or Arvectum OS altered.
+- Research into **XSoft** remains independent and **unapproved**, not included in v0.106. No further W changes unless the owner separately requests them.
 
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.

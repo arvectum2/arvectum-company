@@ -22,6 +22,12 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — original W preserved as an optical exception
+
+**Latest specific owner decision takes precedence over historical W experiments:** retain the **original uppercase Latin W from v0.106**, in both Display and Text, with its simple, recognizable original geometry. Do not introduce additional bends, kinks, interior shape complications, or substantial width growth simply to force all W strokes to α. Earlier WAlphaWide v0.108 (+~27% advance) and WAlphaBalanced v0.109 (+~12–13% advance) are **rejected as present working choices**; their technical pass and proof files remain historical evidence only.
+
+The two owner-adopted base design angles remain α=atan(φ²) and β=atan(φ). **Original W is an accepted letter-specific optical exception**, not a third base angle or a license to add arbitrary angles elsewhere. Optical and functional quality outrank numerical matching when the already good original needs no change. The currently active experimental typeface remains **exact v0.106** with a single signature opening only in Display capital A/А. XSoft remains separate unapproved research. No source binary or approved logo/product is changed.
+
 ## Two base angles — owner decision after v0.102
 
 The two independently developed Arvectum Display and Text optical masters share **exactly two base angles**, always measured from the horizontal, mirrored left/right as needed.
@@ -39,7 +45,7 @@ The approved Golden Wordmark C and monogram remain at their own β angle and the
 
 Audit each intentional **straight** major segment against its **assigned** family angle, not a universal α-only or β-only test. For newly built structural rails require ≤0.08° deviation as measured on saved CFF glyphs; use ±0.5° at major segment length ≥250 UPM for provisional diagnostic screening. Report α, β, unassigned and explicitly justified optical deviations separately; meeting either angle without family assignment is not acceptance.
 
-Old all-glyph α-only scan counts remain historical evidence and **do not establish dual-angle conformity**. Current v0.106 experimental measured result: α **32/32** and provisional β **32/32** per master for specifically assigned major straight segments, while thousands of inherited segments are unassigned and not fully design-reviewed. K/К and X/Х were constructed as beta candidates in v0.105; v0.106 unifies Latin K to the owner-preferred Cyrillic К short-horizontal two-branch fork. The K/К and X/Х family-angle mapping remains provisional, and W remains a separate alpha-design HOLD due width/counter constraints. Do not globally shear inherited Inter glyphs to match an angle: verify kerning, text wraps, Russian/Latin mixed content, Display 24–96px and Text 12–24px. No production implementation or owner glyph acceptance is implied.
+Old all-glyph α-only scan counts remain historical evidence and **do not establish dual-angle conformity**. Current v0.106 experimental measured result: α **32/32** and provisional β **32/32** per master for specifically assigned major straight segments, while thousands of inherited segments are unassigned and not fully design-reviewed. K/К and X/Х were constructed as beta candidates in v0.105; v0.106 unifies Latin K to the owner-preferred Cyrillic К short-horizontal two-branch fork. The K/К and X/Х family-angle mapping remains provisional, and W is now owner-selected to remain EXACTLY ORIGINAL as an optical exception; alpha-redraw experiments are rejected. Do not globally shear inherited Inter glyphs to match an angle: verify kerning, text wraps, Russian/Latin mixed content, Display 24–96px and Text 12–24px. No production implementation or owner glyph acceptance is implied.
 
 ## Unified uppercase Latin K and Cyrillic К — owner direction v0.106
 
