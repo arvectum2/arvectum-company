@@ -1,0 +1,131 @@
+{
+  "decision": "REJECT v0.107 open gaps and Fork/Direct alternatives. RESTORE v0.106 exactly.",
+  "font_source": "v0.106 existing binaries, NOT rebuilt",
+  "status": "rollback active experimental; not production",
+  "styles": {
+    "Display": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+      "sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+      "woff2": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.woff2",
+      "woff2_sha256": "37470b71edb0f7989cc4f1880d860442df8f9fc7307fbe4e94a17c554bb87d28",
+      "coverage_glyphs": 2937,
+      "unicode_positions": 2852,
+      "A_cyrillic_latin_same": true,
+      "capital_A_crossbar": "right-open in Display; closed in Text (unchanged optical design)",
+      "restored_ungapped_letters": {
+        "P": {
+          "formerly_gapped_coordinate_xy": [
+            247.0,
+            1170.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Р": {
+          "formerly_gapped_coordinate_xy": [
+            247.0,
+            1170.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ь": {
+          "formerly_gapped_coordinate_xy": [
+            247.0,
+            372.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ъ": {
+          "formerly_gapped_coordinate_xy": [
+            583.0,
+            372.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ы": {
+          "formerly_gapped_coordinate_xy": [
+            247.0,
+            372.0
+          ],
+          "restored_ink_solid": true
+        },
+        "R": {
+          "formerly_gapped_coordinate_xy": [
+            528.5,
+            658.5
+          ],
+          "restored_ink_solid": true
+        },
+        "Я": {
+          "formerly_gapped_coordinate_xy": [
+            778.5,
+            658.5
+          ],
+          "restored_ink_solid": true
+        }
+      },
+      "original_K_CyrK_and_Zh_restored": true
+    },
+    "Text": {
+      "otf": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+      "sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+      "woff2": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.woff2",
+      "woff2_sha256": "3a912b9109fbfb7a12686ef4ce8ba9518163bcf2398cbccb4925b446ef8bfd00",
+      "coverage_glyphs": 2937,
+      "unicode_positions": 2852,
+      "A_cyrillic_latin_same": true,
+      "capital_A_crossbar": "right-open in Display; closed in Text (unchanged optical design)",
+      "restored_ungapped_letters": {
+        "P": {
+          "formerly_gapped_coordinate_xy": [
+            238.0,
+            1227.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Р": {
+          "formerly_gapped_coordinate_xy": [
+            238.0,
+            1227.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ь": {
+          "formerly_gapped_coordinate_xy": [
+            238.0,
+            365.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ъ": {
+          "formerly_gapped_coordinate_xy": [
+            572.0,
+            365.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Ы": {
+          "formerly_gapped_coordinate_xy": [
+            238.0,
+            365.0
+          ],
+          "restored_ink_solid": true
+        },
+        "R": {
+          "formerly_gapped_coordinate_xy": [
+            478.0,
+            665.0
+          ],
+          "restored_ink_solid": true
+        },
+        "Я": {
+          "formerly_gapped_coordinate_xy": [
+            817.0,
+            665.0
+          ],
+          "restored_ink_solid": true
+        }
+      },
+      "original_K_CyrK_and_Zh_restored": true
+    }
+  }
+}

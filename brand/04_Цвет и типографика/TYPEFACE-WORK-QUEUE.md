@@ -1,9 +1,9 @@
 # Golden Step — current typeface work queue
 
-Updated 2026-11-22. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
+Updated 2026-11-23. A durable working-status document, not a revision of pinned Brand Roadmap or owner design acceptance.
 
 ## Working candidate and historical baseline
-- **Current experimental fonts v0.107: TWO working variants per optical master (Fork and Direct).** Fork retains old K/К and Ж with horizontal connectors; Direct has narrower stem-connected diagonal K/К and mirrored compact Ж. Both have identical one-stroke gaps in P/Р upper upright, Ь/Ъ/**LEFT stem of Ы** lower upright, R/Я lower horizontal connector. The right standalone stem of Ы is intact. Angle grammar α=atan(φ²)=69.0948425521°, β=atan(φ)=58.2825255885°. Scoped major diagonal samples: Fork α32/32 β32/32; Direct α32/32 β40/40, each optical master. The owner has NOT selected which variant becomes the company typeface; technical PASS does not imply optical or production approval.
+- **Current active experimental font: RESTORED exact v0.106**, per explicit owner decision **23 November 2026**. Use the original Display Medium and Text Regular OTF/WOFF2, byte-identical to the pre-v0.107 baseline; Latin K and Cyrillic К retain the identical short-horizontal-fork shape, Ж retains its pre-experiment shape. **Only Display uppercase Latin A / Cyrillic А retain the signature right-open bar.** Text A/А remains closed. P/Р, Ь/Ъ/Ы, R/Я are again fully joined. **v0.107 Fork/Direct and all its extra gaps are REJECTED, historical only**, not active candidates. Existing α/β design grammar, X/Х and W backlog remain separately open; owner has not approved production or final typeface release.
 - **Historical v0.64 baseline (not current):** Display Medium and Text Regular; 212 codepoint positions/style; 85 explicit pair kerning adjustments/style; kern/mark/mkmk, inherited OS/2/hhea vertical metrics from v0.58. Technical Mac baseline for the next optical owner review, NOT production approved.
 - **Historical baseline only:** older v0.64–v0.68 work used the 58.2825° atan φ logo angle for prominent letter studies. This does not supersede the current v0.101 compact font target atan(φ²)=69.0948°. The approved logo still retains its distinct original 58.2825° design.
 
@@ -235,6 +235,14 @@ Updated 2026-11-22. A durable working-status document, not a revision of pinned 
 - Оригинальные утверждённые углы сохранены: α=atan(φ²)=69,0948425521°, β=atan(φ)=58,2825255885°. Назначенные крупные диагонали: **Fork α32/32, β32/32; Direct α32/32, β40/40** в каждом оптическом мастере. Другие унаследованные штрихи не утверждены.
 - Собраны 4 OTF и 4 WOFF2 с полной взаимной контурной идентичностью по всем 2937 глифам, реальный 8-страничный сравнительный PDF со словами и Text 12–32 px, SVG-контуры, независимый QA, полный CSV/JSON-аудит, SHA256 и воспроизводимые исходники.
 - **OPEN:** выбор Fork vs Direct и оптическое поведение проёмов на реальном экране, мелкий Text, кернинг Direct, массив других исходных глифов, прежний X/Х и W HOLD, законность/лицензия/Windows/PDF-X. Старый v0.106, утверждённый Wordmark C, production, заказчики и Arvectum OS не изменялись.
+
+## 23 November 2026 — rejection of v0.107 and exact restoration of v0.106
+
+- Owner rejected the A-style cut for P/Р, Ь/Ъ/Ы and R/Я and rejected both newly proposed Fork/Direct K/К and Ж configurations. **Do not continue development from v0.107** or treat it as the active font.
+- Active experimental source is **exact original v0.106**, with unchanged source binary hashes, 2937 glyphs and 2852 Unicode per master. Restored full strokes in P/Р, Ь/Ъ/Ы, R/Я and the owner-preferred pre-v0.107 K/К + Ж.
+- **Only capital A/А in Display** retains the right-open, diagonally cut crossbar; Text A/А stays closed per existing optical contract.
+- The rejection is captured in Arvectum-Typeface-v0.106/RESTORE-DECISION-2026-11-23.md, the source/hash verification and two-page rendered owner comparison. v0.107 remains immutable as historical proof, NOT an approved or active variant.
+- Approved logo/Wordmark, customer/production assets and Arvectum OS were not changed. Type family still requires whole-font optical/kerning/release approval.
 
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.

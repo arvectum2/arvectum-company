@@ -49,7 +49,17 @@ The chosen fork has an intentional **constructive visual relationship to the Cyr
 
 Use the two owner-adopted base angles for assigned straight strokes (K/К beta remains experimental under the broader family mapping). Keep the v0.102 Display A/А parallel slanted cut and one-leg gap rule, unchanged prior source versions, and owner review/approval boundary.
 
-## Working construction alternatives and one-stroke breaks — owner direction v0.107
+## Owner rejection 23 November 2026 — v0.107 not current
+
+**Explicit superseding owner decision:** the experiment of multiplying A's signature gap to P/Р, Ь/Ъ/Ы and R/Я is **REJECTED**. The associated Fork/Direct variants of K/К and Ж are **REJECTED** as current working choices. No new slot/gap is authorized in any glyph except capital Latin A and Cyrillic А in **Display**, with the original v0.102 right-open crossbar and its parallel one-stroke terminal cut. The **Text A/А bar stays closed**, preserving the earlier independent optical master.
+
+**Current active experimental typeface is the exact v0.106 Display Medium + Text Regular binary baseline.** It has original, fully connected P/Р, Ь/Ъ/Ы, R/Я and the prior unified K/К with horizontal stub plus unchanged Ж. Source SHA256 and all contours are preserved. v0.107 remains in Git for historical evidence, **not** a second active version, approved change, or release candidate.
+
+This later owner decision takes precedence over the obsolete experimental requirements below. Those requirements are preserved solely as rejected design history, NOT as live instructions.
+
+*Historical specification retained for provenance:*
+
+### REJECTED historical v0.107 geometry (do not implement)
 
 Retain **TWO parallel, real-font working variants** for uppercase Ж and Latin/Cyrillic K/К, independently in Display and Text. Both variants inherit the same existing, owner-directed two-angle grammar. **Fork v1** keeps current K/К short horizontal stem connector and existing Ж horizontal connections. **Direct v2** removes the horizontal connectors, making narrower K/К with diagonal arms leaving the stem directly, and a correspondingly compact bilaterally symmetrical Ж. Neither is silently selected as corporate default or owner-optically approved.
 
