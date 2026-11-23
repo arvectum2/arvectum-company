@@ -1,0 +1,70 @@
+{
+  "version": "0.121",
+  "scope": "measured Cyrillic Ги/Гн phrase rhythm, 2 pair deltas per optical master",
+  "owner_decision_2026_11_23": "3 and Cyrillic З may look similar. No requirement for artificial distinction; both forms preserved.",
+  "CFF_changed_paths_per_master": 0,
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.120/otf/ArvectumGoldenStepDisplayLanguageRhythmWorking0120-Medium.otf",
+      "source_sha256": "2a1fafdb09625bbbc7f61808744a2dfadfb79a1d8b41e2d775ceb96e6c74fd2e",
+      "output": "otf/ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium.otf",
+      "output_sha256": "07cc96a67b5c0c1b381909339b6d95328ac775d7ae9d8ef214da1a1d5339dfcd",
+      "GPOS_addition": {
+        "lookup_index": 13,
+        "features": [
+          1,
+          2
+        ],
+        "pairs": [
+          {
+            "pair": "Ги",
+            "glyphs": [
+              "uni0413",
+              "uni0438"
+            ],
+            "xadvance_delta_UPM": -235
+          },
+          {
+            "pair": "Гн",
+            "glyphs": [
+              "uni0413",
+              "uni043D"
+            ],
+            "xadvance_delta_UPM": -235
+          }
+        ]
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.120/otf/ArvectumGoldenStepTextLanguageRhythmWorking0120-Regular.otf",
+      "source_sha256": "03822c887fd8ba452306a16c10301072f3107fc4981060ddb15d10ba2ac2ac5f",
+      "output": "otf/ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular.otf",
+      "output_sha256": "d81127be6523a1e0dd2971a4b59c8dd309410ebe8dfd68b227a2ea487ca00277",
+      "GPOS_addition": {
+        "lookup_index": 13,
+        "features": [
+          1,
+          2
+        ],
+        "pairs": [
+          {
+            "pair": "Ги",
+            "glyphs": [
+              "uni0413",
+              "uni0438"
+            ],
+            "xadvance_delta_UPM": -235
+          },
+          {
+            "pair": "Гн",
+            "glyphs": [
+              "uni0413",
+              "uni043D"
+            ],
+            "xadvance_delta_UPM": -235
+          }
+        ]
+      }
+    }
+  }
+}

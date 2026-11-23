@@ -1,0 +1,76 @@
+{
+  "status": "PASS synthetic unchanged-content carriers; not artistic or legal release",
+  "cases": {
+    "letter": {
+      "old": {
+        "docWidth": 1160,
+        "height": 1173,
+        "bodyText": 650
+      },
+      "new": {
+        "docWidth": 1160,
+        "height": 1173,
+        "bodyText": 650
+      }
+    },
+    "proposal": {
+      "old": {
+        "docWidth": 1160,
+        "height": 2323,
+        "bodyText": 1567
+      },
+      "new": {
+        "docWidth": 1160,
+        "height": 2323,
+        "bodyText": 1567
+      }
+    },
+    "mobile": {
+      "old": {
+        "docWidth": 390,
+        "height": 1831,
+        "bodyText": 712
+      },
+      "new": {
+        "docWidth": 390,
+        "height": 1831,
+        "bodyText": 712
+      }
+    }
+  },
+  "pixel_differences": {
+    "letter-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.0,
+      "changed_pixels": 0
+    },
+    "proposal-page-1": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.0,
+      "changed_pixels": 0
+    },
+    "proposal-page-2": {
+      "size": [
+        868,
+        1228
+      ],
+      "pixel_change_pct_threshold12": 0.0,
+      "changed_pixels": 0
+    },
+    "mobile": {
+      "size": [
+        390,
+        1831
+      ],
+      "pixel_change_pct_threshold12": 0.0,
+      "changed_pixels": 0
+    }
+  },
+  "font_parity": true
+}

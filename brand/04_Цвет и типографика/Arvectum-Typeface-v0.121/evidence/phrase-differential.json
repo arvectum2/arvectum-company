@@ -1,0 +1,277 @@
+{
+  "current": "0.121",
+  "baseline": "0.120",
+  "scope": "synthetic A/B only, no customer data, not optical owner signoff",
+  "masters": {
+    "Display": {
+      "categories": {
+        "ru_headings": [
+          {
+            "text": "Гибридная система управления",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Гнездо тестов и графики",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Главный инженер и генеральный директор",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Гражданский договор, гарантия, город",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "ru_document": [
+          {
+            "text": "Гибридный процесс обеспечивает контроль исполнения.",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Гнездо данных и главное управление формируют отчёты.",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Предложение содержит стоимость работ, График поставки, номер счёта.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Акт оказанных услуг подписывается после завершения приёмки.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "en_document": [
+          {
+            "text": "Arvectum provides governed work and transparent automation.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Trustworthy workflows, analytics, security and knowledge.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "TURNKEY, TRADE, ALWAYS, PAYMENTS, ARVECTUM.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "finance": [
+          {
+            "text": "Договор № 123/26 от 23.11.2026",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "125 000 ₽ · НДС 0% · 7%, 12 345,67 ₽.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "КП: 1 234 567,89 ₽; 17:45; № 2026/31",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Номер счёта: 1234567890 · дата 23.11.2026",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "url": [
+          {
+            "text": "arvectum.com/reports/2026/11",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "https://arvectum.com/company/2026?lang=ru",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "info@arvectum.com",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "protected": [
+          {
+            "text": "3/З · 33 · ЗЗ",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "WÁ · АW · «А» · ₽. · ₽,",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "А К Х Ж М W X Y N",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ]
+      },
+      "controlled_lines_unchanged": 17,
+      "target_lines": 4,
+      "tabular_digits": {
+        "0": 1281,
+        "1": 761,
+        "2": 1175,
+        "3": 1240,
+        "4": 1292,
+        "5": 1197,
+        "6": 1219,
+        "7": 1079,
+        "8": 1214,
+        "9": 1219
+      }
+    },
+    "Text": {
+      "categories": {
+        "ru_headings": [
+          {
+            "text": "Гибридная система управления",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Гнездо тестов и графики",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Главный инженер и генеральный директор",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Гражданский договор, гарантия, город",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "ru_document": [
+          {
+            "text": "Гибридный процесс обеспечивает контроль исполнения.",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Гнездо данных и главное управление формируют отчёты.",
+            "changed_target_occurrences": 1,
+            "advance_delta_UPM": -235
+          },
+          {
+            "text": "Предложение содержит стоимость работ, График поставки, номер счёта.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Акт оказанных услуг подписывается после завершения приёмки.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "en_document": [
+          {
+            "text": "Arvectum provides governed work and transparent automation.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Trustworthy workflows, analytics, security and knowledge.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "TURNKEY, TRADE, ALWAYS, PAYMENTS, ARVECTUM.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "finance": [
+          {
+            "text": "Договор № 123/26 от 23.11.2026",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "125 000 ₽ · НДС 0% · 7%, 12 345,67 ₽.",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "КП: 1 234 567,89 ₽; 17:45; № 2026/31",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "Номер счёта: 1234567890 · дата 23.11.2026",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "url": [
+          {
+            "text": "arvectum.com/reports/2026/11",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "https://arvectum.com/company/2026?lang=ru",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "info@arvectum.com",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ],
+        "protected": [
+          {
+            "text": "3/З · 33 · ЗЗ",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "WÁ · АW · «А» · ₽. · ₽,",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          },
+          {
+            "text": "А К Х Ж М W X Y N",
+            "changed_target_occurrences": 0,
+            "advance_delta_UPM": 0
+          }
+        ]
+      },
+      "controlled_lines_unchanged": 17,
+      "target_lines": 4,
+      "tabular_digits": {
+        "0": 1256,
+        "1": 742,
+        "2": 1149,
+        "3": 1226,
+        "4": 1265,
+        "5": 1181,
+        "6": 1196,
+        "7": 1056,
+        "8": 1192,
+        "9": 1196
+      }
+    }
+  }
+}

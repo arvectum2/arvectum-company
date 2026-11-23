@@ -1,0 +1,14 @@
+{
+  "Display": {
+    "woff2": "otf/ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium.woff2",
+    "sha256": "355ef4bc5f45f6e156bcce289c693afceedcb940a85b8ee69f03170fbf191e23",
+    "matching_glyphs": 2937,
+    "layout_tables_identical": true
+  },
+  "Text": {
+    "woff2": "otf/ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular.woff2",
+    "sha256": "5cfa262b0cd698c515c0c4438b671c230ea297fa45094d6daab3c3522054fcd6",
+    "matching_glyphs": 2937,
+    "layout_tables_identical": true
+  }
+}

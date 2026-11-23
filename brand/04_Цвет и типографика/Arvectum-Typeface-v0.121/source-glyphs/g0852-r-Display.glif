@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r" format="2">
+  <advance width="695"/>
+  <unicode hex="0072"/>
+  <note>
+Golden Step v0.121 Display, exact SAVED CFF contour
+</note>
+  <outline>
+    <contour>
+      <point x="119" y="0" type="line"/>
+      <point x="330" y="0" type="line"/>
+      <point x="330" y="624" type="line" smooth="yes"/>
+      <point x="330" y="796"/>
+      <point x="427" y="877"/>
+      <point x="546" y="877" type="curve" smooth="yes"/>
+      <point x="595" y="877"/>
+      <point x="641" y="870"/>
+      <point x="657" y="867" type="curve"/>
+      <point x="657" y="1064" type="line"/>
+      <point x="640" y="1066"/>
+      <point x="612" y="1069"/>
+      <point x="580" y="1069" type="curve" smooth="yes"/>
+      <point x="446" y="1069"/>
+      <point x="364" y="1000"/>
+      <point x="325" y="885" type="curve"/>
+      <point x="321" y="885" type="line"/>
+      <point x="321" y="1056" type="line"/>
+      <point x="119" y="1056" type="line"/>
+    </contour>
+  </outline>
+</glyph>

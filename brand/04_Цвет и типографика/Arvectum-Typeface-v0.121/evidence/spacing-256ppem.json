@@ -1,0 +1,35 @@
+{
+  "scope": "2 changed pairs plus conservative unchanged controls, 256ppem ink gap; not global kerning",
+  "masters": {
+    "Display": {
+      "measured_pairs": 28,
+      "new_negative": [],
+      "changed": {
+        "Гн": {
+          "before_px": 85.75,
+          "after_px": 56.38
+        },
+        "Ги": {
+          "before_px": 85.75,
+          "after_px": 56.38
+        }
+      },
+      "unmodified_controls_exact": true
+    },
+    "Text": {
+      "measured_pairs": 28,
+      "new_negative": [],
+      "changed": {
+        "Гн": {
+          "before_px": 87.5,
+          "after_px": 58.12
+        },
+        "Ги": {
+          "before_px": 87.5,
+          "after_px": 58.12
+        }
+      },
+      "unmodified_controls_exact": true
+    }
+  }
+}
