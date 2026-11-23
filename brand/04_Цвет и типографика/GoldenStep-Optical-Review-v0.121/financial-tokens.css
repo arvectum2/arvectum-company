@@ -1,0 +1,24 @@
+/* Golden Step v0.121 internal typography tokens — document/layout only, not a font change. */
+@font-face {
+  font-family: "ArvectumTextAudit";
+  src: url("../Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "ArvectumDisplayAudit";
+  src: url("../Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+:root {
+  --arv-font-text: "ArvectumTextAudit", sans-serif;
+  --arv-font-display: "ArvectumDisplayAudit", sans-serif;
+  --arv-number-feature-body: proportional-nums;
+  --arv-number-feature-table: tabular-nums;
+}
+.arv-type-text {font-family:var(--arv-font-text)}
+.arv-type-display {font-family:var(--arv-font-display);font-weight:500}
+.arv-financial-value {font-family:var(--arv-font-text);font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1}
+.arv-financial-column {text-align:right; font-variant-numeric:tabular-nums; font-feature-settings:"tnum" 1}
+.arv-financial-aligned {display:inline-grid;grid-template-columns:10ch .65ch 2ch 1.5ch;column-gap:.15em;align-items:baseline;justify-content:end;text-align:right;white-space:nowrap}
+.arv-financial-aligned .currency {text-align:left;padding-left:.15em}
+.arv-financial-aligned .decimal {text-align:center}

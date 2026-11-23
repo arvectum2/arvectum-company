@@ -1,0 +1,96 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Golden Step v0.121 financial / optical review</title><link rel="stylesheet" href="financial-tokens.css"/>
+<style>
+@page {size:A4 landscape;margin:0}
+*{box-sizing:border-box}
+body{margin:0;color:#163446;background:#fff;font:15px/1.36 "ArvectumTextAudit",sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.page{width:297mm;height:210mm;break-after:page;padding:12mm 14mm;overflow:hidden}
+.page:last-child{break-after:auto}
+header{display:flex;justify-content:space-between;align-items:end;border-bottom:2px solid #009e90;padding-bottom:7px}
+h1{font:500 25px "ArvectumDisplayAudit";margin:0}
+h2{font:500 17px "ArvectumDisplayAudit";margin:5px 0 8px}
+small,.note{font:12px/1.45 Arial,sans-serif;color:#657b87}
+.info{font:13px/1.4 Arial,sans-serif;color:#4f6571;margin:9px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+.panel{border:1px solid #cadae0;border-radius:5px;padding:12px 15px;background:#fcfdfd;min-width:0}
+.panel.positive{border:2px solid #009e90;padding:11px 14px}
+.amounts{border-collapse:collapse;width:100%}
+.amounts td{padding:6px 7px;border-bottom:1px solid #dfebee}
+.amounts td:first-child{width:42%;font-size:13px}
+.amounts td:nth-child(2){text-align:right;white-space:nowrap}
+.amounts tr:last-child td{border-bottom:0}
+.samples{font:18px/1.5 "ArvectumTextAudit"}
+.samples div{white-space:nowrap}
+.diff{border-left:4px solid #009e90;padding:6px 10px;background:#edf8f7;margin-top:9px;font:12px/1.4 Arial,sans-serif}
+table.split{width:100%;border-collapse:collapse}
+table.split td{border-bottom:1px solid #e1edef;padding:4px 8px}
+table.split td:nth-child(1){width:52%;font:13px Arial}
+table.split td:nth-child(2){text-align:right}
+.row-num{font-family:"ArvectumTextAudit";white-space:nowrap}
+footer{margin-top:15px;font:11px Arial;color:#68818c;border-top:1px solid #cdd8dc;padding-top:7px}
+.polish{font:500 42px/1.4 "ArvectumDisplayAudit";white-space:nowrap}
+.polish-small{font:20px/1.4 "ArvectumTextAudit";white-space:nowrap}
+@media screen and (max-width:1200px) {
+  .page{width:100%;height:auto;min-height:0;padding:16px;break-after:auto;overflow:visible}
+  .grid{display:block}.panel{margin:10px 0}
+  h1{font-size:20px}.samples{font-size:15px}
+  .samples div{white-space:normal;overflow-wrap:anywhere}
+  .polish{font-size:22px;white-space:normal}
+  .polish-small{font-size:14px;white-space:normal}
+  .arv-financial-aligned{grid-template-columns:8ch .55ch 2ch 1.1ch}
+  .amounts td:first-child{width:auto}
+}
+</style></head>
+<body>
+<section class="page" id="finance">
+<header><h1>Golden Step v0.121 · Числовые таблицы</h1><small>Internal specimen · Display Medium / Text Regular</small></header>
+<p class="info">Исходный набор — пропорциональные цифры. Для расчётов и сравнения сумм используется уже существующая GSUB-функция <strong>tnum</strong> с равным продвижением всех десяти цифр.</p>
+<div class="grid">
+<div class="panel" id="proportional"><h2>Обычные цифры · без tnum</h2>
+<table class="amounts"><tbody>
+<tr><td>Услуга 1</td><td><span class="measure-prop" data-prop>1 111,11 ₽</span></td></tr>
+<tr><td>Услуга 2</td><td>3 333,33 ₽</td></tr>
+<tr><td>Услуга 3</td><td><span class="measure-prop" data-prop>9 999,99 ₽</span></td></tr>
+<tr><td>Услуга 4</td><td>1 000,00 ₽</td></tr>
+<tr><td>Услуга 5</td><td>7 777,77 ₽</td></tr>
+</tbody></table></div>
+<div class="panel positive" id="tabular"><h2>Табличные цифры · tnum</h2>
+<table class="amounts arv-financial-column"><tbody>
+<tr><td>Услуга 1</td><td><span data-tab>1 111,11 ₽</span></td></tr>
+<tr><td>Услуга 2</td><td>3 333,33 ₽</td></tr>
+<tr><td>Услуга 3</td><td><span data-tab>9 999,99 ₽</span></td></tr>
+<tr><td>Услуга 4</td><td>1 000,00 ₽</td></tr>
+<tr><td>Услуга 5</td><td>7 777,77 ₽</td></tr>
+</tbody></table></div>
+</div>
+<p class="diff">В регулярном тексте остаются пропорциональные цифры. В денежном столбце следует включать tabular-nums; при точном выравнивании по разделителю целую и дробную части раскладывать по фиксированным колонкам.</p>
+<h2>Выравнивание десятичного разделителя</h2>
+<table class="split"><tbody>
+<tr><td>Консультационные работы</td><td><span class="arv-financial-aligned arv-financial-value"><span>1 111</span><span class="decimal">,</span><span>11</span><span class="currency">₽</span></span></td></tr>
+<tr><td>Разработка и тестирование</td><td><span class="arv-financial-aligned arv-financial-value"><span>9 999</span><span class="decimal">,</span><span>99</span><span class="currency">₽</span></span></td></tr>
+<tr><td>Эксплуатация</td><td><span class="arv-financial-aligned arv-financial-value"><span>3 333</span><span class="decimal">,</span><span>33</span><span class="currency">₽</span></span></td></tr>
+</tbody></table>
+<footer>QA: genuine v0.121 WOFF2; no font outlines, name tables or production styles modified.</footer>
+</section>
+<section class="page" id="optical">
+<header><h1>W / A / M / Ą · оптическая проверка</h1><small>Polish and Latin accented specimen</small></header>
+<p class="info">Сравнение оригинальных контуров двух мастеров и работы диакритики в реальных сочетаниях. Ą не должна автоматически наследовать фирменный разрыв базовой Display A.</p>
+<div class="grid">
+<div class="panel"><h2>Display Medium · 42px</h2>
+<div class="polish">WĄTEK · MĄKA</div><div class="polish">WĄSKI · WAM</div><div class="polish">WA · WĄ · WÁ</div>
+<div class="diff">Действительная замкнутая Ą с присоединённым ogonek. Базовая Display A имеет единственную фирменную прорезь.</div></div>
+<div class="panel positive"><h2>Text Regular · 20px</h2>
+<div class="polish-small">WĄTEK · MĄKA · WĄSKI</div>
+<div class="polish-small">WĄTEK · MĄKA · WĄSKI</div>
+<div class="polish-small">WA WĄ WÁ · ĄW ÁW</div>
+<div class="polish-small">WAM WĄM WÁM · WM MW</div>
+<div class="diff">Контроль формы ogonek и горизонтального ритма при обычных кеглях.</div></div>
+</div>
+<h2>Набор и пунктуация, смешанные сценарии</h2>
+<div class="samples">
+<div>ARVECTUM · WORKFLOW · PAYMENT · MAINTENANCE</div>
+<div>Проверка № 123/26: 125 000 ₽ · 6% · «Гибридный проект»</div>
+<div>Ссылка: arvectum.com/reports/2026/11 · 2026-11-23</div>
+</div>
+<footer>Engineering visual sample only; do not infer artistic sign-off, print qualification or official license clearance.</footer>
+</section>
+</body></html>

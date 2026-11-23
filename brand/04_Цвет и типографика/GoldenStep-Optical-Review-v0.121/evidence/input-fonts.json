@@ -1,0 +1,22 @@
+{
+  "source_commit": "3098566b4b746e7d8a79ab23de1cec55ffb7b18f",
+  "working_font": "v0.121 unchanged",
+  "font_sources": {
+    "Display-otf": {
+      "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium.otf",
+      "sha256": "07cc96a67b5c0c1b381909339b6d95328ac775d7ae9d8ef214da1a1d5339dfcd"
+    },
+    "Display-woff2": {
+      "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium.woff2",
+      "sha256": "355ef4bc5f45f6e156bcce289c693afceedcb940a85b8ee69f03170fbf191e23"
+    },
+    "Text-otf": {
+      "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular.otf",
+      "sha256": "d81127be6523a1e0dd2971a4b59c8dd309410ebe8dfd68b227a2ea487ca00277"
+    },
+    "Text-woff2": {
+      "path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.121/otf/ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular.woff2",
+      "sha256": "5cfa262b0cd698c515c0c4438b671c230ea297fa45094d6daab3c3522054fcd6"
+    }
+  }
+}

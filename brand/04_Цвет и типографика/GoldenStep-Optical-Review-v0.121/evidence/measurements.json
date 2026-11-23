@@ -1,0 +1,359 @@
+{
+  "font": "v0.121",
+  "measurement_ppem": 256,
+  "coverage": "selected real glyphs only",
+  "faces": {
+    "Display": {
+      "pairs_gap_px": {
+        "WA": 46.75,
+        "AW": 48.25,
+        "WM": 18.25,
+        "MW": 18.62,
+        "AM": 32.0,
+        "MA": 18.62,
+        "WĄ": 46.75,
+        "ĄW": 58.5,
+        "WÁ": 46.75,
+        "ÁW": 58.5,
+        "MĄ": 18.62,
+        "ĄM": 32.0
+      },
+      "finance": {
+        "1 111,11 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              761,
+              761,
+              761,
+              761,
+              761,
+              761
+            ],
+            "total_advance_upm": 7190
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        },
+        "3 333,33 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1240,
+              1240,
+              1240,
+              1199,
+              1240,
+              1240
+            ],
+            "total_advance_upm": 10206
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        },
+        "9 999,99 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1219,
+              1219,
+              1219,
+              1164,
+              1219,
+              1219
+            ],
+            "total_advance_upm": 10072
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        },
+        "0 000,00 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1281,
+              1281,
+              1281,
+              1226,
+              1281,
+              1281
+            ],
+            "total_advance_upm": 10407
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        },
+        "1 000,00 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              761,
+              1281,
+              1281,
+              1226,
+              1281,
+              1281
+            ],
+            "total_advance_upm": 9887
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        },
+        "7 777,77 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1079,
+              1119,
+              1119,
+              823,
+              1119,
+              1079
+            ],
+            "total_advance_upm": 9129
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10958
+          }
+        }
+      },
+      "A_bounds": [
+        20,
+        0,
+        1360.0,
+        1490
+      ],
+      "Aogonek_bounds": [
+        20,
+        -418,
+        1360.0,
+        1490
+      ],
+      "ratio_W_over_M": 1.28579,
+      "default_digits_have_variable_widths": true
+    },
+    "Text": {
+      "pairs_gap_px": {
+        "WA": 49.0,
+        "AW": 51.75,
+        "WM": 20.0,
+        "MW": 20.5,
+        "AM": 33.0,
+        "MA": 20.5,
+        "WĄ": 49.0,
+        "ĄW": 62.0,
+        "WÁ": 49.0,
+        "ÁW": 62.0,
+        "MĄ": 20.5,
+        "ĄM": 33.0
+      },
+      "finance": {
+        "1 111,11 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              742,
+              742,
+              742,
+              742,
+              742,
+              742
+            ],
+            "total_advance_upm": 7077
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        },
+        "3 333,33 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1226,
+              1226,
+              1226,
+              1180,
+              1226,
+              1226
+            ],
+            "total_advance_upm": 10115
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        },
+        "9 999,99 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1196,
+              1196,
+              1196,
+              1144,
+              1196,
+              1196
+            ],
+            "total_advance_upm": 9935
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        },
+        "0 000,00 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1256,
+              1256,
+              1256,
+              1204,
+              1256,
+              1256
+            ],
+            "total_advance_upm": 10257
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        },
+        "1 000,00 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              742,
+              1256,
+              1256,
+              1204,
+              1256,
+              1256
+            ],
+            "total_advance_upm": 9743
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        },
+        "7 777,77 ₽": {
+          "default": {
+            "digit_advances_upm": [
+              1056,
+              1096,
+              1096,
+              800,
+              1096,
+              1056
+            ],
+            "total_advance_upm": 8996
+          },
+          "tnum": {
+            "digit_advances_upm": [
+              1320,
+              1320,
+              1320,
+              1320,
+              1320,
+              1320
+            ],
+            "total_advance_upm": 10921
+          }
+        }
+      },
+      "A_bounds": [
+        20,
+        0,
+        1360,
+        1490
+      ],
+      "Aogonek_bounds": [
+        20,
+        -418,
+        1359.999984741211,
+        1490
+      ],
+      "ratio_W_over_M": 1.29385,
+      "default_digits_have_variable_widths": true
+    }
+  }
+}

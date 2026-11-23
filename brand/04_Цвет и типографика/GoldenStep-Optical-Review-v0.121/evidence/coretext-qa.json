@@ -1,0 +1,89 @@
+{
+  "masters" : [
+    {
+      "checked_lines" : [
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 26,
+          "sample" : "WĄTEK · MĄKA · WĄSKI · WAM",
+          "width_pt" : 288.515625
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 27,
+          "sample" : "ĄW · WĄ · WÁ · WA · WM · MW",
+          "width_pt" : 288.642578125
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 35,
+          "sample" : "Гибридная система · Главный инженер",
+          "width_pt" : 359.453125
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 32,
+          "sample" : "125 000 ₽ · 6% · № 123\/26 · 2026",
+          "width_pt" : 297.44140625
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 29,
+          "sample" : "ARVECTUM · WORKFLOW · PAYMENT",
+          "width_pt" : 349.86328125
+        }
+      ],
+      "face" : "Display",
+      "mapped_required_unicode" : 13,
+      "postscript_name" : "ArvectumGoldenStepDisplayPhraseRhythmWorking0121-Medium"
+    },
+    {
+      "checked_lines" : [
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 26,
+          "sample" : "WĄTEK · MĄKA · WĄSKI · WAM",
+          "width_pt" : 287.28515625
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 27,
+          "sample" : "ĄW · WĄ · WÁ · WA · WM · MW",
+          "width_pt" : 289.39453125
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 35,
+          "sample" : "Гибридная система · Главный инженер",
+          "width_pt" : 352.099609375
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 32,
+          "sample" : "125 000 ₽ · 6% · № 123\/26 · 2026",
+          "width_pt" : 294.091796875
+        },
+        {
+          "ascent" : 19.375,
+          "descent" : 4.82421875,
+          "glyph_count" : 29,
+          "sample" : "ARVECTUM · WORKFLOW · PAYMENT",
+          "width_pt" : 347.32421875
+        }
+      ],
+      "face" : "Text",
+      "mapped_required_unicode" : 13,
+      "postscript_name" : "ArvectumGoldenStepTextPhraseRhythmWorking0121-Regular"
+    }
+  ],
+  "scope" : "native CoreText OTF file load\/layout and one-page Quartz PDF; no font registration or PDF\/X claim"
+}

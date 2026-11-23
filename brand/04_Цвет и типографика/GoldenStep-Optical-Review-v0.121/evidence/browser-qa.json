@@ -1,0 +1,113 @@
+{
+  "390": {
+    "metrics": {
+      "vw": 390,
+      "docWidth": 390,
+      "docHeight": 1732,
+      "loaded": [
+        "ArvectumTextAudit",
+        "ArvectumDisplayAudit"
+      ],
+      "bodyLen": 1805,
+      "variant": "tabular-nums",
+      "feature": "\"tnum\"",
+      "default111": 78.265625,
+      "default888": 125.71875,
+      "table111": 139.21875,
+      "table888": 139.21875,
+      "sampleLetters": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pages": [
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 917
+        },
+        {
+          "width": 390,
+          "clientWidth": 390,
+          "height": 815
+        }
+      ]
+    },
+    "image_bytes": 165922
+  },
+  "768": {
+    "metrics": {
+      "vw": 768,
+      "docWidth": 768,
+      "docHeight": 1458,
+      "loaded": [
+        "ArvectumTextAudit",
+        "ArvectumDisplayAudit"
+      ],
+      "bodyLen": 1805,
+      "variant": "tabular-nums",
+      "feature": "\"tnum\"",
+      "default111": 78.265625,
+      "default888": 125.71875,
+      "table111": 139.21875,
+      "table888": 139.21875,
+      "sampleLetters": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pages": [
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "height": 811
+        },
+        {
+          "width": 768,
+          "clientWidth": 768,
+          "height": 647
+        }
+      ]
+    },
+    "image_bytes": 177639
+  },
+  "1440": {
+    "metrics": {
+      "vw": 1440,
+      "docWidth": 1440,
+      "docHeight": 1587,
+      "loaded": [
+        "ArvectumTextAudit",
+        "ArvectumDisplayAudit"
+      ],
+      "bodyLen": 1805,
+      "variant": "tabular-nums",
+      "feature": "\"tnum\"",
+      "default111": 78.265625,
+      "default888": 125.71875,
+      "table111": 139.21875,
+      "table888": 139.21875,
+      "sampleLetters": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "pages": [
+        {
+          "width": 1123,
+          "clientWidth": 1123,
+          "height": 794
+        },
+        {
+          "width": 1123,
+          "clientWidth": 1123,
+          "height": 794
+        }
+      ]
+    },
+    "image_bytes": 203672
+  }
+}
