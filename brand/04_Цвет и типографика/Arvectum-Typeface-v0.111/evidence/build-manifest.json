@@ -1,0 +1,233 @@
+{
+  "version": "0.111",
+  "status": "new working font with scoped W kerning; optical signoff pending",
+  "beta_target_deg": 58.2825255885,
+  "alpha_target_deg": 69.0948425521,
+  "X_Cyrillic_X": "source v0.110 exact same CFF paths, already 8 straight beta segments per glyph",
+  "scope": "only GPOS additive kerning for named pairs containing unaccented uppercase Latin W, no outline edits",
+  "source_evidence": "v0.111/evidence/kerning-baseline-raster-audit.json from Pillow FreeType + HarfBuzz 256 ppem",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.110/otf/ArvectumGoldenStepDisplayAlphaWWorking0110-Medium.otf",
+      "source_sha256": "57e910df4e7f1f12960870925593b59e109a046b9ee3034f29b5824667c9715e",
+      "output": "otf/ArvectumGoldenStepDisplayWKernsWorking0111-Medium.otf",
+      "output_sha256": "d459934a1e823e56728382a06612f12e9735b77f9e957d85045d4773b887e219",
+      "overlay": {
+        "overlay_lookup_index": 10,
+        "pair_additive_UPM": {
+          "WA": -80,
+          "AW": -80,
+          "WO": -56,
+          "OW": -56,
+          "WE": -40,
+          "WI": -40,
+          "WR": -40,
+          "WN": -40,
+          "WL": -40,
+          "IW": -40,
+          "NW": -40,
+          "RW": -40,
+          "EW": -16,
+          "LW": -48,
+          "W.": -96,
+          "W,": -96
+        },
+        "pair_source_glyphs": [
+          {
+            "left": "A",
+            "right": "W",
+            "delta_upm": -80
+          },
+          {
+            "left": "E",
+            "right": "W",
+            "delta_upm": -16
+          },
+          {
+            "left": "I",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "L",
+            "right": "W",
+            "delta_upm": -48
+          },
+          {
+            "left": "N",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "O",
+            "right": "W",
+            "delta_upm": -56
+          },
+          {
+            "left": "R",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "A",
+            "delta_upm": -80
+          },
+          {
+            "left": "W",
+            "right": "E",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "I",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "L",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "N",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "O",
+            "delta_upm": -56
+          },
+          {
+            "left": "W",
+            "right": "R",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "comma",
+            "delta_upm": -96
+          },
+          {
+            "left": "W",
+            "right": "period",
+            "delta_upm": -96
+          }
+        ],
+        "kern_features_updated": 2,
+        "other_old_kern_lookups_preserved": true
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.110/otf/ArvectumGoldenStepTextAlphaWWorking0110-Regular.otf",
+      "source_sha256": "6c4071c7d8ba0f08a0b2c330c2a35d830c310dfa482f9821f7a2089d6e6461b8",
+      "output": "otf/ArvectumGoldenStepTextWKernsWorking0111-Regular.otf",
+      "output_sha256": "235e11a4eaa08cf0c962a3d32d2a333e40b3462edae6739dfcd16b146ed311e1",
+      "overlay": {
+        "overlay_lookup_index": 10,
+        "pair_additive_UPM": {
+          "WA": -80,
+          "AW": -80,
+          "WO": -56,
+          "OW": -56,
+          "WE": -40,
+          "WI": -40,
+          "WR": -40,
+          "WN": -40,
+          "WL": -40,
+          "IW": -40,
+          "NW": -40,
+          "RW": -40,
+          "EW": -16,
+          "LW": -48,
+          "W.": -96,
+          "W,": -96
+        },
+        "pair_source_glyphs": [
+          {
+            "left": "A",
+            "right": "W",
+            "delta_upm": -80
+          },
+          {
+            "left": "E",
+            "right": "W",
+            "delta_upm": -16
+          },
+          {
+            "left": "I",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "L",
+            "right": "W",
+            "delta_upm": -48
+          },
+          {
+            "left": "N",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "O",
+            "right": "W",
+            "delta_upm": -56
+          },
+          {
+            "left": "R",
+            "right": "W",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "A",
+            "delta_upm": -80
+          },
+          {
+            "left": "W",
+            "right": "E",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "I",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "L",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "N",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "O",
+            "delta_upm": -56
+          },
+          {
+            "left": "W",
+            "right": "R",
+            "delta_upm": -40
+          },
+          {
+            "left": "W",
+            "right": "comma",
+            "delta_upm": -96
+          },
+          {
+            "left": "W",
+            "right": "period",
+            "delta_upm": -96
+          }
+        ],
+        "kern_features_updated": 2,
+        "other_old_kern_lookups_preserved": true
+      }
+    }
+  }
+}

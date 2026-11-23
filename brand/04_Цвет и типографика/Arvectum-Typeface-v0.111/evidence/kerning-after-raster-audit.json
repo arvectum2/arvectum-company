@@ -1,0 +1,487 @@
+{
+  "versions": "v0.106 original / v0.110 alpha W / v0.111 alpha W rekerning",
+  "method": "real HarfBuzz glyph advance + Pillow FreeType raster at 256 ppem",
+  "assessed_pairs": [
+    "WA",
+    "AW",
+    "WE",
+    "EW",
+    "WO",
+    "OW",
+    "WY",
+    "YW",
+    "WI",
+    "IW",
+    "WT",
+    "TW",
+    "WV",
+    "VW",
+    "WW",
+    "WR",
+    "RW",
+    "WN",
+    "NW",
+    "WL",
+    "LW",
+    "WX",
+    "XW",
+    "W.",
+    "W,"
+  ],
+  "faces": {
+    "Display": {
+      "WA": {
+        "actual_new_kerning_UPM": -220,
+        "additive_change_UPM": -80,
+        "median_ink_spacing_pixels_v0106": 47.0,
+        "median_ink_spacing_pixels_v0110": 57,
+        "median_ink_spacing_pixels_v0111": 47,
+        "minimum_ink_spacing_pixels_v0111": 47,
+        "closer_to_source_median": true
+      },
+      "AW": {
+        "actual_new_kerning_UPM": -220,
+        "additive_change_UPM": -80,
+        "median_ink_spacing_pixels_v0106": 60.0,
+        "median_ink_spacing_pixels_v0110": 70,
+        "median_ink_spacing_pixels_v0111": 60,
+        "minimum_ink_spacing_pixels_v0111": 59,
+        "closer_to_source_median": true
+      },
+      "WE": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54,
+        "median_ink_spacing_pixels_v0111": 49,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "EW": {
+        "actual_new_kerning_UPM": -16,
+        "additive_change_UPM": -16,
+        "median_ink_spacing_pixels_v0106": 119.0,
+        "median_ink_spacing_pixels_v0110": 124,
+        "median_ink_spacing_pixels_v0111": 122,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "WO": {
+        "actual_new_kerning_UPM": -103,
+        "additive_change_UPM": -56,
+        "median_ink_spacing_pixels_v0106": 37.0,
+        "median_ink_spacing_pixels_v0110": 45,
+        "median_ink_spacing_pixels_v0111": 38,
+        "minimum_ink_spacing_pixels_v0111": 23,
+        "closer_to_source_median": true
+      },
+      "OW": {
+        "actual_new_kerning_UPM": -103,
+        "additive_change_UPM": -56,
+        "median_ink_spacing_pixels_v0106": 37.0,
+        "median_ink_spacing_pixels_v0110": 45,
+        "median_ink_spacing_pixels_v0111": 38,
+        "minimum_ink_spacing_pixels_v0111": 24,
+        "closer_to_source_median": true
+      },
+      "WY": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 86.0,
+        "median_ink_spacing_pixels_v0110": 96,
+        "median_ink_spacing_pixels_v0111": 96,
+        "minimum_ink_spacing_pixels_v0111": 3,
+        "closer_to_source_median": true
+      },
+      "YW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 85.5,
+        "median_ink_spacing_pixels_v0110": 95,
+        "median_ink_spacing_pixels_v0111": 95,
+        "minimum_ink_spacing_pixels_v0111": 3,
+        "closer_to_source_median": true
+      },
+      "WI": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54.0,
+        "median_ink_spacing_pixels_v0111": 49.0,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "IW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54.0,
+        "median_ink_spacing_pixels_v0111": 49.0,
+        "minimum_ink_spacing_pixels_v0111": 14,
+        "closer_to_source_median": true
+      },
+      "WT": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 92.0,
+        "median_ink_spacing_pixels_v0110": 102.0,
+        "median_ink_spacing_pixels_v0111": 102.0,
+        "minimum_ink_spacing_pixels_v0111": 7,
+        "closer_to_source_median": true
+      },
+      "TW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 91.0,
+        "median_ink_spacing_pixels_v0110": 101.0,
+        "median_ink_spacing_pixels_v0111": 101.0,
+        "minimum_ink_spacing_pixels_v0111": 7,
+        "closer_to_source_median": true
+      },
+      "WV": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 64.0,
+        "median_ink_spacing_pixels_v0110": 74,
+        "median_ink_spacing_pixels_v0111": 74,
+        "minimum_ink_spacing_pixels_v0111": 3,
+        "closer_to_source_median": true
+      },
+      "VW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 64.5,
+        "median_ink_spacing_pixels_v0110": 74,
+        "median_ink_spacing_pixels_v0111": 74,
+        "minimum_ink_spacing_pixels_v0111": 4,
+        "closer_to_source_median": true
+      },
+      "WW": {
+        "actual_new_kerning_UPM": 32,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 58.0,
+        "median_ink_spacing_pixels_v0110": 78,
+        "median_ink_spacing_pixels_v0111": 78,
+        "minimum_ink_spacing_pixels_v0111": 7,
+        "closer_to_source_median": true
+      },
+      "WR": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54.0,
+        "median_ink_spacing_pixels_v0111": 49.0,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "RW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 51.0,
+        "median_ink_spacing_pixels_v0110": 59.0,
+        "median_ink_spacing_pixels_v0111": 54.0,
+        "minimum_ink_spacing_pixels_v0111": 23,
+        "closer_to_source_median": true
+      },
+      "WN": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54,
+        "median_ink_spacing_pixels_v0111": 49,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "NW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 43.0,
+        "median_ink_spacing_pixels_v0110": 53,
+        "median_ink_spacing_pixels_v0111": 48,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "WL": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 44.0,
+        "median_ink_spacing_pixels_v0110": 54.0,
+        "median_ink_spacing_pixels_v0111": 49.0,
+        "minimum_ink_spacing_pixels_v0111": 13,
+        "closer_to_source_median": true
+      },
+      "LW": {
+        "actual_new_kerning_UPM": -73,
+        "additive_change_UPM": -48,
+        "median_ink_spacing_pixels_v0106": 111.0,
+        "median_ink_spacing_pixels_v0110": 118.5,
+        "median_ink_spacing_pixels_v0111": 112.5,
+        "minimum_ink_spacing_pixels_v0111": 60,
+        "closer_to_source_median": true
+      },
+      "WX": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 64.5,
+        "median_ink_spacing_pixels_v0110": 79,
+        "median_ink_spacing_pixels_v0111": 79,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "XW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 64.5,
+        "median_ink_spacing_pixels_v0110": 80,
+        "median_ink_spacing_pixels_v0111": 80,
+        "minimum_ink_spacing_pixels_v0111": 9,
+        "closer_to_source_median": true
+      },
+      "W.": {
+        "actual_new_kerning_UPM": -293,
+        "additive_change_UPM": -96,
+        "median_ink_spacing_pixels_v0106": 36,
+        "median_ink_spacing_pixels_v0110": 55,
+        "median_ink_spacing_pixels_v0111": 43,
+        "minimum_ink_spacing_pixels_v0111": 40,
+        "closer_to_source_median": true
+      },
+      "W,": {
+        "actual_new_kerning_UPM": -293,
+        "additive_change_UPM": -96,
+        "median_ink_spacing_pixels_v0106": 37.5,
+        "median_ink_spacing_pixels_v0110": 57.0,
+        "median_ink_spacing_pixels_v0111": 45.0,
+        "minimum_ink_spacing_pixels_v0111": 42,
+        "closer_to_source_median": true
+      }
+    },
+    "Text": {
+      "WA": {
+        "actual_new_kerning_UPM": -200,
+        "additive_change_UPM": -80,
+        "median_ink_spacing_pixels_v0106": 50.0,
+        "median_ink_spacing_pixels_v0110": 60,
+        "median_ink_spacing_pixels_v0111": 50,
+        "minimum_ink_spacing_pixels_v0111": 49,
+        "closer_to_source_median": true
+      },
+      "AW": {
+        "actual_new_kerning_UPM": -200,
+        "additive_change_UPM": -80,
+        "median_ink_spacing_pixels_v0106": 62.0,
+        "median_ink_spacing_pixels_v0110": 72,
+        "median_ink_spacing_pixels_v0111": 62,
+        "minimum_ink_spacing_pixels_v0111": 62,
+        "closer_to_source_median": true
+      },
+      "WE": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.5,
+        "median_ink_spacing_pixels_v0110": 55,
+        "median_ink_spacing_pixels_v0111": 50,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "EW": {
+        "actual_new_kerning_UPM": -16,
+        "additive_change_UPM": -16,
+        "median_ink_spacing_pixels_v0106": 123.0,
+        "median_ink_spacing_pixels_v0110": 129,
+        "median_ink_spacing_pixels_v0111": 127,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "WO": {
+        "actual_new_kerning_UPM": -96,
+        "additive_change_UPM": -56,
+        "median_ink_spacing_pixels_v0106": 39.0,
+        "median_ink_spacing_pixels_v0110": 48,
+        "median_ink_spacing_pixels_v0111": 41,
+        "minimum_ink_spacing_pixels_v0111": 26,
+        "closer_to_source_median": true
+      },
+      "OW": {
+        "actual_new_kerning_UPM": -96,
+        "additive_change_UPM": -56,
+        "median_ink_spacing_pixels_v0106": 39.0,
+        "median_ink_spacing_pixels_v0110": 48,
+        "median_ink_spacing_pixels_v0111": 41,
+        "minimum_ink_spacing_pixels_v0111": 26,
+        "closer_to_source_median": true
+      },
+      "WY": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 87.0,
+        "median_ink_spacing_pixels_v0110": 96,
+        "median_ink_spacing_pixels_v0111": 96,
+        "minimum_ink_spacing_pixels_v0111": 4,
+        "closer_to_source_median": true
+      },
+      "YW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 86.0,
+        "median_ink_spacing_pixels_v0110": 96,
+        "median_ink_spacing_pixels_v0111": 96,
+        "minimum_ink_spacing_pixels_v0111": 4,
+        "closer_to_source_median": true
+      },
+      "WI": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.5,
+        "median_ink_spacing_pixels_v0110": 55.5,
+        "median_ink_spacing_pixels_v0111": 50.5,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "IW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 46.0,
+        "median_ink_spacing_pixels_v0110": 56.5,
+        "median_ink_spacing_pixels_v0111": 50.5,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "WT": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 94.5,
+        "median_ink_spacing_pixels_v0110": 104.5,
+        "median_ink_spacing_pixels_v0111": 104.5,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "TW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 93.0,
+        "median_ink_spacing_pixels_v0110": 103.5,
+        "median_ink_spacing_pixels_v0111": 103.5,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "WV": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 65.0,
+        "median_ink_spacing_pixels_v0110": 74,
+        "median_ink_spacing_pixels_v0111": 74,
+        "minimum_ink_spacing_pixels_v0111": 4,
+        "closer_to_source_median": true
+      },
+      "VW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 64.0,
+        "median_ink_spacing_pixels_v0110": 74,
+        "median_ink_spacing_pixels_v0111": 74,
+        "minimum_ink_spacing_pixels_v0111": 4,
+        "closer_to_source_median": true
+      },
+      "WW": {
+        "actual_new_kerning_UPM": 30,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 58.5,
+        "median_ink_spacing_pixels_v0110": 78,
+        "median_ink_spacing_pixels_v0111": 78,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "WR": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.5,
+        "median_ink_spacing_pixels_v0110": 55.5,
+        "median_ink_spacing_pixels_v0111": 50.5,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "RW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 54.0,
+        "median_ink_spacing_pixels_v0110": 62.0,
+        "median_ink_spacing_pixels_v0111": 57.0,
+        "minimum_ink_spacing_pixels_v0111": 24,
+        "closer_to_source_median": true
+      },
+      "WN": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.5,
+        "median_ink_spacing_pixels_v0110": 55,
+        "median_ink_spacing_pixels_v0111": 50,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "NW": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.0,
+        "median_ink_spacing_pixels_v0110": 55,
+        "median_ink_spacing_pixels_v0111": 50,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "WL": {
+        "actual_new_kerning_UPM": -40,
+        "additive_change_UPM": -40,
+        "median_ink_spacing_pixels_v0106": 45.5,
+        "median_ink_spacing_pixels_v0110": 55.5,
+        "median_ink_spacing_pixels_v0111": 50.5,
+        "minimum_ink_spacing_pixels_v0111": 15,
+        "closer_to_source_median": true
+      },
+      "LW": {
+        "actual_new_kerning_UPM": -48,
+        "additive_change_UPM": -48,
+        "median_ink_spacing_pixels_v0106": 118.0,
+        "median_ink_spacing_pixels_v0110": 126.0,
+        "median_ink_spacing_pixels_v0111": 120.0,
+        "minimum_ink_spacing_pixels_v0111": 66,
+        "closer_to_source_median": true
+      },
+      "WX": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 65.5,
+        "median_ink_spacing_pixels_v0110": 80,
+        "median_ink_spacing_pixels_v0111": 80,
+        "minimum_ink_spacing_pixels_v0111": 9,
+        "closer_to_source_median": true
+      },
+      "XW": {
+        "actual_new_kerning_UPM": 0,
+        "additive_change_UPM": 0,
+        "median_ink_spacing_pixels_v0106": 65.0,
+        "median_ink_spacing_pixels_v0110": 80,
+        "median_ink_spacing_pixels_v0111": 80,
+        "minimum_ink_spacing_pixels_v0111": 8,
+        "closer_to_source_median": true
+      },
+      "W.": {
+        "actual_new_kerning_UPM": -293,
+        "additive_change_UPM": -96,
+        "median_ink_spacing_pixels_v0106": 37.0,
+        "median_ink_spacing_pixels_v0110": 56.0,
+        "median_ink_spacing_pixels_v0111": 44.0,
+        "minimum_ink_spacing_pixels_v0111": 41,
+        "closer_to_source_median": true
+      },
+      "W,": {
+        "actual_new_kerning_UPM": -293,
+        "additive_change_UPM": -96,
+        "median_ink_spacing_pixels_v0106": 39.0,
+        "median_ink_spacing_pixels_v0110": 58.0,
+        "median_ink_spacing_pixels_v0111": 46.0,
+        "minimum_ink_spacing_pixels_v0111": 43,
+        "closer_to_source_median": true
+      }
+    }
+  }
+}

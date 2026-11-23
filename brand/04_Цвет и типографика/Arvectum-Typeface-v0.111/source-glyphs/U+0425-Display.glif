@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0425" format="2">
+  <advance width="1357"/>
+  <unicode hex="0425"/>
+  <note>
+Arvectum Golden Step v0.111 actual CFF vector, W alpha and X/Х beta
+</note>
+  <outline>
+    <contour>
+      <point x="21" y="0" type="line"/>
+      <point x="272" y="0" type="line"/>
+      <point x="495.1102752685547" y="361" type="line"/>
+      <point x="549.1102752685547" y="438"/>
+      <point x="614.5551452636719" y="515"/>
+      <point x="679.0000152587891" y="593" type="curve"/>
+      <point x="739.1559143066406" y="515"/>
+      <point x="799.3118133544922" y="438"/>
+      <point x="856.8897552490234" y="361" type="curve"/>
+      <point x="1080.0000305175781" y="0" type="line"/>
+      <point x="1337.0000305175781" y="0" type="line"/>
+      <point x="860.0647125244141" y="771.6975555419922" type="line"/>
+      <point x="1304.0000305175781" y="1490.0" type="line"/>
+      <point x="1055.0000305175781" y="1490.0" type="line"/>
+      <point x="870.2078704833984" y="1191.0" type="line" smooth="yes"/>
+      <point x="812.2078704833984" y="1106.0"/>
+      <point x="746.1039581298828" y="1021.0"/>
+      <point x="681.0000457763672" y="936.0" type="curve"/>
+      <point x="617.8961334228516" y="1021.0"/>
+      <point x="554.7922210693359" y="1106.0"/>
+      <point x="497.79222106933594" y="1191.0" type="curve" smooth="yes"/>
+      <point x="313.00006103515625" y="1490.0" type="line"/>
+      <point x="58.00006103515625" y="1490.0" type="line"/>
+      <point x="499.9353790283203" y="774.9336242675781" type="line"/>
+    </contour>
+  </outline>
+</glyph>

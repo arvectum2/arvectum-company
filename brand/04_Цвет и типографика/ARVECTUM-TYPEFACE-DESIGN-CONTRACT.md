@@ -22,6 +22,14 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — X/Х beta and W kerning in current v0.111
+
+The latest explicit owner instruction assigns **β=atan(φ)=58.2825255885°** to uppercase Latin X and Cyrillic Х. The saved source CFF already satisfies this geometry on **8/8 major straight rails per glyph in each Display/Text master**; X and Х are independently encoded but share exactly the same outlines. This is now an **owner-assigned β family**, not an unapproved or alpha assignment. Do not change successful X/Х geometry merely to increment the font revision. XSoft experiments remain unapproved history.
+
+The **current working font is v0.111**, retaining the W-at-α geometry of v0.110 and the X/Х-at-β shapes, while adding one carefully scoped 16-pair W-only GPOS kerning overlay based on actual HarfBuzz/FreeType ink spacing. All previous GPOS lookups, all 2937 glyph paths, hmtx, cmap, non-kern OT tables, and the existing right-open Display capital A/А remain unchanged. Original owner rejection of additional signature cuts in P/Р, Ь/Ъ/Ы, R/Я remains fully binding; W accented counterparts are not modified by the new pair layer.
+
+**Current status:** v0.111 is an ENGINEERING working font, tested and stored in vector source GLIF/SVG, OTF/WOFF2; technical tests PASS. Artistic kerning review, accent-wide design, real screen reading, legal/Windows/print release and production approval remain OPEN. Logo, customer assets, site and Arvectum OS unchanged.
+
 ## 23 November 2026 — later owner instruction implemented: W at α in current v0.110
 
 The owner explicitly directed us to save the W alpha change to the **real vector source of the current font**, not to create an illustration. That is implemented in new **current working v0.110** from immutable v0.106. Each independently developed Display/Text master now has 8 major W straight rails precisely at α (no third angle). The CFF outline retains the baseline's original 20 command sequence, **with no added bends or curves**; saved editable GLIF and SVG contours are included alongside both OTF/WOFF2 and verified by round-trip.

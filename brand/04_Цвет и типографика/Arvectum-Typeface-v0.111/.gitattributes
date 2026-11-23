@@ -1,0 +1,7 @@
+*.otf binary
+*.woff2 binary
+*.glif linguist-generated=false
+*.png binary
+*.jpg binary
+*.pdf binary
+*.zip binary

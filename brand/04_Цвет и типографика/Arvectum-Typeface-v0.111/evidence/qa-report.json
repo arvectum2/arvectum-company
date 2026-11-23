@@ -1,0 +1,52 @@
+{
+  "version": "0.111",
+  "working": true,
+  "production": false,
+  "primary_instruction": "Latin X and Cyrillic Х on beta; geometry already exact, do not redraw",
+  "no_new_contours": true,
+  "features": "16 W-specific GPOS pair additive adjustments, no class-wide modification",
+  "masters": {
+    "Display": {
+      "glyph_paths_unchanged": 2937,
+      "coverage_codepoints": 2852,
+      "X_H_angles_beta": [
+        58.282524976424796,
+        58.282524976424796,
+        58.28252560825598,
+        58.28252598587685,
+        58.2825259493401,
+        58.2825259493401,
+        58.282525960868355,
+        58.28252236747612
+      ],
+      "X_H_beta_max_error_deg": 3.221023881394558e-06,
+      "W_alpha_max_error_deg": 2.4395555442424666e-07,
+      "GPOS_old_lookups_unchanged": 10,
+      "GPOS_new_pairs_only": 16,
+      "all_checked_ink_gaps_nonnegative": true,
+      "only_unaccented_W_kern_changed": true,
+      "GLIF_sources_exact": true
+    },
+    "Text": {
+      "glyph_paths_unchanged": 2937,
+      "coverage_codepoints": 2852,
+      "X_H_angles_beta": [
+        58.2825249079709,
+        58.2825249079709,
+        58.28252582581578,
+        58.28252575263923,
+        58.282525798211694,
+        58.282525798211694,
+        58.28252558431679,
+        58.2825235205228
+      ],
+      "X_H_beta_max_error_deg": 2.06797719926044e-06,
+      "W_alpha_max_error_deg": 1.2674111644628283e-06,
+      "GPOS_old_lookups_unchanged": 10,
+      "GPOS_new_pairs_only": 16,
+      "all_checked_ink_gaps_nonnegative": true,
+      "only_unaccented_W_kern_changed": true,
+      "GLIF_sources_exact": true
+    }
+  }
+}
