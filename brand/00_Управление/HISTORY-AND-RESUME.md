@@ -67,3 +67,7 @@ Current engineering source: Golden Step v0.116, derived from unmodified v0.115. 
 ## 2026-11-23 — latest working checkpoint v0.117
 
 Current source: Golden Step v0.117 derived from unchanged v0.116; 110 detached Latin C/O/E/H/c/o/e skeletons aligned to present basic letters per optical master; 2827 other glyphs, metrics and original accent paths unchanged. 32 complex/fused or metric-incompatible cases deliberately reserved for separate manual optical design. Engineering and real-carrier QA recorded in v0.117 directory; artistic and production owner release decisions remain OPEN.
+
+## 2026-11-23 — latest working checkpoint v0.118
+
+Internal Golden Step v0.118 derives from immutable v0.117 OTF. Of 32 fused/complex C/O/E/H/c/o/e/h cases, 27 have targeted Bézier/contour repairs and 5 lower h cases were left intact for concrete anatomy reasons. Other 2910 paths per independent master, all hmtx and OT layout unchanged. Evidence includes exact affected CFF command indices, source GLIF/SVG/CFF and true Chrome PDF / mobile and letter/proposal regression. Full typography, native/print/legal and owner artistic release remain OPEN.

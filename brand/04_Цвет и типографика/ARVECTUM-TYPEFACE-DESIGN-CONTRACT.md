@@ -22,6 +22,12 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — current v0.118 joined accent morphological design
+
+**Latest actual engineering font v0.118** completes the 32-case special Latin C/O/E/H/c/o/e/h investigation: 27 cases altered with **local** CFF Bézier/middle-bar/counter edits, NOT copying whole disconnected bodies through attached marks, and 5 lower h cases intentionally preserved (4 correct, ḩ fused cedilla). Exactly 27 CFF glyphs per master changed, 2910 other glyphs unchanged. Original metrics, GPOS/GSUB, glyph bounds and signature constraints unchanged, including basic Display A/А-only open cut, K/К fork, X/Х beta and W alpha. No new visible tangent kinks; all original mark attachments remain integral.
+
+Engineering and limited optical PASS: reproducible OTF/WOFF2 all 2937 path parity, exact case-safe GLIF/SVG/CFF source, real A/B Chrome PDF, 756 sampled pair clearances per face, 390/768px browser stress and unchanged controlled company mockups. Artistic signoff, full kerning, digit/letter differentiation, printer and physical native device QA and OFL rights remain explicitly OPEN. Approved Wordmark and production unchanged.
+
 ## 23 November 2026 — current v0.117 Latin detached accent consistency
 
 Current technical working font: **v0.117**, inherited from pinned v0.116 actual saved OTF. Precisely 110 detachable precomposed C/O/E/H/c/o/e accents per independent optical master were found with compatible command topology and identical metrics but older body contours. Their body is replaced by the exact current plain C/O/E/H/c/o/e glyph while the original mark subpaths, mark X/Y, all advances and full GPOS/GSUB remain identical. Remaining **32 fused/complex accent shapes** and already correct lower h should not be automatically changed. This promotes family consistency, not additional decorative tricks or compulsory numerical distortion.

@@ -1,0 +1,5 @@
+# v0.118 — source, authority and irreversibility boundaries
+
+User directed continuation of the existing Golden Step corporate typeface, not approval of final commercial art. This reversible v0.118 is based on immutable v0.117 saved OTF (SHA256 in evidence), keeps all older releases in Git, and adds exactly 27 targeted fused-mark Latin C/O/E/H/Cyrillic-neutral improvements in each master. Five lower h exceptions remain intact for concrete anatomy reasons. Editable files contain exact original CFF and case-safe numeric glyph filenames, avoiding overwrite on case-insensitive macOS.
+
+The owner's right-open basic Display A/А, closed accented A policy, K/К horizontal fork, X/Х beta, W alpha, logo Wordmark, Company/OS authority and previously rejected speculative breaks are unchanged. Neither client work nor live website/production changed. Upstream Inter 4.1/SIL OFL 1.1 remains the source license; final font naming, print embedding and copyright/IP review are pending. This is internal working evidence, not an owner reserved release decision.
