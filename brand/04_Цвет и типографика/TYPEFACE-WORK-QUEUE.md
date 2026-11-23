@@ -244,6 +244,15 @@ Updated 2026-11-23. A durable working-status document, not a revision of pinned 
 - The rejection is captured in Arvectum-Typeface-v0.106/RESTORE-DECISION-2026-11-23.md, the source/hash verification and two-page rendered owner comparison. v0.107 remains immutable as historical proof, NOT an approved or active variant.
 - Approved logo/Wordmark, customer/production assets and Arvectum OS were not changed. Type family still requires whole-font optical/kerning/release approval.
 
+## Golden Step v0.108 — изолированные исследования W и X/Х (НЕ рабочая версия)
+
+- 23.11.2026 на точной SHA256-базе **v0.106** сделаны два независимых инженерных эксперимента в Display Medium и Text Regular; прежняя версия остаётся единственной АКТИВНОЙ, v0.107 по-прежнему ОТКЛОНЕНА, и новые разрывы не возвращаются.
+- **WAlphaWide:** изменяется только глиф W; восьми основным прямым диагоналям назначен и достигнут α=atan(φ²)=69,0948425521° с погрешностью <0,00001°. Для сохранения двух внутренних просветов и геометрии исходная ширина W в Display 1976→2514 UPM (+27,23%), в Text 1944→2482 UPM (+27,67%). **Сильный риск для межбуквенных интервалов, плотности строк и кернинга.** Без отдельного художественного решения нельзя делать её стандартной W.
+- **XSoft:** изменены только контуры латинской X и кириллической Х, сохранив их идентичность в каждом мастере, все β-прямые, габариты, advances и другие glyphs. Внутренние кубические переходы слегка раздвинуты оптически: площадь черноты уменьшена на 2,98% в Display и 3,21% в Text. Требуется оценка на реальном устройстве при 12–16 px.
+- Проверено: ровно 1 изменённый глиф/мастер у WAlphaWide, 2/мастер у XSoft; остальные 2936/2935 исходных глифов идентичны v0.106; по 2937 glyphs, 2852 Unicode в каждом OTF; все 4 OTF и 4 WOFF2 совпадают по каждому из 2937 контуров, включая точные hmtx/Unicode пары. Воспроизводимость исходных OTF побитовая.
+- Собран и визуально проверен 6-страничный сравнительный PDF с Display/Text, крупным W и X/Х и Text 12–48px без обрезания строк. Сборка, контроль геометрии, SVG и исходники находятся в Arvectum-Typeface-v0.108.
+- **Статус: research-only.** Утверждённые нормы двух углов, исходные A/А, отказ от v0.107, original Wordmark и production не затронуты. Дальнейшие возможные задачи: поиск более компактной W с α без роста ширины на 27%, тест XSoft на мелких размерах, оценка кернинга и оптическая приёмка. Ни одна из новых форм не является принятой рабочей гарнитурой.
+
 ## Open owner and release decisions
 1. Confirm or revise v0.64 baseline as the preferred corporate design direction, distinct from approval for public deployment.
 2. Review v0.63 alternative З/д/л forms and high 3/З ambiguity across small pixel sizes; reject or choose explicit modifications.

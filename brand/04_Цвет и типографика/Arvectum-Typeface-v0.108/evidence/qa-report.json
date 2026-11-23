@@ -1,0 +1,77 @@
+{
+  "version": "0.108",
+  "status": "EXPERIMENTAL PROOFS ONLY; exact v0.106 remains active",
+  "angles": {
+    "alpha_deg": 69.0948425521107,
+    "beta_deg": 58.282525588538995
+  },
+  "masters": {
+    "Display": {
+      "WAlphaWide": {
+        "changed": [
+          "W"
+        ],
+        "unchanged_glyphs": 2936,
+        "delta_ink_area_pct": 18.59428414485409,
+        "target_W_alpha_segments": 8,
+        "max_alpha_error_deg": 2.433263830425858e-07,
+        "old_advance": 1976,
+        "new_advance": 2514,
+        "relative_advance_growth_pct": 27.226720647773273
+      },
+      "XSoft": {
+        "changed": [
+          "X",
+          "uni0425"
+        ],
+        "unchanged_glyphs": 2935,
+        "delta_ink_area_pct": -2.981143661979835,
+        "changed_curves_only": [
+          3,
+          4,
+          11,
+          12
+        ],
+        "X_Cyrillic_X_identical": true,
+        "original_bounding_box_and_advance": true
+      }
+    },
+    "Text": {
+      "WAlphaWide": {
+        "changed": [
+          "W"
+        ],
+        "unchanged_glyphs": 2936,
+        "delta_ink_area_pct": 24.63764362364622,
+        "target_W_alpha_segments": 8,
+        "max_alpha_error_deg": 3.7133831654045935e-07,
+        "old_advance": 1944,
+        "new_advance": 2482,
+        "relative_advance_growth_pct": 27.67489711934157
+      },
+      "XSoft": {
+        "changed": [
+          "X",
+          "uni0425"
+        ],
+        "unchanged_glyphs": 2935,
+        "delta_ink_area_pct": -3.2123910245279275,
+        "changed_curves_only": [
+          3,
+          4,
+          11,
+          12
+        ],
+        "X_Cyrillic_X_identical": true,
+        "original_bounding_box_and_advance": true
+      }
+    }
+  },
+  "open": [
+    "W widened 27% requires owner evaluation, text wraps and kerning",
+    "X/Х lightening requires optical review in 12–16px text",
+    "X/Х original v0.105 mass increased at crossing",
+    "W unchanged in current active v0.106",
+    "remaining glyphs and legal/platform/release checks"
+  ]
+}

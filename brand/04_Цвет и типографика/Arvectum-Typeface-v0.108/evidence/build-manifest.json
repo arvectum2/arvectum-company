@@ -1,0 +1,209 @@
+{
+  "version": "0.108",
+  "status": "ISOLATED experiments only; active working typeface remains exact v0.106",
+  "owner_rejection": "v0.107 side gaps and Direct K/Zh remain rejected; no glyph gaps except Display A/А",
+  "angles": {
+    "alpha_deg": 69.0948425521107,
+    "beta_deg": 58.282525588538995
+  },
+  "variants": {
+    "WAlphaWide": "only W redraw, alpha angle; advance increases significantly",
+    "XSoft": "only Latin X + Cyrillic Х inner curve relief, beta straight diagonals unchanged"
+  },
+  "faces": {
+    "Display": {
+      "WAlphaWide": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+        "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+        "output": "experimental/ArvectumGoldenStepDisplayWAlphaWideExperimental0108-Medium.otf",
+        "output_sha256": "76edf1812bce0cef86a60fe7129ab326b26394d916ddb311f495eeef221878ce",
+        "details": {
+          "W": {
+            "alpha_segments": [
+              [
+                18,
+                0
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                16,
+                17
+              ]
+            ],
+            "angles": [
+              69.0948425521107,
+              69.09484255211069,
+              69.09484255211069,
+              69.0948425521107,
+              69.0948425521107,
+              69.0948425521107,
+              69.0948425521107,
+              69.0948425521107
+            ],
+            "old_advance": 1976,
+            "new_advance": 2514,
+            "center_axis_UPM": 1257.1003930115025,
+            "new_bounds": [
+              16.0,
+              0.0,
+              2498.200786023005,
+              1490.0
+            ],
+            "foot_width": 257,
+            "topband_added_UPM": 25,
+            "ink_area_pct_vs_source": 18.594283741110452
+          }
+        },
+        "expected_changed": [
+          "W"
+        ]
+      },
+      "XSoft": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+        "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+        "output": "experimental/ArvectumGoldenStepDisplayXSoftExperimental0108-Medium.otf",
+        "output_sha256": "9406060176785b90bedb69250c95fd0d6c36bb25cfce479b35c9bd208cabceeb",
+        "details": {
+          "X": {
+            "delta_inner_apex_UPM": 65,
+            "ink_area_pct_vs_source": -2.981143661979835,
+            "advance_unchanged": true,
+            "external_alpha_beta_straight_segments_unchanged": true,
+            "all_12_line_move_close_commands_untouched": true
+          },
+          "Х": {
+            "delta_inner_apex_UPM": 65,
+            "ink_area_pct_vs_source": -2.981143661979835,
+            "advance_unchanged": true,
+            "external_alpha_beta_straight_segments_unchanged": true,
+            "all_12_line_move_close_commands_untouched": true
+          }
+        },
+        "expected_changed": [
+          "X",
+          "Х"
+        ]
+      }
+    },
+    "Text": {
+      "WAlphaWide": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+        "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+        "output": "experimental/ArvectumGoldenStepTextWAlphaWideExperimental0108-Regular.otf",
+        "output_sha256": "38084ee2b7e2b4ad302c3e94d09cc428095eacc15e10da49825e01025f5cff23",
+        "details": {
+          "W": {
+            "alpha_segments": [
+              [
+                18,
+                0
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                6,
+                7
+              ],
+              [
+                8,
+                9
+              ],
+              [
+                11,
+                12
+              ],
+              [
+                13,
+                14
+              ],
+              [
+                16,
+                17
+              ]
+            ],
+            "angles": [
+              69.0948425521107,
+              69.09484255211069,
+              69.09484255211069,
+              69.0948425521107,
+              69.09484255211069,
+              69.0948425521107,
+              69.0948425521107,
+              69.0948425521107
+            ],
+            "old_advance": 1944,
+            "new_advance": 2482,
+            "center_axis_UPM": 1240.8167275627577,
+            "new_bounds": [
+              20.0,
+              0.0,
+              2461.6334551255154,
+              1490.0
+            ],
+            "foot_width": 212,
+            "topband_added_UPM": 40,
+            "ink_area_pct_vs_source": 24.63764351126223
+          }
+        },
+        "expected_changed": [
+          "W"
+        ]
+      },
+      "XSoft": {
+        "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+        "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+        "output": "experimental/ArvectumGoldenStepTextXSoftExperimental0108-Regular.otf",
+        "output_sha256": "be4844067b4c7385a4781f725ef957700a9bb53e7923e4f2a7a3db2aacc21ebf",
+        "details": {
+          "X": {
+            "delta_inner_apex_UPM": 54,
+            "ink_area_pct_vs_source": -3.2123907345689706,
+            "advance_unchanged": true,
+            "external_alpha_beta_straight_segments_unchanged": true,
+            "all_12_line_move_close_commands_untouched": true
+          },
+          "Х": {
+            "delta_inner_apex_UPM": 54,
+            "ink_area_pct_vs_source": -3.2123907345689706,
+            "advance_unchanged": true,
+            "external_alpha_beta_straight_segments_unchanged": true,
+            "all_12_line_move_close_commands_untouched": true
+          }
+        },
+        "expected_changed": [
+          "X",
+          "Х"
+        ]
+      }
+    }
+  }
+}
