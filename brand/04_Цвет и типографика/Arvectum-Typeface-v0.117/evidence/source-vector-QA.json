@@ -1,0 +1,15 @@
+{
+  "v": "0.117",
+  "n_per_face": 125,
+  "case_safe_filename": "gNNNN-glyphname-face",
+  "formats": [
+    "glif",
+    "svg",
+    "cff-recording.json"
+  ],
+  "faces": [
+    "Display",
+    "Text"
+  ],
+  "case_insensitive_APFS_collision_guard": "PASS"
+}

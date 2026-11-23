@@ -1,0 +1,1342 @@
+{
+  "version": "0.117",
+  "scope": "Latin detached C/O/E/H c/o/e/h only",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.116/otf/ArvectumGoldenStepDisplayCyrHarmonyWorking0116-Medium.otf",
+      "source_sha256": "f5e4e1b6c28af724d8c8f84ee62953a85a5004eb3503d7d362d2cf257863261f",
+      "output": "otf/ArvectumGoldenStepDisplayLatinHarmonyWorking0117-Medium.otf",
+      "output_sha256": "b2b460f63c3f93094c0c0f3dcc77d4093cd2b467d429114dd02398473df17ec9",
+      "changed": {
+        "Cacute": {
+          "base": "C",
+          "char": "Ć",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ccircumflex": {
+          "base": "C",
+          "char": "Ĉ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Cdotaccent": {
+          "base": "C",
+          "char": "Ċ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ccaron": {
+          "base": "C",
+          "char": "Č",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ograve": {
+          "base": "O",
+          "char": "Ò",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Oacute": {
+          "base": "O",
+          "char": "Ó",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Ocircumflex": {
+          "base": "O",
+          "char": "Ô",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Otilde": {
+          "base": "O",
+          "char": "Õ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Odieresis": {
+          "base": "O",
+          "char": "Ö",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "Omacron": {
+          "base": "O",
+          "char": "Ō",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Obreve": {
+          "base": "O",
+          "char": "Ŏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Ohungarumlaut": {
+          "base": "O",
+          "char": "Ő",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni01D1": {
+          "base": "O",
+          "char": "Ǒ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni020C": {
+          "base": "O",
+          "char": "Ȍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni020E": {
+          "base": "O",
+          "char": "Ȏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni022A": {
+          "base": "O",
+          "char": "Ȫ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni022C": {
+          "base": "O",
+          "char": "Ȭ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni022E": {
+          "base": "O",
+          "char": "Ȯ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0230": {
+          "base": "O",
+          "char": "Ȱ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4C": {
+          "base": "O",
+          "char": "Ṍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4E": {
+          "base": "O",
+          "char": "Ṏ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni1E50": {
+          "base": "O",
+          "char": "Ṑ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E52": {
+          "base": "O",
+          "char": "Ṓ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ECC": {
+          "base": "O",
+          "char": "Ọ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ECE": {
+          "base": "O",
+          "char": "Ỏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ED0": {
+          "base": "O",
+          "char": "Ố",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED2": {
+          "base": "O",
+          "char": "Ồ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED4": {
+          "base": "O",
+          "char": "Ổ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED6": {
+          "base": "O",
+          "char": "Ỗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED8": {
+          "base": "O",
+          "char": "Ộ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "Egrave": {
+          "base": "E",
+          "char": "È",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Eacute": {
+          "base": "E",
+          "char": "É",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ecircumflex": {
+          "base": "E",
+          "char": "Ê",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Edieresis": {
+          "base": "E",
+          "char": "Ë",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "Emacron": {
+          "base": "E",
+          "char": "Ē",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ebreve": {
+          "base": "E",
+          "char": "Ĕ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Edotaccent": {
+          "base": "E",
+          "char": "Ė",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ecaron": {
+          "base": "E",
+          "char": "Ě",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni0204": {
+          "base": "E",
+          "char": "Ȅ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni0206": {
+          "base": "E",
+          "char": "Ȇ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E14": {
+          "base": "E",
+          "char": "Ḕ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E16": {
+          "base": "E",
+          "char": "Ḗ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E18": {
+          "base": "E",
+          "char": "Ḙ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E1A": {
+          "base": "E",
+          "char": "Ḛ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EB8": {
+          "base": "E",
+          "char": "Ẹ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBA": {
+          "base": "E",
+          "char": "Ẻ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBC": {
+          "base": "E",
+          "char": "Ẽ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBE": {
+          "base": "E",
+          "char": "Ế",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC0": {
+          "base": "E",
+          "char": "Ề",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC2": {
+          "base": "E",
+          "char": "Ể",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC4": {
+          "base": "E",
+          "char": "Ễ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC6": {
+          "base": "E",
+          "char": "Ệ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "Hcircumflex": {
+          "base": "H",
+          "char": "Ĥ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni021E": {
+          "base": "H",
+          "char": "Ȟ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E22": {
+          "base": "H",
+          "char": "Ḣ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E24": {
+          "base": "H",
+          "char": "Ḥ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E26": {
+          "base": "H",
+          "char": "Ḧ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E2A": {
+          "base": "H",
+          "char": "Ḫ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "cacute": {
+          "base": "c",
+          "char": "ć",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ccircumflex": {
+          "base": "c",
+          "char": "ĉ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "cdotaccent": {
+          "base": "c",
+          "char": "ċ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ccaron": {
+          "base": "c",
+          "char": "č",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ograve": {
+          "base": "o",
+          "char": "ò",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "oacute": {
+          "base": "o",
+          "char": "ó",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ocircumflex": {
+          "base": "o",
+          "char": "ô",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "otilde": {
+          "base": "o",
+          "char": "õ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "odieresis": {
+          "base": "o",
+          "char": "ö",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "omacron": {
+          "base": "o",
+          "char": "ō",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "obreve": {
+          "base": "o",
+          "char": "ŏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ohungarumlaut": {
+          "base": "o",
+          "char": "ő",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni01D2": {
+          "base": "o",
+          "char": "ǒ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni020D": {
+          "base": "o",
+          "char": "ȍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni020F": {
+          "base": "o",
+          "char": "ȏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni022B": {
+          "base": "o",
+          "char": "ȫ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni022D": {
+          "base": "o",
+          "char": "ȭ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni022F": {
+          "base": "o",
+          "char": "ȯ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0231": {
+          "base": "o",
+          "char": "ȱ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4D": {
+          "base": "o",
+          "char": "ṍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4F": {
+          "base": "o",
+          "char": "ṏ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni1E51": {
+          "base": "o",
+          "char": "ṑ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E53": {
+          "base": "o",
+          "char": "ṓ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ECD": {
+          "base": "o",
+          "char": "ọ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ECF": {
+          "base": "o",
+          "char": "ỏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ED1": {
+          "base": "o",
+          "char": "ố",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED3": {
+          "base": "o",
+          "char": "ồ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED5": {
+          "base": "o",
+          "char": "ổ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED7": {
+          "base": "o",
+          "char": "ỗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED9": {
+          "base": "o",
+          "char": "ộ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "egrave": {
+          "base": "e",
+          "char": "è",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "eacute": {
+          "base": "e",
+          "char": "é",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ecircumflex": {
+          "base": "e",
+          "char": "ê",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "edieresis": {
+          "base": "e",
+          "char": "ë",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "emacron": {
+          "base": "e",
+          "char": "ē",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ebreve": {
+          "base": "e",
+          "char": "ĕ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "edotaccent": {
+          "base": "e",
+          "char": "ė",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ecaron": {
+          "base": "e",
+          "char": "ě",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0205": {
+          "base": "e",
+          "char": "ȅ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni0207": {
+          "base": "e",
+          "char": "ȇ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1E15": {
+          "base": "e",
+          "char": "ḕ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E17": {
+          "base": "e",
+          "char": "ḗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E19": {
+          "base": "e",
+          "char": "ḙ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1E1B": {
+          "base": "e",
+          "char": "ḛ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EB9": {
+          "base": "e",
+          "char": "ẹ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBB": {
+          "base": "e",
+          "char": "ẻ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBD": {
+          "base": "e",
+          "char": "ẽ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBF": {
+          "base": "e",
+          "char": "ế",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC1": {
+          "base": "e",
+          "char": "ề",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC3": {
+          "base": "e",
+          "char": "ể",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC5": {
+          "base": "e",
+          "char": "ễ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC7": {
+          "base": "e",
+          "char": "ệ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.116/otf/ArvectumGoldenStepTextCyrHarmonyWorking0116-Regular.otf",
+      "source_sha256": "7f9d66edef6657c736c7b60e87d5eb07f7179f8a4200e5867e07350e17880f61",
+      "output": "otf/ArvectumGoldenStepTextLatinHarmonyWorking0117-Regular.otf",
+      "output_sha256": "3a3aef6105974467944324b6dc02a892d2e61435b9af5fbee9ebadfef9615b45",
+      "changed": {
+        "Cacute": {
+          "base": "C",
+          "char": "Ć",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ccircumflex": {
+          "base": "C",
+          "char": "Ĉ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Cdotaccent": {
+          "base": "C",
+          "char": "Ċ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ccaron": {
+          "base": "C",
+          "char": "Č",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ograve": {
+          "base": "O",
+          "char": "Ò",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Oacute": {
+          "base": "O",
+          "char": "Ó",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Ocircumflex": {
+          "base": "O",
+          "char": "Ô",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Otilde": {
+          "base": "O",
+          "char": "Õ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Odieresis": {
+          "base": "O",
+          "char": "Ö",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "Omacron": {
+          "base": "O",
+          "char": "Ō",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Obreve": {
+          "base": "O",
+          "char": "Ŏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "Ohungarumlaut": {
+          "base": "O",
+          "char": "Ő",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni01D1": {
+          "base": "O",
+          "char": "Ǒ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni020C": {
+          "base": "O",
+          "char": "Ȍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni020E": {
+          "base": "O",
+          "char": "Ȏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni022A": {
+          "base": "O",
+          "char": "Ȫ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni022C": {
+          "base": "O",
+          "char": "Ȭ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni022E": {
+          "base": "O",
+          "char": "Ȯ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0230": {
+          "base": "O",
+          "char": "Ȱ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4C": {
+          "base": "O",
+          "char": "Ṍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4E": {
+          "base": "O",
+          "char": "Ṏ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni1E50": {
+          "base": "O",
+          "char": "Ṑ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E52": {
+          "base": "O",
+          "char": "Ṓ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ECC": {
+          "base": "O",
+          "char": "Ọ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ECE": {
+          "base": "O",
+          "char": "Ỏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ED0": {
+          "base": "O",
+          "char": "Ố",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED2": {
+          "base": "O",
+          "char": "Ồ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED4": {
+          "base": "O",
+          "char": "Ổ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED6": {
+          "base": "O",
+          "char": "Ỗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED8": {
+          "base": "O",
+          "char": "Ộ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "Egrave": {
+          "base": "E",
+          "char": "È",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Eacute": {
+          "base": "E",
+          "char": "É",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ecircumflex": {
+          "base": "E",
+          "char": "Ê",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Edieresis": {
+          "base": "E",
+          "char": "Ë",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "Emacron": {
+          "base": "E",
+          "char": "Ē",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ebreve": {
+          "base": "E",
+          "char": "Ĕ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Edotaccent": {
+          "base": "E",
+          "char": "Ė",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "Ecaron": {
+          "base": "E",
+          "char": "Ě",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni0204": {
+          "base": "E",
+          "char": "Ȅ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni0206": {
+          "base": "E",
+          "char": "Ȇ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E14": {
+          "base": "E",
+          "char": "Ḕ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E16": {
+          "base": "E",
+          "char": "Ḗ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E18": {
+          "base": "E",
+          "char": "Ḙ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E1A": {
+          "base": "E",
+          "char": "Ḛ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EB8": {
+          "base": "E",
+          "char": "Ẹ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBA": {
+          "base": "E",
+          "char": "Ẻ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBC": {
+          "base": "E",
+          "char": "Ẽ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1EBE": {
+          "base": "E",
+          "char": "Ế",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC0": {
+          "base": "E",
+          "char": "Ề",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC2": {
+          "base": "E",
+          "char": "Ể",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC4": {
+          "base": "E",
+          "char": "Ễ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1EC6": {
+          "base": "E",
+          "char": "Ệ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "Hcircumflex": {
+          "base": "H",
+          "char": "Ĥ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni021E": {
+          "base": "H",
+          "char": "Ȟ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E22": {
+          "base": "H",
+          "char": "Ḣ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E24": {
+          "base": "H",
+          "char": "Ḥ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "uni1E26": {
+          "base": "H",
+          "char": "Ḧ",
+          "body_contours": 1,
+          "accent_subpaths": 2
+        },
+        "uni1E2A": {
+          "base": "H",
+          "char": "Ḫ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "cacute": {
+          "base": "c",
+          "char": "ć",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ccircumflex": {
+          "base": "c",
+          "char": "ĉ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "cdotaccent": {
+          "base": "c",
+          "char": "ċ",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ccaron": {
+          "base": "c",
+          "char": "č",
+          "body_contours": 1,
+          "accent_subpaths": 1
+        },
+        "ograve": {
+          "base": "o",
+          "char": "ò",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "oacute": {
+          "base": "o",
+          "char": "ó",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ocircumflex": {
+          "base": "o",
+          "char": "ô",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "otilde": {
+          "base": "o",
+          "char": "õ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "odieresis": {
+          "base": "o",
+          "char": "ö",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "omacron": {
+          "base": "o",
+          "char": "ō",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "obreve": {
+          "base": "o",
+          "char": "ŏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ohungarumlaut": {
+          "base": "o",
+          "char": "ő",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni01D2": {
+          "base": "o",
+          "char": "ǒ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni020D": {
+          "base": "o",
+          "char": "ȍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni020F": {
+          "base": "o",
+          "char": "ȏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni022B": {
+          "base": "o",
+          "char": "ȫ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni022D": {
+          "base": "o",
+          "char": "ȭ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni022F": {
+          "base": "o",
+          "char": "ȯ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0231": {
+          "base": "o",
+          "char": "ȱ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4D": {
+          "base": "o",
+          "char": "ṍ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E4F": {
+          "base": "o",
+          "char": "ṏ",
+          "body_contours": 2,
+          "accent_subpaths": 3
+        },
+        "uni1E51": {
+          "base": "o",
+          "char": "ṑ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E53": {
+          "base": "o",
+          "char": "ṓ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ECD": {
+          "base": "o",
+          "char": "ọ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ECF": {
+          "base": "o",
+          "char": "ỏ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1ED1": {
+          "base": "o",
+          "char": "ố",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED3": {
+          "base": "o",
+          "char": "ồ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED5": {
+          "base": "o",
+          "char": "ổ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED7": {
+          "base": "o",
+          "char": "ỗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1ED9": {
+          "base": "o",
+          "char": "ộ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "egrave": {
+          "base": "e",
+          "char": "è",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "eacute": {
+          "base": "e",
+          "char": "é",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ecircumflex": {
+          "base": "e",
+          "char": "ê",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "edieresis": {
+          "base": "e",
+          "char": "ë",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "emacron": {
+          "base": "e",
+          "char": "ē",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ebreve": {
+          "base": "e",
+          "char": "ĕ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "edotaccent": {
+          "base": "e",
+          "char": "ė",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "ecaron": {
+          "base": "e",
+          "char": "ě",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni0205": {
+          "base": "e",
+          "char": "ȅ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni0207": {
+          "base": "e",
+          "char": "ȇ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1E15": {
+          "base": "e",
+          "char": "ḕ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E17": {
+          "base": "e",
+          "char": "ḗ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1E19": {
+          "base": "e",
+          "char": "ḙ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1E1B": {
+          "base": "e",
+          "char": "ḛ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EB9": {
+          "base": "e",
+          "char": "ẹ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBB": {
+          "base": "e",
+          "char": "ẻ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBD": {
+          "base": "e",
+          "char": "ẽ",
+          "body_contours": 2,
+          "accent_subpaths": 1
+        },
+        "uni1EBF": {
+          "base": "e",
+          "char": "ế",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC1": {
+          "base": "e",
+          "char": "ề",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC3": {
+          "base": "e",
+          "char": "ể",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC5": {
+          "base": "e",
+          "char": "ễ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        },
+        "uni1EC7": {
+          "base": "e",
+          "char": "ệ",
+          "body_contours": 2,
+          "accent_subpaths": 2
+        }
+      }
+    }
+  }
+}

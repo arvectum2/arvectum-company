@@ -1,0 +1,38 @@
+{
+  "v": "0.117",
+  "status": "technical working, owner artistic approval open",
+  "faces": {
+    "Display": {
+      "changed": 110,
+      "unchanged": 2827,
+      "changed_groups": {
+        "C": 4,
+        "O": 26,
+        "E": 22,
+        "H": 6,
+        "c": 4,
+        "o": 26,
+        "e": 22
+      },
+      "mark_bound_collision_candidates": [],
+      "original_hmtx_and_all_layout_exact": true,
+      "all_mark_paths_exact": true
+    },
+    "Text": {
+      "changed": 110,
+      "unchanged": 2827,
+      "changed_groups": {
+        "C": 4,
+        "O": 26,
+        "E": 22,
+        "H": 6,
+        "c": 4,
+        "o": 26,
+        "e": 22
+      },
+      "mark_bound_collision_candidates": [],
+      "original_hmtx_and_all_layout_exact": true,
+      "all_mark_paths_exact": true
+    }
+  }
+}

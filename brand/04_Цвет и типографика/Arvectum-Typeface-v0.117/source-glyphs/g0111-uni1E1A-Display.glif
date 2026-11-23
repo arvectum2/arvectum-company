@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E1A" format="2">
+  <advance width="1206"/>
+  <unicode hex="1E1A"/>
+  <note>
+Golden Step v0.117 Display, exact SAVED CFF contour
+</note>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="1138" y="0" type="line"/>
+      <point x="1138" y="195" type="line"/>
+      <point x="358" y="195" type="line"/>
+      <point x="358" y="725" type="line"/>
+      <point x="971" y="725" type="line"/>
+      <point x="971" y="918" type="line"/>
+      <point x="358" y="918" type="line"/>
+      <point x="358" y="1295" type="line"/>
+      <point x="1138" y="1295" type="line"/>
+      <point x="1138" y="1490" type="line"/>
+      <point x="136" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="770" y="-427" type="curve" smooth="yes"/>
+      <point x="873" y="-427"/>
+      <point x="938" y="-342"/>
+      <point x="942" y="-204" type="curve"/>
+      <point x="809" y="-204" type="line"/>
+      <point x="803" y="-262"/>
+      <point x="787" y="-289"/>
+      <point x="750" y="-289" type="curve" smooth="yes"/>
+      <point x="683" y="-289"/>
+      <point x="616" y="-200"/>
+      <point x="505" y="-200" type="curve" smooth="yes"/>
+      <point x="394" y="-200"/>
+      <point x="335" y="-289"/>
+      <point x="331" y="-423" type="curve"/>
+      <point x="467" y="-423" type="line"/>
+      <point x="469" y="-379"/>
+      <point x="486" y="-339"/>
+      <point x="524" y="-339" type="curve" smooth="yes"/>
+      <point x="577" y="-339"/>
+      <point x="664" y="-427"/>
+    </contour>
+  </outline>
+</glyph>

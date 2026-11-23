@@ -63,3 +63,7 @@ Source is v0.114, fully retained. New current v0.115 harmonizes Latin N/Y and Cy
 ## 2026-11-23 — next working checkpoint v0.116
 
 Current engineering source: Golden Step v0.116, derived from unmodified v0.115. Of ten Cyrillic exceptions, eight were corrected; Ї/ї preserved as correct dot-replacement forms. Exactly eight glyph bodies per master, two widths and six targeted GPOS anchors changed. Font source, HTML/browser/PDF proofs and QA are in 04_Цвет и типографика/Arvectum-Typeface-v0.116/. Production and owner-artistic approval OPEN.
+
+## 2026-11-23 — latest working checkpoint v0.117
+
+Current source: Golden Step v0.117 derived from unchanged v0.116; 110 detached Latin C/O/E/H/c/o/e skeletons aligned to present basic letters per optical master; 2827 other glyphs, metrics and original accent paths unchanged. 32 complex/fused or metric-incompatible cases deliberately reserved for separate manual optical design. Engineering and real-carrier QA recorded in v0.117 directory; artistic and production owner release decisions remain OPEN.
