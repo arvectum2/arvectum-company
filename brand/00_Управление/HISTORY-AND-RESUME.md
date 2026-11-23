@@ -71,3 +71,7 @@ Current source: Golden Step v0.117 derived from unchanged v0.116; 110 detached L
 ## 2026-11-23 — latest working checkpoint v0.118
 
 Internal Golden Step v0.118 derives from immutable v0.117 OTF. Of 32 fused/complex C/O/E/H/c/o/e/h cases, 27 have targeted Bézier/contour repairs and 5 lower h cases were left intact for concrete anatomy reasons. Other 2910 paths per independent master, all hmtx and OT layout unchanged. Evidence includes exact affected CFF command indices, source GLIF/SVG/CFF and true Chrome PDF / mobile and letter/proposal regression. Full typography, native/print/legal and owner artistic release remain OPEN.
+
+## 2026-11-23 — latest working checkpoint v0.119
+
+Golden Step v0.119 based on pinned v0.118 actual OTF, two independent optical masters. Only two CFF glyphs per face (Cyrillic З/з) have longer existing horizontal terminals; 2935 others unchanged, including W/A/M and digit 3. Eight precisely scoped GPOS kern pair deltas per master for A/А+W/V, «+A/А and ₽+period/comma, preserved other original GPOS lookups via exact inverse binary test. Two fonts reproducible, actual Chrome PDF 4-page visual old/new, 396 selected kerning pairs per master no overlap, controlled letter/proposal/mobile regression. 3/З remains an owner/artistic readability gate at 12–20px; print, native and release also OPEN.

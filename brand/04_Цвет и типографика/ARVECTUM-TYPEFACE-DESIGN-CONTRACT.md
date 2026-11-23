@@ -22,6 +22,12 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — current v0.119 restrained optical rhythm
+
+Current internal working font **v0.119**. No arbitrary new shapes: two Cyrillic З/з existing horizontal terminals optically strengthened while digit **3** unchanged; the rest of 2935 CFF outlines per face preserved. Parent v0.118 immutable. W α, A/А sole right-open Display signature, M/М, K/К fork, X/Х β, approved logo and rejected opening experiments untouched. Neither the two-angle grammar nor the source curves of W were disturbed.
+
+Exactly one additive GPOS PairPos applies eight controlled kerning delta pairs (A/А+W/V, opening «+A/А, ₽+period/comma); all old GPOS lookups/classes preserved and independently inverse-verified byte-identical. Proved reproducible real OTF + WOFF2, saved glyph GLIF/SVG/CFF, 4-page OTF visual PDF, 396 sampled pair clearances/face and unchanged A4/mobile dimensions. The glyph difference **3 vs З is not adequately distinct at small 12–20px**; this stage documents that limitation rather than claiming artistic signoff. Full language/date/currency punctuation, native/print/OFL and explicit owner acceptance remain separate gates.
+
 ## 23 November 2026 — current v0.118 joined accent morphological design
 
 **Latest actual engineering font v0.118** completes the 32-case special Latin C/O/E/H/c/o/e/h investigation: 27 cases altered with **local** CFF Bézier/middle-bar/counter edits, NOT copying whole disconnected bodies through attached marks, and 5 lower h cases intentionally preserved (4 correct, ḩ fused cedilla). Exactly 27 CFF glyphs per master changed, 2910 other glyphs unchanged. Original metrics, GPOS/GSUB, glyph bounds and signature constraints unchanged, including basic Display A/А-only open cut, K/К fork, X/Х beta and W alpha. No new visible tangent kinks; all original mark attachments remain integral.

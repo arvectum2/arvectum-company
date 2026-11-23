@@ -1,0 +1,102 @@
+{
+  "version": "0.119",
+  "scope": "refine existing Cyrillic З/з horizontal terminals, optical kern for A+W/V, «A and ₽.,",
+  "owner_signature": "no new opening; A/А, W, M/М and digit 3 untouched",
+  "parent": "v0.118 immutable source",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.118/otf/ArvectumGoldenStepDisplayCompositeWorking0118-Medium.otf",
+      "source_sha256": "0a0a30e1c9841b603c2826e41306c88601f691c69f7ef3063673d4024c035336",
+      "output": "otf/ArvectumGoldenStepDisplayOpticalRhythmWorking0119-Medium.otf",
+      "output_sha256": "19687913cb9979ee7b8c713d137b3e6365f997a3cd47b3c10c41d5bba007f90b",
+      "glyph_changes": {
+        "uni0417": {
+          "top_left_delta_UPM": 78,
+          "bottom_right_delta_UPM": 74,
+          "changed_command_indices": [
+            0,
+            6,
+            20
+          ],
+          "original_flat_top_length": 68,
+          "original_flat_bottom_length": 110
+        },
+        "uni0437": {
+          "top_left_delta_UPM": 52,
+          "bottom_right_delta_UPM": 50,
+          "changed_command_indices": [
+            0,
+            6,
+            20
+          ],
+          "original_flat_top_length": 49,
+          "original_flat_bottom_length": 79
+        }
+      },
+      "kerning": {
+        "lookup_index": 11,
+        "kern_features": [
+          1,
+          2
+        ],
+        "pair_deltas_UPM": {
+          "A/W": -82,
+          "uni0410/W": -82,
+          "A/V": -72,
+          "uni0410/V": -72,
+          "guillemotleft/A": 110,
+          "guillemotleft/uni0410": 110,
+          "uni20BD/period": -280,
+          "uni20BD/comma": -280
+        }
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.118/otf/ArvectumGoldenStepTextCompositeWorking0118-Regular.otf",
+      "source_sha256": "1165876f7793f8f59dbc9c7ee8bfb7267a1e03968af4b5c4d575a5743d46e829",
+      "output": "otf/ArvectumGoldenStepTextOpticalRhythmWorking0119-Regular.otf",
+      "output_sha256": "5a3e81878ab13d2c4b190a29aaa90cf1e664e3e8c0a07600ca94ed6c33d5a1c1",
+      "glyph_changes": {
+        "uni0417": {
+          "top_left_delta_UPM": 78,
+          "bottom_right_delta_UPM": 74,
+          "changed_command_indices": [
+            0,
+            6,
+            20
+          ],
+          "original_flat_top_length": 67,
+          "original_flat_bottom_length": 108
+        },
+        "uni0437": {
+          "top_left_delta_UPM": 52,
+          "bottom_right_delta_UPM": 50,
+          "changed_command_indices": [
+            0,
+            6,
+            20
+          ],
+          "original_flat_top_length": 48,
+          "original_flat_bottom_length": 78
+        }
+      },
+      "kerning": {
+        "lookup_index": 11,
+        "kern_features": [
+          1,
+          2
+        ],
+        "pair_deltas_UPM": {
+          "A/W": -82,
+          "uni0410/W": -82,
+          "A/V": -72,
+          "uni0410/V": -72,
+          "guillemotleft/A": 110,
+          "guillemotleft/uni0410": 110,
+          "uni20BD/period": -280,
+          "uni20BD/comma": -280
+        }
+      }
+    }
+  }
+}

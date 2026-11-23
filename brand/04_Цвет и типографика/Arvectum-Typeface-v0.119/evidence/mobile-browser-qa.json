@@ -1,0 +1,66 @@
+{
+  "390-before": {
+    "source": "cases/mobile-before.html",
+    "screenshot": "proofs/mobile-390px-before.png",
+    "bytes": 171852,
+    "metrics": {
+      "viewport": 390,
+      "docWidth": 390,
+      "docHeight": 2067,
+      "families": [
+        "GSD",
+        "GST"
+      ],
+      "wordCount": 1428,
+      "maxBoxWidth": 358
+    }
+  },
+  "390-after": {
+    "source": "cases/mobile-after.html",
+    "screenshot": "proofs/mobile-390px-after.png",
+    "bytes": 172096,
+    "metrics": {
+      "viewport": 390,
+      "docWidth": 390,
+      "docHeight": 2067,
+      "families": [
+        "GSD",
+        "GST"
+      ],
+      "wordCount": 1428,
+      "maxBoxWidth": 358
+    }
+  },
+  "768-before": {
+    "source": "cases/mobile-before.html",
+    "screenshot": "proofs/mobile-768px-before.png",
+    "bytes": 179720,
+    "metrics": {
+      "viewport": 768,
+      "docWidth": 768,
+      "docHeight": 1904,
+      "families": [
+        "GSD",
+        "GST"
+      ],
+      "wordCount": 1428,
+      "maxBoxWidth": 728
+    }
+  },
+  "768-after": {
+    "source": "cases/mobile-after.html",
+    "screenshot": "proofs/mobile-768px-after.png",
+    "bytes": 179956,
+    "metrics": {
+      "viewport": 768,
+      "docWidth": 768,
+      "docHeight": 1904,
+      "families": [
+        "GSD",
+        "GST"
+      ],
+      "wordCount": 1428,
+      "maxBoxWidth": 728
+    }
+  }
+}

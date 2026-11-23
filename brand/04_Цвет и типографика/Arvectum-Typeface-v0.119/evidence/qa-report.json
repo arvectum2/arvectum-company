@@ -1,0 +1,172 @@
+{
+  "version": "0.119",
+  "QA": "work-in-progress",
+  "masters": {
+    "Display": {
+      "outline_changes": [
+        "uni0417",
+        "uni0437"
+      ],
+      "unchanged_paths": 2935,
+      "kern_pair_advances_unchanged_except": {
+        "AW": -82,
+        "АW": -82,
+        "AV": -72,
+        "АV": -72,
+        "«A": 110,
+        "«А": 110,
+        "₽.": -280,
+        "₽,": -280,
+        "WA": 0,
+        "MA": 0,
+        "AM": 0,
+        "MM": 0,
+        "WА": 0,
+        "3З": 0,
+        "З3": 0,
+        "₽0": 0,
+        "0₽": 0,
+        "«З": 0,
+        "₽-": 0
+      },
+      "flat_terminals_3_З_iou": [
+        {
+          "font_px": 12,
+          "before_iou": 0.962963,
+          "after_iou": 0.962963,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 14,
+          "before_iou": 0.636364,
+          "after_iou": 0.636364,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 16,
+          "before_iou": 0.811321,
+          "after_iou": 0.811321,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 20,
+          "before_iou": 0.807692,
+          "after_iou": 0.807692,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 32,
+          "before_iou": 0.816327,
+          "after_iou": 0.817259,
+          "improvement": -0.000932
+        },
+        {
+          "font_px": 48,
+          "before_iou": 0.885986,
+          "after_iou": 0.875587,
+          "improvement": 0.010399
+        },
+        {
+          "font_px": 72,
+          "before_iou": 0.975528,
+          "after_iou": 0.965859,
+          "improvement": 0.009669
+        },
+        {
+          "font_px": 128,
+          "before_iou": 0.936864,
+          "after_iou": 0.927456,
+          "improvement": 0.009409
+        }
+      ],
+      "metrics_and_previous_lookup_bytes_preserved": true,
+      "area_change_pct": {
+        "uni0417": 1.1011,
+        "uni0437": 0.8056
+      }
+    },
+    "Text": {
+      "outline_changes": [
+        "uni0417",
+        "uni0437"
+      ],
+      "unchanged_paths": 2935,
+      "kern_pair_advances_unchanged_except": {
+        "AW": -82,
+        "АW": -82,
+        "AV": -72,
+        "АV": -72,
+        "«A": 110,
+        "«А": 110,
+        "₽.": -280,
+        "₽,": -280,
+        "WA": 0,
+        "MA": 0,
+        "AM": 0,
+        "MM": 0,
+        "WА": 0,
+        "3З": 0,
+        "З3": 0,
+        "₽0": 0,
+        "0₽": 0,
+        "«З": 0,
+        "₽-": 0
+      },
+      "flat_terminals_3_З_iou": [
+        {
+          "font_px": 12,
+          "before_iou": 0.909091,
+          "after_iou": 0.909091,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 14,
+          "before_iou": 0.605263,
+          "after_iou": 0.605263,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 16,
+          "before_iou": 0.818182,
+          "after_iou": 0.8,
+          "improvement": 0.018182
+        },
+        {
+          "font_px": 20,
+          "before_iou": 0.826087,
+          "after_iou": 0.826087,
+          "improvement": 0.0
+        },
+        {
+          "font_px": 32,
+          "before_iou": 0.816568,
+          "after_iou": 0.822485,
+          "improvement": -0.005917
+        },
+        {
+          "font_px": 48,
+          "before_iou": 0.869565,
+          "after_iou": 0.855615,
+          "improvement": 0.01395
+        },
+        {
+          "font_px": 72,
+          "before_iou": 0.958656,
+          "after_iou": 0.947637,
+          "improvement": 0.011019
+        },
+        {
+          "font_px": 128,
+          "before_iou": 0.942308,
+          "after_iou": 0.929032,
+          "improvement": 0.013275
+        }
+      ],
+      "metrics_and_previous_lookup_bytes_preserved": true,
+      "area_change_pct": {
+        "uni0417": 1.2795,
+        "uni0437": 0.9308
+      }
+    }
+  }
+}

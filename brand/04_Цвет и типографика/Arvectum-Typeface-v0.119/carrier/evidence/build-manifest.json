@@ -1,0 +1,43 @@
+{
+  "type": "controlled internal synthetic carriers, NO customer info or production",
+  "prior_baseline": "v0.118",
+  "current": "v0.119",
+  "font_sources": {
+    "old0118-Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.118/otf/ArvectumGoldenStepDisplayCompositeWorking0118-Medium.woff2",
+      "source_sha256": "20940c2af88ab2e9dd2479710e7350647e47547b12392e173cea33b0883fee16",
+      "copied_sha256": "20940c2af88ab2e9dd2479710e7350647e47547b12392e173cea33b0883fee16"
+    },
+    "old0118-Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.118/otf/ArvectumGoldenStepTextCompositeWorking0118-Regular.woff2",
+      "source_sha256": "99fe40c5001b7724f51d6ef6b969fdd63165342054d0d5f9fdfc4cca54916323",
+      "copied_sha256": "99fe40c5001b7724f51d6ef6b969fdd63165342054d0d5f9fdfc4cca54916323"
+    },
+    "new0119-Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.119/otf/ArvectumGoldenStepDisplayOpticalRhythmWorking0119-Medium.woff2",
+      "source_sha256": "3ba225ee87b15d957e3b4d01e4ff0dfa2913b1dfc4fd694810c38e24cfabeacf",
+      "copied_sha256": "3ba225ee87b15d957e3b4d01e4ff0dfa2913b1dfc4fd694810c38e24cfabeacf"
+    },
+    "new0119-Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.119/otf/ArvectumGoldenStepTextOpticalRhythmWorking0119-Regular.woff2",
+      "source_sha256": "e571ce5a8afa17a3fac50f70cc0a43a79699bc82888697245f5f8806bca29d74",
+      "copied_sha256": "e571ce5a8afa17a3fac50f70cc0a43a79699bc82888697245f5f8806bca29d74"
+    }
+  },
+  "fixture_sources": {
+    "letter": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/letter/new0104.html",
+      "sha256": "06a2de32a4f38038324f7fed7ea57ef7f4a29d4c4817d9d932768db79f5fe753"
+    },
+    "proposal": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/proposal/new0104.html",
+      "sha256": "1e69760e1bc316ff5376bb97273252dd46ae6ab2a81b3ff3a083f42c56775969"
+    },
+    "mobile": {
+      "source": "brand/06_Носители/GoldenStep-Alpha-Carrier-v0.104/cases/mobile/new0104.html",
+      "sha256": "cd99ac5cb493f44203d56c1c09aadc65b597761b7e907e96105804db40243848"
+    }
+  },
+  "identical_lockup": "188a3f5d2acd78688b5a434b8282e93648efa42422929cab420519d41d3b01b4",
+  "same_css_except_font_src": true
+}

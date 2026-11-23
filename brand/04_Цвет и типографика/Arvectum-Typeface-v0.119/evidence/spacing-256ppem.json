@@ -1,0 +1,86 @@
+{
+  "scope": "Complete 2-character cross product of W/A/M, 3/З/з, ₽, guillemets and punctuation; interpreted as pair gap regression, NOT global kerning proof",
+  "ppem": 256,
+  "masters": {
+    "Display": {
+      "pairs_tested": 396,
+      "preexisting_negative": [],
+      "after_negative": [],
+      "new_negative_pairs": [],
+      "target_gaps": {
+        "AW": {
+          "before_px": 58.5,
+          "after_px": 48.25
+        },
+        "АW": {
+          "before_px": 68.5,
+          "after_px": 58.25
+        },
+        "AV": {
+          "before_px": 60.12,
+          "after_px": 51.12
+        },
+        "АV": {
+          "before_px": 60.12,
+          "after_px": 51.12
+        },
+        "«A": {
+          "before_px": 5.25,
+          "after_px": 19.0
+        },
+        "«А": {
+          "before_px": 5.25,
+          "after_px": 19.0
+        },
+        "₽.": {
+          "before_px": 104.12,
+          "after_px": 69.12
+        },
+        "₽,": {
+          "before_px": 105.12,
+          "after_px": 70.12
+        }
+      }
+    },
+    "Text": {
+      "pairs_tested": 396,
+      "preexisting_negative": [],
+      "after_negative": [],
+      "new_negative_pairs": [],
+      "target_gaps": {
+        "AW": {
+          "before_px": 62.0,
+          "after_px": 51.75
+        },
+        "АW": {
+          "before_px": 72.0,
+          "after_px": 61.75
+        },
+        "AV": {
+          "before_px": 62.0,
+          "after_px": 53.0
+        },
+        "АV": {
+          "before_px": 62.0,
+          "after_px": 53.0
+        },
+        "«A": {
+          "before_px": 5.25,
+          "after_px": 19.0
+        },
+        "«А": {
+          "before_px": 5.25,
+          "after_px": 19.0
+        },
+        "₽.": {
+          "before_px": 105.5,
+          "after_px": 70.5
+        },
+        "₽,": {
+          "before_px": 106.5,
+          "after_px": 71.5
+        }
+      }
+    }
+  }
+}
