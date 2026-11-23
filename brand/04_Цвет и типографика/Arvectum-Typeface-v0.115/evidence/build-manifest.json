@@ -1,0 +1,694 @@
+{
+  "version": "0.115",
+  "status": "engineering working; owner design approval and release OPEN",
+  "purpose": "repair obsolete inherited skeletons of N/Y and core Russian Cyrillic И/Й and Е/Ё families",
+  "family_counts": {
+    "N": 9,
+    "Y": 9,
+    "И": 4,
+    "и": 4,
+    "Е": 3,
+    "е": 3,
+    "К": 1
+  },
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.114/otf/ArvectumGoldenStepDisplayAccentGeometryWorking0114-Medium.otf",
+      "source_sha256": "8759a85dc04fa53a1074e104e1932ed89f1292958a313212221a601f3ef141cd",
+      "output": "otf/ArvectumGoldenStepDisplayCoreAccentWorking0115-Medium.otf",
+      "output_sha256": "0804ff3e6a2bea562542824ed4756f55bfea4d14e0ad6f4f465e7d8758b4ebd8",
+      "modified": {
+        "Ntilde": {
+          "codepoint": "U+00D1",
+          "char": "Ñ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1464
+        },
+        "Nacute": {
+          "codepoint": "U+0143",
+          "char": "Ń",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "uni0145": {
+          "codepoint": "U+0145",
+          "char": "Ņ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "Ncaron": {
+          "codepoint": "U+0147",
+          "char": "Ň",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1464
+        },
+        "uni01F8": {
+          "codepoint": "U+01F8",
+          "char": "Ǹ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "uni1E44": {
+          "codepoint": "U+1E44",
+          "char": "Ṅ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1464
+        },
+        "uni1E46": {
+          "codepoint": "U+1E46",
+          "char": "Ṇ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1464
+        },
+        "uni1E48": {
+          "codepoint": "U+1E48",
+          "char": "Ṉ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "uni1E4A": {
+          "codepoint": "U+1E4A",
+          "char": "Ṋ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1464
+        },
+        "Yacute": {
+          "codepoint": "U+00DD",
+          "char": "Ý",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1348
+        },
+        "Ycircumflex": {
+          "codepoint": "U+0176",
+          "char": "Ŷ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1348
+        },
+        "Ydieresis": {
+          "codepoint": "U+0178",
+          "char": "Ÿ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1348
+        },
+        "uni0232": {
+          "codepoint": "U+0232",
+          "char": "Ȳ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1348
+        },
+        "uni1E8E": {
+          "codepoint": "U+1E8E",
+          "char": "Ẏ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1348
+        },
+        "Ygrave": {
+          "codepoint": "U+1EF2",
+          "char": "Ỳ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1348
+        },
+        "uni1EF4": {
+          "codepoint": "U+1EF4",
+          "char": "Ỵ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1348
+        },
+        "uni1EF6": {
+          "codepoint": "U+1EF6",
+          "char": "Ỷ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 9,
+          "advance": 1348
+        },
+        "uni1EF8": {
+          "codepoint": "U+1EF8",
+          "char": "Ỹ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1348
+        },
+        "uni040D": {
+          "codepoint": "U+040D",
+          "char": "Ѝ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "uni0419": {
+          "codepoint": "U+0419",
+          "char": "Й",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1464
+        },
+        "uni04E2": {
+          "codepoint": "U+04E2",
+          "char": "Ӣ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1464
+        },
+        "uni04E4": {
+          "codepoint": "U+04E4",
+          "char": "Ӥ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1464
+        },
+        "uni0439": {
+          "codepoint": "U+0439",
+          "char": "й",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1165
+        },
+        "uni045D": {
+          "codepoint": "U+045D",
+          "char": "ѝ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1165
+        },
+        "uni04E3": {
+          "codepoint": "U+04E3",
+          "char": "ӣ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1165
+        },
+        "uni04E5": {
+          "codepoint": "U+04E5",
+          "char": "ӥ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1165
+        },
+        "uni0400": {
+          "codepoint": "U+0400",
+          "char": "Ѐ",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1206
+        },
+        "uni0401": {
+          "codepoint": "U+0401",
+          "char": "Ё",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1206
+        },
+        "uni04D6": {
+          "codepoint": "U+04D6",
+          "char": "Ӗ",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1206
+        },
+        "uni0450": {
+          "codepoint": "U+0450",
+          "char": "ѐ",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1115
+        },
+        "uni0451": {
+          "codepoint": "U+0451",
+          "char": "ё",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1115
+        },
+        "uni04D7": {
+          "codepoint": "U+04D7",
+          "char": "ӗ",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1115
+        },
+        "uni040C": {
+          "codepoint": "U+040C",
+          "char": "Ќ",
+          "base": "Kacyr",
+          "family": "К",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1334
+        }
+      },
+      "other_glyphs_intact": 2904
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.114/otf/ArvectumGoldenStepTextAccentGeometryWorking0114-Regular.otf",
+      "source_sha256": "97842fe71cabcbb0d21eb92a03bf35ecba68dd44eb536a9ee1a6c830eda35af4",
+      "output": "otf/ArvectumGoldenStepTextCoreAccentWorking0115-Regular.otf",
+      "output_sha256": "ce3f1eea4a8c50f0c36ca7e987da95f8f2c6ecba766ec11988af5106f2936189",
+      "modified": {
+        "Ntilde": {
+          "codepoint": "U+00D1",
+          "char": "Ñ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1454
+        },
+        "Nacute": {
+          "codepoint": "U+0143",
+          "char": "Ń",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "uni0145": {
+          "codepoint": "U+0145",
+          "char": "Ņ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "Ncaron": {
+          "codepoint": "U+0147",
+          "char": "Ň",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1454
+        },
+        "uni01F8": {
+          "codepoint": "U+01F8",
+          "char": "Ǹ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "uni1E44": {
+          "codepoint": "U+1E44",
+          "char": "Ṅ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1454
+        },
+        "uni1E46": {
+          "codepoint": "U+1E46",
+          "char": "Ṇ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1454
+        },
+        "uni1E48": {
+          "codepoint": "U+1E48",
+          "char": "Ṉ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "uni1E4A": {
+          "codepoint": "U+1E4A",
+          "char": "Ṋ",
+          "base": "N",
+          "family": "N",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1454
+        },
+        "Yacute": {
+          "codepoint": "U+00DD",
+          "char": "Ý",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1316
+        },
+        "Ycircumflex": {
+          "codepoint": "U+0176",
+          "char": "Ŷ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1316
+        },
+        "Ydieresis": {
+          "codepoint": "U+0178",
+          "char": "Ÿ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1316
+        },
+        "uni0232": {
+          "codepoint": "U+0232",
+          "char": "Ȳ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1316
+        },
+        "uni1E8E": {
+          "codepoint": "U+1E8E",
+          "char": "Ẏ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1316
+        },
+        "Ygrave": {
+          "codepoint": "U+1EF2",
+          "char": "Ỳ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1316
+        },
+        "uni1EF4": {
+          "codepoint": "U+1EF4",
+          "char": "Ỵ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 6,
+          "advance": 1316
+        },
+        "uni1EF6": {
+          "codepoint": "U+1EF6",
+          "char": "Ỷ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 9,
+          "advance": 1316
+        },
+        "uni1EF8": {
+          "codepoint": "U+1EF8",
+          "char": "Ỹ",
+          "base": "Y",
+          "family": "Y",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 10,
+          "advance": 1316
+        },
+        "uni040D": {
+          "codepoint": "U+040D",
+          "char": "Ѝ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "uni0419": {
+          "codepoint": "U+0419",
+          "char": "Й",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1454
+        },
+        "uni04E2": {
+          "codepoint": "U+04E2",
+          "char": "Ӣ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1454
+        },
+        "uni04E4": {
+          "codepoint": "U+04E4",
+          "char": "Ӥ",
+          "base": "uni0418",
+          "family": "И",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1454
+        },
+        "uni0439": {
+          "codepoint": "U+0439",
+          "char": "й",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1136
+        },
+        "uni045D": {
+          "codepoint": "U+045D",
+          "char": "ѝ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1136
+        },
+        "uni04E3": {
+          "codepoint": "U+04E3",
+          "char": "ӣ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1136
+        },
+        "uni04E5": {
+          "codepoint": "U+04E5",
+          "char": "ӥ",
+          "base": "uni0438",
+          "family": "и",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1136
+        },
+        "uni0400": {
+          "codepoint": "U+0400",
+          "char": "Ѐ",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1187
+        },
+        "uni0401": {
+          "codepoint": "U+0401",
+          "char": "Ё",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1187
+        },
+        "uni04D6": {
+          "codepoint": "U+04D6",
+          "char": "Ӗ",
+          "base": "uni0415",
+          "family": "Е",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1187
+        },
+        "uni0450": {
+          "codepoint": "U+0450",
+          "char": "ѐ",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1098
+        },
+        "uni0451": {
+          "codepoint": "U+0451",
+          "char": "ё",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 2,
+          "all_accent_commands_preserved": 12,
+          "advance": 1098
+        },
+        "uni04D7": {
+          "codepoint": "U+04D7",
+          "char": "ӗ",
+          "base": "uni0435",
+          "family": "е",
+          "base_contours": 2,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 8,
+          "advance": 1098
+        },
+        "uni040C": {
+          "codepoint": "U+040C",
+          "char": "Ќ",
+          "base": "Kacyr",
+          "family": "К",
+          "base_contours": 1,
+          "accent_contours": 1,
+          "all_accent_commands_preserved": 5,
+          "advance": 1299
+        }
+      },
+      "other_glyphs_intact": 2904
+    }
+  }
+}

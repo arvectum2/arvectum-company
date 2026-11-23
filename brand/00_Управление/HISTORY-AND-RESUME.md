@@ -55,3 +55,7 @@
 ## 2026-11-23 — current working checkpoint v0.114
 
 Pointer to the later working state, NOT a retroactive rewrite of missing or reconstructed archives. The operational Brand roadmap was updated because it still named v0.38. Current editable source: 04_Цвет и типографика/Arvectum-Typeface-v0.114/, Design Contract and TYPEFACE-WORK-QUEUE.md. Engineering versions v0.85–v0.114 remain in Git. Original v0.13 and complete v0.23/v0.24 ZIP archives remain unverified. Owner font-artistic release and production are explicitly OPEN.
+
+## 2026-11-23 — next working checkpoint v0.115
+
+Source is v0.114, fully retained. New current v0.115 harmonizes Latin N/Y and Cyrillic И/и/Е/е/К accent bodies (33 per master, all attached marks identical). Brand roadmap and work queue now use v0.115. Older original archive gaps remain open and no production/artistic approval is inferred.

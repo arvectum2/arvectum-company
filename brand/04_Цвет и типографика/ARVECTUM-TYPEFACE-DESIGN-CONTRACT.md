@@ -22,6 +22,12 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — current v0.115: N/Y and Cyrillic Й/Ё anatomy
+
+**Current engineering working font is v0.115**, with 33 additional old-skeleton Latin N/Y and Cyrillic И/и/Е/е/К accent forms normalized to the EXACT saved matching current basic glyph body per master. This includes Russian high-frequency Й, й, Ё, ё. The changes strictly preserve each accent subpath and the old font's kerning, mark positions and metrics. Existing owner-approved A/А open-cut restriction (only basic Display A/А), K/К short connector, W α and X/Х β remain untouched.
+
+This does NOT approve a broad mechanical port of forms to special fused Cyrillic variants: NFD inventory identifies 10 residual exceptional candidates per master. Real-visual professional acceptance, native device/print/legal checks and owner signoff remain OPEN; no approved Wordmark or site changed.
+
 ## 23 November 2026 — current v0.114 decorated K/X/V/M structural consistency
 
 After the working closed-alpha A-accent family v0.113, the next designer's audit checked inherited decorated K/X/V/M glyphs. The **latest current working font v0.114** replaces exactly 12 former first-body contours per optical master: K variants 5, X variants 2, V variants 2, M variants 3. Each edited glyph now inherits the **exact saved current body of its base K/X/V/M**. All accent outlines and their X/Y coordinates are preserved, and all font advances/sidebearings, mark anchors, kerning/GPOS, GSUB/GDEF, cmap and OS/2 remain unchanged.

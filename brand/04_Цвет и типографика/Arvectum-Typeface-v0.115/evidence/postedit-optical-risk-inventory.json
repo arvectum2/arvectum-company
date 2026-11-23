@@ -1,0 +1,627 @@
+{
+  "purpose": "Independent post-v0.115 risk inventory: Cyrillic accent families, mark clearance, W/A/M widths",
+  "working_not_approved": true,
+  "notes": "Do not mechanically replace fused accents, special forms or missing coverage based solely on this list",
+  "masters": {
+    "Display": {
+      "Cyrillic_remaining_group_candidates": {
+        "І": [
+          {
+            "char": "Ї",
+            "glyph": "uni0407",
+            "main_glyph": "uni0406",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "і": [
+          {
+            "char": "ї",
+            "glyph": "uni0457",
+            "main_glyph": "uni0456",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 2,
+            "variant_contours": 3
+          }
+        ],
+        "А": [
+          {
+            "char": "Ӑ",
+            "glyph": "uni04D0",
+            "main_glyph": "uni0410",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          },
+          {
+            "char": "Ӓ",
+            "glyph": "uni04D2",
+            "main_glyph": "uni0410",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 4
+          }
+        ],
+        "а": [
+          {
+            "char": "ӑ",
+            "glyph": "uni04D1",
+            "main_glyph": "uni0430",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 3
+          },
+          {
+            "char": "ӓ",
+            "glyph": "uni04D3",
+            "main_glyph": "uni0430",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ],
+        "З": [
+          {
+            "char": "Ӟ",
+            "glyph": "uni04DE",
+            "main_glyph": "uni0417",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "з": [
+          {
+            "char": "ӟ",
+            "glyph": "uni04DF",
+            "main_glyph": "uni0437",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "О": [
+          {
+            "char": "Ӧ",
+            "glyph": "uni04E6",
+            "main_glyph": "uni041E",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ],
+        "о": [
+          {
+            "char": "ӧ",
+            "glyph": "uni04E7",
+            "main_glyph": "uni043E",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ]
+      },
+      "Cyrillic_remaining_candidate_count": 10,
+      "post_edit_mark_vertical_clearances": [
+        {
+          "glyph": "Ntilde",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 190
+        },
+        {
+          "glyph": "Nacute",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni0145",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 118
+        },
+        {
+          "glyph": "Ncaron",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 154
+        },
+        {
+          "glyph": "uni01F8",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni1E44",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 182
+        },
+        {
+          "glyph": "uni1E46",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 189
+        },
+        {
+          "glyph": "uni1E48",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 205
+        },
+        {
+          "glyph": "uni1E4A",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 174
+        },
+        {
+          "glyph": "Yacute",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "Ycircumflex",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 154
+        },
+        {
+          "glyph": "Ydieresis",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 183
+        },
+        {
+          "glyph": "uni0232",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 207
+        },
+        {
+          "glyph": "uni1E8E",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 182
+        },
+        {
+          "glyph": "Ygrave",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni1EF4",
+          "base": "Y",
+          "mark_position": "below",
+          "vertical_separation_UPM": 189
+        },
+        {
+          "glyph": "uni1EF6",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni1EF8",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 190
+        },
+        {
+          "glyph": "uni040D",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni0419",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 146
+        },
+        {
+          "glyph": "uni04E2",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 207
+        },
+        {
+          "glyph": "uni04E4",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 183
+        },
+        {
+          "glyph": "uni0439",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 146
+        },
+        {
+          "glyph": "uni045D",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni04E3",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 207
+        },
+        {
+          "glyph": "uni04E5",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 183
+        },
+        {
+          "glyph": "uni0400",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        },
+        {
+          "glyph": "uni0401",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 183
+        },
+        {
+          "glyph": "uni04D6",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 146
+        },
+        {
+          "glyph": "uni0450",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 110
+        },
+        {
+          "glyph": "uni0451",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 159
+        },
+        {
+          "glyph": "uni04D7",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 122
+        },
+        {
+          "glyph": "uni040C",
+          "base": "Kacyr",
+          "mark_position": "above",
+          "vertical_separation_UPM": 134
+        }
+      ],
+      "mark_bbox_vertical_overlaps_to_review": [],
+      "W_over_M": 1.2857944974733295,
+      "W_over_sqrt_phi_percent": 1.0829115701571634,
+      "A_over_M": 0.8309938236945537,
+      "base_advance_UPM": {
+        "W": 2290,
+        "M": 1781,
+        "A": 1480
+      }
+    },
+    "Text": {
+      "Cyrillic_remaining_group_candidates": {
+        "І": [
+          {
+            "char": "Ї",
+            "glyph": "uni0407",
+            "main_glyph": "uni0406",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "і": [
+          {
+            "char": "ї",
+            "glyph": "uni0457",
+            "main_glyph": "uni0456",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 2,
+            "variant_contours": 3
+          }
+        ],
+        "А": [
+          {
+            "char": "Ӑ",
+            "glyph": "uni04D0",
+            "main_glyph": "uni0410",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 2,
+            "variant_contours": 3
+          },
+          {
+            "char": "Ӓ",
+            "glyph": "uni04D2",
+            "main_glyph": "uni0410",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ],
+        "а": [
+          {
+            "char": "ӑ",
+            "glyph": "uni04D1",
+            "main_glyph": "uni0430",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 3
+          },
+          {
+            "char": "ӓ",
+            "glyph": "uni04D3",
+            "main_glyph": "uni0430",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ],
+        "З": [
+          {
+            "char": "Ӟ",
+            "glyph": "uni04DE",
+            "main_glyph": "uni0417",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "з": [
+          {
+            "char": "ӟ",
+            "glyph": "uni04DF",
+            "main_glyph": "uni0437",
+            "reason": "fused/complex or metrics different",
+            "base_contours": 1,
+            "variant_contours": 3
+          }
+        ],
+        "О": [
+          {
+            "char": "Ӧ",
+            "glyph": "uni04E6",
+            "main_glyph": "uni041E",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ],
+        "о": [
+          {
+            "char": "ӧ",
+            "glyph": "uni04E7",
+            "main_glyph": "uni043E",
+            "reason": "detached accent but old base shape",
+            "base_contours": 2,
+            "variant_contours": 4
+          }
+        ]
+      },
+      "Cyrillic_remaining_candidate_count": 10,
+      "post_edit_mark_vertical_clearances": [
+        {
+          "glyph": "Ntilde",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 203
+        },
+        {
+          "glyph": "Nacute",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni0145",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 118
+        },
+        {
+          "glyph": "Ncaron",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 160
+        },
+        {
+          "glyph": "uni01F8",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni1E44",
+          "base": "N",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni1E46",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni1E48",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 220
+        },
+        {
+          "glyph": "uni1E4A",
+          "base": "N",
+          "mark_position": "below",
+          "vertical_separation_UPM": 186
+        },
+        {
+          "glyph": "Yacute",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "Ycircumflex",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 160
+        },
+        {
+          "glyph": "Ydieresis",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni0232",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 220
+        },
+        {
+          "glyph": "uni1E8E",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "Ygrave",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni1EF4",
+          "base": "Y",
+          "mark_position": "below",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni1EF6",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni1EF8",
+          "base": "Y",
+          "mark_position": "above",
+          "vertical_separation_UPM": 203
+        },
+        {
+          "glyph": "uni040D",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni0419",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 154
+        },
+        {
+          "glyph": "uni04E2",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 220
+        },
+        {
+          "glyph": "uni04E4",
+          "base": "uni0418",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni0439",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 154
+        },
+        {
+          "glyph": "uni045D",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni04E3",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 220
+        },
+        {
+          "glyph": "uni04E5",
+          "base": "uni0438",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni0400",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        },
+        {
+          "glyph": "uni0401",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 206
+        },
+        {
+          "glyph": "uni04D6",
+          "base": "uni0415",
+          "mark_position": "above",
+          "vertical_separation_UPM": 154
+        },
+        {
+          "glyph": "uni0450",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 112
+        },
+        {
+          "glyph": "uni0451",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 182
+        },
+        {
+          "glyph": "uni04D7",
+          "base": "uni0435",
+          "mark_position": "above",
+          "vertical_separation_UPM": 130
+        },
+        {
+          "glyph": "uni040C",
+          "base": "Kacyr",
+          "mark_position": "above",
+          "vertical_separation_UPM": 136
+        }
+      ],
+      "mark_bbox_vertical_overlaps_to_review": [],
+      "W_over_M": 1.2938496583143508,
+      "W_over_sqrt_phi_percent": 1.7161691494798292,
+      "A_over_M": 0.8428246013667426,
+      "base_advance_UPM": {
+        "W": 2272,
+        "M": 1756,
+        "A": 1480
+      }
+    }
+  }
+}

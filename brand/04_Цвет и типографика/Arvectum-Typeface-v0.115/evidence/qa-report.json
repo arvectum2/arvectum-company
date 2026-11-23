@@ -1,0 +1,48 @@
+{
+  "version": "0.115",
+  "working": true,
+  "artistic_signoff": "OPEN",
+  "production": false,
+  "masters": {
+    "Display": {
+      "changed_skeleton_glyphs": 33,
+      "unchanged_glyphs": 2904,
+      "family_counts": {
+        "N": 9,
+        "Y": 9,
+        "И": 4,
+        "и": 4,
+        "Е": 3,
+        "е": 3,
+        "К": 1
+      },
+      "exact_accent_shape_and_position_preserved": true,
+      "all_2937_other_outlines_full_diff": true,
+      "hmtx_identical": true,
+      "all_old_ot_layout_identical": true,
+      "current_core_K_and_X_dual_script_identity": true,
+      "source_GLIF_roundtrip": true,
+      "unchanged_shaped_positions_12_strings": true
+    },
+    "Text": {
+      "changed_skeleton_glyphs": 33,
+      "unchanged_glyphs": 2904,
+      "family_counts": {
+        "N": 9,
+        "Y": 9,
+        "И": 4,
+        "и": 4,
+        "Е": 3,
+        "е": 3,
+        "К": 1
+      },
+      "exact_accent_shape_and_position_preserved": true,
+      "all_2937_other_outlines_full_diff": true,
+      "hmtx_identical": true,
+      "all_old_ot_layout_identical": true,
+      "current_core_K_and_X_dual_script_identity": true,
+      "source_GLIF_roundtrip": true,
+      "unchanged_shaped_positions_12_strings": true
+    }
+  }
+}
