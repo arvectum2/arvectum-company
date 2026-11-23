@@ -1,0 +1,43 @@
+{
+  "version": "0.110",
+  "status": "IMPLEMENTED CURRENT WORKING FONT, NOT PRODUCTION",
+  "alpha_deg": 69.0948425521107,
+  "scope": "W-only CFF vector source for both independent optical masters",
+  "release_gate": "Artistic/readability approval still OPEN",
+  "masters": {
+    "Display": {
+      "modified_paths": [
+        "W"
+      ],
+      "unchanged_glyph_paths": 2936,
+      "same_20_source_outline_commands": true,
+      "no_extra_curves_or_line_segments": true,
+      "alpha_rails": 8,
+      "max_alpha_error_deg": 2.439448536506461e-07,
+      "curve_tangency_pass": true,
+      "single_valid_outline": true,
+      "advance": 2290,
+      "growth_pct": 15.890688259109309,
+      "ink_area_change_pct": 11.208324087437326,
+      "GLIF_exact_saved_CFF": true,
+      "SIL_OFL_copied": true
+    },
+    "Text": {
+      "modified_paths": [
+        "W"
+      ],
+      "unchanged_glyph_paths": 2936,
+      "same_20_source_outline_commands": true,
+      "no_extra_curves_or_line_segments": true,
+      "alpha_rails": 8,
+      "max_alpha_error_deg": 1.2674218652364289e-06,
+      "curve_tangency_pass": true,
+      "single_valid_outline": true,
+      "advance": 2272,
+      "growth_pct": 16.872427983539097,
+      "ink_area_change_pct": 15.563056700822786,
+      "GLIF_exact_saved_CFF": true,
+      "SIL_OFL_copied": true
+    }
+  }
+}

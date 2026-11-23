@@ -1,0 +1,129 @@
+{
+  "version": "0.110",
+  "status": "NEW WORKING ITERATION, OWNER GLYPH OPTICAL SIGNOFF OPEN",
+  "active_source": "v0.106, not rejected v0.107 or W v0.108–0.109",
+  "design": "One simple W, eight straight alpha rails, only four original smooth curve transitions, no extra kinks",
+  "alpha_deg": 69.0948425521107,
+  "masters": {
+    "Display": {
+      "source_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+      "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+      "output_path": "otf/ArvectumGoldenStepDisplayAlphaWWorking0110-Medium.otf",
+      "output_sha256": "57e910df4e7f1f12960870925593b59e109a046b9ee3034f29b5824667c9715e",
+      "details": {
+        "alpha_rails": [
+          [
+            18,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "alpha_max_error_deg": 0.0,
+        "original_advance": 1976,
+        "new_advance": 2290,
+        "advance_growth_percent": 15.890688259109309,
+        "original_area": 1175584.2,
+        "new_area": 1307347.4772939496,
+        "ink_change_pct": 11.208323256977227,
+        "lower_counter_opening_x": 161.67093649231765,
+        "upper_counter_opening_x": 93.0517162622782,
+        "center": 1145,
+        "bbox": [
+          16.0,
+          0.0,
+          2274.0,
+          1490.0
+        ],
+        "source_topology_commands": 20,
+        "new_topology_commands": 20
+      }
+    },
+    "Text": {
+      "source_path": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+      "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+      "output_path": "otf/ArvectumGoldenStepTextAlphaWWorking0110-Regular.otf",
+      "output_sha256": "6c4071c7d8ba0f08a0b2c330c2a35d830c310dfa482f9821f7a2089d6e6461b8",
+      "details": {
+        "alpha_rails": [
+          [
+            18,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "alpha_max_error_deg": 1.4210854715202004e-14,
+        "original_advance": 1944,
+        "new_advance": 2272,
+        "advance_growth_percent": 16.872427983539097,
+        "original_area": 966604.3500000001,
+        "new_area": 1117037.5494348998,
+        "ink_change_pct": 15.5630583945644,
+        "lower_counter_opening_x": 160.54321907480448,
+        "upper_counter_opening_x": 106.59273592477484,
+        "center": 1136,
+        "bbox": [
+          20.0,
+          0.0,
+          2252.0,
+          1490.0
+        ],
+        "source_topology_commands": 20,
+        "new_topology_commands": 20
+      }
+    }
+  }
+}

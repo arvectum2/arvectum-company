@@ -22,6 +22,12 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — later owner instruction implemented: W at α in current v0.110
+
+The owner explicitly directed us to save the W alpha change to the **real vector source of the current font**, not to create an illustration. That is implemented in new **current working v0.110** from immutable v0.106. Each independently developed Display/Text master now has 8 major W straight rails precisely at α (no third angle). The CFF outline retains the baseline's original 20 command sequence, **with no added bends or curves**; saved editable GLIF and SVG contours are included alongside both OTF/WOFF2 and verified by round-trip.
+
+This latest direction supersedes the older historical notation that W/A angle compatibility was *not yet implemented*: the v0.106 source is still ~75° but current v0.110 is α. W advances are +15.89% Display and +16.87% Text because preserving full-cap-height α legs, readable counters and an unchanged topology requires real width tradeoffs. Optical and kerning review of that tradeoff remains OPEN; this engineering implementation is **not yet final artistic/production approval**. Only W is changed; all prior owner decisions including Display A/А right gap, no other signature gaps, original Wordmark and v0.107 rejection remain in force.
+
 ## 23 November 2026 — W: original silhouette preferred, A-parallelism required
 
 **Later owner clarification supersedes the mistaken "accepted optical angle exception" wording.** The original W in v0.106 was preferred as an **optical silhouette** over WAlphaWide and WAlphaBalanced because it is simple and does not introduce excess kinks/bends. The owner ALSO explicitly stated that W's principal diagonals **should be parallel to the corresponding A/А diagonals**. These are TWO distinct requirements, not permission to treat any W angle as a permanently accepted exception.
