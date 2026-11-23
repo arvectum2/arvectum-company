@@ -51,3 +51,7 @@
 
 ## 2026-11-20 — итерация v0.38
 04_Цвет и типографика/Arvectum-Typeface-v0.38: 20 SVG чаш, 19 реально измененных позиций (9 Display, 10 Text); р Display совпадает с v0.37, p/р и P/Р идентичны внутри стиля, зеркальные b/d и p/q. k=1/φ для новых четвертей кривых Display, оптический k=0.5522847498 Text. 2 OTF по 180 позиций, 170 вне семейства неизменны на стиль. Интегрировано 52/47 не-временных по происхождению позиций Display/Text, не утверждение. Все SVG/OTF воспроизводимы; QA и сравнительные листы сохранены; оригинал v0.24 не подменен, мастера неизменны. Далее v0.39: аудит покрытия и семейство прямых штрихов/перекладин.
+
+## 2026-11-23 — current working checkpoint v0.114
+
+Pointer to the later working state, NOT a retroactive rewrite of missing or reconstructed archives. The operational Brand roadmap was updated because it still named v0.38. Current editable source: 04_Цвет и типографика/Arvectum-Typeface-v0.114/, Design Contract and TYPEFACE-WORK-QUEUE.md. Engineering versions v0.85–v0.114 remain in Git. Original v0.13 and complete v0.23/v0.24 ZIP archives remain unverified. Owner font-artistic release and production are explicitly OPEN.

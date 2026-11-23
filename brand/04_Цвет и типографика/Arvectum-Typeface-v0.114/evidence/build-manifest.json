@@ -1,0 +1,218 @@
+{
+  "version": "0.114",
+  "status": "engineering current, not artistic/production approved",
+  "scope": "replace 12 outdated decorated base contours by exact source current K/X/V/M, preserve original mark curves",
+  "owner_design_boundary": "K short horizontal connector retained, X beta and V/M alpha retained, owner A signature unchanged",
+  "masters": {
+    "Display": {
+      "parent": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.113/otf/ArvectumGoldenStepDisplayAFamilyWorking0113-Medium.otf",
+      "parent_sha256": "c97fad1edf5a144086dd2af3e1340b2a885ec475be66846ffb644dc4aba4fc37",
+      "output": "otf/ArvectumGoldenStepDisplayAccentGeometryWorking0114-Medium.otf",
+      "output_sha256": "8759a85dc04fa53a1074e104e1932ed89f1292958a313212221a601f3ef141cd",
+      "modified": {
+        "uni0136": {
+          "base": "K",
+          "unicode": "U+0136",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1334
+        },
+        "uni01E8": {
+          "base": "K",
+          "unicode": "U+01E8",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 10,
+          "unchanged_width": 1334
+        },
+        "uni1E30": {
+          "base": "K",
+          "unicode": "U+1E30",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1334
+        },
+        "uni1E32": {
+          "base": "K",
+          "unicode": "U+1E32",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1334
+        },
+        "uni1E34": {
+          "base": "K",
+          "unicode": "U+1E34",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1334
+        },
+        "uni1E8A": {
+          "base": "X",
+          "unicode": "U+1E8A",
+          "source_body_commands": 17,
+          "updated_body_commands": 17,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1357
+        },
+        "uni1E8C": {
+          "base": "X",
+          "unicode": "U+1E8C",
+          "source_body_commands": 17,
+          "updated_body_commands": 17,
+          "accent_commands_preserved": 12,
+          "unchanged_width": 1357
+        },
+        "uni1E7C": {
+          "base": "V",
+          "unicode": "U+1E7C",
+          "source_body_commands": 10,
+          "updated_body_commands": 10,
+          "accent_commands_preserved": 10,
+          "unchanged_width": 1374
+        },
+        "uni1E7E": {
+          "base": "V",
+          "unicode": "U+1E7E",
+          "source_body_commands": 10,
+          "updated_body_commands": 10,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1374
+        },
+        "uni1E3E": {
+          "base": "M",
+          "unicode": "U+1E3E",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1781
+        },
+        "uni1E40": {
+          "base": "M",
+          "unicode": "U+1E40",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1781
+        },
+        "uni1E42": {
+          "base": "M",
+          "unicode": "U+1E42",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1781
+        }
+      },
+      "changed_glyph_count": 12
+    },
+    "Text": {
+      "parent": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.113/otf/ArvectumGoldenStepTextAFamilyWorking0113-Regular.otf",
+      "parent_sha256": "7af7301edb3f4d3dd8e58f0159f99fa4644bc6cf5caaab20aee33f08452d31aa",
+      "output": "otf/ArvectumGoldenStepTextAccentGeometryWorking0114-Regular.otf",
+      "output_sha256": "97842fe71cabcbb0d21eb92a03bf35ecba68dd44eb536a9ee1a6c830eda35af4",
+      "modified": {
+        "uni0136": {
+          "base": "K",
+          "unicode": "U+0136",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1299
+        },
+        "uni01E8": {
+          "base": "K",
+          "unicode": "U+01E8",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 10,
+          "unchanged_width": 1299
+        },
+        "uni1E30": {
+          "base": "K",
+          "unicode": "U+1E30",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1299
+        },
+        "uni1E32": {
+          "base": "K",
+          "unicode": "U+1E32",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1299
+        },
+        "uni1E34": {
+          "base": "K",
+          "unicode": "U+1E34",
+          "source_body_commands": 14,
+          "updated_body_commands": 14,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1299
+        },
+        "uni1E8A": {
+          "base": "X",
+          "unicode": "U+1E8A",
+          "source_body_commands": 17,
+          "updated_body_commands": 17,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1322
+        },
+        "uni1E8C": {
+          "base": "X",
+          "unicode": "U+1E8C",
+          "source_body_commands": 17,
+          "updated_body_commands": 17,
+          "accent_commands_preserved": 12,
+          "unchanged_width": 1322
+        },
+        "uni1E7C": {
+          "base": "V",
+          "unicode": "U+1E7C",
+          "source_body_commands": 10,
+          "updated_body_commands": 10,
+          "accent_commands_preserved": 10,
+          "unchanged_width": 1338
+        },
+        "uni1E7E": {
+          "base": "V",
+          "unicode": "U+1E7E",
+          "source_body_commands": 10,
+          "updated_body_commands": 10,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1338
+        },
+        "uni1E3E": {
+          "base": "M",
+          "unicode": "U+1E3E",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 5,
+          "unchanged_width": 1756
+        },
+        "uni1E40": {
+          "base": "M",
+          "unicode": "U+1E40",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1756
+        },
+        "uni1E42": {
+          "base": "M",
+          "unicode": "U+1E42",
+          "source_body_commands": 20,
+          "updated_body_commands": 20,
+          "accent_commands_preserved": 6,
+          "unchanged_width": 1756
+        }
+      },
+      "changed_glyph_count": 12
+    }
+  }
+}

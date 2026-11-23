@@ -1,0 +1,68 @@
+{
+  "version": "0.114",
+  "production": false,
+  "owner_art_approval": "OPEN",
+  "edited": "12 accented glyph skeletons, preserving the saved base K/X/V/M and every mark curve",
+  "masters": {
+    "Display": {
+      "only_changed_glyphs": [
+        "uni0136",
+        "uni01E8",
+        "uni1E30",
+        "uni1E32",
+        "uni1E34",
+        "uni1E3E",
+        "uni1E40",
+        "uni1E42",
+        "uni1E7C",
+        "uni1E7E",
+        "uni1E8A",
+        "uni1E8C"
+      ],
+      "unchanged_glyphs": 2925,
+      "whole_GPOS_and_GSUB_unchanged": true,
+      "hmtx_unchanged": true,
+      "K_Kacyr_unified": true,
+      "X_CyrX_beta_conserved": true,
+      "W_alpha_conserved": true,
+      "repaired_family_counts": {
+        "K": 5,
+        "X": 2,
+        "V": 2,
+        "M": 3
+      },
+      "all_accent_contours_exactly_preserved": true,
+      "all_changed_GLIF_roundtrip": true
+    },
+    "Text": {
+      "only_changed_glyphs": [
+        "uni0136",
+        "uni01E8",
+        "uni1E30",
+        "uni1E32",
+        "uni1E34",
+        "uni1E3E",
+        "uni1E40",
+        "uni1E42",
+        "uni1E7C",
+        "uni1E7E",
+        "uni1E8A",
+        "uni1E8C"
+      ],
+      "unchanged_glyphs": 2925,
+      "whole_GPOS_and_GSUB_unchanged": true,
+      "hmtx_unchanged": true,
+      "K_Kacyr_unified": true,
+      "X_CyrX_beta_conserved": true,
+      "W_alpha_conserved": true,
+      "repaired_family_counts": {
+        "K": 5,
+        "X": 2,
+        "V": 2,
+        "M": 3
+      },
+      "all_accent_contours_exactly_preserved": true,
+      "all_changed_GLIF_roundtrip": true
+    }
+  }
+}

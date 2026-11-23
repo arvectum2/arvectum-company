@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1E30" format="2">
+  <advance width="1334"/>
+  <unicode hex="1E30"/>
+  <note>
+Arvectum Golden Step v0.114 saved CFF Display uni1E30
+</note>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="358" y="0" type="line"/>
+      <point x="358" y="710" type="line"/>
+      <point x="611.1958618164062" y="710" type="line"/>
+      <point x="1050.0" y="0" type="line"/>
+      <point x="1313.0" y="0" type="line"/>
+      <point x="806.8301696777344" y="819" type="line"/>
+      <point x="1221.5309753417969" y="1490" type="line"/>
+      <point x="957.5309753417969" y="1490" type="line"/>
+      <point x="598.4532318115234" y="909" type="line"/>
+      <point x="358.00001525878906" y="909" type="line"/>
+      <point x="358.00001525878906" y="1490" type="line"/>
+      <point x="136.00001525878906" y="1490" type="line"/>
+    </contour>
+    <contour>
+      <point x="587.0" y="1624" type="line"/>
+      <point x="751.0" y="1624" type="line"/>
+      <point x="964.0" y="1927" type="line"/>
+      <point x="739.0" y="1927" type="line"/>
+    </contour>
+  </outline>
+</glyph>

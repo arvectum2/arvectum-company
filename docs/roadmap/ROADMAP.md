@@ -1,9 +1,9 @@
 # Каноническая дорожная карта Arvectum Company
 
 Статус: `Active`
-Версия: `0.62.0`
+Версия: `0.63.0`
 Создано: `2026-08-19`
-Обновлено: `2026-11-17`
+Обновлено: `2026-11-23`
 Владелец: `ООО «Арвектум»`
 Репозиторий: `arvectum2/arvectum-company`
 
@@ -14,16 +14,11 @@
 Стратегия: `docs/business/COMPANY-STRATEGY-v2.0.0.md`
 Стратегическая дорожная карта: `docs/roadmap/STRATEGIC-ROADMAP.md`
 
-## 1. Модель публикации
+## 1. Модель публикации и происхождение редакций
 
-Эта редакция `0.60.0` сохраняет исторический M6 evidence и фиксирует Owner-approved AC-607 Conditional PASS вместе с переходом стратегического фокуса к SR-1.
+Редакция **0.63.0** наследует принятое направление 0.62.0 **Workspace First** и все прежние M5/M6 и SR-1 внешние evidence gates. Настоящее изменение синхронизирует только подтверждённое состояние подчинённого Company-owned направления **Brand Identity / Golden Step** (см. раздел 13) с его рабочей дорожной картой. Инженерный шрифтовой PASS не создаёт нового продуктового приоритета, не доказывает external revenue или утверждение бренда.
 
-Предыдущая каноническая редакция:
-- версия: `0.58.0`;
-- путь: `docs/roadmap/ROADMAP.md`;
-- immutable git blob SHA: `6f9b229e753221d163b51295b10ed24089687ddc`.
-
-Все исторические M0–M6 evidence, AC-505 state, AC-601…AC-607 evidence and the POS-004 AM-4 authority model remain unchanged unless explicitly superseded below.
+Предыдущая каноническая редакция: **0.62.0, 2026-11-17**; immutable blob **a022cd7a525284625ab8ba48acca5a7ccf12b067** по пути docs/roadmap/ROADMAP.md. Более ранний v0.58 baseline и решения AC-505/AC-601…607 сохраняются в истории, не редактируются.
 
 ## 2. Strategy 2.0 overlay
 
@@ -184,3 +179,17 @@ Workspace becomes the default executive information/work interface. Existing AC-
 | 6 | Real owner use, feedback, fix/retest, value review | WSF-08/09 |
 
 Engineering plan: `arvectum2/arvectum-os:docs/roadmap/WORKSPACE-FIRST-DELIVERY.md` (subject to OS governance). First action is read-only recovery diagnostics; deployment, new data sources, contract expansion and material decisions remain separately gated. No technical PASS substitutes for actual convenient use as reported by Owner. Review after first usable increment; proposed five-workday pilot thereafter.
+
+## 13. 2026-11-23 — Brand Identity / Golden Step (производный Company-контур)
+
+По прямому запросу собственника актуализирована рабочая дорожная карта **brand/00_Управление/ROADMAP-DRAFT.md**: прежняя версия от 19 ноября оставалась на точке Typeface v0.38 и не отражала уже выполненную разработку. Её immutable blob **71da6866e070e9f6cb2f0ca15291e704388a350f** сохранён.
+
+Текущий Company-owned BR-05 / Golden Step:
+- **v0.114, инженерный рабочий кандидат**, два самостоятельных мастера Display Medium и Text Regular, 2937 CFF-глифов / 2852 Unicode-позиций на стиль, OTF/WOFF2 и редактируемые GLIF/SVG.
+- Owner two-angle grammar α=atan(φ²) и β=atan(φ), единственный ранее согласованный разрыв справа у базовых Display A/А; отклонённые другие прорези не восстанавливаются.
+- Текущая итерация гармонизирует **12 акцентированных K/X/V/M** (5+2+2+3 на мастер) со своими базовыми формами без изменения 2925 иных контуров, hmtx/GPOS/GSUB и исходных кривых акцентов. Полный OTF/WOFF2 и художественный review имеют отдельные evidence-файлы.
+- **Статус рабочий / Technical PASS**, NOT signed-off artistic branding, release, licensing or production.
+
+Это **отдельный подчинённый Company brand workstream**, а не новый портфельный продукт, департамент или commercial engine. Прежние приоритеты **Workspace First**, M5/AC-505, M6/AC-607, SR-1 и ограничение Tender Agent × Data Platform остаются без изменений. Никакой маркетинговый релиз, изменение live website, Wordmark, условий лицензии, договора или governance Arvectum OS этой записью не разрешён.
+
+Дальнейшие продуктовые/брендовые сроки, BR-00…BR-15 и контрольные ворота подробно ведутся в актуальной рабочей brand-roadmap. Следующий evidence gate: кириллица и оставшаяся диакритика, W/A/M ритм, носители, native/print/legal, отдельная художественная приёмка владельцем.

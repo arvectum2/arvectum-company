@@ -22,6 +22,14 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — current v0.114 decorated K/X/V/M structural consistency
+
+After the working closed-alpha A-accent family v0.113, the next designer's audit checked inherited decorated K/X/V/M glyphs. The **latest current working font v0.114** replaces exactly 12 former first-body contours per optical master: K variants 5, X variants 2, V variants 2, M variants 3. Each edited glyph now inherits the **exact saved current body of its base K/X/V/M**. All accent outlines and their X/Y coordinates are preserved, and all font advances/sidebearings, mark anchors, kerning/GPOS, GSUB/GDEF, cmap and OS/2 remain unchanged.
+
+The owner-directed design skeleton remains K/К with short horizontal connector, X/Х with β structural diagonals, V/M with α grammar; W retains previously saved α geometry. The **only approved right-open signature** is basic Display A/А. Do not extend that cut to other forms, blindly transfer a Latin glyph into Cyrillic, or attempt new W kinks to satisfy a number.
+
+This is a **technical working font** with visually reviewed CFF before/after and 12/2937 changed-scope QA; it is NOT final owner-approved art or ready for publication. The branded working roadmap has been refreshed to the v0.114 stage; the Company roadmap synchronization changes no Company authority or commercial priority. Remaining optical and licensing/native/print gates are mandatory before final promotion.
+
 ## 23 November 2026 — alpha A-accent working geometry, current v0.113
 
 After visual analysis of full-size CFF and text at 12–16px, the current engineering Golden Step **v0.113** replaces the 30 inherited Latin uppercase A-accent outlines that had outdated ~70–71° narrow A geometry. They now share the accepted **CLOSED alpha A skeleton and 1480 UPM width** in BOTH optical masters. This DOES NOT extend the owner-approved special gap: it remains **only the basic Latin A and Cyrillic А in Display**. Text A/А and newly engineered A accents remain closed. The owner can later decide whether this signature restriction should be interpreted differently for accented A; no silent authority is assumed.
