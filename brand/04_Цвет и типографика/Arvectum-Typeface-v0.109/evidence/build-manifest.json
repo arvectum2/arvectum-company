@@ -1,0 +1,137 @@
+{
+  "version": "0.109",
+  "status": "ISOLATED compact-alpha-W proof only; active v0.106 untouched",
+  "font_design": "WAlphaBalanced, preserving all 8 straight alpha rails while making internal optical tradeoffs",
+  "owner_decisions": "ONLY Display A/А keeps right-open crossbar; v0.107 gaps remain rejected",
+  "alpha_deg": 69.0948425521107,
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepDisplayUnifiedForkDraft0106-Medium.otf",
+      "source_sha256": "e6b188856ae1a26bd90e8984487504db9d04dd350bd086e03f8340a12680bff3",
+      "output": "experimental/ArvectumGoldenStepDisplayAlphaBalancedExperimental0109-Medium.otf",
+      "output_sha256": "4e0315f6f938baeaef247174fc29375bf6245877344aa80472ffb4b3a2c79525",
+      "geometry": {
+        "original_advance": 1976,
+        "new_advance": 2241,
+        "alpha_rails": [
+          [
+            18,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "max_alpha_error_deg": 1.4210854715202004e-14,
+        "original_ink_area": 1175584.2,
+        "new_ink_area": 1349612.3726963755,
+        "ink_change_pct": 14.803548116449306,
+        "outer_cap_thickness": 220.59446180505438,
+        "foot_width": 200,
+        "shoulder_y": 760,
+        "left_valley_control_x": [
+          667.7589935588956,
+          607.7589935588956,
+          567.7589935588956
+        ],
+        "new_bounds": [
+          16.0,
+          0.0,
+          2224.8470506254735,
+          1490.0
+        ],
+        "center_x": 1120.4235253127367,
+        "geometry_status": "working experimental, optical counter collision must be checked"
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.106/experimental/ArvectumGoldenStepTextUnifiedForkDraft0106-Regular.otf",
+      "source_sha256": "cb9f40649eea9993c4fbd94deabd62ecdb90744ee63b57764c0751566d3d848f",
+      "output": "experimental/ArvectumGoldenStepTextAlphaBalancedExperimental0109-Regular.otf",
+      "output_sha256": "2e679a49c63ce251fff68f5d786a2cafe7c73ac02fcd94eca9ac443498c44c9e",
+      "geometry": {
+        "original_advance": 1944,
+        "new_advance": 2180,
+        "alpha_rails": [
+          [
+            18,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            6,
+            7
+          ],
+          [
+            8,
+            9
+          ],
+          [
+            11,
+            12
+          ],
+          [
+            13,
+            14
+          ],
+          [
+            16,
+            17
+          ]
+        ],
+        "max_alpha_error_deg": 1.4210854715202004e-14,
+        "original_ink_area": 966604.3500000001,
+        "new_ink_area": 1183041.1263294434,
+        "ink_change_pct": 22.391454821142,
+        "outer_cap_thickness": 165.41759410628833,
+        "foot_width": 175,
+        "shoulder_y": 735,
+        "left_valley_control_x": [
+          630.6459845688861,
+          578.6459845688861,
+          540.6459845688861
+        ],
+        "new_bounds": [
+          20.0,
+          0.0,
+          2159.7487500629677,
+          1490.0
+        ],
+        "center_x": 1089.8743750314839,
+        "geometry_status": "working experimental, optical counter collision must be checked"
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "version": "0.109",
+  "status": "ENGINEERING PASS, OWNER ART/RELEASE OPEN",
+  "angle_alpha_deg": 69.0948425521107,
+  "research_only": true,
+  "masters": {
+    "Display": {
+      "only_changed_glyph": "W",
+      "all_other_glyphs_unchanged": 2936,
+      "exact_cmap_and_layout_tables": true,
+      "alpha_rails": 8,
+      "max_alpha_error_deg": 3.7133831654045935e-07,
+      "new_advance": 2241,
+      "source_advance": 1976,
+      "growth_pct": 13.410931174089068,
+      "relative_ink_area_change_pct": 14.803549487072388,
+      "one_simplified_outline_no_self_intersections": true,
+      "rejected_extra_gaps_unchanged": true
+    },
+    "Text": {
+      "only_changed_glyph": "W",
+      "all_other_glyphs_unchanged": 2936,
+      "exact_cmap_and_layout_tables": true,
+      "alpha_rails": 8,
+      "max_alpha_error_deg": 7.807690991512573e-07,
+      "new_advance": 2180,
+      "source_advance": 1944,
+      "growth_pct": 12.139917695473246,
+      "relative_ink_area_change_pct": 22.391454702547662,
+      "one_simplified_outline_no_self_intersections": true,
+      "rejected_extra_gaps_unchanged": true
+    }
+  },
+  "open": [
+    "W width +12–13%, lower valley spacing and center stroke mass need owner optical review",
+    "XSoft 12–16px pixel differences do not prove human readability improvement",
+    "WAlphaBalanced kerning, line reflow, packaging rights, Windows/print OPEN"
+  ]
+}

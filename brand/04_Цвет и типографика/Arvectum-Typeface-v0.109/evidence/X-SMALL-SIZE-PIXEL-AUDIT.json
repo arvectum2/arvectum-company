@@ -1,0 +1,84 @@
+{
+  "scope": "Pillow FreeType real OTF raster; objective pixel changes, NOT human readability",
+  "sample": "X Х X-RAY ХАРАКТЕР",
+  "canvas_px": [
+    340,
+    60
+  ],
+  "styles": {
+    "Display": {
+      "12": {
+        "changed": 40,
+        "visible12": 32,
+        "strong32": 12,
+        "old_vs_soft_visible12": 157,
+        "mean_abs": 0.0417647
+      },
+      "14": {
+        "changed": 48,
+        "visible12": 28,
+        "strong32": 12,
+        "old_vs_soft_visible12": 190,
+        "mean_abs": 0.0552941
+      },
+      "16": {
+        "changed": 68,
+        "visible12": 32,
+        "strong32": 8,
+        "old_vs_soft_visible12": 229,
+        "mean_abs": 0.0743137
+      },
+      "18": {
+        "changed": 72,
+        "visible12": 48,
+        "strong32": 24,
+        "old_vs_soft_visible12": 285,
+        "mean_abs": 0.092549
+      },
+      "24": {
+        "changed": 96,
+        "visible12": 68,
+        "strong32": 44,
+        "old_vs_soft_visible12": 442,
+        "mean_abs": 0.1643137
+      }
+    },
+    "Text": {
+      "12": {
+        "changed": 44,
+        "visible12": 20,
+        "strong32": 8,
+        "old_vs_soft_visible12": 149,
+        "mean_abs": 0.0372549
+      },
+      "14": {
+        "changed": 48,
+        "visible12": 32,
+        "strong32": 8,
+        "old_vs_soft_visible12": 190,
+        "mean_abs": 0.0496078
+      },
+      "16": {
+        "changed": 60,
+        "visible12": 40,
+        "strong32": 16,
+        "old_vs_soft_visible12": 258,
+        "mean_abs": 0.064902
+      },
+      "18": {
+        "changed": 72,
+        "visible12": 44,
+        "strong32": 20,
+        "old_vs_soft_visible12": 278,
+        "mean_abs": 0.0815686
+      },
+      "24": {
+        "changed": 96,
+        "visible12": 56,
+        "strong32": 44,
+        "old_vs_soft_visible12": 430,
+        "mean_abs": 0.1456863
+      }
+    }
+  }
+}
