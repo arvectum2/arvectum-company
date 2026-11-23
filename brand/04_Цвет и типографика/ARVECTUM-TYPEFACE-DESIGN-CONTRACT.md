@@ -22,6 +22,14 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
 7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
 
+## 23 November 2026 — W-accent construction harmonization, current v0.112
+
+A professional typographic inspection must compare **actual saved fonts**, not infer aesthetic quality from angle and contour QA alone. It revealed a structural defect: plain W had been reworked to α and enlarged while all nine accented W variants remained on the old narrow ~75° silhouette. Current engineering working version **v0.112** therefore normalizes the W family: ALL precomposed/alternate accented W glyphs MUST use the EXACT same α-aligned plain-W base outline, preserve the accents' original Bézier geometry and Y placement, center them over the updated W optical axis, and update relevant GPOS mark-to-base anchors and W-specific kerning. Do not create a third W form or extra breaks.
+
+This was implemented in vector GLIF, SVG, CFF OTF, WOFF2 for BOTH Display Medium and Text Regular: nine changed glyphs per master, 20 mark anchor records, extended 160 explicit W-family kern pairs, with strict independent proof that all remaining contours/tables are unaffected. X/Х remain β (8/8), W remains α (8/8), ONLY capital Display A/А keeps the owner's signature opening; Text A/А remains closed. Previously rejected extra gaps do not return.
+
+**Current status: ENGINEERING WORKING v0.112.** The owner has NOT approved its final artistic suitability or production release. Outstanding design gates include W width and its optical rhythm relative to A/M, pairing with accent-bearing neighbouring letters, other inherited accent families, physical device proof, licensing/Windows/print. No approved Wordmark, deployed site or customer materials modified.
+
 ## 23 November 2026 — X/Х beta and W kerning in current v0.111
 
 The latest explicit owner instruction assigns **β=atan(φ)=58.2825255885°** to uppercase Latin X and Cyrillic Х. The saved source CFF already satisfies this geometry on **8/8 major straight rails per glyph in each Display/Text master**; X and Х are independently encoded but share exactly the same outlines. This is now an **owner-assigned β family**, not an unapproved or alpha assignment. Do not change successful X/Х geometry merely to increment the font revision. XSoft experiments remain unapproved history.

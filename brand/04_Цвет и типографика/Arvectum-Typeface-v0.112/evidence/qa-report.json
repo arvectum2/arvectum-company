@@ -1,0 +1,58 @@
+{
+  "version": "0.112",
+  "engineering_working": true,
+  "production": false,
+  "owner_art_signoff": "OPEN",
+  "preserved_owner_angles": {
+    "W_alpha": 69.0948425521,
+    "X_CyrX_beta": 58.2825255885
+  },
+  "masters": {
+    "Display": {
+      "only_modified_glyphs": [
+        "Wcircumflex",
+        "Wgrave",
+        "Wacute",
+        "Wdieresis",
+        "uni1E86",
+        "uni1E88",
+        "Wdieresis.ss07",
+        "uni1E86.ss07",
+        "uni1E88.ss07"
+      ],
+      "unchanged_glyphs": 2928,
+      "new_advance": 2290,
+      "shift_UPM": 157,
+      "mark_anchor_records_updated": 20,
+      "same_original_GPOS_except_scoped_mark_kern_changes": true,
+      "old_pair_records": 16,
+      "new_pair_records": 160,
+      "full_GLIF_saved_CFF_roundtrip": true,
+      "W_alpha_8_of_8": true,
+      "X_CyrX_beta_8_of_8": true
+    },
+    "Text": {
+      "only_modified_glyphs": [
+        "Wcircumflex",
+        "Wgrave",
+        "Wacute",
+        "Wdieresis",
+        "uni1E86",
+        "uni1E88",
+        "Wdieresis.ss07",
+        "uni1E86.ss07",
+        "uni1E88.ss07"
+      ],
+      "unchanged_glyphs": 2928,
+      "new_advance": 2272,
+      "shift_UPM": 164,
+      "mark_anchor_records_updated": 20,
+      "same_original_GPOS_except_scoped_mark_kern_changes": true,
+      "old_pair_records": 16,
+      "new_pair_records": 160,
+      "full_GLIF_saved_CFF_roundtrip": true,
+      "W_alpha_8_of_8": true,
+      "X_CyrX_beta_8_of_8": true
+    }
+  }
+}

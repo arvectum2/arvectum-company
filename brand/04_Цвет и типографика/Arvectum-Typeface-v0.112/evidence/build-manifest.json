@@ -1,0 +1,348 @@
+{
+  "version": "0.112",
+  "authority": "engineering continuation, NOT owner optical or production approval",
+  "purpose": "professional consistency of all W-accented forms and combining mark anchors",
+  "base": "v0.111 exactly; maintain W alpha and X/CyrX beta",
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.111/otf/ArvectumGoldenStepDisplayWKernsWorking0111-Medium.otf",
+      "source_sha256": "d459934a1e823e56728382a06612f12e9735b77f9e957d85045d4773b887e219",
+      "output": "otf/ArvectumGoldenStepDisplayWHarmonizedWorking0112-Medium.otf",
+      "output_sha256": "6765a8de967fdd7a2d3b4e39528bee6188f5fe7e3f9f5dced900d57ffad16d45",
+      "source_center_UPM": 988,
+      "alpha_W_center_UPM": 1145,
+      "accent_shift_x_UPM": 157,
+      "changed_accented_glyphs": [
+        "Wcircumflex",
+        "Wgrave",
+        "Wacute",
+        "Wdieresis",
+        "uni1E86",
+        "uni1E88",
+        "Wdieresis.ss07",
+        "uni1E86.ss07",
+        "uni1E88.ss07"
+      ],
+      "changed_widths": {
+        "Wcircumflex": 2290,
+        "Wgrave": 2290,
+        "Wacute": 2290,
+        "Wdieresis": 2290,
+        "uni1E86": 2290,
+        "uni1E88": 2290,
+        "Wdieresis.ss07": 2290,
+        "uni1E86.ss07": 2290,
+        "uni1E88.ss07": 2290
+      },
+      "mark_anchor_updates": {
+        "4:0:W": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:Wcircumflex": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:Wgrave": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:Wacute": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:Wdieresis": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:uni1E86": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:uni1E88": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:Wdieresis.ss07": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:uni1E86.ss07": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "4:0:uni1E88.ss07": [
+          [
+            1145,
+            0
+          ]
+        ],
+        "8:0:W": [
+          [
+            1145,
+            1490
+          ]
+        ],
+        "8:0:Wcircumflex": [
+          [
+            1145,
+            1927
+          ]
+        ],
+        "8:0:Wgrave": [
+          [
+            1145,
+            1927
+          ]
+        ],
+        "8:0:Wacute": [
+          [
+            1145,
+            1927
+          ]
+        ],
+        "8:0:Wdieresis": [
+          [
+            1145,
+            1924
+          ]
+        ],
+        "8:0:uni1E86": [
+          [
+            1145,
+            1935
+          ]
+        ],
+        "8:0:uni1E88": [
+          [
+            1145,
+            1490
+          ]
+        ],
+        "8:0:Wdieresis.ss07": [
+          [
+            1145,
+            1924
+          ]
+        ],
+        "8:0:uni1E86.ss07": [
+          [
+            1145,
+            1924
+          ]
+        ],
+        "8:0:uni1E88.ss07": [
+          [
+            1145,
+            1490
+          ]
+        ]
+      },
+      "kerning_extension": {
+        "before_pairs": 16,
+        "after_pairs": 160,
+        "gpos_overlay_index": 10,
+        "accented_variants": [
+          "Wcircumflex",
+          "Wgrave",
+          "Wacute",
+          "Wdieresis",
+          "uni1E86",
+          "uni1E88",
+          "Wdieresis.ss07",
+          "uni1E86.ss07",
+          "uni1E88.ss07"
+        ],
+        "all_deltas_unmodified": true
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.111/otf/ArvectumGoldenStepTextWKernsWorking0111-Regular.otf",
+      "source_sha256": "235e11a4eaa08cf0c962a3d32d2a333e40b3462edae6739dfcd16b146ed311e1",
+      "output": "otf/ArvectumGoldenStepTextWHarmonizedWorking0112-Regular.otf",
+      "output_sha256": "d9b08e3609ea1b61c0fb50338707806832058ec2bda05507a7a7e50f1bceb7ca",
+      "source_center_UPM": 972,
+      "alpha_W_center_UPM": 1136,
+      "accent_shift_x_UPM": 164,
+      "changed_accented_glyphs": [
+        "Wcircumflex",
+        "Wgrave",
+        "Wacute",
+        "Wdieresis",
+        "uni1E86",
+        "uni1E88",
+        "Wdieresis.ss07",
+        "uni1E86.ss07",
+        "uni1E88.ss07"
+      ],
+      "changed_widths": {
+        "Wcircumflex": 2272,
+        "Wgrave": 2272,
+        "Wacute": 2272,
+        "Wdieresis": 2272,
+        "uni1E86": 2272,
+        "uni1E88": 2272,
+        "Wdieresis.ss07": 2272,
+        "uni1E86.ss07": 2272,
+        "uni1E88.ss07": 2272
+      },
+      "mark_anchor_updates": {
+        "4:0:W": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:Wcircumflex": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:Wgrave": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:Wacute": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:Wdieresis": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:uni1E86": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:uni1E88": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:Wdieresis.ss07": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:uni1E86.ss07": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "4:0:uni1E88.ss07": [
+          [
+            1136,
+            0
+          ]
+        ],
+        "8:0:W": [
+          [
+            1136,
+            1490
+          ]
+        ],
+        "8:0:Wcircumflex": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:Wgrave": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:Wacute": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:Wdieresis": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:uni1E86": [
+          [
+            1136,
+            1928
+          ]
+        ],
+        "8:0:uni1E88": [
+          [
+            1136,
+            1490
+          ]
+        ],
+        "8:0:Wdieresis.ss07": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:uni1E86.ss07": [
+          [
+            1136,
+            1924
+          ]
+        ],
+        "8:0:uni1E88.ss07": [
+          [
+            1136,
+            1490
+          ]
+        ]
+      },
+      "kerning_extension": {
+        "before_pairs": 16,
+        "after_pairs": 160,
+        "gpos_overlay_index": 10,
+        "accented_variants": [
+          "Wcircumflex",
+          "Wgrave",
+          "Wacute",
+          "Wdieresis",
+          "uni1E86",
+          "uni1E88",
+          "Wdieresis.ss07",
+          "uni1E86.ss07",
+          "uni1E88.ss07"
+        ],
+        "all_deltas_unmodified": true
+      }
+    }
+  }
+}
