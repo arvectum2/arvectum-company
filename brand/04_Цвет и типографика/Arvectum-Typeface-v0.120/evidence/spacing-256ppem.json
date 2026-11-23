@@ -1,0 +1,171 @@
+{
+  "scope": "19 edited pairs plus 20 representative unchanged controls, 256ppem ink gap; not global kerning",
+  "masters": {
+    "Display": {
+      "measured_pairs": 39,
+      "new_negative": [],
+      "changed": {
+        "AT": {
+          "before_px": 55.0,
+          "after_px": 46.0
+        },
+        "Гр": {
+          "before_px": 85.75,
+          "after_px": 56.38
+        },
+        "тл": {
+          "before_px": 35.0,
+          "after_px": 28.12
+        },
+        "Ay": {
+          "before_px": 49.62,
+          "after_px": 42.12
+        },
+        "АТ": {
+          "before_px": 55.0,
+          "after_px": 45.62
+        },
+        "Tu": {
+          "before_px": 53.75,
+          "after_px": 40.25
+        },
+        "Тр": {
+          "before_px": 56.25,
+          "after_px": 45.62
+        },
+        "AY": {
+          "before_px": 58.5,
+          "after_px": 47.88
+        },
+        "Гл": {
+          "before_px": 98.88,
+          "after_px": 53.88
+        },
+        "гл": {
+          "before_px": 38.75,
+          "after_px": 30.62
+        },
+        "УЛ": {
+          "before_px": 78.62,
+          "after_px": 56.75
+        },
+        "Tr": {
+          "before_px": 56.25,
+          "after_px": 43.75
+        },
+        "LW": {
+          "before_px": 59.75,
+          "after_px": 47.88
+        },
+        "ул": {
+          "before_px": 46.12,
+          "after_px": 34.25
+        },
+        "Га": {
+          "before_px": 74.62,
+          "after_px": 54.0
+        },
+        "Го": {
+          "before_px": 71.38,
+          "after_px": 51.38
+        },
+        "Гу": {
+          "before_px": 70.38,
+          "after_px": 54.12
+        },
+        "Ге": {
+          "before_px": 71.38,
+          "after_px": 51.38
+        },
+        "Ул": {
+          "before_px": 79.62,
+          "after_px": 55.88
+        }
+      },
+      "unmodified_controls_exact": true
+    },
+    "Text": {
+      "measured_pairs": 39,
+      "new_negative": [],
+      "changed": {
+        "AT": {
+          "before_px": 57.0,
+          "after_px": 48.0
+        },
+        "Гр": {
+          "before_px": 87.5,
+          "after_px": 58.12
+        },
+        "тл": {
+          "before_px": 35.25,
+          "after_px": 28.38
+        },
+        "Ay": {
+          "before_px": 49.62,
+          "after_px": 42.12
+        },
+        "АТ": {
+          "before_px": 57.0,
+          "after_px": 47.62
+        },
+        "Tu": {
+          "before_px": 57.5,
+          "after_px": 44.0
+        },
+        "Тр": {
+          "before_px": 57.5,
+          "after_px": 46.88
+        },
+        "AY": {
+          "before_px": 57.5,
+          "after_px": 46.88
+        },
+        "Гл": {
+          "before_px": 101.25,
+          "after_px": 56.25
+        },
+        "гл": {
+          "before_px": 40.25,
+          "after_px": 32.12
+        },
+        "УЛ": {
+          "before_px": 79.38,
+          "after_px": 57.5
+        },
+        "Tr": {
+          "before_px": 57.5,
+          "after_px": 45.0
+        },
+        "LW": {
+          "before_px": 66.0,
+          "after_px": 54.12
+        },
+        "ул": {
+          "before_px": 46.38,
+          "after_px": 34.5
+        },
+        "Га": {
+          "before_px": 77.5,
+          "after_px": 56.88
+        },
+        "Го": {
+          "before_px": 75.25,
+          "after_px": 55.25
+        },
+        "Гу": {
+          "before_px": 70.5,
+          "after_px": 54.25
+        },
+        "Ге": {
+          "before_px": 75.25,
+          "after_px": 55.25
+        },
+        "Ул": {
+          "before_px": 79.38,
+          "after_px": 55.62
+        }
+      },
+      "unmodified_controls_exact": true
+    }
+  }
+}

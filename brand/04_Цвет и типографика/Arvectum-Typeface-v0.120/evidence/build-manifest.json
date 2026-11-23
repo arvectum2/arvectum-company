@@ -1,0 +1,342 @@
+{
+  "version": "0.120",
+  "scope": "RU/EN common business word pair kerning, 19 pairs per optical master",
+  "owner_decision_2026_11_23": "3 and Cyrillic З may look similar. No requirement for artificial distinction; both forms preserved.",
+  "CFF_changed_paths_per_master": 0,
+  "masters": {
+    "Display": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.119/otf/ArvectumGoldenStepDisplayOpticalRhythmWorking0119-Medium.otf",
+      "source_sha256": "19687913cb9979ee7b8c713d137b3e6365f997a3cd47b3c10c41d5bba007f90b",
+      "output": "otf/ArvectumGoldenStepDisplayLanguageRhythmWorking0120-Medium.otf",
+      "output_sha256": "2a1fafdb09625bbbc7f61808744a2dfadfb79a1d8b41e2d775ceb96e6c74fd2e",
+      "GPOS_addition": {
+        "lookup_index": 12,
+        "features": [
+          1,
+          2
+        ],
+        "pairs": [
+          {
+            "pair": "Гл",
+            "glyphs": [
+              "uni0413",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -360
+          },
+          {
+            "pair": "Гр",
+            "glyphs": [
+              "uni0413",
+              "uni0440"
+            ],
+            "xadvance_delta_UPM": -235
+          },
+          {
+            "pair": "Го",
+            "glyphs": [
+              "uni0413",
+              "uni043E"
+            ],
+            "xadvance_delta_UPM": -160
+          },
+          {
+            "pair": "Ге",
+            "glyphs": [
+              "uni0413",
+              "uni0435"
+            ],
+            "xadvance_delta_UPM": -160
+          },
+          {
+            "pair": "Га",
+            "glyphs": [
+              "uni0413",
+              "uni0430"
+            ],
+            "xadvance_delta_UPM": -165
+          },
+          {
+            "pair": "Гу",
+            "glyphs": [
+              "uni0413",
+              "uni0443"
+            ],
+            "xadvance_delta_UPM": -130
+          },
+          {
+            "pair": "Ул",
+            "glyphs": [
+              "uni0423",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -190
+          },
+          {
+            "pair": "Тр",
+            "glyphs": [
+              "uni0422",
+              "uni0440"
+            ],
+            "xadvance_delta_UPM": -85
+          },
+          {
+            "pair": "УЛ",
+            "glyphs": [
+              "uni0423",
+              "uni041B"
+            ],
+            "xadvance_delta_UPM": -175
+          },
+          {
+            "pair": "АТ",
+            "glyphs": [
+              "uni0410",
+              "uni0422"
+            ],
+            "xadvance_delta_UPM": -75
+          },
+          {
+            "pair": "ул",
+            "glyphs": [
+              "uni0443",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -95
+          },
+          {
+            "pair": "гл",
+            "glyphs": [
+              "uni0433",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -65
+          },
+          {
+            "pair": "тл",
+            "glyphs": [
+              "uni0442",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -55
+          },
+          {
+            "pair": "AY",
+            "glyphs": [
+              "A",
+              "Y"
+            ],
+            "xadvance_delta_UPM": -85
+          },
+          {
+            "pair": "AT",
+            "glyphs": [
+              "A",
+              "T"
+            ],
+            "xadvance_delta_UPM": -72
+          },
+          {
+            "pair": "LW",
+            "glyphs": [
+              "L",
+              "W"
+            ],
+            "xadvance_delta_UPM": -95
+          },
+          {
+            "pair": "Tr",
+            "glyphs": [
+              "T",
+              "r"
+            ],
+            "xadvance_delta_UPM": -100
+          },
+          {
+            "pair": "Tu",
+            "glyphs": [
+              "T",
+              "u"
+            ],
+            "xadvance_delta_UPM": -108
+          },
+          {
+            "pair": "Ay",
+            "glyphs": [
+              "A",
+              "y"
+            ],
+            "xadvance_delta_UPM": -60
+          }
+        ]
+      }
+    },
+    "Text": {
+      "source": "brand/04_Цвет и типографика/Arvectum-Typeface-v0.119/otf/ArvectumGoldenStepTextOpticalRhythmWorking0119-Regular.otf",
+      "source_sha256": "5a3e81878ab13d2c4b190a29aaa90cf1e664e3e8c0a07600ca94ed6c33d5a1c1",
+      "output": "otf/ArvectumGoldenStepTextLanguageRhythmWorking0120-Regular.otf",
+      "output_sha256": "03822c887fd8ba452306a16c10301072f3107fc4981060ddb15d10ba2ac2ac5f",
+      "GPOS_addition": {
+        "lookup_index": 12,
+        "features": [
+          1,
+          2
+        ],
+        "pairs": [
+          {
+            "pair": "Гл",
+            "glyphs": [
+              "uni0413",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -360
+          },
+          {
+            "pair": "Гр",
+            "glyphs": [
+              "uni0413",
+              "uni0440"
+            ],
+            "xadvance_delta_UPM": -235
+          },
+          {
+            "pair": "Го",
+            "glyphs": [
+              "uni0413",
+              "uni043E"
+            ],
+            "xadvance_delta_UPM": -160
+          },
+          {
+            "pair": "Ге",
+            "glyphs": [
+              "uni0413",
+              "uni0435"
+            ],
+            "xadvance_delta_UPM": -160
+          },
+          {
+            "pair": "Га",
+            "glyphs": [
+              "uni0413",
+              "uni0430"
+            ],
+            "xadvance_delta_UPM": -165
+          },
+          {
+            "pair": "Гу",
+            "glyphs": [
+              "uni0413",
+              "uni0443"
+            ],
+            "xadvance_delta_UPM": -130
+          },
+          {
+            "pair": "Ул",
+            "glyphs": [
+              "uni0423",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -190
+          },
+          {
+            "pair": "Тр",
+            "glyphs": [
+              "uni0422",
+              "uni0440"
+            ],
+            "xadvance_delta_UPM": -85
+          },
+          {
+            "pair": "УЛ",
+            "glyphs": [
+              "uni0423",
+              "uni041B"
+            ],
+            "xadvance_delta_UPM": -175
+          },
+          {
+            "pair": "АТ",
+            "glyphs": [
+              "uni0410",
+              "uni0422"
+            ],
+            "xadvance_delta_UPM": -75
+          },
+          {
+            "pair": "ул",
+            "glyphs": [
+              "uni0443",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -95
+          },
+          {
+            "pair": "гл",
+            "glyphs": [
+              "uni0433",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -65
+          },
+          {
+            "pair": "тл",
+            "glyphs": [
+              "uni0442",
+              "uni043B"
+            ],
+            "xadvance_delta_UPM": -55
+          },
+          {
+            "pair": "AY",
+            "glyphs": [
+              "A",
+              "Y"
+            ],
+            "xadvance_delta_UPM": -85
+          },
+          {
+            "pair": "AT",
+            "glyphs": [
+              "A",
+              "T"
+            ],
+            "xadvance_delta_UPM": -72
+          },
+          {
+            "pair": "LW",
+            "glyphs": [
+              "L",
+              "W"
+            ],
+            "xadvance_delta_UPM": -95
+          },
+          {
+            "pair": "Tr",
+            "glyphs": [
+              "T",
+              "r"
+            ],
+            "xadvance_delta_UPM": -100
+          },
+          {
+            "pair": "Tu",
+            "glyphs": [
+              "T",
+              "u"
+            ],
+            "xadvance_delta_UPM": -108
+          },
+          {
+            "pair": "Ay",
+            "glyphs": [
+              "A",
+              "y"
+            ],
+            "xadvance_delta_UPM": -60
+          }
+        ]
+      }
+    }
+  }
+}

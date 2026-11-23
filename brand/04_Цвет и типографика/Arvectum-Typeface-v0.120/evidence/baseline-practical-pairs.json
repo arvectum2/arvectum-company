@@ -1,0 +1,9088 @@
+{
+  "parent": "v0.119",
+  "ppem": 256,
+  "groups": {
+    "cyr_cap": [
+      "АГДЛМНОПРСТУФХЧЭЯ",
+      "АЕИЙКЛМНОРСТУЭЯ"
+    ],
+    "cyr_mixed": [
+      "ГЛТУАВРКМПС",
+      "аевикнортусф"
+    ],
+    "cyr_low": [
+      "глтруафк",
+      "аеиклнотуя"
+    ],
+    "latin_cap": [
+      "AVWMTFPLRYK",
+      "ACEHLMNORSTUWY"
+    ],
+    "latin_low": [
+      "AVWTLRYF",
+      "aeioruwy"
+    ],
+    "finance": [
+      "₽%№1237890",
+      ".,:;-)—/₽%"
+    ],
+    "finance_rev": [
+      "«(0123456789№",
+      "₽%АВЗРГ3W"
+    ]
+  },
+  "masters": {
+    "Display": {
+      "cyr_cap": [
+        {
+          "pair": "АА",
+          "gap_px": 19.75,
+          "kern_delta_upm": 22
+        },
+        {
+          "pair": "АЕ",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АИ",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АЙ",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АК",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АЛ",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АМ",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АН",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АО",
+          "gap_px": 41.62,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "АР",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АС",
+          "gap_px": 41.62,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "АТ",
+          "gap_px": 55.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "АУ",
+          "gap_px": 17.12,
+          "kern_delta_upm": -207
+        },
+        {
+          "pair": "АЭ",
+          "gap_px": 36.62,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "АЯ",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГА",
+          "gap_px": 44.88,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "ГЕ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГИ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЙ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГК",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЛ",
+          "gap_px": 44.38,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "ГМ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГН",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГО",
+          "gap_px": 26.12,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ГР",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГС",
+          "gap_px": 26.12,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ГТ",
+          "gap_px": 11.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГУ",
+          "gap_px": 7.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЭ",
+          "gap_px": 20.12,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ГЯ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДА",
+          "gap_px": 10.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЕ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДИ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЙ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДК",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЛ",
+          "gap_px": 23.25,
+          "kern_delta_upm": 65
+        },
+        {
+          "pair": "ДМ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДН",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДО",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДР",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДС",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДТ",
+          "gap_px": 9.5,
+          "kern_delta_upm": -77
+        },
+        {
+          "pair": "ДУ",
+          "gap_px": 15.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЭ",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЯ",
+          "gap_px": 15.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛА",
+          "gap_px": 15.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЕ",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛИ",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЙ",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛК",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЛ",
+          "gap_px": 20.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛМ",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛН",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛО",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛР",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛС",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛТ",
+          "gap_px": 19.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛУ",
+          "gap_px": 15.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЭ",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЯ",
+          "gap_px": 20.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МА",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЕ",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МИ",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЙ",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МК",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЛ",
+          "gap_px": 23.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ММ",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МН",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МО",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МР",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МС",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МТ",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МУ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЭ",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЯ",
+          "gap_px": 23.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НА",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЕ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НИ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЙ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НК",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЛ",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НМ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НН",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НО",
+          "gap_px": 26.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НР",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НС",
+          "gap_px": 26.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НТ",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НУ",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЭ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЯ",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОА",
+          "gap_px": 28.25,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "ОЕ",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОИ",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЙ",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОК",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЛ",
+          "gap_px": 41.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОМ",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОН",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОО",
+          "gap_px": 19.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОР",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОС",
+          "gap_px": 19.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОТ",
+          "gap_px": 25.88,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ОУ",
+          "gap_px": 30.12,
+          "kern_delta_upm": -76
+        },
+        {
+          "pair": "ОЭ",
+          "gap_px": 21.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЯ",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПА",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЕ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПИ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЙ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПК",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЛ",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПМ",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПН",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПО",
+          "gap_px": 26.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПР",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПС",
+          "gap_px": 26.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПТ",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПУ",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЭ",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЯ",
+          "gap_px": 23.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РА",
+          "gap_px": 32.62,
+          "kern_delta_upm": -157
+        },
+        {
+          "pair": "РЕ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РИ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЙ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РК",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЛ",
+          "gap_px": 57.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РМ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РН",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РО",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РР",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РС",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РТ",
+          "gap_px": 20.0,
+          "kern_delta_upm": -18
+        },
+        {
+          "pair": "РУ",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЭ",
+          "gap_px": 16.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЯ",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СА",
+          "gap_px": 27.62,
+          "kern_delta_upm": -37
+        },
+        {
+          "pair": "СЕ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СИ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЙ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СК",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЛ",
+          "gap_px": 37.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СМ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СН",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СО",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СР",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СС",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СТ",
+          "gap_px": 31.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СУ",
+          "gap_px": 35.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЭ",
+          "gap_px": 18.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЯ",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТА",
+          "gap_px": 41.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "ТЕ",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТИ",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЙ",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТК",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЛ",
+          "gap_px": 40.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "ТМ",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТН",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТО",
+          "gap_px": 25.62,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ТР",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТС",
+          "gap_px": 25.62,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ТТ",
+          "gap_px": 11.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТУ",
+          "gap_px": 7.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЭ",
+          "gap_px": 19.62,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ТЯ",
+          "gap_px": 25.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УА",
+          "gap_px": 46.12,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "УЕ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УИ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЙ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УК",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЛ",
+          "gap_px": 78.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УМ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УН",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УО",
+          "gap_px": 25.12,
+          "kern_delta_upm": -108
+        },
+        {
+          "pair": "УР",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УС",
+          "gap_px": 25.12,
+          "kern_delta_upm": -108
+        },
+        {
+          "pair": "УТ",
+          "gap_px": 7.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УУ",
+          "gap_px": 3.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЭ",
+          "gap_px": 20.12,
+          "kern_delta_upm": -108
+        },
+        {
+          "pair": "УЯ",
+          "gap_px": 29.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФА",
+          "gap_px": 31.12,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "ФЕ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФИ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЙ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФК",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЛ",
+          "gap_px": 44.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФМ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФН",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФО",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФР",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФС",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФТ",
+          "gap_px": 40.75,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ФУ",
+          "gap_px": 34.0,
+          "kern_delta_upm": -76
+        },
+        {
+          "pair": "ФЭ",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЯ",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХА",
+          "gap_px": 3.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЕ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХИ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЙ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХК",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЛ",
+          "gap_px": 8.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХМ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХН",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХО",
+          "gap_px": 31.12,
+          "kern_delta_upm": -124
+        },
+        {
+          "pair": "ХР",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХС",
+          "gap_px": 31.12,
+          "kern_delta_upm": -124
+        },
+        {
+          "pair": "ХТ",
+          "gap_px": 12.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХУ",
+          "gap_px": 8.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЭ",
+          "gap_px": 25.12,
+          "kern_delta_upm": -124
+        },
+        {
+          "pair": "ХЯ",
+          "gap_px": 8.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧА",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЕ",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧИ",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЙ",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧК",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЛ",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧМ",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧН",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧО",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧР",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧС",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧТ",
+          "gap_px": 22.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧУ",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЭ",
+          "gap_px": 25.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЯ",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭА",
+          "gap_px": 29.88,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "ЭЕ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭИ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЙ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭК",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЛ",
+          "gap_px": 43.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭМ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭН",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭО",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭР",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭС",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭТ",
+          "gap_px": 27.5,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "ЭУ",
+          "gap_px": 31.75,
+          "kern_delta_upm": -76
+        },
+        {
+          "pair": "ЭЭ",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЯ",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯА",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЕ",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯИ",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЙ",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯК",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЛ",
+          "gap_px": 23.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯМ",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯН",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯО",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯР",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯС",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯТ",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯУ",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЭ",
+          "gap_px": 25.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЯ",
+          "gap_px": 23.38,
+          "kern_delta_upm": 0
+        }
+      ],
+      "cyr_mixed": [
+        {
+          "pair": "Га",
+          "gap_px": 74.62,
+          "kern_delta_upm": -226
+        },
+        {
+          "pair": "Ге",
+          "gap_px": 71.38,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Гв",
+          "gap_px": 85.75,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Ги",
+          "gap_px": 85.75,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Гк",
+          "gap_px": 85.75,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Гн",
+          "gap_px": 85.75,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Го",
+          "gap_px": 71.38,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Гр",
+          "gap_px": 85.75,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Гт",
+          "gap_px": 89.12,
+          "kern_delta_upm": -54
+        },
+        {
+          "pair": "Гу",
+          "gap_px": 70.38,
+          "kern_delta_upm": -212
+        },
+        {
+          "pair": "Гс",
+          "gap_px": 71.38,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Гф",
+          "gap_px": 48.38,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Ла",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ле",
+          "gap_px": 21.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лв",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ли",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лк",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лн",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ло",
+          "gap_px": 21.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лр",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лт",
+          "gap_px": 16.38,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Лу",
+          "gap_px": 17.62,
+          "kern_delta_upm": 12
+        },
+        {
+          "pair": "Лс",
+          "gap_px": 21.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лф",
+          "gap_px": 21.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Та",
+          "gap_px": 45.12,
+          "kern_delta_upm": -226
+        },
+        {
+          "pair": "Те",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Тв",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Ти",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Тк",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Тн",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "То",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Тр",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Тт",
+          "gap_px": 59.62,
+          "kern_delta_upm": -54
+        },
+        {
+          "pair": "Ту",
+          "gap_px": 40.88,
+          "kern_delta_upm": -212
+        },
+        {
+          "pair": "Тс",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Тф",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Уа",
+          "gap_px": 21.88,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Уе",
+          "gap_px": 22.88,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Ув",
+          "gap_px": 20.5,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Уи",
+          "gap_px": 20.5,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Ук",
+          "gap_px": 20.5,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Ун",
+          "gap_px": 20.5,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Уо",
+          "gap_px": 24.88,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Ур",
+          "gap_px": 20.5,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Ут",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Уу",
+          "gap_px": 27.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ус",
+          "gap_px": 24.88,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Уф",
+          "gap_px": 25.88,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Аа",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ае",
+          "gap_px": 35.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Ав",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Аи",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ак",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ан",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ао",
+          "gap_px": 34.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Ар",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ат",
+          "gap_px": 48.88,
+          "kern_delta_upm": -73
+        },
+        {
+          "pair": "Ау",
+          "gap_px": 49.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ас",
+          "gap_px": 34.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Аф",
+          "gap_px": 35.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Ва",
+          "gap_px": 17.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ве",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вв",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ви",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вк",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вн",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Во",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вр",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вт",
+          "gap_px": 17.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ву",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вс",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вф",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ра",
+          "gap_px": 18.25,
+          "kern_delta_upm": -48
+        },
+        {
+          "pair": "Ре",
+          "gap_px": 18.0,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "Рв",
+          "gap_px": 19.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "Ри",
+          "gap_px": 19.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "Рк",
+          "gap_px": 19.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "Рн",
+          "gap_px": 19.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "Ро",
+          "gap_px": 20.0,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "Рр",
+          "gap_px": 19.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "Рт",
+          "gap_px": 9.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ру",
+          "gap_px": 10.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Рс",
+          "gap_px": 20.0,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "Рф",
+          "gap_px": 21.0,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "Ка",
+          "gap_px": 25.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ке",
+          "gap_px": 24.62,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кв",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ки",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кк",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кн",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ко",
+          "gap_px": 24.62,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кр",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кт",
+          "gap_px": 48.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ку",
+          "gap_px": 39.62,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кс",
+          "gap_px": 24.62,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кф",
+          "gap_px": 25.62,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Ма",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ме",
+          "gap_px": 24.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мв",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ми",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мк",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мн",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мо",
+          "gap_px": 24.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мр",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мт",
+          "gap_px": 19.88,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Му",
+          "gap_px": 21.12,
+          "kern_delta_upm": 12
+        },
+        {
+          "pair": "Мс",
+          "gap_px": 24.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мф",
+          "gap_px": 24.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Па",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пе",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пв",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пи",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пк",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пн",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "По",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пр",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пт",
+          "gap_px": 19.38,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Пу",
+          "gap_px": 20.62,
+          "kern_delta_upm": 12
+        },
+        {
+          "pair": "Пс",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пф",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Са",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Се",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Св",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Си",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ск",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Сн",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Со",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ср",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ст",
+          "gap_px": 11.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Су",
+          "gap_px": 13.75,
+          "kern_delta_upm": 4
+        },
+        {
+          "pair": "Сс",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Сф",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        }
+      ],
+      "cyr_low": [
+        {
+          "pair": "га",
+          "gap_px": 17.62,
+          "kern_delta_upm": -26
+        },
+        {
+          "pair": "ге",
+          "gap_px": 19.88,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "ги",
+          "gap_px": 20.5,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "гк",
+          "gap_px": 20.5,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "гл",
+          "gap_px": 38.75,
+          "kern_delta_upm": -105
+        },
+        {
+          "pair": "гн",
+          "gap_px": 20.5,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "го",
+          "gap_px": 22.88,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "гт",
+          "gap_px": 12.25,
+          "kern_delta_upm": 35
+        },
+        {
+          "pair": "гу",
+          "gap_px": 11.5,
+          "kern_delta_upm": 21
+        },
+        {
+          "pair": "гя",
+          "gap_px": 17.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ла",
+          "gap_px": 21.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ле",
+          "gap_px": 20.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ли",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лк",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лл",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лн",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ло",
+          "gap_px": 20.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лт",
+          "gap_px": 14.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лу",
+          "gap_px": 9.75,
+          "kern_delta_upm": -48
+        },
+        {
+          "pair": "ля",
+          "gap_px": 14.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "та",
+          "gap_px": 12.88,
+          "kern_delta_upm": -26
+        },
+        {
+          "pair": "те",
+          "gap_px": 15.12,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "ти",
+          "gap_px": 15.75,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "тк",
+          "gap_px": 15.75,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "тл",
+          "gap_px": 35.0,
+          "kern_delta_upm": -105
+        },
+        {
+          "pair": "тн",
+          "gap_px": 15.75,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "то",
+          "gap_px": 18.12,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "тт",
+          "gap_px": 7.5,
+          "kern_delta_upm": 35
+        },
+        {
+          "pair": "ту",
+          "gap_px": 6.75,
+          "kern_delta_upm": 21
+        },
+        {
+          "pair": "тя",
+          "gap_px": 14.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ра",
+          "gap_px": 21.0,
+          "kern_delta_upm": 12
+        },
+        {
+          "pair": "ре",
+          "gap_px": 15.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ри",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рк",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рл",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рн",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ро",
+          "gap_px": 15.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рт",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ру",
+          "gap_px": 23.62,
+          "kern_delta_upm": -39
+        },
+        {
+          "pair": "ря",
+          "gap_px": 17.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уа",
+          "gap_px": 21.62,
+          "kern_delta_upm": -32
+        },
+        {
+          "pair": "уе",
+          "gap_px": 21.75,
+          "kern_delta_upm": -39
+        },
+        {
+          "pair": "уи",
+          "gap_px": 16.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ук",
+          "gap_px": 16.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ул",
+          "gap_px": 46.12,
+          "kern_delta_upm": -92
+        },
+        {
+          "pair": "ун",
+          "gap_px": 16.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уо",
+          "gap_px": 23.75,
+          "kern_delta_upm": -39
+        },
+        {
+          "pair": "ут",
+          "gap_px": 9.38,
+          "kern_delta_upm": 38
+        },
+        {
+          "pair": "уу",
+          "gap_px": 5.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уя",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "аа",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ае",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "аи",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ак",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ал",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ан",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ао",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ат",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ау",
+          "gap_px": 21.5,
+          "kern_delta_upm": -48
+        },
+        {
+          "pair": "ая",
+          "gap_px": 16.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фа",
+          "gap_px": 20.5,
+          "kern_delta_upm": 12
+        },
+        {
+          "pair": "фе",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фи",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фк",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фл",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фн",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фо",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фт",
+          "gap_px": 23.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фу",
+          "gap_px": 25.12,
+          "kern_delta_upm": -39
+        },
+        {
+          "pair": "фя",
+          "gap_px": 18.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ка",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ке",
+          "gap_px": 27.12,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "ки",
+          "gap_px": 12.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кк",
+          "gap_px": 12.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кл",
+          "gap_px": 3.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кн",
+          "gap_px": 12.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ко",
+          "gap_px": 29.12,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "кт",
+          "gap_px": 1.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ку",
+          "gap_px": 3.5,
+          "kern_delta_upm": 5
+        },
+        {
+          "pair": "кя",
+          "gap_px": 0.88,
+          "kern_delta_upm": 0
+        }
+      ],
+      "latin_cap": [
+        {
+          "pair": "AA",
+          "gap_px": 19.75,
+          "kern_delta_upm": 22
+        },
+        {
+          "pair": "AC",
+          "gap_px": 41.62,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "AE",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AH",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AL",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AM",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AN",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AO",
+          "gap_px": 41.62,
+          "kern_delta_upm": -67
+        },
+        {
+          "pair": "AR",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AS",
+          "gap_px": 39.75,
+          "kern_delta_upm": -10
+        },
+        {
+          "pair": "AT",
+          "gap_px": 55.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "AU",
+          "gap_px": 38.5,
+          "kern_delta_upm": -84
+        },
+        {
+          "pair": "AW",
+          "gap_px": 48.25,
+          "kern_delta_upm": -302
+        },
+        {
+          "pair": "AY",
+          "gap_px": 58.5,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "VA",
+          "gap_px": 47.88,
+          "kern_delta_upm": -207
+        },
+        {
+          "pair": "VC",
+          "gap_px": 27.25,
+          "kern_delta_upm": -76
+        },
+        {
+          "pair": "VE",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VH",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VL",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VM",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VN",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VO",
+          "gap_px": 27.25,
+          "kern_delta_upm": -76
+        },
+        {
+          "pair": "VR",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VS",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VT",
+          "gap_px": 7.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VU",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VW",
+          "gap_px": 3.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VY",
+          "gap_px": 3.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WA",
+          "gap_px": 46.75,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "WC",
+          "gap_px": 31.38,
+          "kern_delta_upm": -47
+        },
+        {
+          "pair": "WE",
+          "gap_px": 13.25,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WH",
+          "gap_px": 18.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WL",
+          "gap_px": 13.25,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WM",
+          "gap_px": 18.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WN",
+          "gap_px": 13.25,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WO",
+          "gap_px": 23.38,
+          "kern_delta_upm": -103
+        },
+        {
+          "pair": "WR",
+          "gap_px": 13.25,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WS",
+          "gap_px": 28.75,
+          "kern_delta_upm": -4
+        },
+        {
+          "pair": "WT",
+          "gap_px": 7.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WU",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WW",
+          "gap_px": 7.25,
+          "kern_delta_upm": 32
+        },
+        {
+          "pair": "WY",
+          "gap_px": 3.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MA",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MC",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ME",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MH",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ML",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MM",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MN",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MO",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MR",
+          "gap_px": 33.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MS",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MT",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MU",
+          "gap_px": 32.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MW",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MY",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TA",
+          "gap_px": 41.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "TC",
+          "gap_px": 25.62,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "TE",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TH",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TL",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TM",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TN",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TO",
+          "gap_px": 25.62,
+          "kern_delta_upm": -86
+        },
+        {
+          "pair": "TR",
+          "gap_px": 22.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TS",
+          "gap_px": 24.75,
+          "kern_delta_upm": -5
+        },
+        {
+          "pair": "TT",
+          "gap_px": 11.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TU",
+          "gap_px": 21.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TW",
+          "gap_px": 7.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TY",
+          "gap_px": 7.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FA",
+          "gap_px": 22.0,
+          "kern_delta_upm": -186
+        },
+        {
+          "pair": "FC",
+          "gap_px": 20.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "FE",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FH",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FL",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FM",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FN",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FO",
+          "gap_px": 20.25,
+          "kern_delta_upm": -16
+        },
+        {
+          "pair": "FR",
+          "gap_px": 22.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FS",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FT",
+          "gap_px": 11.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FU",
+          "gap_px": 21.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FW",
+          "gap_px": 7.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FY",
+          "gap_px": 7.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PA",
+          "gap_px": 32.62,
+          "kern_delta_upm": -157
+        },
+        {
+          "pair": "PC",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PE",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PH",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PL",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PM",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PN",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PO",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PR",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PS",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PT",
+          "gap_px": 20.0,
+          "kern_delta_upm": -18
+        },
+        {
+          "pair": "PU",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PW",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PY",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LA",
+          "gap_px": 7.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LC",
+          "gap_px": 29.62,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "LE",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LH",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LL",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LM",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LN",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LO",
+          "gap_px": 29.62,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "LR",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LS",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LT",
+          "gap_px": 46.38,
+          "kern_delta_upm": -196
+        },
+        {
+          "pair": "LU",
+          "gap_px": 33.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LW",
+          "gap_px": 59.75,
+          "kern_delta_upm": -73
+        },
+        {
+          "pair": "LY",
+          "gap_px": 42.12,
+          "kern_delta_upm": -278
+        },
+        {
+          "pair": "RA",
+          "gap_px": 9.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RC",
+          "gap_px": 22.12,
+          "kern_delta_upm": -2
+        },
+        {
+          "pair": "RE",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RH",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RL",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RM",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RN",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RO",
+          "gap_px": 22.12,
+          "kern_delta_upm": -2
+        },
+        {
+          "pair": "RR",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RS",
+          "gap_px": 23.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RT",
+          "gap_px": 20.12,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "RU",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RW",
+          "gap_px": 23.38,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "RY",
+          "gap_px": 28.75,
+          "kern_delta_upm": -53
+        },
+        {
+          "pair": "YA",
+          "gap_px": 45.0,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "YC",
+          "gap_px": 33.0,
+          "kern_delta_upm": -108
+        },
+        {
+          "pair": "YE",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YH",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YL",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YM",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YN",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YO",
+          "gap_px": 33.0,
+          "kern_delta_upm": -108
+        },
+        {
+          "pair": "YR",
+          "gap_px": 18.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YS",
+          "gap_px": 35.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YT",
+          "gap_px": 7.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YU",
+          "gap_px": 17.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YW",
+          "gap_px": 3.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YY",
+          "gap_px": 3.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KA",
+          "gap_px": 3.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KC",
+          "gap_px": 35.62,
+          "kern_delta_upm": -89
+        },
+        {
+          "pair": "KE",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KH",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KL",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KM",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KN",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KO",
+          "gap_px": 35.62,
+          "kern_delta_upm": -89
+        },
+        {
+          "pair": "KR",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KS",
+          "gap_px": 29.62,
+          "kern_delta_upm": -49
+        },
+        {
+          "pair": "KT",
+          "gap_px": 19.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KU",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KW",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KY",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        }
+      ],
+      "latin_low": [
+        {
+          "pair": "Aa",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ae",
+          "gap_px": 35.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Ai",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ao",
+          "gap_px": 34.75,
+          "kern_delta_upm": -42
+        },
+        {
+          "pair": "Ar",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Au",
+          "gap_px": 42.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Aw",
+          "gap_px": 39.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ay",
+          "gap_px": 49.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Va",
+          "gap_px": 28.75,
+          "kern_delta_upm": -136
+        },
+        {
+          "pair": "Ve",
+          "gap_px": 28.38,
+          "kern_delta_upm": -147
+        },
+        {
+          "pair": "Vi",
+          "gap_px": 16.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vo",
+          "gap_px": 29.38,
+          "kern_delta_upm": -147
+        },
+        {
+          "pair": "Vr",
+          "gap_px": 26.75,
+          "kern_delta_upm": -80
+        },
+        {
+          "pair": "Vu",
+          "gap_px": 36.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vw",
+          "gap_px": 25.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vy",
+          "gap_px": 25.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wa",
+          "gap_px": 31.62,
+          "kern_delta_upm": -109
+        },
+        {
+          "pair": "We",
+          "gap_px": 32.62,
+          "kern_delta_upm": -109
+        },
+        {
+          "pair": "Wi",
+          "gap_px": 16.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wo",
+          "gap_px": 34.62,
+          "kern_delta_upm": -109
+        },
+        {
+          "pair": "Wr",
+          "gap_px": 30.75,
+          "kern_delta_upm": -44
+        },
+        {
+          "pair": "Wu",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ww",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wy",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ta",
+          "gap_px": 45.12,
+          "kern_delta_upm": -226
+        },
+        {
+          "pair": "Te",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Ti",
+          "gap_px": 16.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "To",
+          "gap_px": 41.88,
+          "kern_delta_upm": -244
+        },
+        {
+          "pair": "Tr",
+          "gap_px": 56.25,
+          "kern_delta_upm": -177
+        },
+        {
+          "pair": "Tu",
+          "gap_px": 53.75,
+          "kern_delta_upm": -197
+        },
+        {
+          "pair": "Tw",
+          "gap_px": 42.0,
+          "kern_delta_upm": -203
+        },
+        {
+          "pair": "Ty",
+          "gap_px": 40.88,
+          "kern_delta_upm": -212
+        },
+        {
+          "pair": "La",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Le",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Li",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lo",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lr",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lu",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lw",
+          "gap_px": 41.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ly",
+          "gap_px": 32.5,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ra",
+          "gap_px": 24.62,
+          "kern_delta_upm": -22
+        },
+        {
+          "pair": "Re",
+          "gap_px": 22.88,
+          "kern_delta_upm": -44
+        },
+        {
+          "pair": "Ri",
+          "gap_px": 21.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ro",
+          "gap_px": 24.88,
+          "kern_delta_upm": -44
+        },
+        {
+          "pair": "Rr",
+          "gap_px": 21.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ru",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Rw",
+          "gap_px": 13.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ry",
+          "gap_px": 13.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ya",
+          "gap_px": 35.75,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Ye",
+          "gap_px": 37.75,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Yi",
+          "gap_px": 11.88,
+          "kern_delta_upm": -53
+        },
+        {
+          "pair": "Yo",
+          "gap_px": 40.75,
+          "kern_delta_upm": -214
+        },
+        {
+          "pair": "Yr",
+          "gap_px": 31.38,
+          "kern_delta_upm": -145
+        },
+        {
+          "pair": "Yu",
+          "gap_px": 39.38,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Yw",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Yy",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fa",
+          "gap_px": 20.25,
+          "kern_delta_upm": -32
+        },
+        {
+          "pair": "Fe",
+          "gap_px": 19.0,
+          "kern_delta_upm": -18
+        },
+        {
+          "pair": "Fi",
+          "gap_px": 16.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fo",
+          "gap_px": 19.0,
+          "kern_delta_upm": -18
+        },
+        {
+          "pair": "Fr",
+          "gap_px": 23.0,
+          "kern_delta_upm": -26
+        },
+        {
+          "pair": "Fu",
+          "gap_px": 17.62,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "Fw",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fy",
+          "gap_px": 16.62,
+          "kern_delta_upm": -69
+        }
+      ],
+      "finance": [
+        {
+          "pair": "₽.",
+          "gap_px": 69.12,
+          "kern_delta_upm": -419
+        },
+        {
+          "pair": "₽,",
+          "gap_px": 70.12,
+          "kern_delta_upm": -419
+        },
+        {
+          "pair": "₽:",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽;",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽-",
+          "gap_px": 39.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽)",
+          "gap_px": 32.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽—",
+          "gap_px": 25.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽/",
+          "gap_px": 37.38,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "₽₽",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽%",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%.",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%,",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%:",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%;",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%-",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%)",
+          "gap_px": 46.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%—",
+          "gap_px": 19.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%/",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%₽",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%%",
+          "gap_px": 67.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№.",
+          "gap_px": 133.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№,",
+          "gap_px": 134.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№:",
+          "gap_px": 30.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№;",
+          "gap_px": 31.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№-",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№)",
+          "gap_px": 37.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№—",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№/",
+          "gap_px": 42.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№₽",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№%",
+          "gap_px": 31.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1.",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1,",
+          "gap_px": 28.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1:",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1;",
+          "gap_px": 28.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1-",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1)",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1—",
+          "gap_px": 16.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1/",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1₽",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1%",
+          "gap_px": 32.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2.",
+          "gap_px": 20.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2,",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2:",
+          "gap_px": 20.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2;",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2-",
+          "gap_px": 43.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2)",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2—",
+          "gap_px": 29.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2/",
+          "gap_px": 17.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2₽",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2%",
+          "gap_px": 26.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3.",
+          "gap_px": 25.88,
+          "kern_delta_upm": -41
+        },
+        {
+          "pair": "3,",
+          "gap_px": 26.88,
+          "kern_delta_upm": -41
+        },
+        {
+          "pair": "3:",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3;",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3-",
+          "gap_px": 25.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3)",
+          "gap_px": 40.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3—",
+          "gap_px": 11.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3/",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3%",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7.",
+          "gap_px": 55.88,
+          "kern_delta_upm": -256
+        },
+        {
+          "pair": "7,",
+          "gap_px": 56.88,
+          "kern_delta_upm": -256
+        },
+        {
+          "pair": "7:",
+          "gap_px": 31.25,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "7;",
+          "gap_px": 32.25,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "7-",
+          "gap_px": 56.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7)",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7—",
+          "gap_px": 42.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7/",
+          "gap_px": 56.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7₽",
+          "gap_px": 40.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7%",
+          "gap_px": 26.88,
+          "kern_delta_upm": 24
+        },
+        {
+          "pair": "8.",
+          "gap_px": 24.62,
+          "kern_delta_upm": -41
+        },
+        {
+          "pair": "8,",
+          "gap_px": 25.62,
+          "kern_delta_upm": -41
+        },
+        {
+          "pair": "8:",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8;",
+          "gap_px": 30.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8-",
+          "gap_px": 25.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8)",
+          "gap_px": 40.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8—",
+          "gap_px": 11.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8/",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8₽",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8%",
+          "gap_px": 32.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9.",
+          "gap_px": 33.5,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "9,",
+          "gap_px": 34.5,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "9:",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9;",
+          "gap_px": 21.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9-",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9)",
+          "gap_px": 40.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9—",
+          "gap_px": 10.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9/",
+          "gap_px": 37.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9₽",
+          "gap_px": 15.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9%",
+          "gap_px": 29.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0.",
+          "gap_px": 33.25,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "0,",
+          "gap_px": 34.25,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "0:",
+          "gap_px": 21.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0;",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0-",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0)",
+          "gap_px": 41.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0—",
+          "gap_px": 10.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0/",
+          "gap_px": 36.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0₽",
+          "gap_px": 16.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0%",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        }
+      ],
+      "finance_rev": [
+        {
+          "pair": "«₽",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«%",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«А",
+          "gap_px": 19.0,
+          "kern_delta_upm": 41
+        },
+        {
+          "pair": "«В",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«З",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«Р",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«Г",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«3",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«W",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(₽",
+          "gap_px": 37.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(%",
+          "gap_px": 37.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(А",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(В",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(З",
+          "gap_px": 39.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(Р",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(Г",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(3",
+          "gap_px": 40.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(W",
+          "gap_px": 12.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0₽",
+          "gap_px": 16.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0%",
+          "gap_px": 30.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0А",
+          "gap_px": 28.25,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "0В",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0З",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0Р",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0Г",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "03",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0W",
+          "gap_px": 35.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1₽",
+          "gap_px": 22.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1%",
+          "gap_px": 32.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1А",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1В",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1З",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1Р",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1Г",
+          "gap_px": 33.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "13",
+          "gap_px": 27.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1W",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2₽",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2%",
+          "gap_px": 26.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2А",
+          "gap_px": 11.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2В",
+          "gap_px": 26.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2З",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2Р",
+          "gap_px": 26.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2Г",
+          "gap_px": 26.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "23",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2W",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3%",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3А",
+          "gap_px": 27.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3В",
+          "gap_px": 27.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3З",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3Р",
+          "gap_px": 27.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3Г",
+          "gap_px": 27.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "33",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3W",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4₽",
+          "gap_px": 12.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4%",
+          "gap_px": 49.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4А",
+          "gap_px": 24.0,
+          "kern_delta_upm": -4
+        },
+        {
+          "pair": "4В",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4З",
+          "gap_px": 17.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4Р",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4Г",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "43",
+          "gap_px": 17.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4W",
+          "gap_px": 35.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5₽",
+          "gap_px": 15.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5%",
+          "gap_px": 39.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5А",
+          "gap_px": 29.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5В",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5З",
+          "gap_px": 20.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5Р",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5Г",
+          "gap_px": 26.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "53",
+          "gap_px": 20.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5W",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6₽",
+          "gap_px": 15.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6%",
+          "gap_px": 27.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6А",
+          "gap_px": 29.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6В",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6З",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6Р",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6Г",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "63",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6W",
+          "gap_px": 28.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7₽",
+          "gap_px": 40.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7%",
+          "gap_px": 26.88,
+          "kern_delta_upm": 24
+        },
+        {
+          "pair": "7А",
+          "gap_px": 41.25,
+          "kern_delta_upm": -221
+        },
+        {
+          "pair": "7В",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7З",
+          "gap_px": 22.62,
+          "kern_delta_upm": -34
+        },
+        {
+          "pair": "7Р",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7Г",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "73",
+          "gap_px": 22.62,
+          "kern_delta_upm": -34
+        },
+        {
+          "pair": "7W",
+          "gap_px": 7.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8₽",
+          "gap_px": 15.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8%",
+          "gap_px": 32.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8А",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8В",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8З",
+          "gap_px": 20.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8Р",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8Г",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "83",
+          "gap_px": 20.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8W",
+          "gap_px": 31.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9₽",
+          "gap_px": 15.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9%",
+          "gap_px": 29.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9А",
+          "gap_px": 29.5,
+          "kern_delta_upm": -55
+        },
+        {
+          "pair": "9В",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9З",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9Р",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9Г",
+          "gap_px": 26.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "93",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9W",
+          "gap_px": 33.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№₽",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№%",
+          "gap_px": 31.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№А",
+          "gap_px": 42.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№В",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№З",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№Р",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№Г",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№3",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№W",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        }
+      ]
+    },
+    "Text": {
+      "cyr_cap": [
+        {
+          "pair": "АА",
+          "gap_px": 19.5,
+          "kern_delta_upm": 20
+        },
+        {
+          "pair": "АЕ",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АИ",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АЙ",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АК",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АЛ",
+          "gap_px": 22.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АМ",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АН",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АО",
+          "gap_px": 43.5,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "АР",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "АС",
+          "gap_px": 43.5,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "АТ",
+          "gap_px": 57.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "АУ",
+          "gap_px": 18.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "АЭ",
+          "gap_px": 37.5,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "АЯ",
+          "gap_px": 23.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГА",
+          "gap_px": 46.25,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "ГЕ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГИ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЙ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГК",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЛ",
+          "gap_px": 46.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "ГМ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГН",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГО",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ГР",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГС",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ГТ",
+          "gap_px": 12.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГУ",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ГЭ",
+          "gap_px": 25.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ГЯ",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДА",
+          "gap_px": 9.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЕ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДИ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЙ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДК",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЛ",
+          "gap_px": 23.62,
+          "kern_delta_upm": 70
+        },
+        {
+          "pair": "ДМ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДН",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДО",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДР",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДС",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДТ",
+          "gap_px": 10.12,
+          "kern_delta_upm": -70
+        },
+        {
+          "pair": "ДУ",
+          "gap_px": 14.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЭ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ДЯ",
+          "gap_px": 15.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛА",
+          "gap_px": 14.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЕ",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛИ",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЙ",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛК",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЛ",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛМ",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛН",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛО",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛР",
+          "gap_px": 30.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛС",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛТ",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛУ",
+          "gap_px": 14.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЭ",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЛЯ",
+          "gap_px": 20.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МА",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЕ",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МИ",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЙ",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МК",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЛ",
+          "gap_px": 25.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ММ",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МН",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МО",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МР",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МС",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МТ",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МУ",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЭ",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "МЯ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НА",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЕ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НИ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЙ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НК",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЛ",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НМ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НН",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НО",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НР",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НС",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НТ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НУ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЭ",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "НЯ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОА",
+          "gap_px": 30.25,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "ОЕ",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОИ",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЙ",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОК",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЛ",
+          "gap_px": 42.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОМ",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОН",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОО",
+          "gap_px": 21.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОР",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОС",
+          "gap_px": 21.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОТ",
+          "gap_px": 30.5,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ОУ",
+          "gap_px": 33.12,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "ОЭ",
+          "gap_px": 24.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ОЯ",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПА",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЕ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПИ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЙ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПК",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЛ",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПМ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПН",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПО",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПР",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПС",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПТ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПУ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЭ",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ПЯ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РА",
+          "gap_px": 35.75,
+          "kern_delta_upm": -151
+        },
+        {
+          "pair": "РЕ",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РИ",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЙ",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РК",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЛ",
+          "gap_px": 59.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РМ",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РН",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РО",
+          "gap_px": 21.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РР",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РС",
+          "gap_px": 21.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РТ",
+          "gap_px": 24.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "РУ",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЭ",
+          "gap_px": 17.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "РЯ",
+          "gap_px": 18.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СА",
+          "gap_px": 29.12,
+          "kern_delta_upm": -30
+        },
+        {
+          "pair": "СЕ",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СИ",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЙ",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СК",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЛ",
+          "gap_px": 37.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СМ",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СН",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СО",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СР",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СС",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СТ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СУ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЭ",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "СЯ",
+          "gap_px": 20.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТА",
+          "gap_px": 43.25,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "ТЕ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТИ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЙ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТК",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЛ",
+          "gap_px": 43.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "ТМ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТН",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТО",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ТР",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТС",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ТТ",
+          "gap_px": 12.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТУ",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ТЭ",
+          "gap_px": 25.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ТЯ",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УА",
+          "gap_px": 46.88,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "УЕ",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УИ",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЙ",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УК",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЛ",
+          "gap_px": 79.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УМ",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УН",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УО",
+          "gap_px": 25.62,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "УР",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УС",
+          "gap_px": 25.62,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "УТ",
+          "gap_px": 8.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УУ",
+          "gap_px": 4.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "УЭ",
+          "gap_px": 20.62,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "УЯ",
+          "gap_px": 29.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФА",
+          "gap_px": 33.0,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "ФЕ",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФИ",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЙ",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФК",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЛ",
+          "gap_px": 45.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФМ",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФН",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФО",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФР",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФС",
+          "gap_px": 21.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФТ",
+          "gap_px": 51.25,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ФУ",
+          "gap_px": 35.88,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "ФЭ",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ФЯ",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХА",
+          "gap_px": 4.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЕ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХИ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЙ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХК",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЛ",
+          "gap_px": 9.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХМ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХН",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХО",
+          "gap_px": 33.25,
+          "kern_delta_upm": -120
+        },
+        {
+          "pair": "ХР",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХС",
+          "gap_px": 33.25,
+          "kern_delta_upm": -120
+        },
+        {
+          "pair": "ХТ",
+          "gap_px": 12.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХУ",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ХЭ",
+          "gap_px": 27.25,
+          "kern_delta_upm": -120
+        },
+        {
+          "pair": "ХЯ",
+          "gap_px": 10.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧА",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЕ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧИ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЙ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧК",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЛ",
+          "gap_px": 25.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧМ",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧН",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧО",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧР",
+          "gap_px": 36.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧС",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧТ",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧУ",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЭ",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЧЯ",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭА",
+          "gap_px": 31.38,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "ЭЕ",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭИ",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЙ",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭК",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЛ",
+          "gap_px": 43.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭМ",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭН",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭО",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭР",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭС",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭТ",
+          "gap_px": 33.62,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "ЭУ",
+          "gap_px": 33.25,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "ЭЭ",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЭЯ",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯА",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЕ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯИ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЙ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯК",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЛ",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯМ",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯН",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯО",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯР",
+          "gap_px": 35.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯС",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯТ",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯУ",
+          "gap_px": 19.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЭ",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ЯЯ",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        }
+      ],
+      "cyr_mixed": [
+        {
+          "pair": "Га",
+          "gap_px": 77.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "Ге",
+          "gap_px": 75.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Гв",
+          "gap_px": 87.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Ги",
+          "gap_px": 87.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Гк",
+          "gap_px": 87.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Гн",
+          "gap_px": 87.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Го",
+          "gap_px": 75.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Гр",
+          "gap_px": 87.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Гт",
+          "gap_px": 94.75,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Гу",
+          "gap_px": 70.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "Гс",
+          "gap_px": 75.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Гф",
+          "gap_px": 48.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Ла",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ле",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лв",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ли",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лк",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лн",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ло",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лр",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лт",
+          "gap_px": 15.12,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Лу",
+          "gap_px": 17.12,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Лс",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Лф",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Та",
+          "gap_px": 47.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "Те",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Тв",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Ти",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Тк",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Тн",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "То",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Тр",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Тт",
+          "gap_px": 64.75,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Ту",
+          "gap_px": 40.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "Тс",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Тф",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Уа",
+          "gap_px": 23.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Уе",
+          "gap_px": 24.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Ув",
+          "gap_px": 21.88,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Уи",
+          "gap_px": 21.88,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Ук",
+          "gap_px": 21.88,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Ун",
+          "gap_px": 21.88,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Уо",
+          "gap_px": 26.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Ур",
+          "gap_px": 21.88,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Ут",
+          "gap_px": 25.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Уу",
+          "gap_px": 27.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ус",
+          "gap_px": 26.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Уф",
+          "gap_px": 27.38,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Аа",
+          "gap_px": 35.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ае",
+          "gap_px": 36.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ав",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Аи",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ак",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ан",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ао",
+          "gap_px": 36.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ар",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ат",
+          "gap_px": 49.38,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "Ау",
+          "gap_px": 49.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ас",
+          "gap_px": 36.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Аф",
+          "gap_px": 37.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ва",
+          "gap_px": 19.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ве",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вв",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ви",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вк",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вн",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Во",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вр",
+          "gap_px": 24.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вт",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ву",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вс",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Вф",
+          "gap_px": 18.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ра",
+          "gap_px": 19.38,
+          "kern_delta_upm": -50
+        },
+        {
+          "pair": "Ре",
+          "gap_px": 19.12,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "Рв",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Ри",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Рк",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Рн",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Ро",
+          "gap_px": 22.12,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "Рр",
+          "gap_px": 20.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Рт",
+          "gap_px": 8.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ру",
+          "gap_px": 10.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Рс",
+          "gap_px": 22.12,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "Рф",
+          "gap_px": 23.12,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "Ка",
+          "gap_px": 27.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ке",
+          "gap_px": 25.25,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кв",
+          "gap_px": 17.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ки",
+          "gap_px": 17.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кк",
+          "gap_px": 17.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кн",
+          "gap_px": 17.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ко",
+          "gap_px": 25.25,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кр",
+          "gap_px": 17.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Кт",
+          "gap_px": 48.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ку",
+          "gap_px": 40.25,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кс",
+          "gap_px": 25.25,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Кф",
+          "gap_px": 27.25,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Ма",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ме",
+          "gap_px": 27.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мв",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ми",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мк",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мн",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мо",
+          "gap_px": 27.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мр",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мт",
+          "gap_px": 20.75,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Му",
+          "gap_px": 22.75,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Мс",
+          "gap_px": 27.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Мф",
+          "gap_px": 27.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Па",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пе",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пв",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пи",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пк",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пн",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "По",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пр",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пт",
+          "gap_px": 20.5,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Пу",
+          "gap_px": 22.5,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "Пс",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Пф",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Са",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Се",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Св",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Си",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ск",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Сн",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Со",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ср",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ст",
+          "gap_px": 10.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Су",
+          "gap_px": 14.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Сс",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Сф",
+          "gap_px": 18.88,
+          "kern_delta_upm": 0
+        }
+      ],
+      "cyr_low": [
+        {
+          "pair": "га",
+          "gap_px": 18.0,
+          "kern_delta_upm": -32
+        },
+        {
+          "pair": "ге",
+          "gap_px": 22.5,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "ги",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "гк",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "гл",
+          "gap_px": 40.25,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "гн",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "го",
+          "gap_px": 25.5,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "гт",
+          "gap_px": 11.0,
+          "kern_delta_upm": 32
+        },
+        {
+          "pair": "гу",
+          "gap_px": 11.12,
+          "kern_delta_upm": 17
+        },
+        {
+          "pair": "гя",
+          "gap_px": 20.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ла",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ле",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ли",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лк",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лл",
+          "gap_px": 17.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лн",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ло",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лт",
+          "gap_px": 13.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "лу",
+          "gap_px": 9.62,
+          "kern_delta_upm": -50
+        },
+        {
+          "pair": "ля",
+          "gap_px": 14.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "та",
+          "gap_px": 13.0,
+          "kern_delta_upm": -32
+        },
+        {
+          "pair": "те",
+          "gap_px": 17.5,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "ти",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "тк",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "тл",
+          "gap_px": 35.25,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "тн",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "то",
+          "gap_px": 20.5,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "тт",
+          "gap_px": 6.0,
+          "kern_delta_upm": 32
+        },
+        {
+          "pair": "ту",
+          "gap_px": 6.12,
+          "kern_delta_upm": 17
+        },
+        {
+          "pair": "тя",
+          "gap_px": 15.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ра",
+          "gap_px": 21.0,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "ре",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ри",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рк",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рл",
+          "gap_px": 31.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рн",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ро",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "рт",
+          "gap_px": 22.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ру",
+          "gap_px": 24.75,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "ря",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уа",
+          "gap_px": 23.25,
+          "kern_delta_upm": -30
+        },
+        {
+          "pair": "уе",
+          "gap_px": 23.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "уи",
+          "gap_px": 18.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ук",
+          "gap_px": 18.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ул",
+          "gap_px": 46.38,
+          "kern_delta_upm": -93
+        },
+        {
+          "pair": "ун",
+          "gap_px": 18.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уо",
+          "gap_px": 25.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "ут",
+          "gap_px": 9.0,
+          "kern_delta_upm": 40
+        },
+        {
+          "pair": "уу",
+          "gap_px": 6.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "уя",
+          "gap_px": 21.5,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "аа",
+          "gap_px": 25.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ае",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "аи",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ак",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ал",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ан",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ао",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ат",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ау",
+          "gap_px": 23.25,
+          "kern_delta_upm": -50
+        },
+        {
+          "pair": "ая",
+          "gap_px": 17.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фа",
+          "gap_px": 22.0,
+          "kern_delta_upm": 10
+        },
+        {
+          "pair": "фе",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фи",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фк",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фл",
+          "gap_px": 31.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фн",
+          "gap_px": 23.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фо",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фт",
+          "gap_px": 24.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "фу",
+          "gap_px": 25.75,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "фя",
+          "gap_px": 18.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ка",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ке",
+          "gap_px": 28.5,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "ки",
+          "gap_px": 14.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кк",
+          "gap_px": 14.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кл",
+          "gap_px": 4.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кн",
+          "gap_px": 14.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ко",
+          "gap_px": 30.5,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "кт",
+          "gap_px": 1.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ку",
+          "gap_px": 3.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "кя",
+          "gap_px": 1.25,
+          "kern_delta_upm": 0
+        }
+      ],
+      "latin_cap": [
+        {
+          "pair": "AA",
+          "gap_px": 19.5,
+          "kern_delta_upm": 20
+        },
+        {
+          "pair": "AC",
+          "gap_px": 43.5,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "AE",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AH",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AL",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AM",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AN",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AO",
+          "gap_px": 43.5,
+          "kern_delta_upm": -60
+        },
+        {
+          "pair": "AR",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AS",
+          "gap_px": 41.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "AT",
+          "gap_px": 57.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "AU",
+          "gap_px": 40.0,
+          "kern_delta_upm": -80
+        },
+        {
+          "pair": "AW",
+          "gap_px": 51.75,
+          "kern_delta_upm": -282
+        },
+        {
+          "pair": "AY",
+          "gap_px": 57.5,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "VA",
+          "gap_px": 49.25,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "VC",
+          "gap_px": 29.62,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "VE",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VH",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VL",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VM",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VN",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VO",
+          "gap_px": 29.62,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "VR",
+          "gap_px": 20.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VS",
+          "gap_px": 30.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VT",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VU",
+          "gap_px": 19.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VW",
+          "gap_px": 4.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "VY",
+          "gap_px": 4.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WA",
+          "gap_px": 49.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "WC",
+          "gap_px": 33.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WE",
+          "gap_px": 15.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WH",
+          "gap_px": 20.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WL",
+          "gap_px": 15.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WM",
+          "gap_px": 20.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WN",
+          "gap_px": 15.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WO",
+          "gap_px": 26.0,
+          "kern_delta_upm": -96
+        },
+        {
+          "pair": "WR",
+          "gap_px": 15.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "WS",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WT",
+          "gap_px": 8.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WU",
+          "gap_px": 19.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "WW",
+          "gap_px": 7.75,
+          "kern_delta_upm": 30
+        },
+        {
+          "pair": "WY",
+          "gap_px": 4.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MA",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MC",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ME",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MH",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "ML",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MM",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MN",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MO",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MR",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MS",
+          "gap_px": 27.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MT",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MU",
+          "gap_px": 35.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MW",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "MY",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TA",
+          "gap_px": 43.25,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "TC",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "TE",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TH",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TL",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TM",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TN",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TO",
+          "gap_px": 31.0,
+          "kern_delta_upm": -90
+        },
+        {
+          "pair": "TR",
+          "gap_px": 24.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TS",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TT",
+          "gap_px": 12.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TU",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TW",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "TY",
+          "gap_px": 8.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FA",
+          "gap_px": 24.62,
+          "kern_delta_upm": -186
+        },
+        {
+          "pair": "FC",
+          "gap_px": 21.38,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "FE",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FH",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FL",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FM",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FN",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FO",
+          "gap_px": 21.38,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "FR",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FS",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FT",
+          "gap_px": 11.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FU",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FW",
+          "gap_px": 7.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "FY",
+          "gap_px": 7.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PA",
+          "gap_px": 35.75,
+          "kern_delta_upm": -151
+        },
+        {
+          "pair": "PC",
+          "gap_px": 21.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PE",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PH",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PL",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PM",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PN",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PO",
+          "gap_px": 21.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PR",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PS",
+          "gap_px": 20.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PT",
+          "gap_px": 24.12,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "PU",
+          "gap_px": 24.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PW",
+          "gap_px": 25.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "PY",
+          "gap_px": 32.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LA",
+          "gap_px": 8.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LC",
+          "gap_px": 35.75,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "LE",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LH",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LL",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LM",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LN",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LO",
+          "gap_px": 34.75,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "LR",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LS",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LT",
+          "gap_px": 48.0,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "LU",
+          "gap_px": 39.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "LW",
+          "gap_px": 66.0,
+          "kern_delta_upm": -48
+        },
+        {
+          "pair": "LY",
+          "gap_px": 41.0,
+          "kern_delta_upm": -280
+        },
+        {
+          "pair": "RA",
+          "gap_px": 9.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RC",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RE",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RH",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RL",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RM",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RN",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RO",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RR",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RS",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RT",
+          "gap_px": 23.88,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "RU",
+          "gap_px": 27.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "RW",
+          "gap_px": 23.88,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "RY",
+          "gap_px": 29.75,
+          "kern_delta_upm": -49
+        },
+        {
+          "pair": "YA",
+          "gap_px": 44.0,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "YC",
+          "gap_px": 33.75,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "YE",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YH",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YL",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YM",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YN",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YO",
+          "gap_px": 33.75,
+          "kern_delta_upm": -110
+        },
+        {
+          "pair": "YR",
+          "gap_px": 20.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YS",
+          "gap_px": 36.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YT",
+          "gap_px": 8.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YU",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YW",
+          "gap_px": 4.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "YY",
+          "gap_px": 4.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KA",
+          "gap_px": 4.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KC",
+          "gap_px": 38.38,
+          "kern_delta_upm": -80
+        },
+        {
+          "pair": "KE",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KH",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KL",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KM",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KN",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KO",
+          "gap_px": 38.38,
+          "kern_delta_upm": -80
+        },
+        {
+          "pair": "KR",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KS",
+          "gap_px": 31.38,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "KT",
+          "gap_px": 20.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KU",
+          "gap_px": 31.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KW",
+          "gap_px": 16.38,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "KY",
+          "gap_px": 16.38,
+          "kern_delta_upm": 0
+        }
+      ],
+      "latin_low": [
+        {
+          "pair": "Aa",
+          "gap_px": 35.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ae",
+          "gap_px": 36.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ai",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ao",
+          "gap_px": 36.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ar",
+          "gap_px": 30.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Au",
+          "gap_px": 43.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Aw",
+          "gap_px": 40.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ay",
+          "gap_px": 49.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Va",
+          "gap_px": 30.0,
+          "kern_delta_upm": -130
+        },
+        {
+          "pair": "Ve",
+          "gap_px": 29.75,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Vi",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vo",
+          "gap_px": 31.75,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Vr",
+          "gap_px": 28.25,
+          "kern_delta_upm": -80
+        },
+        {
+          "pair": "Vu",
+          "gap_px": 38.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vw",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Vy",
+          "gap_px": 26.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wa",
+          "gap_px": 33.0,
+          "kern_delta_upm": -104
+        },
+        {
+          "pair": "We",
+          "gap_px": 34.0,
+          "kern_delta_upm": -104
+        },
+        {
+          "pair": "Wi",
+          "gap_px": 17.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wo",
+          "gap_px": 36.0,
+          "kern_delta_upm": -104
+        },
+        {
+          "pair": "Wr",
+          "gap_px": 33.0,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Wu",
+          "gap_px": 38.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ww",
+          "gap_px": 26.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Wy",
+          "gap_px": 26.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ta",
+          "gap_px": 47.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "Te",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Ti",
+          "gap_px": 17.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "To",
+          "gap_px": 45.25,
+          "kern_delta_upm": -240
+        },
+        {
+          "pair": "Tr",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Tu",
+          "gap_px": 57.5,
+          "kern_delta_upm": -190
+        },
+        {
+          "pair": "Tw",
+          "gap_px": 41.75,
+          "kern_delta_upm": -220
+        },
+        {
+          "pair": "Ty",
+          "gap_px": 40.5,
+          "kern_delta_upm": -230
+        },
+        {
+          "pair": "La",
+          "gap_px": 19.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Le",
+          "gap_px": 28.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Li",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lo",
+          "gap_px": 27.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lr",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lu",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Lw",
+          "gap_px": 44.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ly",
+          "gap_px": 35.62,
+          "kern_delta_upm": -139
+        },
+        {
+          "pair": "Ra",
+          "gap_px": 26.38,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Re",
+          "gap_px": 24.88,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Ri",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ro",
+          "gap_px": 26.88,
+          "kern_delta_upm": -40
+        },
+        {
+          "pair": "Rr",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ru",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Rw",
+          "gap_px": 13.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ry",
+          "gap_px": 13.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Ya",
+          "gap_px": 37.5,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Ye",
+          "gap_px": 40.5,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Yi",
+          "gap_px": 11.25,
+          "kern_delta_upm": -58
+        },
+        {
+          "pair": "Yo",
+          "gap_px": 43.5,
+          "kern_delta_upm": -200
+        },
+        {
+          "pair": "Yr",
+          "gap_px": 33.0,
+          "kern_delta_upm": -140
+        },
+        {
+          "pair": "Yu",
+          "gap_px": 40.38,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "Yw",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Yy",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fa",
+          "gap_px": 21.12,
+          "kern_delta_upm": -30
+        },
+        {
+          "pair": "Fe",
+          "gap_px": 20.38,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Fi",
+          "gap_px": 16.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fo",
+          "gap_px": 20.38,
+          "kern_delta_upm": -20
+        },
+        {
+          "pair": "Fr",
+          "gap_px": 24.12,
+          "kern_delta_upm": -30
+        },
+        {
+          "pair": "Fu",
+          "gap_px": 19.25,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "Fw",
+          "gap_px": 24.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "Fy",
+          "gap_px": 18.25,
+          "kern_delta_upm": -69
+        }
+      ],
+      "finance": [
+        {
+          "pair": "₽.",
+          "gap_px": 70.5,
+          "kern_delta_upm": -419
+        },
+        {
+          "pair": "₽,",
+          "gap_px": 71.5,
+          "kern_delta_upm": -419
+        },
+        {
+          "pair": "₽:",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽;",
+          "gap_px": 21.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽-",
+          "gap_px": 43.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽)",
+          "gap_px": 33.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽—",
+          "gap_px": 29.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽/",
+          "gap_px": 38.75,
+          "kern_delta_upm": -81
+        },
+        {
+          "pair": "₽₽",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "₽%",
+          "gap_px": 23.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%.",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%,",
+          "gap_px": 35.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%:",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%;",
+          "gap_px": 35.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%-",
+          "gap_px": 35.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%)",
+          "gap_px": 44.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%—",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%/",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%₽",
+          "gap_px": 21.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "%%",
+          "gap_px": 64.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№.",
+          "gap_px": 134.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№,",
+          "gap_px": 135.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№:",
+          "gap_px": 31.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№;",
+          "gap_px": 32.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№-",
+          "gap_px": 33.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№)",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№—",
+          "gap_px": 19.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№/",
+          "gap_px": 43.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№₽",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№%",
+          "gap_px": 32.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1.",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1,",
+          "gap_px": 30.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1:",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1;",
+          "gap_px": 30.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1-",
+          "gap_px": 31.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1)",
+          "gap_px": 28.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1—",
+          "gap_px": 17.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1/",
+          "gap_px": 26.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1₽",
+          "gap_px": 22.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1%",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2.",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2,",
+          "gap_px": 23.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2:",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2;",
+          "gap_px": 23.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2-",
+          "gap_px": 45.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2)",
+          "gap_px": 32.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2—",
+          "gap_px": 31.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2/",
+          "gap_px": 19.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2₽",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2%",
+          "gap_px": 27.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3.",
+          "gap_px": 28.5,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "3,",
+          "gap_px": 29.5,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "3:",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3;",
+          "gap_px": 34.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3-",
+          "gap_px": 27.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3)",
+          "gap_px": 42.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3—",
+          "gap_px": 13.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3/",
+          "gap_px": 31.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3₽",
+          "gap_px": 16.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3%",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7.",
+          "gap_px": 59.0,
+          "kern_delta_upm": -256
+        },
+        {
+          "pair": "7,",
+          "gap_px": 61.0,
+          "kern_delta_upm": -256
+        },
+        {
+          "pair": "7:",
+          "gap_px": 33.38,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "7;",
+          "gap_px": 34.38,
+          "kern_delta_upm": -69
+        },
+        {
+          "pair": "7-",
+          "gap_px": 59.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7)",
+          "gap_px": 17.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7—",
+          "gap_px": 45.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7/",
+          "gap_px": 59.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7₽",
+          "gap_px": 41.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7%",
+          "gap_px": 27.5,
+          "kern_delta_upm": 20
+        },
+        {
+          "pair": "8.",
+          "gap_px": 27.25,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "8,",
+          "gap_px": 28.25,
+          "kern_delta_upm": -46
+        },
+        {
+          "pair": "8:",
+          "gap_px": 33.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8;",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8-",
+          "gap_px": 28.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8)",
+          "gap_px": 43.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8—",
+          "gap_px": 14.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8/",
+          "gap_px": 31.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8%",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9.",
+          "gap_px": 37.0,
+          "kern_delta_upm": -52
+        },
+        {
+          "pair": "9,",
+          "gap_px": 38.0,
+          "kern_delta_upm": -52
+        },
+        {
+          "pair": "9:",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9;",
+          "gap_px": 23.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9-",
+          "gap_px": 25.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9)",
+          "gap_px": 41.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9—",
+          "gap_px": 11.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9/",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9₽",
+          "gap_px": 15.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9%",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0.",
+          "gap_px": 36.5,
+          "kern_delta_upm": -52
+        },
+        {
+          "pair": "0,",
+          "gap_px": 37.5,
+          "kern_delta_upm": -52
+        },
+        {
+          "pair": "0:",
+          "gap_px": 23.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0;",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0-",
+          "gap_px": 25.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0)",
+          "gap_px": 44.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0—",
+          "gap_px": 11.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0/",
+          "gap_px": 38.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0%",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        }
+      ],
+      "finance_rev": [
+        {
+          "pair": "«₽",
+          "gap_px": 25.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«%",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«А",
+          "gap_px": 19.0,
+          "kern_delta_upm": 41
+        },
+        {
+          "pair": "«В",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«З",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«Р",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«Г",
+          "gap_px": 22.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«3",
+          "gap_px": 29.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "«W",
+          "gap_px": 28.88,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(₽",
+          "gap_px": 37.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(%",
+          "gap_px": 38.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(А",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(В",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(З",
+          "gap_px": 41.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(Р",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(Г",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(3",
+          "gap_px": 41.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "(W",
+          "gap_px": 12.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0%",
+          "gap_px": 32.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0А",
+          "gap_px": 29.75,
+          "kern_delta_upm": -50
+        },
+        {
+          "pair": "0В",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0З",
+          "gap_px": 26.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0Р",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0Г",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "03",
+          "gap_px": 26.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "0W",
+          "gap_px": 37.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1₽",
+          "gap_px": 22.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1%",
+          "gap_px": 33.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1А",
+          "gap_px": 19.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1В",
+          "gap_px": 35.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1З",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1Р",
+          "gap_px": 35.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1Г",
+          "gap_px": 35.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "13",
+          "gap_px": 29.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "1W",
+          "gap_px": 19.75,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2₽",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2%",
+          "gap_px": 27.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2А",
+          "gap_px": 12.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2В",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2З",
+          "gap_px": 27.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2Р",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2Г",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "23",
+          "gap_px": 27.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "2W",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3₽",
+          "gap_px": 16.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3%",
+          "gap_px": 32.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3А",
+          "gap_px": 28.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3В",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3З",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3Р",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3Г",
+          "gap_px": 29.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "33",
+          "gap_px": 23.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "3W",
+          "gap_px": 33.25,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4₽",
+          "gap_px": 11.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4%",
+          "gap_px": 50.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4А",
+          "gap_px": 25.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4В",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4З",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4Р",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4Г",
+          "gap_px": 24.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "43",
+          "gap_px": 18.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "4W",
+          "gap_px": 36.12,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5₽",
+          "gap_px": 15.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5%",
+          "gap_px": 40.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5А",
+          "gap_px": 30.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5В",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5З",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5Р",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5Г",
+          "gap_px": 28.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "53",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "5W",
+          "gap_px": 22.62,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6₽",
+          "gap_px": 15.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6%",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6А",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6В",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6З",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6Р",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6Г",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "63",
+          "gap_px": 22.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "6W",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7₽",
+          "gap_px": 41.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7%",
+          "gap_px": 27.5,
+          "kern_delta_upm": 20
+        },
+        {
+          "pair": "7А",
+          "gap_px": 42.38,
+          "kern_delta_upm": -221
+        },
+        {
+          "pair": "7В",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7З",
+          "gap_px": 24.75,
+          "kern_delta_upm": -34
+        },
+        {
+          "pair": "7Р",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "7Г",
+          "gap_px": 24.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "73",
+          "gap_px": 25.75,
+          "kern_delta_upm": -34
+        },
+        {
+          "pair": "7W",
+          "gap_px": 8.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8₽",
+          "gap_px": 16.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8%",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8А",
+          "gap_px": 28.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8В",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8З",
+          "gap_px": 23.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8Р",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8Г",
+          "gap_px": 29.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "83",
+          "gap_px": 23.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "8W",
+          "gap_px": 34.0,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9₽",
+          "gap_px": 15.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9%",
+          "gap_px": 30.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9А",
+          "gap_px": 30.25,
+          "kern_delta_upm": -50
+        },
+        {
+          "pair": "9В",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9З",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9Р",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9Г",
+          "gap_px": 28.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "93",
+          "gap_px": 26.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "9W",
+          "gap_px": 34.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№₽",
+          "gap_px": 24.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№%",
+          "gap_px": 32.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№А",
+          "gap_px": 42.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№В",
+          "gap_px": 34.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№З",
+          "gap_px": 31.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№Р",
+          "gap_px": 34.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№Г",
+          "gap_px": 34.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№3",
+          "gap_px": 31.5,
+          "kern_delta_upm": 0
+        },
+        {
+          "pair": "№W",
+          "gap_px": 29.5,
+          "kern_delta_upm": 0
+        }
+      ]
+    }
+  }
+}

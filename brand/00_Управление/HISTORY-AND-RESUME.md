@@ -75,3 +75,7 @@ Internal Golden Step v0.118 derives from immutable v0.117 OTF. Of 32 fused/compl
 ## 2026-11-23 — latest working checkpoint v0.119
 
 Golden Step v0.119 based on pinned v0.118 actual OTF, two independent optical masters. Only two CFF glyphs per face (Cyrillic З/з) have longer existing horizontal terminals; 2935 others unchanged, including W/A/M and digit 3. Eight precisely scoped GPOS kern pair deltas per master for A/А+W/V, «+A/А and ₽+period/comma, preserved other original GPOS lookups via exact inverse binary test. Two fonts reproducible, actual Chrome PDF 4-page visual old/new, 396 selected kerning pairs per master no overlap, controlled letter/proposal/mobile regression. 3/З remains an owner/artistic readability gate at 12–20px; print, native and release also OPEN.
+
+## 2026-11-23 — latest working checkpoint v0.120
+
+Owner explicitly clarified that forced visual separation of digit 3 and Cyrillic З is unnecessary; similarity is acceptable and no longer a required release gate. Preserve v0.119 historical geometry and prior observation without treating it as a new todo. Latest engineering v0.120: 19 isolated Russian and Latin real-word GPOS kerning deltas per master, all 2937 CFF glyph paths, metrics, existing GPOS and owner-approved geometry intact; original GPOS restores byte-for-byte after inverse edit. 4-page Chrome actual OTF PDF, 390/768px stress fixture (390 one fewer wrapped line), A4 letter/proposal and standard mobile source-controlled regression; full art/print/legal/native release still OPEN.

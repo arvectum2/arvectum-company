@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni041B" format="2">
+  <advance width="1585"/>
+  <unicode hex="041B"/>
+  <note>
+Golden Step v0.120 Display, exact SAVED CFF contour
+</note>
+  <outline>
+    <contour>
+      <point x="60" y="0" type="line"/>
+      <point x="278" y="0" type="line"/>
+      <point x="773" y="1295" type="line"/>
+      <point x="1262" y="1295" type="line"/>
+      <point x="1262" y="0" type="line"/>
+      <point x="1480" y="0" type="line"/>
+      <point x="1480" y="1490" type="line"/>
+      <point x="629" y="1490" type="line"/>
+    </contour>
+  </outline>
+</glyph>

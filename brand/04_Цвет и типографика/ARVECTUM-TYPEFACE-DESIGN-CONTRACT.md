@@ -20,7 +20,15 @@ Both masters must share a coherent visual DNA while allowing different legibilit
 4. Optical correction overrides φ when needed to preserve recognition, balance, counter spacing and reading ease. Every exception is explicit and testable.
 5. Link anatomically equivalent Latin/Cyrillic families when they truly match (A/А, B/В, C/С, E/Е, H/Н, K/К, M/М, O/О, P/Р, T/Т, X/Х), but avoid forced equivalence of unrelated lowercase glyphs.
 6. The approved Wordmark C establishes the **direction of the visual Display A/А crossbar**: anchored LEFT and broken RIGHT. A/А glyphs need not copy the logo's wider 58.2825° contours; the current font uses 69.0948°. In Arvectum Text A/А the crossbar remains CLOSED and is independently refined.
-7. All glyphs must remain easily **recognizable as the intended characters**. Explicit confusion tests include З/3, О/0, В/B, С/C and context-sensitive Cyrillic/Latin combinations. Distinctiveness never justifies ambiguity.
+7. All glyphs should be recognizable in real reading context at intended sizes. **Owner decision 2026-11-23:** digit 3 and Cyrillic З may look similar or even almost identical; **forced differentiation and a dedicated 3/З shape-distinction test are NOT a mandatory release or design gate**. Compare in context only if actual usability evidence warrants it. Do not invent corners, tails or signature openings solely to separate glyphs. Other potentially confusable letters and numbers receive proportionate contextual checks, not arbitrary forced distinctions.
+
+## 23 November 2026 — current v0.120: owner 3/З clarification and practical word rhythm
+
+The owner explicitly withdrew forced differentiation of digit **3** and Cyrillic **З** as a design objective: visual similarity is acceptable in type families. Historical v0.119 optical tests remain legitimate historical data, but do **not** create an outstanding 3/З distinction acceptance gate. 3 and З are unchanged in current saved CFF.
+
+Current real working version **v0.120** builds from immutable v0.119 both independent Display/Text masters. It adds exactly **19** restrained additive literal GPOS PairPos records per face for frequently used Russian and English business words. All **2937** CFF glyph paths, hmtx, existing GPOS, GSUB/GDEF, OS/2, casing, punctuation, the single accepted Display A/А open crossbar, W α, K/К connector, X/Х β, Wordmark are intact. Removing this one supplemental lookup restores GPOS byte-identically. Real font PDF and mobile/company carrier comparisons show more coherent line flow without added collisions.
+
+This is an **engineering working candidate**, not artistic owner approval or release. Next checks: full paragraph/language kerning, financial/data/URL tables, Print/PDF-X, native physical devices, OFL attribution and explicit final owner adoption.
 
 ## 23 November 2026 — current v0.119 restrained optical rhythm
 
