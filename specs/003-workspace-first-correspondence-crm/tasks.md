@@ -21,3 +21,7 @@ All open unless evidence-only. Existing WSF lane, not new portfolio product. No 
 | CR-T016 | Actual Owner pilot and benefit/recovery review | T011/T012; T015 optional external slice | Real use, measured utility, explicit continue/stop |
 
 Existing evidence only: private local Excel/SQLite seed parity, duplicate/rollback checks; no PostgreSQL migration. Classifier tuned on same historical sample, no independent holdout. Existing CRM/Mission Control release evidence remains in OS delivery plan. Primary next action CR-T001/002. No automatic task closure from tests, chat direction or roadmap publication.
+
+## CR-T001/002 reconciliation checkpoint (2026-11-26)
+
+Partial evidence: canonical source inventory and terminology reconciliation performed; OS Shell aliases and summary/detail overlap identified; existing Tender Agent single-web-UI and mobile shared-log rule, WSF-07B procurement projection and Company Workspace First decision verified. See spec.md architecture reconciliation. T001 stays open for actual source/authority matrix, PostgreSQL database/role/backup inventory and authenticated route/provider overlap check. T002 stays open for exact ADR/contract proposal. Extend CR-T010/011 acceptance with one Overview, one detailed correspondence read, existing navigation/deep links, no duplicate writer/collector and proven route compatibility; no deletion or migration solely for nomenclature. Existing WSF-08 owns real usability/consolidation review. No new task lane or standalone product.
