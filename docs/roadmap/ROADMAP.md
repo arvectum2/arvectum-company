@@ -202,3 +202,32 @@ Source-watch implementation note (21 November): Company PR #39 merged; the read-
 
 
 2026-11-21 reconciliation: the WSF-07A OS roadmap collector was already scheduled every three hours, and a new Company source watcher unintentionally duplicated five exact source paths across eight shared repositories. The Company watcher is being narrowed to unique canonical file monitoring; the OS collector remains the sole scanner/history owner for its eight fixed roadmap locators. Source/authority separation and current 2026-11-20 Mission Control snapshot remain unchanged. Refer to `docs/operations/OWNER-PROJECT-SOURCE-WATCH-2026-11-21.md` and Spec Kit SW-R010/011.
+
+## 2026-11-26 — Workspace First: correspondence and linked CRM continuation (Owner direction)
+
+Continue the existing WSF-03/04/05/06/07 lane under the [2026-11-17 Workspace First decision](../governance/decisions/DECISION-2026-11-17-WORKSPACE-FIRST.md). Owner direction: PostgreSQL-backed official correspondence register, Excel export, Mission Control visibility, authorized mail linked to existing CRM parties, contacts and projects; a second organization's mail is a later isolated extension. No standalone CRM product/repository, replacement of existing CRM or forced database consolidation.
+
+[Spec](../../specs/003-workspace-first-correspondence-crm/spec.md) · [Plan](../../specs/003-workspace-first-correspondence-crm/plan.md) · [Tasks](../../specs/003-workspace-first-correspondence-crm/tasks.md). Company planning continuation only; not admission of live data or authority to deploy. Existing CRM 0.5.0 and roadmap collector 0.6.2 stay in admitted scopes. SQLite proof is frozen migration evidence, not a permanent runtime dependency. Existing roadmap version/status and historical acceptance evidence are preserved.
+
+| Increment | Existing lane | Outcome |
+|---|---|---|
+| CR-1 | WSF-03/04 | Reconcile identities, architecture and authority; isolated PostgreSQL migration and restore |
+| CR-2 | WSF-04/06 | Authorized corporate mail intake, classification/review, numbered register, Excel |
+| CR-3 | WSF-05/06 | Restricted Mission Control register and freshness; existing CRM/project history |
+| CR-4 | WSF-06/07 | Contacts, document references, interaction links and follow-up proposals |
+| CR-5 | WSF-07 | Separately authorized external organization connector and tenant isolation |
+| CR-6 | WSF-08/09 | Actual Owner use, recovery, measured benefit and continuation decision |
+
+Primary next action: CR-T001/002, confirm PostgreSQL target boundaries and prepare versioned correspondence/contact handling and Workspace admission proposal. Zero incremental spend proposed; existing obligations retain precedence.
+
+### Architecture reconciliation — 2026-11-26 (same Workspace First lane)
+
+Apply the existing 2026-11-17 Workspace First direction and Tender Agent 2026-10-17 single operator UI rule. Arvectum Company is the organization and portfolio owner; Arvectum OS is the domain-neutral platform; Arvectum Workspace (existing Productive Workspace application) is the single executive entry point; Mission Control is the AC-406 overview/control projection within that application; Workspace First is an operating principle, not a product. CRM Lite, Information Hub and correspondence are internal application capabilities/views. Tender Agent owns specialized procurement work and canonical procurement records; existing web Operator Workspace and ARV-044 mobile client share one product backend/decision ledger. Data Platform provides admitted reusable data capabilities, not a second CRM or authority source.
+
+Actual canonical Shell already groups /, /today and /mission-control into ExecutiveOverview; /control-details uses MissionControl detail, while /work and /finance reuse ExecutiveOverview modes. Keep one executive overview, review overlapping summary/detail components and route aliases before adding navigation. Information Hub is the intake/review surface, CRM/project views the linked context, Excel a derived export. Reuse WSF-07B restricted procurement reference, not a procurement clone. Preserve existing specialized interfaces, historical names, IDs and compatibility routes until verified safe consolidation; no new product/repository/frontend/database service/scheduler just for naming coherence. See [reconciliation and scope](../../specs/003-workspace-first-correspondence-crm/spec.md#architecture-reconciliation-and-anti-duplication) and CR-T001/002. Existing implementation and contract admissions remain unchanged.
+
+### CR-1 PostgreSQL / reuse checkpoint — 2026-11-26
+
+Read-only infrastructure and source-code inventory completed in part. Candidate target: use the existing PostgreSQL 17 service with a new isolated logical database for the existing Workspace product's correspondence capability, not a new PostgreSQL instance or Data Platform application schema. Existing restricted CRM and project records remain authoritative in their admitted stores; contact/interaction models are already implemented in the CRM core but disabled by the live restricted contract. Extend the existing model/authorization path after approved successor scope, not a second CRM. The procurement and external sales stores remain unchanged; a native legacy database instance is not an admitted Workspace source and is not to be deleted or reused merely because similar tables exist. Exact private infrastructure evidence stays outside public Git. Candidate design and migration gates: [CR-1 architecture](../../specs/003-workspace-first-correspondence-crm/plan.md#cr-1-architecture-candidate-postgresql-and-existing-crm). No database provision, production change, new live grant, merge or deployment. CR-T001/002 remain open for exact current scope and approval; CR-T003/004 may proceed with synthetic isolated fixtures after reviewed design, without actual mail or live storage mutation.
+
+CR-1 isolated evidence checkpoint (2026-11-26): [synthetic PostgreSQL 17 design fixture](../../specs/003-workspace-first-correspondence-crm/fixtures/pg17/README.md) tested successfully for scoped read, separated write capabilities, numbering, duplicate/conflict handling, concurrent admission, rollback, synthetic SQLite migration/replay and logical restore. Existing services and actual seed unchanged; no new live database, permissions, source admission or runtime. CR-T003/004 remain candidates pending exact implementation/backup and approval gates. Continue the same Workspace First lane.
