@@ -68,3 +68,21 @@ Sources inspected 2026-11-26: Company origin/main f2769f411447b934e362ad2758842f
 Before a new component, route, store, connector, job or UI: state real user journey; inventory existing exact implementation, canonical IDs, provider/store/permissions and roadmap owner; classify reuse/extend/alias/consolidate/contain; name a demonstrated gap and minimal change; verify one authoritative writer/record per fact and nonduplicated acquisition; require separate approval for a genuinely new product or material cross-repo contract/runtime effect. Remove nothing before equivalent authorized functionality, legacy links, data retention, recovery and Owner acceptance are demonstrated. Use existing WSF and product roadmap IDs; one Company planning linkage, not independent parallel initiatives. Technical status and Owner usability are separate.
 
 Reconciliation is proposed within the current planning PR, not a product rename, new architecture RFC, approval of additional data or production change. Exact UI simplification and actual runtime overlap still require authenticated Owner journey and route/provider test.
+
+## CR-1 source-of-truth matrix (candidate; 2026-11-26)
+
+| Information | Canonical source / writer | Workspace access |
+|---|---|---|
+| Company organizational identity, authority and official correspondence rules | Company approved governance / authorized registration workflow | Existing Workspace authorization and derived views |
+| Current project identity and manual project context | Existing admitted WSF manual store, PRJ/NOTE IDs | Existing project APIs, timeline, no duplicate project table |
+| CRM counterparties and opportunities | Existing restricted CRM revision ledger, PARTY-/OPP- IDs | Existing restricted CRM runtime and authorization |
+| Contacts and interactions | Existing CRM core has CONTACT-/INT- model, duplicate/link validation and revision history; current contract excludes live admission | Extend that model under successor scope, not a parallel contact/interaction CRUD |
+| Mail transport and original messages | Authorized source mailbox | One read-only connector; source IDs and checkpointed observations, no send or mutation |
+| Official registration number/status | Company-authorized product-local correspondence ledger (new PostgreSQL target candidate; SQLite seed proof frozen) | Same read projection for Mission Control, CRM references and Excel |
+| Procurement record, decision and outcome | Tender Agent canonical lifecycle; product web/mobile share ledger | Existing WSF-07B authorized reference, exact IDs |
+| External sales information | Its separately owned database / product | Separately authorized, isolated connector later |
+| Derived search/extraction | Admitted Data Platform APIs only | No direct private schema access or automatic source/authority transfer |
+
+The current CRM code already includes contact/interaction schemas and validates exact party, contact, opportunity and project associations. Do not implement a second contacts/activities subsystem. PostgreSQL correspondence stores references to existing admitted identities and link/review provenance, not duplicated canonical CRM fields. An eventual migration of CRM persistence itself is a separate successor storage decision requiring revision/history and permission parity; it is not required for the first register delivery.
+
+Candidate first slice retains only necessary metadata and admission history. No blanket mailbox body/attachment archive. Personal/confidential data, contact/interaction admission, live credentials, retention/export/erasure, and any external organization intake require explicit applicable contract and handling review; no existing grant expanded by this document. Existing project and CRM pilot expiry is controlling (no implicit renewal). See plan CR-1 candidate for backup, tenancy and cutover gates.
