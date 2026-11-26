@@ -202,3 +202,20 @@ Source-watch implementation note (21 November): Company PR #39 merged; the read-
 
 
 2026-11-21 reconciliation: the WSF-07A OS roadmap collector was already scheduled every three hours, and a new Company source watcher unintentionally duplicated five exact source paths across eight shared repositories. The Company watcher is being narrowed to unique canonical file monitoring; the OS collector remains the sole scanner/history owner for its eight fixed roadmap locators. Source/authority separation and current 2026-11-20 Mission Control snapshot remain unchanged. Refer to `docs/operations/OWNER-PROJECT-SOURCE-WATCH-2026-11-21.md` and Spec Kit SW-R010/011.
+
+## 2026-11-26 — Workspace First: correspondence and linked CRM continuation (Owner direction)
+
+Continue the existing WSF-03/04/05/06/07 lane under the [2026-11-17 Workspace First decision](../governance/decisions/DECISION-2026-11-17-WORKSPACE-FIRST.md). Owner direction: PostgreSQL-backed official correspondence register, Excel export, Mission Control visibility, authorized mail linked to existing CRM parties, contacts and projects; a second organization's mail is a later isolated extension. No standalone CRM product/repository, replacement of existing CRM or forced database consolidation.
+
+[Spec](../../specs/003-workspace-first-correspondence-crm/spec.md) · [Plan](../../specs/003-workspace-first-correspondence-crm/plan.md) · [Tasks](../../specs/003-workspace-first-correspondence-crm/tasks.md). Company planning continuation only; not admission of live data or authority to deploy. Existing CRM 0.5.0 and roadmap collector 0.6.2 stay in admitted scopes. SQLite proof is frozen migration evidence, not a permanent runtime dependency. Existing roadmap version/status and historical acceptance evidence are preserved.
+
+| Increment | Existing lane | Outcome |
+|---|---|---|
+| CR-1 | WSF-03/04 | Reconcile identities, architecture and authority; isolated PostgreSQL migration and restore |
+| CR-2 | WSF-04/06 | Authorized corporate mail intake, classification/review, numbered register, Excel |
+| CR-3 | WSF-05/06 | Restricted Mission Control register and freshness; existing CRM/project history |
+| CR-4 | WSF-06/07 | Contacts, document references, interaction links and follow-up proposals |
+| CR-5 | WSF-07 | Separately authorized external organization connector and tenant isolation |
+| CR-6 | WSF-08/09 | Actual Owner use, recovery, measured benefit and continuation decision |
+
+Primary next action: CR-T001/002, confirm PostgreSQL target boundaries and prepare versioned correspondence/contact handling and Workspace admission proposal. Zero incremental spend proposed; existing obligations retain precedence.
