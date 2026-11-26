@@ -10,7 +10,7 @@ def q(v):
 def insert(table,rows):
     return "\n".join("INSERT INTO "+table+" VALUES ("+",".join(q(v) for v in row)+");" for row in rows)
 def generate(path,org,mailbox):
-    if not org or not mailbox:raise ValueError("scope required")
+    if not all(re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._:/@-]{0,199}", v) for v in (org,mailbox)):raise ValueError("invalid scope")
     conn=sqlite3.connect(pathlib.Path(path).resolve().as_uri()+"?mode=ro",uri=True)
     try:
         if conn.execute("PRAGMA integrity_check").fetchone()!=("ok",):raise ValueError("integrity")
