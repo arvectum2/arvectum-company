@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "classification": "review before export",
+  "organization_scope": null,
+  "project_id": null,
+  "accountable_position": null,
+  "objective": null,
+  "source_refs": [],
+  "source_revision": null,
+  "verified_at": null,
+  "status": "unknown",
+  "evidence": [],
+  "next_safe_action": null,
+  "open_obligations": [],
+  "pending_owner_decisions": [],
+  "uncertain_external_effects": [],
+  "data_handling_constraints": [],
+  "required_access_classes": [],
+  "dependencies": [],
+  "risks_and_stop_conditions": [],
+  "missing_evidence": []
+}
